@@ -10,7 +10,7 @@ from PIL import Image as PILImage
 import io 
 import xlwings as xw
 
-INPUT_FOLDER = "test_spreadsheets"
+INPUT_FOLDER = "orkney_spreadsheets"
 OUTPUT_FOLDER = f"{INPUT_FOLDER}_data"
 
 def remove_formatting(sheet_json):
