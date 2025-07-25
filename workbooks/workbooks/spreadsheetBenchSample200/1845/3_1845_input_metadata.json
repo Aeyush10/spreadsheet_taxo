@@ -1,0 +1,217 @@
+[
+  {
+    "range": {
+      "worksheetId": "{81B9C3EB-DF7C-412C-BA42-587CC9C69EEA}",
+      "top": 1,
+      "left": 2,
+      "bottom": 9,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{81B9C3EB-DF7C-412C-BA42-587CC9C69EEA}",
+          "top": 1,
+          "bottom": 9,
+          "left": 2,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 8
+          }
+        ],
+        "headerNames": [
+          "\"Date\"",
+          "\"Entrance / Exit\"",
+          "\"Releases\"",
+          "\"Balance\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Plan1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Entrance / Exit",
+          "rawValueJson": "\"Entrance / Exit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Releases",
+          "rawValueJson": "\"Releases\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Balance",
+          "rawValueJson": "\"Balance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Exit",
+          "rawValueJson": "\"Exit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "-100",
+          "rawValueJson": "\"-100\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Exit",
+          "rawValueJson": "\"Exit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "200",
+          "rawValueJson": "200",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "-300",
+          "rawValueJson": "\"-300\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Exit",
+          "rawValueJson": "\"Exit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "50",
+          "rawValueJson": "50",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "-350",
+          "rawValueJson": "\"-350\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Exit",
+          "rawValueJson": "\"Exit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "200",
+          "rawValueJson": "200",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "-550",
+          "rawValueJson": "\"-550\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Entrance",
+          "rawValueJson": "\"Entrance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "83320749-913b-445c-8dfb-1a945b86b1cd",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

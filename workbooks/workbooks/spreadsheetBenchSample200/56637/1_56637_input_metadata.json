@@ -1,0 +1,1405 @@
+[
+  {
+    "range": {
+      "worksheetId": "{FBCA7DF2-FE8B-4C16-9ED8-D810B824437C}",
+      "top": 2,
+      "left": 1,
+      "bottom": 10,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{FBCA7DF2-FE8B-4C16-9ED8-D810B824437C}",
+          "top": 2,
+          "bottom": 10,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{FBCA7DF2-FE8B-4C16-9ED8-D810B824437C}",
+          "top": 2,
+          "bottom": 10,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          8
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 4
+          },
+          {
+            "start": 6,
+            "end": 7
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.6944444444444444,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "DOW",
+          "rawValueJson": "\"DOW\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Mon",
+          "rawValueJson": "\"Mon\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Tue",
+          "rawValueJson": "\"Tue\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Wed",
+          "rawValueJson": "\"Wed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "Thu",
+          "rawValueJson": "\"Thu\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Fri",
+          "rawValueJson": "\"Fri\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Orders",
+          "rawValueJson": "\"Orders\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": " 301 ",
+          "rawValueJson": "300.5398",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": " 262 ",
+          "rawValueJson": "261.7022",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": " 262 ",
+          "rawValueJson": "261.7022",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": " 271 ",
+          "rawValueJson": "270.96",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": " 361 ",
+          "rawValueJson": "361.28",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Rtes/Drivers",
+          "rawValueJson": "\"Rtes/Drivers\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": " 38 ",
+          "rawValueJson": "37.567475",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": " 33 ",
+          "rawValueJson": "32.712775",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": " 33 ",
+          "rawValueJson": "32.712775",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": " 34 ",
+          "rawValueJson": "33.87",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": " 45 ",
+          "rawValueJson": "45.16",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Drivers/Shift",
+          "rawValueJson": "\"Drivers/Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": " 22 ",
+          "rawValueJson": "21.601298125",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": " 19 ",
+          "rawValueJson": "18.809845625",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": " 19 ",
+          "rawValueJson": "18.809845625",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": " 19 ",
+          "rawValueJson": "19.47525",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": " 26 ",
+          "rawValueJson": "25.967",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Vehicles",
+          "rawValueJson": "\"Vehicles\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": " 19 ",
+          "rawValueJson": "18.7837375",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": " 16 ",
+          "rawValueJson": "16.3563875",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": " 16 ",
+          "rawValueJson": "16.3563875",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": " 17 ",
+          "rawValueJson": "16.935",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": " 23 ",
+          "rawValueJson": "22.58",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "1st Shift Scheduled",
+          "rawValueJson": "\"1st Shift Scheduled\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": " 21 ",
+          "rawValueJson": "21",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": " 7 ",
+          "rawValueJson": "7",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": " 7 ",
+          "rawValueJson": "7",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "displayText": "2nd Shift Scheduled",
+          "rawValueJson": "\"2nd Shift Scheduled\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": " 37 ",
+          "rawValueJson": "37",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "displayText": "Day Variance",
+          "rawValueJson": "\"Day Variance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "displayText": " 15 ",
+          "rawValueJson": "14.79740375",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "displayText": " (31)",
+          "rawValueJson": "-30.61969125",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "displayText": " (31)",
+          "rawValueJson": "-30.61969125",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 10,
+          "column": 5,
+          "displayText": " (39)",
+          "rawValueJson": "-38.9505",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 10,
+          "column": 6,
+          "displayText": " (52)",
+          "rawValueJson": "-51.934",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "f891aa48-9c73-49ab-88b8-9f67c196c59e",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{FBCA7DF2-FE8B-4C16-9ED8-D810B824437C}",
+      "top": 2,
+      "left": 16,
+      "bottom": 8,
+      "right": 17
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{FBCA7DF2-FE8B-4C16-9ED8-D810B824437C}",
+          "top": 2,
+          "bottom": 8,
+          "left": 16,
+          "right": 17
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 4,
+            "end": 6
+          }
+        ],
+        "headerNames": [
+          "\"1st Shift\"",
+          "8"
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.6111111111111112,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 16,
+          "displayText": "1st Shift",
+          "rawValueJson": "\"1st Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 17,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 16,
+          "displayText": "2nd Shift",
+          "rawValueJson": "\"2nd Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 17,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 16,
+          "displayText": "Driver Call-out",
+          "rawValueJson": "\"Driver Call-out\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 17,
+          "displayText": "15%",
+          "rawValueJson": "0.15",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 16,
+          "displayText": "Full Time",
+          "rawValueJson": "\"Full Time\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 17,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 16,
+          "displayText": "Part Time",
+          "rawValueJson": "\"Part Time\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 17,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "c5e86ab1-0451-4245-b1a0-aef939cf1d8f",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{FBCA7DF2-FE8B-4C16-9ED8-D810B824437C}",
+      "top": 11,
+      "left": 1,
+      "bottom": 18,
+      "right": 14
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{FBCA7DF2-FE8B-4C16-9ED8-D810B824437C}",
+          "top": 11,
+          "bottom": 18,
+          "left": 1,
+          "right": 14
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ],
+        "headerNames": [
+          "\"Driver\"",
+          "\"Mon Shift\"",
+          "\"Tue Shift\"",
+          "\"Wed Shift\"",
+          "\"Thu Shift\"",
+          "\"Fri Shift\"",
+          "\"Sat Shift\"",
+          "\"Sun Shift\"",
+          "\"1st Shift (Hrs)\"",
+          "\"2nd Shift (Hrs)\"",
+          "\"Ttl Hrs\"",
+          "\"1st Shift\"",
+          "\"2nd Shift\"",
+          "\"Ttl Sch Shifts\""
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{FBCA7DF2-FE8B-4C16-9ED8-D810B824437C}",
+          "top": 11,
+          "bottom": 18,
+          "left": 1,
+          "right": 14
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 8,
+            "end": 13
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9545454545454546,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 11,
+          "column": 1,
+          "displayText": "Driver",
+          "rawValueJson": "\"Driver\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 2,
+          "displayText": " Mon Shift ",
+          "rawValueJson": "\"Mon Shift\"",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 11,
+          "column": 3,
+          "displayText": " Tue Shift ",
+          "rawValueJson": "\"Tue Shift\"",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 11,
+          "column": 4,
+          "displayText": " Wed Shift ",
+          "rawValueJson": "\"Wed Shift\"",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 11,
+          "column": 5,
+          "displayText": " Thu Shift ",
+          "rawValueJson": "\"Thu Shift\"",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 11,
+          "column": 6,
+          "displayText": " Fri Shift ",
+          "rawValueJson": "\"Fri Shift\"",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 11,
+          "column": 7,
+          "displayText": " Sat Shift ",
+          "rawValueJson": "\"Sat Shift\"",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 11,
+          "column": 8,
+          "displayText": " Sun Shift ",
+          "rawValueJson": "\"Sun Shift\"",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 11,
+          "column": 9,
+          "displayText": "1st Shift (Hrs)",
+          "rawValueJson": "\"1st Shift (Hrs)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 10,
+          "displayText": "2nd Shift (Hrs)",
+          "rawValueJson": "\"2nd Shift (Hrs)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 11,
+          "displayText": "Ttl Hrs",
+          "rawValueJson": "\"Ttl Hrs\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 12,
+          "displayText": "1st Shift",
+          "rawValueJson": "\"1st Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 13,
+          "displayText": "2nd Shift",
+          "rawValueJson": "\"2nd Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 14,
+          "displayText": "Ttl Sch Shifts",
+          "rawValueJson": "\"Ttl Sch Shifts\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 1,
+          "displayText": "Driver1",
+          "rawValueJson": "\"Driver1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 2,
+          "displayText": "1st Shift",
+          "rawValueJson": "\"1st Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 3,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 4,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 9,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 10,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 11,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 12,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 13,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 14,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 1,
+          "displayText": "Driver2",
+          "rawValueJson": "\"Driver2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 2,
+          "displayText": "1st Shift",
+          "rawValueJson": "\"1st Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 3,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 4,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 9,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 10,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 11,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 12,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 13,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 14,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 1,
+          "displayText": "Driver3",
+          "rawValueJson": "\"Driver3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 2,
+          "displayText": "1st Shift",
+          "rawValueJson": "\"1st Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 3,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 4,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 9,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 10,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 11,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 12,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 13,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 14,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 1,
+          "displayText": "Driver4",
+          "rawValueJson": "\"Driver4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 2,
+          "displayText": "1st Shift",
+          "rawValueJson": "\"1st Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 3,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 4,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 9,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 10,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 11,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 12,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 13,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 14,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 1,
+          "displayText": "Driver5",
+          "rawValueJson": "\"Driver5\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 2,
+          "displayText": "1st Shift",
+          "rawValueJson": "\"1st Shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 3,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 4,
+          "displayText": "1st shift",
+          "rawValueJson": "\"1st shift\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 9,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 10,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 11,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 12,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 13,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 14,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "f665c2e4-e45b-464f-852f-1e894788b124",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

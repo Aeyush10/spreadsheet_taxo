@@ -1,0 +1,424 @@
+[
+  {
+    "range": {
+      "worksheetId": "{5363C659-0CA2-4BB4-94CB-CC604A4A57C5}",
+      "top": 1,
+      "left": 1,
+      "bottom": 27,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{5363C659-0CA2-4BB4-94CB-CC604A4A57C5}",
+          "top": 1,
+          "bottom": 27,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Date\"",
+          "\"Exercise\"",
+          "\"Duration h:mm\"",
+          "\"Distance Km\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Exercise",
+            "rawValueJson": "\"Exercise\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Duration h:mm",
+            "rawValueJson": "\"Duration h:mm\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Distance Km",
+            "rawValueJson": "\"Distance Km\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Monday, March 3, 2014",
+            "rawValueJson": "\"Monday, March 3, 2014\"",
+            "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Swim",
+            "rawValueJson": "\"Swim\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "0:56",
+            "rawValueJson": "0.0388888888888889",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Tuesday, March 4, 2014",
+            "rawValueJson": "\"Tuesday, March 4, 2014\"",
+            "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Run",
+            "rawValueJson": "\"Run\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "0:44",
+            "rawValueJson": "0.0305555555555555",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Wednesday, March 5, 2014",
+            "rawValueJson": "\"Wednesday, March 5, 2014\"",
+            "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Cycle",
+            "rawValueJson": "\"Cycle\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "1:35",
+            "rawValueJson": "0.0659722222222222",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "57",
+            "rawValueJson": "57",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Thursday, March 6, 2014",
+            "rawValueJson": "\"Thursday, March 6, 2014\"",
+            "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Swim",
+            "rawValueJson": "\"Swim\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "1:03",
+            "rawValueJson": "0.04375",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Friday, March 7, 2014",
+            "rawValueJson": "\"Friday, March 7, 2014\"",
+            "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Cycle",
+            "rawValueJson": "\"Cycle\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "1:35",
+            "rawValueJson": "0.0659722222222222",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "62",
+            "rawValueJson": "62",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table25",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "2nd_Table_59",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Exercise",
+          "rawValueJson": "\"Exercise\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Duration h:mm",
+          "rawValueJson": "\"Duration h:mm\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Distance Km",
+          "rawValueJson": "\"Distance Km\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Monday, March 3, 2014",
+          "rawValueJson": "\"Monday, March 3, 2014\"",
+          "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Swim",
+          "rawValueJson": "\"Swim\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "0:56",
+          "rawValueJson": "0.0388888888888889",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Tuesday, March 4, 2014",
+          "rawValueJson": "\"Tuesday, March 4, 2014\"",
+          "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Run",
+          "rawValueJson": "\"Run\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "0:44",
+          "rawValueJson": "0.0305555555555555",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Wednesday, March 5, 2014",
+          "rawValueJson": "\"Wednesday, March 5, 2014\"",
+          "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Cycle",
+          "rawValueJson": "\"Cycle\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "1:35",
+          "rawValueJson": "0.0659722222222222",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "57",
+          "rawValueJson": "57",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Thursday, March 6, 2014",
+          "rawValueJson": "\"Thursday, March 6, 2014\"",
+          "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Swim",
+          "rawValueJson": "\"Swim\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "1:03",
+          "rawValueJson": "0.04375",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Friday, March 7, 2014",
+          "rawValueJson": "\"Friday, March 7, 2014\"",
+          "numberFormat": "[$-x-sysdate]dddd, mmmm dd, yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Cycle",
+          "rawValueJson": "\"Cycle\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "1:35",
+          "rawValueJson": "0.0659722222222222",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "62",
+          "rawValueJson": "62",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "615fedf3-6d36-416c-b8cf-44ae7893f274",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

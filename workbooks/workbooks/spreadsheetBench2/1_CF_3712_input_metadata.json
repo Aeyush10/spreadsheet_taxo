@@ -1,0 +1,1311 @@
+[
+  {
+    "range": {
+      "worksheetId": "{DB441413-69C2-49CF-8B81-A6F1F39DFA28}",
+      "top": 1,
+      "left": 1,
+      "bottom": 403,
+      "right": 13
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{DB441413-69C2-49CF-8B81-A6F1F39DFA28}",
+          "top": 1,
+          "bottom": 403,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Product \"",
+          "\"Supplier\"",
+          "\"Price\"",
+          "\"Shipping\"",
+          "\"Quantity\"",
+          "\"Total price\"",
+          "\"Invoice date\"",
+          "\"Pay before\"",
+          "\"Project ID\"",
+          "\"Type of purchase\"",
+          "\"Invoice paid\"",
+          "\"Received\"",
+          "\"Days to pay\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Product ",
+            "rawValueJson": "\"Product \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Supplier",
+            "rawValueJson": "\"Supplier\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Price",
+            "rawValueJson": "\"Price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Shipping",
+            "rawValueJson": "\"Shipping\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Quantity",
+            "rawValueJson": "\"Quantity\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Total price",
+            "rawValueJson": "\"Total price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Invoice date",
+            "rawValueJson": "\"Invoice date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Pay before",
+            "rawValueJson": "\"Pay before\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Project ID",
+            "rawValueJson": "\"Project ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Type of purchase",
+            "rawValueJson": "\"Type of purchase\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "Invoice paid",
+            "rawValueJson": "\"Invoice paid\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "Received",
+            "rawValueJson": "\"Received\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "Days to pay",
+            "rawValueJson": "\"Days to pay\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Fradiomycin",
+            "rawValueJson": "\"Fradiomycin\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "VWR",
+            "rawValueJson": "\"VWR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": " € 56.00 ",
+            "rawValueJson": "56",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": " € -   ",
+            "rawValueJson": "0",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": " € 56.00 ",
+            "rawValueJson": "56",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "3/4/2024",
+            "rawValueJson": "45355",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "4/3/2024",
+            "rawValueJson": "45385",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "BIOP002",
+            "rawValueJson": "\"BIOP002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "Chemicals",
+            "rawValueJson": "\"Chemicals\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "-471 day(s) remaining",
+            "rawValueJson": "\"-471 day(s) remaining\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Bacillus thuringiensis",
+            "rawValueJson": "\"Bacillus thuringiensis\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "DSMZ",
+            "rawValueJson": "\"DSMZ\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": " € 100.00 ",
+            "rawValueJson": "100",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": " € 27.00 ",
+            "rawValueJson": "27",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": " € 127.00 ",
+            "rawValueJson": "127",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "3/24/2024",
+            "rawValueJson": "45375",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "4/23/2024",
+            "rawValueJson": "45405",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "BIOP003",
+            "rawValueJson": "\"BIOP003\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "Microbes",
+            "rawValueJson": "\"Microbes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": "-451 day(s) remaining",
+            "rawValueJson": "\"-451 day(s) remaining\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "pUB110",
+            "rawValueJson": "\"pUB110\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "DSMZ",
+            "rawValueJson": "\"DSMZ\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": " € 100.00 ",
+            "rawValueJson": "100",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": " € 27.00 ",
+            "rawValueJson": "27",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": " € 127.00 ",
+            "rawValueJson": "127",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "9/27/2024",
+            "rawValueJson": "45562",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "10/27/2024",
+            "rawValueJson": "45592",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "BIOP002",
+            "rawValueJson": "\"BIOP002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "Plasmids",
+            "rawValueJson": "\"Plasmids\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 13,
+            "displayText": "-264 day(s) remaining",
+            "rawValueJson": "\"-264 day(s) remaining\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Pasjeshouder",
+            "rawValueJson": "\"Pasjeshouder\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Overig",
+            "rawValueJson": "\"Overig\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": " € 20.60 ",
+            "rawValueJson": "20.6",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": " € 9.00 ",
+            "rawValueJson": "9",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": " € 29.60 ",
+            "rawValueJson": "29.6",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "8/26/2024",
+            "rawValueJson": "45530",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "9/9/2024",
+            "rawValueJson": "45544",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "BIOP001",
+            "rawValueJson": "\"BIOP001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "Office",
+            "rawValueJson": "\"Office\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "-312 day(s) remaining",
+            "rawValueJson": "\"-312 day(s) remaining\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": " € -   ",
+            "rawValueJson": "0",
+            "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Tabel1",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Purchases",
+    "isDataSampled": true,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Product ",
+          "rawValueJson": "\"Product \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Supplier",
+          "rawValueJson": "\"Supplier\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Price",
+          "rawValueJson": "\"Price\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Shipping",
+          "rawValueJson": "\"Shipping\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Quantity",
+          "rawValueJson": "\"Quantity\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Total price",
+          "rawValueJson": "\"Total price\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Invoice date",
+          "rawValueJson": "\"Invoice date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Pay before",
+          "rawValueJson": "\"Pay before\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Project ID",
+          "rawValueJson": "\"Project ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Type of purchase",
+          "rawValueJson": "\"Type of purchase\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "Invoice paid",
+          "rawValueJson": "\"Invoice paid\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "Received",
+          "rawValueJson": "\"Received\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "Days to pay",
+          "rawValueJson": "\"Days to pay\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Fradiomycin",
+          "rawValueJson": "\"Fradiomycin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "VWR",
+          "rawValueJson": "\"VWR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": " € 56.00 ",
+          "rawValueJson": "56",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": " € -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": " € 56.00 ",
+          "rawValueJson": "56",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "3/4/2024",
+          "rawValueJson": "45355",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "4/3/2024",
+          "rawValueJson": "45385",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "BIOP002",
+          "rawValueJson": "\"BIOP002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "Chemicals",
+          "rawValueJson": "\"Chemicals\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "-471 day(s) remaining",
+          "rawValueJson": "\"-471 day(s) remaining\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Bacillus thuringiensis",
+          "rawValueJson": "\"Bacillus thuringiensis\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "DSMZ",
+          "rawValueJson": "\"DSMZ\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": " € 100.00 ",
+          "rawValueJson": "100",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": " € 27.00 ",
+          "rawValueJson": "27",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": " € 127.00 ",
+          "rawValueJson": "127",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "3/24/2024",
+          "rawValueJson": "45375",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "4/23/2024",
+          "rawValueJson": "45405",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "BIOP003",
+          "rawValueJson": "\"BIOP003\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "Microbes",
+          "rawValueJson": "\"Microbes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": "-451 day(s) remaining",
+          "rawValueJson": "\"-451 day(s) remaining\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "pUB110",
+          "rawValueJson": "\"pUB110\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "DSMZ",
+          "rawValueJson": "\"DSMZ\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": " € 100.00 ",
+          "rawValueJson": "100",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": " € 27.00 ",
+          "rawValueJson": "27",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": " € 127.00 ",
+          "rawValueJson": "127",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "9/27/2024",
+          "rawValueJson": "45562",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "10/27/2024",
+          "rawValueJson": "45592",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "BIOP002",
+          "rawValueJson": "\"BIOP002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "Plasmids",
+          "rawValueJson": "\"Plasmids\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 13,
+          "displayText": "-264 day(s) remaining",
+          "rawValueJson": "\"-264 day(s) remaining\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Pasjeshouder",
+          "rawValueJson": "\"Pasjeshouder\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Overig",
+          "rawValueJson": "\"Overig\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": " € 20.60 ",
+          "rawValueJson": "20.6",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": " € 9.00 ",
+          "rawValueJson": "9",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": " € 29.60 ",
+          "rawValueJson": "29.6",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "8/26/2024",
+          "rawValueJson": "45530",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "9/9/2024",
+          "rawValueJson": "45544",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "BIOP001",
+          "rawValueJson": "\"BIOP001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "Office",
+          "rawValueJson": "\"Office\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 13,
+          "displayText": "-312 day(s) remaining",
+          "rawValueJson": "\"-312 day(s) remaining\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": " € -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_ \"€\" * #,##0.00_ ;_ \"€\" * -#,##0.00_ ;_ \"€\" * \"-\"??_ ;_ @_ "
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 13,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": [
+      1,
+      4,
+      6,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      20,
+      21,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      51,
+      53,
+      56,
+      57,
+      60,
+      61,
+      63,
+      65,
+      68,
+      71,
+      72,
+      74,
+      77,
+      79,
+      81,
+      82,
+      84,
+      88,
+      89,
+      91,
+      93,
+      95,
+      98,
+      99,
+      101,
+      103,
+      105,
+      107,
+      111,
+      113,
+      114,
+      116,
+      118,
+      120,
+      122,
+      125,
+      126,
+      129,
+      131,
+      133,
+      135,
+      138,
+      139,
+      142,
+      143,
+      146,
+      147,
+      149,
+      152,
+      154,
+      157,
+      159,
+      161,
+      162,
+      164,
+      167,
+      169,
+      170,
+      173,
+      176,
+      178,
+      180,
+      181,
+      183,
+      185,
+      188,
+      189,
+      192,
+      194,
+      196,
+      197,
+      200,
+      202,
+      204,
+      206,
+      209,
+      211,
+      212,
+      215,
+      217,
+      220,
+      222,
+      224,
+      225,
+      227,
+      229,
+      232,
+      234,
+      236,
+      238,
+      240,
+      243,
+      245,
+      246,
+      248,
+      250,
+      252,
+      255,
+      256,
+      259,
+      260,
+      262,
+      266,
+      267,
+      269,
+      271,
+      273,
+      275,
+      277,
+      279,
+      281,
+      285,
+      286,
+      288,
+      291,
+      292,
+      294,
+      297,
+      298,
+      300,
+      303,
+      305,
+      306,
+      309,
+      312,
+      314,
+      316,
+      318,
+      320,
+      322,
+      323,
+      325,
+      327,
+      331,
+      333,
+      334,
+      336,
+      338,
+      341,
+      343,
+      345,
+      347,
+      348,
+      352,
+      354,
+      356,
+      358,
+      360,
+      362,
+      364,
+      366,
+      368,
+      369,
+      371,
+      374,
+      376,
+      378,
+      380,
+      382,
+      384,
+      387,
+      389,
+      391,
+      392,
+      395,
+      397,
+      400,
+      402,
+      403,
+      2,
+      3,
+      401,
+      5,
+      399,
+      398,
+      8,
+      396
+    ],
+    "samplingScheme": 1,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "901779bc-044f-4409-a3b4-0a26df51a1b1",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

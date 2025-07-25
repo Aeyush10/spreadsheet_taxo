@@ -1,0 +1,2277 @@
+[
+  {
+    "range": {
+      "worksheetId": "{76D8B81A-2003-4AB3-AB7D-0D10E8CAA376}",
+      "top": 1,
+      "left": 1,
+      "bottom": 16,
+      "right": 15
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{76D8B81A-2003-4AB3-AB7D-0D10E8CAA376}",
+          "top": 1,
+          "bottom": 16,
+          "left": 1,
+          "right": 15
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 15
+          }
+        ],
+        "headerNames": [
+          "\"Year\"",
+          "\"Vacancies\"",
+          "\"Applications Non-Oxbridge\"",
+          "\"Applications Non-Oxbridge %\"",
+          "\"Apps Oxbridge\"",
+          "\"Apps Oxbridge %\"",
+          "\"Applications\"",
+          "\"Appointments Non-Oxbridge\"",
+          "\"Appointments Non-Oxbridge %\"",
+          "\"Appointments Oxbridge\"",
+          "\"Appointments Oxbridge %\"",
+          "\"Appointments\"",
+          "\"Success rate Oxbridge\"",
+          "\"Success rate non-Oxbridge\"",
+          "\"Success rate all\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Year",
+            "rawValueJson": "\"Year\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Vacancies",
+            "rawValueJson": "\"Vacancies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Applications Non-Oxbridge",
+            "rawValueJson": "\"Applications Non-Oxbridge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Applications Non-Oxbridge %",
+            "rawValueJson": "\"Applications Non-Oxbridge %\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Apps Oxbridge",
+            "rawValueJson": "\"Apps Oxbridge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Apps Oxbridge %",
+            "rawValueJson": "\"Apps Oxbridge %\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Applications",
+            "rawValueJson": "\"Applications\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Appointments Non-Oxbridge",
+            "rawValueJson": "\"Appointments Non-Oxbridge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Appointments Non-Oxbridge %",
+            "rawValueJson": "\"Appointments Non-Oxbridge %\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Appointments Oxbridge",
+            "rawValueJson": "\"Appointments Oxbridge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "Appointments Oxbridge %",
+            "rawValueJson": "\"Appointments Oxbridge %\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "Appointments",
+            "rawValueJson": "\"Appointments\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "Success rate Oxbridge",
+            "rawValueJson": "\"Success rate Oxbridge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 14,
+            "displayText": "Success rate non-Oxbridge",
+            "rawValueJson": "\"Success rate non-Oxbridge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 15,
+            "displayText": "Success rate all",
+            "rawValueJson": "\"Success rate all\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1998",
+            "rawValueJson": "1998",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "367",
+            "rawValueJson": "367",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "8142",
+            "rawValueJson": "8142",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "90.10%",
+            "rawValueJson": "0.901",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "895",
+            "rawValueJson": "895",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "9.90%",
+            "rawValueJson": "0.099",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "9037",
+            "rawValueJson": "9037",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "154",
+            "rawValueJson": "154",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "65.50%",
+            "rawValueJson": "0.655",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "81",
+            "rawValueJson": "81",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "34.50%",
+            "rawValueJson": "0.345",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "235",
+            "rawValueJson": "235",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "9.05%",
+            "rawValueJson": "0.0905",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 2,
+            "column": 14,
+            "displayText": "1.89%",
+            "rawValueJson": "0.0189",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 2,
+            "column": 15,
+            "displayText": "2.60%",
+            "rawValueJson": "0.026",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "1999",
+            "rawValueJson": "1999",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "445",
+            "rawValueJson": "445",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "8880",
+            "rawValueJson": "8880",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "90.50%",
+            "rawValueJson": "0.905",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "934",
+            "rawValueJson": "934",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "9.50%",
+            "rawValueJson": "0.095",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "9814",
+            "rawValueJson": "9814",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "214",
+            "rawValueJson": "214",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "69.90%",
+            "rawValueJson": "0.699",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "92",
+            "rawValueJson": "92",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "30.10%",
+            "rawValueJson": "0.301",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "306",
+            "rawValueJson": "306",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": "9.85%",
+            "rawValueJson": "0.0985",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 14,
+            "displayText": "2.41%",
+            "rawValueJson": "0.0241",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 15,
+            "displayText": "3.12%",
+            "rawValueJson": "0.0312",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2000",
+            "rawValueJson": "2000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "560",
+            "rawValueJson": "560",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "13289",
+            "rawValueJson": "13289",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "92.20%",
+            "rawValueJson": "0.922",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "1120",
+            "rawValueJson": "1120",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "7.80%",
+            "rawValueJson": "0.078",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "14409",
+            "rawValueJson": "14409",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "289",
+            "rawValueJson": "289",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "67.80%",
+            "rawValueJson": "0.678",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "137",
+            "rawValueJson": "137",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "32.20%",
+            "rawValueJson": "0.322",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "426",
+            "rawValueJson": "426",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 13,
+            "displayText": "12.23%",
+            "rawValueJson": "0.1223",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 14,
+            "displayText": "2.17%",
+            "rawValueJson": "0.0217",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 15,
+            "displayText": "2.96%",
+            "rawValueJson": "0.0296",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2001",
+            "rawValueJson": "2001",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "512",
+            "rawValueJson": "512",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "10846",
+            "rawValueJson": "10846",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "92.10%",
+            "rawValueJson": "0.921",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "931",
+            "rawValueJson": "931",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "7.90%",
+            "rawValueJson": "0.079",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "11777",
+            "rawValueJson": "11777",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "303",
+            "rawValueJson": "303",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "72.00%",
+            "rawValueJson": "0.72",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "118",
+            "rawValueJson": "118",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "28.00%",
+            "rawValueJson": "0.28",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "421",
+            "rawValueJson": "421",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "12.67%",
+            "rawValueJson": "0.1267",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 14,
+            "displayText": "2.79%",
+            "rawValueJson": "0.0279",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 15,
+            "displayText": "3.57%",
+            "rawValueJson": "0.0357",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "2002",
+            "rawValueJson": "2002",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "509",
+            "rawValueJson": "509",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "13122",
+            "rawValueJson": "13122",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "91.60%",
+            "rawValueJson": "0.916",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "1206",
+            "rawValueJson": "1206",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "8.40%",
+            "rawValueJson": "0.084",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "14328",
+            "rawValueJson": "14328",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "298",
+            "rawValueJson": "298",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "72.50%",
+            "rawValueJson": "0.725",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "113",
+            "rawValueJson": "113",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "27.50%",
+            "rawValueJson": "0.275",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "411",
+            "rawValueJson": "411",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "9.37%",
+            "rawValueJson": "0.0937",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 14,
+            "displayText": "2.27%",
+            "rawValueJson": "0.0227",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 15,
+            "displayText": "2.87%",
+            "rawValueJson": "0.0287",
+            "numberFormat": "0.00%"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{76D8B81A-2003-4AB3-AB7D-0D10E8CAA376}",
+          "top": 1,
+          "bottom": 16,
+          "left": 1,
+          "right": 15
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 12,
+            "end": 14
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Year",
+            "rawValueJson": "\"Year\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Vacancies",
+            "rawValueJson": "\"Vacancies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Applications Non-Oxbridge",
+            "rawValueJson": "\"Applications Non-Oxbridge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Applications Non-Oxbridge %",
+            "rawValueJson": "\"Applications Non-Oxbridge %\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Apps Oxbridge",
+            "rawValueJson": "\"Apps Oxbridge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Apps Oxbridge %",
+            "rawValueJson": "\"Apps Oxbridge %\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1998",
+            "rawValueJson": "1998",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "367",
+            "rawValueJson": "367",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "8142",
+            "rawValueJson": "8142",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "90.10%",
+            "rawValueJson": "0.901",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "895",
+            "rawValueJson": "895",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "9.90%",
+            "rawValueJson": "0.099",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "1999",
+            "rawValueJson": "1999",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "445",
+            "rawValueJson": "445",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "8880",
+            "rawValueJson": "8880",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "90.50%",
+            "rawValueJson": "0.905",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "934",
+            "rawValueJson": "934",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "9.50%",
+            "rawValueJson": "0.095",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2000",
+            "rawValueJson": "2000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "560",
+            "rawValueJson": "560",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "13289",
+            "rawValueJson": "13289",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "92.20%",
+            "rawValueJson": "0.922",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "1120",
+            "rawValueJson": "1120",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "7.80%",
+            "rawValueJson": "0.078",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2001",
+            "rawValueJson": "2001",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "512",
+            "rawValueJson": "512",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "10846",
+            "rawValueJson": "10846",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "92.10%",
+            "rawValueJson": "0.921",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "931",
+            "rawValueJson": "931",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "7.90%",
+            "rawValueJson": "0.079",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "2002",
+            "rawValueJson": "2002",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "509",
+            "rawValueJson": "509",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "13122",
+            "rawValueJson": "13122",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "91.60%",
+            "rawValueJson": "0.916",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "1206",
+            "rawValueJson": "1206",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "8.40%",
+            "rawValueJson": "0.084",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "2003",
+            "rawValueJson": "2003",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "546",
+            "rawValueJson": "546",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "18214",
+            "rawValueJson": "18214",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "90.90%",
+            "rawValueJson": "0.909",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "1818",
+            "rawValueJson": "1818",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "9.10%",
+            "rawValueJson": "0.091",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "2004",
+            "rawValueJson": "2004",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "507",
+            "rawValueJson": "507",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "7216",
+            "rawValueJson": "7216",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "83.90%",
+            "rawValueJson": "0.839",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "1382",
+            "rawValueJson": "1382",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "16.10%",
+            "rawValueJson": "0.161",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "2005",
+            "rawValueJson": "2005",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "497",
+            "rawValueJson": "497",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "11353",
+            "rawValueJson": "11353",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "87.60%",
+            "rawValueJson": "0.876",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "1604",
+            "rawValueJson": "1604",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "12.40%",
+            "rawValueJson": "0.124",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "2006",
+            "rawValueJson": "2006",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "469",
+            "rawValueJson": "469",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "12216",
+            "rawValueJson": "12216",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "87.60%",
+            "rawValueJson": "0.876",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "1729",
+            "rawValueJson": "1729",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "12.40%",
+            "rawValueJson": "0.124",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "2007",
+            "rawValueJson": "2007",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "427",
+            "rawValueJson": "427",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "11945",
+            "rawValueJson": "11945",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "87.70%",
+            "rawValueJson": "0.877",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "1674",
+            "rawValueJson": "1674",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "12.30%",
+            "rawValueJson": "0.123",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "2008",
+            "rawValueJson": "2008",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "552",
+            "rawValueJson": "552",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "12714",
+            "rawValueJson": "12714",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "87.70%",
+            "rawValueJson": "0.877",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "1780",
+            "rawValueJson": "1780",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "12.30%",
+            "rawValueJson": "0.123",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "2009",
+            "rawValueJson": "2009",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "585",
+            "rawValueJson": "585",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "13250",
+            "rawValueJson": "13250",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "88.90%",
+            "rawValueJson": "0.889",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "1661",
+            "rawValueJson": "1661",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "11.10%",
+            "rawValueJson": "0.111",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "2010",
+            "rawValueJson": "2010",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "477",
+            "rawValueJson": "477",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "19783",
+            "rawValueJson": "19783",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "90.90%",
+            "rawValueJson": "0.909",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "1978",
+            "rawValueJson": "1978",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "9.10%",
+            "rawValueJson": "0.091",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "2011",
+            "rawValueJson": "2011",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "354",
+            "rawValueJson": "354",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "16431",
+            "rawValueJson": "16431",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "89.50%",
+            "rawValueJson": "0.895",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "1930",
+            "rawValueJson": "1930",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "10.50%",
+            "rawValueJson": "0.105",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "2012",
+            "rawValueJson": "2012",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "649",
+            "rawValueJson": "649",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "19473",
+            "rawValueJson": "19473",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "90.40%",
+            "rawValueJson": "0.904",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "2069",
+            "rawValueJson": "2069",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "9.60%",
+            "rawValueJson": "0.096",
+            "numberFormat": "0.00%"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Year",
+          "rawValueJson": "\"Year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Vacancies",
+          "rawValueJson": "\"Vacancies\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Applications Non-Oxbridge",
+          "rawValueJson": "\"Applications Non-Oxbridge\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Applications Non-Oxbridge %",
+          "rawValueJson": "\"Applications Non-Oxbridge %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Apps Oxbridge",
+          "rawValueJson": "\"Apps Oxbridge\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Apps Oxbridge %",
+          "rawValueJson": "\"Apps Oxbridge %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Applications",
+          "rawValueJson": "\"Applications\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Appointments Non-Oxbridge",
+          "rawValueJson": "\"Appointments Non-Oxbridge\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Appointments Non-Oxbridge %",
+          "rawValueJson": "\"Appointments Non-Oxbridge %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Appointments Oxbridge",
+          "rawValueJson": "\"Appointments Oxbridge\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "Appointments Oxbridge %",
+          "rawValueJson": "\"Appointments Oxbridge %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "Appointments",
+          "rawValueJson": "\"Appointments\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "Success rate Oxbridge",
+          "rawValueJson": "\"Success rate Oxbridge\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 14,
+          "displayText": "Success rate non-Oxbridge",
+          "rawValueJson": "\"Success rate non-Oxbridge\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 15,
+          "displayText": "Success rate all",
+          "rawValueJson": "\"Success rate all\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1998",
+          "rawValueJson": "1998",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "367",
+          "rawValueJson": "367",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "8142",
+          "rawValueJson": "8142",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "90.10%",
+          "rawValueJson": "0.901",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "895",
+          "rawValueJson": "895",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "9.90%",
+          "rawValueJson": "0.099",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "9037",
+          "rawValueJson": "9037",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "154",
+          "rawValueJson": "154",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "65.50%",
+          "rawValueJson": "0.655",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "81",
+          "rawValueJson": "81",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "34.50%",
+          "rawValueJson": "0.345",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "235",
+          "rawValueJson": "235",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "9.05%",
+          "rawValueJson": "0.0905",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 2,
+          "column": 14,
+          "displayText": "1.89%",
+          "rawValueJson": "0.0189",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "displayText": "2.60%",
+          "rawValueJson": "0.026",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "1999",
+          "rawValueJson": "1999",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "445",
+          "rawValueJson": "445",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "8880",
+          "rawValueJson": "8880",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "90.50%",
+          "rawValueJson": "0.905",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "934",
+          "rawValueJson": "934",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "9.50%",
+          "rawValueJson": "0.095",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "9814",
+          "rawValueJson": "9814",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "214",
+          "rawValueJson": "214",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "69.90%",
+          "rawValueJson": "0.699",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "92",
+          "rawValueJson": "92",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "30.10%",
+          "rawValueJson": "0.301",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "306",
+          "rawValueJson": "306",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": "9.85%",
+          "rawValueJson": "0.0985",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 3,
+          "column": 14,
+          "displayText": "2.41%",
+          "rawValueJson": "0.0241",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 3,
+          "column": 15,
+          "displayText": "3.12%",
+          "rawValueJson": "0.0312",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2000",
+          "rawValueJson": "2000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "560",
+          "rawValueJson": "560",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "13289",
+          "rawValueJson": "13289",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "92.20%",
+          "rawValueJson": "0.922",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "1120",
+          "rawValueJson": "1120",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "7.80%",
+          "rawValueJson": "0.078",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "14409",
+          "rawValueJson": "14409",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "289",
+          "rawValueJson": "289",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "67.80%",
+          "rawValueJson": "0.678",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "137",
+          "rawValueJson": "137",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "32.20%",
+          "rawValueJson": "0.322",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "426",
+          "rawValueJson": "426",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 13,
+          "displayText": "12.23%",
+          "rawValueJson": "0.1223",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 14,
+          "displayText": "2.17%",
+          "rawValueJson": "0.0217",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 15,
+          "displayText": "2.96%",
+          "rawValueJson": "0.0296",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2001",
+          "rawValueJson": "2001",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "512",
+          "rawValueJson": "512",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "10846",
+          "rawValueJson": "10846",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "92.10%",
+          "rawValueJson": "0.921",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "931",
+          "rawValueJson": "931",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "7.90%",
+          "rawValueJson": "0.079",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "11777",
+          "rawValueJson": "11777",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "303",
+          "rawValueJson": "303",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "72.00%",
+          "rawValueJson": "0.72",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "118",
+          "rawValueJson": "118",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "28.00%",
+          "rawValueJson": "0.28",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "421",
+          "rawValueJson": "421",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 13,
+          "displayText": "12.67%",
+          "rawValueJson": "0.1267",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 14,
+          "displayText": "2.79%",
+          "rawValueJson": "0.0279",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 15,
+          "displayText": "3.57%",
+          "rawValueJson": "0.0357",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "2002",
+          "rawValueJson": "2002",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "509",
+          "rawValueJson": "509",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "13122",
+          "rawValueJson": "13122",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "91.60%",
+          "rawValueJson": "0.916",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "1206",
+          "rawValueJson": "1206",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "8.40%",
+          "rawValueJson": "0.084",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "14328",
+          "rawValueJson": "14328",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "298",
+          "rawValueJson": "298",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "72.50%",
+          "rawValueJson": "0.725",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "113",
+          "rawValueJson": "113",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "27.50%",
+          "rawValueJson": "0.275",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "411",
+          "rawValueJson": "411",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 13,
+          "displayText": "9.37%",
+          "rawValueJson": "0.0937",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 14,
+          "displayText": "2.27%",
+          "rawValueJson": "0.0227",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 15,
+          "displayText": "2.87%",
+          "rawValueJson": "0.0287",
+          "numberFormat": "0.00%"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "fa61909a-cf38-47bc-b47e-d479f58026b0",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

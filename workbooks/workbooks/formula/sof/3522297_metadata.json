@@ -1,0 +1,149 @@
+[
+  {
+    "range": {
+      "worksheetId": "{08D7F961-EC6A-46C0-AC60-E7B57CBBBB50}",
+      "top": 1,
+      "left": 1,
+      "bottom": 11,
+      "right": 1
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{08D7F961-EC6A-46C0-AC60-E7B57CBBBB50}",
+          "top": 1,
+          "bottom": 11,
+          "left": 1,
+          "right": 1
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Data\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Data",
+            "rawValueJson": "\"Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "foo@fooo.com",
+            "rawValueJson": "\"foo@fooo.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "csn@cam.ac.uk",
+            "rawValueJson": "\"csn@cam.ac.uk\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "ahs@yahoo.com",
+            "rawValueJson": "\"ahs@yahoo.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": " nojn@gmail.com",
+            "rawValueJson": "\" nojn@gmail.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": " mailto:valmail@outlook.com",
+            "rawValueJson": "\" mailto:valmail@outlook.com\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Input",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Data",
+          "rawValueJson": "\"Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "foo@fooo.com",
+          "rawValueJson": "\"foo@fooo.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "csn@cam.ac.uk",
+          "rawValueJson": "\"csn@cam.ac.uk\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "ahs@yahoo.com",
+          "rawValueJson": "\"ahs@yahoo.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": " nojn@gmail.com",
+          "rawValueJson": "\" nojn@gmail.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": " mailto:valmail@outlook.com",
+          "rawValueJson": "\" mailto:valmail@outlook.com\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "710fbd85-3d0c-432a-88af-e86258f71716",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

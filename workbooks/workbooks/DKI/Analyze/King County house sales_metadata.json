@@ -1,0 +1,2531 @@
+[
+  {
+    "range": {
+      "worksheetId": "{F7BF3089-759E-42CF-8BB7-ED23B77C217E}",
+      "top": 1,
+      "left": 1,
+      "bottom": 22688,
+      "right": 24
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{F7BF3089-759E-42CF-8BB7-ED23B77C217E}",
+          "top": 1,
+          "bottom": 22688,
+          "left": 1,
+          "right": 24
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"DocumentDate\"",
+          "\"SalePrice\"",
+          "\"PropertyID\"",
+          "\"PropertyType\"",
+          "\"ym\"",
+          "\"zhvi_px\"",
+          "\"zhvi_idx\"",
+          "\"AdjSalePrice\"",
+          "\"NbrLivingUnits\"",
+          "\"SqFtLot\"",
+          "\"SqFtTotLiving\"",
+          "\"SqFtFinBasement\"",
+          "\"Bathrooms\"",
+          "\"Column1\"",
+          "\"Bedrooms\"",
+          "\"BldgGrade\"",
+          "\"YrBuilt\"",
+          "\"YrRenovated\"",
+          "\"TrafficNoise\"",
+          "\"LandVal\"",
+          "\"ImpsVal\"",
+          "\"ZipCode\"",
+          "\"NewConstruction\"",
+          "\"Year\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "DocumentDate",
+            "rawValueJson": "\"DocumentDate\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "SalePrice",
+            "rawValueJson": "\"SalePrice\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "PropertyID",
+            "rawValueJson": "\"PropertyID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "PropertyType",
+            "rawValueJson": "\"PropertyType\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "ym",
+            "rawValueJson": "\"ym\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "zhvi_px",
+            "rawValueJson": "\"zhvi_px\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "zhvi_idx",
+            "rawValueJson": "\"zhvi_idx\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "AdjSalePrice",
+            "rawValueJson": "\"AdjSalePrice\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "NbrLivingUnits",
+            "rawValueJson": "\"NbrLivingUnits\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "SqFtLot",
+            "rawValueJson": "\"SqFtLot\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "SqFtTotLiving",
+            "rawValueJson": "\"SqFtTotLiving\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "SqFtFinBasement",
+            "rawValueJson": "\"SqFtFinBasement\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "Bathrooms",
+            "rawValueJson": "\"Bathrooms\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 14,
+            "displayText": "Column1",
+            "rawValueJson": "\"Column1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 15,
+            "displayText": "Bedrooms",
+            "rawValueJson": "\"Bedrooms\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 16,
+            "displayText": "BldgGrade",
+            "rawValueJson": "\"BldgGrade\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 17,
+            "displayText": "YrBuilt",
+            "rawValueJson": "\"YrBuilt\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 18,
+            "displayText": "YrRenovated",
+            "rawValueJson": "\"YrRenovated\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 19,
+            "displayText": "TrafficNoise",
+            "rawValueJson": "\"TrafficNoise\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 20,
+            "displayText": "LandVal",
+            "rawValueJson": "\"LandVal\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 21,
+            "displayText": "ImpsVal",
+            "rawValueJson": "\"ImpsVal\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 22,
+            "displayText": "ZipCode",
+            "rawValueJson": "\"ZipCode\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 23,
+            "displayText": "NewConstruction",
+            "rawValueJson": "\"NewConstruction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 24,
+            "displayText": "Year",
+            "rawValueJson": "\"Year\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "2014-09-16",
+            "rawValueJson": "\"2014-09-16\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "280000",
+            "rawValueJson": "280000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "1000102",
+            "rawValueJson": "1000102",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Multiplex",
+            "rawValueJson": "\"Multiplex\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "2014-09-01",
+            "rawValueJson": "\"2014-09-01\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "405100",
+            "rawValueJson": "405100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "0.930836397",
+            "rawValueJson": "0.930836397058823",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "300805",
+            "rawValueJson": "300805",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "9373",
+            "rawValueJson": "9373",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "2400",
+            "rawValueJson": "2400",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 15,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 16,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 17,
+            "displayText": "1991",
+            "rawValueJson": "1991",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 18,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 19,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 20,
+            "displayText": "70000",
+            "rawValueJson": "70000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 21,
+            "displayText": "229000",
+            "rawValueJson": "229000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 22,
+            "displayText": "98002",
+            "rawValueJson": "98002",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 23,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 24,
+            "displayText": "2014",
+            "rawValueJson": "2014",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2006-06-16",
+            "rawValueJson": "\"2006-06-16\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "1000000",
+            "rawValueJson": "1000000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "1200013",
+            "rawValueJson": "1200013",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Single Family",
+            "rawValueJson": "\"Single Family\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "2006-06-01",
+            "rawValueJson": "\"2006-06-01\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "404400",
+            "rawValueJson": "404400",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "0.929227941",
+            "rawValueJson": "0.929227941176471",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "1076162",
+            "rawValueJson": "1076162",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "20156",
+            "rawValueJson": "20156",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "3764",
+            "rawValueJson": "3764",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "1452",
+            "rawValueJson": "1452",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": "3.75",
+            "rawValueJson": "3.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 15,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 16,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 17,
+            "displayText": "2005",
+            "rawValueJson": "2005",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 18,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 19,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 20,
+            "displayText": "203000",
+            "rawValueJson": "203000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 21,
+            "displayText": "590000",
+            "rawValueJson": "590000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 22,
+            "displayText": "98166",
+            "rawValueJson": "98166",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 23,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 24,
+            "displayText": "2006",
+            "rawValueJson": "2006",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2007-01-29",
+            "rawValueJson": "\"2007-01-29\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "745000",
+            "rawValueJson": "745000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "1200019",
+            "rawValueJson": "1200019",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Single Family",
+            "rawValueJson": "\"Single Family\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "2007-01-01",
+            "rawValueJson": "\"2007-01-01\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "425600",
+            "rawValueJson": "425600",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "0.977941176",
+            "rawValueJson": "0.977941176470588",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "761805",
+            "rawValueJson": "761805",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "26036",
+            "rawValueJson": "26036",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "2060",
+            "rawValueJson": "2060",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "900",
+            "rawValueJson": "900",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 13,
+            "displayText": "1.75",
+            "rawValueJson": "1.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 15,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 16,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 17,
+            "displayText": "1947",
+            "rawValueJson": "1947",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 18,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 19,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 20,
+            "displayText": "183000",
+            "rawValueJson": "183000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 21,
+            "displayText": "275000",
+            "rawValueJson": "275000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 22,
+            "displayText": "98166",
+            "rawValueJson": "98166",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 23,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 24,
+            "displayText": "2007",
+            "rawValueJson": "2007",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2008-02-25",
+            "rawValueJson": "\"2008-02-25\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "425000",
+            "rawValueJson": "425000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "2800016",
+            "rawValueJson": "2800016",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Single Family",
+            "rawValueJson": "\"Single Family\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "2008-02-01",
+            "rawValueJson": "\"2008-02-01\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "418400",
+            "rawValueJson": "418400",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "0.961397059",
+            "rawValueJson": "0.961397058823529",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "442065",
+            "rawValueJson": "442065",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "8618",
+            "rawValueJson": "8618",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "3200",
+            "rawValueJson": "3200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "1640",
+            "rawValueJson": "1640",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "3.75",
+            "rawValueJson": "3.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 15,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 16,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 17,
+            "displayText": "1966",
+            "rawValueJson": "1966",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 18,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 19,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 20,
+            "displayText": "104000",
+            "rawValueJson": "104000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 21,
+            "displayText": "229000",
+            "rawValueJson": "229000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 22,
+            "displayText": "98168",
+            "rawValueJson": "98168",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 23,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 24,
+            "displayText": "2008",
+            "rawValueJson": "2008",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "2013-03-29",
+            "rawValueJson": "\"2013-03-29\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "240000",
+            "rawValueJson": "240000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "2800024",
+            "rawValueJson": "2800024",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Single Family",
+            "rawValueJson": "\"Single Family\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "2013-03-01",
+            "rawValueJson": "\"2013-03-01\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "351600",
+            "rawValueJson": "351600",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "0.807904412",
+            "rawValueJson": "0.807904411764706",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "297065",
+            "rawValueJson": "297065",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "8620",
+            "rawValueJson": "8620",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "1720",
+            "rawValueJson": "1720",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "1.75",
+            "rawValueJson": "1.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 15,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 16,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 17,
+            "displayText": "1948",
+            "rawValueJson": "1948",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 18,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 19,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 20,
+            "displayText": "104000",
+            "rawValueJson": "104000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 21,
+            "displayText": "205000",
+            "rawValueJson": "205000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 22,
+            "displayText": "98168",
+            "rawValueJson": "98168",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 23,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 24,
+            "displayText": "2013",
+            "rawValueJson": "2013",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table_7956bac7",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Data",
+    "isDataSampled": true,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "DocumentDate",
+          "rawValueJson": "\"DocumentDate\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "SalePrice",
+          "rawValueJson": "\"SalePrice\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "PropertyID",
+          "rawValueJson": "\"PropertyID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "PropertyType",
+          "rawValueJson": "\"PropertyType\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "ym",
+          "rawValueJson": "\"ym\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "zhvi_px",
+          "rawValueJson": "\"zhvi_px\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "zhvi_idx",
+          "rawValueJson": "\"zhvi_idx\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "AdjSalePrice",
+          "rawValueJson": "\"AdjSalePrice\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "NbrLivingUnits",
+          "rawValueJson": "\"NbrLivingUnits\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "SqFtLot",
+          "rawValueJson": "\"SqFtLot\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "SqFtTotLiving",
+          "rawValueJson": "\"SqFtTotLiving\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "SqFtFinBasement",
+          "rawValueJson": "\"SqFtFinBasement\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "Bathrooms",
+          "rawValueJson": "\"Bathrooms\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 14,
+          "displayText": "Column1",
+          "rawValueJson": "\"Column1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 15,
+          "displayText": "Bedrooms",
+          "rawValueJson": "\"Bedrooms\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 16,
+          "displayText": "BldgGrade",
+          "rawValueJson": "\"BldgGrade\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 17,
+          "displayText": "YrBuilt",
+          "rawValueJson": "\"YrBuilt\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 18,
+          "displayText": "YrRenovated",
+          "rawValueJson": "\"YrRenovated\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 19,
+          "displayText": "TrafficNoise",
+          "rawValueJson": "\"TrafficNoise\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 20,
+          "displayText": "LandVal",
+          "rawValueJson": "\"LandVal\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 21,
+          "displayText": "ImpsVal",
+          "rawValueJson": "\"ImpsVal\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 22,
+          "displayText": "ZipCode",
+          "rawValueJson": "\"ZipCode\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 23,
+          "displayText": "NewConstruction",
+          "rawValueJson": "\"NewConstruction\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 24,
+          "displayText": "Year",
+          "rawValueJson": "\"Year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "2014-09-16",
+          "rawValueJson": "\"2014-09-16\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "280000",
+          "rawValueJson": "280000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "1000102",
+          "rawValueJson": "1000102",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Multiplex",
+          "rawValueJson": "\"Multiplex\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "2014-09-01",
+          "rawValueJson": "\"2014-09-01\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "405100",
+          "rawValueJson": "405100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "0.930836397",
+          "rawValueJson": "0.930836397058823",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "300805",
+          "rawValueJson": "300805",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "9373",
+          "rawValueJson": "9373",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "2400",
+          "rawValueJson": "2400",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 16,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 17,
+          "displayText": "1991",
+          "rawValueJson": "1991",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 18,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 19,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 20,
+          "displayText": "70000",
+          "rawValueJson": "70000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 21,
+          "displayText": "229000",
+          "rawValueJson": "229000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 22,
+          "displayText": "98002",
+          "rawValueJson": "98002",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 23,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 24,
+          "displayText": "2014",
+          "rawValueJson": "2014",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2006-06-16",
+          "rawValueJson": "\"2006-06-16\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "1000000",
+          "rawValueJson": "1000000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "1200013",
+          "rawValueJson": "1200013",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Single Family",
+          "rawValueJson": "\"Single Family\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "2006-06-01",
+          "rawValueJson": "\"2006-06-01\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "404400",
+          "rawValueJson": "404400",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "0.929227941",
+          "rawValueJson": "0.929227941176471",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "1076162",
+          "rawValueJson": "1076162",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "20156",
+          "rawValueJson": "20156",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "3764",
+          "rawValueJson": "3764",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "1452",
+          "rawValueJson": "1452",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": "3.75",
+          "rawValueJson": "3.75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 15,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 16,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 17,
+          "displayText": "2005",
+          "rawValueJson": "2005",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 18,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 19,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 20,
+          "displayText": "203000",
+          "rawValueJson": "203000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 21,
+          "displayText": "590000",
+          "rawValueJson": "590000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 22,
+          "displayText": "98166",
+          "rawValueJson": "98166",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 23,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 24,
+          "displayText": "2006",
+          "rawValueJson": "2006",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2007-01-29",
+          "rawValueJson": "\"2007-01-29\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "745000",
+          "rawValueJson": "745000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "1200019",
+          "rawValueJson": "1200019",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Single Family",
+          "rawValueJson": "\"Single Family\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "2007-01-01",
+          "rawValueJson": "\"2007-01-01\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "425600",
+          "rawValueJson": "425600",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "0.977941176",
+          "rawValueJson": "0.977941176470588",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "761805",
+          "rawValueJson": "761805",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "26036",
+          "rawValueJson": "26036",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "2060",
+          "rawValueJson": "2060",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "900",
+          "rawValueJson": "900",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 13,
+          "displayText": "1.75",
+          "rawValueJson": "1.75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 15,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 16,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 17,
+          "displayText": "1947",
+          "rawValueJson": "1947",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 18,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 19,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 20,
+          "displayText": "183000",
+          "rawValueJson": "183000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 21,
+          "displayText": "275000",
+          "rawValueJson": "275000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 22,
+          "displayText": "98166",
+          "rawValueJson": "98166",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 23,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 24,
+          "displayText": "2007",
+          "rawValueJson": "2007",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2008-02-25",
+          "rawValueJson": "\"2008-02-25\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "425000",
+          "rawValueJson": "425000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "2800016",
+          "rawValueJson": "2800016",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Single Family",
+          "rawValueJson": "\"Single Family\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "2008-02-01",
+          "rawValueJson": "\"2008-02-01\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "418400",
+          "rawValueJson": "418400",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "0.961397059",
+          "rawValueJson": "0.961397058823529",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "442065",
+          "rawValueJson": "442065",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "8618",
+          "rawValueJson": "8618",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "3200",
+          "rawValueJson": "3200",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "1640",
+          "rawValueJson": "1640",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 13,
+          "displayText": "3.75",
+          "rawValueJson": "3.75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 15,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 16,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 17,
+          "displayText": "1966",
+          "rawValueJson": "1966",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 18,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 19,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 20,
+          "displayText": "104000",
+          "rawValueJson": "104000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 21,
+          "displayText": "229000",
+          "rawValueJson": "229000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 22,
+          "displayText": "98168",
+          "rawValueJson": "98168",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 23,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 24,
+          "displayText": "2008",
+          "rawValueJson": "2008",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "2013-03-29",
+          "rawValueJson": "\"2013-03-29\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "240000",
+          "rawValueJson": "240000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "2800024",
+          "rawValueJson": "2800024",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Single Family",
+          "rawValueJson": "\"Single Family\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "2013-03-01",
+          "rawValueJson": "\"2013-03-01\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "351600",
+          "rawValueJson": "351600",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "0.807904412",
+          "rawValueJson": "0.807904411764706",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "297065",
+          "rawValueJson": "297065",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "8620",
+          "rawValueJson": "8620",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "1720",
+          "rawValueJson": "1720",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 13,
+          "displayText": "1.75",
+          "rawValueJson": "1.75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 15,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 16,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 17,
+          "displayText": "1948",
+          "rawValueJson": "1948",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 18,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 19,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 20,
+          "displayText": "104000",
+          "rawValueJson": "104000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 21,
+          "displayText": "205000",
+          "rawValueJson": "205000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 22,
+          "displayText": "98168",
+          "rawValueJson": "98168",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 23,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 24,
+          "displayText": "2013",
+          "rawValueJson": "2013",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      22688,
+      22687,
+      22686,
+      22685,
+      22684,
+      22683,
+      22682,
+      22681,
+      22680,
+      22679,
+      22678,
+      22677,
+      22676,
+      22675,
+      22674,
+      22673,
+      22672,
+      22671,
+      22670,
+      22669,
+      22668,
+      22667,
+      22666,
+      22665,
+      22664,
+      22663,
+      22662,
+      22661,
+      22660,
+      22659,
+      22658,
+      22657,
+      22656,
+      22655,
+      22654,
+      22653,
+      22652,
+      22651,
+      22650,
+      22649,
+      22648,
+      22647,
+      22646,
+      22645,
+      22644,
+      22643,
+      22642,
+      22641,
+      22640,
+      22639,
+      22638,
+      22637,
+      22636,
+      22635,
+      22634,
+      22633,
+      22632,
+      22631,
+      22630,
+      22629,
+      22628,
+      22627,
+      22626,
+      22625,
+      22624,
+      22623,
+      22622,
+      22621,
+      22620,
+      22619,
+      22618,
+      22617,
+      22616,
+      22615,
+      22614,
+      22613,
+      22612,
+      22611,
+      22610,
+      22609,
+      22608,
+      22607,
+      22606,
+      22605,
+      22604,
+      22603,
+      22602,
+      22601,
+      22600,
+      22599,
+      22598,
+      22597,
+      22596,
+      22595,
+      22594,
+      22593,
+      22592,
+      22591,
+      22590,
+      22589,
+      22588,
+      22587,
+      22586,
+      22585,
+      22584,
+      22583,
+      22582,
+      22581,
+      22580,
+      22579,
+      22578,
+      22577,
+      22576,
+      22575,
+      22574,
+      22573,
+      22572,
+      22571,
+      22570,
+      22569,
+      22568,
+      22567,
+      22566,
+      22565,
+      22564,
+      22563,
+      22562,
+      22561,
+      22560,
+      22559,
+      22558,
+      22557,
+      22556,
+      22555,
+      22554,
+      22553,
+      22552,
+      22551,
+      22550,
+      22549,
+      22548,
+      22547,
+      22546,
+      22545,
+      22544,
+      22543,
+      22542,
+      22541,
+      22540,
+      22539,
+      22538,
+      22537,
+      22536,
+      22535,
+      22534,
+      22533,
+      22532,
+      22531,
+      22530,
+      22529,
+      22528,
+      22527,
+      22526,
+      22525,
+      22524,
+      22523
+    ],
+    "samplingScheme": 1,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "06af326c-777a-491b-8a33-538c201e78fa",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

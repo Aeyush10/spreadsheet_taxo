@@ -1,0 +1,335 @@
+[
+  {
+    "range": {
+      "worksheetId": "{43A5405F-5A30-47CB-8F99-F28AC03AA76F}",
+      "top": 1,
+      "left": 1,
+      "bottom": 7,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{43A5405F-5A30-47CB-8F99-F28AC03AA76F}",
+          "top": 1,
+          "bottom": 7,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"SalesPerson\"",
+          "\"TargetSales\"",
+          "\"ActualSales\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "SalesPerson",
+            "rawValueJson": "\"SalesPerson\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "TargetSales",
+            "rawValueJson": "\"TargetSales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "ActualSales",
+            "rawValueJson": "\"ActualSales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Person A",
+            "rawValueJson": "\"Person A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "100000",
+            "rawValueJson": "100000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "75000",
+            "rawValueJson": "75000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Person B",
+            "rawValueJson": "\"Person B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "200000",
+            "rawValueJson": "200000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "250000",
+            "rawValueJson": "250000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Person C",
+            "rawValueJson": "\"Person C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "500000",
+            "rawValueJson": "500000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "475000",
+            "rawValueJson": "475000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Person D",
+            "rawValueJson": "\"Person D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "50000",
+            "rawValueJson": "50000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "4500",
+            "rawValueJson": "4500",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Person F",
+            "rawValueJson": "\"Person F\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "30000",
+            "rawValueJson": "30000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "60000",
+            "rawValueJson": "60000",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "SalesData",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Target vs. Actual Annual Sales",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "SalesPerson",
+          "rawValueJson": "\"SalesPerson\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "TargetSales",
+          "rawValueJson": "\"TargetSales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "ActualSales",
+          "rawValueJson": "\"ActualSales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Person A",
+          "rawValueJson": "\"Person A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "100000",
+          "rawValueJson": "100000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "75000",
+          "rawValueJson": "75000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Person B",
+          "rawValueJson": "\"Person B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "200000",
+          "rawValueJson": "200000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "250000",
+          "rawValueJson": "250000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Person C",
+          "rawValueJson": "\"Person C\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "500000",
+          "rawValueJson": "500000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "475000",
+          "rawValueJson": "475000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Person D",
+          "rawValueJson": "\"Person D\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "50000",
+          "rawValueJson": "50000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "4500",
+          "rawValueJson": "4500",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Person F",
+          "rawValueJson": "\"Person F\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "30000",
+          "rawValueJson": "30000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "60000",
+          "rawValueJson": "60000",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "7fd3999e-a4f5-4c12-a55c-5627318589f5",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

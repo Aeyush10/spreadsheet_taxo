@@ -1,0 +1,340 @@
+[
+  {
+    "range": {
+      "worksheetId": "{9BA0F8C3-1009-4E75-974A-8AA85E67BD16}",
+      "top": 1,
+      "left": 1,
+      "bottom": 28,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{9BA0F8C3-1009-4E75-974A-8AA85E67BD16}",
+          "top": 1,
+          "bottom": 28,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 27
+          }
+        ],
+        "headerNames": [
+          "\"Date\"",
+          "\"Product\"",
+          "\"Sales Amount\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Product",
+            "rawValueJson": "\"Product\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Sales Amount",
+            "rawValueJson": "\"Sales Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1/1/2025",
+            "rawValueJson": "45658",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Product C",
+            "rawValueJson": "\"Product C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "9539",
+            "rawValueJson": "9539",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "1/2/2025",
+            "rawValueJson": "45659",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Product C",
+            "rawValueJson": "\"Product C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "4507",
+            "rawValueJson": "4507",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "1/3/2025",
+            "rawValueJson": "45660",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Product C",
+            "rawValueJson": "\"Product C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "7523",
+            "rawValueJson": "7523",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "1/4/2025",
+            "rawValueJson": "45661",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Product B",
+            "rawValueJson": "\"Product B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "9842",
+            "rawValueJson": "9842",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "1/5/2025",
+            "rawValueJson": "45662",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Product A",
+            "rawValueJson": "\"Product A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "9449",
+            "rawValueJson": "9449",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "SalesData",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Product",
+          "rawValueJson": "\"Product\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Sales Amount",
+          "rawValueJson": "\"Sales Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1/1/2025",
+          "rawValueJson": "45658",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Product C",
+          "rawValueJson": "\"Product C\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "9539",
+          "rawValueJson": "9539",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "1/2/2025",
+          "rawValueJson": "45659",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Product C",
+          "rawValueJson": "\"Product C\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "4507",
+          "rawValueJson": "4507",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "1/3/2025",
+          "rawValueJson": "45660",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Product C",
+          "rawValueJson": "\"Product C\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "7523",
+          "rawValueJson": "7523",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "1/4/2025",
+          "rawValueJson": "45661",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Product B",
+          "rawValueJson": "\"Product B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "9842",
+          "rawValueJson": "9842",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "1/5/2025",
+          "rawValueJson": "45662",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Product A",
+          "rawValueJson": "\"Product A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "9449",
+          "rawValueJson": "9449",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "c3e5143e-81a1-4f81-b2fd-4a069421b429",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

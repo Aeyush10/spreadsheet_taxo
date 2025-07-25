@@ -1,0 +1,6974 @@
+[
+  {
+    "range": {
+      "worksheetId": "{ACD6F415-1B41-4989-AC81-B8A06FA7B24C}",
+      "top": 1,
+      "left": 2,
+      "bottom": 2,
+      "right": 8
+    },
+    "interpretations": [],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.7777777777777778,
+    "sheetName": "Dash",
+    "isDataSampled": false,
+    "primaryTable": {
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "7df53819-2947-4dcb-88ef-dc8830f85d91",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{845306C2-8100-4417-B819-9EA21BCC9C78}",
+      "top": 1,
+      "left": 1,
+      "bottom": 31,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{845306C2-8100-4417-B819-9EA21BCC9C78}",
+          "top": 1,
+          "bottom": 31,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 30
+          }
+        ],
+        "headerNames": [
+          "\"Category\"",
+          "\"Area\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Category",
+            "rawValueJson": "\"Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Area",
+            "rawValueJson": "\"Area\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Ada",
+            "rawValueJson": "\"Ada\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Atten",
+            "rawValueJson": "\"Atten\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Bel",
+            "rawValueJson": "\"Bel\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Gal",
+            "rawValueJson": "\"Gal\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Gue",
+            "rawValueJson": "\"Gue\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Category_Clean (2)",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Category",
+          "rawValueJson": "\"Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Area",
+          "rawValueJson": "\"Area\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Cat 1",
+          "rawValueJson": "\"Cat 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Ada",
+          "rawValueJson": "\"Ada\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Cat 1",
+          "rawValueJson": "\"Cat 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Atten",
+          "rawValueJson": "\"Atten\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Cat 1",
+          "rawValueJson": "\"Cat 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Bel",
+          "rawValueJson": "\"Bel\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Cat 1",
+          "rawValueJson": "\"Cat 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Gal",
+          "rawValueJson": "\"Gal\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Cat 1",
+          "rawValueJson": "\"Cat 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Gue",
+          "rawValueJson": "\"Gue\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "360aaa0d-6400-4efb-b49e-7f7eae9e8277",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{FEB102EE-4393-4F46-AD24-DF02D098EC1D}",
+      "top": 1,
+      "left": 2,
+      "bottom": 82,
+      "right": 25
+    },
+    "interpretations": [
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{FEB102EE-4393-4F46-AD24-DF02D098EC1D}",
+          "top": 1,
+          "bottom": 82,
+          "left": 2,
+          "right": 25
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 81
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 14,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 15,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 16,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 17,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 18,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 19,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 20,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 21,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 22,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 23,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 24,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 25,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Area",
+            "rawValueJson": "\"Area\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Codes",
+            "rawValueJson": "\"Codes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Length",
+            "rawValueJson": "\"Length\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Where ",
+            "rawValueJson": "\"Where \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 14,
+            "displayText": "9",
+            "rawValueJson": "9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 15,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 16,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 17,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 18,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 19,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 20,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 21,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 22,
+            "displayText": "17",
+            "rawValueJson": "17",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 23,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 24,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 25,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "38",
+            "rawValueJson": "38",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "49",
+            "rawValueJson": "49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "58",
+            "rawValueJson": "58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "17",
+            "rawValueJson": "17",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "54",
+            "rawValueJson": "54",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "43",
+            "rawValueJson": "43",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "59",
+            "rawValueJson": "59",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "58",
+            "rawValueJson": "58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "21",
+            "rawValueJson": "21",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "55",
+            "rawValueJson": "55",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "49",
+            "rawValueJson": "49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "35",
+            "rawValueJson": "35",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "26",
+            "rawValueJson": "26",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{FEB102EE-4393-4F46-AD24-DF02D098EC1D}",
+          "top": 1,
+          "bottom": 82,
+          "left": 2,
+          "right": 25
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 4,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 2
+              },
+              {
+                "top": 2,
+                "left": 3
+              },
+              {
+                "top": 2,
+                "left": 4
+              },
+              {
+                "top": 2,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 2
+              },
+              {
+                "top": 3,
+                "left": 3
+              },
+              {
+                "top": 3,
+                "left": 4
+              },
+              {
+                "top": 3,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 2
+              },
+              {
+                "top": 4,
+                "left": 3
+              },
+              {
+                "top": 4,
+                "left": 4
+              },
+              {
+                "top": 4,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 2
+              },
+              {
+                "top": 5,
+                "left": 3
+              },
+              {
+                "top": 5,
+                "left": 4
+              },
+              {
+                "top": 5,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 2
+              },
+              {
+                "top": 6,
+                "left": 3
+              },
+              {
+                "top": 6,
+                "left": 4
+              },
+              {
+                "top": 6,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 2
+              },
+              {
+                "top": 7,
+                "left": 3
+              },
+              {
+                "top": 7,
+                "left": 4
+              },
+              {
+                "top": 7,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 2
+              },
+              {
+                "top": 8,
+                "left": 3
+              },
+              {
+                "top": 8,
+                "left": 4
+              },
+              {
+                "top": 8,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 2
+              },
+              {
+                "top": 9,
+                "left": 3
+              },
+              {
+                "top": 9,
+                "left": 4
+              },
+              {
+                "top": 9,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 2
+              },
+              {
+                "top": 10,
+                "left": 3
+              },
+              {
+                "top": 10,
+                "left": 4
+              },
+              {
+                "top": 10,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 2
+              },
+              {
+                "top": 11,
+                "left": 3
+              },
+              {
+                "top": 11,
+                "left": 4
+              },
+              {
+                "top": 11,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 2
+              },
+              {
+                "top": 12,
+                "left": 3
+              },
+              {
+                "top": 12,
+                "left": 4
+              },
+              {
+                "top": 12,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 2
+              },
+              {
+                "top": 13,
+                "left": 3
+              },
+              {
+                "top": 13,
+                "left": 4
+              },
+              {
+                "top": 13,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 2
+              },
+              {
+                "top": 14,
+                "left": 3
+              },
+              {
+                "top": 14,
+                "left": 4
+              },
+              {
+                "top": 14,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 2
+              },
+              {
+                "top": 15,
+                "left": 3
+              },
+              {
+                "top": 15,
+                "left": 4
+              },
+              {
+                "top": 15,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 2
+              },
+              {
+                "top": 16,
+                "left": 3
+              },
+              {
+                "top": 16,
+                "left": 4
+              },
+              {
+                "top": 16,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 2
+              },
+              {
+                "top": 17,
+                "left": 3
+              },
+              {
+                "top": 17,
+                "left": 4
+              },
+              {
+                "top": 17,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 18,
+                "left": 2
+              },
+              {
+                "top": 18,
+                "left": 3
+              },
+              {
+                "top": 18,
+                "left": 4
+              },
+              {
+                "top": 18,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 19,
+                "left": 2
+              },
+              {
+                "top": 19,
+                "left": 3
+              },
+              {
+                "top": 19,
+                "left": 4
+              },
+              {
+                "top": 19,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 20,
+                "left": 2
+              },
+              {
+                "top": 20,
+                "left": 3
+              },
+              {
+                "top": 20,
+                "left": 4
+              },
+              {
+                "top": 20,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 21,
+                "left": 2
+              },
+              {
+                "top": 21,
+                "left": 3
+              },
+              {
+                "top": 21,
+                "left": 4
+              },
+              {
+                "top": 21,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 22,
+                "left": 2
+              },
+              {
+                "top": 22,
+                "left": 3
+              },
+              {
+                "top": 22,
+                "left": 4
+              },
+              {
+                "top": 22,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 23,
+                "left": 2
+              },
+              {
+                "top": 23,
+                "left": 3
+              },
+              {
+                "top": 23,
+                "left": 4
+              },
+              {
+                "top": 23,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 24,
+                "left": 2
+              },
+              {
+                "top": 24,
+                "left": 3
+              },
+              {
+                "top": 24,
+                "left": 4
+              },
+              {
+                "top": 24,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 25,
+                "left": 2
+              },
+              {
+                "top": 25,
+                "left": 3
+              },
+              {
+                "top": 25,
+                "left": 4
+              },
+              {
+                "top": 25,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 26,
+                "left": 2
+              },
+              {
+                "top": 26,
+                "left": 3
+              },
+              {
+                "top": 26,
+                "left": 4
+              },
+              {
+                "top": 26,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 27,
+                "left": 2
+              },
+              {
+                "top": 27,
+                "left": 3
+              },
+              {
+                "top": 27,
+                "left": 4
+              },
+              {
+                "top": 27,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 28,
+                "left": 2
+              },
+              {
+                "top": 28,
+                "left": 3
+              },
+              {
+                "top": 28,
+                "left": 4
+              },
+              {
+                "top": 28,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 29,
+                "left": 2
+              },
+              {
+                "top": 29,
+                "left": 3
+              },
+              {
+                "top": 29,
+                "left": 4
+              },
+              {
+                "top": 29,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 30,
+                "left": 2
+              },
+              {
+                "top": 30,
+                "left": 3
+              },
+              {
+                "top": 30,
+                "left": 4
+              },
+              {
+                "top": 30,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 31,
+                "left": 2
+              },
+              {
+                "top": 31,
+                "left": 3
+              },
+              {
+                "top": 31,
+                "left": 4
+              },
+              {
+                "top": 31,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 32,
+                "left": 2
+              },
+              {
+                "top": 32,
+                "left": 3
+              },
+              {
+                "top": 32,
+                "left": 4
+              },
+              {
+                "top": 32,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 33,
+                "left": 2
+              },
+              {
+                "top": 33,
+                "left": 3
+              },
+              {
+                "top": 33,
+                "left": 4
+              },
+              {
+                "top": 33,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 34,
+                "left": 2
+              },
+              {
+                "top": 34,
+                "left": 3
+              },
+              {
+                "top": 34,
+                "left": 4
+              },
+              {
+                "top": 34,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 35,
+                "left": 2
+              },
+              {
+                "top": 35,
+                "left": 3
+              },
+              {
+                "top": 35,
+                "left": 4
+              },
+              {
+                "top": 35,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 36,
+                "left": 2
+              },
+              {
+                "top": 36,
+                "left": 3
+              },
+              {
+                "top": 36,
+                "left": 4
+              },
+              {
+                "top": 36,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 37,
+                "left": 2
+              },
+              {
+                "top": 37,
+                "left": 3
+              },
+              {
+                "top": 37,
+                "left": 4
+              },
+              {
+                "top": 37,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 38,
+                "left": 2
+              },
+              {
+                "top": 38,
+                "left": 3
+              },
+              {
+                "top": 38,
+                "left": 4
+              },
+              {
+                "top": 38,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 39,
+                "left": 2
+              },
+              {
+                "top": 39,
+                "left": 3
+              },
+              {
+                "top": 39,
+                "left": 4
+              },
+              {
+                "top": 39,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 40,
+                "left": 2
+              },
+              {
+                "top": 40,
+                "left": 3
+              },
+              {
+                "top": 40,
+                "left": 4
+              },
+              {
+                "top": 40,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 41,
+                "left": 2
+              },
+              {
+                "top": 41,
+                "left": 3
+              },
+              {
+                "top": 41,
+                "left": 4
+              },
+              {
+                "top": 41,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 42,
+                "left": 2
+              },
+              {
+                "top": 42,
+                "left": 3
+              },
+              {
+                "top": 42,
+                "left": 4
+              },
+              {
+                "top": 42,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 43,
+                "left": 2
+              },
+              {
+                "top": 43,
+                "left": 3
+              },
+              {
+                "top": 43,
+                "left": 4
+              },
+              {
+                "top": 43,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 44,
+                "left": 2
+              },
+              {
+                "top": 44,
+                "left": 3
+              },
+              {
+                "top": 44,
+                "left": 4
+              },
+              {
+                "top": 44,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 45,
+                "left": 2
+              },
+              {
+                "top": 45,
+                "left": 3
+              },
+              {
+                "top": 45,
+                "left": 4
+              },
+              {
+                "top": 45,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 46,
+                "left": 2
+              },
+              {
+                "top": 46,
+                "left": 3
+              },
+              {
+                "top": 46,
+                "left": 4
+              },
+              {
+                "top": 46,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 47,
+                "left": 2
+              },
+              {
+                "top": 47,
+                "left": 3
+              },
+              {
+                "top": 47,
+                "left": 4
+              },
+              {
+                "top": 47,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 48,
+                "left": 2
+              },
+              {
+                "top": 48,
+                "left": 3
+              },
+              {
+                "top": 48,
+                "left": 4
+              },
+              {
+                "top": 48,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 49,
+                "left": 2
+              },
+              {
+                "top": 49,
+                "left": 3
+              },
+              {
+                "top": 49,
+                "left": 4
+              },
+              {
+                "top": 49,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 50,
+                "left": 2
+              },
+              {
+                "top": 50,
+                "left": 3
+              },
+              {
+                "top": 50,
+                "left": 4
+              },
+              {
+                "top": 50,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 51,
+                "left": 2
+              },
+              {
+                "top": 51,
+                "left": 3
+              },
+              {
+                "top": 51,
+                "left": 4
+              },
+              {
+                "top": 51,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 52,
+                "left": 2
+              },
+              {
+                "top": 52,
+                "left": 3
+              },
+              {
+                "top": 52,
+                "left": 4
+              },
+              {
+                "top": 52,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 53,
+                "left": 2
+              },
+              {
+                "top": 53,
+                "left": 3
+              },
+              {
+                "top": 53,
+                "left": 4
+              },
+              {
+                "top": 53,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 54,
+                "left": 2
+              },
+              {
+                "top": 54,
+                "left": 3
+              },
+              {
+                "top": 54,
+                "left": 4
+              },
+              {
+                "top": 54,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 55,
+                "left": 2
+              },
+              {
+                "top": 55,
+                "left": 3
+              },
+              {
+                "top": 55,
+                "left": 4
+              },
+              {
+                "top": 55,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 56,
+                "left": 2
+              },
+              {
+                "top": 56,
+                "left": 3
+              },
+              {
+                "top": 56,
+                "left": 4
+              },
+              {
+                "top": 56,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 57,
+                "left": 2
+              },
+              {
+                "top": 57,
+                "left": 3
+              },
+              {
+                "top": 57,
+                "left": 4
+              },
+              {
+                "top": 57,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 58,
+                "left": 2
+              },
+              {
+                "top": 58,
+                "left": 3
+              },
+              {
+                "top": 58,
+                "left": 4
+              },
+              {
+                "top": 58,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 59,
+                "left": 2
+              },
+              {
+                "top": 59,
+                "left": 3
+              },
+              {
+                "top": 59,
+                "left": 4
+              },
+              {
+                "top": 59,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 60,
+                "left": 2
+              },
+              {
+                "top": 60,
+                "left": 3
+              },
+              {
+                "top": 60,
+                "left": 4
+              },
+              {
+                "top": 60,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 61,
+                "left": 2
+              },
+              {
+                "top": 61,
+                "left": 3
+              },
+              {
+                "top": 61,
+                "left": 4
+              },
+              {
+                "top": 61,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 62,
+                "left": 2
+              },
+              {
+                "top": 62,
+                "left": 3
+              },
+              {
+                "top": 62,
+                "left": 4
+              },
+              {
+                "top": 62,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 63,
+                "left": 2
+              },
+              {
+                "top": 63,
+                "left": 3
+              },
+              {
+                "top": 63,
+                "left": 4
+              },
+              {
+                "top": 63,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 64,
+                "left": 2
+              },
+              {
+                "top": 64,
+                "left": 3
+              },
+              {
+                "top": 64,
+                "left": 4
+              },
+              {
+                "top": 64,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 65,
+                "left": 2
+              },
+              {
+                "top": 65,
+                "left": 3
+              },
+              {
+                "top": 65,
+                "left": 4
+              },
+              {
+                "top": 65,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 66,
+                "left": 2
+              },
+              {
+                "top": 66,
+                "left": 3
+              },
+              {
+                "top": 66,
+                "left": 4
+              },
+              {
+                "top": 66,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 67,
+                "left": 2
+              },
+              {
+                "top": 67,
+                "left": 3
+              },
+              {
+                "top": 67,
+                "left": 4
+              },
+              {
+                "top": 67,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 68,
+                "left": 2
+              },
+              {
+                "top": 68,
+                "left": 3
+              },
+              {
+                "top": 68,
+                "left": 4
+              },
+              {
+                "top": 68,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 69,
+                "left": 2
+              },
+              {
+                "top": 69,
+                "left": 3
+              },
+              {
+                "top": 69,
+                "left": 4
+              },
+              {
+                "top": 69,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 70,
+                "left": 2
+              },
+              {
+                "top": 70,
+                "left": 3
+              },
+              {
+                "top": 70,
+                "left": 4
+              },
+              {
+                "top": 70,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 71,
+                "left": 2
+              },
+              {
+                "top": 71,
+                "left": 3
+              },
+              {
+                "top": 71,
+                "left": 4
+              },
+              {
+                "top": 71,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 72,
+                "left": 2
+              },
+              {
+                "top": 72,
+                "left": 3
+              },
+              {
+                "top": 72,
+                "left": 4
+              },
+              {
+                "top": 72,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 73,
+                "left": 2
+              },
+              {
+                "top": 73,
+                "left": 3
+              },
+              {
+                "top": 73,
+                "left": 4
+              },
+              {
+                "top": 73,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 74,
+                "left": 2
+              },
+              {
+                "top": 74,
+                "left": 3
+              },
+              {
+                "top": 74,
+                "left": 4
+              },
+              {
+                "top": 74,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 75,
+                "left": 2
+              },
+              {
+                "top": 75,
+                "left": 3
+              },
+              {
+                "top": 75,
+                "left": 4
+              },
+              {
+                "top": 75,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 76,
+                "left": 2
+              },
+              {
+                "top": 76,
+                "left": 3
+              },
+              {
+                "top": 76,
+                "left": 4
+              },
+              {
+                "top": 76,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 77,
+                "left": 2
+              },
+              {
+                "top": 77,
+                "left": 3
+              },
+              {
+                "top": 77,
+                "left": 4
+              },
+              {
+                "top": 77,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 78,
+                "left": 2
+              },
+              {
+                "top": 78,
+                "left": 3
+              },
+              {
+                "top": 78,
+                "left": 4
+              },
+              {
+                "top": 78,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 79,
+                "left": 2
+              },
+              {
+                "top": 79,
+                "left": 3
+              },
+              {
+                "top": 79,
+                "left": 4
+              },
+              {
+                "top": 79,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 80,
+                "left": 2
+              },
+              {
+                "top": 80,
+                "left": 3
+              },
+              {
+                "top": 80,
+                "left": 4
+              },
+              {
+                "top": 80,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 81,
+                "left": 2
+              },
+              {
+                "top": 81,
+                "left": 3
+              },
+              {
+                "top": 81,
+                "left": 4
+              },
+              {
+                "top": 81,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 82,
+                "left": 2
+              },
+              {
+                "top": 82,
+                "left": 3
+              },
+              {
+                "top": 82,
+                "left": 4
+              },
+              {
+                "top": 82,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 4,
+            "end": 23
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Zip",
+            "rawValueJson": "\"Zip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Area",
+            "rawValueJson": "\"Area\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Codes",
+            "rawValueJson": "\"Codes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Length",
+            "rawValueJson": "\"Length\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Where ",
+            "rawValueJson": "\"Where \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "38",
+            "rawValueJson": "38",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "49",
+            "rawValueJson": "49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "54",
+            "rawValueJson": "54",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "43",
+            "rawValueJson": "43",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "35",
+            "rawValueJson": "35",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "48",
+            "rawValueJson": "48",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "48",
+            "rawValueJson": "48",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "58",
+            "rawValueJson": "58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 7,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 7,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 7,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 7,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 7,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 7,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "56",
+            "rawValueJson": "56",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 7,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 6,
+            "displayText": "44",
+            "rawValueJson": "44",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 7,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 6,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 7,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 7,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "21",
+            "rawValueJson": "21",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 7,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": "26",
+            "rawValueJson": "26",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 7,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 6,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 7,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 6,
+            "displayText": "51",
+            "rawValueJson": "51",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 7,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 6,
+            "displayText": "49",
+            "rawValueJson": "49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 7,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 6,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 7,
+            "displayText": "37",
+            "rawValueJson": "37",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 6,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 7,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 6,
+            "displayText": "46",
+            "rawValueJson": "46",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 7,
+            "displayText": "53",
+            "rawValueJson": "53",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 6,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 7,
+            "displayText": "54",
+            "rawValueJson": "54",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 6,
+            "displayText": "56",
+            "rawValueJson": "56",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 7,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 6,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 7,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 6,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 7,
+            "displayText": "56",
+            "rawValueJson": "56",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 6,
+            "displayText": "52",
+            "rawValueJson": "52",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 7,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 6,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 7,
+            "displayText": "44",
+            "rawValueJson": "44",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 6,
+            "displayText": "26",
+            "rawValueJson": "26",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 7,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 6,
+            "displayText": "39",
+            "rawValueJson": "39",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 7,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 6,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 7,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 6,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 7,
+            "displayText": "41",
+            "rawValueJson": "41",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 6,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 7,
+            "displayText": "35",
+            "rawValueJson": "35",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 6,
+            "displayText": "59",
+            "rawValueJson": "59",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 7,
+            "displayText": "39",
+            "rawValueJson": "39",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 7,
+            "displayText": "58",
+            "rawValueJson": "58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 6,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 7,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 2,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 3,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 6,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 7,
+            "displayText": "58",
+            "rawValueJson": "58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 6,
+            "displayText": "21",
+            "rawValueJson": "21",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 7,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 6,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 7,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 7,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 6,
+            "displayText": "51",
+            "rawValueJson": "51",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 7,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 6,
+            "displayText": "59",
+            "rawValueJson": "59",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 7,
+            "displayText": "39",
+            "rawValueJson": "39",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 6,
+            "displayText": "35",
+            "rawValueJson": "35",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 7,
+            "displayText": "43",
+            "rawValueJson": "43",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 6,
+            "displayText": "49",
+            "rawValueJson": "49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 7,
+            "displayText": "21",
+            "rawValueJson": "21",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 6,
+            "displayText": "53",
+            "rawValueJson": "53",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 7,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 6,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 7,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 6,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 7,
+            "displayText": "38",
+            "rawValueJson": "38",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 6,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 7,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 6,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 7,
+            "displayText": "49",
+            "rawValueJson": "49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 6,
+            "displayText": "38",
+            "rawValueJson": "38",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 7,
+            "displayText": "39",
+            "rawValueJson": "39",
+            "numberFormat": "General"
+          },
+          {
+            "row": 56,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 56,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 56,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 56,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 56,
+            "column": 6,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 56,
+            "column": 7,
+            "displayText": "43",
+            "rawValueJson": "43",
+            "numberFormat": "General"
+          },
+          {
+            "row": 57,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 57,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 57,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 57,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 57,
+            "column": 6,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 57,
+            "column": 7,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 58,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 58,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 58,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 58,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 58,
+            "column": 6,
+            "displayText": "9",
+            "rawValueJson": "9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 58,
+            "column": 7,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 59,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 59,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 59,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 59,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 59,
+            "column": 6,
+            "displayText": "48",
+            "rawValueJson": "48",
+            "numberFormat": "General"
+          },
+          {
+            "row": 59,
+            "column": 7,
+            "displayText": "48",
+            "rawValueJson": "48",
+            "numberFormat": "General"
+          },
+          {
+            "row": 60,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 60,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 60,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 60,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 60,
+            "column": 6,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 60,
+            "column": 7,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 61,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 61,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 61,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 61,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 61,
+            "column": 6,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 61,
+            "column": 7,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 62,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 62,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 62,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 62,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 62,
+            "column": 6,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 62,
+            "column": 7,
+            "displayText": "39",
+            "rawValueJson": "39",
+            "numberFormat": "General"
+          },
+          {
+            "row": 63,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 63,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 63,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 63,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 63,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 63,
+            "column": 7,
+            "displayText": "43",
+            "rawValueJson": "43",
+            "numberFormat": "General"
+          },
+          {
+            "row": 64,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 64,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 64,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 64,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 64,
+            "column": 6,
+            "displayText": "56",
+            "rawValueJson": "56",
+            "numberFormat": "General"
+          },
+          {
+            "row": 64,
+            "column": 7,
+            "displayText": "57",
+            "rawValueJson": "57",
+            "numberFormat": "General"
+          },
+          {
+            "row": 65,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 65,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 65,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 65,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 65,
+            "column": 6,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 65,
+            "column": 7,
+            "displayText": "55",
+            "rawValueJson": "55",
+            "numberFormat": "General"
+          },
+          {
+            "row": 66,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 66,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 66,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 66,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 66,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 66,
+            "column": 7,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 67,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 67,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 67,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 67,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 67,
+            "column": 6,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 67,
+            "column": 7,
+            "displayText": "51",
+            "rawValueJson": "51",
+            "numberFormat": "General"
+          },
+          {
+            "row": 68,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 68,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 68,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 68,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 68,
+            "column": 6,
+            "displayText": "57",
+            "rawValueJson": "57",
+            "numberFormat": "General"
+          },
+          {
+            "row": 68,
+            "column": 7,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 69,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 69,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 69,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 69,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 69,
+            "column": 6,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 69,
+            "column": 7,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 70,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 70,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 70,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 70,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 70,
+            "column": 6,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 70,
+            "column": 7,
+            "displayText": "9",
+            "rawValueJson": "9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 71,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 71,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 71,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 71,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 71,
+            "column": 6,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 71,
+            "column": 7,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 72,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 72,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 72,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 72,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 72,
+            "column": 6,
+            "displayText": "41",
+            "rawValueJson": "41",
+            "numberFormat": "General"
+          },
+          {
+            "row": 72,
+            "column": 7,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 73,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 73,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 73,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 73,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 73,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 73,
+            "column": 7,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 74,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 74,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 74,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 74,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 74,
+            "column": 6,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 74,
+            "column": 7,
+            "displayText": "9",
+            "rawValueJson": "9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 75,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 75,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 75,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 75,
+            "column": 5,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 75,
+            "column": 6,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 75,
+            "column": 7,
+            "displayText": "35",
+            "rawValueJson": "35",
+            "numberFormat": "General"
+          },
+          {
+            "row": 76,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 76,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 76,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 76,
+            "column": 5,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 76,
+            "column": 6,
+            "displayText": "55",
+            "rawValueJson": "55",
+            "numberFormat": "General"
+          },
+          {
+            "row": 76,
+            "column": 7,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 77,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 77,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 77,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 77,
+            "column": 5,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 77,
+            "column": 6,
+            "displayText": "54",
+            "rawValueJson": "54",
+            "numberFormat": "General"
+          },
+          {
+            "row": 77,
+            "column": 7,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 78,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 78,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 78,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 78,
+            "column": 5,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 78,
+            "column": 6,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 78,
+            "column": 7,
+            "displayText": "29",
+            "rawValueJson": "29",
+            "numberFormat": "General"
+          },
+          {
+            "row": 79,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 79,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 79,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 79,
+            "column": 5,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 79,
+            "column": 6,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 79,
+            "column": 7,
+            "displayText": "43",
+            "rawValueJson": "43",
+            "numberFormat": "General"
+          },
+          {
+            "row": 80,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 80,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 80,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 80,
+            "column": 5,
+            "displayText": "Cat 6 ",
+            "rawValueJson": "\"Cat 6 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 80,
+            "column": 6,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 80,
+            "column": 7,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 81,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 81,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 81,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 81,
+            "column": 5,
+            "displayText": "Cat 7  ",
+            "rawValueJson": "\"Cat 7  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 81,
+            "column": 6,
+            "displayText": "51",
+            "rawValueJson": "51",
+            "numberFormat": "General"
+          },
+          {
+            "row": 81,
+            "column": 7,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 82,
+            "column": 2,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 82,
+            "column": 3,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 82,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 82,
+            "column": 5,
+            "displayText": "Cat 8",
+            "rawValueJson": "\"Cat 8\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 82,
+            "column": 6,
+            "displayText": "35",
+            "rawValueJson": "35",
+            "numberFormat": "General"
+          },
+          {
+            "row": 82,
+            "column": 7,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9716981132075472,
+    "sheetName": "HERE",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "simpleCrossTable",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "705ad07c-2092-4c5f-b727-5352e8ae8d17",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{8A3368B1-8F3F-4D1B-9C56-6B8B0BEF8B84}",
+      "top": 1,
+      "left": 1,
+      "bottom": 6,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{8A3368B1-8F3F-4D1B-9C56-6B8B0BEF8B84}",
+          "top": 1,
+          "bottom": 6,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 5
+          }
+        ],
+        "headerNames": [
+          "\"Category Type\"",
+          "\"\"",
+          "\"Area\"",
+          "\"\"",
+          "\"Length\"",
+          "\"\"",
+          "\"Okay\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Category Type",
+            "rawValueJson": "\"Category Type\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Area",
+            "rawValueJson": "\"Area\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Length",
+            "rawValueJson": "\"Length\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Okay",
+            "rawValueJson": "\"Okay\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Cat 1",
+            "rawValueJson": "\"Cat 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "PCC, CP",
+            "rawValueJson": "\"PCC, CP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Cat 2 ",
+            "rawValueJson": "\"Cat 2 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "OFF-ON/ON-OFF",
+            "rawValueJson": "\"OFF-ON/ON-OFF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "COA, KOC",
+            "rawValueJson": "\"COA, KOC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Cat 3 ",
+            "rawValueJson": "\"Cat 3 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Cat 4 ",
+            "rawValueJson": "\"Cat 4 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Cat 5 ",
+            "rawValueJson": "\"Cat 5 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.5,
+    "sheetName": "Lookup",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Category Type",
+          "rawValueJson": "\"Category Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Area",
+          "rawValueJson": "\"Area\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Length",
+          "rawValueJson": "\"Length\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Okay",
+          "rawValueJson": "\"Okay\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Cat 1",
+          "rawValueJson": "\"Cat 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "ABC",
+          "rawValueJson": "\"ABC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "PCC, CP",
+          "rawValueJson": "\"PCC, CP\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Cat 2 ",
+          "rawValueJson": "\"Cat 2 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "OFF-ON/ON-OFF",
+          "rawValueJson": "\"OFF-ON/ON-OFF\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "COA, KOC",
+          "rawValueJson": "\"COA, KOC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Cat 3 ",
+          "rawValueJson": "\"Cat 3 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Cat 4 ",
+          "rawValueJson": "\"Cat 4 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Cat 5 ",
+          "rawValueJson": "\"Cat 5 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "a48f6035-132a-48a7-8293-44c39b9535e5",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

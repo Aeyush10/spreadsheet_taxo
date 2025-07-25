@@ -1,0 +1,747 @@
+[
+  {
+    "range": {
+      "worksheetId": "{E5991E5F-2117-4BD0-98EE-7A1F9DFFCE7D}",
+      "top": 1,
+      "left": 1,
+      "bottom": 10,
+      "right": 13
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{E5991E5F-2117-4BD0-98EE-7A1F9DFFCE7D}",
+          "top": 1,
+          "bottom": 10,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 9
+          }
+        ],
+        "headerNames": [
+          "\"Reference\"",
+          "\"Invoice\"",
+          "\"Type\"",
+          "\"Plan\"",
+          "\"Order\"",
+          "\"Model\"",
+          "\"Model Desc.\"",
+          "\"Start Plan Date\"",
+          "\"Invoice Amount\"",
+          "\"Outstanding Amount\"",
+          "\"Other\"",
+          "\"Date in Stock\"",
+          "\"Ageing\""
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{E5991E5F-2117-4BD0-98EE-7A1F9DFFCE7D}",
+          "top": 1,
+          "bottom": 10,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 8,
+            "end": 9
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Maturities",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Reference",
+          "rawValueJson": "\"Reference\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Invoice",
+          "rawValueJson": "\"Invoice\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Type",
+          "rawValueJson": "\"Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Plan",
+          "rawValueJson": "\"Plan\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Order",
+          "rawValueJson": "\"Order\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Model",
+          "rawValueJson": "\"Model\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Model Desc.",
+          "rawValueJson": "\"Model Desc.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Start Plan Date",
+          "rawValueJson": "\"Start Plan Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Invoice Amount",
+          "rawValueJson": "\"Invoice Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Outstanding Amount",
+          "rawValueJson": "\"Outstanding Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "Other",
+          "rawValueJson": "\"Other\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "Date in Stock",
+          "rawValueJson": "\"Date in Stock\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "Ageing",
+          "rawValueJson": "\"Ageing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "MA2122194",
+          "rawValueJson": "\"MA2122194\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "33347",
+          "rawValueJson": "33347",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "DK",
+          "rawValueJson": "\"DK\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "M1 - DV 120 MATURE 180 DAYS",
+          "rawValueJson": "\"M1 - DV 120 MATURE 180 DAYS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "LZR4Q",
+          "rawValueJson": "\"LZR4Q\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "201ER",
+          "rawValueJson": "\"201ER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "2021/12/29",
+          "rawValueJson": "\"2021/12/29\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "338360.76",
+          "rawValueJson": "338360.76",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "3341.66",
+          "rawValueJson": "3341.66",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "244",
+          "rawValueJson": "244",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "MK4234301",
+          "rawValueJson": "\"MK4234301\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "22701",
+          "rawValueJson": "22701",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "KR",
+          "rawValueJson": "\"KR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "CC - COURTESY CARS",
+          "rawValueJson": "\"CC - COURTESY CARS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "L2SFX",
+          "rawValueJson": "\"L2SFX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "201MJ",
+          "rawValueJson": "\"201MJ\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "2022/02/14",
+          "rawValueJson": "\"2022/02/14\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "645423.5",
+          "rawValueJson": "645423.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "43028.23",
+          "rawValueJson": "43028.23",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": "140",
+          "rawValueJson": "140",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "ME2414109",
+          "rawValueJson": "\"ME2414109\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "71497",
+          "rawValueJson": "71497",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "DK",
+          "rawValueJson": "\"DK\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "AA - EUROV 90 DAYS IFP",
+          "rawValueJson": "\"AA - EUROV 90 DAYS IFP\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "L325V",
+          "rawValueJson": "\"L325V\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "201ER",
+          "rawValueJson": "\"201ER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "2022/04/07",
+          "rawValueJson": "\"2022/04/07\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "325667.13",
+          "rawValueJson": "325667.13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "33401.66",
+          "rawValueJson": "33401.66",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 13,
+          "displayText": "91",
+          "rawValueJson": "91",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "MK3009213",
+          "rawValueJson": "\"MK3009213\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "23131",
+          "rawValueJson": "23131",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "DK",
+          "rawValueJson": "\"DK\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "CC - COURTESY CARS",
+          "rawValueJson": "\"CC - COURTESY CARS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "L2LWT",
+          "rawValueJson": "\"L2LWT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "201MR",
+          "rawValueJson": "\"201MR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "2022/04/11",
+          "rawValueJson": "\"2022/04/11\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "292293.23",
+          "rawValueJson": "292293.23",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "3009.8",
+          "rawValueJson": "3009.8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 13,
+          "displayText": "85",
+          "rawValueJson": "85",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "MD301830",
+          "rawValueJson": "\"MD301830\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "23132",
+          "rawValueJson": "23132",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "DK",
+          "rawValueJson": "\"DK\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "M1 - DV 120 MATURE 180 DAYS",
+          "rawValueJson": "\"M1 - DV 120 MATURE 180 DAYS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "L2M56",
+          "rawValueJson": "\"L2M56\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "201MR",
+          "rawValueJson": "\"201MR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "2022/04/11",
+          "rawValueJson": "\"2022/04/11\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "273509.89",
+          "rawValueJson": "273509.89",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "18233.99",
+          "rawValueJson": "18233.99",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 13,
+          "displayText": "85",
+          "rawValueJson": "85",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "8c0e4890-6163-44fc-aa3e-e00f972efd7d",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

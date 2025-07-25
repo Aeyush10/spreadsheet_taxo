@@ -1,0 +1,301 @@
+[
+  {
+    "range": {
+      "worksheetId": "{DB91CF03-33DC-487E-A76E-C241A294FE15}",
+      "top": 5,
+      "left": 1,
+      "bottom": 13,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{DB91CF03-33DC-487E-A76E-C241A294FE15}",
+          "top": 5,
+          "bottom": 13,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 8
+          }
+        ],
+        "headerNames": [
+          "\"Date\"",
+          "\"Description\"",
+          "\"Name\"",
+          "\"Amount\"",
+          "\"Type\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Type",
+          "rawValueJson": "\"Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "10-03-2021",
+          "rawValueJson": "44265",
+          "numberFormat": "dd-mm-yyyy;@"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Deposit",
+          "rawValueJson": "\"Deposit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Harvey",
+          "rawValueJson": "\"Harvey\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": " 4,700.00 ",
+          "rawValueJson": "4700",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Revenue",
+          "rawValueJson": "\"Revenue\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "15-04-2021",
+          "rawValueJson": "44301",
+          "numberFormat": "dd-mm-yyyy;@"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "Deposit",
+          "rawValueJson": "\"Deposit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "Omin",
+          "rawValueJson": "\"Omin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": " 1,500.00 ",
+          "rawValueJson": "1500",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "Revenue",
+          "rawValueJson": "\"Revenue\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "15-04-2021",
+          "rawValueJson": "44301",
+          "numberFormat": "dd-mm-yyyy;@"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Withdrawal",
+          "rawValueJson": "\"Withdrawal\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "George",
+          "rawValueJson": "\"George\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": " 40,020.00 ",
+          "rawValueJson": "40020",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "Expenses",
+          "rawValueJson": "\"Expenses\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "displayText": "15-04-2021",
+          "rawValueJson": "44301",
+          "numberFormat": "dd-mm-yyyy;@"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "Withdrawal",
+          "rawValueJson": "\"Withdrawal\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "Joe",
+          "rawValueJson": "\"Joe\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "displayText": " 40,020.00 ",
+          "rawValueJson": "40020",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "displayText": "Expenses",
+          "rawValueJson": "\"Expenses\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "displayText": "15-04-2021",
+          "rawValueJson": "44301",
+          "numberFormat": "dd-mm-yyyy;@"
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "displayText": "Deposit",
+          "rawValueJson": "\"Deposit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "displayText": "Patience",
+          "rawValueJson": "\"Patience\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "displayText": " 15.00 ",
+          "rawValueJson": "15",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "7a55de82-2b0e-4a6e-9fa2-f000d89de612",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

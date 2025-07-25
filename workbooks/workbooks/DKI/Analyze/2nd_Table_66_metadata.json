@@ -1,0 +1,606 @@
+[
+  {
+    "range": {
+      "worksheetId": "{2A37CD82-B971-461F-9764-A103726948F1}",
+      "top": 1,
+      "left": 1,
+      "bottom": 13,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{2A37CD82-B971-461F-9764-A103726948F1}",
+          "top": 1,
+          "bottom": 13,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Description\"",
+          "\"Category\"",
+          "\"Sub-Category\"",
+          "\"Date\"",
+          "\"Amount\"",
+          "\"Status\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Category",
+            "rawValueJson": "\"Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Sub-Category",
+            "rawValueJson": "\"Sub-Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Status",
+            "rawValueJson": "\"Status\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Mortgage Company",
+            "rawValueJson": "\"Mortgage Company\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Housing",
+            "rawValueJson": "\"Housing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Mortgage",
+            "rawValueJson": "\"Mortgage\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "9/1/2013",
+            "rawValueJson": "41518",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "873.67",
+            "rawValueJson": "873.67",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Cleared",
+            "rawValueJson": "\"Cleared\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Phone Company",
+            "rawValueJson": "\"Phone Company\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Housing",
+            "rawValueJson": "\"Housing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Telephone",
+            "rawValueJson": "\"Telephone\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "9/6/2013",
+            "rawValueJson": "41523",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "116.08",
+            "rawValueJson": "116.08",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Cleared",
+            "rawValueJson": "\"Cleared\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "HoA",
+            "rawValueJson": "\"HoA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Housing",
+            "rawValueJson": "\"Housing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Other",
+            "rawValueJson": "\"Other\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "9/7/2013",
+            "rawValueJson": "41524",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "35",
+            "rawValueJson": "35",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Cleared",
+            "rawValueJson": "\"Cleared\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Water Company",
+            "rawValueJson": "\"Water Company\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Housing",
+            "rawValueJson": "\"Housing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Water",
+            "rawValueJson": "\"Water\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "9/9/2013",
+            "rawValueJson": "41526",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "40.15",
+            "rawValueJson": "40.15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Cleared",
+            "rawValueJson": "\"Cleared\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Gas Company",
+            "rawValueJson": "\"Gas Company\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Housing",
+            "rawValueJson": "\"Housing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Gas",
+            "rawValueJson": "\"Gas\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "9/9/2013",
+            "rawValueJson": "41526",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "51.17",
+            "rawValueJson": "51.17",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Cleared",
+            "rawValueJson": "\"Cleared\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table51",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "2nd_Table_66",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Category",
+          "rawValueJson": "\"Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Sub-Category",
+          "rawValueJson": "\"Sub-Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Status",
+          "rawValueJson": "\"Status\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Mortgage Company",
+          "rawValueJson": "\"Mortgage Company\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Housing",
+          "rawValueJson": "\"Housing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Mortgage",
+          "rawValueJson": "\"Mortgage\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "9/1/2013",
+          "rawValueJson": "41518",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "873.67",
+          "rawValueJson": "873.67",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Cleared",
+          "rawValueJson": "\"Cleared\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Phone Company",
+          "rawValueJson": "\"Phone Company\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Housing",
+          "rawValueJson": "\"Housing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Telephone",
+          "rawValueJson": "\"Telephone\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "9/6/2013",
+          "rawValueJson": "41523",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "116.08",
+          "rawValueJson": "116.08",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Cleared",
+          "rawValueJson": "\"Cleared\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "HoA",
+          "rawValueJson": "\"HoA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Housing",
+          "rawValueJson": "\"Housing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Other",
+          "rawValueJson": "\"Other\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "9/7/2013",
+          "rawValueJson": "41524",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "35",
+          "rawValueJson": "35",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Cleared",
+          "rawValueJson": "\"Cleared\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Water Company",
+          "rawValueJson": "\"Water Company\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Housing",
+          "rawValueJson": "\"Housing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Water",
+          "rawValueJson": "\"Water\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "9/9/2013",
+          "rawValueJson": "41526",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "40.15",
+          "rawValueJson": "40.15",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Cleared",
+          "rawValueJson": "\"Cleared\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Gas Company",
+          "rawValueJson": "\"Gas Company\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Housing",
+          "rawValueJson": "\"Housing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Gas",
+          "rawValueJson": "\"Gas\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "9/9/2013",
+          "rawValueJson": "41526",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "51.17",
+          "rawValueJson": "51.17",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Cleared",
+          "rawValueJson": "\"Cleared\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "3f630f71-8512-4313-894f-5eec1ef002cd",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

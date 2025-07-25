@@ -1,0 +1,411 @@
+[
+  {
+    "range": {
+      "worksheetId": "{BC2E0711-35A8-45C7-969E-6EB70A1C4203}",
+      "top": 1,
+      "left": 1,
+      "bottom": 8,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{BC2E0711-35A8-45C7-969E-6EB70A1C4203}",
+          "top": 1,
+          "bottom": 8,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{BC2E0711-35A8-45C7-969E-6EB70A1C4203}",
+          "top": 1,
+          "bottom": 8,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 4,
+            "end": 6
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": true,
+    "boundaryConfidence": 0.9666666666666667,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Session",
+          "rawValueJson": "\"Session\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Result",
+          "rawValueJson": "\"Result\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Passes (Hidden)",
+          "rawValueJson": "\"Passes (Hidden)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Passes",
+          "rawValueJson": "\"Passes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Jack",
+          "rawValueJson": "\"Jack\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "1234",
+          "rawValueJson": "1234",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Pass",
+          "rawValueJson": "\"Pass\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "1234",
+          "rawValueJson": "1234",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "#N/A",
+          "rawValueJson": "\"#N/A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "1234",
+          "rawValueJson": "1234",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Paulie",
+          "rawValueJson": "\"Paulie\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "45678",
+          "rawValueJson": "45678",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Pass",
+          "rawValueJson": "\"Pass\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "45678",
+          "rawValueJson": "45678",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "#N/A",
+          "rawValueJson": "\"#N/A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "45678",
+          "rawValueJson": "45678",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Freddo",
+          "rawValueJson": "\"Freddo\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "99999",
+          "rawValueJson": "99999",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Fail",
+          "rawValueJson": "\"Fail\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "#N/A",
+          "rawValueJson": "\"#N/A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "15667",
+          "rawValueJson": "15667",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Sandy",
+          "rawValueJson": "\"Sandy\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "15667",
+          "rawValueJson": "15667",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Pass",
+          "rawValueJson": "\"Pass\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "15667",
+          "rawValueJson": "15667",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "#N/A",
+          "rawValueJson": "\"#N/A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "11111",
+          "rawValueJson": "11111",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Graham",
+          "rawValueJson": "\"Graham\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "33333",
+          "rawValueJson": "33333",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Fail",
+          "rawValueJson": "\"Fail\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "8042a113-5351-43c5-a242-c6f1abce41ea",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

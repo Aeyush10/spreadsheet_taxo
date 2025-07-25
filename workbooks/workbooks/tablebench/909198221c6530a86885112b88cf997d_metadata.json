@@ -1,0 +1,545 @@
+[
+  {
+    "range": {
+      "worksheetId": "{2CA3D132-A5AA-4455-B7A5-162916BB52BE}",
+      "top": 1,
+      "left": 1,
+      "bottom": 12,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{2CA3D132-A5AA-4455-B7A5-162916BB52BE}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"pilot\"",
+          "\"organization\"",
+          "\"total flights\"",
+          "\"usaf space flights\"",
+          "\"fai space flights\"",
+          "\"max mach\"",
+          "\"max speed (mph)\"",
+          "\"max altitude (miles)\""
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{2CA3D132-A5AA-4455-B7A5-162916BB52BE}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["average"],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 4
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "pilot",
+          "rawValueJson": "\"pilot\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "organization",
+          "rawValueJson": "\"organization\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "total flights",
+          "rawValueJson": "\"total flights\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "usaf space flights",
+          "rawValueJson": "\"usaf space flights\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "fai space flights",
+          "rawValueJson": "\"fai space flights\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "max mach",
+          "rawValueJson": "\"max mach\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "max speed (mph)",
+          "rawValueJson": "\"max speed (mph)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "max altitude (miles)",
+          "rawValueJson": "\"max altitude (miles)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "michael j adams",
+          "rawValueJson": "\"michael j adams\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "us air force",
+          "rawValueJson": "\"us air force\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "5.59",
+          "rawValueJson": "5.59",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "3822",
+          "rawValueJson": "3822",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "50.3",
+          "rawValueJson": "50.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "neil armstrong",
+          "rawValueJson": "\"neil armstrong\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "nasa",
+          "rawValueJson": "\"nasa\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "5.74",
+          "rawValueJson": "5.74",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "3989",
+          "rawValueJson": "3989",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "39.2",
+          "rawValueJson": "39.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "scott crossfield",
+          "rawValueJson": "\"scott crossfield\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "north american aviation",
+          "rawValueJson": "\"north american aviation\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "14",
+          "rawValueJson": "14",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "2.97",
+          "rawValueJson": "2.97",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "1959",
+          "rawValueJson": "1959",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "15.3",
+          "rawValueJson": "15.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "william h dana",
+          "rawValueJson": "\"william h dana\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "nasa",
+          "rawValueJson": "\"nasa\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "16",
+          "rawValueJson": "16",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "5.53",
+          "rawValueJson": "5.53",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "3897",
+          "rawValueJson": "3897",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "58.1",
+          "rawValueJson": "58.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "joseph h engle",
+          "rawValueJson": "\"joseph h engle\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "us air force",
+          "rawValueJson": "\"us air force\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "16",
+          "rawValueJson": "16",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "5.71",
+          "rawValueJson": "5.71",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "3887",
+          "rawValueJson": "3887",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "53.1",
+          "rawValueJson": "53.1",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": ["AugLoop_Excel_ExcelRangeWrapperAnnotation", "AugLoop_Core_Annotation"]
+    },
+    "id": "3b7885d2-483b-4540-993b-fa89cfb38839",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

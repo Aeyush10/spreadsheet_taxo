@@ -1,0 +1,2688 @@
+[
+  {
+    "range": {
+      "worksheetId": "{62A68D8C-08D7-448A-B879-CCA3E8DB53BE}",
+      "top": 3,
+      "left": 1,
+      "bottom": 14,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{62A68D8C-08D7-448A-B879-CCA3E8DB53BE}",
+          "top": 3,
+          "bottom": 14,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"Product\"",
+          "\"Code\"",
+          "\"Balance\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Product",
+            "rawValueJson": "\"Product\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Code",
+            "rawValueJson": "\"Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Balance",
+            "rawValueJson": "\"Balance\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "PLASTIC ICING 1KG ",
+            "rawValueJson": "\"PLASTIC ICING 1KG \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "B001",
+            "rawValueJson": "\"B001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "PLASTIC ICING 500G",
+            "rawValueJson": "\"PLASTIC ICING 500G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "B002",
+            "rawValueJson": "\"B002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "120",
+            "rawValueJson": "120",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "FINO WHIP 5KG ",
+            "rawValueJson": "\"FINO WHIP 5KG \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "B003",
+            "rawValueJson": "\"B003\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "90",
+            "rawValueJson": "90",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "FINO WHIP 1KG",
+            "rawValueJson": "\"FINO WHIP 1KG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "B004",
+            "rawValueJson": "\"B004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "247",
+            "rawValueJson": "247",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "FINOWHIP 500G",
+            "rawValueJson": "\"FINOWHIP 500G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "B005",
+            "rawValueJson": "\"B005\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Inventory",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Product",
+          "rawValueJson": "\"Product\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Code",
+          "rawValueJson": "\"Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Balance",
+          "rawValueJson": "\"Balance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "PLASTIC ICING 1KG ",
+          "rawValueJson": "\"PLASTIC ICING 1KG \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "B001",
+          "rawValueJson": "\"B001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "PLASTIC ICING 500G",
+          "rawValueJson": "\"PLASTIC ICING 500G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "B002",
+          "rawValueJson": "\"B002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "120",
+          "rawValueJson": "120",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "FINO WHIP 5KG ",
+          "rawValueJson": "\"FINO WHIP 5KG \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "B003",
+          "rawValueJson": "\"B003\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "90",
+          "rawValueJson": "90",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "FINO WHIP 1KG",
+          "rawValueJson": "\"FINO WHIP 1KG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "B004",
+          "rawValueJson": "\"B004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "247",
+          "rawValueJson": "247",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "FINOWHIP 500G",
+          "rawValueJson": "\"FINOWHIP 500G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "B005",
+          "rawValueJson": "\"B005\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "d416f080-945c-4b50-aba1-459f0c7500c3",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{6AF85CFE-C139-4422-B222-1377AB8BFC22}",
+      "top": 3,
+      "left": 1,
+      "bottom": 7,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{6AF85CFE-C139-4422-B222-1377AB8BFC22}",
+          "top": 3,
+          "bottom": 7,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 4
+          }
+        ],
+        "headerNames": [
+          "\"Date\"",
+          "\"Supplier\"",
+          "\"VAT Number\"",
+          "\"Item Bought\"",
+          "\"Code\"",
+          "\"Quantity\"",
+          "\"Amount\"",
+          "\"VAT\"",
+          "\"Total Amount\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Supplier",
+            "rawValueJson": "\"Supplier\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "VAT Number",
+            "rawValueJson": "\"VAT Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Item Bought",
+            "rawValueJson": "\"Item Bought\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Code",
+            "rawValueJson": "\"Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": " Quantity ",
+            "rawValueJson": "\"Quantity\"",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": " Amount ",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": " VAT ",
+            "rawValueJson": "\"VAT\"",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "Total Amount",
+            "rawValueJson": "\"Total Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "4/12/2023",
+            "rawValueJson": "45028",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "EDGARS",
+            "rawValueJson": "\"EDGARS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "200500",
+            "rawValueJson": "200500",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "PLASTIC ICING 500G",
+            "rawValueJson": "\"PLASTIC ICING 500G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "B002",
+            "rawValueJson": "\"B002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": " 400 ",
+            "rawValueJson": "400",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": " 800 ",
+            "rawValueJson": "800",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": " 120 ",
+            "rawValueJson": "120",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "920",
+            "rawValueJson": "920",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "4/15/2023",
+            "rawValueJson": "45031",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "EDGARS",
+            "rawValueJson": "\"EDGARS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "200123",
+            "rawValueJson": "200123",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "FINO WHIP 1KG",
+            "rawValueJson": "\"FINO WHIP 1KG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "B004",
+            "rawValueJson": "\"B004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": " 50 ",
+            "rawValueJson": "50",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": " 300 ",
+            "rawValueJson": "300",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": " 45 ",
+            "rawValueJson": "45",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "345",
+            "rawValueJson": "345",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "4/15/2023",
+            "rawValueJson": "45031",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "YOUTH PL",
+            "rawValueJson": "\"YOUTH PL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "FINOWHIP250G",
+            "rawValueJson": "\"FINOWHIP250G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "B006",
+            "rawValueJson": "\"B006\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": " 70 ",
+            "rawValueJson": "70",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": " 140 ",
+            "rawValueJson": "140",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": " 21 ",
+            "rawValueJson": "21",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "161",
+            "rawValueJson": "161",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "4/16/2023",
+            "rawValueJson": "45032",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "200189",
+            "rawValueJson": "200189",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "WHIPPET 1KG",
+            "rawValueJson": "\"WHIPPET 1KG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "B008",
+            "rawValueJson": "\"B008\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": " 50 ",
+            "rawValueJson": "50",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": " 120 ",
+            "rawValueJson": "120",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": " 18 ",
+            "rawValueJson": "18",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 7,
+            "column": 9,
+            "displayText": "138",
+            "rawValueJson": "138",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{6AF85CFE-C139-4422-B222-1377AB8BFC22}",
+          "top": 3,
+          "bottom": 7,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 2,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          8
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 5,
+            "end": 7
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Supplier",
+            "rawValueJson": "\"Supplier\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "VAT Number",
+            "rawValueJson": "\"VAT Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Item Bought",
+            "rawValueJson": "\"Item Bought\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Code",
+            "rawValueJson": "\"Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": " Quantity ",
+            "rawValueJson": "\"Quantity\"",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "4/12/2023",
+            "rawValueJson": "45028",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "EDGARS",
+            "rawValueJson": "\"EDGARS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "200500",
+            "rawValueJson": "200500",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "PLASTIC ICING 500G",
+            "rawValueJson": "\"PLASTIC ICING 500G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "B002",
+            "rawValueJson": "\"B002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": " 400 ",
+            "rawValueJson": "400",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "4/15/2023",
+            "rawValueJson": "45031",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "EDGARS",
+            "rawValueJson": "\"EDGARS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "200123",
+            "rawValueJson": "200123",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "FINO WHIP 1KG",
+            "rawValueJson": "\"FINO WHIP 1KG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "B004",
+            "rawValueJson": "\"B004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": " 50 ",
+            "rawValueJson": "50",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "4/15/2023",
+            "rawValueJson": "45031",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "YOUTH PL",
+            "rawValueJson": "\"YOUTH PL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "FINOWHIP250G",
+            "rawValueJson": "\"FINOWHIP250G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "B006",
+            "rawValueJson": "\"B006\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": " 70 ",
+            "rawValueJson": "70",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "4/16/2023",
+            "rawValueJson": "45032",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "200189",
+            "rawValueJson": "200189",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "WHIPPET 1KG",
+            "rawValueJson": "\"WHIPPET 1KG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "B008",
+            "rawValueJson": "\"B008\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": " 50 ",
+            "rawValueJson": "50",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Purchases",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Supplier",
+          "rawValueJson": "\"Supplier\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "VAT Number",
+          "rawValueJson": "\"VAT Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Item Bought",
+          "rawValueJson": "\"Item Bought\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Code",
+          "rawValueJson": "\"Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": " Quantity ",
+          "rawValueJson": "\"Quantity\"",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": " Amount ",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": " VAT ",
+          "rawValueJson": "\"VAT\"",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Total Amount",
+          "rawValueJson": "\"Total Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "4/12/2023",
+          "rawValueJson": "45028",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "EDGARS",
+          "rawValueJson": "\"EDGARS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "200500",
+          "rawValueJson": "200500",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "PLASTIC ICING 500G",
+          "rawValueJson": "\"PLASTIC ICING 500G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "B002",
+          "rawValueJson": "\"B002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": " 400 ",
+          "rawValueJson": "400",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": " 800 ",
+          "rawValueJson": "800",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": " 120 ",
+          "rawValueJson": "120",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "920",
+          "rawValueJson": "920",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "4/15/2023",
+          "rawValueJson": "45031",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "EDGARS",
+          "rawValueJson": "\"EDGARS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "200123",
+          "rawValueJson": "200123",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "FINO WHIP 1KG",
+          "rawValueJson": "\"FINO WHIP 1KG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "B004",
+          "rawValueJson": "\"B004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": " 50 ",
+          "rawValueJson": "50",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": " 300 ",
+          "rawValueJson": "300",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": " 45 ",
+          "rawValueJson": "45",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "345",
+          "rawValueJson": "345",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "4/15/2023",
+          "rawValueJson": "45031",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "YOUTH PL",
+          "rawValueJson": "\"YOUTH PL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "FINOWHIP250G",
+          "rawValueJson": "\"FINOWHIP250G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "B006",
+          "rawValueJson": "\"B006\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": " 70 ",
+          "rawValueJson": "70",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": " 140 ",
+          "rawValueJson": "140",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": " 21 ",
+          "rawValueJson": "21",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "161",
+          "rawValueJson": "161",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "4/16/2023",
+          "rawValueJson": "45032",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "200189",
+          "rawValueJson": "200189",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "WHIPPET 1KG",
+          "rawValueJson": "\"WHIPPET 1KG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "B008",
+          "rawValueJson": "\"B008\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": " 50 ",
+          "rawValueJson": "50",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": " 120 ",
+          "rawValueJson": "120",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": " 18 ",
+          "rawValueJson": "18",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "displayText": "138",
+          "rawValueJson": "138",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "5b40f76d-a779-4e41-907f-4c92ca947610",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{02AE583D-82AC-4AB1-AEB4-0964B94C513F}",
+      "top": 3,
+      "left": 1,
+      "bottom": 10,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{02AE583D-82AC-4AB1-AEB4-0964B94C513F}",
+          "top": 3,
+          "bottom": 10,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ],
+        "headerNames": [
+          "\"Date\"",
+          "\"Invoice\"",
+          "\"Product\"",
+          "\"Code\"",
+          "\"Quantity\"",
+          "\"Unit Per Price\"",
+          "\"Net Amount\"",
+          "\"VAT\"",
+          "\"Amount VAT\"",
+          "\"Customer\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Invoice",
+            "rawValueJson": "\"Invoice\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Product",
+            "rawValueJson": "\"Product\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Code",
+            "rawValueJson": "\"Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Quantity",
+            "rawValueJson": "\"Quantity\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Unit Per Price",
+            "rawValueJson": "\"Unit Per Price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "Net Amount",
+            "rawValueJson": "\"Net Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "VAT",
+            "rawValueJson": "\"VAT\"",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "Amount VAT",
+            "rawValueJson": "\"Amount VAT\"",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "Customer",
+            "rawValueJson": "\"Customer\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "4/12/2023",
+            "rawValueJson": "45028",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BK 002",
+            "rawValueJson": "\"BK 002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "PLASTIC ICING 500G",
+            "rawValueJson": "\"PLASTIC ICING 500G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "B002",
+            "rawValueJson": "\"B002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "15%",
+            "rawValueJson": "0.15",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": " 0.30 ",
+            "rawValueJson": "0.3",
+            "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "TM",
+            "rawValueJson": "\"TM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "4/14/2023",
+            "rawValueJson": "45030",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "BK 002",
+            "rawValueJson": "\"BK 002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "FINO WHIP 1KG",
+            "rawValueJson": "\"FINO WHIP 1KG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "B004",
+            "rawValueJson": "\"B004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "15%",
+            "rawValueJson": "0.15",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": " 0.90 ",
+            "rawValueJson": "0.9",
+            "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "SPAR",
+            "rawValueJson": "\"SPAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "4/12/2023",
+            "rawValueJson": "45028",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "BK 003",
+            "rawValueJson": "\"BK 003\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "PLASTIC ICING 500G",
+            "rawValueJson": "\"PLASTIC ICING 500G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "B002",
+            "rawValueJson": "\"B002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "15%",
+            "rawValueJson": "0.15",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": " 0.60 ",
+            "rawValueJson": "0.6",
+            "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "OK MART",
+            "rawValueJson": "\"OK MART\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "4/12/2023",
+            "rawValueJson": "45028",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "BK 004",
+            "rawValueJson": "\"BK 004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "FINOWHIP250G",
+            "rawValueJson": "\"FINOWHIP250G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "B006",
+            "rawValueJson": "\"B006\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "15%",
+            "rawValueJson": "0.15",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 7,
+            "column": 9,
+            "displayText": " 1.20 ",
+            "rawValueJson": "1.2",
+            "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 7,
+            "column": 10,
+            "displayText": "TM",
+            "rawValueJson": "\"TM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "4/12/2023",
+            "rawValueJson": "45028",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "BK 005",
+            "rawValueJson": "\"BK 005\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "WHIPPET 1KG",
+            "rawValueJson": "\"WHIPPET 1KG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "B008",
+            "rawValueJson": "\"B008\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "800",
+            "rawValueJson": "800",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "15%",
+            "rawValueJson": "0.15",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 8,
+            "column": 9,
+            "displayText": " 6.00 ",
+            "rawValueJson": "6",
+            "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 8,
+            "column": 10,
+            "displayText": "SPAR",
+            "rawValueJson": "\"SPAR\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9523809523809523,
+    "sheetName": "Sales",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Invoice",
+          "rawValueJson": "\"Invoice\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Product",
+          "rawValueJson": "\"Product\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Code",
+          "rawValueJson": "\"Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Quantity",
+          "rawValueJson": "\"Quantity\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Unit Per Price",
+          "rawValueJson": "\"Unit Per Price\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "Net Amount",
+          "rawValueJson": "\"Net Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "VAT",
+          "rawValueJson": "\"VAT\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Amount VAT",
+          "rawValueJson": "\"Amount VAT\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "Customer",
+          "rawValueJson": "\"Customer\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "4/12/2023",
+          "rawValueJson": "45028",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "BK 002",
+          "rawValueJson": "\"BK 002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "PLASTIC ICING 500G",
+          "rawValueJson": "\"PLASTIC ICING 500G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "B002",
+          "rawValueJson": "\"B002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "50",
+          "rawValueJson": "50",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "15%",
+          "rawValueJson": "0.15",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": " 0.30 ",
+          "rawValueJson": "0.3",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "TM",
+          "rawValueJson": "\"TM\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "4/14/2023",
+          "rawValueJson": "45030",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "BK 002",
+          "rawValueJson": "\"BK 002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "FINO WHIP 1KG",
+          "rawValueJson": "\"FINO WHIP 1KG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "B004",
+          "rawValueJson": "\"B004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "15%",
+          "rawValueJson": "0.15",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": " 0.90 ",
+          "rawValueJson": "0.9",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "SPAR",
+          "rawValueJson": "\"SPAR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "4/12/2023",
+          "rawValueJson": "45028",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "BK 003",
+          "rawValueJson": "\"BK 003\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "PLASTIC ICING 500G",
+          "rawValueJson": "\"PLASTIC ICING 500G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "B002",
+          "rawValueJson": "\"B002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "50",
+          "rawValueJson": "50",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "15%",
+          "rawValueJson": "0.15",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": " 0.60 ",
+          "rawValueJson": "0.6",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "OK MART",
+          "rawValueJson": "\"OK MART\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "4/12/2023",
+          "rawValueJson": "45028",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "BK 004",
+          "rawValueJson": "\"BK 004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "FINOWHIP250G",
+          "rawValueJson": "\"FINOWHIP250G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "B006",
+          "rawValueJson": "\"B006\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": "15%",
+          "rawValueJson": "0.15",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "displayText": " 1.20 ",
+          "rawValueJson": "1.2",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 7,
+          "column": 10,
+          "displayText": "TM",
+          "rawValueJson": "\"TM\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "4/12/2023",
+          "rawValueJson": "45028",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "BK 005",
+          "rawValueJson": "\"BK 005\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "WHIPPET 1KG",
+          "rawValueJson": "\"WHIPPET 1KG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "B008",
+          "rawValueJson": "\"B008\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "20",
+          "rawValueJson": "20",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "40",
+          "rawValueJson": "40",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "800",
+          "rawValueJson": "800",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": "15%",
+          "rawValueJson": "0.15",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 8,
+          "column": 9,
+          "displayText": " 6.00 ",
+          "rawValueJson": "6",
+          "numberFormat": "_-* #,##0.00_-;-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 8,
+          "column": 10,
+          "displayText": "SPAR",
+          "rawValueJson": "\"SPAR\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ed5bc7a8-d132-4e0c-9823-bef5394aa784",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{25591C9B-7AAC-4264-BFA2-505525A1F74B}",
+      "top": 3,
+      "left": 1,
+      "bottom": 14,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{25591C9B-7AAC-4264-BFA2-505525A1F74B}",
+          "top": 3,
+          "bottom": 14,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"Product\"",
+          "\"Code\"",
+          "\"Opening Balance\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Product",
+            "rawValueJson": "\"Product\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Code",
+            "rawValueJson": "\"Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Opening Balance",
+            "rawValueJson": "\"Opening Balance\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "PLASTIC ICING 1KG ",
+            "rawValueJson": "\"PLASTIC ICING 1KG \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "B001",
+            "rawValueJson": "\"B001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "PLASTIC ICING 500G",
+            "rawValueJson": "\"PLASTIC ICING 500G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "B002",
+            "rawValueJson": "\"B002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "FINO WHIP 5KG ",
+            "rawValueJson": "\"FINO WHIP 5KG \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "B003",
+            "rawValueJson": "\"B003\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "90",
+            "rawValueJson": "90",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "FINO WHIP 1KG",
+            "rawValueJson": "\"FINO WHIP 1KG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "B004",
+            "rawValueJson": "\"B004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "200",
+            "rawValueJson": "200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "FINOWHIP 500G",
+            "rawValueJson": "\"FINOWHIP 500G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "B005",
+            "rawValueJson": "\"B005\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Product List",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Product",
+          "rawValueJson": "\"Product\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Code",
+          "rawValueJson": "\"Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Opening Balance",
+          "rawValueJson": "\"Opening Balance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "PLASTIC ICING 1KG ",
+          "rawValueJson": "\"PLASTIC ICING 1KG \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "B001",
+          "rawValueJson": "\"B001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "PLASTIC ICING 500G",
+          "rawValueJson": "\"PLASTIC ICING 500G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "B002",
+          "rawValueJson": "\"B002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "40",
+          "rawValueJson": "40",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "FINO WHIP 5KG ",
+          "rawValueJson": "\"FINO WHIP 5KG \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "B003",
+          "rawValueJson": "\"B003\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "90",
+          "rawValueJson": "90",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "FINO WHIP 1KG",
+          "rawValueJson": "\"FINO WHIP 1KG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "B004",
+          "rawValueJson": "\"B004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "200",
+          "rawValueJson": "200",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "FINOWHIP 500G",
+          "rawValueJson": "\"FINOWHIP 500G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "B005",
+          "rawValueJson": "\"B005\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "2c2165d8-af6c-40c9-9216-819e52cca737",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

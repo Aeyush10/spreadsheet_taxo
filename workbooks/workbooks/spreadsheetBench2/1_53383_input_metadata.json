@@ -1,0 +1,485 @@
+[
+  {
+    "range": {
+      "worksheetId": "{A9833DAE-F3D9-4B09-89D4-D48B74758DED}",
+      "top": 2,
+      "left": 1,
+      "bottom": 6,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{A9833DAE-F3D9-4B09-89D4-D48B74758DED}",
+          "top": 2,
+          "bottom": 6,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 4
+          }
+        ],
+        "headerNames": [
+          "\"Name Column\"",
+          "\"status\"",
+          "\"Match status (formula) column\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Name Column",
+            "rawValueJson": "\"Name Column\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "status",
+            "rawValueJson": "\"status\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Match status (formula) column",
+            "rawValueJson": "\"Match status (formula) column\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "name 1",
+            "rawValueJson": "\"name 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "ready for review",
+            "rawValueJson": "\"ready for review\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Matched",
+            "rawValueJson": "\"Matched\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "name 2",
+            "rawValueJson": "\"name 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "open",
+            "rawValueJson": "\"open\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Not Matched",
+            "rawValueJson": "\"Not Matched\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "name 3",
+            "rawValueJson": "\"name 3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "open",
+            "rawValueJson": "\"open\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "name 4",
+            "rawValueJson": "\"name 4\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "ready for review",
+            "rawValueJson": "\"ready for review\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "worksheet2",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Name Column",
+          "rawValueJson": "\"Name Column\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "status",
+          "rawValueJson": "\"status\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Match status (formula) column",
+          "rawValueJson": "\"Match status (formula) column\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "name 1",
+          "rawValueJson": "\"name 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "ready for review",
+          "rawValueJson": "\"ready for review\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Matched",
+          "rawValueJson": "\"Matched\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "name 2",
+          "rawValueJson": "\"name 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "open",
+          "rawValueJson": "\"open\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Not Matched",
+          "rawValueJson": "\"Not Matched\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "name 3",
+          "rawValueJson": "\"name 3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "open",
+          "rawValueJson": "\"open\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "name 4",
+          "rawValueJson": "\"name 4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "ready for review",
+          "rawValueJson": "\"ready for review\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "55dda538-30b8-4c6b-8bba-34ee56b9ed74",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{E4C05CAF-0F11-4078-9993-00F1B24F61F8}",
+      "top": 2,
+      "left": 1,
+      "bottom": 6,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{E4C05CAF-0F11-4078-9993-00F1B24F61F8}",
+          "top": 2,
+          "bottom": 6,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 4
+          }
+        ],
+        "headerNames": [
+          "\"Name Column\"",
+          "\"status\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Name Column",
+            "rawValueJson": "\"Name Column\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "status",
+            "rawValueJson": "\"status\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "name 1",
+            "rawValueJson": "\"name 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "ready for review",
+            "rawValueJson": "\"ready for review\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "name 2",
+            "rawValueJson": "\"name 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "closed ",
+            "rawValueJson": "\"closed \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "name 3",
+            "rawValueJson": "\"name 3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "open",
+            "rawValueJson": "\"open\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "name 4",
+            "rawValueJson": "\"name 4\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "ready for review",
+            "rawValueJson": "\"ready for review\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.8571428571428571,
+    "sheetName": "worksheet 1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Name Column",
+          "rawValueJson": "\"Name Column\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "status",
+          "rawValueJson": "\"status\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "name 1",
+          "rawValueJson": "\"name 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "ready for review",
+          "rawValueJson": "\"ready for review\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "name 2",
+          "rawValueJson": "\"name 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "closed ",
+          "rawValueJson": "\"closed \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "name 3",
+          "rawValueJson": "\"name 3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "open",
+          "rawValueJson": "\"open\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "name 4",
+          "rawValueJson": "\"name 4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "ready for review",
+          "rawValueJson": "\"ready for review\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ff8810b2-dbf5-4c06-a346-26e4922d125e",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

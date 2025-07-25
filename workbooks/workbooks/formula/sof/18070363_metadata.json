@@ -1,0 +1,242 @@
+[
+  {
+    "range": {
+      "worksheetId": "{AA3A4DA5-B8CD-4512-992E-3A6F9392179C}",
+      "top": 1,
+      "left": 1,
+      "bottom": 11,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{AA3A4DA5-B8CD-4512-992E-3A6F9392179C}",
+          "top": 1,
+          "bottom": 11,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Current Date\"",
+          "\"Stock Price\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Current Date",
+            "rawValueJson": "\"Current Date\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Stock Price",
+            "rawValueJson": "\"Stock Price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "5/12/2020",
+            "rawValueJson": "43963",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "4/14/2020",
+            "rawValueJson": "43935",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "8/16/2019",
+            "rawValueJson": "43693",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "9/17/2020",
+            "rawValueJson": "44091",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "8/12/2022",
+            "rawValueJson": "44785",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Input",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Current Date",
+          "rawValueJson": "\"Current Date\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Stock Price",
+          "rawValueJson": "\"Stock Price\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "5/12/2020",
+          "rawValueJson": "43963",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "4/14/2020",
+          "rawValueJson": "43935",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "8/16/2019",
+          "rawValueJson": "43693",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "9/17/2020",
+          "rawValueJson": "44091",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "8/12/2022",
+          "rawValueJson": "44785",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "14",
+          "rawValueJson": "14",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "b5c04448-f428-4f2e-a3c4-31ee44e908f2",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

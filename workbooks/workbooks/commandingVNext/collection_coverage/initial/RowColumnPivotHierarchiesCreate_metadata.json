@@ -1,0 +1,697 @@
+[
+  {
+    "range": {
+      "worksheetId": "{6C8D99BA-CE1B-40E7-85CB-B8D2DE4668F5}",
+      "top": 1,
+      "left": 1,
+      "bottom": 49,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{6C8D99BA-CE1B-40E7-85CB-B8D2DE4668F5}",
+          "top": 1,
+          "bottom": 49,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Year\"",
+          "\"Quarter\"",
+          "\"Month\"",
+          "\"Department\"",
+          "\"Team\"",
+          "\"Product Name\"",
+          "\"Sales\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Year",
+            "rawValueJson": "\"Year\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Quarter",
+            "rawValueJson": "\"Quarter\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Month",
+            "rawValueJson": "\"Month\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Department",
+            "rawValueJson": "\"Department\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Team",
+            "rawValueJson": "\"Team\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Product Name",
+            "rawValueJson": "\"Product Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Sales",
+            "rawValueJson": "\"Sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "2020",
+            "rawValueJson": "2020",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Engineering",
+            "rawValueJson": "\"Engineering\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Team A",
+            "rawValueJson": "\"Team A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Product 1",
+            "rawValueJson": "\"Product 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "300",
+            "rawValueJson": "300",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2020",
+            "rawValueJson": "2020",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "February",
+            "rawValueJson": "\"February\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Marketing",
+            "rawValueJson": "\"Marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Team B",
+            "rawValueJson": "\"Team B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Product 2",
+            "rawValueJson": "\"Product 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "738",
+            "rawValueJson": "738",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2020",
+            "rawValueJson": "2020",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "March",
+            "rawValueJson": "\"March\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Information Technology",
+            "rawValueJson": "\"Information Technology\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Team C",
+            "rawValueJson": "\"Team C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Product 3",
+            "rawValueJson": "\"Product 3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "957",
+            "rawValueJson": "957",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2020",
+            "rawValueJson": "2020",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Engineering",
+            "rawValueJson": "\"Engineering\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Team A",
+            "rawValueJson": "\"Team A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Product 4",
+            "rawValueJson": "\"Product 4\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "848",
+            "rawValueJson": "848",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "2020",
+            "rawValueJson": "2020",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "February",
+            "rawValueJson": "\"February\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Marketing",
+            "rawValueJson": "\"Marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Team B",
+            "rawValueJson": "\"Team B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Product 5",
+            "rawValueJson": "\"Product 5\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "952",
+            "rawValueJson": "952",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "QuarterlySales",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Year",
+          "rawValueJson": "\"Year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Quarter",
+          "rawValueJson": "\"Quarter\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Month",
+          "rawValueJson": "\"Month\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Department",
+          "rawValueJson": "\"Department\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Team",
+          "rawValueJson": "\"Team\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Product Name",
+          "rawValueJson": "\"Product Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Sales",
+          "rawValueJson": "\"Sales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "2020",
+          "rawValueJson": "2020",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Engineering",
+          "rawValueJson": "\"Engineering\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "Team A",
+          "rawValueJson": "\"Team A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Product 1",
+          "rawValueJson": "\"Product 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "300",
+          "rawValueJson": "300",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2020",
+          "rawValueJson": "2020",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "February",
+          "rawValueJson": "\"February\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Marketing",
+          "rawValueJson": "\"Marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Team B",
+          "rawValueJson": "\"Team B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Product 2",
+          "rawValueJson": "\"Product 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "738",
+          "rawValueJson": "738",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2020",
+          "rawValueJson": "2020",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "March",
+          "rawValueJson": "\"March\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Information Technology",
+          "rawValueJson": "\"Information Technology\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Team C",
+          "rawValueJson": "\"Team C\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Product 3",
+          "rawValueJson": "\"Product 3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "957",
+          "rawValueJson": "957",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2020",
+          "rawValueJson": "2020",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Engineering",
+          "rawValueJson": "\"Engineering\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Team A",
+          "rawValueJson": "\"Team A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Product 4",
+          "rawValueJson": "\"Product 4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "848",
+          "rawValueJson": "848",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "2020",
+          "rawValueJson": "2020",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "February",
+          "rawValueJson": "\"February\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Marketing",
+          "rawValueJson": "\"Marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Team B",
+          "rawValueJson": "\"Team B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Product 5",
+          "rawValueJson": "\"Product 5\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "952",
+          "rawValueJson": "952",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "7f28eece-7fe3-4b46-b495-7bed296544db",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

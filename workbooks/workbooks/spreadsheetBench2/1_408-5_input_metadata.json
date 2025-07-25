@@ -1,0 +1,524 @@
+[
+  {
+    "range": {
+      "worksheetId": "{E247AA8D-0B0C-4260-86AB-824CC888D61F}",
+      "top": 1,
+      "left": 1,
+      "bottom": 137,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{E247AA8D-0B0C-4260-86AB-824CC888D61F}",
+          "top": 1,
+          "bottom": 137,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          136
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 134
+          }
+        ],
+        "headerNames": [
+          "\"Date\"",
+          "\"Branch\"",
+          "\"Reference\"",
+          "\"Amount\"",
+          "\"Match Ref and Val\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Branch",
+            "rawValueJson": "\"Branch\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Reference",
+            "rawValueJson": "\"Reference\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Match Ref and Val",
+            "rawValueJson": "\"Match Ref and Val\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "6/1/2021",
+            "rawValueJson": "44348",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "BR1 PL",
+            "rawValueJson": "\"BR1 PL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "968390",
+            "rawValueJson": "968390",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "-48.36",
+            "rawValueJson": "-48.36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "6/1/2021",
+            "rawValueJson": "44348",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "BR1 PL",
+            "rawValueJson": "\"BR1 PL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "968388",
+            "rawValueJson": "968388",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "-791.2",
+            "rawValueJson": "-791.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "6/1/2021",
+            "rawValueJson": "44348",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BR1 PL",
+            "rawValueJson": "\"BR1 PL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "968388",
+            "rawValueJson": "968388",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "-587.37",
+            "rawValueJson": "-587.37",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "6/1/2021",
+            "rawValueJson": "44348",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "BR1 PL",
+            "rawValueJson": "\"BR1 PL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "968390",
+            "rawValueJson": "968390",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "-5009.88",
+            "rawValueJson": "-5009.88",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "6/2/2021",
+            "rawValueJson": "44349",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "BR1 PL",
+            "rawValueJson": "\"BR1 PL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "968392",
+            "rawValueJson": "968392",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "-1008.77",
+            "rawValueJson": "-1008.77",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9859154929577465,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Branch",
+          "rawValueJson": "\"Branch\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Reference",
+          "rawValueJson": "\"Reference\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Match Ref and Val",
+          "rawValueJson": "\"Match Ref and Val\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "6/1/2021",
+          "rawValueJson": "44348",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "BR1 PL",
+          "rawValueJson": "\"BR1 PL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "968390",
+          "rawValueJson": "968390",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "-48.36",
+          "rawValueJson": "-48.36",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "6/1/2021",
+          "rawValueJson": "44348",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "BR1 PL",
+          "rawValueJson": "\"BR1 PL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "968388",
+          "rawValueJson": "968388",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "-791.2",
+          "rawValueJson": "-791.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "6/1/2021",
+          "rawValueJson": "44348",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "BR1 PL",
+          "rawValueJson": "\"BR1 PL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "968388",
+          "rawValueJson": "968388",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "-587.37",
+          "rawValueJson": "-587.37",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "6/1/2021",
+          "rawValueJson": "44348",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "BR1 PL",
+          "rawValueJson": "\"BR1 PL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "968390",
+          "rawValueJson": "968390",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "-5009.88",
+          "rawValueJson": "-5009.88",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "6/2/2021",
+          "rawValueJson": "44349",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "BR1 PL",
+          "rawValueJson": "\"BR1 PL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "968392",
+          "rawValueJson": "968392",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "-1008.77",
+          "rawValueJson": "-1008.77",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "4c40fd19-4d4b-48d1-958f-5d95e4274e22",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

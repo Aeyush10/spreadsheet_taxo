@@ -1,0 +1,571 @@
+[
+  {
+    "range": {
+      "worksheetId": "{65494CE8-2145-464D-B1E4-852D7172F706}",
+      "top": 1,
+      "left": 1,
+      "bottom": 12,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{65494CE8-2145-464D-B1E4-852D7172F706}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"Account Name\"",
+          "\"Posted Date\"",
+          "\"Serial Number\"",
+          "\"Description\"",
+          "\"Amount1\"",
+          "\"1CR/DR\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Account Name",
+            "rawValueJson": "\"Account Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Posted Date",
+            "rawValueJson": "\"Posted Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Serial Number",
+            "rawValueJson": "\"Serial Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Amount1",
+            "rawValueJson": "\"Amount1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "1CR/DR",
+            "rawValueJson": "\"1CR/DR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "MAAX",
+            "rawValueJson": "\"MAAX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "11/1/2023",
+            "rawValueJson": "45231",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "MERCHANT BANKCD DEPOSIT 498351624883    A TO Z LIQUO MERCHANT BANKCD DEPOSIT",
+            "rawValueJson": "\"MERCHANT BANKCD DEPOSIT 498351624883    A TO Z LIQUO MERCHANT BANKCD DEPOSIT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "3941.68",
+            "rawValueJson": "3941.68",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "CR",
+            "rawValueJson": "\"CR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "MAAX",
+            "rawValueJson": "\"MAAX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "11/1/2023",
+            "rawValueJson": "45231",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "80557",
+            "rawValueJson": "80557",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "CHECK 80557",
+            "rawValueJson": "\"CHECK 80557\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "3870.58",
+            "rawValueJson": "3870.58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "DR",
+            "rawValueJson": "\"DR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "MAAX",
+            "rawValueJson": "\"MAAX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "11/2/2023",
+            "rawValueJson": "45232",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "MERCHANT BANKCD DEPOSIT 498351624883    A TO Z LIQUO MERCHANT BANKCD DEPOSIT",
+            "rawValueJson": "\"MERCHANT BANKCD DEPOSIT 498351624883    A TO Z LIQUO MERCHANT BANKCD DEPOSIT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "8361.07",
+            "rawValueJson": "8361.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "CR",
+            "rawValueJson": "\"CR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "MAAX",
+            "rawValueJson": "\"MAAX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "11/2/2023",
+            "rawValueJson": "45232",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "TAP & GO, LLC SENDER ",
+            "rawValueJson": "\"TAP & GO, LLC SENDER \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "CR",
+            "rawValueJson": "\"CR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "MAAX",
+            "rawValueJson": "\"MAAX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "11/2/2023",
+            "rawValueJson": "45232",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "80562",
+            "rawValueJson": "80562",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "CHECK 80562",
+            "rawValueJson": "\"CHECK 80562\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "4515",
+            "rawValueJson": "4515",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "DR",
+            "rawValueJson": "\"DR\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Account Name",
+          "rawValueJson": "\"Account Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Posted Date",
+          "rawValueJson": "\"Posted Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Serial Number",
+          "rawValueJson": "\"Serial Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Amount1",
+          "rawValueJson": "\"Amount1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "1CR/DR",
+          "rawValueJson": "\"1CR/DR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "MAAX",
+          "rawValueJson": "\"MAAX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "11/1/2023",
+          "rawValueJson": "45231",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "MERCHANT BANKCD DEPOSIT 498351624883    A TO Z LIQUO MERCHANT BANKCD DEPOSIT",
+          "rawValueJson": "\"MERCHANT BANKCD DEPOSIT 498351624883    A TO Z LIQUO MERCHANT BANKCD DEPOSIT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "3941.68",
+          "rawValueJson": "3941.68",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "CR",
+          "rawValueJson": "\"CR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "MAAX",
+          "rawValueJson": "\"MAAX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "11/1/2023",
+          "rawValueJson": "45231",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "80557",
+          "rawValueJson": "80557",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "CHECK 80557",
+          "rawValueJson": "\"CHECK 80557\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "3870.58",
+          "rawValueJson": "3870.58",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "DR",
+          "rawValueJson": "\"DR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "MAAX",
+          "rawValueJson": "\"MAAX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "11/2/2023",
+          "rawValueJson": "45232",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "MERCHANT BANKCD DEPOSIT 498351624883    A TO Z LIQUO MERCHANT BANKCD DEPOSIT",
+          "rawValueJson": "\"MERCHANT BANKCD DEPOSIT 498351624883    A TO Z LIQUO MERCHANT BANKCD DEPOSIT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "8361.07",
+          "rawValueJson": "8361.07",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "CR",
+          "rawValueJson": "\"CR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "MAAX",
+          "rawValueJson": "\"MAAX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "11/2/2023",
+          "rawValueJson": "45232",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "TAP & GO, LLC SENDER ",
+          "rawValueJson": "\"TAP & GO, LLC SENDER \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "CR",
+          "rawValueJson": "\"CR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "MAAX",
+          "rawValueJson": "\"MAAX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "11/2/2023",
+          "rawValueJson": "45232",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "80562",
+          "rawValueJson": "80562",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "CHECK 80562",
+          "rawValueJson": "\"CHECK 80562\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "4515",
+          "rawValueJson": "4515",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "DR",
+          "rawValueJson": "\"DR\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "596856c5-6a76-4063-820a-1ab5c803b53e",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

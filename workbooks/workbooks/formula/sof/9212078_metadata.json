@@ -1,0 +1,135 @@
+[
+  {
+    "range": {
+      "worksheetId": "{C1368574-57EE-4A61-ADC5-E558912803C1}",
+      "top": 1,
+      "left": 1,
+      "bottom": 12,
+      "right": 1
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{C1368574-57EE-4A61-ADC5-E558912803C1}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 1
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"ColA\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "ColA",
+            "rawValueJson": "\"ColA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "V2341 something new",
+            "rawValueJson": "\"V2341 something new\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "ABCDE12345",
+            "rawValueJson": "\"ABCDE12345\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "ABCDE1234567890ABCD",
+            "rawValueJson": "\"ABCDE1234567890ABCD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "afsfa",
+            "rawValueJson": "\"afsfa\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Input",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "ColA",
+          "rawValueJson": "\"ColA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "V2341 something new",
+          "rawValueJson": "\"V2341 something new\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "ABCDE12345",
+          "rawValueJson": "\"ABCDE12345\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "ABCDE1234567890ABCD",
+          "rawValueJson": "\"ABCDE1234567890ABCD\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "afsfa",
+          "rawValueJson": "\"afsfa\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "bbe1f229-8e99-4cac-a56d-432461490469",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

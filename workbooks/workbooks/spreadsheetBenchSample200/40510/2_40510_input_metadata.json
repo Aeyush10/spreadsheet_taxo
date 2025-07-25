@@ -1,0 +1,416 @@
+[
+  {
+    "range": {
+      "worksheetId": "{70DCD557-25E1-4987-BA92-6F46190D9EAF}",
+      "top": 3,
+      "left": 9,
+      "bottom": 6,
+      "right": 10
+    },
+    "interpretations": [],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.8333333333333334,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "9165a3de-d590-4e1f-a7da-ae0528ac4b3f",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{70DCD557-25E1-4987-BA92-6F46190D9EAF}",
+      "top": 3,
+      "left": 1,
+      "bottom": 24,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{70DCD557-25E1-4987-BA92-6F46190D9EAF}",
+          "top": 3,
+          "bottom": 24,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Interest\"",
+          "\"SCheme1\"",
+          "\"SCheme2\"",
+          "\"SCheme3\"",
+          "\"SCheme4\"",
+          "\"SCheme5\"",
+          "\"SCheme6\""
+        ]
+      }
+    ],
+    "tableName": "Table1",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Interest",
+          "rawValueJson": "\"Interest\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "SCheme1",
+          "rawValueJson": "\"SCheme1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "SCheme2",
+          "rawValueJson": "\"SCheme2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "SCheme3",
+          "rawValueJson": "\"SCheme3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "SCheme4",
+          "rawValueJson": "\"SCheme4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "SCheme5",
+          "rawValueJson": "\"SCheme5\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "SCheme6",
+          "rawValueJson": "\"SCheme6\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "13.00%",
+          "rawValueJson": "0.13",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "SALARY DEDUCTION ",
+          "rawValueJson": "\"SALARY DEDUCTION \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "NEW 20-05-17 SALARY DEDUCTION ",
+          "rawValueJson": "\"NEW 20-05-17 SALARY DEDUCTION \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "14.50%",
+          "rawValueJson": "0.145",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "CLEAN   SCHEME",
+          "rawValueJson": "\"CLEAN   SCHEME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "CLEAN  ABN SCHEME",
+          "rawValueJson": "\"CLEAN  ABN SCHEME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "NEW 20-05-17 CLEAN   SCHEME",
+          "rawValueJson": "\"NEW 20-05-17 CLEAN   SCHEME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "NEW PERSONAL  SCHEME",
+          "rawValueJson": "\"NEW PERSONAL  SCHEME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "DEC 2021 PERSONAL  SCHEME",
+          "rawValueJson": "\"DEC 2021 PERSONAL  SCHEME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "11.00%",
+          "rawValueJson": "0.11",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "DEC 2021 VEHICLE COMERCIAL USE",
+          "rawValueJson": "\"DEC 2021 VEHICLE COMERCIAL USE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "NEW 20-05-17 VEHICLE ",
+          "rawValueJson": "\"NEW 20-05-17 VEHICLE \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "DEC 2021 VEHICLE PERSONAL USE ",
+          "rawValueJson": "\"DEC 2021 VEHICLE PERSONAL USE \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "VEHICLE ",
+          "rawValueJson": "\"VEHICLE \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "JUNE 2021 GENERAL BORROWER ",
+          "rawValueJson": "\"JUNE 2021 GENERAL BORROWER \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "12.00%",
+          "rawValueJson": "0.12",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "DEC 2021 COMERCIAL USE",
+          "rawValueJson": "\"DEC 2021 COMERCIAL USE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "9.25%",
+          "rawValueJson": "0.0925",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": " GHARKUL YOJANA  SCHEME",
+          "rawValueJson": "\" GHARKUL YOJANA  SCHEME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "DEC 2021 HOUSING ",
+          "rawValueJson": "\"DEC 2021 HOUSING \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": " GHARKUL YOJANA  ABN SCHEME",
+          "rawValueJson": "\" GHARKUL YOJANA  ABN SCHEME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "d49e0af7-7dd4-4068-9ffb-752e19f3dc7b",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

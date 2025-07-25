@@ -1,0 +1,753 @@
+[
+  {
+    "range": {
+      "worksheetId": "{5F0070CE-0601-4822-A059-220320B2A088}",
+      "top": 1,
+      "left": 1,
+      "bottom": 6,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{5F0070CE-0601-4822-A059-220320B2A088}",
+          "top": 1,
+          "bottom": 6,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 5
+          }
+        ],
+        "headerNames": [
+          "\"NAME\"",
+          "\"DESIG\"",
+          "\"CITY\"",
+          "\"STATE\"",
+          "\"LOCATION\"",
+          "\"DEPT\"",
+          "\"DATES\"",
+          "\"NO OF DAYS\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "NAME",
+            "rawValueJson": "\"NAME\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "DESIG",
+            "rawValueJson": "\"DESIG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "CITY",
+            "rawValueJson": "\"CITY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "STATE",
+            "rawValueJson": "\"STATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "LOCATION",
+            "rawValueJson": "\"LOCATION\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "DEPT",
+            "rawValueJson": "\"DEPT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "DATES",
+            "rawValueJson": "\"DATES\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "NO OF DAYS",
+            "rawValueJson": "\"NO OF DAYS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "RAMESH",
+            "rawValueJson": "\"RAMESH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "ACCOUNTANT",
+            "rawValueJson": "\"ACCOUNTANT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "KOTTAYAM",
+            "rawValueJson": "\"KOTTAYAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "KERALA",
+            "rawValueJson": "\"KERALA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "E1",
+            "rawValueJson": "\"E1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "ACCOUNTS",
+            "rawValueJson": "\"ACCOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "16,17",
+            "rawValueJson": "\"16,17\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "GOVIND",
+            "rawValueJson": "\"GOVIND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "CASHIER",
+            "rawValueJson": "\"CASHIER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "BHOPAL",
+            "rawValueJson": "\"BHOPAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "MADHYA PRADESH",
+            "rawValueJson": "\"MADHYA PRADESH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "S2",
+            "rawValueJson": "\"S2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "ACCOUNTS",
+            "rawValueJson": "\"ACCOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "2,3,4",
+            "rawValueJson": "\"2,3,4\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "KANNAN",
+            "rawValueJson": "\"KANNAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "COMPUTER OPERATOR",
+            "rawValueJson": "\"COMPUTER OPERATOR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "KASARAGOD",
+            "rawValueJson": "\"KASARAGOD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "KERALA",
+            "rawValueJson": "\"KERALA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "E1",
+            "rawValueJson": "\"E1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "IT",
+            "rawValueJson": "\"IT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "17",
+            "rawValueJson": "17",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "JOHNSON",
+            "rawValueJson": "\"JOHNSON\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "HR ASSISTANT",
+            "rawValueJson": "\"HR ASSISTANT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "BANGALORE",
+            "rawValueJson": "\"BANGALORE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "KARNATAKA",
+            "rawValueJson": "\"KARNATAKA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "E2",
+            "rawValueJson": "\"E2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "HUMAN RESOURCES",
+            "rawValueJson": "\"HUMAN RESOURCES\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "4,5,6,19",
+            "rawValueJson": "\"4,5,6,19\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "SAKTHI",
+            "rawValueJson": "\"SAKTHI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "ASSISTANT",
+            "rawValueJson": "\"ASSISTANT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "CALICUT",
+            "rawValueJson": "\"CALICUT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "KERALA",
+            "rawValueJson": "\"KERALA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "E1",
+            "rawValueJson": "\"E1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "ADMIN",
+            "rawValueJson": "\"ADMIN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "4,19,20,21,22,25",
+            "rawValueJson": "\"4,19,20,21,22,25\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.8928571428571429,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "NAME",
+          "rawValueJson": "\"NAME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "DESIG",
+          "rawValueJson": "\"DESIG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "CITY",
+          "rawValueJson": "\"CITY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "STATE",
+          "rawValueJson": "\"STATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "LOCATION",
+          "rawValueJson": "\"LOCATION\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "DEPT",
+          "rawValueJson": "\"DEPT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "DATES",
+          "rawValueJson": "\"DATES\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "NO OF DAYS",
+          "rawValueJson": "\"NO OF DAYS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "RAMESH",
+          "rawValueJson": "\"RAMESH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "ACCOUNTANT",
+          "rawValueJson": "\"ACCOUNTANT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "KOTTAYAM",
+          "rawValueJson": "\"KOTTAYAM\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "KERALA",
+          "rawValueJson": "\"KERALA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "E1",
+          "rawValueJson": "\"E1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "ACCOUNTS",
+          "rawValueJson": "\"ACCOUNTS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "16,17",
+          "rawValueJson": "\"16,17\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "GOVIND",
+          "rawValueJson": "\"GOVIND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "CASHIER",
+          "rawValueJson": "\"CASHIER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "BHOPAL",
+          "rawValueJson": "\"BHOPAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "MADHYA PRADESH",
+          "rawValueJson": "\"MADHYA PRADESH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "S2",
+          "rawValueJson": "\"S2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "ACCOUNTS",
+          "rawValueJson": "\"ACCOUNTS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "2,3,4",
+          "rawValueJson": "\"2,3,4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "KANNAN",
+          "rawValueJson": "\"KANNAN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "COMPUTER OPERATOR",
+          "rawValueJson": "\"COMPUTER OPERATOR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "KASARAGOD",
+          "rawValueJson": "\"KASARAGOD\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "KERALA",
+          "rawValueJson": "\"KERALA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "E1",
+          "rawValueJson": "\"E1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "IT",
+          "rawValueJson": "\"IT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "17",
+          "rawValueJson": "17",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "JOHNSON",
+          "rawValueJson": "\"JOHNSON\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "HR ASSISTANT",
+          "rawValueJson": "\"HR ASSISTANT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "BANGALORE",
+          "rawValueJson": "\"BANGALORE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "KARNATAKA",
+          "rawValueJson": "\"KARNATAKA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "E2",
+          "rawValueJson": "\"E2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "HUMAN RESOURCES",
+          "rawValueJson": "\"HUMAN RESOURCES\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "4,5,6,19",
+          "rawValueJson": "\"4,5,6,19\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "SAKTHI",
+          "rawValueJson": "\"SAKTHI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "ASSISTANT",
+          "rawValueJson": "\"ASSISTANT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "CALICUT",
+          "rawValueJson": "\"CALICUT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "KERALA",
+          "rawValueJson": "\"KERALA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "E1",
+          "rawValueJson": "\"E1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "ADMIN",
+          "rawValueJson": "\"ADMIN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "4,19,20,21,22,25",
+          "rawValueJson": "\"4,19,20,21,22,25\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "1b09f914-3e8f-499f-a64e-c45ccfec8901",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

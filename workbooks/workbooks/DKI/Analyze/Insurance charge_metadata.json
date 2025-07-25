@@ -1,0 +1,2445 @@
+[
+  {
+    "range": {
+      "worksheetId": "{7EEAFE39-FC4B-4D94-B39F-B149CBAF9380}",
+      "top": 1,
+      "left": 1,
+      "bottom": 30,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{7EEAFE39-FC4B-4D94-B39F-B149CBAF9380}",
+          "top": 1,
+          "bottom": 30,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 29
+          }
+        ],
+        "headerNames": [
+          "\"age\"",
+          "\"sex\"",
+          "\"bmi\"",
+          "\"children\"",
+          "\"smoker\"",
+          "\"region\"",
+          "\"charges\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "age",
+            "rawValueJson": "\"age\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "sex",
+            "rawValueJson": "\"sex\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "bmi",
+            "rawValueJson": "\"bmi\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "children",
+            "rawValueJson": "\"children\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "smoker",
+            "rawValueJson": "\"smoker\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "region",
+            "rawValueJson": "\"region\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "charges",
+            "rawValueJson": "\"charges\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "27.9",
+            "rawValueJson": "27.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "yes",
+            "rawValueJson": "\"yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "southwest",
+            "rawValueJson": "\"southwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "16884.924",
+            "rawValueJson": "16884.924",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "33.77",
+            "rawValueJson": "33.77",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "1725.5523",
+            "rawValueJson": "1725.5523",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "4449.462",
+            "rawValueJson": "4449.462",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "22.705",
+            "rawValueJson": "22.705",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "northwest",
+            "rawValueJson": "\"northwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "21984.47061",
+            "rawValueJson": "21984.47061",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "28.88",
+            "rawValueJson": "28.88",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "northwest",
+            "rawValueJson": "\"northwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "3866.8552",
+            "rawValueJson": "3866.8552",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{7EEAFE39-FC4B-4D94-B39F-B149CBAF9380}",
+          "top": 1,
+          "bottom": 30,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 2,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 1
+              },
+              {
+                "top": 1,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 1
+              },
+              {
+                "top": 2,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 1
+              },
+              {
+                "top": 8,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 1
+              },
+              {
+                "top": 9,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 1
+              },
+              {
+                "top": 10,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 1
+              },
+              {
+                "top": 11,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 1
+              },
+              {
+                "top": 12,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 1
+              },
+              {
+                "top": 13,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 1
+              },
+              {
+                "top": 14,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 1
+              },
+              {
+                "top": 15,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 1
+              },
+              {
+                "top": 16,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 1
+              },
+              {
+                "top": 17,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 18,
+                "left": 1
+              },
+              {
+                "top": 18,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 19,
+                "left": 1
+              },
+              {
+                "top": 19,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 20,
+                "left": 1
+              },
+              {
+                "top": 20,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 21,
+                "left": 1
+              },
+              {
+                "top": 21,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 22,
+                "left": 1
+              },
+              {
+                "top": 22,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 23,
+                "left": 1
+              },
+              {
+                "top": 23,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 24,
+                "left": 1
+              },
+              {
+                "top": 24,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 25,
+                "left": 1
+              },
+              {
+                "top": 25,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 26,
+                "left": 1
+              },
+              {
+                "top": 26,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 27,
+                "left": 1
+              },
+              {
+                "top": 27,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 28,
+                "left": 1
+              },
+              {
+                "top": 28,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 29,
+                "left": 1
+              },
+              {
+                "top": 29,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 30,
+                "left": 1
+              },
+              {
+                "top": 30,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "age",
+            "rawValueJson": "\"age\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "sex",
+            "rawValueJson": "\"sex\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "bmi",
+            "rawValueJson": "\"bmi\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "children",
+            "rawValueJson": "\"children\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "smoker",
+            "rawValueJson": "\"smoker\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "region",
+            "rawValueJson": "\"region\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "27.9",
+            "rawValueJson": "27.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "yes",
+            "rawValueJson": "\"yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "southwest",
+            "rawValueJson": "\"southwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "33.77",
+            "rawValueJson": "33.77",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "22.705",
+            "rawValueJson": "22.705",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "northwest",
+            "rawValueJson": "\"northwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "28.88",
+            "rawValueJson": "28.88",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "northwest",
+            "rawValueJson": "\"northwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "25.74",
+            "rawValueJson": "25.74",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "46",
+            "rawValueJson": "46",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "33.44",
+            "rawValueJson": "33.44",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "37",
+            "rawValueJson": "37",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "27.74",
+            "rawValueJson": "27.74",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "northwest",
+            "rawValueJson": "\"northwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "37",
+            "rawValueJson": "37",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "29.83",
+            "rawValueJson": "29.83",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "northeast",
+            "rawValueJson": "\"northeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "25.84",
+            "rawValueJson": "25.84",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "northwest",
+            "rawValueJson": "\"northwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "250",
+            "rawValueJson": "250",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "26.22",
+            "rawValueJson": "26.22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "northeast",
+            "rawValueJson": "\"northeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "62",
+            "rawValueJson": "62",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "26.29",
+            "rawValueJson": "26.29",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "yes",
+            "rawValueJson": "\"yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "34.4",
+            "rawValueJson": "34.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "southwest",
+            "rawValueJson": "\"southwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "56",
+            "rawValueJson": "56",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "39.82",
+            "rawValueJson": "39.82",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "42.13",
+            "rawValueJson": "42.13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "yes",
+            "rawValueJson": "\"yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "24.6",
+            "rawValueJson": "24.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 6,
+            "displayText": "southwest",
+            "rawValueJson": "\"southwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "52",
+            "rawValueJson": "52",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 3,
+            "displayText": "30.78",
+            "rawValueJson": "30.78",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 6,
+            "displayText": "northeast",
+            "rawValueJson": "\"northeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "23.845",
+            "rawValueJson": "23.845",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 6,
+            "displayText": "northeast",
+            "rawValueJson": "\"northeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "56",
+            "rawValueJson": "56",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "40.3",
+            "rawValueJson": "40.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "southwest",
+            "rawValueJson": "\"southwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 1,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "35.3",
+            "rawValueJson": "35.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "yes",
+            "rawValueJson": "\"yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": "southwest",
+            "rawValueJson": "\"southwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 1,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 3,
+            "displayText": "36.005",
+            "rawValueJson": "36.005",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 6,
+            "displayText": "northeast",
+            "rawValueJson": "\"northeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 1,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 3,
+            "displayText": "32.4",
+            "rawValueJson": "32.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 6,
+            "displayText": "southwest",
+            "rawValueJson": "\"southwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 1,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 3,
+            "displayText": "34.1",
+            "rawValueJson": "34.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 3,
+            "displayText": "31.92",
+            "rawValueJson": "31.92",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 5,
+            "displayText": "yes",
+            "rawValueJson": "\"yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 6,
+            "displayText": "northeast",
+            "rawValueJson": "\"northeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "37",
+            "rawValueJson": "37",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 3,
+            "displayText": "28.025",
+            "rawValueJson": "28.025",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 6,
+            "displayText": "northwest",
+            "rawValueJson": "\"northwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 1,
+            "displayText": "59",
+            "rawValueJson": "59",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 3,
+            "displayText": "27.72",
+            "rawValueJson": "27.72",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 6,
+            "displayText": "southeast",
+            "rawValueJson": "\"southeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 1,
+            "displayText": "63",
+            "rawValueJson": "63",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 3,
+            "displayText": "23.085",
+            "rawValueJson": "23.085",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 6,
+            "displayText": "northeast",
+            "rawValueJson": "\"northeast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 1,
+            "displayText": "55",
+            "rawValueJson": "55",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "female",
+            "rawValueJson": "\"female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 3,
+            "displayText": "32.775",
+            "rawValueJson": "32.775",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 6,
+            "displayText": "northwest",
+            "rawValueJson": "\"northwest\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 1,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "male",
+            "rawValueJson": "\"male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 3,
+            "displayText": "17.385",
+            "rawValueJson": "17.385",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 5,
+            "displayText": "no",
+            "rawValueJson": "\"no\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 6,
+            "displayText": "northwest",
+            "rawValueJson": "\"northwest\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "age",
+          "rawValueJson": "\"age\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "sex",
+          "rawValueJson": "\"sex\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "bmi",
+          "rawValueJson": "\"bmi\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "children",
+          "rawValueJson": "\"children\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "smoker",
+          "rawValueJson": "\"smoker\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "region",
+          "rawValueJson": "\"region\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "charges",
+          "rawValueJson": "\"charges\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "19",
+          "rawValueJson": "19",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "female",
+          "rawValueJson": "\"female\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "27.9",
+          "rawValueJson": "27.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "yes",
+          "rawValueJson": "\"yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "southwest",
+          "rawValueJson": "\"southwest\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "16884.924",
+          "rawValueJson": "16884.924",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "18",
+          "rawValueJson": "18",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "male",
+          "rawValueJson": "\"male\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "33.77",
+          "rawValueJson": "33.77",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "no",
+          "rawValueJson": "\"no\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "southeast",
+          "rawValueJson": "\"southeast\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "1725.5523",
+          "rawValueJson": "1725.5523",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "male",
+          "rawValueJson": "\"male\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "33",
+          "rawValueJson": "33",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "no",
+          "rawValueJson": "\"no\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "southeast",
+          "rawValueJson": "\"southeast\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "4449.462",
+          "rawValueJson": "4449.462",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "33",
+          "rawValueJson": "33",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "male",
+          "rawValueJson": "\"male\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "22.705",
+          "rawValueJson": "22.705",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "no",
+          "rawValueJson": "\"no\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "northwest",
+          "rawValueJson": "\"northwest\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "21984.47061",
+          "rawValueJson": "21984.47061",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "32",
+          "rawValueJson": "32",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "male",
+          "rawValueJson": "\"male\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "28.88",
+          "rawValueJson": "28.88",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "no",
+          "rawValueJson": "\"no\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "northwest",
+          "rawValueJson": "\"northwest\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "3866.8552",
+          "rawValueJson": "3866.8552",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "209fc0d5-2bdd-46e2-944f-73343a5cbe4e",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

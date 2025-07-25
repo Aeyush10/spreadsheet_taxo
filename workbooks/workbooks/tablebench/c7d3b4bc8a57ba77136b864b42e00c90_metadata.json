@@ -1,0 +1,741 @@
+[
+  {
+    "range": {
+      "worksheetId": "{C7A090E2-2187-456A-A081-C0EBD5F3770A}",
+      "top": 1,
+      "left": 1,
+      "bottom": 12,
+      "right": 12
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{C7A090E2-2187-456A-A081-C0EBD5F3770A}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 12
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["average"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["average"],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"period\"",
+          "\"live births per year\"",
+          "\"deaths per year\"",
+          "\"natural change per year\"",
+          "\"cbr\"",
+          "\"cdr\"",
+          "\"nc\"",
+          "\"tfr\"",
+          "\"imr\"",
+          "\"life expectancy total\"",
+          "\"life expectancy males\"",
+          "\"life expectancy females\""
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{C7A090E2-2187-456A-A081-C0EBD5F3770A}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 12
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 10,
+            "end": 11
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "period",
+          "rawValueJson": "\"period\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "live births per year",
+          "rawValueJson": "\"live births per year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "deaths per year",
+          "rawValueJson": "\"deaths per year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "natural change per year",
+          "rawValueJson": "\"natural change per year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "cbr",
+          "rawValueJson": "\"cbr\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "cdr",
+          "rawValueJson": "\"cdr\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "nc",
+          "rawValueJson": "\"nc\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "tfr",
+          "rawValueJson": "\"tfr\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "imr",
+          "rawValueJson": "\"imr\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "life expectancy total",
+          "rawValueJson": "\"life expectancy total\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "life expectancy males",
+          "rawValueJson": "\"life expectancy males\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "life expectancy females",
+          "rawValueJson": "\"life expectancy females\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1950 - 1955",
+          "rawValueJson": "\"1950 - 1955\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "2 572 000",
+          "rawValueJson": "\"2 572 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "900 000",
+          "rawValueJson": "\"900 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "1 672 000",
+          "rawValueJson": "\"1 672 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "44.1",
+          "rawValueJson": "44.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "15.5",
+          "rawValueJson": "15.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "28.6",
+          "rawValueJson": "28.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "6.15",
+          "rawValueJson": "6.15",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "135",
+          "rawValueJson": "135",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "50.9",
+          "rawValueJson": "50.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "49.2",
+          "rawValueJson": "49.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "52.6",
+          "rawValueJson": "52.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "1955 - 1960",
+          "rawValueJson": "\"1955 - 1960\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "2 918 000",
+          "rawValueJson": "\"2 918 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "947 000",
+          "rawValueJson": "\"947 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "1 971 000",
+          "rawValueJson": "\"1 971 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "43.2",
+          "rawValueJson": "43.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "14",
+          "rawValueJson": "14",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "29.1",
+          "rawValueJson": "29.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "6.15",
+          "rawValueJson": "6.15",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "122",
+          "rawValueJson": "122",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "53.3",
+          "rawValueJson": "53.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "51.5",
+          "rawValueJson": "51.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "55.2",
+          "rawValueJson": "55.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "1960 - 1965",
+          "rawValueJson": "\"1960 - 1965\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "3 303 000",
+          "rawValueJson": "\"3 303 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "986 000",
+          "rawValueJson": "\"986 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "2 317 000",
+          "rawValueJson": "\"2 317 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "42.2",
+          "rawValueJson": "42.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "12.6",
+          "rawValueJson": "12.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "29.6",
+          "rawValueJson": "29.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "6.15",
+          "rawValueJson": "6.15",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "109",
+          "rawValueJson": "109",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "55.7",
+          "rawValueJson": "55.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "53.8",
+          "rawValueJson": "53.8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "57.6",
+          "rawValueJson": "57.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "1965 - 1970",
+          "rawValueJson": "\"1965 - 1970\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "3 330 000",
+          "rawValueJson": "\"3 330 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "998 000",
+          "rawValueJson": "\"998 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "2 332 000",
+          "rawValueJson": "\"2 332 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "37",
+          "rawValueJson": "37",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "11.1",
+          "rawValueJson": "11.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "25.9",
+          "rawValueJson": "25.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "5.38",
+          "rawValueJson": "5.38",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "57.6",
+          "rawValueJson": "57.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "55.7",
+          "rawValueJson": "55.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "59.6",
+          "rawValueJson": "59.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "1970 - 1975",
+          "rawValueJson": "\"1970 - 1975\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "3 441 000",
+          "rawValueJson": "\"3 441 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "1 014 000",
+          "rawValueJson": "\"1 014 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "2 427 000",
+          "rawValueJson": "\"2 427 000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "33.7",
+          "rawValueJson": "33.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "9.9",
+          "rawValueJson": "9.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "23.8",
+          "rawValueJson": "23.8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "4.72",
+          "rawValueJson": "4.72",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "91",
+          "rawValueJson": "91",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "59.5",
+          "rawValueJson": "59.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "57.3",
+          "rawValueJson": "57.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "61.8",
+          "rawValueJson": "61.8",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": ["AugLoop_Excel_ExcelRangeWrapperAnnotation", "AugLoop_Core_Annotation"]
+    },
+    "id": "92a3eaf3-d5ac-41a4-8f35-b983c2356009",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

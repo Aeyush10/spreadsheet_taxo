@@ -1,0 +1,852 @@
+[
+  {
+    "range": {
+      "worksheetId": "{A64B88AE-FBEA-4C28-AFB5-5F5164355B38}",
+      "top": 1,
+      "left": 1,
+      "bottom": 5,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{A64B88AE-FBEA-4C28-AFB5-5F5164355B38}",
+          "top": 1,
+          "bottom": 5,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          4
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ]
+      },
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{A64B88AE-FBEA-4C28-AFB5-5F5164355B38}",
+          "top": 1,
+          "bottom": 5,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 4
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "FINAL",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "simpleCrossTable",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "5886009f-86c3-473f-971a-d0a576aa910b",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{2852FEDD-E7B8-431C-99CC-3CF0F655CFAD}",
+      "top": 1,
+      "left": 1,
+      "bottom": 12,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{2852FEDD-E7B8-431C-99CC-3CF0F655CFAD}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"DATE\"",
+          "\"ACCOUNT NAME\"",
+          "\"DEBIT \"",
+          "\"CRIDIT\"",
+          "\"BALANCE\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "ALI",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "ACCOUNT NAME",
+          "rawValueJson": "\"ACCOUNT NAME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "DEBIT ",
+          "rawValueJson": "\"DEBIT \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "CRIDIT",
+          "rawValueJson": "\"CRIDIT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "BALANCE",
+          "rawValueJson": "\"BALANCE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "3/1/2023",
+          "rawValueJson": "44986",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "TRANSFERRING BALANCE",
+          "rawValueJson": "\"TRANSFERRING BALANCE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "30,000.00",
+          "rawValueJson": "30000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "20,000.00",
+          "rawValueJson": "20000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "3/2/2023",
+          "rawValueJson": "44987",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "PURCHASE ",
+          "rawValueJson": "\"PURCHASE \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "20,000.00",
+          "rawValueJson": "20000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "0.00",
+          "rawValueJson": "0",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "3/3/2023",
+          "rawValueJson": "44988",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "CASH PR ",
+          "rawValueJson": "\"CASH PR \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "2,000.00",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "2,000.00",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "3/4/2023",
+          "rawValueJson": "44989",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "SALES",
+          "rawValueJson": "\"SALES\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "2,500.00",
+          "rawValueJson": "2500",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "4,500.00",
+          "rawValueJson": "4500",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "3/5/2023",
+          "rawValueJson": "44990",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "CASH DM",
+          "rawValueJson": "\"CASH DM\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "2,000.00",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "2,500.00",
+          "rawValueJson": "2500",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "88609e09-df2d-4ae7-ac12-5c46cde4a33c",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{4D7BFEC7-4B45-49DC-8D94-23810FB18D97}",
+      "top": 1,
+      "left": 1,
+      "bottom": 12,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{4D7BFEC7-4B45-49DC-8D94-23810FB18D97}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ]
+      },
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{4D7BFEC7-4B45-49DC-8D94-23810FB18D97}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "OMRAAN",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "simpleCrossTable",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "326b6c0f-949f-40c3-a621-6534be5b5a03",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{E7698B0C-FB44-41D0-9249-0F667A6FAA84}",
+      "top": 1,
+      "left": 1,
+      "bottom": 12,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{E7698B0C-FB44-41D0-9249-0F667A6FAA84}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ]
+      },
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{E7698B0C-FB44-41D0-9249-0F667A6FAA84}",
+          "top": 1,
+          "bottom": 12,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 3,
+            "end": 4
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "AHMED",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "simpleCrossTable",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "4bc91590-c660-4958-85ee-a45bed142452",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

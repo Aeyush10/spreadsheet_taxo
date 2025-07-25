@@ -1,0 +1,613 @@
+[
+  {
+    "range": {
+      "worksheetId": "{507F015C-A694-4288-AF48-6A8F1CD76CF9}",
+      "top": 1,
+      "left": 1,
+      "bottom": 20,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{507F015C-A694-4288-AF48-6A8F1CD76CF9}",
+          "top": 1,
+          "bottom": 20,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 19
+          }
+        ],
+        "headerNames": [
+          "\"Type\"",
+          "\"Date\"",
+          "\"Num\"",
+          "\"Name\"",
+          "\"Split\"",
+          "\"Amount\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Type",
+            "rawValueJson": "\"Type\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Num",
+            "rawValueJson": "\"Num\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Split",
+            "rawValueJson": "\"Split\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Paycheck",
+            "rawValueJson": "\"Paycheck\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "01/06/2021",
+            "rawValueJson": "44202",
+            "numberFormat": "mm/dd/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "2530",
+            "rawValueJson": "\"2530\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Carter, Dmarcus R",
+            "rawValueJson": "\"Carter, Dmarcus R\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Payroll- Peoples South Bank",
+            "rawValueJson": "\"Payroll- Peoples South Bank\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "320.00 ",
+            "rawValueJson": "320",
+            "numberFormat": "#,##0.00_);(#,##0.00)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Paycheck",
+            "rawValueJson": "\"Paycheck\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "01/06/2021",
+            "rawValueJson": "44202",
+            "numberFormat": "mm/dd/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "2530",
+            "rawValueJson": "\"2530\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Carter, Dmarcus R",
+            "rawValueJson": "\"Carter, Dmarcus R\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Payroll- Peoples South Bank",
+            "rawValueJson": "\"Payroll- Peoples South Bank\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "102.24 ",
+            "rawValueJson": "102.24",
+            "numberFormat": "#,##0.00_);(#,##0.00)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Paycheck",
+            "rawValueJson": "\"Paycheck\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "01/06/2021",
+            "rawValueJson": "44202",
+            "numberFormat": "mm/dd/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "2530",
+            "rawValueJson": "\"2530\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Carter, Dmarcus R",
+            "rawValueJson": "\"Carter, Dmarcus R\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Payroll- Peoples South Bank",
+            "rawValueJson": "\"Payroll- Peoples South Bank\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "0.25 ",
+            "rawValueJson": "0.25",
+            "numberFormat": "#,##0.00_);(#,##0.00)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Paycheck",
+            "rawValueJson": "\"Paycheck\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "01/06/2021",
+            "rawValueJson": "44202",
+            "numberFormat": "mm/dd/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "2530",
+            "rawValueJson": "\"2530\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Carter, Dmarcus R",
+            "rawValueJson": "\"Carter, Dmarcus R\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Payroll- Peoples South Bank",
+            "rawValueJson": "\"Payroll- Peoples South Bank\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "26.18 ",
+            "rawValueJson": "26.18",
+            "numberFormat": "#,##0.00_);(#,##0.00)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Paycheck",
+            "rawValueJson": "\"Paycheck\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "01/06/2021",
+            "rawValueJson": "44202",
+            "numberFormat": "mm/dd/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "2530",
+            "rawValueJson": "\"2530\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Carter, Dmarcus R",
+            "rawValueJson": "\"Carter, Dmarcus R\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Payroll- Peoples South Bank",
+            "rawValueJson": "\"Payroll- Peoples South Bank\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "6.12 ",
+            "rawValueJson": "6.12",
+            "numberFormat": "#,##0.00_);(#,##0.00)"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Type",
+          "rawValueJson": "\"Type\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Num",
+          "rawValueJson": "\"Num\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Split",
+          "rawValueJson": "\"Split\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Paycheck",
+          "rawValueJson": "\"Paycheck\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "01/06/2021",
+          "rawValueJson": "44202",
+          "numberFormat": "mm/dd/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "2530",
+          "rawValueJson": "\"2530\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Carter, Dmarcus R",
+          "rawValueJson": "\"Carter, Dmarcus R\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "Payroll- Peoples South Bank",
+          "rawValueJson": "\"Payroll- Peoples South Bank\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "320.00 ",
+          "rawValueJson": "320",
+          "numberFormat": "#,##0.00_);(#,##0.00)"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Paycheck",
+          "rawValueJson": "\"Paycheck\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "01/06/2021",
+          "rawValueJson": "44202",
+          "numberFormat": "mm/dd/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "2530",
+          "rawValueJson": "\"2530\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Carter, Dmarcus R",
+          "rawValueJson": "\"Carter, Dmarcus R\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Payroll- Peoples South Bank",
+          "rawValueJson": "\"Payroll- Peoples South Bank\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "102.24 ",
+          "rawValueJson": "102.24",
+          "numberFormat": "#,##0.00_);(#,##0.00)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Paycheck",
+          "rawValueJson": "\"Paycheck\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "01/06/2021",
+          "rawValueJson": "44202",
+          "numberFormat": "mm/dd/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "2530",
+          "rawValueJson": "\"2530\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Carter, Dmarcus R",
+          "rawValueJson": "\"Carter, Dmarcus R\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Payroll- Peoples South Bank",
+          "rawValueJson": "\"Payroll- Peoples South Bank\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "0.25 ",
+          "rawValueJson": "0.25",
+          "numberFormat": "#,##0.00_);(#,##0.00)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Paycheck",
+          "rawValueJson": "\"Paycheck\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "01/06/2021",
+          "rawValueJson": "44202",
+          "numberFormat": "mm/dd/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "2530",
+          "rawValueJson": "\"2530\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Carter, Dmarcus R",
+          "rawValueJson": "\"Carter, Dmarcus R\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Payroll- Peoples South Bank",
+          "rawValueJson": "\"Payroll- Peoples South Bank\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "26.18 ",
+          "rawValueJson": "26.18",
+          "numberFormat": "#,##0.00_);(#,##0.00)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Paycheck",
+          "rawValueJson": "\"Paycheck\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "01/06/2021",
+          "rawValueJson": "44202",
+          "numberFormat": "mm/dd/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "2530",
+          "rawValueJson": "\"2530\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Carter, Dmarcus R",
+          "rawValueJson": "\"Carter, Dmarcus R\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Payroll- Peoples South Bank",
+          "rawValueJson": "\"Payroll- Peoples South Bank\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "6.12 ",
+          "rawValueJson": "6.12",
+          "numberFormat": "#,##0.00_);(#,##0.00)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "f30be3bc-5a0f-4639-8729-f0cc5fce2600",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

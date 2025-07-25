@@ -1,0 +1,2317 @@
+[
+  {
+    "range": {
+      "worksheetId": "{20B019CA-3475-40F9-B87E-6C00341129A9}",
+      "top": 1,
+      "left": 1,
+      "bottom": 6,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{20B019CA-3475-40F9-B87E-6C00341129A9}",
+          "top": 1,
+          "bottom": 6,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 4
+          }
+        ],
+        "headerNames": [
+          "\"00 Targeting\"",
+          "0"
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Data",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "00 Targeting",
+          "rawValueJson": "\"00 Targeting\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "0%",
+          "rawValueJson": "0",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "01 Initial Discussions",
+          "rawValueJson": "\"01 Initial Discussions\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "10%",
+          "rawValueJson": "0.1",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "02 Assessment",
+          "rawValueJson": "\"02 Assessment\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "25%",
+          "rawValueJson": "0.25",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "03 Mutual Commitment",
+          "rawValueJson": "\"03 Mutual Commitment\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "50%",
+          "rawValueJson": "0.5",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "04 Verbal Order",
+          "rawValueJson": "\"04 Verbal Order\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "90%",
+          "rawValueJson": "0.9",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "05 Delivery",
+          "rawValueJson": "\"05 Delivery\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "100%",
+          "rawValueJson": "1",
+          "numberFormat": "0%"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "801595ef-561c-4c22-b07e-241b0a8a364c",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{7642F093-3E7E-4A6E-A0A3-3714ADEAE0AD}",
+      "top": 1,
+      "left": 1,
+      "bottom": 16,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{7642F093-3E7E-4A6E-A0A3-3714ADEAE0AD}",
+          "top": 1,
+          "bottom": 16,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 15
+          }
+        ],
+        "headerNames": [
+          "\"Company\"",
+          "\"Deal Year\"",
+          "\"Sector\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Inflexion",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Company",
+          "rawValueJson": "\"Company\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Deal Year",
+          "rawValueJson": "\"Deal Year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Sector",
+          "rawValueJson": "\"Sector\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Sanne Group",
+          "rawValueJson": "\"Sanne Group\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "2012",
+          "rawValueJson": "2012",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Financial Services",
+          "rawValueJson": "\"Financial Services\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "CTC Aviation",
+          "rawValueJson": "\"CTC Aviation\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "2012",
+          "rawValueJson": "2012",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Aviation Training",
+          "rawValueJson": "\"Aviation Training\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Marston Group",
+          "rawValueJson": "\"Marston Group\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "2012",
+          "rawValueJson": "2012",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Debt Collection",
+          "rawValueJson": "\"Debt Collection\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "NPW",
+          "rawValueJson": "\"NPW\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "2012",
+          "rawValueJson": "2012",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "FMCG",
+          "rawValueJson": "\"FMCG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Rhead Group",
+          "rawValueJson": "\"Rhead Group\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "2011",
+          "rawValueJson": "2011",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Contruction Services",
+          "rawValueJson": "\"Contruction Services\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "8ff24ec2-8d46-4809-95f2-7a2e10667fab",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{0F3CF425-6454-4BBA-A4BD-5321619EA3BC}",
+      "top": 1,
+      "left": 1,
+      "bottom": 3,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{0F3CF425-6454-4BBA-A4BD-5321619EA3BC}",
+          "top": 1,
+          "bottom": 3,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "headerNames": [
+          "\"Priority\"",
+          "\"Sales Level\"",
+          "\"Opportunity Name\"",
+          "\"Pipeline Stage\"",
+          "\"Est. Revenue (£)\"",
+          "\"Probability\"",
+          "\"Weighted Value (£)\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.7,
+    "sheetName": "Opportunities",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Priority",
+          "rawValueJson": "\"Priority\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Sales Level",
+          "rawValueJson": "\"Sales Level\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Opportunity Name",
+          "rawValueJson": "\"Opportunity Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Pipeline Stage",
+          "rawValueJson": "\"Pipeline Stage\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": " Est. Revenue (£) ",
+          "rawValueJson": "\"Est. Revenue (£)\"",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Probability",
+          "rawValueJson": "\"Probability\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Weighted Value (£)",
+          "rawValueJson": "\"Weighted Value (£)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Low",
+          "rawValueJson": "\"Low\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "00 Targeting",
+          "rawValueJson": "\"00 Targeting\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Opportunity 1",
+          "rawValueJson": "\"Opportunity 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "03 Mutual Commitment",
+          "rawValueJson": "\"03 Mutual Commitment\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": " 100,000 ",
+          "rawValueJson": "100000",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Low",
+          "rawValueJson": "\"Low\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "00 Targeting",
+          "rawValueJson": "\"00 Targeting\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Opportunity 2",
+          "rawValueJson": "\"Opportunity 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "03 Mutual Commitment",
+          "rawValueJson": "\"03 Mutual Commitment\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": " 50,000 ",
+          "rawValueJson": "50000",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "5eb6403d-962d-4c95-8c1b-55fead914f42",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{B735DD8B-CD30-406A-BEE0-BC30773B1FAE}",
+      "top": 1,
+      "left": 1,
+      "bottom": 58,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{B735DD8B-CD30-406A-BEE0-BC30773B1FAE}",
+          "top": 1,
+          "bottom": 58,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 57
+          }
+        ],
+        "headerNames": [
+          "\"Company Name\"",
+          "\"First Name\"",
+          "\"Last Name\"",
+          "\"Role\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.7580645161290323,
+    "sheetName": "Accountants",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Company Name",
+          "rawValueJson": "\"Company Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "First Name",
+          "rawValueJson": "\"First Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Last Name",
+          "rawValueJson": "\"Last Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Role",
+          "rawValueJson": "\"Role\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "KPMG",
+          "rawValueJson": "\"KPMG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Martyn B",
+          "rawValueJson": "\"Martyn B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Learning and BD Partner",
+          "rawValueJson": "\"Learning and BD Partner\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "KPMG",
+          "rawValueJson": "\"KPMG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Maria R",
+          "rawValueJson": "\"Maria R\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Head of HR and D&I",
+          "rawValueJson": "\"Head of HR and D&I\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "KPMG",
+          "rawValueJson": "\"KPMG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Richard B",
+          "rawValueJson": "\"Richard B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "COO ",
+          "rawValueJson": "\"COO \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "EY",
+          "rawValueJson": "\"EY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Francesco G",
+          "rawValueJson": "\"Francesco G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Account & BD Ops Leader",
+          "rawValueJson": "\"Account & BD Ops Leader\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "EY",
+          "rawValueJson": "\"EY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Carine-Clavier Labarthe",
+          "rawValueJson": "\"Carine-Clavier Labarthe\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "BD Leader EMEIA",
+          "rawValueJson": "\"BD Leader EMEIA\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "521ef510-2fa6-43e8-a4ff-612702a0c639",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{E3E24A5B-AD7C-4F72-B4D6-0716E0FF0DF7}",
+      "top": 1,
+      "left": 1,
+      "bottom": 101,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{E3E24A5B-AD7C-4F72-B4D6-0716E0FF0DF7}",
+          "top": 1,
+          "bottom": 101,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 100
+          }
+        ],
+        "headerNames": [
+          "\"#\"",
+          "\"Name\"",
+          "\"Turnover (2010/11)[2]\"",
+          "\"Profit per equity partner (2010/11)[2]\"",
+          "\"Headquarters\"",
+          "\"Notes\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet3",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "#",
+          "rawValueJson": "\"#\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Turnover (2010/11)[2]",
+          "rawValueJson": "\"Turnover (2010/11)[2]\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Profit per equity partner (2010/11)[2]",
+          "rawValueJson": "\"Profit per equity partner (2010/11)[2]\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Headquarters",
+          "rawValueJson": "\"Headquarters\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Notes",
+          "rawValueJson": "\"Notes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Clifford Chance",
+          "rawValueJson": "\"Clifford Chance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "£1,219m",
+          "rawValueJson": "\"£1,219m\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "£1,005,000",
+          "rawValueJson": "1005000",
+          "numberFormat": "\"£\"#,##0;[Red]-\"£\"#,##0"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "London",
+          "rawValueJson": "\"London\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Linklaters",
+          "rawValueJson": "\"Linklaters\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "£1,200m",
+          "rawValueJson": "\"£1,200m\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "£1,225,000",
+          "rawValueJson": "1225000",
+          "numberFormat": "\"£\"#,##0;[Red]-\"£\"#,##0"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "London",
+          "rawValueJson": "\"London\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Freshfields Bruckhaus Deringer",
+          "rawValueJson": "\"Freshfields Bruckhaus Deringer\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "£1,140m",
+          "rawValueJson": "\"£1,140m\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "£1,308,000",
+          "rawValueJson": "1308000",
+          "numberFormat": "\"£\"#,##0;[Red]-\"£\"#,##0"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "London",
+          "rawValueJson": "\"London\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Allen & Overy",
+          "rawValueJson": "\"Allen & Overy\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "£1,120m",
+          "rawValueJson": "\"£1,120m\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "£1,100,000",
+          "rawValueJson": "1100000",
+          "numberFormat": "\"£\"#,##0;[Red]-\"£\"#,##0"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "London",
+          "rawValueJson": "\"London\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "DLA Piper International",
+          "rawValueJson": "\"DLA Piper International\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "£604.9m",
+          "rawValueJson": "\"£604.9m\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "£564,000",
+          "rawValueJson": "564000",
+          "numberFormat": "\"£\"#,##0;[Red]-\"£\"#,##0"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "London",
+          "rawValueJson": "\"London\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "DLA Piper consists of two partnerships, DLA Piper International and DLA Piper U.S. The two partnerships share a single management board but are not financially integrated.",
+          "rawValueJson": "\"DLA Piper consists of two partnerships, DLA Piper International and DLA Piper U.S. The two partnerships share a single management board but are not financially integrated.\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "663e2df3-c579-4e6b-b03c-19e9d4fcc750",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{970071B1-EEF3-4F91-82DF-17AB26A2A3BB}",
+      "top": 1,
+      "left": 1,
+      "bottom": 101,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{970071B1-EEF3-4F91-82DF-17AB26A2A3BB}",
+          "top": 1,
+          "bottom": 101,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 100
+          }
+        ],
+        "headerNames": [
+          "\"Company Name\"",
+          "\"First Name\"",
+          "\"Last Name\"",
+          "\"Role\"",
+          "\"Email\"",
+          "\"Website\"",
+          "\"Company Address\"",
+          "\"Company Postcode\"",
+          "\"Switchboard No.\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.05,
+    "sheetName": "Lawyers",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Company Name",
+          "rawValueJson": "\"Company Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "First Name",
+          "rawValueJson": "\"First Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Last Name",
+          "rawValueJson": "\"Last Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Role",
+          "rawValueJson": "\"Role\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Email",
+          "rawValueJson": "\"Email\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Website",
+          "rawValueJson": "\"Website\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Company Address",
+          "rawValueJson": "\"Company Address\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Company Postcode",
+          "rawValueJson": "\"Company Postcode\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Switchboard No.",
+          "rawValueJson": "\"Switchboard No.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Clifford Chance",
+          "rawValueJson": "\"Clifford Chance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Linklaters",
+          "rawValueJson": "\"Linklaters\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Freshfields Bruckhaus Deringer",
+          "rawValueJson": "\"Freshfields Bruckhaus Deringer\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Allen & Overy",
+          "rawValueJson": "\"Allen & Overy\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "DLA Piper International",
+          "rawValueJson": "\"DLA Piper International\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "5b911b3b-a4d9-4cd8-b338-182e30240aa2",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{334B3B18-3196-4B84-B8BA-8AA77AAFC5D4}",
+      "top": 1,
+      "left": 1,
+      "bottom": 61,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{334B3B18-3196-4B84-B8BA-8AA77AAFC5D4}",
+          "top": 1,
+          "bottom": 61,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 60
+          }
+        ],
+        "headerNames": [
+          "\"Rank \"",
+          "\"Firm\"",
+          "\"Fee Income £m 2012\"",
+          "\"Fee Income £m 2011\"",
+          "\"Fee Income Change %\"",
+          "\"Fee/Partner Ratio £000s 2012\"",
+          "\"UK Offices\"",
+          "\"Partners 2012\"",
+          "\"Total Staff 2012\"",
+          "\"Status\""
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{334B3B18-3196-4B84-B8BA-8AA77AAFC5D4}",
+          "top": 1,
+          "bottom": 61,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          8
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 7
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.971830985915493,
+    "sheetName": "Accountants Info",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Rank ",
+          "rawValueJson": "\"Rank \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Firm",
+          "rawValueJson": "\"Firm\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Fee Income £m 2012",
+          "rawValueJson": "\"Fee Income £m 2012\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Fee Income £m 2011",
+          "rawValueJson": "\"Fee Income £m 2011\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Fee Income Change %",
+          "rawValueJson": "\"Fee Income Change %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Fee/Partner Ratio £000s 2012",
+          "rawValueJson": "\"Fee/Partner Ratio £000s 2012\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "UK Offices",
+          "rawValueJson": "\"UK Offices\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Partners 2012",
+          "rawValueJson": "\"Partners 2012\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Total Staff 2012",
+          "rawValueJson": "\"Total Staff 2012\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Status",
+          "rawValueJson": "\"Status\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "47",
+          "rawValueJson": "47",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Scott-Moncrieff",
+          "rawValueJson": "\"Scott-Moncrieff\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "11.3",
+          "rawValueJson": "11.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "13.4",
+          "rawValueJson": "13.4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "-15.7",
+          "rawValueJson": "-15.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "753",
+          "rawValueJson": "753",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "15",
+          "rawValueJson": "15",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "165",
+          "rawValueJson": "165",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "Partnership",
+          "rawValueJson": "\"Partnership\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "RSM Tenon",
+          "rawValueJson": "\"RSM Tenon\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "208",
+          "rawValueJson": "208",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "228",
+          "rawValueJson": "228",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "-8.8",
+          "rawValueJson": "-8.8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "924",
+          "rawValueJson": "924",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "36",
+          "rawValueJson": "36",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "225",
+          "rawValueJson": "225",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "2,574",
+          "rawValueJson": "2574",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "Listed",
+          "rawValueJson": "\"Listed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "9",
+          "rawValueJson": "9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Baker Tilly",
+          "rawValueJson": "\"Baker Tilly\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "170.5",
+          "rawValueJson": "170.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "182",
+          "rawValueJson": "182",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "-6.3",
+          "rawValueJson": "-6.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "745",
+          "rawValueJson": "745",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "28",
+          "rawValueJson": "28",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "229",
+          "rawValueJson": "229",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "1,831",
+          "rawValueJson": "1831",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "LLP/Ltd",
+          "rawValueJson": "\"LLP/Ltd\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "53",
+          "rawValueJson": "53",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Simmons Gainsford",
+          "rawValueJson": "\"Simmons Gainsford\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "10.1",
+          "rawValueJson": "10.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "10.7",
+          "rawValueJson": "10.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "-6.1",
+          "rawValueJson": "-6.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "718",
+          "rawValueJson": "718",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "14",
+          "rawValueJson": "14",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "81",
+          "rawValueJson": "81",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "LLP",
+          "rawValueJson": "\"LLP\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "PKF (UK)",
+          "rawValueJson": "\"PKF (UK)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "103.3",
+          "rawValueJson": "103.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "108.4",
+          "rawValueJson": "108.4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "-4.7",
+          "rawValueJson": "-4.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "1,476",
+          "rawValueJson": "1476",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "23",
+          "rawValueJson": "23",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "70",
+          "rawValueJson": "70",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "1,209",
+          "rawValueJson": "1209",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "LLP",
+          "rawValueJson": "\"LLP\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "50a1b7d5-083f-430e-b29e-d417070989ce",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

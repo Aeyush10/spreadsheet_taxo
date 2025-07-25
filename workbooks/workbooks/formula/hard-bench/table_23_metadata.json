@@ -1,0 +1,298 @@
+[
+  {
+    "range": {
+      "worksheetId": "{48DBA48C-ABD2-41D9-BF24-9E3222BF7EEF}",
+      "top": 1,
+      "left": 2,
+      "bottom": 11,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{48DBA48C-ABD2-41D9-BF24-9E3222BF7EEF}",
+          "top": 1,
+          "bottom": 11,
+          "left": 2,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Column1\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Column1",
+            "rawValueJson": "\"Column1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "311",
+            "rawValueJson": "311",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "1536",
+            "rawValueJson": "1536",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "80",
+            "rawValueJson": "80",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table1",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Column1",
+          "rawValueJson": "\"Column1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "15",
+          "rawValueJson": "15",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "311",
+          "rawValueJson": "311",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "1536",
+          "rawValueJson": "1536",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "80",
+          "rawValueJson": "80",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "b09c3ac3-0331-48af-a329-03574cf1abc1",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{3741F9E1-BFAB-4D6B-ABDB-B6245BE577D2}",
+      "top": 1,
+      "left": 2,
+      "bottom": 11,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{3741F9E1-BFAB-4D6B-ABDB-B6245BE577D2}",
+          "top": 1,
+          "bottom": 11,
+          "left": 2,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Ranges\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Ranges",
+            "rawValueJson": "\"Ranges\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "56-85",
+            "rawValueJson": "\"56-85\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "312-516",
+            "rawValueJson": "\"312-516\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "13-36",
+            "rawValueJson": "\"13-36\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "1-3",
+            "rawValueJson": "\"1-3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "10-11",
+            "rawValueJson": "\"10-11\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table2",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet2",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Ranges",
+          "rawValueJson": "\"Ranges\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "56-85",
+          "rawValueJson": "\"56-85\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "312-516",
+          "rawValueJson": "\"312-516\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "13-36",
+          "rawValueJson": "\"13-36\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "1-3",
+          "rawValueJson": "\"1-3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "10-11",
+          "rawValueJson": "\"10-11\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "d289481c-ba6c-4530-85da-fdd8f308b435",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

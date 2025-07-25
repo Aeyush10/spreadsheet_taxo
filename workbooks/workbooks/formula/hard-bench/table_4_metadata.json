@@ -1,0 +1,335 @@
+[
+  {
+    "range": {
+      "worksheetId": "{4DEC7F85-09BB-4A8D-9DA2-D6C6DBFFC3D0}",
+      "top": 1,
+      "left": 2,
+      "bottom": 11,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{4DEC7F85-09BB-4A8D-9DA2-D6C6DBFFC3D0}",
+          "top": 1,
+          "bottom": 11,
+          "left": 2,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Product\"",
+          "\"Selling Price (USD)\"",
+          "\"Cost (USD)\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Product",
+            "rawValueJson": "\"Product\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Selling Price (USD)",
+            "rawValueJson": "\"Selling Price (USD)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Cost (USD)",
+            "rawValueJson": "\"Cost (USD)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Apple",
+            "rawValueJson": "\"Apple\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "1.99",
+            "rawValueJson": "1.99",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "0.99",
+            "rawValueJson": "0.99",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Banana",
+            "rawValueJson": "\"Banana\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "0.99",
+            "rawValueJson": "0.99",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "0.49",
+            "rawValueJson": "0.49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Orange",
+            "rawValueJson": "\"Orange\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "2.49",
+            "rawValueJson": "2.49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "1.49",
+            "rawValueJson": "1.49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Grapes",
+            "rawValueJson": "\"Grapes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "3.99",
+            "rawValueJson": "3.99",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "2.99",
+            "rawValueJson": "2.99",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Watermelon",
+            "rawValueJson": "\"Watermelon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "0.79",
+            "rawValueJson": "0.79",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "0.59",
+            "rawValueJson": "0.59",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Products",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Product",
+          "rawValueJson": "\"Product\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Selling Price (USD)",
+          "rawValueJson": "\"Selling Price (USD)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Cost (USD)",
+          "rawValueJson": "\"Cost (USD)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Apple",
+          "rawValueJson": "\"Apple\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "1.99",
+          "rawValueJson": "1.99",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "0.99",
+          "rawValueJson": "0.99",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Banana",
+          "rawValueJson": "\"Banana\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "0.99",
+          "rawValueJson": "0.99",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "0.49",
+          "rawValueJson": "0.49",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Orange",
+          "rawValueJson": "\"Orange\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "2.49",
+          "rawValueJson": "2.49",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "1.49",
+          "rawValueJson": "1.49",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Grapes",
+          "rawValueJson": "\"Grapes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "3.99",
+          "rawValueJson": "3.99",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "2.99",
+          "rawValueJson": "2.99",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Watermelon",
+          "rawValueJson": "\"Watermelon\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "0.79",
+          "rawValueJson": "0.79",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "0.59",
+          "rawValueJson": "0.59",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "33c8a178-5ce6-41d7-a89f-346be6bad51e",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,785 @@
+[
+  {
+    "range": {
+      "worksheetId": "{D5C8A162-F9BF-4109-B5AB-FA8CDC8387F1}",
+      "top": 3,
+      "left": 1,
+      "bottom": 21,
+      "right": 13
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{D5C8A162-F9BF-4109-B5AB-FA8CDC8387F1}",
+          "top": 3,
+          "bottom": 21,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [
+          1
+        ],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 18
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "August 3 2021",
+            "rawValueJson": "\"August 3 2021\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "CASH IN",
+            "rawValueJson": "\"CASH IN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "EXPENSES",
+            "rawValueJson": "\"EXPENSES\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "ROOM NUMBER",
+            "rawValueJson": "\"ROOM NUMBER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "PAID",
+            "rawValueJson": "\"PAID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "PARTICULARS",
+            "rawValueJson": "\"PARTICULARS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "AMOUNT",
+            "rawValueJson": "\"AMOUNT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "PARTICULARS",
+            "rawValueJson": "\"PARTICULARS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 13,
+            "displayText": "AMOUNT",
+            "rawValueJson": "\"AMOUNT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "UTILITY BILL",
+            "rawValueJson": "\"UTILITY BILL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": " ₱7,421.00 ",
+            "rawValueJson": "7421",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "ROOM ACC.",
+            "rawValueJson": "\"ROOM ACC.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": " ₱899.00 ",
+            "rawValueJson": "899",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "UTILITY BILL",
+            "rawValueJson": "\"UTILITY BILL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "ROOM ACC.",
+            "rawValueJson": "\"ROOM ACC.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "BAR",
+            "rawValueJson": "\"BAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "BAR",
+            "rawValueJson": "\"BAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": " ₱410.00 ",
+            "rawValueJson": "410",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "UTILITY BILL",
+            "rawValueJson": "\"UTILITY BILL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": " ₱6,345.00 ",
+            "rawValueJson": "6345",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "13766",
+            "rawValueJson": "13766",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{D5C8A162-F9BF-4109-B5AB-FA8CDC8387F1}",
+          "top": 3,
+          "bottom": 21,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 5,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 3
+              },
+              {
+                "top": 4,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 21,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 11,
+            "end": 12
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "August 3 2021",
+            "rawValueJson": "\"August 3 2021\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "CASH IN",
+            "rawValueJson": "\"CASH IN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "ROOM NUMBER",
+            "rawValueJson": "\"ROOM NUMBER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "PAID",
+            "rawValueJson": "\"PAID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "PARTICULARS",
+            "rawValueJson": "\"PARTICULARS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "AMOUNT",
+            "rawValueJson": "\"AMOUNT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "UTILITY BILL",
+            "rawValueJson": "\"UTILITY BILL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": " ₱7,421.00 ",
+            "rawValueJson": "7421",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "ROOM ACC.",
+            "rawValueJson": "\"ROOM ACC.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": " ₱899.00 ",
+            "rawValueJson": "899",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "BAR",
+            "rawValueJson": "\"BAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": " ₱410.00 ",
+            "rawValueJson": "410",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "UTILITY BILL",
+            "rawValueJson": "\"UTILITY BILL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": " ₱6,345.00 ",
+            "rawValueJson": "6345",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "BAR",
+            "rawValueJson": "\"BAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": " ₱200.00 ",
+            "rawValueJson": "200",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "ROOM ACC.",
+            "rawValueJson": "\"ROOM ACC.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": " ₱1,299.00 ",
+            "rawValueJson": "1299",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "CASH IN:",
+            "rawValueJson": "\"CASH IN:\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": " ₱16,574.00 ",
+            "rawValueJson": "16574",
+            "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": true,
+    "boundaryConfidence": 0.375,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "August 3 2021",
+          "rawValueJson": "\"August 3 2021\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "CASH IN",
+          "rawValueJson": "\"CASH IN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "EXPENSES",
+          "rawValueJson": "\"EXPENSES\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "ROOM NUMBER",
+          "rawValueJson": "\"ROOM NUMBER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "PAID",
+          "rawValueJson": "\"PAID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "PARTICULARS",
+          "rawValueJson": "\"PARTICULARS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "AMOUNT",
+          "rawValueJson": "\"AMOUNT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "PARTICULARS",
+          "rawValueJson": "\"PARTICULARS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 13,
+          "displayText": "AMOUNT",
+          "rawValueJson": "\"AMOUNT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "UTILITY BILL",
+          "rawValueJson": "\"UTILITY BILL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": " ₱7,421.00 ",
+          "rawValueJson": "7421",
+          "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "ROOM ACC.",
+          "rawValueJson": "\"ROOM ACC.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": " ₱899.00 ",
+          "rawValueJson": "899",
+          "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "UTILITY BILL",
+          "rawValueJson": "\"UTILITY BILL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "ROOM ACC.",
+          "rawValueJson": "\"ROOM ACC.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "BAR",
+          "rawValueJson": "\"BAR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "BAR",
+          "rawValueJson": "\"BAR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": " ₱410.00 ",
+          "rawValueJson": "410",
+          "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "UTILITY BILL",
+          "rawValueJson": "\"UTILITY BILL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": " ₱6,345.00 ",
+          "rawValueJson": "6345",
+          "numberFormat": "_(\"₱\"* #,##0.00_);_(\"₱\"* (#,##0.00);_(\"₱\"* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": "13766",
+          "rawValueJson": "13766",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "54bf10d8-6052-45a7-aeae-fc95f40d648c",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

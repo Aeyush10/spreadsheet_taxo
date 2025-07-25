@@ -1,0 +1,533 @@
+[
+  {
+    "range": {
+      "worksheetId": "{C1B17E29-E77C-4880-A4A9-4A81B3DFA3D7}",
+      "top": 1,
+      "left": 1,
+      "bottom": 18,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{C1B17E29-E77C-4880-A4A9-4A81B3DFA3D7}",
+          "top": 1,
+          "bottom": 18,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          17
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 16
+          }
+        ],
+        "headerNames": [
+          "\"TYPE\"",
+          "\"Accounts\"",
+          "\"\"",
+          "\"TYPE\"",
+          "\"% of Total\"",
+          "\"Accounts\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "TYPE",
+            "rawValueJson": "\"TYPE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Accounts",
+            "rawValueJson": "\"Accounts\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "TYPE",
+            "rawValueJson": "\"TYPE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "% of Total",
+            "rawValueJson": "\"% of Total\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Accounts",
+            "rawValueJson": "\"Accounts\"",
+            "numberFormat": "mmm-yyyy"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Corporate",
+            "rawValueJson": "\"Corporate\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": " 4,377 ",
+            "rawValueJson": "4377",
+            "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Airline",
+            "rawValueJson": "\"Airline\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "1%",
+            "rawValueJson": "0.00954592363261094",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "74 ",
+            "rawValueJson": "74",
+            "numberFormat": "#,##0_);[Red](#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Local Tour Operator",
+            "rawValueJson": "\"Local Tour Operator\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": " 1,629 ",
+            "rawValueJson": "1629",
+            "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Competitor",
+            "rawValueJson": "\"Competitor\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "0%",
+            "rawValueJson": "0.000515995872033024",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "4 ",
+            "rawValueJson": "4",
+            "numberFormat": "#,##0_);[Red](#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Travel Agency",
+            "rawValueJson": "\"Travel Agency\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": " 824 ",
+            "rawValueJson": "824",
+            "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Corporate",
+            "rawValueJson": "\"Corporate\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "56%",
+            "rawValueJson": "0.564628482972136",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "4,377 ",
+            "rawValueJson": "4377",
+            "numberFormat": "#,##0_);[Red](#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Other",
+            "rawValueJson": "\"Other\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": " 181 ",
+            "rawValueJson": "181",
+            "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Destination Management Company",
+            "rawValueJson": "\"Destination Management Company\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "1%",
+            "rawValueJson": "0.00528895768833849",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "41 ",
+            "rawValueJson": "41",
+            "numberFormat": "#,##0_);[Red](#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Oversea Tour Operator",
+            "rawValueJson": "\"Oversea Tour Operator\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": " 176 ",
+            "rawValueJson": "176",
+            "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "GSA",
+            "rawValueJson": "\"GSA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "0%",
+            "rawValueJson": "0.000128998968008256",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "1 ",
+            "rawValueJson": "1",
+            "numberFormat": "#,##0_);[Red](#,##0)"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9583333333333334,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "TYPE",
+          "rawValueJson": "\"TYPE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Accounts",
+          "rawValueJson": "\"Accounts\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "TYPE",
+          "rawValueJson": "\"TYPE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "% of Total",
+          "rawValueJson": "\"% of Total\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Accounts",
+          "rawValueJson": "\"Accounts\"",
+          "numberFormat": "mmm-yyyy"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Corporate",
+          "rawValueJson": "\"Corporate\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": " 4,377 ",
+          "rawValueJson": "4377",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Airline",
+          "rawValueJson": "\"Airline\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "1%",
+          "rawValueJson": "0.00954592363261094",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "74 ",
+          "rawValueJson": "74",
+          "numberFormat": "#,##0_);[Red](#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Local Tour Operator",
+          "rawValueJson": "\"Local Tour Operator\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": " 1,629 ",
+          "rawValueJson": "1629",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Competitor",
+          "rawValueJson": "\"Competitor\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "0%",
+          "rawValueJson": "0.000515995872033024",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "4 ",
+          "rawValueJson": "4",
+          "numberFormat": "#,##0_);[Red](#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Travel Agency",
+          "rawValueJson": "\"Travel Agency\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": " 824 ",
+          "rawValueJson": "824",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Corporate",
+          "rawValueJson": "\"Corporate\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "56%",
+          "rawValueJson": "0.564628482972136",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "4,377 ",
+          "rawValueJson": "4377",
+          "numberFormat": "#,##0_);[Red](#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Other",
+          "rawValueJson": "\"Other\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": " 181 ",
+          "rawValueJson": "181",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Destination Management Company",
+          "rawValueJson": "\"Destination Management Company\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "1%",
+          "rawValueJson": "0.00528895768833849",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "41 ",
+          "rawValueJson": "41",
+          "numberFormat": "#,##0_);[Red](#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Oversea Tour Operator",
+          "rawValueJson": "\"Oversea Tour Operator\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": " 176 ",
+          "rawValueJson": "176",
+          "numberFormat": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "GSA",
+          "rawValueJson": "\"GSA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "0%",
+          "rawValueJson": "0.000128998968008256",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "1 ",
+          "rawValueJson": "1",
+          "numberFormat": "#,##0_);[Red](#,##0)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ea1d7ed8-7b53-4895-8a76-3569755cde21",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

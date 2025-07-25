@@ -1,0 +1,151 @@
+[
+  {
+    "range": {
+      "worksheetId": "{774853EF-21F0-44B2-B7A9-E09390A43F22}",
+      "top": 1,
+      "left": 2,
+      "bottom": 12,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{774853EF-21F0-44B2-B7A9-E09390A43F22}",
+          "top": 1,
+          "bottom": 12,
+          "left": 2,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Amount\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "44",
+            "rawValueJson": "44",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "-50",
+            "rawValueJson": "-50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Transactions",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "50",
+          "rawValueJson": "50",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "44",
+          "rawValueJson": "44",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "-50",
+          "rawValueJson": "-50",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "fedde2f7-2d6f-4da3-baff-fa4d5983919f",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,790 @@
+[
+  {
+    "range": {
+      "worksheetId": "{C4A6D927-893F-4245-A966-9E7299801414}",
+      "top": 1,
+      "left": 1,
+      "bottom": 48,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{C4A6D927-893F-4245-A966-9E7299801414}",
+          "top": 1,
+          "bottom": 48,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Year\"",
+          "\"Author\"",
+          "\"Book\"",
+          "\"Editor\"",
+          "\"Category\"",
+          "\"Publisher\"",
+          "\"Rating\"",
+          "\"Sales\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Year",
+            "rawValueJson": "\"Year\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Author",
+            "rawValueJson": "\"Author\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Book",
+            "rawValueJson": "\"Book\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Editor",
+            "rawValueJson": "\"Editor\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Category",
+            "rawValueJson": "\"Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Publisher",
+            "rawValueJson": "\"Publisher\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Rating",
+            "rawValueJson": "\"Rating\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": " Sales ",
+            "rawValueJson": "\"Sales\"",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "2018",
+            "rawValueJson": "2018",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Andrewa Kenkmann",
+            "rawValueJson": "\"Andrewa Kenkmann\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "A Dream",
+            "rawValueJson": "\"A Dream\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "T. Boston",
+            "rawValueJson": "\"T. Boston\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Comic Book",
+            "rawValueJson": "\"Comic Book\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Antenne Books",
+            "rawValueJson": "\"Antenne Books\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "4.2",
+            "rawValueJson": "4.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": " $6,594,900 ",
+            "rawValueJson": "6594900",
+            "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2018",
+            "rawValueJson": "2018",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Robert Galbraith",
+            "rawValueJson": "\"Robert Galbraith\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Career of Evil",
+            "rawValueJson": "\"Career of Evil\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Z. Parker",
+            "rawValueJson": "\"Z. Parker\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Youth Fiction",
+            "rawValueJson": "\"Youth Fiction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Little, Brown & Company",
+            "rawValueJson": "\"Little, Brown & Company\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "4.4",
+            "rawValueJson": "4.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": " $6,285,240 ",
+            "rawValueJson": "6285240",
+            "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2018",
+            "rawValueJson": "2018",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Nina Laurin",
+            "rawValueJson": "\"Nina Laurin\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Girl Last Seen",
+            "rawValueJson": "\"Girl Last Seen\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "M. Tebbit",
+            "rawValueJson": "\"M. Tebbit\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Youth Fiction",
+            "rawValueJson": "\"Youth Fiction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Penguin",
+            "rawValueJson": "\"Penguin\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "4.5",
+            "rawValueJson": "4.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": " $3,324,650 ",
+            "rawValueJson": "3324650",
+            "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2018",
+            "rawValueJson": "2018",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Carla Golembe",
+            "rawValueJson": "\"Carla Golembe\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Journey to the West",
+            "rawValueJson": "\"Journey to the West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "R. Reese",
+            "rawValueJson": "\"R. Reese\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Comic Book",
+            "rawValueJson": "\"Comic Book\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Random house",
+            "rawValueJson": "\"Random house\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "4.2",
+            "rawValueJson": "4.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": " $4,522,320 ",
+            "rawValueJson": "4522320",
+            "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "2018",
+            "rawValueJson": "2018",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Anaya Johnson",
+            "rawValueJson": "\"Anaya Johnson\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Little Duck",
+            "rawValueJson": "\"Little Duck\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "W. Arnaiz",
+            "rawValueJson": "\"W. Arnaiz\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Comic Book",
+            "rawValueJson": "\"Comic Book\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Penguin",
+            "rawValueJson": "\"Penguin\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "4.8",
+            "rawValueJson": "4.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": " $615,160 ",
+            "rawValueJson": "615160",
+            "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table1433",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Books 2",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Year",
+          "rawValueJson": "\"Year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Author",
+          "rawValueJson": "\"Author\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Book",
+          "rawValueJson": "\"Book\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Editor",
+          "rawValueJson": "\"Editor\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Category",
+          "rawValueJson": "\"Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Publisher",
+          "rawValueJson": "\"Publisher\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Rating",
+          "rawValueJson": "\"Rating\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": " Sales ",
+          "rawValueJson": "\"Sales\"",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "2018",
+          "rawValueJson": "2018",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Andrewa Kenkmann",
+          "rawValueJson": "\"Andrewa Kenkmann\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "A Dream",
+          "rawValueJson": "\"A Dream\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "T. Boston",
+          "rawValueJson": "\"T. Boston\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "Comic Book",
+          "rawValueJson": "\"Comic Book\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Antenne Books",
+          "rawValueJson": "\"Antenne Books\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "4.2",
+          "rawValueJson": "4.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": " $6,594,900 ",
+          "rawValueJson": "6594900",
+          "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2018",
+          "rawValueJson": "2018",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Robert Galbraith",
+          "rawValueJson": "\"Robert Galbraith\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Career of Evil",
+          "rawValueJson": "\"Career of Evil\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Z. Parker",
+          "rawValueJson": "\"Z. Parker\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Youth Fiction",
+          "rawValueJson": "\"Youth Fiction\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Little, Brown & Company",
+          "rawValueJson": "\"Little, Brown & Company\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "4.4",
+          "rawValueJson": "4.4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": " $6,285,240 ",
+          "rawValueJson": "6285240",
+          "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2018",
+          "rawValueJson": "2018",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Nina Laurin",
+          "rawValueJson": "\"Nina Laurin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Girl Last Seen",
+          "rawValueJson": "\"Girl Last Seen\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "M. Tebbit",
+          "rawValueJson": "\"M. Tebbit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Youth Fiction",
+          "rawValueJson": "\"Youth Fiction\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Penguin",
+          "rawValueJson": "\"Penguin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "4.5",
+          "rawValueJson": "4.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": " $3,324,650 ",
+          "rawValueJson": "3324650",
+          "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2018",
+          "rawValueJson": "2018",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Carla Golembe",
+          "rawValueJson": "\"Carla Golembe\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Journey to the West",
+          "rawValueJson": "\"Journey to the West\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "R. Reese",
+          "rawValueJson": "\"R. Reese\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Comic Book",
+          "rawValueJson": "\"Comic Book\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Random house",
+          "rawValueJson": "\"Random house\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "4.2",
+          "rawValueJson": "4.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": " $4,522,320 ",
+          "rawValueJson": "4522320",
+          "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "2018",
+          "rawValueJson": "2018",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Anaya Johnson",
+          "rawValueJson": "\"Anaya Johnson\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Little Duck",
+          "rawValueJson": "\"Little Duck\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "W. Arnaiz",
+          "rawValueJson": "\"W. Arnaiz\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Comic Book",
+          "rawValueJson": "\"Comic Book\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Penguin",
+          "rawValueJson": "\"Penguin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "4.8",
+          "rawValueJson": "4.8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": " $615,160 ",
+          "rawValueJson": "615160",
+          "numberFormat": "_($* #,##0_);_($* (#,##0);_($* \"-\"??_);_(@_)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "74ce11e8-c3dc-4195-8693-a5d3271c0f60",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

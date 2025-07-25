@@ -1,0 +1,722 @@
+[
+  {
+    "range": {
+      "worksheetId": "{518474B3-8768-42BB-A837-CDAA952F93C1}",
+      "top": 25,
+      "left": 1,
+      "bottom": 34,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{518474B3-8768-42BB-A837-CDAA952F93C1}",
+          "top": 25,
+          "bottom": 34,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Expense Category\"",
+          "\"Amount\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "Expense Category",
+            "rawValueJson": "\"Expense Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 2,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "Salaries",
+            "rawValueJson": "\"Salaries\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 2,
+            "displayText": "9384",
+            "rawValueJson": "9384",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 1,
+            "displayText": "Training",
+            "rawValueJson": "\"Training\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 2,
+            "displayText": "8012",
+            "rawValueJson": "8012",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 1,
+            "displayText": "Health & Safety",
+            "rawValueJson": "\"Health & Safety\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 2,
+            "displayText": "2907",
+            "rawValueJson": "2907",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 1,
+            "displayText": "Supplies",
+            "rawValueJson": "\"Supplies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "965",
+            "rawValueJson": "965",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 1,
+            "displayText": "Recruitment",
+            "rawValueJson": "\"Recruitment\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "3135",
+            "rawValueJson": "3135",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Hr",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 25,
+          "column": 1,
+          "displayText": "Expense Category",
+          "rawValueJson": "\"Expense Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 25,
+          "column": 2,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 26,
+          "column": 1,
+          "displayText": "Salaries",
+          "rawValueJson": "\"Salaries\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 26,
+          "column": 2,
+          "displayText": "9384",
+          "rawValueJson": "9384",
+          "numberFormat": "General"
+        },
+        {
+          "row": 27,
+          "column": 1,
+          "displayText": "Training",
+          "rawValueJson": "\"Training\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 27,
+          "column": 2,
+          "displayText": "8012",
+          "rawValueJson": "8012",
+          "numberFormat": "General"
+        },
+        {
+          "row": 28,
+          "column": 1,
+          "displayText": "Health & Safety",
+          "rawValueJson": "\"Health & Safety\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 28,
+          "column": 2,
+          "displayText": "2907",
+          "rawValueJson": "2907",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 1,
+          "displayText": "Supplies",
+          "rawValueJson": "\"Supplies\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 2,
+          "displayText": "965",
+          "rawValueJson": "965",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 1,
+          "displayText": "Recruitment",
+          "rawValueJson": "\"Recruitment\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 2,
+          "displayText": "3135",
+          "rawValueJson": "3135",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "f717e1d2-7771-4d41-a93f-0d82f09b1f72",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{518474B3-8768-42BB-A837-CDAA952F93C1}",
+      "top": 1,
+      "left": 1,
+      "bottom": 10,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{518474B3-8768-42BB-A837-CDAA952F93C1}",
+          "top": 1,
+          "bottom": 10,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Expense Category\"",
+          "\"Amount\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Expense Category",
+            "rawValueJson": "\"Expense Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Salaries",
+            "rawValueJson": "\"Salaries\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "8663",
+            "rawValueJson": "8663",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Advertising",
+            "rawValueJson": "\"Advertising\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "8555",
+            "rawValueJson": "8555",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Events",
+            "rawValueJson": "\"Events\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "2349",
+            "rawValueJson": "2349",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Supplies",
+            "rawValueJson": "\"Supplies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "3059",
+            "rawValueJson": "3059",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Market Research",
+            "rawValueJson": "\"Market Research\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "3781",
+            "rawValueJson": "3781",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Marketing",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Expense Category",
+          "rawValueJson": "\"Expense Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Salaries",
+          "rawValueJson": "\"Salaries\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "8663",
+          "rawValueJson": "8663",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Advertising",
+          "rawValueJson": "\"Advertising\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "8555",
+          "rawValueJson": "8555",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Events",
+          "rawValueJson": "\"Events\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "2349",
+          "rawValueJson": "2349",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Supplies",
+          "rawValueJson": "\"Supplies\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "3059",
+          "rawValueJson": "3059",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Market Research",
+          "rawValueJson": "\"Market Research\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "3781",
+          "rawValueJson": "3781",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "b3287765-7787-47f0-8168-981808026195",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{518474B3-8768-42BB-A837-CDAA952F93C1}",
+      "top": 13,
+      "left": 1,
+      "bottom": 22,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{518474B3-8768-42BB-A837-CDAA952F93C1}",
+          "top": 13,
+          "bottom": 22,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Expense Category\"",
+          "\"Amount\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "Expense Category",
+            "rawValueJson": "\"Expense Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "Salaries",
+            "rawValueJson": "\"Salaries\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "6129",
+            "rawValueJson": "6129",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "Software",
+            "rawValueJson": "\"Software\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "5180",
+            "rawValueJson": "5180",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "Events",
+            "rawValueJson": "\"Events\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "1333",
+            "rawValueJson": "1333",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "Supplies",
+            "rawValueJson": "\"Supplies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "2622",
+            "rawValueJson": "2622",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "Consulting Fees",
+            "rawValueJson": "\"Consulting Fees\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "3324",
+            "rawValueJson": "3324",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Finance",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 13,
+          "column": 1,
+          "displayText": "Expense Category",
+          "rawValueJson": "\"Expense Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 2,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 1,
+          "displayText": "Salaries",
+          "rawValueJson": "\"Salaries\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 2,
+          "displayText": "6129",
+          "rawValueJson": "6129",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 1,
+          "displayText": "Software",
+          "rawValueJson": "\"Software\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 2,
+          "displayText": "5180",
+          "rawValueJson": "5180",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 1,
+          "displayText": "Events",
+          "rawValueJson": "\"Events\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 2,
+          "displayText": "1333",
+          "rawValueJson": "1333",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 1,
+          "displayText": "Supplies",
+          "rawValueJson": "\"Supplies\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 2,
+          "displayText": "2622",
+          "rawValueJson": "2622",
+          "numberFormat": "General"
+        },
+        {
+          "row": 18,
+          "column": 1,
+          "displayText": "Consulting Fees",
+          "rawValueJson": "\"Consulting Fees\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 18,
+          "column": 2,
+          "displayText": "3324",
+          "rawValueJson": "3324",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "a4e342fa-cfc9-437e-87e9-cb32128d391f",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

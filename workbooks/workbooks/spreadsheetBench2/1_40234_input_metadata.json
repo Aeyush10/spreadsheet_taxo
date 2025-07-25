@@ -1,0 +1,613 @@
+[
+  {
+    "range": {
+      "worksheetId": "{38DA5453-824C-4E46-9EA1-0A9847A75F76}",
+      "top": 4,
+      "left": 2,
+      "bottom": 13,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{38DA5453-824C-4E46-9EA1-0A9847A75F76}",
+          "top": 4,
+          "bottom": 13,
+          "left": 2,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 9
+          }
+        ],
+        "headerNames": [
+          "\"S/N\"",
+          "\"Name\"",
+          "\"Company\"",
+          "\"Department\"",
+          "\"Number\"",
+          "\"Email\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "S/N",
+            "rawValueJson": "\"S/N\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Company",
+            "rawValueJson": "\"Company\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Department",
+            "rawValueJson": "\"Department\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Number",
+            "rawValueJson": "\"Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "Email",
+            "rawValueJson": "\"Email\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "John",
+            "rawValueJson": "\"John\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Ops",
+            "rawValueJson": "\"Ops\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "99999",
+            "rawValueJson": "99999",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "John@abc.com",
+            "rawValueJson": "\"John@abc.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Peter",
+            "rawValueJson": "\"Peter\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "123",
+            "rawValueJson": "123",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "HSE",
+            "rawValueJson": "\"HSE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "88888",
+            "rawValueJson": "88888",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "Peter@123.com",
+            "rawValueJson": "\"Peter@123.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "Amy",
+            "rawValueJson": "\"Amy\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "123",
+            "rawValueJson": "123",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "HSE",
+            "rawValueJson": "\"HSE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "77777",
+            "rawValueJson": "77777",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "Amy@123.com",
+            "rawValueJson": "\"Amy@123.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "Ray",
+            "rawValueJson": "\"Ray\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "XYZ",
+            "rawValueJson": "\"XYZ\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "Ops",
+            "rawValueJson": "\"Ops\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "66666",
+            "rawValueJson": "66666",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "Ray@xyz.com",
+            "rawValueJson": "\"Ray@xyz.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "Benny",
+            "rawValueJson": "\"Benny\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "ABC",
+            "rawValueJson": "\"ABC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "HSE",
+            "rawValueJson": "\"HSE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "55555",
+            "rawValueJson": "55555",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "Benny@abc.com",
+            "rawValueJson": "\"Benny@abc.com\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9375,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "S/N",
+          "rawValueJson": "\"S/N\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Company",
+          "rawValueJson": "\"Company\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Department",
+          "rawValueJson": "\"Department\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Number",
+          "rawValueJson": "\"Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "Email",
+          "rawValueJson": "\"Email\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "John",
+          "rawValueJson": "\"John\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "ABC",
+          "rawValueJson": "\"ABC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Ops",
+          "rawValueJson": "\"Ops\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "99999",
+          "rawValueJson": "99999",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "John@abc.com",
+          "rawValueJson": "\"John@abc.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Peter",
+          "rawValueJson": "\"Peter\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "123",
+          "rawValueJson": "123",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "HSE",
+          "rawValueJson": "\"HSE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "88888",
+          "rawValueJson": "88888",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "Peter@123.com",
+          "rawValueJson": "\"Peter@123.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "Amy",
+          "rawValueJson": "\"Amy\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "123",
+          "rawValueJson": "123",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "HSE",
+          "rawValueJson": "\"HSE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "77777",
+          "rawValueJson": "77777",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "Amy@123.com",
+          "rawValueJson": "\"Amy@123.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "Ray",
+          "rawValueJson": "\"Ray\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "XYZ",
+          "rawValueJson": "\"XYZ\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "Ops",
+          "rawValueJson": "\"Ops\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "66666",
+          "rawValueJson": "66666",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "Ray@xyz.com",
+          "rawValueJson": "\"Ray@xyz.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "Benny",
+          "rawValueJson": "\"Benny\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "displayText": "ABC",
+          "rawValueJson": "\"ABC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "displayText": "HSE",
+          "rawValueJson": "\"HSE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "displayText": "55555",
+          "rawValueJson": "55555",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 7,
+          "displayText": "Benny@abc.com",
+          "rawValueJson": "\"Benny@abc.com\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "83e3bb68-f278-446d-bfd3-097f9a96fdc3",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "range": {
+      "worksheetId": "{DA4DBD23-40DF-4F7E-8154-BE3A6DB4A6DF}",
+      "top": 1,
+      "left": 1,
+      "bottom": 11,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{DA4DBD23-40DF-4F7E-8154-BE3A6DB4A6DF}",
+          "top": 1,
+          "bottom": 11,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Time Period\"",
+          "\"Start(HH:mm)\"",
+          "\"Stop(HH:mm)\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Time Period",
+            "rawValueJson": "\"Time Period\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Start(HH:mm)",
+            "rawValueJson": "\"Start(HH:mm)\"",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Stop(HH:mm)",
+            "rawValueJson": "\"Stop(HH:mm)\"",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Off-Peak",
+            "rawValueJson": "\"Off-Peak\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "0:00",
+            "rawValueJson": "45769",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "7:00",
+            "rawValueJson": "45769.29166666666",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Mid-Peak",
+            "rawValueJson": "\"Mid-Peak\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "7:00",
+            "rawValueJson": "45769.29166666666",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "11:00",
+            "rawValueJson": "45769.45833333334",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "On-Peak",
+            "rawValueJson": "\"On-Peak\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "11:00",
+            "rawValueJson": "45769.45833333334",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "17:00",
+            "rawValueJson": "45769.70833333334",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Mid-Peak",
+            "rawValueJson": "\"Mid-Peak\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "17:00",
+            "rawValueJson": "45769.70833333334",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "19:00",
+            "rawValueJson": "45769.79166666666",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Off-Peak",
+            "rawValueJson": "\"Off-Peak\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "19:00",
+            "rawValueJson": "45769.79166666666",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "0:00",
+            "rawValueJson": "45769",
+            "numberFormat": "h:mm"
+          }
+        ]
+      }
+    ],
+    "tableName": "Input",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Time Period",
+          "rawValueJson": "\"Time Period\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Start(HH:mm)",
+          "rawValueJson": "\"Start(HH:mm)\"",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Stop(HH:mm)",
+          "rawValueJson": "\"Stop(HH:mm)\"",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Off-Peak",
+          "rawValueJson": "\"Off-Peak\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "0:00",
+          "rawValueJson": "45769",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "7:00",
+          "rawValueJson": "45769.29166666666",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Mid-Peak",
+          "rawValueJson": "\"Mid-Peak\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "7:00",
+          "rawValueJson": "45769.29166666666",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "11:00",
+          "rawValueJson": "45769.45833333334",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "On-Peak",
+          "rawValueJson": "\"On-Peak\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "11:00",
+          "rawValueJson": "45769.45833333334",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "17:00",
+          "rawValueJson": "45769.70833333334",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Mid-Peak",
+          "rawValueJson": "\"Mid-Peak\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "17:00",
+          "rawValueJson": "45769.70833333334",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "19:00",
+          "rawValueJson": "45769.79166666666",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Off-Peak",
+          "rawValueJson": "\"Off-Peak\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "19:00",
+          "rawValueJson": "45769.79166666666",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "0:00",
+          "rawValueJson": "45769",
+          "numberFormat": "h:mm"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "e70278b0-b4ed-4861-a0d5-11d0a07f2c51",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

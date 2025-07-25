@@ -1,0 +1,612 @@
+[
+  {
+    "range": {
+      "worksheetId": "{11A09303-563C-46BC-8D00-9791094C2AA8}",
+      "top": 1,
+      "left": 1,
+      "bottom": 21,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{11A09303-563C-46BC-8D00-9791094C2AA8}",
+          "top": 1,
+          "bottom": 21,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Company name\"",
+          "\"Shares Owned\"",
+          "\"Purchase Price ($)\"",
+          "\"Current Price ($)\"",
+          "\"Total Value ($)\"",
+          "\"Ticker symbol\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Company name",
+            "rawValueJson": "\"Company name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Shares Owned",
+            "rawValueJson": "\"Shares Owned\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Purchase Price ($)",
+            "rawValueJson": "\"Purchase Price ($)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Current Price ($)",
+            "rawValueJson": "\"Current Price ($)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Total Value ($)",
+            "rawValueJson": "\"Total Value ($)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Ticker symbol",
+            "rawValueJson": "\"Ticker symbol\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "APPLE INC. (XNAS:AAPL)",
+            "rawValueJson": "\"#VALUE!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "150",
+            "rawValueJson": "150",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "155.25",
+            "rawValueJson": "155.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "15,525.00",
+            "rawValueJson": "15525",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "AAPL",
+            "rawValueJson": "\"AAPL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "MICROSOFT CORPORATION (XNAS:MSFT)",
+            "rawValueJson": "\"#VALUE!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "75",
+            "rawValueJson": "75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "200.5",
+            "rawValueJson": "200.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "210.75",
+            "rawValueJson": "210.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "15,806.25",
+            "rawValueJson": "15806.25",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "MSFT",
+            "rawValueJson": "\"MSFT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "ALPHABET INC. (XNAS:GOOGL)",
+            "rawValueJson": "\"#VALUE!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "2500",
+            "rawValueJson": "2500",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "2600.75",
+            "rawValueJson": "2600.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "130,037.50",
+            "rawValueJson": "130037.5",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "GOOGL",
+            "rawValueJson": "\"GOOGL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "AMAZON.COM, INC. (XNAS:AMZN)",
+            "rawValueJson": "\"#VALUE!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "3200",
+            "rawValueJson": "3200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "3350.25",
+            "rawValueJson": "3350.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "134,010.00",
+            "rawValueJson": "134010",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "AMZN",
+            "rawValueJson": "\"AMZN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "TESLA, INC. (XNAS:TSLA)",
+            "rawValueJson": "\"#VALUE!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "600",
+            "rawValueJson": "600",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "625.5",
+            "rawValueJson": "625.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "37,530.00",
+            "rawValueJson": "37530",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "TSLA",
+            "rawValueJson": "\"TSLA\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table2362",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "portfolio",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Company name",
+          "rawValueJson": "\"Company name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Shares Owned",
+          "rawValueJson": "\"Shares Owned\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Purchase Price ($)",
+          "rawValueJson": "\"Purchase Price ($)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Current Price ($)",
+          "rawValueJson": "\"Current Price ($)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Total Value ($)",
+          "rawValueJson": "\"Total Value ($)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Ticker symbol",
+          "rawValueJson": "\"Ticker symbol\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "APPLE INC. (XNAS:AAPL)",
+          "rawValueJson": "\"#VALUE!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "150",
+          "rawValueJson": "150",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "155.25",
+          "rawValueJson": "155.25",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "15,525.00",
+          "rawValueJson": "15525",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "AAPL",
+          "rawValueJson": "\"AAPL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "MICROSOFT CORPORATION (XNAS:MSFT)",
+          "rawValueJson": "\"#VALUE!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "75",
+          "rawValueJson": "75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "200.5",
+          "rawValueJson": "200.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "210.75",
+          "rawValueJson": "210.75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "15,806.25",
+          "rawValueJson": "15806.25",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "MSFT",
+          "rawValueJson": "\"MSFT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "ALPHABET INC. (XNAS:GOOGL)",
+          "rawValueJson": "\"#VALUE!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "50",
+          "rawValueJson": "50",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "2500",
+          "rawValueJson": "2500",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "2600.75",
+          "rawValueJson": "2600.75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "130,037.50",
+          "rawValueJson": "130037.5",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "GOOGL",
+          "rawValueJson": "\"GOOGL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "AMAZON.COM, INC. (XNAS:AMZN)",
+          "rawValueJson": "\"#VALUE!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "40",
+          "rawValueJson": "40",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "3200",
+          "rawValueJson": "3200",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "3350.25",
+          "rawValueJson": "3350.25",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "134,010.00",
+          "rawValueJson": "134010",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "AMZN",
+          "rawValueJson": "\"AMZN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "TESLA, INC. (XNAS:TSLA)",
+          "rawValueJson": "\"#VALUE!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "60",
+          "rawValueJson": "60",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "600",
+          "rawValueJson": "600",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "625.5",
+          "rawValueJson": "625.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "37,530.00",
+          "rawValueJson": "37530",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "TSLA",
+          "rawValueJson": "\"TSLA\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "7ba2b197-e1c6-4a38-a935-b83f744d8548",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

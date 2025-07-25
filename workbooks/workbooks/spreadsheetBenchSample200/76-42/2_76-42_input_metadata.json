@@ -1,0 +1,238 @@
+[
+  {
+    "range": {
+      "worksheetId": "{C688ABF4-1C5A-4DA9-90EE-EC4EF7418FD8}",
+      "top": 1,
+      "left": 1,
+      "bottom": 4,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{C688ABF4-1C5A-4DA9-90EE-EC4EF7418FD8}",
+          "top": 1,
+          "bottom": 4,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "headerNames": [
+          "\"S.NO\"",
+          "\"START TIME\"",
+          "\"END TIME\"",
+          "\"DURATION\""
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{C688ABF4-1C5A-4DA9-90EE-EC4EF7418FD8}",
+          "top": 1,
+          "bottom": 4,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 2
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "S.NO",
+          "rawValueJson": "\"S.NO\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "START TIME",
+          "rawValueJson": "\"START TIME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "END TIME",
+          "rawValueJson": "\"END TIME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "DURATION",
+          "rawValueJson": "\"DURATION\"",
+          "numberFormat": "[h]:mm:ss;@"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "7/21/2023 10:29:31 PM",
+          "rawValueJson": "45128.93716435185",
+          "numberFormat": "m/d/yyyy h:mm:ss AM/PM"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "7/21/2023 10:29:32 PM",
+          "rawValueJson": "45128.93717592592",
+          "numberFormat": "m/d/yyyy h:mm:ss AM/PM"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "0:00:01",
+          "rawValueJson": "0.0000115740740740741",
+          "numberFormat": "[h]:mm:ss;@"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "7/21/2023  10:32:02 PM, 7/21/2023  10:32:06 PM",
+          "rawValueJson": "\"7/21/2023  10:32:02 PM, 7/21/2023  10:32:06 PM\"",
+          "numberFormat": "m/d/yyyy h:mm:ss AM/PM"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "7/21/2023  10:34:27 PM,7/21/2023  10:37:27 PM",
+          "rawValueJson": "\"7/21/2023  10:34:27 PM,7/21/2023  10:37:27 PM\"",
+          "numberFormat": "m/d/yyyy h:mm:ss AM/PM"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "7/24/2023 4:46:33 PM",
+          "rawValueJson": "45131.69899305556",
+          "numberFormat": "m/d/yyyy h:mm:ss AM/PM"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "7/23/2023 4:46:34 PM",
+          "rawValueJson": "45130.69900462963",
+          "numberFormat": "m/d/yyyy h:mm:ss AM/PM"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "91313b63-2c8b-4ce8-98f5-aa365c0baaf7",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

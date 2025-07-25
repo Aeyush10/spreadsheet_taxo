@@ -1,0 +1,4249 @@
+[
+  {
+    "range": {
+      "worksheetId": "{CFC7EADC-645A-4166-8142-02E053554D4B}",
+      "top": 1,
+      "left": 1,
+      "bottom": 42,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{CFC7EADC-645A-4166-8142-02E053554D4B}",
+          "top": 1,
+          "bottom": 42,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Key initiative\"",
+          "\"Vice President\"",
+          "\"Country\"",
+          "\"2024 Sales\"",
+          "\"2025 Forecast\"",
+          "\"YoY Growth\"",
+          "\"Margin\"",
+          "\"Discount\"",
+          "\"Comments\"",
+          "\"Tracker\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Key initiative",
+            "rawValueJson": "\"Key initiative\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Vice President",
+            "rawValueJson": "\"Vice President\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Country",
+            "rawValueJson": "\"Country\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "2024 Sales",
+            "rawValueJson": "\"2024 Sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "2025 Forecast",
+            "rawValueJson": "\"2025 Forecast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "YoY Growth",
+            "rawValueJson": "\"YoY Growth\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Margin",
+            "rawValueJson": "\"Margin\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Discount",
+            "rawValueJson": "\"Discount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Comments",
+            "rawValueJson": "\"Comments\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Tracker",
+            "rawValueJson": "\"Tracker\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "New Markets",
+            "rawValueJson": "\"New Markets\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Thailand",
+            "rawValueJson": "\"Thailand\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "$90,000 ",
+            "rawValueJson": "90000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "$24,000 ",
+            "rawValueJson": "24000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "-73%",
+            "rawValueJson": "-0.733333333333333",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "22%",
+            "rawValueJson": "0.22",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "9%",
+            "rawValueJson": "0.09",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "The sales forecast for the year is looking good. Our team has been working really hard and we're on track to hit our targets.",
+            "rawValueJson": "\"The sales forecast for the year is looking good. Our team has been working really hard and we're on track to hit our targets.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Product Innovation",
+            "rawValueJson": "\"Product Innovation\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Indonesia",
+            "rawValueJson": "\"Indonesia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "$65,000 ",
+            "rawValueJson": "65000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "$24,000 ",
+            "rawValueJson": "24000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "-63%",
+            "rawValueJson": "-0.630769230769231",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "67%",
+            "rawValueJson": "0.67",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "7%",
+            "rawValueJson": "0.07",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "Unfortunately, our sales forecast for the year may be impacted by a decline in the economy. But, I know we'll work together to mitigate the effects and achieve our targets.",
+            "rawValueJson": "\"Unfortunately, our sales forecast for the year may be impacted by a decline in the economy. But, I know we'll work together to mitigate the effects and achieve our targets.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Brand Awareness",
+            "rawValueJson": "\"Brand Awareness\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Malaysia",
+            "rawValueJson": "\"Malaysia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "$80,000 ",
+            "rawValueJson": "80000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$76,000 ",
+            "rawValueJson": "76000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "-5%",
+            "rawValueJson": "-0.05",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "20%",
+            "rawValueJson": "0.2",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "7%",
+            "rawValueJson": "0.07",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "Unfortunately, due to unexpected supply chain disruptions, we are revising our sales forecast for the year downwards and anticipate a 10% decrease in sales compared to our initial projections.",
+            "rawValueJson": "\"Unfortunately, due to unexpected supply chain disruptions, we are revising our sales forecast for the year downwards and anticipate a 10% decrease in sales compared to our initial projections.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Product Innovation",
+            "rawValueJson": "\"Product Innovation\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "India",
+            "rawValueJson": "\"India\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "$65,000 ",
+            "rawValueJson": "65000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$24,000 ",
+            "rawValueJson": "24000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "-63%",
+            "rawValueJson": "-0.630769230769231",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "67%",
+            "rawValueJson": "0.67",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "7%",
+            "rawValueJson": "0.07",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "Our sales forecast for the year may be impacted adversely by the unforeseen event of a worldwide pandemic, but I'm confident that our team will work hard to mitigate the effects.",
+            "rawValueJson": "\"Our sales forecast for the year may be impacted adversely by the unforeseen event of a worldwide pandemic, but I'm confident that our team will work hard to mitigate the effects.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Increase NPS",
+            "rawValueJson": "\"Increase NPS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "South Korea",
+            "rawValueJson": "\"South Korea\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "$60,000 ",
+            "rawValueJson": "60000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$34,000 ",
+            "rawValueJson": "34000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "-43%",
+            "rawValueJson": "-0.433333333333333",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "48%",
+            "rawValueJson": "0.48",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "9%",
+            "rawValueJson": "0.09",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "We expect our sales to increase by more than 40% this year compared to last year, driven by the rapid rise of new products and the expansion of sales in developed markets.",
+            "rawValueJson": "\"We expect our sales to increase by more than 40% this year compared to last year, driven by the rapid rise of new products and the expansion of sales in developed markets.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table246791045",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Financial EN",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Key initiative",
+          "rawValueJson": "\"Key initiative\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Vice President",
+          "rawValueJson": "\"Vice President\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Country",
+          "rawValueJson": "\"Country\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "2024 Sales",
+          "rawValueJson": "\"2024 Sales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "2025 Forecast",
+          "rawValueJson": "\"2025 Forecast\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "YoY Growth",
+          "rawValueJson": "\"YoY Growth\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Margin",
+          "rawValueJson": "\"Margin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Discount",
+          "rawValueJson": "\"Discount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Comments",
+          "rawValueJson": "\"Comments\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Tracker",
+          "rawValueJson": "\"Tracker\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "New Markets",
+          "rawValueJson": "\"New Markets\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Thailand",
+          "rawValueJson": "\"Thailand\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "$90,000 ",
+          "rawValueJson": "90000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "$24,000 ",
+          "rawValueJson": "24000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "-73%",
+          "rawValueJson": "-0.733333333333333",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "22%",
+          "rawValueJson": "0.22",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "9%",
+          "rawValueJson": "0.09",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "The sales forecast for the year is looking good. Our team has been working really hard and we're on track to hit our targets.",
+          "rawValueJson": "\"The sales forecast for the year is looking good. Our team has been working really hard and we're on track to hit our targets.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Product Innovation",
+          "rawValueJson": "\"Product Innovation\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Indonesia",
+          "rawValueJson": "\"Indonesia\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "$65,000 ",
+          "rawValueJson": "65000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "$24,000 ",
+          "rawValueJson": "24000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "-63%",
+          "rawValueJson": "-0.630769230769231",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "67%",
+          "rawValueJson": "0.67",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "7%",
+          "rawValueJson": "0.07",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Unfortunately, our sales forecast for the year may be impacted by a decline in the economy. But, I know we'll work together to mitigate the effects and achieve our targets.",
+          "rawValueJson": "\"Unfortunately, our sales forecast for the year may be impacted by a decline in the economy. But, I know we'll work together to mitigate the effects and achieve our targets.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Brand Awareness",
+          "rawValueJson": "\"Brand Awareness\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Malaysia",
+          "rawValueJson": "\"Malaysia\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "$80,000 ",
+          "rawValueJson": "80000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "$76,000 ",
+          "rawValueJson": "76000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "-5%",
+          "rawValueJson": "-0.05",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "20%",
+          "rawValueJson": "0.2",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "7%",
+          "rawValueJson": "0.07",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "Unfortunately, due to unexpected supply chain disruptions, we are revising our sales forecast for the year downwards and anticipate a 10% decrease in sales compared to our initial projections.",
+          "rawValueJson": "\"Unfortunately, due to unexpected supply chain disruptions, we are revising our sales forecast for the year downwards and anticipate a 10% decrease in sales compared to our initial projections.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Product Innovation",
+          "rawValueJson": "\"Product Innovation\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "India",
+          "rawValueJson": "\"India\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "$65,000 ",
+          "rawValueJson": "65000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "$24,000 ",
+          "rawValueJson": "24000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "-63%",
+          "rawValueJson": "-0.630769230769231",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "67%",
+          "rawValueJson": "0.67",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "7%",
+          "rawValueJson": "0.07",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "Our sales forecast for the year may be impacted adversely by the unforeseen event of a worldwide pandemic, but I'm confident that our team will work hard to mitigate the effects.",
+          "rawValueJson": "\"Our sales forecast for the year may be impacted adversely by the unforeseen event of a worldwide pandemic, but I'm confident that our team will work hard to mitigate the effects.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Increase NPS",
+          "rawValueJson": "\"Increase NPS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "South Korea",
+          "rawValueJson": "\"South Korea\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "$60,000 ",
+          "rawValueJson": "60000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "$34,000 ",
+          "rawValueJson": "34000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "-43%",
+          "rawValueJson": "-0.433333333333333",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "48%",
+          "rawValueJson": "0.48",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "9%",
+          "rawValueJson": "0.09",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "We expect our sales to increase by more than 40% this year compared to last year, driven by the rapid rise of new products and the expansion of sales in developed markets.",
+          "rawValueJson": "\"We expect our sales to increase by more than 40% this year compared to last year, driven by the rapid rise of new products and the expansion of sales in developed markets.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ff6fc28a-0d75-46cd-a41e-dad77d144c6b",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{B9F39F55-9873-4C87-9C93-2B2F3C57953C}",
+      "top": 1,
+      "left": 1,
+      "bottom": 7,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{B9F39F55-9873-4C87-9C93-2B2F3C57953C}",
+          "top": 1,
+          "bottom": 7,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Key initiative\"",
+          "\"Vice President\"",
+          "\"Country\"",
+          "\"2024 Sales\"",
+          "\"2025 Forecast\"",
+          "\"YoY Growth\"",
+          "\"Margin\"",
+          "\"Discount\"",
+          "\"Comments\"",
+          "\"Tracker\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Key initiative",
+            "rawValueJson": "\"Key initiative\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Vice President",
+            "rawValueJson": "\"Vice President\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Country",
+            "rawValueJson": "\"Country\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "2024 Sales",
+            "rawValueJson": "\"2024 Sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "2025 Forecast",
+            "rawValueJson": "\"2025 Forecast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "YoY Growth",
+            "rawValueJson": "\"YoY Growth\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Margin",
+            "rawValueJson": "\"Margin\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Discount",
+            "rawValueJson": "\"Discount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Comments",
+            "rawValueJson": "\"Comments\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Tracker",
+            "rawValueJson": "\"Tracker\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Initiative 1",
+            "rawValueJson": "\"Initiative 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Country 1",
+            "rawValueJson": "\"Country 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "Not Completed",
+            "rawValueJson": "\"Not Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Initiative 2",
+            "rawValueJson": "\"Initiative 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Country 2",
+            "rawValueJson": "\"Country 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "Not Completed",
+            "rawValueJson": "\"Not Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Initiative 3",
+            "rawValueJson": "\"Initiative 3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Country 3",
+            "rawValueJson": "\"Country 3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "Not Completed",
+            "rawValueJson": "\"Not Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Initiative 1",
+            "rawValueJson": "\"Initiative 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Country 4",
+            "rawValueJson": "\"Country 4\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "Not Completed",
+            "rawValueJson": "\"Not Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Initiative 2",
+            "rawValueJson": "\"Initiative 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Country 5",
+            "rawValueJson": "\"Country 5\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "Not Completed",
+            "rawValueJson": "\"Not Completed\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table24679103",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Fin Empty",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Key initiative",
+          "rawValueJson": "\"Key initiative\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Vice President",
+          "rawValueJson": "\"Vice President\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Country",
+          "rawValueJson": "\"Country\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "2024 Sales",
+          "rawValueJson": "\"2024 Sales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "2025 Forecast",
+          "rawValueJson": "\"2025 Forecast\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "YoY Growth",
+          "rawValueJson": "\"YoY Growth\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Margin",
+          "rawValueJson": "\"Margin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Discount",
+          "rawValueJson": "\"Discount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Comments",
+          "rawValueJson": "\"Comments\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Tracker",
+          "rawValueJson": "\"Tracker\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Initiative 1",
+          "rawValueJson": "\"Initiative 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Country 1",
+          "rawValueJson": "\"Country 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "Not Completed",
+          "rawValueJson": "\"Not Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Initiative 2",
+          "rawValueJson": "\"Initiative 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Country 2",
+          "rawValueJson": "\"Country 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "Not Completed",
+          "rawValueJson": "\"Not Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Initiative 3",
+          "rawValueJson": "\"Initiative 3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Country 3",
+          "rawValueJson": "\"Country 3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "Not Completed",
+          "rawValueJson": "\"Not Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Initiative 1",
+          "rawValueJson": "\"Initiative 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Country 4",
+          "rawValueJson": "\"Country 4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "Not Completed",
+          "rawValueJson": "\"Not Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Initiative 2",
+          "rawValueJson": "\"Initiative 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Country 5",
+          "rawValueJson": "\"Country 5\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "Not Completed",
+          "rawValueJson": "\"Not Completed\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "c1c66b1e-2291-4833-adac-4fbeb74b34f2",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{74F75B64-B3BE-4606-AACA-C7DEB3CE6DE0}",
+      "top": 1,
+      "left": 1,
+      "bottom": 42,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{74F75B64-B3BE-4606-AACA-C7DEB3CE6DE0}",
+          "top": 1,
+          "bottom": 42,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Key initiative\"",
+          "\"Vice President\"",
+          "\"Country\"",
+          "\"2024 Sales\"",
+          "\"2025 Forecast\"",
+          "\"YoY Growth\"",
+          "\"Margin\"",
+          "\"Discount\"",
+          "\"Comments\"",
+          "\"Tracker\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Key initiative",
+            "rawValueJson": "\"Key initiative\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Vice President",
+            "rawValueJson": "\"Vice President\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Country",
+            "rawValueJson": "\"Country\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "2024 Sales",
+            "rawValueJson": "\"2024 Sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "2025 Forecast",
+            "rawValueJson": "\"2025 Forecast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "YoY Growth",
+            "rawValueJson": "\"YoY Growth\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Margin",
+            "rawValueJson": "\"Margin\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Discount",
+            "rawValueJson": "\"Discount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Comments",
+            "rawValueJson": "\"Comments\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Tracker",
+            "rawValueJson": "\"Tracker\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "New Markets",
+            "rawValueJson": "\"New Markets\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Thailand",
+            "rawValueJson": "\"Thailand\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "$90,000 ",
+            "rawValueJson": "90000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "$24,000 ",
+            "rawValueJson": "24000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "-73%",
+            "rawValueJson": "-0.733333333333333",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "22%",
+            "rawValueJson": "0.22",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "9%",
+            "rawValueJson": "0.09",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "The sales forecast for the year is looking good. Our team has been working really hard and we're on track to hit our targets.",
+            "rawValueJson": "\"The sales forecast for the year is looking good. Our team has been working really hard and we're on track to hit our targets.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Product Innovation",
+            "rawValueJson": "\"Product Innovation\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Indonesia",
+            "rawValueJson": "\"Indonesia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "$65,000 ",
+            "rawValueJson": "65000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "$24,000 ",
+            "rawValueJson": "24000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "-63%",
+            "rawValueJson": "-0.630769230769231",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "67%",
+            "rawValueJson": "0.67",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "7%",
+            "rawValueJson": "0.07",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "Unfortunately, our sales forecast for the year may be impacted by a decline in the economy. But, I know we'll work together to mitigate the effects and achieve our targets.",
+            "rawValueJson": "\"Unfortunately, our sales forecast for the year may be impacted by a decline in the economy. But, I know we'll work together to mitigate the effects and achieve our targets.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Brand Awareness",
+            "rawValueJson": "\"Brand Awareness\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Malaysia",
+            "rawValueJson": "\"Malaysia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "$80,000 ",
+            "rawValueJson": "80000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$76,000 ",
+            "rawValueJson": "76000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "-5%",
+            "rawValueJson": "-0.05",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "20%",
+            "rawValueJson": "0.2",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "7%",
+            "rawValueJson": "0.07",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "Unfortunately, due to unexpected supply chain disruptions, we are revising our sales forecast for the year downwards and anticipate a 10% decrease in sales compared to our initial projections.",
+            "rawValueJson": "\"Unfortunately, due to unexpected supply chain disruptions, we are revising our sales forecast for the year downwards and anticipate a 10% decrease in sales compared to our initial projections.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Product Innovation",
+            "rawValueJson": "\"Product Innovation\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "India",
+            "rawValueJson": "\"India\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "$65,000 ",
+            "rawValueJson": "65000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$24,000 ",
+            "rawValueJson": "24000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "-63%",
+            "rawValueJson": "-0.630769230769231",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "67%",
+            "rawValueJson": "0.67",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "7%",
+            "rawValueJson": "0.07",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "Our sales forecast for the year may be impacted adversely by the unforeseen event of a worldwide pandemic, but I'm confident that our team will work hard to mitigate the effects.",
+            "rawValueJson": "\"Our sales forecast for the year may be impacted adversely by the unforeseen event of a worldwide pandemic, but I'm confident that our team will work hard to mitigate the effects.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Increase NPS",
+            "rawValueJson": "\"Increase NPS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "KarenT",
+            "rawValueJson": "\"KarenT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "South Korea",
+            "rawValueJson": "\"South Korea\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "$60,000 ",
+            "rawValueJson": "60000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$34,000 ",
+            "rawValueJson": "34000",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "-43%",
+            "rawValueJson": "-0.433333333333333",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "48%",
+            "rawValueJson": "0.48",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "9%",
+            "rawValueJson": "0.09",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "우리는 올해 새로 출시된 제품의 급부상과 선진 국가 시장에서의 매출 확대로 인해 매출액이 지난 해 대비 40% 이상 증가할 것으로 예상합니다.",
+            "rawValueJson": "\"우리는 올해 새로 출시된 제품의 급부상과 선진 국가 시장에서의 매출 확대로 인해 매출액이 지난 해 대비 40% 이상 증가할 것으로 예상합니다.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table24679104",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Financial",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Key initiative",
+          "rawValueJson": "\"Key initiative\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Vice President",
+          "rawValueJson": "\"Vice President\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Country",
+          "rawValueJson": "\"Country\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "2024 Sales",
+          "rawValueJson": "\"2024 Sales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "2025 Forecast",
+          "rawValueJson": "\"2025 Forecast\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "YoY Growth",
+          "rawValueJson": "\"YoY Growth\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Margin",
+          "rawValueJson": "\"Margin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Discount",
+          "rawValueJson": "\"Discount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Comments",
+          "rawValueJson": "\"Comments\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Tracker",
+          "rawValueJson": "\"Tracker\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "New Markets",
+          "rawValueJson": "\"New Markets\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Thailand",
+          "rawValueJson": "\"Thailand\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "$90,000 ",
+          "rawValueJson": "90000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "$24,000 ",
+          "rawValueJson": "24000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "-73%",
+          "rawValueJson": "-0.733333333333333",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "22%",
+          "rawValueJson": "0.22",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "9%",
+          "rawValueJson": "0.09",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "The sales forecast for the year is looking good. Our team has been working really hard and we're on track to hit our targets.",
+          "rawValueJson": "\"The sales forecast for the year is looking good. Our team has been working really hard and we're on track to hit our targets.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Product Innovation",
+          "rawValueJson": "\"Product Innovation\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Indonesia",
+          "rawValueJson": "\"Indonesia\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "$65,000 ",
+          "rawValueJson": "65000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "$24,000 ",
+          "rawValueJson": "24000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "-63%",
+          "rawValueJson": "-0.630769230769231",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "67%",
+          "rawValueJson": "0.67",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "7%",
+          "rawValueJson": "0.07",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Unfortunately, our sales forecast for the year may be impacted by a decline in the economy. But, I know we'll work together to mitigate the effects and achieve our targets.",
+          "rawValueJson": "\"Unfortunately, our sales forecast for the year may be impacted by a decline in the economy. But, I know we'll work together to mitigate the effects and achieve our targets.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Brand Awareness",
+          "rawValueJson": "\"Brand Awareness\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Malaysia",
+          "rawValueJson": "\"Malaysia\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "$80,000 ",
+          "rawValueJson": "80000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "$76,000 ",
+          "rawValueJson": "76000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "-5%",
+          "rawValueJson": "-0.05",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "20%",
+          "rawValueJson": "0.2",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "7%",
+          "rawValueJson": "0.07",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "Unfortunately, due to unexpected supply chain disruptions, we are revising our sales forecast for the year downwards and anticipate a 10% decrease in sales compared to our initial projections.",
+          "rawValueJson": "\"Unfortunately, due to unexpected supply chain disruptions, we are revising our sales forecast for the year downwards and anticipate a 10% decrease in sales compared to our initial projections.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Product Innovation",
+          "rawValueJson": "\"Product Innovation\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "India",
+          "rawValueJson": "\"India\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "$65,000 ",
+          "rawValueJson": "65000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "$24,000 ",
+          "rawValueJson": "24000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "-63%",
+          "rawValueJson": "-0.630769230769231",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "67%",
+          "rawValueJson": "0.67",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "7%",
+          "rawValueJson": "0.07",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "Our sales forecast for the year may be impacted adversely by the unforeseen event of a worldwide pandemic, but I'm confident that our team will work hard to mitigate the effects.",
+          "rawValueJson": "\"Our sales forecast for the year may be impacted adversely by the unforeseen event of a worldwide pandemic, but I'm confident that our team will work hard to mitigate the effects.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Increase NPS",
+          "rawValueJson": "\"Increase NPS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "KarenT",
+          "rawValueJson": "\"KarenT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "South Korea",
+          "rawValueJson": "\"South Korea\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "$60,000 ",
+          "rawValueJson": "60000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "$34,000 ",
+          "rawValueJson": "34000",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "-43%",
+          "rawValueJson": "-0.433333333333333",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "48%",
+          "rawValueJson": "0.48",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "9%",
+          "rawValueJson": "0.09",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "우리는 올해 새로 출시된 제품의 급부상과 선진 국가 시장에서의 매출 확대로 인해 매출액이 지난 해 대비 40% 이상 증가할 것으로 예상합니다.",
+          "rawValueJson": "\"우리는 올해 새로 출시된 제품의 급부상과 선진 국가 시장에서의 매출 확대로 인해 매출액이 지난 해 대비 40% 이상 증가할 것으로 예상합니다.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "6616268f-6b48-4014-978e-e742336144d1",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{C08AA76F-569C-43F8-BE68-970A4490E6DB}",
+      "top": 3,
+      "left": 1,
+      "bottom": 14,
+      "right": 11
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{C08AA76F-569C-43F8-BE68-970A4490E6DB}",
+          "top": 3,
+          "bottom": 14,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"Sales Country\"",
+          "\"Sales Region\"",
+          "\"Key Initiative\"",
+          "\"Area Lead\"",
+          "\"2022 Sales\"",
+          "\"2023 Forecast\"",
+          "\"YoY Growth\"",
+          "\"Margin\"",
+          "\"Discount\"",
+          "\"Comments\"",
+          "\"Completed?\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Sales Country",
+            "rawValueJson": "\"Sales Country\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Sales Region",
+            "rawValueJson": "\"Sales Region\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Key Initiative",
+            "rawValueJson": "\"Key Initiative\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Area Lead",
+            "rawValueJson": "\"Area Lead\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "2022 Sales",
+            "rawValueJson": "\"2022 Sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "2023 Forecast",
+            "rawValueJson": "\"2023 Forecast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "YoY Growth",
+            "rawValueJson": "\"YoY Growth\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "Margin",
+            "rawValueJson": "\"Margin\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "Discount",
+            "rawValueJson": "\"Discount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "Comments",
+            "rawValueJson": "\"Comments\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "Completed?",
+            "rawValueJson": "\"Completed?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Saudi Arabia",
+            "rawValueJson": "\"Saudi Arabia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "MEA",
+            "rawValueJson": "\"MEA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Environmental Impact",
+            "rawValueJson": "\"Environmental Impact\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$42 ",
+            "rawValueJson": "42",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "$41 ",
+            "rawValueJson": "41",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "-2%",
+            "rawValueJson": "-0.02",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "62%",
+            "rawValueJson": "0.62",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "9%",
+            "rawValueJson": "0.09",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "I am optimistic about our sales forecast for the year. Our team is doing an outstanding job and I'm confident we'll hit our targets.",
+            "rawValueJson": "\"I am optimistic about our sales forecast for the year. Our team is doing an outstanding job and I'm confident we'll hit our targets.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Qatar",
+            "rawValueJson": "\"Qatar\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Middle East & Africa",
+            "rawValueJson": "\"Middle East & Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Brand Awareness",
+            "rawValueJson": "\"Brand Awareness\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$99 ",
+            "rawValueJson": "99",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "$87 ",
+            "rawValueJson": "87",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "-12%",
+            "rawValueJson": "-0.12",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "26%",
+            "rawValueJson": "0.26",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "11%",
+            "rawValueJson": "0.11",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "بينما كانت مبيعاتنا في المملكة المتحدة مستقرة خلال العام الحالي، يتوقع الخبراء تباطؤًا في الاقتصاد البريطاني في العام المقبل، وبالتالي يتوقعون انخفاضًا في مبيعاتنا بنسبة 5٪. ومع ذلك، نحن نعتزم تحسين خطط التسويق الخاصة بنا لتعزيز مبيعاتنا في هذا السوق.",
+            "rawValueJson": "\"بينما كانت مبيعاتنا في المملكة المتحدة مستقرة خلال العام الحالي، يتوقع الخبراء تباطؤًا في الاقتصاد البريطاني في العام المقبل، وبالتالي يتوقعون انخفاضًا في مبيعاتنا بنسبة 5٪. ومع ذلك، نحن نعتزم تحسين خطط التسويق الخاصة بنا لتعزيز مبيعاتنا في هذا السوق.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "United Arab Emirates",
+            "rawValueJson": "\"United Arab Emirates\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Midle East & Africa",
+            "rawValueJson": "\"Midle East & Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "New Markets",
+            "rawValueJson": "\"New Markets\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$24 ",
+            "rawValueJson": "24",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "$28 ",
+            "rawValueJson": "28",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "17%",
+            "rawValueJson": "0.17",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "22%",
+            "rawValueJson": "0.22",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "9%",
+            "rawValueJson": "0.09",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "ق المبيعات الخاص بنا في الشرق الأوسط حقق نتائج مثيرة للإعجاب، ونتوقع استمرار النجاح في العام المقبل، مع توقع زيادة المبيعات بنسبة٪.)",
+            "rawValueJson": "\"ق المبيعات الخاص بنا في الشرق الأوسط حقق نتائج مثيرة للإعجاب، ونتوقع استمرار النجاح في العام المقبل، مع توقع زيادة المبيعات بنسبة٪.)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "South Africa",
+            "rawValueJson": "\"South Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Middle East & Africa",
+            "rawValueJson": "\"Middle East & Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "Increase NPS",
+            "rawValueJson": "\"Increase NPS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "$67 ",
+            "rawValueJson": "67",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "$88 ",
+            "rawValueJson": "88",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "31%",
+            "rawValueJson": "0.31",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "96%",
+            "rawValueJson": "0.96",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 7,
+            "column": 9,
+            "displayText": "12%",
+            "rawValueJson": "0.12",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 7,
+            "column": 10,
+            "displayText": "نتوقع نموًا ملحوظًا في مبيعاتنا بالشرق الأوسط خلال العام القادم، نظرًا للزيادة المتزايدة في الطلب على منتجاتنا. ",
+            "rawValueJson": "\"نتوقع نموًا ملحوظًا في مبيعاتنا بالشرق الأوسط خلال العام القادم، نظرًا للزيادة المتزايدة في الطلب على منتجاتنا. \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 11,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "Israel",
+            "rawValueJson": "\"Israel\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Middle East &  Africa",
+            "rawValueJson": "\"Middle East &  Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "Product Innovation",
+            "rawValueJson": "\"Product Innovation\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "$42 ",
+            "rawValueJson": "42",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "$41 ",
+            "rawValueJson": "41",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "-2%",
+            "rawValueJson": "-0.02",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "62%",
+            "rawValueJson": "0.62",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 8,
+            "column": 9,
+            "displayText": "9%",
+            "rawValueJson": "0.09",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 8,
+            "column": 10,
+            "displayText": "המצב הכלכלי יכול להיות אתגרי במהלך השנה, אך אנחנו מצפים להמשיך לגדול עם חדשנות ופיתוח פתרונות חדשים, ולכן אנחנו מצפים להשיג רכישות דומות לשנה שעברה.",
+            "rawValueJson": "\"המצב הכלכלי יכול להיות אתגרי במהלך השנה, אך אנחנו מצפים להמשיך לגדול עם חדשנות ופיתוח פתרונות חדשים, ולכן אנחנו מצפים להשיג רכישות דומות לשנה שעברה.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 11,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{C08AA76F-569C-43F8-BE68-970A4490E6DB}",
+          "top": 3,
+          "bottom": 14,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Sales Country",
+            "rawValueJson": "\"Sales Country\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Sales Region",
+            "rawValueJson": "\"Sales Region\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Key Initiative",
+            "rawValueJson": "\"Key Initiative\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Area Lead",
+            "rawValueJson": "\"Area Lead\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "2022 Sales",
+            "rawValueJson": "\"2022 Sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "2023 Forecast",
+            "rawValueJson": "\"2023 Forecast\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Saudi Arabia",
+            "rawValueJson": "\"Saudi Arabia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "MEA",
+            "rawValueJson": "\"MEA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Environmental Impact",
+            "rawValueJson": "\"Environmental Impact\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$42 ",
+            "rawValueJson": "42",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "$41 ",
+            "rawValueJson": "41",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Qatar",
+            "rawValueJson": "\"Qatar\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Middle East & Africa",
+            "rawValueJson": "\"Middle East & Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Brand Awareness",
+            "rawValueJson": "\"Brand Awareness\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$99 ",
+            "rawValueJson": "99",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "$87 ",
+            "rawValueJson": "87",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "United Arab Emirates",
+            "rawValueJson": "\"United Arab Emirates\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Midle East & Africa",
+            "rawValueJson": "\"Midle East & Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "New Markets",
+            "rawValueJson": "\"New Markets\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$24 ",
+            "rawValueJson": "24",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "$28 ",
+            "rawValueJson": "28",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "South Africa",
+            "rawValueJson": "\"South Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Middle East & Africa",
+            "rawValueJson": "\"Middle East & Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "Increase NPS",
+            "rawValueJson": "\"Increase NPS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "$67 ",
+            "rawValueJson": "67",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "$88 ",
+            "rawValueJson": "88",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "Israel",
+            "rawValueJson": "\"Israel\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Middle East &  Africa",
+            "rawValueJson": "\"Middle East &  Africa\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "Product Innovation",
+            "rawValueJson": "\"Product Innovation\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "RyanG",
+            "rawValueJson": "\"RyanG\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "$42 ",
+            "rawValueJson": "42",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "$41 ",
+            "rawValueJson": "41",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "China",
+            "rawValueJson": "\"China\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Asia",
+            "rawValueJson": "\"Asia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "New Markets",
+            "rawValueJson": "\"New Markets\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "RobertP",
+            "rawValueJson": "\"RobertP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "$12 ",
+            "rawValueJson": "12",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "$35 ",
+            "rawValueJson": "35",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "Japan",
+            "rawValueJson": "\"Japan\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "Asia",
+            "rawValueJson": "\"Asia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "Increase NPS",
+            "rawValueJson": "\"Increase NPS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "RobertP",
+            "rawValueJson": "\"RobertP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "$90 ",
+            "rawValueJson": "90",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "$24 ",
+            "rawValueJson": "24",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "Australia",
+            "rawValueJson": "\"Australia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "Asia",
+            "rawValueJson": "\"Asia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "Product Innovation",
+            "rawValueJson": "\"Product Innovation\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "RobertP",
+            "rawValueJson": "\"RobertP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "$60 ",
+            "rawValueJson": "60",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "$34 ",
+            "rawValueJson": "34",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "Philippines",
+            "rawValueJson": "\"Philippines\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "Asia",
+            "rawValueJson": "\"Asia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "Environmental Impact",
+            "rawValueJson": "\"Environmental Impact\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "RobertP",
+            "rawValueJson": "\"RobertP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "$24 ",
+            "rawValueJson": "24",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "$28 ",
+            "rawValueJson": "28",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "Pakistan",
+            "rawValueJson": "\"Pakistan\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "Asia",
+            "rawValueJson": "\"Asia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "Product Innovation",
+            "rawValueJson": "\"Product Innovation\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "RobertP",
+            "rawValueJson": "\"RobertP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "$80 ",
+            "rawValueJson": "80",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "$76 ",
+            "rawValueJson": "76",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "Singapore",
+            "rawValueJson": "\"Singapore\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "Asia",
+            "rawValueJson": "\"Asia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "Increase NPS",
+            "rawValueJson": "\"Increase NPS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "RobertP",
+            "rawValueJson": "\"RobertP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "$84 ",
+            "rawValueJson": "84",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "$56 ",
+            "rawValueJson": "56",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Find Dirty",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Sales Country",
+          "rawValueJson": "\"Sales Country\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Sales Region",
+          "rawValueJson": "\"Sales Region\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Key Initiative",
+          "rawValueJson": "\"Key Initiative\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Area Lead",
+          "rawValueJson": "\"Area Lead\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "2022 Sales",
+          "rawValueJson": "\"2022 Sales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "2023 Forecast",
+          "rawValueJson": "\"2023 Forecast\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "YoY Growth",
+          "rawValueJson": "\"YoY Growth\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "Margin",
+          "rawValueJson": "\"Margin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Discount",
+          "rawValueJson": "\"Discount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "Comments",
+          "rawValueJson": "\"Comments\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "Completed?",
+          "rawValueJson": "\"Completed?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Saudi Arabia",
+          "rawValueJson": "\"Saudi Arabia\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "MEA",
+          "rawValueJson": "\"MEA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Environmental Impact",
+          "rawValueJson": "\"Environmental Impact\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "RyanG",
+          "rawValueJson": "\"RyanG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "$42 ",
+          "rawValueJson": "42",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "$41 ",
+          "rawValueJson": "41",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "-2%",
+          "rawValueJson": "-0.02",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "62%",
+          "rawValueJson": "0.62",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "9%",
+          "rawValueJson": "0.09",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "I am optimistic about our sales forecast for the year. Our team is doing an outstanding job and I'm confident we'll hit our targets.",
+          "rawValueJson": "\"I am optimistic about our sales forecast for the year. Our team is doing an outstanding job and I'm confident we'll hit our targets.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Qatar",
+          "rawValueJson": "\"Qatar\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Middle East & Africa",
+          "rawValueJson": "\"Middle East & Africa\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Brand Awareness",
+          "rawValueJson": "\"Brand Awareness\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "RyanG",
+          "rawValueJson": "\"RyanG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "$99 ",
+          "rawValueJson": "99",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "$87 ",
+          "rawValueJson": "87",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "-12%",
+          "rawValueJson": "-0.12",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "26%",
+          "rawValueJson": "0.26",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "11%",
+          "rawValueJson": "0.11",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "بينما كانت مبيعاتنا في المملكة المتحدة مستقرة خلال العام الحالي، يتوقع الخبراء تباطؤًا في الاقتصاد البريطاني في العام المقبل، وبالتالي يتوقعون انخفاضًا في مبيعاتنا بنسبة 5٪. ومع ذلك، نحن نعتزم تحسين خطط التسويق الخاصة بنا لتعزيز مبيعاتنا في هذا السوق.",
+          "rawValueJson": "\"بينما كانت مبيعاتنا في المملكة المتحدة مستقرة خلال العام الحالي، يتوقع الخبراء تباطؤًا في الاقتصاد البريطاني في العام المقبل، وبالتالي يتوقعون انخفاضًا في مبيعاتنا بنسبة 5٪. ومع ذلك، نحن نعتزم تحسين خطط التسويق الخاصة بنا لتعزيز مبيعاتنا في هذا السوق.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "United Arab Emirates",
+          "rawValueJson": "\"United Arab Emirates\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Midle East & Africa",
+          "rawValueJson": "\"Midle East & Africa\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "New Markets",
+          "rawValueJson": "\"New Markets\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "RyanG",
+          "rawValueJson": "\"RyanG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "$24 ",
+          "rawValueJson": "24",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "$28 ",
+          "rawValueJson": "28",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "17%",
+          "rawValueJson": "0.17",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "22%",
+          "rawValueJson": "0.22",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "9%",
+          "rawValueJson": "0.09",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "ق المبيعات الخاص بنا في الشرق الأوسط حقق نتائج مثيرة للإعجاب، ونتوقع استمرار النجاح في العام المقبل، مع توقع زيادة المبيعات بنسبة٪.)",
+          "rawValueJson": "\"ق المبيعات الخاص بنا في الشرق الأوسط حقق نتائج مثيرة للإعجاب، ونتوقع استمرار النجاح في العام المقبل، مع توقع زيادة المبيعات بنسبة٪.)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "South Africa",
+          "rawValueJson": "\"South Africa\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "Middle East & Africa",
+          "rawValueJson": "\"Middle East & Africa\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "Increase NPS",
+          "rawValueJson": "\"Increase NPS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "RyanG",
+          "rawValueJson": "\"RyanG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "$67 ",
+          "rawValueJson": "67",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "$88 ",
+          "rawValueJson": "88",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "31%",
+          "rawValueJson": "0.31",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": "96%",
+          "rawValueJson": "0.96",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "displayText": "12%",
+          "rawValueJson": "0.12",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 7,
+          "column": 10,
+          "displayText": "نتوقع نموًا ملحوظًا في مبيعاتنا بالشرق الأوسط خلال العام القادم، نظرًا للزيادة المتزايدة في الطلب على منتجاتنا. ",
+          "rawValueJson": "\"نتوقع نموًا ملحوظًا في مبيعاتنا بالشرق الأوسط خلال العام القادم، نظرًا للزيادة المتزايدة في الطلب على منتجاتنا. \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 11,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "Israel",
+          "rawValueJson": "\"Israel\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Middle East &  Africa",
+          "rawValueJson": "\"Middle East &  Africa\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "Product Innovation",
+          "rawValueJson": "\"Product Innovation\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "RyanG",
+          "rawValueJson": "\"RyanG\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "$42 ",
+          "rawValueJson": "42",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "$41 ",
+          "rawValueJson": "41",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "-2%",
+          "rawValueJson": "-0.02",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": "62%",
+          "rawValueJson": "0.62",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 8,
+          "column": 9,
+          "displayText": "9%",
+          "rawValueJson": "0.09",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 8,
+          "column": 10,
+          "displayText": "המצב הכלכלי יכול להיות אתגרי במהלך השנה, אך אנחנו מצפים להמשיך לגדול עם חדשנות ופיתוח פתרונות חדשים, ולכן אנחנו מצפים להשיג רכישות דומות לשנה שעברה.",
+          "rawValueJson": "\"המצב הכלכלי יכול להיות אתגרי במהלך השנה, אך אנחנו מצפים להמשיך לגדול עם חדשנות ופיתוח פתרונות חדשים, ולכן אנחנו מצפים להשיג רכישות דומות לשנה שעברה.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 11,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "3359d82e-b9fe-46ae-b382-881ecbf36431",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

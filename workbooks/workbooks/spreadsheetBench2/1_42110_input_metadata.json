@@ -1,0 +1,1828 @@
+[
+  {
+    "range": {
+      "worksheetId": "{D7158985-FCFB-45E9-9E07-54ED49D803DE}",
+      "top": 22,
+      "left": 1,
+      "bottom": 31,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{D7158985-FCFB-45E9-9E07-54ED49D803DE}",
+          "top": 22,
+          "bottom": 31,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 0,
+            "end": 9
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 22,
+            "column": 1,
+            "displayText": "X1",
+            "rawValueJson": "\"X1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 3,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 1,
+            "displayText": "X2",
+            "rawValueJson": "\"X2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 3,
+            "displayText": "0.2",
+            "rawValueJson": "0.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 1,
+            "displayText": "X3",
+            "rawValueJson": "\"X3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 3,
+            "displayText": "650",
+            "rawValueJson": "650",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "X4",
+            "rawValueJson": "\"X4\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 3,
+            "displayText": "520",
+            "rawValueJson": "520",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "X5",
+            "rawValueJson": "\"X5\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 1,
+            "displayText": "X6",
+            "rawValueJson": "\"X6\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 3,
+            "displayText": "325",
+            "rawValueJson": "325",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.6923076923076923,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 22,
+          "column": 1,
+          "displayText": "X1",
+          "rawValueJson": "\"X1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 22,
+          "column": 3,
+          "displayText": "16",
+          "rawValueJson": "16",
+          "numberFormat": "General"
+        },
+        {
+          "row": 23,
+          "column": 1,
+          "displayText": "X2",
+          "rawValueJson": "\"X2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 23,
+          "column": 3,
+          "displayText": "0.2",
+          "rawValueJson": "0.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 24,
+          "column": 1,
+          "displayText": "X3",
+          "rawValueJson": "\"X3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 24,
+          "column": 3,
+          "displayText": "650",
+          "rawValueJson": "650",
+          "numberFormat": "General"
+        },
+        {
+          "row": 25,
+          "column": 1,
+          "displayText": "X4",
+          "rawValueJson": "\"X4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 25,
+          "column": 3,
+          "displayText": "520",
+          "rawValueJson": "520",
+          "numberFormat": "General"
+        },
+        {
+          "row": 26,
+          "column": 1,
+          "displayText": "X5",
+          "rawValueJson": "\"X5\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 27,
+          "column": 1,
+          "displayText": "X6",
+          "rawValueJson": "\"X6\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 27,
+          "column": 3,
+          "displayText": "325",
+          "rawValueJson": "325",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "2e1f98e1-ac1e-4b7b-9f91-dcc04de6e088",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{D7158985-FCFB-45E9-9E07-54ED49D803DE}",
+      "top": 1,
+      "left": 1,
+      "bottom": 17,
+      "right": 20
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{D7158985-FCFB-45E9-9E07-54ED49D803DE}",
+          "top": 1,
+          "bottom": 17,
+          "left": 1,
+          "right": 20
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Business Communication I\"",
+          "\"Business Communication II\"",
+          "\"Elements of Company Law I\"",
+          "\"Elements of Company Law II\"",
+          "\"Corporate Accounting I\"",
+          "\"Corporate Accounting II\"",
+          "\"Business Economics (Macro) I\"",
+          "\"Business Economics (Macro) II\"",
+          "\"Business Management I\"",
+          "\"Business Management II\"",
+          "\"235B VOC SEM III Advertising, Sales Promotion & Sales Management I\"",
+          "\"236B VOC SEM III Advertising, Sales Promotion & Sales Management II\"",
+          "\"245B VOC SEM IV Advertising, Sales Promotion & Sales Management III\"",
+          "\"246B VOC SEM IV Advertising, Sales Promotion & Sales Management IV\"",
+          "\"235A VOC SEM III Computer Application I\"",
+          "\"236A VOC SEM III Computer Application II\"",
+          "\"245A VOC SEM IV Computer Application III\"",
+          "\"246A VOC SEM IV Computer Application IV\"",
+          "\"Environmental Awareness III\"",
+          "\"Environmental Awareness IV\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Business Communication I",
+            "rawValueJson": "\"Business Communication I\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Business Communication II",
+            "rawValueJson": "\"Business Communication II\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Elements of Company Law I",
+            "rawValueJson": "\"Elements of Company Law I\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Elements of Company Law II",
+            "rawValueJson": "\"Elements of Company Law II\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Corporate Accounting I",
+            "rawValueJson": "\"Corporate Accounting I\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Corporate Accounting II",
+            "rawValueJson": "\"Corporate Accounting II\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Business Economics (Macro) I",
+            "rawValueJson": "\"Business Economics (Macro) I\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Business Economics (Macro) II",
+            "rawValueJson": "\"Business Economics (Macro) II\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Business Management I",
+            "rawValueJson": "\"Business Management I\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Business Management II",
+            "rawValueJson": "\"Business Management II\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "235B VOC SEM III Advertising, Sales Promotion & Sales Management I",
+            "rawValueJson": "\"235B VOC SEM III Advertising, Sales Promotion & Sales Management I\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "236B VOC SEM III Advertising, Sales Promotion & Sales Management II",
+            "rawValueJson": "\"236B VOC SEM III Advertising, Sales Promotion & Sales Management II\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "245B VOC SEM IV Advertising, Sales Promotion & Sales Management III",
+            "rawValueJson": "\"245B VOC SEM IV Advertising, Sales Promotion & Sales Management III\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 14,
+            "displayText": "246B VOC SEM IV Advertising, Sales Promotion & Sales Management IV",
+            "rawValueJson": "\"246B VOC SEM IV Advertising, Sales Promotion & Sales Management IV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 15,
+            "displayText": "235A VOC SEM III Computer Application I",
+            "rawValueJson": "\"235A VOC SEM III Computer Application I\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 16,
+            "displayText": "236A VOC SEM III Computer Application II",
+            "rawValueJson": "\"236A VOC SEM III Computer Application II\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 17,
+            "displayText": "245A VOC SEM IV Computer Application III",
+            "rawValueJson": "\"245A VOC SEM IV Computer Application III\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 18,
+            "displayText": "246A VOC SEM IV Computer Application IV",
+            "rawValueJson": "\"246A VOC SEM IV Computer Application IV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 19,
+            "displayText": "Environmental Awareness III",
+            "rawValueJson": "\"Environmental Awareness III\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 20,
+            "displayText": "Environmental Awareness IV",
+            "rawValueJson": "\"Environmental Awareness IV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Mrs. S",
+            "rawValueJson": "\"Mrs. S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Mrs. S",
+            "rawValueJson": "\"Mrs. S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "B M",
+            "rawValueJson": "\"B M\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "B M",
+            "rawValueJson": "\"B M\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "K T",
+            "rawValueJson": "\"K T\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "K T",
+            "rawValueJson": "\"K T\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "G B",
+            "rawValueJson": "\"G B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "G B",
+            "rawValueJson": "\"G B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "B D",
+            "rawValueJson": "\"B D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "B D",
+            "rawValueJson": "\"B D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "Dr. C S",
+            "rawValueJson": "\"Dr. C S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "Dr. C S",
+            "rawValueJson": "\"Dr. C S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "Dr. C S",
+            "rawValueJson": "\"Dr. C S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 14,
+            "displayText": "Dr. C S",
+            "rawValueJson": "\"Dr. C S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 18,
+            "displayText": "BP",
+            "rawValueJson": "\"BP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 19,
+            "displayText": "K. M.",
+            "rawValueJson": "\"K. M.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 20,
+            "displayText": "K. M.",
+            "rawValueJson": "\"K. M.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Ms. SS",
+            "rawValueJson": "\"Ms. SS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Ms. SS",
+            "rawValueJson": "\"Ms. SS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "J V",
+            "rawValueJson": "\"J V\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "J V",
+            "rawValueJson": "\"J V\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "S N",
+            "rawValueJson": "\"S N\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "S N",
+            "rawValueJson": "\"S N\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "M S.S.",
+            "rawValueJson": "\"M S.S.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "M S.S.",
+            "rawValueJson": "\"M S.S.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "K M",
+            "rawValueJson": "\"K M\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "K M",
+            "rawValueJson": "\"K M\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "Dr. J P",
+            "rawValueJson": "\"Dr. J P\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "Dr. J P",
+            "rawValueJson": "\"Dr. J P\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": "Dr. J P",
+            "rawValueJson": "\"Dr. J P\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 14,
+            "displayText": "Dr. J P",
+            "rawValueJson": "\"Dr. J P\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 18,
+            "displayText": "BL",
+            "rawValueJson": "\"BL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 19,
+            "displayText": "Ms. SS",
+            "rawValueJson": "\"Ms. SS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 20,
+            "displayText": "Ms. SS",
+            "rawValueJson": "\"Ms. SS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Dr. S",
+            "rawValueJson": "\"Dr. S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Dr. S",
+            "rawValueJson": "\"Dr. S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "S K",
+            "rawValueJson": "\"S K\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "S K",
+            "rawValueJson": "\"S K\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "K V",
+            "rawValueJson": "\"K V\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "K V",
+            "rawValueJson": "\"K V\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "W H.P",
+            "rawValueJson": "\"W H.P\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "W H.P",
+            "rawValueJson": "\"W H.P\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "Ms. SS",
+            "rawValueJson": "\"Ms. SS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "Ms. SS",
+            "rawValueJson": "\"Ms. SS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 19,
+            "displayText": "G. B.",
+            "rawValueJson": "\"G. B.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 20,
+            "displayText": "G. B.",
+            "rawValueJson": "\"G. B.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Dr. S.G.",
+            "rawValueJson": "\"Dr. S.G.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Dr. S.G.",
+            "rawValueJson": "\"Dr. S.G.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "K B",
+            "rawValueJson": "\"K B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "K B",
+            "rawValueJson": "\"K B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "P P",
+            "rawValueJson": "\"P P\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "P P",
+            "rawValueJson": "\"P P\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "D Y",
+            "rawValueJson": "\"D Y\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "D Y",
+            "rawValueJson": "\"D Y\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "Mrs. S",
+            "rawValueJson": "\"Mrs. S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "Mrs. S",
+            "rawValueJson": "\"Mrs. S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 19,
+            "displayText": "M. S.S.",
+            "rawValueJson": "\"M. S.S.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 20,
+            "displayText": "M. S.S.",
+            "rawValueJson": "\"M. S.S.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Dr.  S.S.",
+            "rawValueJson": "\"Dr.  S.S.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Dr.  S.S.",
+            "rawValueJson": "\"Dr.  S.S.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "T R",
+            "rawValueJson": "\"T R\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "T R",
+            "rawValueJson": "\"T R\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "K A",
+            "rawValueJson": "\"K A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "K A",
+            "rawValueJson": "\"K A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "G B",
+            "rawValueJson": "\"G B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "G B",
+            "rawValueJson": "\"G B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "Mrs. K R",
+            "rawValueJson": "\"Mrs. K R\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "Mrs. K R",
+            "rawValueJson": "\"Mrs. K R\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 19,
+            "displayText": "Mrs. S",
+            "rawValueJson": "\"Mrs. S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 20,
+            "displayText": "Mrs. S",
+            "rawValueJson": "\"Mrs. S\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table1",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Business Communication I",
+          "rawValueJson": "\"Business Communication I\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Business Communication II",
+          "rawValueJson": "\"Business Communication II\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Elements of Company Law I",
+          "rawValueJson": "\"Elements of Company Law I\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Elements of Company Law II",
+          "rawValueJson": "\"Elements of Company Law II\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Corporate Accounting I",
+          "rawValueJson": "\"Corporate Accounting I\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Corporate Accounting II",
+          "rawValueJson": "\"Corporate Accounting II\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Business Economics (Macro) I",
+          "rawValueJson": "\"Business Economics (Macro) I\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Business Economics (Macro) II",
+          "rawValueJson": "\"Business Economics (Macro) II\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Business Management I",
+          "rawValueJson": "\"Business Management I\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Business Management II",
+          "rawValueJson": "\"Business Management II\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "235B VOC SEM III Advertising, Sales Promotion & Sales Management I",
+          "rawValueJson": "\"235B VOC SEM III Advertising, Sales Promotion & Sales Management I\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "236B VOC SEM III Advertising, Sales Promotion & Sales Management II",
+          "rawValueJson": "\"236B VOC SEM III Advertising, Sales Promotion & Sales Management II\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "245B VOC SEM IV Advertising, Sales Promotion & Sales Management III",
+          "rawValueJson": "\"245B VOC SEM IV Advertising, Sales Promotion & Sales Management III\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 14,
+          "displayText": "246B VOC SEM IV Advertising, Sales Promotion & Sales Management IV",
+          "rawValueJson": "\"246B VOC SEM IV Advertising, Sales Promotion & Sales Management IV\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 15,
+          "displayText": "235A VOC SEM III Computer Application I",
+          "rawValueJson": "\"235A VOC SEM III Computer Application I\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 16,
+          "displayText": "236A VOC SEM III Computer Application II",
+          "rawValueJson": "\"236A VOC SEM III Computer Application II\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 17,
+          "displayText": "245A VOC SEM IV Computer Application III",
+          "rawValueJson": "\"245A VOC SEM IV Computer Application III\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 18,
+          "displayText": "246A VOC SEM IV Computer Application IV",
+          "rawValueJson": "\"246A VOC SEM IV Computer Application IV\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 19,
+          "displayText": "Environmental Awareness III",
+          "rawValueJson": "\"Environmental Awareness III\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 20,
+          "displayText": "Environmental Awareness IV",
+          "rawValueJson": "\"Environmental Awareness IV\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Mrs. S",
+          "rawValueJson": "\"Mrs. S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Mrs. S",
+          "rawValueJson": "\"Mrs. S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "B M",
+          "rawValueJson": "\"B M\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "B M",
+          "rawValueJson": "\"B M\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "K T",
+          "rawValueJson": "\"K T\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "K T",
+          "rawValueJson": "\"K T\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "G B",
+          "rawValueJson": "\"G B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "G B",
+          "rawValueJson": "\"G B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "B D",
+          "rawValueJson": "\"B D\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "B D",
+          "rawValueJson": "\"B D\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "Dr. C S",
+          "rawValueJson": "\"Dr. C S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "Dr. C S",
+          "rawValueJson": "\"Dr. C S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "Dr. C S",
+          "rawValueJson": "\"Dr. C S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 14,
+          "displayText": "Dr. C S",
+          "rawValueJson": "\"Dr. C S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 18,
+          "displayText": "BP",
+          "rawValueJson": "\"BP\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 19,
+          "displayText": "K. M.",
+          "rawValueJson": "\"K. M.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 20,
+          "displayText": "K. M.",
+          "rawValueJson": "\"K. M.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Ms. SS",
+          "rawValueJson": "\"Ms. SS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Ms. SS",
+          "rawValueJson": "\"Ms. SS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "J V",
+          "rawValueJson": "\"J V\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "J V",
+          "rawValueJson": "\"J V\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "S N",
+          "rawValueJson": "\"S N\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "S N",
+          "rawValueJson": "\"S N\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "M S.S.",
+          "rawValueJson": "\"M S.S.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "M S.S.",
+          "rawValueJson": "\"M S.S.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "K M",
+          "rawValueJson": "\"K M\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "K M",
+          "rawValueJson": "\"K M\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "Dr. J P",
+          "rawValueJson": "\"Dr. J P\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "Dr. J P",
+          "rawValueJson": "\"Dr. J P\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": "Dr. J P",
+          "rawValueJson": "\"Dr. J P\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 14,
+          "displayText": "Dr. J P",
+          "rawValueJson": "\"Dr. J P\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 18,
+          "displayText": "BL",
+          "rawValueJson": "\"BL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 19,
+          "displayText": "Ms. SS",
+          "rawValueJson": "\"Ms. SS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 20,
+          "displayText": "Ms. SS",
+          "rawValueJson": "\"Ms. SS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Dr. S",
+          "rawValueJson": "\"Dr. S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Dr. S",
+          "rawValueJson": "\"Dr. S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "S K",
+          "rawValueJson": "\"S K\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "S K",
+          "rawValueJson": "\"S K\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "K V",
+          "rawValueJson": "\"K V\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "K V",
+          "rawValueJson": "\"K V\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "W H.P",
+          "rawValueJson": "\"W H.P\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "W H.P",
+          "rawValueJson": "\"W H.P\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "Ms. SS",
+          "rawValueJson": "\"Ms. SS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "Ms. SS",
+          "rawValueJson": "\"Ms. SS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 19,
+          "displayText": "G. B.",
+          "rawValueJson": "\"G. B.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 20,
+          "displayText": "G. B.",
+          "rawValueJson": "\"G. B.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Dr. S.G.",
+          "rawValueJson": "\"Dr. S.G.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Dr. S.G.",
+          "rawValueJson": "\"Dr. S.G.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "K B",
+          "rawValueJson": "\"K B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "K B",
+          "rawValueJson": "\"K B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "P P",
+          "rawValueJson": "\"P P\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "P P",
+          "rawValueJson": "\"P P\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "D Y",
+          "rawValueJson": "\"D Y\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "D Y",
+          "rawValueJson": "\"D Y\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "Mrs. S",
+          "rawValueJson": "\"Mrs. S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "Mrs. S",
+          "rawValueJson": "\"Mrs. S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 19,
+          "displayText": "M. S.S.",
+          "rawValueJson": "\"M. S.S.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 20,
+          "displayText": "M. S.S.",
+          "rawValueJson": "\"M. S.S.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Dr.  S.S.",
+          "rawValueJson": "\"Dr.  S.S.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Dr.  S.S.",
+          "rawValueJson": "\"Dr.  S.S.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "T R",
+          "rawValueJson": "\"T R\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "T R",
+          "rawValueJson": "\"T R\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "K A",
+          "rawValueJson": "\"K A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "K A",
+          "rawValueJson": "\"K A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "G B",
+          "rawValueJson": "\"G B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "G B",
+          "rawValueJson": "\"G B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "Mrs. K R",
+          "rawValueJson": "\"Mrs. K R\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "Mrs. K R",
+          "rawValueJson": "\"Mrs. K R\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 19,
+          "displayText": "Mrs. S",
+          "rawValueJson": "\"Mrs. S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 20,
+          "displayText": "Mrs. S",
+          "rawValueJson": "\"Mrs. S\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "2d33f023-2c46-4726-902e-02a31c2aa697",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{D7158985-FCFB-45E9-9E07-54ED49D803DE}",
+      "top": 18,
+      "left": 1,
+      "bottom": 19,
+      "right": 20
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{D7158985-FCFB-45E9-9E07-54ED49D803DE}",
+          "top": 18,
+          "bottom": 19,
+          "left": 1,
+          "right": 20
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 14,
+            "end": 15
+          },
+          {
+            "start": 18,
+            "end": 19
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "Teacher Count",
+            "rawValueJson": "\"Teacher Count\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.18181818181818182,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 18,
+          "column": 1,
+          "displayText": "Teacher Count",
+          "rawValueJson": "\"Teacher Count\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 19,
+          "column": 1,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 19,
+          "column": 3,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 19,
+          "column": 5,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "3174cbcb-feb0-4df8-bc87-7ec275d50652",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

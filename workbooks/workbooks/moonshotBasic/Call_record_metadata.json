@@ -1,0 +1,1475 @@
+[
+  {
+    "range": {
+      "worksheetId": "{A9F4CDC0-258C-417B-92A1-21388481A187}",
+      "top": 1,
+      "left": 1,
+      "bottom": 1001,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{A9F4CDC0-258C-417B-92A1-21388481A187}",
+          "top": 1,
+          "bottom": 1001,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Call ID\"",
+          "\"Date/Time\"",
+          "\"Agent Name\"",
+          "\"Call Duration (min)\"",
+          "\"Product Sold\"",
+          "\"Product Name\"",
+          "\"Customer Satisfaction Score\"",
+          "\"Call Outcome\"",
+          "\"Transcription Quality\"",
+          "\"Non-Talk Time (min)\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Call ID",
+            "rawValueJson": "\"Call ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Date/Time",
+            "rawValueJson": "\"Date/Time\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Agent Name",
+            "rawValueJson": "\"Agent Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Call Duration (min)",
+            "rawValueJson": "\"Call Duration (min)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Product Sold",
+            "rawValueJson": "\"Product Sold\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Product Name",
+            "rawValueJson": "\"Product Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Customer Satisfaction Score",
+            "rawValueJson": "\"Customer Satisfaction Score\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Call Outcome",
+            "rawValueJson": "\"Call Outcome\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Transcription Quality",
+            "rawValueJson": "\"Transcription Quality\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Non-Talk Time (min)",
+            "rawValueJson": "\"Non-Talk Time (min)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "CALL10001",
+            "rawValueJson": "\"CALL10001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "4/10/2024 12:56",
+            "rawValueJson": "45392.5388888889",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Riley Davis",
+            "rawValueJson": "\"Riley Davis\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "22.7",
+            "rawValueJson": "22.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Service Y",
+            "rawValueJson": "\"Service Y\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "Sale Completed",
+            "rawValueJson": "\"Sale Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "Good",
+            "rawValueJson": "\"Good\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "7.915903184",
+            "rawValueJson": "7.915903183812083",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "CALL10002",
+            "rawValueJson": "\"CALL10002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "5/2/2024 4:09",
+            "rawValueJson": "45414.17291666667",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Jordan Chen",
+            "rawValueJson": "\"Jordan Chen\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "11.4",
+            "rawValueJson": "11.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "No Sale",
+            "rawValueJson": "\"No Sale\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "Needs Review",
+            "rawValueJson": "\"Needs Review\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "1.266976962",
+            "rawValueJson": "1.266976961576207",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "CALL10003",
+            "rawValueJson": "\"CALL10003\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "2/20/2024 2:37",
+            "rawValueJson": "45342.10902777778",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Jordan Chen",
+            "rawValueJson": "\"Jordan Chen\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "25.5",
+            "rawValueJson": "25.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "Sale Completed",
+            "rawValueJson": "\"Sale Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "Good",
+            "rawValueJson": "\"Good\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "7.526481931",
+            "rawValueJson": "7.52648193054795",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "CALL10004",
+            "rawValueJson": "\"CALL10004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "3/16/2024 7:49",
+            "rawValueJson": "45367.32569444444",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Casey Brown",
+            "rawValueJson": "\"Casey Brown\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "21.9",
+            "rawValueJson": "21.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "Callback Scheduled",
+            "rawValueJson": "\"Callback Scheduled\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "Poor",
+            "rawValueJson": "\"Poor\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "5.101518586",
+            "rawValueJson": "5.101518585779852",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "CALL10005",
+            "rawValueJson": "\"CALL10005\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "2/3/2024 13:39",
+            "rawValueJson": "45325.56875",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Casey Brown",
+            "rawValueJson": "\"Casey Brown\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "2.2",
+            "rawValueJson": "2.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "Callback Scheduled",
+            "rawValueJson": "\"Callback Scheduled\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "Good",
+            "rawValueJson": "\"Good\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "0.611364404",
+            "rawValueJson": "0.611364404144527",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "CallData",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": true,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Call ID",
+          "rawValueJson": "\"Call ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Date/Time",
+          "rawValueJson": "\"Date/Time\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Agent Name",
+          "rawValueJson": "\"Agent Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Call Duration (min)",
+          "rawValueJson": "\"Call Duration (min)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Product Sold",
+          "rawValueJson": "\"Product Sold\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Product Name",
+          "rawValueJson": "\"Product Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Customer Satisfaction Score",
+          "rawValueJson": "\"Customer Satisfaction Score\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Call Outcome",
+          "rawValueJson": "\"Call Outcome\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Transcription Quality",
+          "rawValueJson": "\"Transcription Quality\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Non-Talk Time (min)",
+          "rawValueJson": "\"Non-Talk Time (min)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "CALL10001",
+          "rawValueJson": "\"CALL10001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "4/10/2024 12:56",
+          "rawValueJson": "45392.5388888889",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Riley Davis",
+          "rawValueJson": "\"Riley Davis\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "22.7",
+          "rawValueJson": "22.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Service Y",
+          "rawValueJson": "\"Service Y\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "Sale Completed",
+          "rawValueJson": "\"Sale Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "Good",
+          "rawValueJson": "\"Good\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "7.915903184",
+          "rawValueJson": "7.915903183812083",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "CALL10002",
+          "rawValueJson": "\"CALL10002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "5/2/2024 4:09",
+          "rawValueJson": "45414.17291666667",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Jordan Chen",
+          "rawValueJson": "\"Jordan Chen\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "11.4",
+          "rawValueJson": "11.4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "No Sale",
+          "rawValueJson": "\"No Sale\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Needs Review",
+          "rawValueJson": "\"Needs Review\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "1.266976962",
+          "rawValueJson": "1.266976961576207",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "CALL10003",
+          "rawValueJson": "\"CALL10003\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "2/20/2024 2:37",
+          "rawValueJson": "45342.10902777778",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Jordan Chen",
+          "rawValueJson": "\"Jordan Chen\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "25.5",
+          "rawValueJson": "25.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "Sale Completed",
+          "rawValueJson": "\"Sale Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "Good",
+          "rawValueJson": "\"Good\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "7.526481931",
+          "rawValueJson": "7.52648193054795",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "CALL10004",
+          "rawValueJson": "\"CALL10004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "3/16/2024 7:49",
+          "rawValueJson": "45367.32569444444",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Casey Brown",
+          "rawValueJson": "\"Casey Brown\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "21.9",
+          "rawValueJson": "21.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "Callback Scheduled",
+          "rawValueJson": "\"Callback Scheduled\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "Poor",
+          "rawValueJson": "\"Poor\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "5.101518586",
+          "rawValueJson": "5.101518585779852",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "CALL10005",
+          "rawValueJson": "\"CALL10005\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "2/3/2024 13:39",
+          "rawValueJson": "45325.56875",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Casey Brown",
+          "rawValueJson": "\"Casey Brown\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "2.2",
+          "rawValueJson": "2.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "Callback Scheduled",
+          "rawValueJson": "\"Callback Scheduled\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "Good",
+          "rawValueJson": "\"Good\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "0.611364404",
+          "rawValueJson": "0.611364404144527",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      1001,
+      1000,
+      999,
+      998,
+      997,
+      996,
+      995,
+      994,
+      993,
+      992,
+      991,
+      990,
+      989,
+      988,
+      987,
+      986,
+      985,
+      984,
+      983,
+      982,
+      981,
+      980,
+      979,
+      978,
+      977,
+      976,
+      975,
+      974,
+      973,
+      972,
+      971,
+      970,
+      969,
+      968,
+      967,
+      966,
+      965,
+      964,
+      963,
+      962,
+      961,
+      960,
+      959,
+      958,
+      957,
+      956,
+      955,
+      954,
+      953,
+      952,
+      951,
+      950,
+      949,
+      948,
+      947,
+      946,
+      945,
+      944,
+      943,
+      942,
+      941,
+      940,
+      939,
+      938,
+      937,
+      936,
+      935,
+      934,
+      933,
+      932,
+      931,
+      930,
+      929,
+      928,
+      927,
+      926,
+      925,
+      924,
+      923,
+      922,
+      921,
+      920,
+      919,
+      918,
+      917,
+      916,
+      915,
+      914,
+      913,
+      912,
+      911,
+      910,
+      909,
+      908,
+      907,
+      906,
+      905,
+      904,
+      903,
+      902,
+      901,
+      900,
+      899,
+      898,
+      897,
+      896,
+      895,
+      894,
+      893,
+      892,
+      891,
+      890,
+      889,
+      888,
+      887,
+      886,
+      885,
+      884,
+      883,
+      882,
+      881,
+      880,
+      879,
+      878,
+      877,
+      876,
+      875,
+      874,
+      873,
+      872,
+      871,
+      870,
+      869,
+      868,
+      867,
+      866,
+      865,
+      864,
+      863,
+      862,
+      861,
+      860,
+      859,
+      858,
+      857,
+      856,
+      855,
+      854,
+      853,
+      852,
+      851,
+      850,
+      849,
+      848,
+      847,
+      846,
+      845,
+      844,
+      843,
+      842,
+      841,
+      840,
+      839,
+      838,
+      837,
+      836,
+      835,
+      834,
+      833,
+      832,
+      831,
+      830,
+      829,
+      828,
+      827,
+      826,
+      825,
+      824,
+      823,
+      822,
+      821,
+      820,
+      819,
+      818,
+      817,
+      816,
+      815,
+      814,
+      813,
+      812,
+      811,
+      810,
+      809,
+      808,
+      807,
+      806,
+      805,
+      804,
+      803,
+      802,
+      801,
+      800,
+      799,
+      798,
+      797,
+      796,
+      795,
+      794,
+      793,
+      792,
+      791,
+      790,
+      789,
+      788,
+      787,
+      786,
+      785,
+      784,
+      783,
+      782,
+      781,
+      780,
+      779,
+      778,
+      777,
+      776,
+      775,
+      774,
+      773,
+      772,
+      771,
+      770,
+      769,
+      768,
+      767,
+      766,
+      765,
+      764,
+      763,
+      762,
+      761,
+      760,
+      759,
+      758,
+      757,
+      756,
+      755,
+      754,
+      753,
+      752
+    ],
+    "samplingScheme": 1,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "8228aa75-6044-4341-bc0c-867d9b59cbea",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

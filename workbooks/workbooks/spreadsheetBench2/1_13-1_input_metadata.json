@@ -1,0 +1,2731 @@
+[
+  {
+    "range": {
+      "worksheetId": "{2FE7677E-8976-4224-B8DB-21B71DE87569}",
+      "top": 2,
+      "left": 1,
+      "bottom": 10,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{2FE7677E-8976-4224-B8DB-21B71DE87569}",
+          "top": 2,
+          "bottom": 10,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          8
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ],
+        "headerNames": [
+          "\"SN\"",
+          "\"DATE\"",
+          "\"REF\"",
+          "\"AMOUNTS\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "SN",
+            "rawValueJson": "\"SN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "REF",
+            "rawValueJson": "\"REF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "AMOUNTS",
+            "rawValueJson": "\"AMOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "420.00",
+            "rawValueJson": "420",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "RETER",
+            "rawValueJson": "\"RETER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "340.00",
+            "rawValueJson": "340",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "2/3/2024",
+            "rawValueJson": "45325",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "115.00",
+            "rawValueJson": "115",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "3/3/2024",
+            "rawValueJson": "45354",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "RETER",
+            "rawValueJson": "\"RETER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "470.00",
+            "rawValueJson": "470",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "3/3/2024",
+            "rawValueJson": "45354",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "225.00",
+            "rawValueJson": "225",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "LISTS",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "SN",
+          "rawValueJson": "\"SN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "REF",
+          "rawValueJson": "\"REF\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "AMOUNTS",
+          "rawValueJson": "\"AMOUNTS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "420.00",
+          "rawValueJson": "420",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "RETER",
+          "rawValueJson": "\"RETER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "340.00",
+          "rawValueJson": "340",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "2/3/2024",
+          "rawValueJson": "45325",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "115.00",
+          "rawValueJson": "115",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "3/3/2024",
+          "rawValueJson": "45354",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "RETER",
+          "rawValueJson": "\"RETER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "470.00",
+          "rawValueJson": "470",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "3/3/2024",
+          "rawValueJson": "45354",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "225.00",
+          "rawValueJson": "225",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "c700f0e1-abfc-44f3-a5b1-aeadf008a50c",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{2FE7677E-8976-4224-B8DB-21B71DE87569}",
+      "top": 14,
+      "left": 1,
+      "bottom": 20,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{2FE7677E-8976-4224-B8DB-21B71DE87569}",
+          "top": 14,
+          "bottom": 20,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          6
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 5
+          }
+        ],
+        "headerNames": [
+          "\"SN\"",
+          "\"DATE\"",
+          "\"REF\"",
+          "\"AMOUNTS\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "SN",
+            "rawValueJson": "\"SN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "REF",
+            "rawValueJson": "\"REF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "AMOUNTS",
+            "rawValueJson": "\"AMOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{2FE7677E-8976-4224-B8DB-21B71DE87569}",
+          "top": 14,
+          "bottom": 20,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "SN",
+            "rawValueJson": "\"SN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "REF",
+            "rawValueJson": "\"REF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "AMOUNTS",
+            "rawValueJson": "\"AMOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "LISTS",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 14,
+          "column": 1,
+          "displayText": "SN",
+          "rawValueJson": "\"SN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 2,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 3,
+          "displayText": "REF",
+          "rawValueJson": "\"REF\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 4,
+          "displayText": "AMOUNTS",
+          "rawValueJson": "\"AMOUNTS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 15,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 18,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 19,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "52c43efb-ce7b-4ddd-a5a8-908bf23ef28b",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{2FE7677E-8976-4224-B8DB-21B71DE87569}",
+      "top": 24,
+      "left": 1,
+      "bottom": 32,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{2FE7677E-8976-4224-B8DB-21B71DE87569}",
+          "top": 24,
+          "bottom": 32,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          8
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ],
+        "headerNames": [
+          "\"SN\"",
+          "\"DATE\"",
+          "\"REF\"",
+          "\"AMOUNTS\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 24,
+            "column": 1,
+            "displayText": "SN",
+            "rawValueJson": "\"SN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 2,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 3,
+            "displayText": "REF",
+            "rawValueJson": "\"REF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 4,
+            "displayText": "AMOUNTS",
+            "rawValueJson": "\"AMOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{2FE7677E-8976-4224-B8DB-21B71DE87569}",
+          "top": 24,
+          "bottom": 32,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 24,
+            "column": 1,
+            "displayText": "SN",
+            "rawValueJson": "\"SN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 2,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 3,
+            "displayText": "REF",
+            "rawValueJson": "\"REF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 4,
+            "displayText": "AMOUNTS",
+            "rawValueJson": "\"AMOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 1,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 1,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "LISTS",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 24,
+          "column": 1,
+          "displayText": "SN",
+          "rawValueJson": "\"SN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 24,
+          "column": 2,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 24,
+          "column": 3,
+          "displayText": "REF",
+          "rawValueJson": "\"REF\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 24,
+          "column": 4,
+          "displayText": "AMOUNTS",
+          "rawValueJson": "\"AMOUNTS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 25,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 26,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 27,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 28,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "8f1a7821-f9dd-4a19-89df-0e8a1587b6d7",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{66CA84B2-DCC5-4BC4-A035-6C709451384F}",
+      "top": 2,
+      "left": 1,
+      "bottom": 13,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{66CA84B2-DCC5-4BC4-A035-6C709451384F}",
+          "top": 2,
+          "bottom": 13,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"S.N\"",
+          "\"DATE\"",
+          "\"BATCH\"",
+          "\"REF\"",
+          "\"AMOUNTS\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "S.N",
+            "rawValueJson": "\"S.N\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "BATCH",
+            "rawValueJson": "\"BATCH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "REF",
+            "rawValueJson": "\"REF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "AMOUNTS",
+            "rawValueJson": "\"AMOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "BSDER400-00",
+            "rawValueJson": "\"BSDER400-00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "200.00",
+            "rawValueJson": "200",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "BSDER400-01",
+            "rawValueJson": "\"BSDER400-01\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "220.00",
+            "rawValueJson": "220",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "BSDER400-02",
+            "rawValueJson": "\"BSDER400-02\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "RETER",
+            "rawValueJson": "\"RETER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "230.00",
+            "rawValueJson": "230",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "BSDER400-03",
+            "rawValueJson": "\"BSDER400-03\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "RETER",
+            "rawValueJson": "\"RETER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "110.00",
+            "rawValueJson": "110",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "2/3/2024",
+            "rawValueJson": "45325",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "BSDER400-04",
+            "rawValueJson": "\"BSDER400-04\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "115.00",
+            "rawValueJson": "115",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "RANGES",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "S.N",
+          "rawValueJson": "\"S.N\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "BATCH",
+          "rawValueJson": "\"BATCH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "REF",
+          "rawValueJson": "\"REF\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "AMOUNTS",
+          "rawValueJson": "\"AMOUNTS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "BSDER400-00",
+          "rawValueJson": "\"BSDER400-00\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "200.00",
+          "rawValueJson": "200",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "BSDER400-01",
+          "rawValueJson": "\"BSDER400-01\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "220.00",
+          "rawValueJson": "220",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "BSDER400-02",
+          "rawValueJson": "\"BSDER400-02\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "RETER",
+          "rawValueJson": "\"RETER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "230.00",
+          "rawValueJson": "230",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "BSDER400-03",
+          "rawValueJson": "\"BSDER400-03\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "RETER",
+          "rawValueJson": "\"RETER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "110.00",
+          "rawValueJson": "110",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "2/3/2024",
+          "rawValueJson": "45325",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "BSDER400-04",
+          "rawValueJson": "\"BSDER400-04\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "115.00",
+          "rawValueJson": "115",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "122b34e9-7c91-4753-85e0-16752e06ab62",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{66CA84B2-DCC5-4BC4-A035-6C709451384F}",
+      "top": 36,
+      "left": 1,
+      "bottom": 55,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{66CA84B2-DCC5-4BC4-A035-6C709451384F}",
+          "top": 36,
+          "bottom": 55,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 19
+          }
+        ],
+        "headerNames": [
+          "\"S.N\"",
+          "\"DATE\"",
+          "\"BATCH\"",
+          "\"REF\"",
+          "\"AMOUNTS\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 36,
+            "column": 1,
+            "displayText": "S.N",
+            "rawValueJson": "\"S.N\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 2,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 3,
+            "displayText": "BATCH",
+            "rawValueJson": "\"BATCH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 4,
+            "displayText": "REF",
+            "rawValueJson": "\"REF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 5,
+            "displayText": "AMOUNTS",
+            "rawValueJson": "\"AMOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 2,
+            "displayText": "02/24/2024",
+            "rawValueJson": "\"02/24/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 37,
+            "column": 3,
+            "displayText": "NMMJU777",
+            "rawValueJson": "\"NMMJU777\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 4,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 5,
+            "displayText": "120.00",
+            "rawValueJson": "120",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 38,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 2,
+            "displayText": "02/24/2024",
+            "rawValueJson": "\"02/24/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 38,
+            "column": 3,
+            "displayText": "NMMJU778",
+            "rawValueJson": "\"NMMJU778\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 4,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 5,
+            "displayText": "130.00",
+            "rawValueJson": "130",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 39,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 2,
+            "displayText": "02/24/2024",
+            "rawValueJson": "\"02/24/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 39,
+            "column": 3,
+            "displayText": "NMMJU779",
+            "rawValueJson": "\"NMMJU779\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 4,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 5,
+            "displayText": "220.00",
+            "rawValueJson": "220",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 40,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 2,
+            "displayText": "02/24/2024",
+            "rawValueJson": "\"02/24/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 40,
+            "column": 3,
+            "displayText": "NMMJU780",
+            "rawValueJson": "\"NMMJU780\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 4,
+            "displayText": "RETER",
+            "rawValueJson": "\"RETER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 5,
+            "displayText": "150.00",
+            "rawValueJson": "150",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 41,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 2,
+            "displayText": "02/24/2024",
+            "rawValueJson": "\"02/24/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 41,
+            "column": 3,
+            "displayText": "NMMJU781",
+            "rawValueJson": "\"NMMJU781\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 4,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 5,
+            "displayText": "1,300.00",
+            "rawValueJson": "1300",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "RANGES",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 36,
+          "column": 1,
+          "displayText": "S.N",
+          "rawValueJson": "\"S.N\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 36,
+          "column": 2,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 36,
+          "column": 3,
+          "displayText": "BATCH",
+          "rawValueJson": "\"BATCH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 36,
+          "column": 4,
+          "displayText": "REF",
+          "rawValueJson": "\"REF\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 36,
+          "column": 5,
+          "displayText": "AMOUNTS",
+          "rawValueJson": "\"AMOUNTS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 37,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 37,
+          "column": 2,
+          "displayText": "02/24/2024",
+          "rawValueJson": "\"02/24/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 37,
+          "column": 3,
+          "displayText": "NMMJU777",
+          "rawValueJson": "\"NMMJU777\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 37,
+          "column": 4,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 37,
+          "column": 5,
+          "displayText": "120.00",
+          "rawValueJson": "120",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 38,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 38,
+          "column": 2,
+          "displayText": "02/24/2024",
+          "rawValueJson": "\"02/24/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 38,
+          "column": 3,
+          "displayText": "NMMJU778",
+          "rawValueJson": "\"NMMJU778\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 38,
+          "column": 4,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 38,
+          "column": 5,
+          "displayText": "130.00",
+          "rawValueJson": "130",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 39,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 39,
+          "column": 2,
+          "displayText": "02/24/2024",
+          "rawValueJson": "\"02/24/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 39,
+          "column": 3,
+          "displayText": "NMMJU779",
+          "rawValueJson": "\"NMMJU779\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 39,
+          "column": 4,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 39,
+          "column": 5,
+          "displayText": "220.00",
+          "rawValueJson": "220",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 40,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 40,
+          "column": 2,
+          "displayText": "02/24/2024",
+          "rawValueJson": "\"02/24/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 40,
+          "column": 3,
+          "displayText": "NMMJU780",
+          "rawValueJson": "\"NMMJU780\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 40,
+          "column": 4,
+          "displayText": "RETER",
+          "rawValueJson": "\"RETER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 40,
+          "column": 5,
+          "displayText": "150.00",
+          "rawValueJson": "150",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 41,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 41,
+          "column": 2,
+          "displayText": "02/24/2024",
+          "rawValueJson": "\"02/24/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 41,
+          "column": 3,
+          "displayText": "NMMJU781",
+          "rawValueJson": "\"NMMJU781\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 41,
+          "column": 4,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 41,
+          "column": 5,
+          "displayText": "1,300.00",
+          "rawValueJson": "1300",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "3e3f2ff8-dc13-4169-bcd0-e692ef2e46b1",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{66CA84B2-DCC5-4BC4-A035-6C709451384F}",
+      "top": 17,
+      "left": 1,
+      "bottom": 32,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{66CA84B2-DCC5-4BC4-A035-6C709451384F}",
+          "top": 17,
+          "bottom": 32,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 15
+          }
+        ],
+        "headerNames": [
+          "\"S.N\"",
+          "\"DATE\"",
+          "\"BATCH\"",
+          "\"REF\"",
+          "\"AMOUNTS\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "S.N",
+            "rawValueJson": "\"S.N\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "BATCH",
+            "rawValueJson": "\"BATCH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "REF",
+            "rawValueJson": "\"REF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "AMOUNTS",
+            "rawValueJson": "\"AMOUNTS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 18,
+            "column": 3,
+            "displayText": "BMMMT001",
+            "rawValueJson": "\"BMMMT001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "RETER",
+            "rawValueJson": "\"RETER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 5,
+            "displayText": "300.00",
+            "rawValueJson": "300",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "BMMMT002",
+            "rawValueJson": "\"BMMMT002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "RETER",
+            "rawValueJson": "\"RETER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "320.00",
+            "rawValueJson": "320",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "BMMMT003",
+            "rawValueJson": "\"BMMMT003\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "RETER",
+            "rawValueJson": "\"RETER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "330.00",
+            "rawValueJson": "330",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 21,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "BMMMT004",
+            "rawValueJson": "\"BMMMT004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "320.00",
+            "rawValueJson": "320",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 22,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 2,
+            "displayText": "02/22/2024",
+            "rawValueJson": "\"02/22/2024\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 22,
+            "column": 3,
+            "displayText": "BMMMT005",
+            "rawValueJson": "\"BMMMT005\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 4,
+            "displayText": "REAS",
+            "rawValueJson": "\"REAS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 5,
+            "displayText": "1,225.00",
+            "rawValueJson": "1225",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "RANGES",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 17,
+          "column": 1,
+          "displayText": "S.N",
+          "rawValueJson": "\"S.N\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 2,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 3,
+          "displayText": "BATCH",
+          "rawValueJson": "\"BATCH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 4,
+          "displayText": "REF",
+          "rawValueJson": "\"REF\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 5,
+          "displayText": "AMOUNTS",
+          "rawValueJson": "\"AMOUNTS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 18,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 18,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 18,
+          "column": 3,
+          "displayText": "BMMMT001",
+          "rawValueJson": "\"BMMMT001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 18,
+          "column": 4,
+          "displayText": "RETER",
+          "rawValueJson": "\"RETER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 18,
+          "column": 5,
+          "displayText": "300.00",
+          "rawValueJson": "300",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 19,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 19,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 19,
+          "column": 3,
+          "displayText": "BMMMT002",
+          "rawValueJson": "\"BMMMT002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 19,
+          "column": 4,
+          "displayText": "RETER",
+          "rawValueJson": "\"RETER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 19,
+          "column": 5,
+          "displayText": "320.00",
+          "rawValueJson": "320",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 20,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 20,
+          "column": 3,
+          "displayText": "BMMMT003",
+          "rawValueJson": "\"BMMMT003\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 4,
+          "displayText": "RETER",
+          "rawValueJson": "\"RETER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 5,
+          "displayText": "330.00",
+          "rawValueJson": "330",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 21,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 21,
+          "column": 3,
+          "displayText": "BMMMT004",
+          "rawValueJson": "\"BMMMT004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 4,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 5,
+          "displayText": "320.00",
+          "rawValueJson": "320",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 22,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 22,
+          "column": 2,
+          "displayText": "02/22/2024",
+          "rawValueJson": "\"02/22/2024\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 22,
+          "column": 3,
+          "displayText": "BMMMT005",
+          "rawValueJson": "\"BMMMT005\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 22,
+          "column": 4,
+          "displayText": "REAS",
+          "rawValueJson": "\"REAS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 22,
+          "column": 5,
+          "displayText": "1,225.00",
+          "rawValueJson": "1225",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "f9da567f-3b3d-4c29-b8a3-8a13f4ed4b35",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

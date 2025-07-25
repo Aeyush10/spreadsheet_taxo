@@ -1,0 +1,1473 @@
+[
+  {
+    "range": {
+      "worksheetId": "{443A1EBF-EA59-4745-8802-2D889A17F1C9}",
+      "top": 1,
+      "left": 1,
+      "bottom": 1001,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{443A1EBF-EA59-4745-8802-2D889A17F1C9}",
+          "top": 1,
+          "bottom": 1001,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"author\"",
+          "\"date\"",
+          "\"address\"",
+          "\"bank\"",
+          "\"rating\"",
+          "\"review_title_by_user\"",
+          "\"review\"",
+          "\"bank_image\"",
+          "\"rating_title_by_user\"",
+          "\"useful_count\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "author",
+            "rawValueJson": "\"author\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "date",
+            "rawValueJson": "\"date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "address",
+            "rawValueJson": "\"address\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "bank",
+            "rawValueJson": "\"bank\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "rating",
+            "rawValueJson": "\"rating\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "review_title_by_user",
+            "rawValueJson": "\"review_title_by_user\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "review",
+            "rawValueJson": "\"review\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "bank_image",
+            "rawValueJson": "\"bank_image\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "rating_title_by_user",
+            "rawValueJson": "\"rating_title_by_user\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "useful_count",
+            "rawValueJson": "\"useful_count\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "AMRENDRA  T",
+            "rawValueJson": "\"AMRENDRA  T\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Mar 21, 2020",
+            "rawValueJson": "\"Mar 21, 2020\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "New delhi",
+            "rawValueJson": "\"New delhi\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "SBI",
+            "rawValueJson": "\"SBI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "\"Best saving\"",
+            "rawValueJson": "\"\\\"Best saving\\\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "State Bank Of India is located nearby in our area so i open my saving account from that bank ,customer service was good, I got my bank statement on time the bank agent informed me every details required. It is very easy and convenience for money deposits.",
+            "rawValueJson": "\"State Bank Of India is located nearby in our area so i open my saving account from that bank ,customer service was good, I got my bank statement on time the bank agent informed me every details required. It is very easy and convenience for money deposits.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "https://static.bankbazaar.com/images/common/bank-logo/sbi-4.png",
+            "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/sbi-4.png\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "Great!",
+            "rawValueJson": "\"Great!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "133",
+            "rawValueJson": "133",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "BISHWA",
+            "rawValueJson": "\"BISHWA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Mar 20, 2020",
+            "rawValueJson": "\"Mar 20, 2020\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Kolkata",
+            "rawValueJson": "\"Kolkata\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "SBI",
+            "rawValueJson": "\"SBI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "\"Good service\"",
+            "rawValueJson": "\"\\\"Good service\\\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "I have my salary account in SBI, when I applied for the card I got my statement on time. I am very much satisfied with the the account. Net banking is also functioning smooth and convenient for me. There are some offer in the cards which was good.",
+            "rawValueJson": "\"I have my salary account in SBI, when I applied for the card I got my statement on time. I am very much satisfied with the the account. Net banking is also functioning smooth and convenient for me. There are some offer in the cards which was good.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "https://static.bankbazaar.com/images/common/bank-logo/sbi-4.png",
+            "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/sbi-4.png\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "Blown Away!",
+            "rawValueJson": "\"Blown Away!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "89",
+            "rawValueJson": "89",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "SANTOSH",
+            "rawValueJson": "\"SANTOSH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Mar 20, 2020",
+            "rawValueJson": "\"Mar 20, 2020\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Hooghly",
+            "rawValueJson": "\"Hooghly\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Axis Bank",
+            "rawValueJson": "\"Axis Bank\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "\"Excellent Service\"",
+            "rawValueJson": "\"\\\"Excellent Service\\\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "I am using Axis bank saving account for the  past 3years .Each transaction will be safe and always secure .I am using net banking as well mobile banking service it is used for money transfer and recharge only.There was no difficulties faced so far on using this saving account.",
+            "rawValueJson": "\"I am using Axis bank saving account for the  past 3years .Each transaction will be safe and always secure .I am using net banking as well mobile banking service it is used for money transfer and recharge only.There was no difficulties faced so far on using this saving account.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "https://static.bankbazaar.com/images/common/bank-logo/axis.png",
+            "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/axis.png\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "Blown Away!",
+            "rawValueJson": "\"Blown Away!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "48",
+            "rawValueJson": "48",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "MAHADEV",
+            "rawValueJson": "\"MAHADEV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Mar 20, 2020",
+            "rawValueJson": "\"Mar 20, 2020\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Pune",
+            "rawValueJson": "\"Pune\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "HDFC Bank",
+            "rawValueJson": "\"HDFC Bank\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "\"Excellent service\"",
+            "rawValueJson": "\"\\\"Excellent service\\\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "I have my salary bank account in HDFC bank for many years, I got my bank statement on time.This bank is available in most of the areas so its very convenience for deposits and update of passbook. I have no issues with the customer support and its been good experience.",
+            "rawValueJson": "\"I have my salary bank account in HDFC bank for many years, I got my bank statement on time.This bank is available in most of the areas so its very convenience for deposits and update of passbook. I have no issues with the customer support and its been good experience.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "https://static.bankbazaar.com/images/common/bank-logo/hdfc.png",
+            "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/hdfc.png\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "Blown Away!",
+            "rawValueJson": "\"Blown Away!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "52",
+            "rawValueJson": "52",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "R",
+            "rawValueJson": "\"R\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Mar 20, 2020",
+            "rawValueJson": "\"Mar 20, 2020\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Bangalore",
+            "rawValueJson": "\"Bangalore\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "review",
+            "rawValueJson": "\"review\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "\"Good account\"",
+            "rawValueJson": "\"\\\"Good account\\\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "Close to around 10 years, I am holding this Corporation Bank  savings account The most interesting part about this account I can easily transact and I can withdraw money from anywhere without any charges. ATM and their branches are near to my residence.",
+            "rawValueJson": "\"Close to around 10 years, I am holding this Corporation Bank  savings account The most interesting part about this account I can easily transact and I can withdraw money from anywhere without any charges. ATM and their branches are near to my residence.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "https://static.bankbazaar.com/images/common/bank-logo/ALL_BANKS.png",
+            "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/ALL_BANKS.png\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "Blown Away!",
+            "rawValueJson": "\"Blown Away!\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table_2d567ca6",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Data",
+    "isDataSampled": true,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "author",
+          "rawValueJson": "\"author\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "date",
+          "rawValueJson": "\"date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "address",
+          "rawValueJson": "\"address\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "bank",
+          "rawValueJson": "\"bank\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "rating",
+          "rawValueJson": "\"rating\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "review_title_by_user",
+          "rawValueJson": "\"review_title_by_user\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "review",
+          "rawValueJson": "\"review\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "bank_image",
+          "rawValueJson": "\"bank_image\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "rating_title_by_user",
+          "rawValueJson": "\"rating_title_by_user\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "useful_count",
+          "rawValueJson": "\"useful_count\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "AMRENDRA  T",
+          "rawValueJson": "\"AMRENDRA  T\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Mar 21, 2020",
+          "rawValueJson": "\"Mar 21, 2020\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "New delhi",
+          "rawValueJson": "\"New delhi\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "SBI",
+          "rawValueJson": "\"SBI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "\"Best saving\"",
+          "rawValueJson": "\"\\\"Best saving\\\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "State Bank Of India is located nearby in our area so i open my saving account from that bank ,customer service was good, I got my bank statement on time the bank agent informed me every details required. It is very easy and convenience for money deposits.",
+          "rawValueJson": "\"State Bank Of India is located nearby in our area so i open my saving account from that bank ,customer service was good, I got my bank statement on time the bank agent informed me every details required. It is very easy and convenience for money deposits.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "https://static.bankbazaar.com/images/common/bank-logo/sbi-4.png",
+          "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/sbi-4.png\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "Great!",
+          "rawValueJson": "\"Great!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "133",
+          "rawValueJson": "133",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "BISHWA",
+          "rawValueJson": "\"BISHWA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Mar 20, 2020",
+          "rawValueJson": "\"Mar 20, 2020\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Kolkata",
+          "rawValueJson": "\"Kolkata\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "SBI",
+          "rawValueJson": "\"SBI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "\"Good service\"",
+          "rawValueJson": "\"\\\"Good service\\\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "I have my salary account in SBI, when I applied for the card I got my statement on time. I am very much satisfied with the the account. Net banking is also functioning smooth and convenient for me. There are some offer in the cards which was good.",
+          "rawValueJson": "\"I have my salary account in SBI, when I applied for the card I got my statement on time. I am very much satisfied with the the account. Net banking is also functioning smooth and convenient for me. There are some offer in the cards which was good.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "https://static.bankbazaar.com/images/common/bank-logo/sbi-4.png",
+          "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/sbi-4.png\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Blown Away!",
+          "rawValueJson": "\"Blown Away!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "89",
+          "rawValueJson": "89",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "SANTOSH",
+          "rawValueJson": "\"SANTOSH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Mar 20, 2020",
+          "rawValueJson": "\"Mar 20, 2020\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Hooghly",
+          "rawValueJson": "\"Hooghly\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Axis Bank",
+          "rawValueJson": "\"Axis Bank\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "\"Excellent Service\"",
+          "rawValueJson": "\"\\\"Excellent Service\\\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "I am using Axis bank saving account for the  past 3years .Each transaction will be safe and always secure .I am using net banking as well mobile banking service it is used for money transfer and recharge only.There was no difficulties faced so far on using this saving account.",
+          "rawValueJson": "\"I am using Axis bank saving account for the  past 3years .Each transaction will be safe and always secure .I am using net banking as well mobile banking service it is used for money transfer and recharge only.There was no difficulties faced so far on using this saving account.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "https://static.bankbazaar.com/images/common/bank-logo/axis.png",
+          "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/axis.png\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "Blown Away!",
+          "rawValueJson": "\"Blown Away!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "48",
+          "rawValueJson": "48",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "MAHADEV",
+          "rawValueJson": "\"MAHADEV\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Mar 20, 2020",
+          "rawValueJson": "\"Mar 20, 2020\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Pune",
+          "rawValueJson": "\"Pune\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "HDFC Bank",
+          "rawValueJson": "\"HDFC Bank\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "\"Excellent service\"",
+          "rawValueJson": "\"\\\"Excellent service\\\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "I have my salary bank account in HDFC bank for many years, I got my bank statement on time.This bank is available in most of the areas so its very convenience for deposits and update of passbook. I have no issues with the customer support and its been good experience.",
+          "rawValueJson": "\"I have my salary bank account in HDFC bank for many years, I got my bank statement on time.This bank is available in most of the areas so its very convenience for deposits and update of passbook. I have no issues with the customer support and its been good experience.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "https://static.bankbazaar.com/images/common/bank-logo/hdfc.png",
+          "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/hdfc.png\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "Blown Away!",
+          "rawValueJson": "\"Blown Away!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "52",
+          "rawValueJson": "52",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "R",
+          "rawValueJson": "\"R\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Mar 20, 2020",
+          "rawValueJson": "\"Mar 20, 2020\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Bangalore",
+          "rawValueJson": "\"Bangalore\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "review",
+          "rawValueJson": "\"review\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "\"Good account\"",
+          "rawValueJson": "\"\\\"Good account\\\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "Close to around 10 years, I am holding this Corporation Bank  savings account The most interesting part about this account I can easily transact and I can withdraw money from anywhere without any charges. ATM and their branches are near to my residence.",
+          "rawValueJson": "\"Close to around 10 years, I am holding this Corporation Bank  savings account The most interesting part about this account I can easily transact and I can withdraw money from anywhere without any charges. ATM and their branches are near to my residence.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "https://static.bankbazaar.com/images/common/bank-logo/ALL_BANKS.png",
+          "rawValueJson": "\"https://static.bankbazaar.com/images/common/bank-logo/ALL_BANKS.png\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "Blown Away!",
+          "rawValueJson": "\"Blown Away!\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "22",
+          "rawValueJson": "22",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      1001,
+      1000,
+      999,
+      998,
+      997,
+      996,
+      995,
+      994,
+      993,
+      992,
+      991,
+      990,
+      989,
+      988,
+      987,
+      986,
+      985,
+      984,
+      983,
+      982,
+      981,
+      980,
+      979,
+      978,
+      977,
+      976,
+      975,
+      974,
+      973,
+      972,
+      971,
+      970,
+      969,
+      968,
+      967,
+      966,
+      965,
+      964,
+      963,
+      962,
+      961,
+      960,
+      959,
+      958,
+      957,
+      956,
+      955,
+      954,
+      953,
+      952,
+      951,
+      950,
+      949,
+      948,
+      947,
+      946,
+      945,
+      944,
+      943,
+      942,
+      941,
+      940,
+      939,
+      938,
+      937,
+      936,
+      935,
+      934,
+      933,
+      932,
+      931,
+      930,
+      929,
+      928,
+      927,
+      926,
+      925,
+      924,
+      923,
+      922,
+      921,
+      920,
+      919,
+      918,
+      917,
+      916,
+      915,
+      914,
+      913,
+      912,
+      911,
+      910,
+      909,
+      908,
+      907,
+      906,
+      905,
+      904,
+      903,
+      902,
+      901,
+      900,
+      899,
+      898,
+      897,
+      896,
+      895,
+      894,
+      893,
+      892,
+      891,
+      890,
+      889,
+      888,
+      887,
+      886,
+      885,
+      884,
+      883,
+      882,
+      881,
+      880,
+      879,
+      878,
+      877,
+      876,
+      875,
+      874,
+      873,
+      872,
+      871,
+      870,
+      869,
+      868,
+      867,
+      866,
+      865,
+      864,
+      863,
+      862,
+      861,
+      860,
+      859,
+      858,
+      857,
+      856,
+      855,
+      854,
+      853,
+      852,
+      851,
+      850,
+      849,
+      848,
+      847,
+      846,
+      845,
+      844,
+      843,
+      842,
+      841,
+      840,
+      839,
+      838,
+      837,
+      836,
+      835,
+      834,
+      833,
+      832,
+      831,
+      830,
+      829,
+      828,
+      827,
+      826,
+      825,
+      824,
+      823,
+      822,
+      821,
+      820,
+      819,
+      818,
+      817,
+      816,
+      815,
+      814,
+      813,
+      812,
+      811,
+      810,
+      809,
+      808,
+      807,
+      806,
+      805,
+      804,
+      803,
+      802,
+      801,
+      800,
+      799,
+      798,
+      797,
+      796,
+      795,
+      794,
+      793,
+      792,
+      791,
+      790,
+      789,
+      788,
+      787,
+      786,
+      785,
+      784,
+      783,
+      782,
+      781,
+      780,
+      779,
+      778,
+      777,
+      776,
+      775,
+      774,
+      773,
+      772,
+      771,
+      770,
+      769,
+      768,
+      767,
+      766,
+      765,
+      764,
+      763,
+      762,
+      761,
+      760,
+      759,
+      758,
+      757,
+      756,
+      755,
+      754,
+      753,
+      752
+    ],
+    "samplingScheme": 1,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "5dfa05c1-ab52-4d0d-a2ea-81a74a85ffbf",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

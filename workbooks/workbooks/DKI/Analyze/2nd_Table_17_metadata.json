@@ -1,0 +1,526 @@
+[
+  {
+    "range": {
+      "worksheetId": "{1868EA3A-F847-432A-B735-E0C300C781BD}",
+      "top": 1,
+      "left": 1,
+      "bottom": 15,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{1868EA3A-F847-432A-B735-E0C300C781BD}",
+          "top": 1,
+          "bottom": 15,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 14
+          }
+        ],
+        "headerNames": [
+          "\"Symbol\"",
+          "\"Company Name\"",
+          "\"Current Price\"",
+          "\"% Change in Price\"",
+          "\"Previous Close\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Symbol",
+            "rawValueJson": "\"Symbol\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Company Name",
+            "rawValueJson": "\"Company Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Current Price",
+            "rawValueJson": "\"Current Price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "% Change in Price",
+            "rawValueJson": "\"% Change in Price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Previous Close",
+            "rawValueJson": "\"Previous Close\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "AWK",
+            "rawValueJson": "\"AWK\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "American Water Works Company",
+            "rawValueJson": "\"American Water Works Company\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "42.11",
+            "rawValueJson": "42.11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "-0.50%",
+            "rawValueJson": "-0.005",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "42.32",
+            "rawValueJson": "42.32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "AAPL",
+            "rawValueJson": "\"AAPL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Apple Inc",
+            "rawValueJson": "\"Apple Inc\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "430.31",
+            "rawValueJson": "430.31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "0.03%",
+            "rawValueJson": "0.0003",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "430.2",
+            "rawValueJson": "430.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "CAH",
+            "rawValueJson": "\"CAH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Cardinal Health Inc",
+            "rawValueJson": "\"Cardinal Health Inc\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "49.55",
+            "rawValueJson": "49.55",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "0.67%",
+            "rawValueJson": "0.0067",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "49.22",
+            "rawValueJson": "49.22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "DKS",
+            "rawValueJson": "\"DKS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Dicks Sporting Goods Inc",
+            "rawValueJson": "\"Dicks Sporting Goods Inc\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "50.41",
+            "rawValueJson": "50.41",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "-0.36%",
+            "rawValueJson": "-0.0036",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "50.59",
+            "rawValueJson": "50.59",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "EDE",
+            "rawValueJson": "\"EDE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Empire District Electric Co",
+            "rawValueJson": "\"Empire District Electric Co\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "23.7",
+            "rawValueJson": "23.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "0.17%",
+            "rawValueJson": "0.0017",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "23.66",
+            "rawValueJson": "23.66",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Symbol",
+          "rawValueJson": "\"Symbol\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Company Name",
+          "rawValueJson": "\"Company Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Current Price",
+          "rawValueJson": "\"Current Price\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "% Change in Price",
+          "rawValueJson": "\"% Change in Price\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Previous Close",
+          "rawValueJson": "\"Previous Close\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "AWK",
+          "rawValueJson": "\"AWK\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "American Water Works Company",
+          "rawValueJson": "\"American Water Works Company\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "42.11",
+          "rawValueJson": "42.11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "-0.50%",
+          "rawValueJson": "-0.005",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "42.32",
+          "rawValueJson": "42.32",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "AAPL",
+          "rawValueJson": "\"AAPL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Apple Inc",
+          "rawValueJson": "\"Apple Inc\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "430.31",
+          "rawValueJson": "430.31",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "0.03%",
+          "rawValueJson": "0.0003",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "430.2",
+          "rawValueJson": "430.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "CAH",
+          "rawValueJson": "\"CAH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Cardinal Health Inc",
+          "rawValueJson": "\"Cardinal Health Inc\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "49.55",
+          "rawValueJson": "49.55",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "0.67%",
+          "rawValueJson": "0.0067",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "49.22",
+          "rawValueJson": "49.22",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "DKS",
+          "rawValueJson": "\"DKS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Dicks Sporting Goods Inc",
+          "rawValueJson": "\"Dicks Sporting Goods Inc\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "50.41",
+          "rawValueJson": "50.41",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "-0.36%",
+          "rawValueJson": "-0.0036",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "50.59",
+          "rawValueJson": "50.59",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "EDE",
+          "rawValueJson": "\"EDE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Empire District Electric Co",
+          "rawValueJson": "\"Empire District Electric Co\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "23.7",
+          "rawValueJson": "23.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "0.17%",
+          "rawValueJson": "0.0017",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "23.66",
+          "rawValueJson": "23.66",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "f9a9ffce-fb57-4c0b-aea8-22e8b1390853",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

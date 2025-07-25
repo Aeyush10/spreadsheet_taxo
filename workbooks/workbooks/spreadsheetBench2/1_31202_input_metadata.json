@@ -1,0 +1,1677 @@
+[
+  {
+    "range": {
+      "worksheetId": "{00EF9D0F-07C4-4F60-9F2E-FAA7926BEBD4}",
+      "top": 2,
+      "left": 12,
+      "bottom": 13,
+      "right": 18
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{00EF9D0F-07C4-4F60-9F2E-FAA7926BEBD4}",
+          "top": 2,
+          "bottom": 13,
+          "left": 12,
+          "right": 18
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"ID\"",
+          "\"NOMBRE\"",
+          "\"PUESTO\"",
+          "\"SALARIO\"",
+          "\"DEPARTAMENTO\"",
+          "\"FECHA INGRESO\"",
+          "\"DEDUCCIONES\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "ID",
+            "rawValueJson": "\"ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "NOMBRE",
+            "rawValueJson": "\"NOMBRE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 14,
+            "displayText": "PUESTO",
+            "rawValueJson": "\"PUESTO\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 15,
+            "displayText": " SALARIO ",
+            "rawValueJson": "\"SALARIO\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 2,
+            "column": 16,
+            "displayText": " DEPARTAMENTO ",
+            "rawValueJson": "\"DEPARTAMENTO\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 2,
+            "column": 17,
+            "displayText": "FECHA INGRESO",
+            "rawValueJson": "\"FECHA INGRESO\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 18,
+            "displayText": "DEDUCCIONES",
+            "rawValueJson": "\"DEDUCCIONES\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": "DAWSON ALEXANDRO BROWN MAGAÑA",
+            "rawValueJson": "\"DAWSON ALEXANDRO BROWN MAGAÑA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 14,
+            "displayText": "ADMINISTRADOR",
+            "rawValueJson": "\"ADMINISTRADOR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 15,
+            "displayText": " $7,500.00 ",
+            "rawValueJson": "7500",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 16,
+            "displayText": " ADMINISTRATIVO ",
+            "rawValueJson": "\"ADMINISTRATIVO\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 17,
+            "displayText": "1/1/2024",
+            "rawValueJson": "45292",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 18,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 13,
+            "displayText": "GABRIELA BOJORQUEZ BOJORQUEZ",
+            "rawValueJson": "\"GABRIELA BOJORQUEZ BOJORQUEZ\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 14,
+            "displayText": "AUXILIAR ADMINISTRATIVO",
+            "rawValueJson": "\"AUXILIAR ADMINISTRATIVO\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 15,
+            "displayText": " $2,000.00 ",
+            "rawValueJson": "2000",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 16,
+            "displayText": " ADMINISTRATIVO ",
+            "rawValueJson": "\"ADMINISTRATIVO\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 17,
+            "displayText": "1/1/2024",
+            "rawValueJson": "45292",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 18,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "JAIRO MANUEL LOPEZ ESPINOZA",
+            "rawValueJson": "\"JAIRO MANUEL LOPEZ ESPINOZA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 14,
+            "displayText": "GERENTE DE PRODUCCION",
+            "rawValueJson": "\"GERENTE DE PRODUCCION\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 15,
+            "displayText": " $4,250.00 ",
+            "rawValueJson": "4250",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 16,
+            "displayText": " PRODUCCION ",
+            "rawValueJson": "\"PRODUCCION\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 17,
+            "displayText": "1/1/2024",
+            "rawValueJson": "45292",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 18,
+            "displayText": " $450.00 ",
+            "rawValueJson": "450",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "GREGORIO COTA ESCOBAR",
+            "rawValueJson": "\"GREGORIO COTA ESCOBAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 14,
+            "displayText": "TECNICO PARAMETRISTRA",
+            "rawValueJson": "\"TECNICO PARAMETRISTRA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 15,
+            "displayText": " $2,200.00 ",
+            "rawValueJson": "2200",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 16,
+            "displayText": " PRODUCCION ",
+            "rawValueJson": "\"PRODUCCION\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 17,
+            "displayText": "1/1/2024",
+            "rawValueJson": "45292",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 18,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 7,
+            "column": 12,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 13,
+            "displayText": "MARTIN PARRA",
+            "rawValueJson": "\"MARTIN PARRA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 14,
+            "displayText": "RESPONSABLE DE BOMBEO",
+            "rawValueJson": "\"RESPONSABLE DE BOMBEO\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 15,
+            "displayText": " $1,800.00 ",
+            "rawValueJson": "1800",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 7,
+            "column": 16,
+            "displayText": " PRODUCCION ",
+            "rawValueJson": "\"PRODUCCION\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 7,
+            "column": 17,
+            "displayText": "1/1/2024",
+            "rawValueJson": "45292",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 18,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          }
+        ]
+      }
+    ],
+    "tableName": "tblEmpleados",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "NOMINA",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "ID",
+          "rawValueJson": "\"ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "NOMBRE",
+          "rawValueJson": "\"NOMBRE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 14,
+          "displayText": "PUESTO",
+          "rawValueJson": "\"PUESTO\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "displayText": " SALARIO ",
+          "rawValueJson": "\"SALARIO\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 2,
+          "column": 16,
+          "displayText": " DEPARTAMENTO ",
+          "rawValueJson": "\"DEPARTAMENTO\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 2,
+          "column": 17,
+          "displayText": "FECHA INGRESO",
+          "rawValueJson": "\"FECHA INGRESO\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 18,
+          "displayText": "DEDUCCIONES",
+          "rawValueJson": "\"DEDUCCIONES\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": "DAWSON ALEXANDRO BROWN MAGAÑA",
+          "rawValueJson": "\"DAWSON ALEXANDRO BROWN MAGAÑA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 14,
+          "displayText": "ADMINISTRADOR",
+          "rawValueJson": "\"ADMINISTRADOR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 15,
+          "displayText": " $7,500.00 ",
+          "rawValueJson": "7500",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 16,
+          "displayText": " ADMINISTRATIVO ",
+          "rawValueJson": "\"ADMINISTRATIVO\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 17,
+          "displayText": "1/1/2024",
+          "rawValueJson": "45292",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 18,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 13,
+          "displayText": "GABRIELA BOJORQUEZ BOJORQUEZ",
+          "rawValueJson": "\"GABRIELA BOJORQUEZ BOJORQUEZ\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 14,
+          "displayText": "AUXILIAR ADMINISTRATIVO",
+          "rawValueJson": "\"AUXILIAR ADMINISTRATIVO\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 15,
+          "displayText": " $2,000.00 ",
+          "rawValueJson": "2000",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 16,
+          "displayText": " ADMINISTRATIVO ",
+          "rawValueJson": "\"ADMINISTRATIVO\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 17,
+          "displayText": "1/1/2024",
+          "rawValueJson": "45292",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 18,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 13,
+          "displayText": "JAIRO MANUEL LOPEZ ESPINOZA",
+          "rawValueJson": "\"JAIRO MANUEL LOPEZ ESPINOZA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 14,
+          "displayText": "GERENTE DE PRODUCCION",
+          "rawValueJson": "\"GERENTE DE PRODUCCION\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 15,
+          "displayText": " $4,250.00 ",
+          "rawValueJson": "4250",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 16,
+          "displayText": " PRODUCCION ",
+          "rawValueJson": "\"PRODUCCION\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 17,
+          "displayText": "1/1/2024",
+          "rawValueJson": "45292",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 18,
+          "displayText": " $450.00 ",
+          "rawValueJson": "450",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 13,
+          "displayText": "GREGORIO COTA ESCOBAR",
+          "rawValueJson": "\"GREGORIO COTA ESCOBAR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 14,
+          "displayText": "TECNICO PARAMETRISTRA",
+          "rawValueJson": "\"TECNICO PARAMETRISTRA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 15,
+          "displayText": " $2,200.00 ",
+          "rawValueJson": "2200",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 16,
+          "displayText": " PRODUCCION ",
+          "rawValueJson": "\"PRODUCCION\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 17,
+          "displayText": "1/1/2024",
+          "rawValueJson": "45292",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 18,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 7,
+          "column": 12,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 13,
+          "displayText": "MARTIN PARRA",
+          "rawValueJson": "\"MARTIN PARRA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 14,
+          "displayText": "RESPONSABLE DE BOMBEO",
+          "rawValueJson": "\"RESPONSABLE DE BOMBEO\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 15,
+          "displayText": " $1,800.00 ",
+          "rawValueJson": "1800",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 7,
+          "column": 16,
+          "displayText": " PRODUCCION ",
+          "rawValueJson": "\"PRODUCCION\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 7,
+          "column": 17,
+          "displayText": "1/1/2024",
+          "rawValueJson": "45292",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 18,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "63b2f678-89f9-4b88-bb85-9d9510ac9c9c",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{00EF9D0F-07C4-4F60-9F2E-FAA7926BEBD4}",
+      "top": 1,
+      "left": 1,
+      "bottom": 48,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{00EF9D0F-07C4-4F60-9F2E-FAA7926BEBD4}",
+          "top": 1,
+          "bottom": 48,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"DATE\"",
+          "\"MONTH\"",
+          "\"WEEK\"",
+          "\"WORKER\"",
+          "\"DAILY WAGE\"",
+          "\"DAYS WORKED\"",
+          "\"DEDUCTIONS\"",
+          "\"ADDITIONS\"",
+          "\"TOTAL\"",
+          "\"DEBT\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "MONTH",
+            "rawValueJson": "\"MONTH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "WEEK",
+            "rawValueJson": "\"WEEK\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "WORKER",
+            "rawValueJson": "\"WORKER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": " DAILY WAGE ",
+            "rawValueJson": "\"DAILY WAGE\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "DAYS WORKED",
+            "rawValueJson": "\"DAYS WORKED\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": " DEDUCTIONS ",
+            "rawValueJson": "\"DEDUCTIONS\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": " ADDITIONS ",
+            "rawValueJson": "\"ADDITIONS\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": " TOTAL ",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": " DEBT ",
+            "rawValueJson": "\"DEBT\"",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1/6/2024",
+            "rawValueJson": "45297",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "DAWSON ALEXANDRO BROWN MAGAÑA",
+            "rawValueJson": "\"DAWSON ALEXANDRO BROWN MAGAÑA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": " $1,071.43 ",
+            "rawValueJson": "1071.428571428571",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": " $7,500.00 ",
+            "rawValueJson": "7500",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "1/6/2024",
+            "rawValueJson": "45297",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "GABRIELA BOJORQUEZ BOJORQUEZ",
+            "rawValueJson": "\"GABRIELA BOJORQUEZ BOJORQUEZ\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": " $285.71 ",
+            "rawValueJson": "285.7142857142857",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": " $2,000.00 ",
+            "rawValueJson": "2000",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "1/6/2024",
+            "rawValueJson": "45297",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "JAIRO MANUEL LOPEZ ESPINOZA",
+            "rawValueJson": "\"JAIRO MANUEL LOPEZ ESPINOZA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": " $542.86 ",
+            "rawValueJson": "542.8571428571429",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": " $3,800.00 ",
+            "rawValueJson": "3800",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "1/6/2024",
+            "rawValueJson": "45297",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "GREGORIO COTA ESCOBAR",
+            "rawValueJson": "\"GREGORIO COTA ESCOBAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": " $314.29 ",
+            "rawValueJson": "314.2857142857143",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": " $2,200.00 ",
+            "rawValueJson": "2200",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "1/6/2024",
+            "rawValueJson": "45297",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "MARTIN PARRA",
+            "rawValueJson": "\"MARTIN PARRA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": " $257.14 ",
+            "rawValueJson": "257.1428571428571",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": " $1,800.00 ",
+            "rawValueJson": "1800",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+          }
+        ]
+      }
+    ],
+    "tableName": "tblNomina",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "NOMINA",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "MONTH",
+          "rawValueJson": "\"MONTH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "WEEK",
+          "rawValueJson": "\"WEEK\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "WORKER",
+          "rawValueJson": "\"WORKER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": " DAILY WAGE ",
+          "rawValueJson": "\"DAILY WAGE\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "DAYS WORKED",
+          "rawValueJson": "\"DAYS WORKED\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": " DEDUCTIONS ",
+          "rawValueJson": "\"DEDUCTIONS\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": " ADDITIONS ",
+          "rawValueJson": "\"ADDITIONS\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": " TOTAL ",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": " DEBT ",
+          "rawValueJson": "\"DEBT\"",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1/6/2024",
+          "rawValueJson": "45297",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "DAWSON ALEXANDRO BROWN MAGAÑA",
+          "rawValueJson": "\"DAWSON ALEXANDRO BROWN MAGAÑA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": " $1,071.43 ",
+          "rawValueJson": "1071.428571428571",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": " $7,500.00 ",
+          "rawValueJson": "7500",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "1/6/2024",
+          "rawValueJson": "45297",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "GABRIELA BOJORQUEZ BOJORQUEZ",
+          "rawValueJson": "\"GABRIELA BOJORQUEZ BOJORQUEZ\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": " $285.71 ",
+          "rawValueJson": "285.7142857142857",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": " $2,000.00 ",
+          "rawValueJson": "2000",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "1/6/2024",
+          "rawValueJson": "45297",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "JAIRO MANUEL LOPEZ ESPINOZA",
+          "rawValueJson": "\"JAIRO MANUEL LOPEZ ESPINOZA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": " $542.86 ",
+          "rawValueJson": "542.8571428571429",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": " $3,800.00 ",
+          "rawValueJson": "3800",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "1/6/2024",
+          "rawValueJson": "45297",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "GREGORIO COTA ESCOBAR",
+          "rawValueJson": "\"GREGORIO COTA ESCOBAR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": " $314.29 ",
+          "rawValueJson": "314.2857142857143",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": " $2,200.00 ",
+          "rawValueJson": "2200",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "1/6/2024",
+          "rawValueJson": "45297",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "MARTIN PARRA",
+          "rawValueJson": "\"MARTIN PARRA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": " $257.14 ",
+          "rawValueJson": "257.1428571428571",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": " $1,800.00 ",
+          "rawValueJson": "1800",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_-$* #,##0.00_-;-$* #,##0.00_-;_-$* \"-\"??_-;_-@_-"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "22eac76d-27d4-4da0-bf27-b0b7a50eaf49",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,668 @@
+[
+  {
+    "range": {
+      "worksheetId": "{88A8F8BF-8CF6-4013-8EA7-A84FD396A49D}",
+      "top": 1,
+      "left": 1,
+      "bottom": 5,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{88A8F8BF-8CF6-4013-8EA7-A84FD396A49D}",
+          "top": 1,
+          "bottom": 5,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 4
+          }
+        ],
+        "headerNames": [
+          "\"Site\"",
+          "\"Start\"",
+          "\"End\"",
+          "\"Amount\"",
+          "44287",
+          "44317",
+          "44348",
+          "44378"
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Site",
+            "rawValueJson": "\"Site\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Start",
+            "rawValueJson": "\"Start\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "End",
+            "rawValueJson": "\"End\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Apr-21",
+            "rawValueJson": "44287",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "May-21",
+            "rawValueJson": "44317",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Jun-21",
+            "rawValueJson": "44348",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Jul-21",
+            "rawValueJson": "44378",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "A",
+            "rawValueJson": "\"A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Apr-21",
+            "rawValueJson": "44287",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Jun-21",
+            "rawValueJson": "44348",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "B",
+            "rawValueJson": "\"B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Apr-21",
+            "rawValueJson": "44287",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Jul-21",
+            "rawValueJson": "44378",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "200",
+            "rawValueJson": "200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "C",
+            "rawValueJson": "\"C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "May-21",
+            "rawValueJson": "44317",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Jul-21",
+            "rawValueJson": "44378",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "150",
+            "rawValueJson": "150",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "D",
+            "rawValueJson": "\"D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "May-21",
+            "rawValueJson": "44317",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Jun-21",
+            "rawValueJson": "44348",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{88A8F8BF-8CF6-4013-8EA7-A84FD396A49D}",
+          "top": 1,
+          "bottom": 5,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Site",
+            "rawValueJson": "\"Site\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Start",
+            "rawValueJson": "\"Start\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "End",
+            "rawValueJson": "\"End\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Apr-21",
+            "rawValueJson": "44287",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "May-21",
+            "rawValueJson": "44317",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "A",
+            "rawValueJson": "\"A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Apr-21",
+            "rawValueJson": "44287",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Jun-21",
+            "rawValueJson": "44348",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "B",
+            "rawValueJson": "\"B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Apr-21",
+            "rawValueJson": "44287",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Jul-21",
+            "rawValueJson": "44378",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "200",
+            "rawValueJson": "200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "C",
+            "rawValueJson": "\"C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "May-21",
+            "rawValueJson": "44317",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Jul-21",
+            "rawValueJson": "44378",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "150",
+            "rawValueJson": "150",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "D",
+            "rawValueJson": "\"D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "May-21",
+            "rawValueJson": "44317",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Jun-21",
+            "rawValueJson": "44348",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Site",
+          "rawValueJson": "\"Site\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Start",
+          "rawValueJson": "\"Start\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "End",
+          "rawValueJson": "\"End\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Apr-21",
+          "rawValueJson": "44287",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "May-21",
+          "rawValueJson": "44317",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Jun-21",
+          "rawValueJson": "44348",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Jul-21",
+          "rawValueJson": "44378",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "A",
+          "rawValueJson": "\"A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Apr-21",
+          "rawValueJson": "44287",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Jun-21",
+          "rawValueJson": "44348",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "B",
+          "rawValueJson": "\"B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Apr-21",
+          "rawValueJson": "44287",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Jul-21",
+          "rawValueJson": "44378",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "200",
+          "rawValueJson": "200",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "C",
+          "rawValueJson": "\"C\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "May-21",
+          "rawValueJson": "44317",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Jul-21",
+          "rawValueJson": "44378",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "150",
+          "rawValueJson": "150",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "D",
+          "rawValueJson": "\"D\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "May-21",
+          "rawValueJson": "44317",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Jun-21",
+          "rawValueJson": "44348",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "1cd1cefc-59d2-4c28-a8b8-3f253707c0f3",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

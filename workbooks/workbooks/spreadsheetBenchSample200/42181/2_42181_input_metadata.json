@@ -1,0 +1,417 @@
+[
+  {
+    "range": {
+      "worksheetId": "{86807CE5-5D8C-4014-A89A-1590A00B4378}",
+      "top": 3,
+      "left": 1,
+      "bottom": 12,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{86807CE5-5D8C-4014-A89A-1590A00B4378}",
+          "top": 3,
+          "bottom": 12,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          8,
+          9
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{86807CE5-5D8C-4014-A89A-1590A00B4378}",
+          "top": 3,
+          "bottom": 12,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 3,
+            "end": 5
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": true,
+    "boundaryConfidence": 0.7894736842105263,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "NAME",
+          "rawValueJson": "\"NAME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Base Unit",
+          "rawValueJson": "\"Base Unit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Notes",
+          "rawValueJson": "\"Notes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Doe, Jane",
+          "rawValueJson": "\"Doe, Jane\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "0"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "0",
+          "numberFormat": "$#,##0_);($#,##0);"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "Note (blah blah blah)",
+          "rawValueJson": "\"Note (blah blah blah)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Doe, John",
+          "rawValueJson": "\"Doe, John\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "0",
+          "numberFormat": "$#,##0_);($#,##0);"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "$#,##0_);($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "0",
+          "numberFormat": "$#,##0_);($#,##0);"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "1 Note",
+          "rawValueJson": "\"1 Note\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Do, Adeer",
+          "rawValueJson": "\"Do, Adeer\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "0",
+          "numberFormat": "$#,##0_);($#,##0);"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "$#,##0_);($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "0",
+          "numberFormat": "$#,##0_);($#,##0);"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "Re, Sunnie",
+          "rawValueJson": "\"Re, Sunnie\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "0"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "0",
+          "numberFormat": "$#,##0_);($#,##0);"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "displayText": "Note",
+          "rawValueJson": "\"Note\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "Mi, Aname",
+          "rawValueJson": "\"Mi, Aname\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "0"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "0",
+          "numberFormat": "$#,##0_);($#,##0);"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "$#,##0_);($#,##0)"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "0",
+          "numberFormat": "$#,##0_);($#,##0);"
+        },
+        {
+          "row": 8,
+          "column": 9,
+          "displayText": "2 Notes",
+          "rawValueJson": "\"2 Notes\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "0b242c52-34e9-4025-8973-3f7f54f45bb8",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

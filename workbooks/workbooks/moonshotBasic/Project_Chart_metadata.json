@@ -1,0 +1,783 @@
+[
+  {
+    "range": {
+      "worksheetId": "{C2466F05-8B45-4C79-B43F-D19DF8988BD0}",
+      "top": 1,
+      "left": 1,
+      "bottom": 121,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{C2466F05-8B45-4C79-B43F-D19DF8988BD0}",
+          "top": 1,
+          "bottom": 121,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 120
+          }
+        ],
+        "headerNames": [
+          "\"Task Name\"",
+          "\"Owner\"",
+          "\"Start Date\"",
+          "\"Duration (days)\"",
+          "\"End Date\"",
+          "\"Dependencies\"",
+          "\"Status\"",
+          "\"% Complete\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Task Name",
+            "rawValueJson": "\"Task Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Owner",
+            "rawValueJson": "\"Owner\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Start Date",
+            "rawValueJson": "\"Start Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Duration (days)",
+            "rawValueJson": "\"Duration (days)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "End Date",
+            "rawValueJson": "\"End Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Dependencies",
+            "rawValueJson": "\"Dependencies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Status",
+            "rawValueJson": "\"Status\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "% Complete",
+            "rawValueJson": "\"% Complete\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Task 1",
+            "rawValueJson": "\"Task 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Alice",
+            "rawValueJson": "\"Alice\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "2024-07-01",
+            "rawValueJson": "45474",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "2024-07-04",
+            "rawValueJson": "45477",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "100%",
+            "rawValueJson": "1",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Task 2",
+            "rawValueJson": "\"Task 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Bob",
+            "rawValueJson": "\"Bob\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "2024-07-02",
+            "rawValueJson": "45475",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "2024-07-08",
+            "rawValueJson": "45481",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Task 1",
+            "rawValueJson": "\"Task 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "100%",
+            "rawValueJson": "1",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Task 3",
+            "rawValueJson": "\"Task 3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Carol",
+            "rawValueJson": "\"Carol\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "2024-07-03",
+            "rawValueJson": "45476",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "2024-07-12",
+            "rawValueJson": "45485",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Task 2",
+            "rawValueJson": "\"Task 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "100%",
+            "rawValueJson": "1",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Task 4",
+            "rawValueJson": "\"Task 4\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Dave",
+            "rawValueJson": "\"Dave\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "2024-07-04",
+            "rawValueJson": "45477",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "2024-07-06",
+            "rawValueJson": "45479",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Task 3",
+            "rawValueJson": "\"Task 3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "100%",
+            "rawValueJson": "1",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Task 5",
+            "rawValueJson": "\"Task 5\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Eve",
+            "rawValueJson": "\"Eve\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "2024-07-05",
+            "rawValueJson": "45478",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "2024-07-10",
+            "rawValueJson": "45483",
+            "numberFormat": "yyyy-mm-dd"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Task 4",
+            "rawValueJson": "\"Task 4\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "Completed",
+            "rawValueJson": "\"Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "100%",
+            "rawValueJson": "1",
+            "numberFormat": "0%"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9806201550387597,
+    "sheetName": "GanttData",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Task Name",
+          "rawValueJson": "\"Task Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Owner",
+          "rawValueJson": "\"Owner\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Start Date",
+          "rawValueJson": "\"Start Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Duration (days)",
+          "rawValueJson": "\"Duration (days)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "End Date",
+          "rawValueJson": "\"End Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Dependencies",
+          "rawValueJson": "\"Dependencies\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Status",
+          "rawValueJson": "\"Status\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "% Complete",
+          "rawValueJson": "\"% Complete\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Task 1",
+          "rawValueJson": "\"Task 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Alice",
+          "rawValueJson": "\"Alice\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "2024-07-01",
+          "rawValueJson": "45474",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "2024-07-04",
+          "rawValueJson": "45477",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "100%",
+          "rawValueJson": "1",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Task 2",
+          "rawValueJson": "\"Task 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Bob",
+          "rawValueJson": "\"Bob\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "2024-07-02",
+          "rawValueJson": "45475",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "2024-07-08",
+          "rawValueJson": "45481",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Task 1",
+          "rawValueJson": "\"Task 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "100%",
+          "rawValueJson": "1",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Task 3",
+          "rawValueJson": "\"Task 3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Carol",
+          "rawValueJson": "\"Carol\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "2024-07-03",
+          "rawValueJson": "45476",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "2024-07-12",
+          "rawValueJson": "45485",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Task 2",
+          "rawValueJson": "\"Task 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "100%",
+          "rawValueJson": "1",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Task 4",
+          "rawValueJson": "\"Task 4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Dave",
+          "rawValueJson": "\"Dave\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "2024-07-04",
+          "rawValueJson": "45477",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "2024-07-06",
+          "rawValueJson": "45479",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Task 3",
+          "rawValueJson": "\"Task 3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "100%",
+          "rawValueJson": "1",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Task 5",
+          "rawValueJson": "\"Task 5\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Eve",
+          "rawValueJson": "\"Eve\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "2024-07-05",
+          "rawValueJson": "45478",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "2024-07-10",
+          "rawValueJson": "45483",
+          "numberFormat": "yyyy-mm-dd"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Task 4",
+          "rawValueJson": "\"Task 4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "Completed",
+          "rawValueJson": "\"Completed\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "100%",
+          "rawValueJson": "1",
+          "numberFormat": "0%"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "b8fa509a-50b8-433a-bed1-c0bfd2528cc6",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

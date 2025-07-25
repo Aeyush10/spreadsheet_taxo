@@ -1,0 +1,1211 @@
+[
+  {
+    "range": {
+      "worksheetId": "{52738CDF-4D91-41AB-9DD8-BFD02B6DCDB0}",
+      "top": 3,
+      "left": 1,
+      "bottom": 10,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{52738CDF-4D91-41AB-9DD8-BFD02B6DCDB0}",
+          "top": 3,
+          "bottom": 10,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ],
+        "headerNames": [
+          "\"Sub\"",
+          "\"Cost Code\"",
+          "\"Date Change requested from Sub\"",
+          "\"Date Pricing Received from Sub\"",
+          "\"Date CO sent back to Sub\"",
+          "\"Pass on to owner?\"",
+          "\"PCO #\"",
+          "\" Sub cost\"",
+          "\"Description\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Sub",
+            "rawValueJson": "\"Sub\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Cost Code",
+            "rawValueJson": "\"Cost Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Date Change requested from Sub",
+            "rawValueJson": "\"Date Change requested from Sub\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Date Pricing Received from Sub",
+            "rawValueJson": "\"Date Pricing Received from Sub\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Date CO sent back to Sub",
+            "rawValueJson": "\"Date CO sent back to Sub\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Pass on to owner?",
+            "rawValueJson": "\"Pass on to owner?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "PCO #",
+            "rawValueJson": "\"PCO #\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": " Sub cost",
+            "rawValueJson": "\" Sub cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Huff",
+            "rawValueJson": "\"Huff\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "03 05 00",
+            "rawValueJson": "\"03 05 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "8/1/2021",
+            "rawValueJson": "44409",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "8/10/2021",
+            "rawValueJson": "44418",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "8/11/2021",
+            "rawValueJson": "44419",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": " $1,400.00 ",
+            "rawValueJson": "1400",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Leo",
+            "rawValueJson": "\"Leo\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "04 21 13",
+            "rawValueJson": "\"04 21 13\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "8/20/2021",
+            "rawValueJson": "44428",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "9/2/2021",
+            "rawValueJson": "44441",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "9/3/2021",
+            "rawValueJson": "44442",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": " $985.00 ",
+            "rawValueJson": "985",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Smith",
+            "rawValueJson": "\"Smith\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "05 10 00",
+            "rawValueJson": "\"05 10 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "9/15/2021",
+            "rawValueJson": "44454",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "9/21/2021",
+            "rawValueJson": "44460",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "9/22/2021",
+            "rawValueJson": "44461",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": " $230.00 ",
+            "rawValueJson": "230",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "Aero",
+            "rawValueJson": "\"Aero\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "23 31 00",
+            "rawValueJson": "\"23 31 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "8/28/2021",
+            "rawValueJson": "44436",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "9/25/2021",
+            "rawValueJson": "44464",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "9/26/2021",
+            "rawValueJson": "44465",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": " $9,250.00 ",
+            "rawValueJson": "9250",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "Granite",
+            "rawValueJson": "\"Granite\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "22 01 00",
+            "rawValueJson": "\"22 01 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "9/28/2021",
+            "rawValueJson": "44467",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "10/8/2021",
+            "rawValueJson": "44477",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "10/9/2021",
+            "rawValueJson": "44478",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": " $3,500.00 ",
+            "rawValueJson": "3500",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{52738CDF-4D91-41AB-9DD8-BFD02B6DCDB0}",
+          "top": 3,
+          "bottom": 10,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 4
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Sub",
+            "rawValueJson": "\"Sub\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Cost Code",
+            "rawValueJson": "\"Cost Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Date Change requested from Sub",
+            "rawValueJson": "\"Date Change requested from Sub\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Date Pricing Received from Sub",
+            "rawValueJson": "\"Date Pricing Received from Sub\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Date CO sent back to Sub",
+            "rawValueJson": "\"Date CO sent back to Sub\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Pass on to owner?",
+            "rawValueJson": "\"Pass on to owner?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Huff",
+            "rawValueJson": "\"Huff\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "03 05 00",
+            "rawValueJson": "\"03 05 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "8/1/2021",
+            "rawValueJson": "44409",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "8/10/2021",
+            "rawValueJson": "44418",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "8/11/2021",
+            "rawValueJson": "44419",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Leo",
+            "rawValueJson": "\"Leo\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "04 21 13",
+            "rawValueJson": "\"04 21 13\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "8/20/2021",
+            "rawValueJson": "44428",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "9/2/2021",
+            "rawValueJson": "44441",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "9/3/2021",
+            "rawValueJson": "44442",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Smith",
+            "rawValueJson": "\"Smith\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "05 10 00",
+            "rawValueJson": "\"05 10 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "9/15/2021",
+            "rawValueJson": "44454",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "9/21/2021",
+            "rawValueJson": "44460",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "9/22/2021",
+            "rawValueJson": "44461",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "Aero",
+            "rawValueJson": "\"Aero\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "23 31 00",
+            "rawValueJson": "\"23 31 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "8/28/2021",
+            "rawValueJson": "44436",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "9/25/2021",
+            "rawValueJson": "44464",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "9/26/2021",
+            "rawValueJson": "44465",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "Granite",
+            "rawValueJson": "\"Granite\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "22 01 00",
+            "rawValueJson": "\"22 01 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "9/28/2021",
+            "rawValueJson": "44467",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "10/8/2021",
+            "rawValueJson": "44477",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "10/9/2021",
+            "rawValueJson": "44478",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "Hebert",
+            "rawValueJson": "\"Hebert\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "09 29 00",
+            "rawValueJson": "\"09 29 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "10/3/2021",
+            "rawValueJson": "44472",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "10/8/2021",
+            "rawValueJson": "44477",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "10/11/2021",
+            "rawValueJson": "44480",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "Pine",
+            "rawValueJson": "\"Pine\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "21 05 00",
+            "rawValueJson": "\"21 05 00\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "10/15/2021",
+            "rawValueJson": "44484",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "10/22/2021",
+            "rawValueJson": "44491",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "10/25/2021",
+            "rawValueJson": "44494",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "m/d/yyyy"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.8823529411764706,
+    "sheetName": "Sub CO's",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Sub",
+          "rawValueJson": "\"Sub\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Cost Code",
+          "rawValueJson": "\"Cost Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Date Change requested from Sub",
+          "rawValueJson": "\"Date Change requested from Sub\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Date Pricing Received from Sub",
+          "rawValueJson": "\"Date Pricing Received from Sub\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Date CO sent back to Sub",
+          "rawValueJson": "\"Date CO sent back to Sub\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Pass on to owner?",
+          "rawValueJson": "\"Pass on to owner?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "PCO #",
+          "rawValueJson": "\"PCO #\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": " Sub cost",
+          "rawValueJson": "\" Sub cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Huff",
+          "rawValueJson": "\"Huff\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "03 05 00",
+          "rawValueJson": "\"03 05 00\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "8/1/2021",
+          "rawValueJson": "44409",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "8/10/2021",
+          "rawValueJson": "44418",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "8/11/2021",
+          "rawValueJson": "44419",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": " $1,400.00 ",
+          "rawValueJson": "1400",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Leo",
+          "rawValueJson": "\"Leo\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "04 21 13",
+          "rawValueJson": "\"04 21 13\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "8/20/2021",
+          "rawValueJson": "44428",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "9/2/2021",
+          "rawValueJson": "44441",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "9/3/2021",
+          "rawValueJson": "44442",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": " $985.00 ",
+          "rawValueJson": "985",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Smith",
+          "rawValueJson": "\"Smith\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "05 10 00",
+          "rawValueJson": "\"05 10 00\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "9/15/2021",
+          "rawValueJson": "44454",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "9/21/2021",
+          "rawValueJson": "44460",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "9/22/2021",
+          "rawValueJson": "44461",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": " $230.00 ",
+          "rawValueJson": "230",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "Aero",
+          "rawValueJson": "\"Aero\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "23 31 00",
+          "rawValueJson": "\"23 31 00\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "8/28/2021",
+          "rawValueJson": "44436",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "9/25/2021",
+          "rawValueJson": "44464",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "9/26/2021",
+          "rawValueJson": "44465",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": " $9,250.00 ",
+          "rawValueJson": "9250",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "Granite",
+          "rawValueJson": "\"Granite\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "22 01 00",
+          "rawValueJson": "\"22 01 00\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "9/28/2021",
+          "rawValueJson": "44467",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "10/8/2021",
+          "rawValueJson": "44477",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "10/9/2021",
+          "rawValueJson": "44478",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": " $3,500.00 ",
+          "rawValueJson": "3500",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "256af37c-7bde-43e4-8471-8c34ba73cf0b",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

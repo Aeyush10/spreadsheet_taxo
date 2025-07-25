@@ -1,0 +1,1039 @@
+[
+  {
+    "range": {
+      "worksheetId": "{A6B459B3-9831-4AC2-82CC-F3C353615E00}",
+      "top": 1,
+      "left": 1,
+      "bottom": 5,
+      "right": 13
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{A6B459B3-9831-4AC2-82CC-F3C353615E00}",
+          "top": 1,
+          "bottom": 5,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 4
+          }
+        ],
+        "headerNames": [
+          "\"Item\"",
+          "\"Beginning Inventory\"",
+          "\"Beginnng Cost\"",
+          "\"PO-1\"",
+          "\"Cost\"",
+          "\"PO-2\"",
+          "\"Cost\"",
+          "\"PO-3\"",
+          "\"Cost\"",
+          "\"PO-4\"",
+          "\"Cost\"",
+          "\"Current Inv\"",
+          "\"Current Cost\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Item",
+            "rawValueJson": "\"Item\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Beginning Inventory",
+            "rawValueJson": "\"Beginning Inventory\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Beginnng Cost",
+            "rawValueJson": "\"Beginnng Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "PO-1",
+            "rawValueJson": "\"PO-1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Cost",
+            "rawValueJson": "\"Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "PO-2",
+            "rawValueJson": "\"PO-2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Cost",
+            "rawValueJson": "\"Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "PO-3",
+            "rawValueJson": "\"PO-3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Cost",
+            "rawValueJson": "\"Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "PO-4",
+            "rawValueJson": "\"PO-4\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "Cost",
+            "rawValueJson": "\"Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "Current Inv",
+            "rawValueJson": "\"Current Inv\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "Current Cost",
+            "rawValueJson": "\"Current Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "A",
+            "rawValueJson": "\"A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": " $2.50 ",
+            "rawValueJson": "2.5",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": " $3.00 ",
+            "rawValueJson": "3",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": " $4.00 ",
+            "rawValueJson": "4",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": " $3.83 ",
+            "rawValueJson": "3.833333333333333",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "B",
+            "rawValueJson": "\"B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": " $3.00 ",
+            "rawValueJson": "3",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": " $4.00 ",
+            "rawValueJson": "4",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": " $5.00 ",
+            "rawValueJson": "5",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": " $5.00 ",
+            "rawValueJson": "5",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "C",
+            "rawValueJson": "\"C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": " $12.00 ",
+            "rawValueJson": "12",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": " $15.00 ",
+            "rawValueJson": "15",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": " $11.00 ",
+            "rawValueJson": "11",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "D",
+            "rawValueJson": "\"D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": " $8.00 ",
+            "rawValueJson": "8",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": " $10.00 ",
+            "rawValueJson": "10",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "35",
+            "rawValueJson": "35",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{A6B459B3-9831-4AC2-82CC-F3C353615E00}",
+          "top": 1,
+          "bottom": 5,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 5,
+            "end": 6
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Item",
+            "rawValueJson": "\"Item\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Beginning Inventory",
+            "rawValueJson": "\"Beginning Inventory\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Beginnng Cost",
+            "rawValueJson": "\"Beginnng Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "PO-1",
+            "rawValueJson": "\"PO-1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Cost",
+            "rawValueJson": "\"Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "PO-2",
+            "rawValueJson": "\"PO-2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "A",
+            "rawValueJson": "\"A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": " $2.50 ",
+            "rawValueJson": "2.5",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": " $3.00 ",
+            "rawValueJson": "3",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "B",
+            "rawValueJson": "\"B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": " $3.00 ",
+            "rawValueJson": "3",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": " $4.00 ",
+            "rawValueJson": "4",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "C",
+            "rawValueJson": "\"C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": " $12.00 ",
+            "rawValueJson": "12",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "D",
+            "rawValueJson": "\"D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": " $8.00 ",
+            "rawValueJson": "8",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Item",
+          "rawValueJson": "\"Item\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Beginning Inventory",
+          "rawValueJson": "\"Beginning Inventory\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Beginnng Cost",
+          "rawValueJson": "\"Beginnng Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "PO-1",
+          "rawValueJson": "\"PO-1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Cost",
+          "rawValueJson": "\"Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "PO-2",
+          "rawValueJson": "\"PO-2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Cost",
+          "rawValueJson": "\"Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "PO-3",
+          "rawValueJson": "\"PO-3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Cost",
+          "rawValueJson": "\"Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "PO-4",
+          "rawValueJson": "\"PO-4\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "Cost",
+          "rawValueJson": "\"Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "Current Inv",
+          "rawValueJson": "\"Current Inv\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "Current Cost",
+          "rawValueJson": "\"Current Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "A",
+          "rawValueJson": "\"A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": " $2.50 ",
+          "rawValueJson": "2.5",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": " $3.00 ",
+          "rawValueJson": "3",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": " $4.00 ",
+          "rawValueJson": "4",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": " $3.83 ",
+          "rawValueJson": "3.833333333333333",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "B",
+          "rawValueJson": "\"B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": " $3.00 ",
+          "rawValueJson": "3",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": " $4.00 ",
+          "rawValueJson": "4",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": " $5.00 ",
+          "rawValueJson": "5",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": " $5.00 ",
+          "rawValueJson": "5",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "C",
+          "rawValueJson": "\"C\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "20",
+          "rawValueJson": "20",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": " $12.00 ",
+          "rawValueJson": "12",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": " $15.00 ",
+          "rawValueJson": "15",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": " $11.00 ",
+          "rawValueJson": "11",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "23",
+          "rawValueJson": "23",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "D",
+          "rawValueJson": "\"D\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "30",
+          "rawValueJson": "30",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": " $8.00 ",
+          "rawValueJson": "8",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": " $10.00 ",
+          "rawValueJson": "10",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "35",
+          "rawValueJson": "35",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ad6337bd-f849-4704-b326-67dbbd60085f",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

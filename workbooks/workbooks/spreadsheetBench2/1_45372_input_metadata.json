@@ -1,0 +1,767 @@
+[
+  {
+    "range": {
+      "worksheetId": "{2DFF919D-1554-4497-B0EF-5622CE6B46B0}",
+      "top": 1,
+      "left": 1,
+      "bottom": 15,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{2DFF919D-1554-4497-B0EF-5622CE6B46B0}",
+          "top": 1,
+          "bottom": 15,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          14
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 12
+          }
+        ],
+        "headerNames": [
+          "\"Time\"",
+          "\"Actual Value\"",
+          "\"Forecast Value\"",
+          "\"\"",
+          "\" Forecast VALUE\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Time",
+            "rawValueJson": "\"Time\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Actual Value",
+            "rawValueJson": "\"Actual Value\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Forecast Value",
+            "rawValueJson": "\"Forecast Value\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": " Forecast VALUE",
+            "rawValueJson": "\" Forecast VALUE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "8:00",
+            "rawValueJson": "0.333333333333333",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "8:15",
+            "rawValueJson": "0.34375",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "8:30",
+            "rawValueJson": "0.354166666666667",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "8:45",
+            "rawValueJson": "0.364583333333333",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "9:00",
+            "rawValueJson": "0.375",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "48",
+            "rawValueJson": "48",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{2DFF919D-1554-4497-B0EF-5622CE6B46B0}",
+          "top": 1,
+          "bottom": 15,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Time",
+            "rawValueJson": "\"Time\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Actual Value",
+            "rawValueJson": "\"Actual Value\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Forecast Value",
+            "rawValueJson": "\"Forecast Value\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": " Forecast VALUE",
+            "rawValueJson": "\" Forecast VALUE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "8:00",
+            "rawValueJson": "0.333333333333333",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "8:15",
+            "rawValueJson": "0.34375",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "8:30",
+            "rawValueJson": "0.354166666666667",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "8:45",
+            "rawValueJson": "0.364583333333333",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "9:00",
+            "rawValueJson": "0.375",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "48",
+            "rawValueJson": "48",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "9:15",
+            "rawValueJson": "0.385416666666667",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "79",
+            "rawValueJson": "79",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "9:30",
+            "rawValueJson": "0.395833333333333",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "9:45",
+            "rawValueJson": "0.40625",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "21",
+            "rawValueJson": "21",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "10:00",
+            "rawValueJson": "0.416666666666667",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "10:15",
+            "rawValueJson": "0.427083333333333",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "89",
+            "rawValueJson": "89",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "10:30",
+            "rawValueJson": "0.4375",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "41",
+            "rawValueJson": "41",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "41",
+            "rawValueJson": "41",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "10:45",
+            "rawValueJson": "0.447916666666667",
+            "numberFormat": "h:mm"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "Total",
+            "rawValueJson": "\"Total\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "316",
+            "rawValueJson": "316",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "232",
+            "rawValueJson": "232",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "233",
+            "rawValueJson": "233",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.65,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Time",
+          "rawValueJson": "\"Time\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Actual Value",
+          "rawValueJson": "\"Actual Value\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Forecast Value",
+          "rawValueJson": "\"Forecast Value\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": " Forecast VALUE",
+          "rawValueJson": "\" Forecast VALUE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "8:00",
+          "rawValueJson": "0.333333333333333",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "42",
+          "rawValueJson": "42",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "42",
+          "rawValueJson": "42",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "8:15",
+          "rawValueJson": "0.34375",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "45",
+          "rawValueJson": "45",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "45",
+          "rawValueJson": "45",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "8:30",
+          "rawValueJson": "0.354166666666667",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "45",
+          "rawValueJson": "45",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "45",
+          "rawValueJson": "45",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "8:45",
+          "rawValueJson": "0.364583333333333",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "24",
+          "rawValueJson": "24",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "9:00",
+          "rawValueJson": "0.375",
+          "numberFormat": "h:mm"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "48",
+          "rawValueJson": "48",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "d98730c9-1318-4097-ae47-cb15de533035",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

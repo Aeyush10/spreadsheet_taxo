@@ -1,0 +1,406 @@
+[
+  {
+    "range": {
+      "worksheetId": "{61398DA7-5C92-4891-B0FE-6E898318887D}",
+      "top": 1,
+      "left": 1,
+      "bottom": 24,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{61398DA7-5C92-4891-B0FE-6E898318887D}",
+          "top": 1,
+          "bottom": 24,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 23
+          }
+        ],
+        "headerNames": [
+          "\"Posting Date\"",
+          "\"Posting Time\"",
+          "\"Entry Type\"",
+          "\"Document No.\"",
+          "\"Item No.\"",
+          "\"Quantity\"",
+          "\"Bin Code\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Posting Date",
+          "rawValueJson": "\"Posting Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Posting Time",
+          "rawValueJson": "\"Posting Time\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Entry Type",
+          "rawValueJson": "\"Entry Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Document No.",
+          "rawValueJson": "\"Document No.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Item No.",
+          "rawValueJson": "\"Item No.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Quantity",
+          "rawValueJson": "\"Quantity\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Bin Code",
+          "rawValueJson": "\"Bin Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1/24/2023",
+          "rawValueJson": "44950",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "9:54:12",
+          "rawValueJson": "0.412638888888889",
+          "numberFormat": "h:mm:ss"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Take",
+          "rawValueJson": "\"Take\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "PWPT3365796",
+          "rawValueJson": "\"PWPT3365796\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "212-125-OR1",
+          "rawValueJson": "\"212-125-OR1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "BD026",
+          "rawValueJson": "\"BD026\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "1/24/2023",
+          "rawValueJson": "44950",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "9:55:38",
+          "rawValueJson": "0.413634259259259",
+          "numberFormat": "h:mm:ss"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Place",
+          "rawValueJson": "\"Place\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "PWPT3365800",
+          "rawValueJson": "\"PWPT3365800\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "212-125-OR0.5",
+          "rawValueJson": "\"212-125-OR0.5\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "BD026",
+          "rawValueJson": "\"BD026\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "1/24/2023",
+          "rawValueJson": "44950",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "9:57:58",
+          "rawValueJson": "0.41525462962963",
+          "numberFormat": "h:mm:ss"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Place",
+          "rawValueJson": "\"Place\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "PWPT3365807",
+          "rawValueJson": "\"PWPT3365807\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "212-125-WT1.5",
+          "rawValueJson": "\"212-125-WT1.5\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "BD026",
+          "rawValueJson": "\"BD026\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "1/24/2023",
+          "rawValueJson": "44950",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "10:00:38",
+          "rawValueJson": "0.417106481481481",
+          "numberFormat": "h:mm:ss"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Place",
+          "rawValueJson": "\"Place\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "PWPT3365813",
+          "rawValueJson": "\"PWPT3365813\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "212-125-BL3",
+          "rawValueJson": "\"212-125-BL3\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "BD026",
+          "rawValueJson": "\"BD026\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "1/24/2023",
+          "rawValueJson": "44950",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "10:02:40",
+          "rawValueJson": "0.418518518518519",
+          "numberFormat": "h:mm:ss"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Place",
+          "rawValueJson": "\"Place\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "PWPT3365817",
+          "rawValueJson": "\"PWPT3365817\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "TIE-V1625B",
+          "rawValueJson": "\"TIE-V1625B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "BD026",
+          "rawValueJson": "\"BD026\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "84c43b33-85fc-4441-9d35-836958588659",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

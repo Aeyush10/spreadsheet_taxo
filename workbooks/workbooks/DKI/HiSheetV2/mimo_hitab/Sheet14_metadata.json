@@ -1,0 +1,942 @@
+[
+  {
+    "range": {
+      "worksheetId": "{F299D119-638F-4BF4-B5B8-448212479D54}",
+      "top": 1,
+      "left": 1,
+      "bottom": 53,
+      "right": 11
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{F299D119-638F-4BF4-B5B8-448212479D54}",
+          "top": 1,
+          "bottom": 53,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 2,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 4
+              },
+              {
+                "top": 2,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 4
+              },
+              {
+                "top": 2,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 4
+              },
+              {
+                "top": 2,
+                "left": 6
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 52
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "序号",
+            "rawValueJson": "\"序号\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "姓名",
+            "rawValueJson": "\"姓名\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "性别",
+            "rawValueJson": "\"性别\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "原代课教师现户籍所在地",
+            "rawValueJson": "\"原代课教师现户籍所在地\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "出生年月\n\n(YYYY-\nMM)",
+            "rawValueJson": "\"出生年月\\n\\n(YYYY-\\nMM)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "原任教学校",
+            "rawValueJson": "\"原任教学校\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "核准工作\n年限(整\n数 )",
+            "rawValueJson": "\"核准工作\\n年限(整\\n数 )\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "物证材料",
+            "rawValueJson": "\"物证材料\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "证明人",
+            "rawValueJson": "\"证明人\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "市",
+            "rawValueJson": "\"市\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "县 ( 区 )",
+            "rawValueJson": "\"县 ( 区 )\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "乡 ( 镇 )",
+            "rawValueJson": "\"乡 ( 镇 )\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "660",
+            "rawValueJson": "660",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Liang Xueying",
+            "rawValueJson": "\"Liang Xueying\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Female",
+            "rawValueJson": "\"Female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Maoming City",
+            "rawValueJson": "\"Maoming City\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Huazhou City",
+            "rawValueJson": "\"Huazhou City\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Hejiang Town",
+            "rawValueJson": "\"Hejiang Town\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "1982-01",
+            "rawValueJson": "\"1982-01\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "Hejiang Town Tangken Primary School, Hejiang Town Jieshe Primary School",
+            "rawValueJson": "\"Hejiang Town Tangken Primary School, Hejiang Town Jieshe Primary School\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "Yes, incomplete",
+            "rawValueJson": "\"Yes, incomplete\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "Zhou Maoqiang, Huang Xianzhao, Li Yiying, Zhou Xiuguang, Liao Li",
+            "rawValueJson": "\"Zhou Maoqiang, Huang Xianzhao, Li Yiying, Zhou Xiuguang, Liao Li\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "661",
+            "rawValueJson": "661",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Zhou Guangying",
+            "rawValueJson": "\"Zhou Guangying\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Female",
+            "rawValueJson": "\"Female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Maoming City",
+            "rawValueJson": "\"Maoming City\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Huazhou City",
+            "rawValueJson": "\"Huazhou City\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Hejiang Town",
+            "rawValueJson": "\"Hejiang Town\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "1983-07",
+            "rawValueJson": "\"1983-07\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "Hejiang Town Jieshe Primary School, Hejiang Town Hengling Primary School",
+            "rawValueJson": "\"Hejiang Town Jieshe Primary School, Hejiang Town Hengling Primary School\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "Yes, incomplete",
+            "rawValueJson": "\"Yes, incomplete\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "Li Jiandao, Liao Lixia, Yuan Shengwen, Yuan Shengyou, Zou Pei",
+            "rawValueJson": "\"Li Jiandao, Liao Lixia, Yuan Shengwen, Yuan Shengyou, Zou Pei\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "662",
+            "rawValueJson": "662",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Huang Shihai",
+            "rawValueJson": "\"Huang Shihai\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Male",
+            "rawValueJson": "\"Male\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Maoming City",
+            "rawValueJson": "\"Maoming City\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Huazhou City",
+            "rawValueJson": "\"Huazhou City\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Hejiang Town",
+            "rawValueJson": "\"Hejiang Town\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "1974-03",
+            "rawValueJson": "\"1974-03\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "Hejiang Town Jieshe Primary School",
+            "rawValueJson": "\"Hejiang Town Jieshe Primary School\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "Yes, incomplete",
+            "rawValueJson": "\"Yes, incomplete\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "Zhou Xiuguang, Zhou Zikun, Liao Lixia",
+            "rawValueJson": "\"Zhou Xiuguang, Zhou Zikun, Liao Lixia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "663",
+            "rawValueJson": "663",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Zhao Xuemei",
+            "rawValueJson": "\"Zhao Xuemei\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Female",
+            "rawValueJson": "\"Female\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Maoming City",
+            "rawValueJson": "\"Maoming City\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Huazhou City",
+            "rawValueJson": "\"Huazhou City\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Hejiang Town",
+            "rawValueJson": "\"Hejiang Town\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "1984-06",
+            "rawValueJson": "\"1984-06\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "Hejiang Town Jieshe Primary School",
+            "rawValueJson": "\"Hejiang Town Jieshe Primary School\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "Yes, incomplete",
+            "rawValueJson": "\"Yes, incomplete\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "Liao Lixia, Yuan Shengwen, Yuan Wei",
+            "rawValueJson": "\"Liao Lixia, Yuan Shengwen, Yuan Wei\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": true,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet14",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "序号",
+          "rawValueJson": "\"序号\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "姓名",
+          "rawValueJson": "\"姓名\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "性别",
+          "rawValueJson": "\"性别\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "原代课教师现户籍所在地",
+          "rawValueJson": "\"原代课教师现户籍所在地\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "出生年月\n\n(YYYY-\nMM)",
+          "rawValueJson": "\"出生年月\\n\\n(YYYY-\\nMM)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "原任教学校",
+          "rawValueJson": "\"原任教学校\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "核准工作\n年限(整\n数 )",
+          "rawValueJson": "\"核准工作\\n年限(整\\n数 )\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "物证材料",
+          "rawValueJson": "\"物证材料\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "证明人",
+          "rawValueJson": "\"证明人\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "市",
+          "rawValueJson": "\"市\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "县 ( 区 )",
+          "rawValueJson": "\"县 ( 区 )\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "乡 ( 镇 )",
+          "rawValueJson": "\"乡 ( 镇 )\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "660",
+          "rawValueJson": "660",
+          "numberFormat": "0"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Liang Xueying",
+          "rawValueJson": "\"Liang Xueying\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Female",
+          "rawValueJson": "\"Female\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Maoming City",
+          "rawValueJson": "\"Maoming City\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Huazhou City",
+          "rawValueJson": "\"Huazhou City\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Hejiang Town",
+          "rawValueJson": "\"Hejiang Town\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "1982-01",
+          "rawValueJson": "\"1982-01\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "Hejiang Town Tangken Primary School, Hejiang Town Jieshe Primary School",
+          "rawValueJson": "\"Hejiang Town Tangken Primary School, Hejiang Town Jieshe Primary School\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "0"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "Yes, incomplete",
+          "rawValueJson": "\"Yes, incomplete\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "Zhou Maoqiang, Huang Xianzhao, Li Yiying, Zhou Xiuguang, Liao Li",
+          "rawValueJson": "\"Zhou Maoqiang, Huang Xianzhao, Li Yiying, Zhou Xiuguang, Liao Li\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "661",
+          "rawValueJson": "661",
+          "numberFormat": "0"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Zhou Guangying",
+          "rawValueJson": "\"Zhou Guangying\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Female",
+          "rawValueJson": "\"Female\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Maoming City",
+          "rawValueJson": "\"Maoming City\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Huazhou City",
+          "rawValueJson": "\"Huazhou City\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Hejiang Town",
+          "rawValueJson": "\"Hejiang Town\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "1983-07",
+          "rawValueJson": "\"1983-07\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "Hejiang Town Jieshe Primary School, Hejiang Town Hengling Primary School",
+          "rawValueJson": "\"Hejiang Town Jieshe Primary School, Hejiang Town Hengling Primary School\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "0"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "Yes, incomplete",
+          "rawValueJson": "\"Yes, incomplete\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "Li Jiandao, Liao Lixia, Yuan Shengwen, Yuan Shengyou, Zou Pei",
+          "rawValueJson": "\"Li Jiandao, Liao Lixia, Yuan Shengwen, Yuan Shengyou, Zou Pei\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "662",
+          "rawValueJson": "662",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Huang Shihai",
+          "rawValueJson": "\"Huang Shihai\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Male",
+          "rawValueJson": "\"Male\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Maoming City",
+          "rawValueJson": "\"Maoming City\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Huazhou City",
+          "rawValueJson": "\"Huazhou City\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Hejiang Town",
+          "rawValueJson": "\"Hejiang Town\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "1974-03",
+          "rawValueJson": "\"1974-03\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "Hejiang Town Jieshe Primary School",
+          "rawValueJson": "\"Hejiang Town Jieshe Primary School\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "Yes, incomplete",
+          "rawValueJson": "\"Yes, incomplete\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "Zhou Xiuguang, Zhou Zikun, Liao Lixia",
+          "rawValueJson": "\"Zhou Xiuguang, Zhou Zikun, Liao Lixia\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "663",
+          "rawValueJson": "663",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Zhao Xuemei",
+          "rawValueJson": "\"Zhao Xuemei\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Female",
+          "rawValueJson": "\"Female\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Maoming City",
+          "rawValueJson": "\"Maoming City\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Huazhou City",
+          "rawValueJson": "\"Huazhou City\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Hejiang Town",
+          "rawValueJson": "\"Hejiang Town\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "1984-06",
+          "rawValueJson": "\"1984-06\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "Hejiang Town Jieshe Primary School",
+          "rawValueJson": "\"Hejiang Town Jieshe Primary School\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "Yes, incomplete",
+          "rawValueJson": "\"Yes, incomplete\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "Liao Lixia, Yuan Shengwen, Yuan Wei",
+          "rawValueJson": "\"Liao Lixia, Yuan Shengwen, Yuan Wei\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "9400f2ba-e4b4-4bdb-b3f4-305f15903a69",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

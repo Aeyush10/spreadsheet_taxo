@@ -1,0 +1,661 @@
+[
+  {
+    "id": "003b7d3114349a0b1641c917159830d7068b8afe_path_1.xlsx",
+    "File": "003b7d3114349a0b1641c917159830d7068b8afe.xlsx",
+    "Size": 45,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me see how much power each appliance uses daily and the total power consumption? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Calculate the Amps/hr and Actual AH used for each appliance based on their power consumption and daily usage, and add wire color information for specific rows.",
+      "CoT_v3": "Add and calculate columns for power consumption metrics, and add and fill in columns for additional information.",
+      "Action_v4": "Calculate and display 'Amps/hr' and 'Actual AH used' for each appliance, add 'Wire Color' and 'Fall' columns, and update headers accordingly.",
+      "Intent_v5": "Help me see the power usage of each appliance and the total power used over time.",
+      "Referenced_v6": "I want to add new columns to show power consumption in different units, calculate actual usage, and include wire color information. Also, I need to summarize some seasonal usage data based on the selected range."
+    },
+    "Mappings": ["Calculated component:0", "Calculated component:2", "Calculated component:6"],
+    "Selected Cells": [
+      {
+        "sheet": "Power consumption",
+        "ranges": {
+          "Cells": ["D4:F12", "H12:H12", "H5:H9"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Power consumption",
+        "ranges": {
+          "Cells": ["E34:E34", "E36:E41", "E3:E12", "E23:E24", "E32:E32", "H3:H12", "K11:K12"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "003b7d3114349a0b1641c917159830d7068b8afe_path_2.xlsx",
+    "File": "003b7d3114349a0b1641c917159830d7068b8afe.xlsx",
+    "Size": 45,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you help me see how much power each appliance uses and how it impacts battery life in summer and winter? The power consumption data includes calculations for Amps/hr (Watts divided by 12), Actual AH used (Daily Usage multiplied by Amps/hr), and total summer and winter AH used. Fuse assignments and wire colors are also listed. Solar panel performance is calculated for summer and winter sun.",
+      "Baseline_v2": "Can you help me add columns for 'Watts', 'Amps/hr', and 'Actual AH used' to the power consumption table, and calculate the values for each appliance? Also, include total summer and winter usage calculations.",
+      "CoT_v3": "Transform the worksheet by adding and calculating new metrics, and populating additional columns.",
+      "Action_v4": "Add columns for Watts, Amps/hr, and Actual AH used, calculate these values, and summarize total power consumption for summer and winter.",
+      "Intent_v5": "Can you help me see how much power each appliance uses and the total usage in summer and winter?",
+      "Referenced_v6": "Can you help me organize this data to show the power consumption of each appliance, including their daily usage and total power used in summer and winter? Also, I need to see the solar panel performance and fuse assignments with wire colors."
+    },
+    "Mappings": [
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:2",
+      "Calculated component:5",
+      "Calculated component:0",
+      "Calculated component:2",
+      "Calculated component:4",
+      "Calculated component:8"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Power consumption",
+        "ranges": {
+          "Cells": ["C23:D24", "D4:F12", "H4:J12"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Power consumption",
+        "ranges": {
+          "Cells": ["D31:E32", "D22:E24", "D3:E12", "D19:D19", "E34:E34", "E36:E41", "H3:J12", "E27:E28"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "004b3f60cd0f0be9ed7313aca02e61d04381a45d_path_0.xlsx",
+    "File": "004b3f60cd0f0be9ed7313aca02e61d04381a45d.xlsx",
+    "Size": 39,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the prices of Maize and Mielies in different units and add some notes at the bottom? The Maize prices are calculated using the formula `=args_1*11.02` over the range D6:D31. The R/c per sak values are calculated using the formula `=args_1/10` over the range C12:C31. The source note 'Abstract of Agricultural Statistics' is added in cell D98. The update note 'Updated: 30 April 2021' is added in cell D101.",
+      "Baseline_v2": "Can you update the table to include a new column for 'Maize' with values calculated as 'Mielies' multiplied by 11.02, and also add a column for 'R/c per sak' with values calculated as 'Mielies' divided by 10?",
+      "CoT_v3": "Add columns for Maize and R/c per sak with calculated values, and update source information and last updated date.",
+      "Action_v4": "Add and calculate Maize prices, convert Mielies prices to R/c per sak, and update source information.",
+      "Intent_v5": "Can you show me the prices of Maize and Mielies in different units and include the source and update date?",
+      "Referenced_v6": "Can you add a new column for Maize and calculate its values based on the selected range, update the column headers to include 'R/c per sak' and 'Rand per ton', and include a note at the bottom about the source and the last update date?"
+    },
+    "Mappings": ["Calculated component:7", "Calculated component:3"],
+    "Selected Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["B12:C31", "C11:C11", "C6:C6"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["C12:D32", "C4:D6", "D11:D11", "D101:D101", "D98:D98"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "004b3f60cd0f0be9ed7313aca02e61d04381a45d_path_1.xlsx",
+    "File": "004b3f60cd0f0be9ed7313aca02e61d04381a45d.xlsx",
+    "Size": 39,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me see the prices of different crops over the years, including maize and yellow maize, and show the price per sack for some crops? The maize prices are calculated by multiplying the values in column C by 11.02 for the range E6:E31. The price per sack is calculated by dividing the values in column B by 10 for the range C12:C31.",
+      "Baseline_v2": "Can you update the table to include a new column for 'Maize' prices in 'Rand per ton' and convert the 'Mielies' prices from 'S/d per sak' to 'R/c per sak'?",
+      "CoT_v3": "Calculate values in columns E and C using the specified formulas.",
+      "Action_v4": "Convert prices to a consistent unit, add maize prices, and update headers.",
+      "Intent_v5": "Can you help me add labels and convert units to make the data clearer?",
+      "Referenced_v6": "Can you add new columns for Maize and Yellow Maize, and adjust the values in the selected range to show the correct units and calculations?"
+    },
+    "Mappings": ["Calculated component:7", "Calculated component:4"],
+    "Selected Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["B12:C31", "C6:C6", "C11:C11"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["C12:C31", "C5:C5", "E4:E6", "E31:E32", "E27:E27", "E16:E16", "E11:E11"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "004b3f60cd0f0be9ed7313aca02e61d04381a45d_path_2.xlsx",
+    "File": "004b3f60cd0f0be9ed7313aca02e61d04381a45d.xlsx",
+    "Size": 39,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you add a column showing prices per sack and another with adjusted prices? The values in the 'S/d per sak' column are divided by 10 to calculate 'R/c per sak' values in the range C12:C31. These values are then multiplied by 11.02 to get the adjusted prices in the range D12:E15.",
+      "Baseline_v2": "Transform the raw table by adding a new column 'R/c per sak' next to 'S/d per sak' and calculate its values by dividing the 'S/d per sak' values by 10. Additionally, calculate the values for the columns 'D' and 'E' for the years 1937/38 to 1940/41 by multiplying the 'S/d per sak' values by 11.02.",
+      "CoT_v3": "Add and calculate the 'R/c per sak' column, and calculate new values for columns 'D' and 'E'.",
+      "Action_v4": "Standardize data by adding a new column and converting values, then populate columns D and E based on the new column.",
+      "Intent_v5": "Can you add a new column with recalculated values and update some existing columns with new calculations?",
+      "Referenced_v6": "Can you add new columns next to the selected range to show the values divided by 10 and multiplied by 11.02?"
+    },
+    "Mappings": ["Calculated component:7", "Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["B12:C31"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["C12:E31", "C5:C5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "004b3f60cd0f0be9ed7313aca02e61d04381a45d_path_3.xlsx",
+    "File": "004b3f60cd0f0be9ed7313aca02e61d04381a45d.xlsx",
+    "Size": 39,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the prices in a different unit and how they relate to each other? The values in column C are calculated by dividing the values in column B by 10. The values in columns D and E are calculated by multiplying the values in column C by 11.02 for the range D17:E26.",
+      "Baseline_v2": "Convert the 'Marketing year' values in column B to 'R/c per sak' in column C by dividing by 10, and calculate the values in columns D and E by multiplying the corresponding values in columns B and C by 11.02.",
+      "CoT_v3": "Add and calculate 'R/c per sak' in column C, and compute values in columns D and E using =args_1*11.02.",
+      "Action_v4": "Add a new column with calculated values and update existing column values with new calculations.",
+      "Intent_v5": "Can you help me add a new column and calculate some new values based on the existing data?",
+      "Referenced_v6": "Can you add a new column to show the values in this column divided by 10 and calculate some additional values based on the selected range?"
+    },
+    "Mappings": ["Calculated component:7", "Calculated component:1"],
+    "Selected Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["B12:C31"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["C12:E31", "C5:C5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "004b3f60cd0f0be9ed7313aca02e61d04381a45d_path_4.xlsx",
+    "File": "004b3f60cd0f0be9ed7313aca02e61d04381a45d.xlsx",
+    "Size": 39,
+    "Path": "path_4",
+    "NL_generation": {
+      "Technical_v1": "Can you show the prices per sack next to the existing prices by dividing the current values by 10? The values in the 'S/d per sak' column (B12:B31) are divided by 10 to populate the new 'R/c per sak' column (C12:C31).",
+      "Baseline_v2": "Can you update the 'Marketing year' column in the 'Producer prices' table to include a new column 'R/c per sak' that is calculated by dividing the 'S/d per sak' values by 10?",
+      "CoT_v3": "Transform the data by adding new columns and calculating values based on given formulas.",
+      "Action_v4": "Add a column for values in column B divided by 10 and another for values in column C multiplied by 11.02.",
+      "Intent_v5": "Can you help me see the prices in a different unit and understand how they relate to each other?",
+      "Referenced_v6": "Can you add a new column next to the selected range and show the values in 'R/c per sak' by dividing the existing values by 10?"
+    },
+    "Mappings": ["Calculated component:7", "Calculated component:2"],
+    "Selected Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["B12:C31"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Rton",
+        "ranges": {
+          "Cells": ["C12:E31", "C5:C5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "005c4598ec3835864e2030e995fa327a5fd83c64_path_0.xlsx",
+    "File": "005c4598ec3835864e2030e995fa327a5fd83c64.xlsx",
+    "Size": 41,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me complete the company valuation by adding the missing details and calculations? Add 'Base' to cell B5. Copy the text 'Rate of Return used to Discount values: 4.0%' to cell B4. Calculate the total expenses by summing up values from B11 to B20 and place the result in B21 using the formula `=SUM(B11:B20)`. Calculate the company value by subtracting the total expenses (B21) from the gross profit (B9) and place the result in B22 using the formula `=B9-B21`.",
+      "Baseline_v2": "Calculate the total expenses and company value by summing up the individual expenses and subtracting the total expenses from the gross profit.",
+      "CoT_v3": "Compute and display the total expenses and company value.",
+      "Action_v4": "Calculate total expenses and compute company value.",
+      "Intent_v5": "Help me complete the financial summary by adding missing labels and calculating total expenses and company value.",
+      "Referenced_v6": "Can you help me complete this financial summary by adding a base rate, copying the discount rate, and calculating the total expenses and company value based on the selected range?"
+    },
+    "Mappings": ["Calculated component:0", "Calculated component:1"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["B11:B21", "B9:B9"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["B4:B5", "B21:B22"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "007de9300a6f817e3bf50ee32f592974066f7c22_path_0.xlsx",
+    "File": "007de9300a6f817e3bf50ee32f592974066f7c22.xlsx",
+    "Size": 23,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total discount price for each item and section over 4 years? The total discount prices for each item are calculated using the formula =IF(ISERROR(E*G*4),'This cell will autopopulate.',E*G*4) across ranges H4:H11, H12:H13, H17:H20. Section totals are summarized using =SUM(H11:H13) for each section, and the overall total is calculated using =SUM(H8,H14,H21).",
+      "Baseline_v2": "Please add a new column to the table that calculates the total discount price for 4 years for each item, and include the sum of these totals for each section and the overall total.",
+      "CoT_v3": "Add and calculate the 'Total Discount Price (4 Years)' column, and sum the totals for each section and overall.",
+      "Action_v4": "Add a column for total discount price over four years, calculate it for each item, and update total sections accordingly.",
+      "Intent_v5": "Can you show me the total discount price for each item and section over 4 years?",
+      "Referenced_v6": "Can you show me the total discount price for each item over 4 years and summarize the totals for each section and the entire workbook based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:0",
+      "Calculated component:1",
+      "Calculated component:2",
+      "Calculated component:3",
+      "Calculated component:4"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Appendix B - Response Workbook",
+        "ranges": {
+          "Cells": ["E4:E7", "G4:H8", "E11:E13", "G11:H14", "E17:E20", "G17:H21"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Appendix B - Response Workbook",
+        "ranges": {
+          "Cells": ["H3:H23"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d4b217d4935d1d3c7e31cc8253df936733b714_path_0.xlsx",
+    "File": "00d4b217d4935d1d3c7e31cc8253df936733b714.xlsx",
+    "Size": 30,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me a detailed cost breakdown for each year and the integration period? The total costs for each year (Year 1 to Year 5) and the integration period are calculated using the SUM formula. The costs are summed up for each section (e.g., Monthly Recurring Charges, Non-Recurring Charges, Maintenance & Support Services Fees, Cost of Implementation, Cost of Training, Cost of Other Services) and then aggregated to provide the overall total costs.",
+      "Baseline_v2": "Please consolidate the pricing information in the RFP Pricing Schedule by summarizing the total costs for each year and the pre-implementation period, and include the calculated total costs for each section and overall proposal.",
+      "CoT_v3": "Structure the pricing schedule with columns for costs and calculated totals.",
+      "Action_v4": "Organize the pricing information by adding columns for cost periods and comments, and calculate total costs for each year and section.",
+      "Intent_v5": "Can you show me a detailed cost breakdown over the years and the total cost of the proposal?",
+      "Referenced_v6": "Can you help me organize this pricing schedule to clearly show the total costs for each service and period, including a summary of all costs for each year?"
+    },
+    "Mappings": [
+      "Calculated component:1",
+      "Calculated component:3",
+      "Calculated component:7",
+      "Calculated component:6",
+      "Calculated component:2",
+      "Calculated component:9",
+      "Calculated component:10",
+      "Calculated component:8",
+      "Calculated component:4",
+      "Calculated component:5",
+      "Calculated component:0"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "RFP Pricing Schedule",
+        "ranges": {
+          "Cells": ["E29:J37", "E53:E60", "F7:J26", "E63:J69", "E40:J50", "E72:J78"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "RFP Pricing Schedule",
+        "ranges": {
+          "Cells": [
+            "E37:J37",
+            "B37:C37",
+            "B60:C60",
+            "E28:E28",
+            "B2:J4",
+            "E39:E39",
+            "E60:E60",
+            "E6:J6",
+            "E62:E62",
+            "E52:E52",
+            "E71:J71",
+            "F26:J26",
+            "E69:J69",
+            "E50:J50",
+            "B50:C50",
+            "E78:J78",
+            "B78:C78",
+            "B69:C69"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00ea7b2c65db912c28430e8a1fcb4c083b017363_path_0.xlsx",
+    "File": "00ea7b2c65db912c28430e8a1fcb4c083b017363.xlsx",
+    "Size": 14,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me organize and label the financial data to understand the company's financial status better? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Please add columns for 'Net Income', 'Dividends', 'Increase in retained earnings', 'External Funds Needed', and 'Increase in assets' to the first sheet, and ensure the values are correctly populated based on the existing data.",
+      "CoT_v3": "Update financial metrics and calculations in column D of Sheet 1.",
+      "Action_v4": "Organize and structure the financial data by adding key metrics, rearranging columns, and displaying calculated values for better financial analysis.",
+      "Intent_v5": "Can you add more financial details and make sure everything lines up correctly?",
+      "Referenced_v6": "Can you help me label and organize the financial data in this column to make it clearer and easier to analyze?"
+    },
+    "Mappings": ["Calculated component:2", "Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Example 1",
+        "ranges": {
+          "Cells": ["A6:A6", "A1:A1", "A8:A8", "D4:D4", "D11:D11"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Example 1",
+        "ranges": {
+          "Cells": ["D13:D16", "D11:D11", "D6:D9", "D1:D4"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0115a19bb27deb8e3dc510cbc59f182aaf234193_path_0.xlsx",
+    "File": "0115a19bb27deb8e3dc510cbc59f182aaf234193.xlsx",
+    "Size": 15,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the percentage of Direct and Indirect taxes in the Total Tax for each year? The Direct tax percentage is calculated using the formula `=C33/E33*100` for the range H33:H34. The Indirect tax percentage is calculated using the formula `=100-H33` for the range I33:I34.",
+      "Baseline_v2": "Transform the table by adding two new columns: 'Direct tax / Total Tax (%)' and 'Indirect tax / Total Tax (%)'. Calculate the values for 'Direct tax / Total Tax (%)' as the percentage of Direct Tax over Total Tax, and for 'Indirect tax / Total Tax (%)' as 100 minus the 'Direct tax / Total Tax (%)'.",
+      "CoT_v3": "Calculate Direct and Indirect tax percentages.",
+      "Action_v4": "Add columns for direct and indirect tax percentages relative to total tax.",
+      "Intent_v5": "Can you show me the percentage of direct and indirect taxes in the total tax revenue for each year?",
+      "Referenced_v6": "Can you show the percentage of Direct and Indirect taxes out of the Total Tax for the selected years?"
+    },
+    "Mappings": ["Calculated component:0", "Calculated component:2"],
+    "Selected Cells": [
+      {
+        "sheet": "3.02",
+        "ranges": {
+          "Cells": ["C33:C34", "E33:E34", "H33:H34"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "3.02",
+        "ranges": {
+          "Cells": ["H1:I4", "H33:I34"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0115a19bb27deb8e3dc510cbc59f182aaf234193_path_1.xlsx",
+    "File": "0115a19bb27deb8e3dc510cbc59f182aaf234193.xlsx",
+    "Size": 15,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the percentage of tax and non-tax revenue in the total revenue for each year? The formula for 'Total Tax / Total Revenue (%)' is calculated as (Total Tax / Total Revenue) * 100. The formula for 'Non tax / Total Revenue (%)' is calculated as 100 - (Total Tax / Total Revenue (%)).",
+      "Baseline_v2": "Generate a table that includes the percentage of Total Tax Revenue and Non-Tax Revenue relative to the Total Revenue for each year from 1990 to 2019.",
+      "CoT_v3": "Add columns for 'Total Tax / Total Revenue (%)' and 'Non tax / Total Revenue (%)' with calculations, and add source information at the bottom.",
+      "Action_v4": "Add columns for total tax revenue and non-tax revenue percentages relative to total revenue, and include source information at the bottom.",
+      "Intent_v5": "Can you show me the percentage of tax and non-tax revenue in total revenue for each year?",
+      "Referenced_v6": "Can you show the percentage of total tax and non-tax revenue compared to the total revenue for each year based on the selected range?"
+    },
+    "Mappings": ["Calculated component:1", "Calculated component:3"],
+    "Selected Cells": [
+      {
+        "sheet": "3.02",
+        "ranges": {
+          "Cells": ["E33:E34", "G33:G34", "J33:J34"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "3.02",
+        "ranges": {
+          "Cells": ["J1:K4", "J33:K36"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "018812f6941c08f7864a1172a4b043be4e2a6dc9_path_2.xlsx",
+    "File": "018812f6941c08f7864a1172a4b043be4e2a6dc9.xlsx",
+    "Size": 18,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you help me organize the quarterly fee calculations and make sure the fees are calculated correctly for each quarter? The formulas used include: `=IF(args_1<args_2,args_3,args_4)` for determining the total fee, `=SUM(args_1)` for summing up values, `=IF(args_1>args_2,args_3/1000*args_4, (args_5/1000*args_6))` for calculating fees based on gross receipts, `=IF(AND(args_1>args_2,args_3<=args_4),((args_5-args_6)/1000)*args_7,IF(args_8<args_9,0,((args_10-args_11)/1000)*args_12))` for detailed fee calculations, and `=IF(args_1>args_2,((args_3-args_4)/1000)*args_5,0)` for additional fee calculations.",
+      "Baseline_v2": "Please update the ISF Calculator to include quarterly fee calculations for the 1st, 3rd, and 4th quarters, with specific due dates and revenue periods, and ensure the fee calculations are displayed in separate columns for each quarter.",
+      "CoT_v3": "Add the title to all columns, due dates and quarter descriptions, total fee and quarter calculations, fee calculation formulas, and minimum amount due and description.",
+      "Action_v4": "Make the fee calculator more detailed by adding quarterly calculations, due dates, total fees, minimum fees, and detailed descriptions.",
+      "Intent_v5": "Help me see the due dates, total fees, and detailed calculations for each quarter.",
+      "Referenced_v6": "Can you help me organize this spreadsheet by adding headers for due dates and quarter reports, and calculating the total fees and minimum amounts due for each quarter based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:15",
+      "Calculated component:13",
+      "Calculated component:18",
+      "Calculated component:8",
+      "Calculated component:14",
+      "Calculated component:16",
+      "Calculated component:5",
+      "Calculated component:10",
+      "Calculated component:12",
+      "Calculated component:7",
+      "Calculated component:9",
+      "Calculated component:11",
+      "Calculated component:17",
+      "Calculated component:4",
+      "Calculated component:0"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "ISF Calculator",
+        "ranges": {
+          "Cells": ["B33:B43", "D33:E43", "G7:J7", "G33:J44", "B14:B24", "D14:E24", "G14:J25", "G27:H27", "I46:J46"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "ISF Calculator",
+        "ranges": {
+          "Cells": [
+            "F32:J44",
+            "A43:A43",
+            "A33:A33",
+            "F13:J25",
+            "G1:J3",
+            "I5:J6",
+            "A14:A14",
+            "G5:G6",
+            "A24:A24",
+            "B8:J8"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0198a65e2089a2b4fb43c03621dab4ba561b3888_path_1.xlsx",
+    "File": "0198a65e2089a2b4fb43c03621dab4ba561b3888.xlsx",
+    "Size": 46,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me figure out the total cost of chicken feed items, including taxes and discounts, and how much it costs per chicken each month? The cost price is calculated by multiplying the quantity by the per item cost. GST is calculated as 12.5% of the cost price. The cost plus GST is the sum of the cost price and GST. The discount is 5% of the cost plus GST. The final cost is the cost plus GST minus the discount. The cost per chicken per month is the final cost divided by 350.",
+      "Baseline_v2": "Can you update the 'ChickenFeed budget' sheet to include columns for cost price, GST, cost plus GST, discount, final cost, and cost per chicken per month, with the necessary calculations for each item?",
+      "CoT_v3": "Add and calculate new columns for Cost Price, GST, Cost plus GST, Discount, Final Cost, and Cost per Chicken per month in the ChickenFeed budget sheet.",
+      "Action_v4": "Calculate the total cost of chicken feed items, including GST and discounts, and determine the cost per chicken per month.",
+      "Intent_v5": "Can you help me see the total cost of chicken feed items with taxes and discounts, and the cost per chicken per month?",
+      "Referenced_v6": "Can you help me figure out the total cost of each chicken feed item, including taxes and discounts, and also show me how much it costs per chicken per month based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:0",
+      "Calculated component:1",
+      "Calculated component:2",
+      "Calculated component:3",
+      "Calculated component:4",
+      "Calculated component:5"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "ChickenFeed budget",
+        "ranges": {
+          "Cells": ["B4:H7"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "ChickenFeed budget",
+        "ranges": {
+          "Cells": ["D3:I7"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0198a65e2089a2b4fb43c03621dab4ba561b3888_path_2.xlsx",
+    "File": "0198a65e2089a2b4fb43c03621dab4ba561b3888.xlsx",
+    "Size": 46,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total cost of chicken feed items after adding taxes and applying discounts? The cost price is calculated by multiplying the quantity by the per item cost. GST is calculated as 12.5% of the cost price. Cost plus GST is the sum of the cost price and GST. Discount is calculated as 5% of the cost plus GST. Final cost is the cost plus GST minus the discount. The total cost is the sum of all final costs.",
+      "Baseline_v2": "Create a detailed cost analysis for each item in the 'ChickenFeed budget' sheet by calculating the cost price, adding GST, applying a 5% discount, and determining the final cost. Additionally, include a total cost summary at the bottom of the table.",
+      "CoT_v3": "Transform the ChickenFeed budget sheet to include calculated fields for Cost Price, GST, Cost plus GST, Discount, and Final Cost, and calculate the Total Cost.",
+      "Action_v4": "Calculate the total cost of chicken feed items, including GST and discounts, and identify the highest and lowest costs.",
+      "Intent_v5": "Can you show me the detailed cost breakdown for each item, including taxes and discounts, and the total cost for all items?",
+      "Referenced_v6": "I want to calculate the total cost for each chicken feed item, including taxes and discounts, and see the final cost for each item and the overall total based on the selected range."
+    },
+    "Mappings": [
+      "Calculated component:0",
+      "Calculated component:1",
+      "Calculated component:2",
+      "Calculated component:3",
+      "Calculated component:4",
+      "Calculated component:6"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "ChickenFeed budget",
+        "ranges": {
+          "Cells": ["B4:H7"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "ChickenFeed budget",
+        "ranges": {
+          "Cells": ["D3:H7", "E9:H9", "A9:B9"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0198a65e2089a2b4fb43c03621dab4ba561b3888_path_3.xlsx",
+    "File": "0198a65e2089a2b4fb43c03621dab4ba561b3888.xlsx",
+    "Size": 46,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total cost, including GST and discounts, for each item in the ChickenFeed budget? The cost price is calculated by multiplying the quantity by the per item cost. GST is calculated as 12.5% of the cost price. The cost plus GST is the sum of the cost price and GST. The discount is calculated as 5% of the cost plus GST. The average of the quantities and discounts is calculated using the AVERAGE function.",
+      "Baseline_v2": "Can you update the 'ChickenFeed budget' sheet to include columns for Cost Price, GST to add, Cost plus GST, and Discount 5% for each item, and calculate the average of the Quantity and Discount 5% columns?",
+      "CoT_v3": "Update the ChickenFeed budget sheet with Cost Price, GST, Cost plus GST, and Discount calculations, and compute the average of Quantity and Discount columns.",
+      "Action_v4": "Enhance the ChickenFeed budget sheet with cost, GST, and discount calculations, and compute averages for Quantity and Discount 5%.",
+      "Intent_v5": "Can you show me the total cost including GST and the discount for each item in the ChickenFeed budget?",
+      "Referenced_v6": "Can you update the 'ChickenFeed budget' sheet to show the total cost, including GST and discounts, for each item, and also calculate the average quantity and discount for the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:0",
+      "Calculated component:1",
+      "Calculated component:2",
+      "Calculated component:3",
+      "Calculated component:7"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "ChickenFeed budget",
+        "ranges": {
+          "Cells": ["B4:G7"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "ChickenFeed budget",
+        "ranges": {
+          "Cells": ["D3:G7", "C11:C11", "G11:G11", "A11:A11"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0198a65e2089a2b4fb43c03621dab4ba561b3888_path_5.xlsx",
+    "File": "0198a65e2089a2b4fb43c03621dab4ba561b3888.xlsx",
+    "Size": 46,
+    "Path": "path_5",
+    "NL_generation": {
+      "Technical_v1": "Can you help me figure out the total cost of chicken feed items, including taxes and discounts, and show me how each item contributes to the overall cost? The cost price is calculated by multiplying the quantity by the per item cost. GST is calculated as 12.5% of the cost price. Cost plus GST is the sum of the cost price and GST. Discount is calculated as 5% of the cost plus GST. Final cost is the cost plus GST minus the discount. A pie chart is created to show the portion of costs for each item.",
+      "Baseline_v2": "Add columns to calculate the cost price, GST, cost plus GST, discount, and final cost for each item in the 'ChickenFeed budget' sheet, and create a pie chart showing the portion of final costs.",
+      "CoT_v3": "Determine the final cost for each item and visualize the final costs with a pie chart titled 'Portion of Costs'.",
+      "Action_v4": "Calculate final costs for chicken feed items with GST and discounts, and create a pie chart to show cost distribution.",
+      "Intent_v5": "Help me see the total cost of chicken feed items with taxes and discounts, and show how the costs are distributed.",
+      "Referenced_v6": "Can you help me calculate the total cost for each chicken feed item, including GST and discounts, and then show me a pie chart of the cost distribution based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:0",
+      "Calculated component:1",
+      "Calculated component:2",
+      "Calculated component:3",
+      "Calculated component:4",
+      "ChickenFeed budget!CH-charts\\chart2.xml"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "ChickenFeed budget",
+        "ranges": {
+          "Cells": ["B4:H7"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "ChickenFeed budget",
+        "ranges": {
+          "Cells": ["D3:H7"],
+          "Charts": ["B14:F32"]
+        }
+      }
+    ]
+  }
+]

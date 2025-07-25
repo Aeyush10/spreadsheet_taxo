@@ -1,0 +1,4516 @@
+[
+  {
+    "range": {
+      "worksheetId": "{759C678B-FCD4-468B-84C3-36B2DAF4FA69}",
+      "top": 1,
+      "left": 1,
+      "bottom": 13,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{759C678B-FCD4-468B-84C3-36B2DAF4FA69}",
+          "top": 1,
+          "bottom": 13,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Campaign Owner\"",
+          "\"Campaign Name\"",
+          "\"Launch Date\"",
+          "\"Campaign Type\"",
+          "\"Budget\"",
+          "\"Revenue\"",
+          "\"Total Users Targeted\"",
+          "\"Engaged Users\"",
+          "\"RoI\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Campaign Owner",
+            "rawValueJson": "\"Campaign Owner\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Campaign Name",
+            "rawValueJson": "\"Campaign Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Launch Date",
+            "rawValueJson": "\"Launch Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Campaign Type",
+            "rawValueJson": "\"Campaign Type\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Budget",
+            "rawValueJson": "\"Budget\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Revenue",
+            "rawValueJson": "\"Revenue\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Total Users Targeted",
+            "rawValueJson": "\"Total Users Targeted\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Engaged Users",
+            "rawValueJson": "\"Engaged Users\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "RoI",
+            "rawValueJson": "\"RoI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Cartier, Christian",
+            "rawValueJson": "\"Cartier, Christian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "3-Jan",
+            "rawValueJson": "\"3-Jan\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Brand marketin",
+            "rawValueJson": "\"Brand marketin\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "$800 ",
+            "rawValueJson": "800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "$1,703 ",
+            "rawValueJson": "1703",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "2,500",
+            "rawValueJson": "2500",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "496",
+            "rawValueJson": "496",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "112.9%",
+            "rawValueJson": "1.12875",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Glazkov, Ilya",
+            "rawValueJson": "\"Glazkov, Ilya\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Product review 3x",
+            "rawValueJson": "\"Product review 3x\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "16-Jan",
+            "rawValueJson": "\"16-Jan\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Customer Experience",
+            "rawValueJson": "\"Customer Experience\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "$2,750 ",
+            "rawValueJson": "2750",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "$5,676 ",
+            "rawValueJson": "5676",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "35,000",
+            "rawValueJson": "35000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "5,418",
+            "rawValueJson": "5418",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "106.4%",
+            "rawValueJson": "1.064",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Lawson, Andre",
+            "rawValueJson": "\"Lawson, Andre\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Targeted - Group 1",
+            "rawValueJson": "\"Targeted - Group 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "26-Jan",
+            "rawValueJson": "\"26-Jan\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$5,800 ",
+            "rawValueJson": "5800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "$136 ",
+            "rawValueJson": "136",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "10,000",
+            "rawValueJson": "10000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "285",
+            "rawValueJson": "285",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "-97.7%",
+            "rawValueJson": "-0.976551724137931",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Halima, Yakubu",
+            "rawValueJson": "\"Halima, Yakubu\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Late Jan Email",
+            "rawValueJson": "\"Late Jan Email\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "27-Jan",
+            "rawValueJson": "\"27-Jan\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "$6,080 ",
+            "rawValueJson": "6080",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "4,205",
+            "rawValueJson": "4205",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "465",
+            "rawValueJson": "465",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "1116.0%",
+            "rawValueJson": "11.16",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Kovaleva, Anna",
+            "rawValueJson": "\"Kovaleva, Anna\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "29-Jan",
+            "rawValueJson": "\"29-Jan\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Brand marketing",
+            "rawValueJson": "\"Brand marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$250 ",
+            "rawValueJson": "250",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "$6,732 ",
+            "rawValueJson": "6732",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "2,000",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "500",
+            "rawValueJson": "500",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "2592.8%",
+            "rawValueJson": "25.928",
+            "numberFormat": "0.0%"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table4811",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Cop2",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Campaign Owner",
+          "rawValueJson": "\"Campaign Owner\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Campaign Name",
+          "rawValueJson": "\"Campaign Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Launch Date",
+          "rawValueJson": "\"Launch Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Campaign Type",
+          "rawValueJson": "\"Campaign Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Budget",
+          "rawValueJson": "\"Budget\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Revenue",
+          "rawValueJson": "\"Revenue\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Total Users Targeted",
+          "rawValueJson": "\"Total Users Targeted\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Engaged Users",
+          "rawValueJson": "\"Engaged Users\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "RoI",
+          "rawValueJson": "\"RoI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Cartier, Christian",
+          "rawValueJson": "\"Cartier, Christian\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "3-Jan",
+          "rawValueJson": "\"3-Jan\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Brand marketin",
+          "rawValueJson": "\"Brand marketin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "$800 ",
+          "rawValueJson": "800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "$1,703 ",
+          "rawValueJson": "1703",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "2,500",
+          "rawValueJson": "2500",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "496",
+          "rawValueJson": "496",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "112.9%",
+          "rawValueJson": "1.12875",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Glazkov, Ilya",
+          "rawValueJson": "\"Glazkov, Ilya\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Product review 3x",
+          "rawValueJson": "\"Product review 3x\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "16-Jan",
+          "rawValueJson": "\"16-Jan\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Customer Experience",
+          "rawValueJson": "\"Customer Experience\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "$2,750 ",
+          "rawValueJson": "2750",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "$5,676 ",
+          "rawValueJson": "5676",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "35,000",
+          "rawValueJson": "35000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "5,418",
+          "rawValueJson": "5418",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "106.4%",
+          "rawValueJson": "1.064",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Lawson, Andre",
+          "rawValueJson": "\"Lawson, Andre\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Targeted - Group 1",
+          "rawValueJson": "\"Targeted - Group 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "26-Jan",
+          "rawValueJson": "\"26-Jan\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "$5,800 ",
+          "rawValueJson": "5800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "$136 ",
+          "rawValueJson": "136",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "10,000",
+          "rawValueJson": "10000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "285",
+          "rawValueJson": "285",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "-97.7%",
+          "rawValueJson": "-0.976551724137931",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Halima, Yakubu",
+          "rawValueJson": "\"Halima, Yakubu\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Late Jan Email",
+          "rawValueJson": "\"Late Jan Email\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "27-Jan",
+          "rawValueJson": "\"27-Jan\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "$6,080 ",
+          "rawValueJson": "6080",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "4,205",
+          "rawValueJson": "4205",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "465",
+          "rawValueJson": "465",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "1116.0%",
+          "rawValueJson": "11.16",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Kovaleva, Anna",
+          "rawValueJson": "\"Kovaleva, Anna\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "29-Jan",
+          "rawValueJson": "\"29-Jan\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Brand marketing",
+          "rawValueJson": "\"Brand marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "$250 ",
+          "rawValueJson": "250",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "$6,732 ",
+          "rawValueJson": "6732",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "2,000",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "500",
+          "rawValueJson": "500",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "2592.8%",
+          "rawValueJson": "25.928",
+          "numberFormat": "0.0%"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "a3728835-696d-43bd-9213-99c83360aa19",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{F517DE70-DA17-4518-BDB9-954920327BC9}",
+      "top": 1,
+      "left": 1,
+      "bottom": 13,
+      "right": 11
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{F517DE70-DA17-4518-BDB9-954920327BC9}",
+          "top": 1,
+          "bottom": 13,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Campaign Owner\"",
+          "\"Campaign Name\"",
+          "\"Campaign Type\"",
+          "\"Budget\"",
+          "\"Revenue\"",
+          "\"Total Users Targeted\"",
+          "\"Engaged Users\"",
+          "\"RoI\"",
+          "\"Day\"",
+          "\"Month\"",
+          "\"Year\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Campaign Owner",
+            "rawValueJson": "\"Campaign Owner\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Campaign Name",
+            "rawValueJson": "\"Campaign Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Campaign Type",
+            "rawValueJson": "\"Campaign Type\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Budget",
+            "rawValueJson": "\"Budget\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Revenue",
+            "rawValueJson": "\"Revenue\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Total Users Targeted",
+            "rawValueJson": "\"Total Users Targeted\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Engaged Users",
+            "rawValueJson": "\"Engaged Users\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "RoI",
+            "rawValueJson": "\"RoI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Day",
+            "rawValueJson": "\"Day\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Month",
+            "rawValueJson": "\"Month\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "Year",
+            "rawValueJson": "\"Year\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Cartier, Christian",
+            "rawValueJson": "\"Cartier, Christian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Brand marketing",
+            "rawValueJson": "\"Brand marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "$800 ",
+            "rawValueJson": "800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "$8,703 ",
+            "rawValueJson": "8703",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "2,500",
+            "rawValueJson": "2500",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "496",
+            "rawValueJson": "496",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "987.9%",
+            "rawValueJson": "9.87875",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "2024",
+            "rawValueJson": "2024",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Glazkov, Ilya",
+            "rawValueJson": "\"Glazkov, Ilya\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Product review 3x",
+            "rawValueJson": "\"Product review 3x\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Customer Experience",
+            "rawValueJson": "\"Customer Experience\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "$2,750 ",
+            "rawValueJson": "2750",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "$5,676 ",
+            "rawValueJson": "5676",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "35,000",
+            "rawValueJson": "35000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "5,418",
+            "rawValueJson": "5418",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "106.4%",
+            "rawValueJson": "1.064",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "2024",
+            "rawValueJson": "2024",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Lawson, Andre",
+            "rawValueJson": "\"Lawson, Andre\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Targeted - Group 1",
+            "rawValueJson": "\"Targeted - Group 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "$5,800 ",
+            "rawValueJson": "5800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$136 ",
+            "rawValueJson": "136",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "10,000",
+            "rawValueJson": "10000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "285",
+            "rawValueJson": "285",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "-97.7%",
+            "rawValueJson": "-0.976551724137931",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "26",
+            "rawValueJson": "26",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "2024",
+            "rawValueJson": "2024",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Halima, Yakubu",
+            "rawValueJson": "\"Halima, Yakubu\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Late Jan Email",
+            "rawValueJson": "\"Late Jan Email\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$6,980 ",
+            "rawValueJson": "6980",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "4,205",
+            "rawValueJson": "4205",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "465",
+            "rawValueJson": "465",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "1296.0%",
+            "rawValueJson": "12.96",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "2024",
+            "rawValueJson": "2024",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Kovaleva, Anna",
+            "rawValueJson": "\"Kovaleva, Anna\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Brand marketing",
+            "rawValueJson": "\"Brand marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "$250 ",
+            "rawValueJson": "250",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$4,732 ",
+            "rawValueJson": "4732",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "2,000",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "500",
+            "rawValueJson": "500",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "1792.8%",
+            "rawValueJson": "17.928",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "29",
+            "rawValueJson": "29",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "2024",
+            "rawValueJson": "2024",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table481112131415",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Ex. 7-3",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Campaign Owner",
+          "rawValueJson": "\"Campaign Owner\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Campaign Name",
+          "rawValueJson": "\"Campaign Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Campaign Type",
+          "rawValueJson": "\"Campaign Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Budget",
+          "rawValueJson": "\"Budget\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Revenue",
+          "rawValueJson": "\"Revenue\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Total Users Targeted",
+          "rawValueJson": "\"Total Users Targeted\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Engaged Users",
+          "rawValueJson": "\"Engaged Users\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "RoI",
+          "rawValueJson": "\"RoI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Day",
+          "rawValueJson": "\"Day\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Month",
+          "rawValueJson": "\"Month\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "Year",
+          "rawValueJson": "\"Year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Cartier, Christian",
+          "rawValueJson": "\"Cartier, Christian\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Brand marketing",
+          "rawValueJson": "\"Brand marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "$800 ",
+          "rawValueJson": "800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "$8,703 ",
+          "rawValueJson": "8703",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "2,500",
+          "rawValueJson": "2500",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "496",
+          "rawValueJson": "496",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "987.9%",
+          "rawValueJson": "9.87875",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "2024",
+          "rawValueJson": "2024",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Glazkov, Ilya",
+          "rawValueJson": "\"Glazkov, Ilya\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Product review 3x",
+          "rawValueJson": "\"Product review 3x\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Customer Experience",
+          "rawValueJson": "\"Customer Experience\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "$2,750 ",
+          "rawValueJson": "2750",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "$5,676 ",
+          "rawValueJson": "5676",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "35,000",
+          "rawValueJson": "35000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "5,418",
+          "rawValueJson": "5418",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "106.4%",
+          "rawValueJson": "1.064",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "16",
+          "rawValueJson": "16",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "2024",
+          "rawValueJson": "2024",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Lawson, Andre",
+          "rawValueJson": "\"Lawson, Andre\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Targeted - Group 1",
+          "rawValueJson": "\"Targeted - Group 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "$5,800 ",
+          "rawValueJson": "5800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "$136 ",
+          "rawValueJson": "136",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "10,000",
+          "rawValueJson": "10000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "285",
+          "rawValueJson": "285",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "-97.7%",
+          "rawValueJson": "-0.976551724137931",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "26",
+          "rawValueJson": "26",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "2024",
+          "rawValueJson": "2024",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Halima, Yakubu",
+          "rawValueJson": "\"Halima, Yakubu\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Late Jan Email",
+          "rawValueJson": "\"Late Jan Email\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "$6,980 ",
+          "rawValueJson": "6980",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "4,205",
+          "rawValueJson": "4205",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "465",
+          "rawValueJson": "465",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "1296.0%",
+          "rawValueJson": "12.96",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "27",
+          "rawValueJson": "27",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "2024",
+          "rawValueJson": "2024",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Kovaleva, Anna",
+          "rawValueJson": "\"Kovaleva, Anna\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Brand marketing",
+          "rawValueJson": "\"Brand marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "$250 ",
+          "rawValueJson": "250",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "$4,732 ",
+          "rawValueJson": "4732",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "2,000",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "500",
+          "rawValueJson": "500",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "1792.8%",
+          "rawValueJson": "17.928",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "29",
+          "rawValueJson": "29",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "2024",
+          "rawValueJson": "2024",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "15fcc095-3bda-4572-a2cd-a1849fc1caf5",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{20177C4D-EA5E-4389-8227-2F9B589D8F5B}",
+      "top": 1,
+      "left": 1,
+      "bottom": 13,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{20177C4D-EA5E-4389-8227-2F9B589D8F5B}",
+          "top": 1,
+          "bottom": 13,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Campaign Owner\"",
+          "\"Campaign Name\"",
+          "\"Launch Date\"",
+          "\" Campaign Type\"",
+          "\"Budget\"",
+          "\"    Revenue\"",
+          "\"Total Users Targeted\"",
+          "\" Engaged Users\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Campaign Owner",
+            "rawValueJson": "\"Campaign Owner\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Campaign Name",
+            "rawValueJson": "\"Campaign Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Launch Date",
+            "rawValueJson": "\"Launch Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": " Campaign Type",
+            "rawValueJson": "\" Campaign Type\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Budget",
+            "rawValueJson": "\"Budget\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "    Revenue",
+            "rawValueJson": "\"    Revenue\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Total Users Targeted",
+            "rawValueJson": "\"Total Users Targeted\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": " Engaged Users",
+            "rawValueJson": "\" Engaged Users\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Cartier, Christian",
+            "rawValueJson": "\"Cartier, Christian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "3-Jan",
+            "rawValueJson": "45294",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Brand marketing",
+            "rawValueJson": "\"Brand marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "$800 ",
+            "rawValueJson": "800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "$8,703 ",
+            "rawValueJson": "8703",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "2,500",
+            "rawValueJson": "2500",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "496",
+            "rawValueJson": "496",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Glazkov, Ilya",
+            "rawValueJson": "\"Glazkov, Ilya\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Product review 3x",
+            "rawValueJson": "\"Product review 3x\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "16-Jan",
+            "rawValueJson": "45307",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Customer Experience",
+            "rawValueJson": "\"Customer Experience\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "$2,750 ",
+            "rawValueJson": "2750",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "$5,676 ",
+            "rawValueJson": "5676",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "35,000",
+            "rawValueJson": "35000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "5,418",
+            "rawValueJson": "5418",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Lawson, Andre",
+            "rawValueJson": "\"Lawson, Andre\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Targeted - Group 1",
+            "rawValueJson": "\"Targeted - Group 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "26-Jan",
+            "rawValueJson": "45317",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$5,800 ",
+            "rawValueJson": "5800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "$136 ",
+            "rawValueJson": "136",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "10,000",
+            "rawValueJson": "10000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "285",
+            "rawValueJson": "285",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Halima, Yakubu",
+            "rawValueJson": "\"Halima, Yakubu\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Late Jan Email",
+            "rawValueJson": "\"Late Jan Email\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "27-Jan",
+            "rawValueJson": "45318",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "$6,980 ",
+            "rawValueJson": "6980",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "4,205",
+            "rawValueJson": "4205",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "465",
+            "rawValueJson": "465",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Kovaleva, Anna",
+            "rawValueJson": "\"Kovaleva, Anna\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "29-Jan",
+            "rawValueJson": "45320",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Brand marketing",
+            "rawValueJson": "\"Brand marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$250 ",
+            "rawValueJson": "250",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "$4,732 ",
+            "rawValueJson": "4732",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "2,000",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "500",
+            "rawValueJson": "500",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table4",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Copilot",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Campaign Owner",
+          "rawValueJson": "\"Campaign Owner\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Campaign Name",
+          "rawValueJson": "\"Campaign Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Launch Date",
+          "rawValueJson": "\"Launch Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": " Campaign Type",
+          "rawValueJson": "\" Campaign Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Budget",
+          "rawValueJson": "\"Budget\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "    Revenue",
+          "rawValueJson": "\"    Revenue\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Total Users Targeted",
+          "rawValueJson": "\"Total Users Targeted\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": " Engaged Users",
+          "rawValueJson": "\" Engaged Users\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Cartier, Christian",
+          "rawValueJson": "\"Cartier, Christian\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "3-Jan",
+          "rawValueJson": "45294",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Brand marketing",
+          "rawValueJson": "\"Brand marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "$800 ",
+          "rawValueJson": "800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "$8,703 ",
+          "rawValueJson": "8703",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "2,500",
+          "rawValueJson": "2500",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "496",
+          "rawValueJson": "496",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Glazkov, Ilya",
+          "rawValueJson": "\"Glazkov, Ilya\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Product review 3x",
+          "rawValueJson": "\"Product review 3x\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "16-Jan",
+          "rawValueJson": "45307",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Customer Experience",
+          "rawValueJson": "\"Customer Experience\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "$2,750 ",
+          "rawValueJson": "2750",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "$5,676 ",
+          "rawValueJson": "5676",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "35,000",
+          "rawValueJson": "35000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "5,418",
+          "rawValueJson": "5418",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Lawson, Andre",
+          "rawValueJson": "\"Lawson, Andre\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Targeted - Group 1",
+          "rawValueJson": "\"Targeted - Group 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "26-Jan",
+          "rawValueJson": "45317",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "$5,800 ",
+          "rawValueJson": "5800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "$136 ",
+          "rawValueJson": "136",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "10,000",
+          "rawValueJson": "10000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "285",
+          "rawValueJson": "285",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Halima, Yakubu",
+          "rawValueJson": "\"Halima, Yakubu\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Late Jan Email",
+          "rawValueJson": "\"Late Jan Email\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "27-Jan",
+          "rawValueJson": "45318",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "$6,980 ",
+          "rawValueJson": "6980",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "4,205",
+          "rawValueJson": "4205",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "465",
+          "rawValueJson": "465",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Kovaleva, Anna",
+          "rawValueJson": "\"Kovaleva, Anna\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "29-Jan",
+          "rawValueJson": "45320",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Brand marketing",
+          "rawValueJson": "\"Brand marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "$250 ",
+          "rawValueJson": "250",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "$4,732 ",
+          "rawValueJson": "4732",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "2,000",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "500",
+          "rawValueJson": "500",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "67dcef14-669b-461f-b251-cb3f6b46a2b1",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{974C9A0A-11FC-4662-BFC1-8E1013C64631}",
+      "top": 1,
+      "left": 1,
+      "bottom": 13,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{974C9A0A-11FC-4662-BFC1-8E1013C64631}",
+          "top": 1,
+          "bottom": 13,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Campaign Owner\"",
+          "\"Campaign Name\"",
+          "\"Launch Date\"",
+          "\" Campaign Type\"",
+          "\"Budget\"",
+          "\"    Revenue\"",
+          "\"Total Users Targeted\"",
+          "\" Engaged Users\"",
+          "\"Engagement Rate\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Campaign Owner",
+            "rawValueJson": "\"Campaign Owner\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Campaign Name",
+            "rawValueJson": "\"Campaign Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Launch Date",
+            "rawValueJson": "\"Launch Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": " Campaign Type",
+            "rawValueJson": "\" Campaign Type\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Budget",
+            "rawValueJson": "\"Budget\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "    Revenue",
+            "rawValueJson": "\"    Revenue\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Total Users Targeted",
+            "rawValueJson": "\"Total Users Targeted\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": " Engaged Users",
+            "rawValueJson": "\" Engaged Users\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Engagement Rate",
+            "rawValueJson": "\"Engagement Rate\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Cartier, Christian",
+            "rawValueJson": "\"Cartier, Christian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "3-Jan",
+            "rawValueJson": "45294",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Brand marketing",
+            "rawValueJson": "\"Brand marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "$800 ",
+            "rawValueJson": "800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "$8,703 ",
+            "rawValueJson": "8703",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "2,500",
+            "rawValueJson": "2500",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "496",
+            "rawValueJson": "496",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "19.8%",
+            "rawValueJson": "0.1984",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Glazkov, Ilya",
+            "rawValueJson": "\"Glazkov, Ilya\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Product review 3x",
+            "rawValueJson": "\"Product review 3x\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "16-Jan",
+            "rawValueJson": "45307",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Customer Experience",
+            "rawValueJson": "\"Customer Experience\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "$2,750 ",
+            "rawValueJson": "2750",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "$5,676 ",
+            "rawValueJson": "5676",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "35,000",
+            "rawValueJson": "35000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "5,418",
+            "rawValueJson": "5418",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "15.5%",
+            "rawValueJson": "0.1548",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Lawson, Andre",
+            "rawValueJson": "\"Lawson, Andre\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Targeted - Group 1",
+            "rawValueJson": "\"Targeted - Group 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "26-Jan",
+            "rawValueJson": "45317",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$5,800 ",
+            "rawValueJson": "5800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "$136 ",
+            "rawValueJson": "136",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "10,000",
+            "rawValueJson": "10000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "285",
+            "rawValueJson": "285",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "2.9%",
+            "rawValueJson": "0.0285",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Halima, Yakubu",
+            "rawValueJson": "\"Halima, Yakubu\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Late Jan Email",
+            "rawValueJson": "\"Late Jan Email\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "27-Jan",
+            "rawValueJson": "45318",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "$6,980 ",
+            "rawValueJson": "6980",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "4,205",
+            "rawValueJson": "4205",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "465",
+            "rawValueJson": "465",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "11.1%",
+            "rawValueJson": "0.110582639714625",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Kovaleva, Anna",
+            "rawValueJson": "\"Kovaleva, Anna\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "29-Jan",
+            "rawValueJson": "45320",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Brand marketing",
+            "rawValueJson": "\"Brand marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$250 ",
+            "rawValueJson": "250",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "$4,732 ",
+            "rawValueJson": "4732",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "2,000",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "500",
+            "rawValueJson": "500",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "25.0%",
+            "rawValueJson": "0.25",
+            "numberFormat": "0.0%"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table426",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Copilot (2)",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Campaign Owner",
+          "rawValueJson": "\"Campaign Owner\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Campaign Name",
+          "rawValueJson": "\"Campaign Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Launch Date",
+          "rawValueJson": "\"Launch Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": " Campaign Type",
+          "rawValueJson": "\" Campaign Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Budget",
+          "rawValueJson": "\"Budget\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "    Revenue",
+          "rawValueJson": "\"    Revenue\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Total Users Targeted",
+          "rawValueJson": "\"Total Users Targeted\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": " Engaged Users",
+          "rawValueJson": "\" Engaged Users\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Engagement Rate",
+          "rawValueJson": "\"Engagement Rate\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Cartier, Christian",
+          "rawValueJson": "\"Cartier, Christian\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "3-Jan",
+          "rawValueJson": "45294",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Brand marketing",
+          "rawValueJson": "\"Brand marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "$800 ",
+          "rawValueJson": "800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "$8,703 ",
+          "rawValueJson": "8703",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "2,500",
+          "rawValueJson": "2500",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "496",
+          "rawValueJson": "496",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "19.8%",
+          "rawValueJson": "0.1984",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Glazkov, Ilya",
+          "rawValueJson": "\"Glazkov, Ilya\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Product review 3x",
+          "rawValueJson": "\"Product review 3x\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "16-Jan",
+          "rawValueJson": "45307",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Customer Experience",
+          "rawValueJson": "\"Customer Experience\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "$2,750 ",
+          "rawValueJson": "2750",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "$5,676 ",
+          "rawValueJson": "5676",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "35,000",
+          "rawValueJson": "35000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "5,418",
+          "rawValueJson": "5418",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "15.5%",
+          "rawValueJson": "0.1548",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Lawson, Andre",
+          "rawValueJson": "\"Lawson, Andre\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Targeted - Group 1",
+          "rawValueJson": "\"Targeted - Group 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "26-Jan",
+          "rawValueJson": "45317",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "$5,800 ",
+          "rawValueJson": "5800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "$136 ",
+          "rawValueJson": "136",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "10,000",
+          "rawValueJson": "10000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "285",
+          "rawValueJson": "285",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "2.9%",
+          "rawValueJson": "0.0285",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Halima, Yakubu",
+          "rawValueJson": "\"Halima, Yakubu\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Late Jan Email",
+          "rawValueJson": "\"Late Jan Email\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "27-Jan",
+          "rawValueJson": "45318",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "$6,980 ",
+          "rawValueJson": "6980",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "4,205",
+          "rawValueJson": "4205",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "465",
+          "rawValueJson": "465",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "11.1%",
+          "rawValueJson": "0.110582639714625",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Kovaleva, Anna",
+          "rawValueJson": "\"Kovaleva, Anna\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "29-Jan",
+          "rawValueJson": "45320",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Brand marketing",
+          "rawValueJson": "\"Brand marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "$250 ",
+          "rawValueJson": "250",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "$4,732 ",
+          "rawValueJson": "4732",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "2,000",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "500",
+          "rawValueJson": "500",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "25.0%",
+          "rawValueJson": "0.25",
+          "numberFormat": "0.0%"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "0e816062-359a-4b0b-adfc-5515853cecd2",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{B423BC36-3F81-46C9-9177-1783B494CBA0}",
+      "top": 1,
+      "left": 1,
+      "bottom": 13,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{B423BC36-3F81-46C9-9177-1783B494CBA0}",
+          "top": 1,
+          "bottom": 13,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Campaign Owner\"",
+          "\"Campaign Name\"",
+          "\"Launch Date\"",
+          "\"Campaign Type\"",
+          "\"Budget\"",
+          "\"Revenue\"",
+          "\"Total Users Targeted\"",
+          "\"Engaged Users\"",
+          "\"RoI\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Campaign Owner",
+            "rawValueJson": "\"Campaign Owner\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Campaign Name",
+            "rawValueJson": "\"Campaign Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Launch Date",
+            "rawValueJson": "\"Launch Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Campaign Type",
+            "rawValueJson": "\"Campaign Type\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Budget",
+            "rawValueJson": "\"Budget\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Revenue",
+            "rawValueJson": "\"Revenue\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Total Users Targeted",
+            "rawValueJson": "\"Total Users Targeted\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Engaged Users",
+            "rawValueJson": "\"Engaged Users\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "RoI",
+            "rawValueJson": "\"RoI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Cartier, Christian",
+            "rawValueJson": "\"Cartier, Christian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "3-Jan",
+            "rawValueJson": "45294",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Brand marketing",
+            "rawValueJson": "\"Brand marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "$800 ",
+            "rawValueJson": "800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "$8,703 ",
+            "rawValueJson": "8703",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "2,500",
+            "rawValueJson": "2500",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "496",
+            "rawValueJson": "496",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "987.9%",
+            "rawValueJson": "9.87875",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Glazkov, Ilya",
+            "rawValueJson": "\"Glazkov, Ilya\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Product review 3x",
+            "rawValueJson": "\"Product review 3x\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "16-Jan",
+            "rawValueJson": "45307",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Customer Experience",
+            "rawValueJson": "\"Customer Experience\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "$2,750 ",
+            "rawValueJson": "2750",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "$5,676 ",
+            "rawValueJson": "5676",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "35,000",
+            "rawValueJson": "35000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "5,418",
+            "rawValueJson": "5418",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "106.4%",
+            "rawValueJson": "1.064",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Lawson, Andre",
+            "rawValueJson": "\"Lawson, Andre\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Targeted - Group 1",
+            "rawValueJson": "\"Targeted - Group 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "26-Jan",
+            "rawValueJson": "45317",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$5,800 ",
+            "rawValueJson": "5800",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "$136 ",
+            "rawValueJson": "136",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "10,000",
+            "rawValueJson": "10000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "285",
+            "rawValueJson": "285",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "-97.7%",
+            "rawValueJson": "-0.976551724137931",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Halima, Yakubu",
+            "rawValueJson": "\"Halima, Yakubu\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Late Jan Email",
+            "rawValueJson": "\"Late Jan Email\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "27-Jan",
+            "rawValueJson": "45318",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Digital marketing",
+            "rawValueJson": "\"Digital marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "$6,980 ",
+            "rawValueJson": "6980",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "4,205",
+            "rawValueJson": "4205",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "465",
+            "rawValueJson": "465",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "1296.0%",
+            "rawValueJson": "12.96",
+            "numberFormat": "0.0%"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Kovaleva, Anna",
+            "rawValueJson": "\"Kovaleva, Anna\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Billboards small",
+            "rawValueJson": "\"Billboards small\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "29-Jan",
+            "rawValueJson": "45320",
+            "numberFormat": "d-mmm"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Brand marketing",
+            "rawValueJson": "\"Brand marketing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$250 ",
+            "rawValueJson": "250",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "$4,732 ",
+            "rawValueJson": "4732",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "2,000",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "500",
+            "rawValueJson": "500",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "1792.8%",
+            "rawValueJson": "17.928",
+            "numberFormat": "0.0%"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table481112",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Cop3",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Campaign Owner",
+          "rawValueJson": "\"Campaign Owner\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Campaign Name",
+          "rawValueJson": "\"Campaign Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Launch Date",
+          "rawValueJson": "\"Launch Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Campaign Type",
+          "rawValueJson": "\"Campaign Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Budget",
+          "rawValueJson": "\"Budget\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Revenue",
+          "rawValueJson": "\"Revenue\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Total Users Targeted",
+          "rawValueJson": "\"Total Users Targeted\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Engaged Users",
+          "rawValueJson": "\"Engaged Users\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "RoI",
+          "rawValueJson": "\"RoI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Cartier, Christian",
+          "rawValueJson": "\"Cartier, Christian\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "3-Jan",
+          "rawValueJson": "45294",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Brand marketing",
+          "rawValueJson": "\"Brand marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "$800 ",
+          "rawValueJson": "800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "$8,703 ",
+          "rawValueJson": "8703",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "2,500",
+          "rawValueJson": "2500",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "496",
+          "rawValueJson": "496",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "987.9%",
+          "rawValueJson": "9.87875",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Glazkov, Ilya",
+          "rawValueJson": "\"Glazkov, Ilya\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Product review 3x",
+          "rawValueJson": "\"Product review 3x\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "16-Jan",
+          "rawValueJson": "45307",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Customer Experience",
+          "rawValueJson": "\"Customer Experience\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "$2,750 ",
+          "rawValueJson": "2750",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "$5,676 ",
+          "rawValueJson": "5676",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "35,000",
+          "rawValueJson": "35000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "5,418",
+          "rawValueJson": "5418",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "106.4%",
+          "rawValueJson": "1.064",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Lawson, Andre",
+          "rawValueJson": "\"Lawson, Andre\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Targeted - Group 1",
+          "rawValueJson": "\"Targeted - Group 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "26-Jan",
+          "rawValueJson": "45317",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "$5,800 ",
+          "rawValueJson": "5800",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "$136 ",
+          "rawValueJson": "136",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "10,000",
+          "rawValueJson": "10000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "285",
+          "rawValueJson": "285",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "-97.7%",
+          "rawValueJson": "-0.976551724137931",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Halima, Yakubu",
+          "rawValueJson": "\"Halima, Yakubu\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Late Jan Email",
+          "rawValueJson": "\"Late Jan Email\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "27-Jan",
+          "rawValueJson": "45318",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Digital marketing",
+          "rawValueJson": "\"Digital marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "$6,980 ",
+          "rawValueJson": "6980",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "4,205",
+          "rawValueJson": "4205",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "465",
+          "rawValueJson": "465",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "1296.0%",
+          "rawValueJson": "12.96",
+          "numberFormat": "0.0%"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Kovaleva, Anna",
+          "rawValueJson": "\"Kovaleva, Anna\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Billboards small",
+          "rawValueJson": "\"Billboards small\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "29-Jan",
+          "rawValueJson": "45320",
+          "numberFormat": "d-mmm"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Brand marketing",
+          "rawValueJson": "\"Brand marketing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "$250 ",
+          "rawValueJson": "250",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "$4,732 ",
+          "rawValueJson": "4732",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "2,000",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "500",
+          "rawValueJson": "500",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "1792.8%",
+          "rawValueJson": "17.928",
+          "numberFormat": "0.0%"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ea38f2ed-5aba-45da-afef-58305e8ea87f",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

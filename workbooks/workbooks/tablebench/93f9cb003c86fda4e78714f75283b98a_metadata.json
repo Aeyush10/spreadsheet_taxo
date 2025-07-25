@@ -1,0 +1,675 @@
+[
+  {
+    "range": {
+      "worksheetId": "{D858F20A-30FE-448F-90F3-D3E9517C416E}",
+      "top": 1,
+      "left": 1,
+      "bottom": 20,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{D858F20A-30FE-448F-90F3-D3E9517C416E}",
+          "top": 1,
+          "bottom": 20,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["average"],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 19
+          }
+        ],
+        "headerNames": [
+          "\"date\"",
+          "\"origin time\"",
+          "\"epicentre (lat , s)\"",
+          "\"epicentre (long , e)\"",
+          "\"local magnitude\"",
+          "\"location\""
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{D858F20A-30FE-448F-90F3-D3E9517C416E}",
+          "top": 1,
+          "bottom": 20,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 2,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 1
+              },
+              {
+                "top": 1,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 1
+              },
+              {
+                "top": 2,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 1
+              },
+              {
+                "top": 8,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 1
+              },
+              {
+                "top": 9,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 1
+              },
+              {
+                "top": 10,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 1
+              },
+              {
+                "top": 11,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 1
+              },
+              {
+                "top": 12,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 1
+              },
+              {
+                "top": 13,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 1
+              },
+              {
+                "top": 14,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 1
+              },
+              {
+                "top": 15,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 1
+              },
+              {
+                "top": 16,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 1
+              },
+              {
+                "top": 17,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 18,
+                "left": 1
+              },
+              {
+                "top": 18,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 19,
+                "left": 1
+              },
+              {
+                "top": 19,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": ["sum"],
+            "headerReferences": [
+              {
+                "top": 20,
+                "left": 1
+              },
+              {
+                "top": 20,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 3
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "date",
+          "rawValueJson": "\"date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "origin time",
+          "rawValueJson": "\"origin time\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "epicentre (lat , s)",
+          "rawValueJson": "\"epicentre (lat , s)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "epicentre (long , e)",
+          "rawValueJson": "\"epicentre (long , e)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "local magnitude",
+          "rawValueJson": "\"local magnitude\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "location",
+          "rawValueJson": "\"location\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "8 february 1920",
+          "rawValueJson": "\"8 february 1920\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "05:24",
+          "rawValueJson": "\"05:24\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "35",
+          "rawValueJson": "35",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "111",
+          "rawValueJson": "111",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "6.2",
+          "rawValueJson": "6.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "260 km south west of cape leeuwin",
+          "rawValueJson": "\"260 km south west of cape leeuwin\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "18 december 1940",
+          "rawValueJson": "\"18 december 1940\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "21:45",
+          "rawValueJson": "\"21:45\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "32.2",
+          "rawValueJson": "32.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "117.2",
+          "rawValueJson": "117.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "4.2",
+          "rawValueJson": "4.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "beverley , brookton",
+          "rawValueJson": "\"beverley , brookton\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "19 april 1946",
+          "rawValueJson": "\"19 april 1946\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "21:13",
+          "rawValueJson": "\"21:13\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "38.5",
+          "rawValueJson": "38.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "114.5",
+          "rawValueJson": "114.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "5.7",
+          "rawValueJson": "5.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "west of yallingup",
+          "rawValueJson": "\"west of yallingup\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "17 september 1946",
+          "rawValueJson": "\"17 september 1946\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "15:12",
+          "rawValueJson": "\"15:12\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "32.5",
+          "rawValueJson": "32.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "116.9",
+          "rawValueJson": "116.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "4.5",
+          "rawValueJson": "4.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "pingelly",
+          "rawValueJson": "\"pingelly\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "2 may 1949",
+          "rawValueJson": "\"2 may 1949\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "10:00",
+          "rawValueJson": "\"10:00\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "30.9",
+          "rawValueJson": "30.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "116.4",
+          "rawValueJson": "116.4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "5.1",
+          "rawValueJson": "5.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "yerecoin",
+          "rawValueJson": "\"yerecoin\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": ["AugLoop_Excel_ExcelRangeWrapperAnnotation", "AugLoop_Core_Annotation"]
+    },
+    "id": "ef5cecd2-f0b7-4a22-aaad-05edc4e76d8a",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "range": {
+      "worksheetId": "{B20140B0-012A-44F0-9122-E41A2931D84C}",
+      "top": 1,
+      "left": 1,
+      "bottom": 11,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{B20140B0-012A-44F0-9122-E41A2931D84C}",
+          "top": 1,
+          "bottom": 11,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Customer ID\"",
+          "\"Feedback Text\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Customer ID",
+            "rawValueJson": "\"Customer ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Feedback Text",
+            "rawValueJson": "\"Feedback Text\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "\"The product is great, but the delivery was slow.\"",
+            "rawValueJson": "\"\\\"The product is great, but the delivery was slow.\\\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "\"Excellent customer service and fast delivery.\"",
+            "rawValueJson": "\"\\\"Excellent customer service and fast delivery.\\\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "\"The product quality is good, but the packaging could be better.\"",
+            "rawValueJson": "\"\\\"The product quality is good, but the packaging could be better.\\\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "\"Fast delivery and great customer service. Very satisfied with the product.\"",
+            "rawValueJson": "\"\\\"Fast delivery and great customer service. Very satisfied with the product.\\\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "\"The product is okay, but the delivery was delayed.\"",
+            "rawValueJson": "\"\\\"The product is okay, but the delivery was delayed.\\\"\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "CustomerFeedback",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Feedback",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Customer ID",
+          "rawValueJson": "\"Customer ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Feedback Text",
+          "rawValueJson": "\"Feedback Text\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "\"The product is great, but the delivery was slow.\"",
+          "rawValueJson": "\"\\\"The product is great, but the delivery was slow.\\\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "\"Excellent customer service and fast delivery.\"",
+          "rawValueJson": "\"\\\"Excellent customer service and fast delivery.\\\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "\"The product quality is good, but the packaging could be better.\"",
+          "rawValueJson": "\"\\\"The product quality is good, but the packaging could be better.\\\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "\"Fast delivery and great customer service. Very satisfied with the product.\"",
+          "rawValueJson": "\"\\\"Fast delivery and great customer service. Very satisfied with the product.\\\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "\"The product is okay, but the delivery was delayed.\"",
+          "rawValueJson": "\"\\\"The product is okay, but the delivery was delayed.\\\"\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "81077429-b880-4d4b-96a2-8e5c428ee604",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

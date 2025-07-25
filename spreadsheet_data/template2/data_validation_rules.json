@@ -1,0 +1,160 @@
+{
+    "Project tracker": {
+        "sheet_name": "Project tracker",
+        "validations": [
+            {
+                "sqref": "B4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter project names in this column"
+            },
+            {
+                "sqref": "C4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Select Category name from the dropdown list in each cell in this column. Options in this list are defined in the Setup worksheet. Press ALT+DOWN ARROW to navigate the list, then ENTER to make a selection"
+            },
+            {
+                "sqref": "D4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Select the Employee name from the dropdown list in each cell in this column. Options are defined in the Setup worksheet. Press ALT+DOWN ARROW to navigate the list, then ENTER to make a selection"
+            },
+            {
+                "sqref": "E4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter the estimated project start date in this column"
+            },
+            {
+                "sqref": "F4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter the estimated project finish date in this column"
+            },
+            {
+                "sqref": "G4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter estimated project work in hours"
+            },
+            {
+                "sqref": "H4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Estimated duration in days is auto calculated in this column"
+            },
+            {
+                "sqref": "I4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter the actual project start date in this column"
+            },
+            {
+                "sqref": "J4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter the actual project finish date in this column"
+            },
+            {
+                "sqref": "K4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter the actual project work in hours. Values that meet the Over/Under criteria are highlighted bold font styling."
+            },
+            {
+                "sqref": "L4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Actual number of days is auto calculated in this column. Values that meet the Over/Under criteria are highlighted bold font styling."
+            },
+            {
+                "sqref": "M4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter notes for projects in this column"
+            },
+            {
+                "sqref": "A1",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter projects in this project tracker worksheet. Set the percent over/under to flag in G2. Actual work in hours and actual duration in days will highlight over/under values with bold font styling in columns K and L."
+            },
+            {
+                "sqref": "C5:C13",
+                "showDropDown": "False",
+                "formula1": "CategoryList",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "type": "list",
+                "error": "Select a category from the list or create a new category to display in this list from the Setup worksheet."
+            },
+            {
+                "sqref": "D5:D13",
+                "showDropDown": "False",
+                "formula1": "EmployeeList",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "type": "list",
+                "error": "Select an employee from the list or create a new employee to display in this list from the Setup worksheet."
+            }
+        ]
+    },
+    "Setup": {
+        "sheet_name": "Setup",
+        "validations": [
+            {
+                "sqref": "C4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter employee names in this column that will be used as options in the Assigned To dropdown list in the Project Tracker worksheet"
+            },
+            {
+                "sqref": "B4",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "Enter project categories in this column that will be used as options in the Category dropdown list in the Project Tracker worksheet"
+            },
+            {
+                "sqref": "A1",
+                "showDropDown": "False",
+                "allowBlank": "True",
+                "showErrorMessage": "True",
+                "showInputMessage": "True",
+                "prompt": "The setup worksheet contains a customizable list of project categories and employee names. These lists are used as dropdown lists in the project tracker worksheet. The lists do not need the same number of items between them."
+            }
+        ]
+    }
+}

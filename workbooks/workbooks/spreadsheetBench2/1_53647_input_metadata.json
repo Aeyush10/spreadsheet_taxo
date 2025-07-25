@@ -1,0 +1,854 @@
+[
+  {
+    "range": {
+      "worksheetId": "{89B6BEB7-A244-4BE8-8B97-33BBC82B82E8}",
+      "top": 2,
+      "left": 2,
+      "bottom": 32,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{89B6BEB7-A244-4BE8-8B97-33BBC82B82E8}",
+          "top": 2,
+          "bottom": 32,
+          "left": 2,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 3,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 2
+              },
+              {
+                "top": 3,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 3
+              },
+              {
+                "top": 4,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 3
+              },
+              {
+                "top": 4,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [
+          22
+        ],
+        "dataBlocks": [
+          {
+            "start": 24,
+            "end": 30
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Week Ending",
+            "rawValueJson": "\"Week Ending\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "7/2/2021",
+            "rawValueJson": "44379",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Monday ",
+            "rawValueJson": "\"Monday \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Total Parts",
+            "rawValueJson": "\"Total Parts\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "             Parts",
+            "rawValueJson": "\"             Parts\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "70",
+            "rawValueJson": "70",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "80",
+            "rawValueJson": "80",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "TPH",
+            "rawValueJson": "\"TPH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "person 1",
+            "rawValueJson": "\"person 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{89B6BEB7-A244-4BE8-8B97-33BBC82B82E8}",
+          "top": 2,
+          "bottom": 32,
+          "left": 2,
+          "right": 5
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Week Ending",
+            "rawValueJson": "\"Week Ending\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "7/2/2021",
+            "rawValueJson": "44379",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Monday ",
+            "rawValueJson": "\"Monday \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Total Parts",
+            "rawValueJson": "\"Total Parts\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "             Parts",
+            "rawValueJson": "\"             Parts\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "70",
+            "rawValueJson": "70",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "80",
+            "rawValueJson": "80",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "TPH",
+            "rawValueJson": "\"TPH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "person 1",
+            "rawValueJson": "\"person 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Person 2",
+            "rawValueJson": "\"Person 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "Shift Total Trusses Completed",
+            "rawValueJson": "\"Shift Total Trusses Completed\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "70",
+            "rawValueJson": "70",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "80",
+            "rawValueJson": "80",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "Bander, Gantry, Extra Help",
+            "rawValueJson": "\"Bander, Gantry, Extra Help\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "South person 3",
+            "rawValueJson": "\"South person 3\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 23,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 24,
+            "column": 2,
+            "displayText": "Enter # of hours 2nd fixture Ran",
+            "rawValueJson": "\"Enter # of hours 2nd fixture Ran\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 5,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 26,
+            "column": 2,
+            "displayText": "People Hours Main Fixture ",
+            "rawValueJson": "\"People Hours Main Fixture \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 3,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 2,
+            "displayText": "People Hours 2nd Fixture ",
+            "rawValueJson": "\"People Hours 2nd Fixture \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 3,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 2,
+            "displayText": "People Hours Bander Group ",
+            "rawValueJson": "\"People Hours Bander Group \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "Total Hours",
+            "rawValueJson": "\"Total Hours\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 3,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "3rd Shift Total Efficiency",
+            "rawValueJson": "\"3rd Shift Total Efficiency\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 3,
+            "displayText": "Monday",
+            "rawValueJson": "\"Monday\"",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 30,
+            "column": 5,
+            "displayText": "4.38",
+            "rawValueJson": "4.375",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 31,
+            "column": 2,
+            "displayText": "3rd Shift Main Line Efficiency",
+            "rawValueJson": "\"3rd Shift Main Line Efficiency\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 5,
+            "displayText": "8.75",
+            "rawValueJson": "8.75",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 32,
+            "column": 2,
+            "displayText": "2nd Fixture Line Efficiency",
+            "rawValueJson": "\"2nd Fixture Line Efficiency\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 5,
+            "displayText": "10.00",
+            "rawValueJson": "10",
+            "numberFormat": "0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": true,
+    "boundaryConfidence": 0.8571428571428571,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Week Ending",
+          "rawValueJson": "\"Week Ending\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "7/2/2021",
+          "rawValueJson": "44379",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Monday ",
+          "rawValueJson": "\"Monday \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Total Parts",
+          "rawValueJson": "\"Total Parts\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "West",
+          "rawValueJson": "\"West\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "East",
+          "rawValueJson": "\"East\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "             Parts",
+          "rawValueJson": "\"             Parts\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "70",
+          "rawValueJson": "70",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "80",
+          "rawValueJson": "80",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "TPH",
+          "rawValueJson": "\"TPH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "person 1",
+          "rawValueJson": "\"person 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "7ad81161-8502-41f4-9a8c-1351d9396fd6",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

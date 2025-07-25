@@ -1,0 +1,515 @@
+[
+  {
+    "range": {
+      "worksheetId": "{28F997AA-7074-440F-AB77-8B9EE5856EBA}",
+      "top": 1,
+      "left": 2,
+      "bottom": 133,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{28F997AA-7074-440F-AB77-8B9EE5856EBA}",
+          "top": 1,
+          "bottom": 133,
+          "left": 2,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Day\"",
+          "\"Order Channel\"",
+          "\"Dish Type\"",
+          "\"Dish \"",
+          "\"Sales\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Day",
+            "rawValueJson": "\"Day\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Order Channel",
+            "rawValueJson": "\"Order Channel\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Dish Type",
+            "rawValueJson": "\"Dish Type\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Dish ",
+            "rawValueJson": "\"Dish \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Sales",
+            "rawValueJson": "\"Sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "1/1/2025",
+            "rawValueJson": "45658",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Food Delivery",
+            "rawValueJson": "\"Food Delivery\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Appeitzer",
+            "rawValueJson": "\"Appeitzer\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Tomato Soup",
+            "rawValueJson": "\"Tomato Soup\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "256",
+            "rawValueJson": "256",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "1/1/2025",
+            "rawValueJson": "45658",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "In-Store",
+            "rawValueJson": "\"In-Store\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Main Course",
+            "rawValueJson": "\"Main Course\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Grilled Cheese",
+            "rawValueJson": "\"Grilled Cheese\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "197",
+            "rawValueJson": "197",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "1/1/2025",
+            "rawValueJson": "45658",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Direct Online",
+            "rawValueJson": "\"Direct Online\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Dessert",
+            "rawValueJson": "\"Dessert\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Chocolate Cake",
+            "rawValueJson": "\"Chocolate Cake\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "192",
+            "rawValueJson": "192",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "1/1/2025",
+            "rawValueJson": "45658",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Food Delivery",
+            "rawValueJson": "\"Food Delivery\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Appeitzer",
+            "rawValueJson": "\"Appeitzer\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Garlic Bread",
+            "rawValueJson": "\"Garlic Bread\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "263",
+            "rawValueJson": "263",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "1/1/2025",
+            "rawValueJson": "45658",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "In-Store",
+            "rawValueJson": "\"In-Store\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Main Course",
+            "rawValueJson": "\"Main Course\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Pesto Pasta",
+            "rawValueJson": "\"Pesto Pasta\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "243",
+            "rawValueJson": "243",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "RestaurantSales",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Day",
+          "rawValueJson": "\"Day\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Order Channel",
+          "rawValueJson": "\"Order Channel\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Dish Type",
+          "rawValueJson": "\"Dish Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Dish ",
+          "rawValueJson": "\"Dish \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Sales",
+          "rawValueJson": "\"Sales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "1/1/2025",
+          "rawValueJson": "45658",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Food Delivery",
+          "rawValueJson": "\"Food Delivery\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Appeitzer",
+          "rawValueJson": "\"Appeitzer\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "Tomato Soup",
+          "rawValueJson": "\"Tomato Soup\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "256",
+          "rawValueJson": "256",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "1/1/2025",
+          "rawValueJson": "45658",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "In-Store",
+          "rawValueJson": "\"In-Store\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Main Course",
+          "rawValueJson": "\"Main Course\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Grilled Cheese",
+          "rawValueJson": "\"Grilled Cheese\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "197",
+          "rawValueJson": "197",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "1/1/2025",
+          "rawValueJson": "45658",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Direct Online",
+          "rawValueJson": "\"Direct Online\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Dessert",
+          "rawValueJson": "\"Dessert\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Chocolate Cake",
+          "rawValueJson": "\"Chocolate Cake\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "192",
+          "rawValueJson": "192",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "1/1/2025",
+          "rawValueJson": "45658",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Food Delivery",
+          "rawValueJson": "\"Food Delivery\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Appeitzer",
+          "rawValueJson": "\"Appeitzer\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Garlic Bread",
+          "rawValueJson": "\"Garlic Bread\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "263",
+          "rawValueJson": "263",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "1/1/2025",
+          "rawValueJson": "45658",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "In-Store",
+          "rawValueJson": "\"In-Store\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Main Course",
+          "rawValueJson": "\"Main Course\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Pesto Pasta",
+          "rawValueJson": "\"Pesto Pasta\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "243",
+          "rawValueJson": "243",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "5cfb957c-702b-4827-987b-f76a68ccdd62",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

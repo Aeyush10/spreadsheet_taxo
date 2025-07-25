@@ -1,0 +1,606 @@
+[
+  {
+    "range": {
+      "worksheetId": "{2E8C280B-8578-4381-AB4B-79184520CC4E}",
+      "top": 4,
+      "left": 1,
+      "bottom": 10,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{2E8C280B-8578-4381-AB4B-79184520CC4E}",
+          "top": 4,
+          "bottom": 10,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 6
+          }
+        ],
+        "headerNames": [
+          "\"GL Code\"",
+          "\"For the month\"",
+          "\"For the year\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "GL Code",
+            "rawValueJson": "\"GL Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "For the month",
+            "rawValueJson": "\"For the month\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "For the year",
+            "rawValueJson": "\"For the year\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "12345",
+            "rawValueJson": "12345",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": " 18,084 ",
+            "rawValueJson": "18084",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "12346",
+            "rawValueJson": "12346",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": " 15,354 ",
+            "rawValueJson": "15354",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "12347",
+            "rawValueJson": "12347",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": " 16,865 ",
+            "rawValueJson": "16865",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "12348",
+            "rawValueJson": "12348",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": " 9,981 ",
+            "rawValueJson": "9981",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "12349",
+            "rawValueJson": "12349",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": " 7,434 ",
+            "rawValueJson": "7434",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9,
+    "sheetName": "Profit or Loss",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "GL Code",
+          "rawValueJson": "\"GL Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "For the month",
+          "rawValueJson": "\"For the month\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "For the year",
+          "rawValueJson": "\"For the year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "12345",
+          "rawValueJson": "12345",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": " 18,084 ",
+          "rawValueJson": "18084",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "12346",
+          "rawValueJson": "12346",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": " 15,354 ",
+          "rawValueJson": "15354",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "12347",
+          "rawValueJson": "12347",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": " 16,865 ",
+          "rawValueJson": "16865",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "12348",
+          "rawValueJson": "12348",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": " 9,981 ",
+          "rawValueJson": "9981",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "displayText": "12349",
+          "rawValueJson": "12349",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": " 7,434 ",
+          "rawValueJson": "7434",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "bb3cf435-5a65-4490-aaa3-aaead85c4a57",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{E4C313B1-8D38-4F40-B85E-0C464A0BD4FB}",
+      "top": 1,
+      "left": 1,
+      "bottom": 73,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{E4C313B1-8D38-4F40-B85E-0C464A0BD4FB}",
+          "top": 1,
+          "bottom": 73,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 72
+          }
+        ],
+        "headerNames": [
+          "\"GL Code\"",
+          "\"Month\"",
+          "\"Balances\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "GL Code",
+            "rawValueJson": "\"GL Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Month",
+            "rawValueJson": "\"Month\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Balances",
+            "rawValueJson": "\"Balances\"",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "12345",
+            "rawValueJson": "12345",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Jan-21",
+            "rawValueJson": "44227",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": " 123 ",
+            "rawValueJson": "123",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "12346",
+            "rawValueJson": "12346",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Jan-21",
+            "rawValueJson": "44227",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": " 657 ",
+            "rawValueJson": "657",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "12347",
+            "rawValueJson": "12347",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Jan-21",
+            "rawValueJson": "44227",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": " 97 ",
+            "rawValueJson": "97",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "12348",
+            "rawValueJson": "12348",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Jan-21",
+            "rawValueJson": "44227",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": " 3,214 ",
+            "rawValueJson": "3214",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "12349",
+            "rawValueJson": "12349",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Jan-21",
+            "rawValueJson": "44227",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": " 543 ",
+            "rawValueJson": "543",
+            "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Raw Trial Balance",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "GL Code",
+          "rawValueJson": "\"GL Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Month",
+          "rawValueJson": "\"Month\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Balances",
+          "rawValueJson": "\"Balances\"",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "12345",
+          "rawValueJson": "12345",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Jan-21",
+          "rawValueJson": "44227",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": " 123 ",
+          "rawValueJson": "123",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "12346",
+          "rawValueJson": "12346",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Jan-21",
+          "rawValueJson": "44227",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": " 657 ",
+          "rawValueJson": "657",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "12347",
+          "rawValueJson": "12347",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Jan-21",
+          "rawValueJson": "44227",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": " 97 ",
+          "rawValueJson": "97",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "12348",
+          "rawValueJson": "12348",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Jan-21",
+          "rawValueJson": "44227",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": " 3,214 ",
+          "rawValueJson": "3214",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "12349",
+          "rawValueJson": "12349",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Jan-21",
+          "rawValueJson": "44227",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": " 543 ",
+          "rawValueJson": "543",
+          "numberFormat": "_-* #,##0_-;-* #,##0_-;_-* \"-\"??_-;_-@_-"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "6cab466f-0db7-4837-a7d1-d4a1b86d0e69",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

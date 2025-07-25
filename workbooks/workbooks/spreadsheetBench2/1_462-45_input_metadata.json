@@ -1,0 +1,522 @@
+[
+  {
+    "range": {
+      "worksheetId": "{75453D88-9C2E-43B6-82D8-348DBDED6874}",
+      "top": 1,
+      "left": 1,
+      "bottom": 2,
+      "right": 10
+    },
+    "interpretations": [],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.6666666666666666,
+    "sheetName": "Extracted Items",
+    "isDataSampled": false,
+    "primaryTable": {
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "eaba3899-7301-4c8f-a3e0-b4c64d3e1ce1",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{81B2BBC4-FEB3-46FF-BF2D-EF3FF5E9F0DF}",
+      "top": 1,
+      "left": 1,
+      "bottom": 11,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{81B2BBC4-FEB3-46FF-BF2D-EF3FF5E9F0DF}",
+          "top": 1,
+          "bottom": 11,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 10
+          }
+        ],
+        "headerNames": [
+          "\"Division\"",
+          "\"Stock Number\"",
+          "\"Description\"",
+          "\"Type\"",
+          "\"Supplier\"",
+          "\"Invoiced Date\"",
+          "\"Order Number\"",
+          "\"Status\"",
+          "\"Balance\"",
+          "\"Ageing\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Division",
+            "rawValueJson": "\"Division\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Stock Number",
+            "rawValueJson": "\"Stock Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Type",
+            "rawValueJson": "\"Type\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Supplier",
+            "rawValueJson": "\"Supplier\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Invoiced Date",
+            "rawValueJson": "\"Invoiced Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Order Number",
+            "rawValueJson": "\"Order Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Status",
+            "rawValueJson": "\"Status\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Balance",
+            "rawValueJson": "\"Balance\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Ageing",
+            "rawValueJson": "\"Ageing\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "BR1",
+            "rawValueJson": "\"BR1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "28,416.00",
+            "rawValueJson": "28415.9993333333",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "52",
+            "rawValueJson": "51.8223226466046",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "BR1",
+            "rawValueJson": "\"BR1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "13,647.78",
+            "rawValueJson": "13647.782",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "33",
+            "rawValueJson": "33.155655979938",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "BR1",
+            "rawValueJson": "\"BR1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "20,480.48",
+            "rawValueJson": "20480.4833333333",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "31",
+            "rawValueJson": "30.8223226466046",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "BR1",
+            "rawValueJson": "\"BR1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "20,480.48",
+            "rawValueJson": "20480.4833333333",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "31",
+            "rawValueJson": "30.8223226466046",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "BR1",
+            "rawValueJson": "\"BR1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "29,047.29",
+            "rawValueJson": "29047.292",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "31",
+            "rawValueJson": "30.8223226466046",
+            "numberFormat": "#,##0"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.5952380952380952,
+    "sheetName": "Imported Data",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Division",
+          "rawValueJson": "\"Division\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Stock Number",
+          "rawValueJson": "\"Stock Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Type",
+          "rawValueJson": "\"Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Supplier",
+          "rawValueJson": "\"Supplier\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Invoiced Date",
+          "rawValueJson": "\"Invoiced Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Order Number",
+          "rawValueJson": "\"Order Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Status",
+          "rawValueJson": "\"Status\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Balance",
+          "rawValueJson": "\"Balance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Ageing",
+          "rawValueJson": "\"Ageing\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "BR1",
+          "rawValueJson": "\"BR1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "28,416.00",
+          "rawValueJson": "28415.9993333333",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "52",
+          "rawValueJson": "51.8223226466046",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "BR1",
+          "rawValueJson": "\"BR1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "13,647.78",
+          "rawValueJson": "13647.782",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "33",
+          "rawValueJson": "33.155655979938",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "BR1",
+          "rawValueJson": "\"BR1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "20,480.48",
+          "rawValueJson": "20480.4833333333",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "31",
+          "rawValueJson": "30.8223226466046",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "BR1",
+          "rawValueJson": "\"BR1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "20,480.48",
+          "rawValueJson": "20480.4833333333",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "31",
+          "rawValueJson": "30.8223226466046",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "BR1",
+          "rawValueJson": "\"BR1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "29,047.29",
+          "rawValueJson": "29047.292",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "31",
+          "rawValueJson": "30.8223226466046",
+          "numberFormat": "#,##0"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "dcac7be5-1538-4c16-a03f-d14c94600cd4",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

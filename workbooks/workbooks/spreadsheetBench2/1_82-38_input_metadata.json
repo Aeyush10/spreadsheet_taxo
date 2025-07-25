@@ -1,0 +1,5956 @@
+[
+  {
+    "range": {
+      "worksheetId": "{DCC44587-C519-4CFA-9301-B7A1F2C0058E}",
+      "top": 1,
+      "left": 1,
+      "bottom": 17,
+      "right": 11
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{DCC44587-C519-4CFA-9301-B7A1F2C0058E}",
+          "top": 1,
+          "bottom": 17,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          12
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"ITEM\"",
+          "\"CODE\"",
+          "\"DATE\"",
+          "\"INVOIC NO\"",
+          "\"CUSTOMER\"",
+          "\"BRAND\"",
+          "\"TYPE\"",
+          "\"ORIGIN\"",
+          "\"QTY\"",
+          "\"UNIT PRICE\"",
+          "\"TOTAL\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "ITEM",
+            "rawValueJson": "\"ITEM\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "CODE",
+            "rawValueJson": "\"CODE\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "INVOIC NO",
+            "rawValueJson": "\"INVOIC NO\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "CUSTOMER",
+            "rawValueJson": "\"CUSTOMER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "BRAND",
+            "rawValueJson": "\"BRAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "TYPE",
+            "rawValueJson": "\"TYPE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "ORIGIN",
+            "rawValueJson": "\"ORIGIN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "UNIT PRICE",
+            "rawValueJson": "\"UNIT PRICE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "A7179",
+            "rawValueJson": "\"A7179\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Dayton 1200r24",
+            "rawValueJson": "\"Dayton 1200r24\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "DA53  ",
+            "rawValueJson": "\"DA53  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "THI",
+            "rawValueJson": "\"THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "4.00",
+            "rawValueJson": "4",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "1,660.00",
+            "rawValueJson": "1660",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "6,640.00",
+            "rawValueJson": "6640",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "A7179",
+            "rawValueJson": "\"A7179\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "6,640.00",
+            "rawValueJson": "6640",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "A7180",
+            "rawValueJson": "\"A7180\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Dayton 1200r24 ",
+            "rawValueJson": "\"Dayton 1200r24 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "DA53 ",
+            "rawValueJson": "\"DA53 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "THI",
+            "rawValueJson": "\"THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "4.00",
+            "rawValueJson": "4",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "1,640.00",
+            "rawValueJson": "1640",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "6,560.00",
+            "rawValueJson": "6560",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "A7180",
+            "rawValueJson": "\"A7180\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "BS 1200R20 ",
+            "rawValueJson": "\"BS 1200R20 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "G580",
+            "rawValueJson": "\"G580\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "THI",
+            "rawValueJson": "\"THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "5.00",
+            "rawValueJson": "5",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "2,000.00",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "10,000.00",
+            "rawValueJson": "10000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "A7180",
+            "rawValueJson": "\"A7180\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "16,560.00",
+            "rawValueJson": "16560",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{DCC44587-C519-4CFA-9301-B7A1F2C0058E}",
+          "top": 1,
+          "bottom": 17,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 4,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 1
+              },
+              {
+                "top": 1,
+                "left": 2
+              },
+              {
+                "top": 1,
+                "left": 3
+              },
+              {
+                "top": 1,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 1
+              },
+              {
+                "top": 2,
+                "left": 2
+              },
+              {
+                "top": 2,
+                "left": 3
+              },
+              {
+                "top": 2,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 3
+              },
+              {
+                "top": 3,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              },
+              {
+                "top": 4,
+                "left": 3
+              },
+              {
+                "top": 4,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              },
+              {
+                "top": 5,
+                "left": 3
+              },
+              {
+                "top": 5,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 3
+              },
+              {
+                "top": 6,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              },
+              {
+                "top": 7,
+                "left": 3
+              },
+              {
+                "top": 7,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 1
+              },
+              {
+                "top": 8,
+                "left": 2
+              },
+              {
+                "top": 8,
+                "left": 3
+              },
+              {
+                "top": 8,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 1
+              },
+              {
+                "top": 9,
+                "left": 3
+              },
+              {
+                "top": 9,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 1
+              },
+              {
+                "top": 10,
+                "left": 2
+              },
+              {
+                "top": 10,
+                "left": 3
+              },
+              {
+                "top": 10,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 1
+              },
+              {
+                "top": 11,
+                "left": 2
+              },
+              {
+                "top": 11,
+                "left": 3
+              },
+              {
+                "top": 11,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 1
+              },
+              {
+                "top": 12,
+                "left": 2
+              },
+              {
+                "top": 12,
+                "left": 3
+              },
+              {
+                "top": 12,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 1
+              },
+              {
+                "top": 13,
+                "left": 3
+              },
+              {
+                "top": 13,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 1
+              },
+              {
+                "top": 14,
+                "left": 2
+              },
+              {
+                "top": 14,
+                "left": 3
+              },
+              {
+                "top": 14,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 1
+              },
+              {
+                "top": 15,
+                "left": 3
+              },
+              {
+                "top": 15,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 1
+              },
+              {
+                "top": 16,
+                "left": 2
+              },
+              {
+                "top": 16,
+                "left": 3
+              },
+              {
+                "top": 16,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 1
+              },
+              {
+                "top": 17,
+                "left": 3
+              },
+              {
+                "top": 17,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          10
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 8,
+            "end": 9
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "ITEM",
+            "rawValueJson": "\"ITEM\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "CODE",
+            "rawValueJson": "\"CODE\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "INVOIC NO",
+            "rawValueJson": "\"INVOIC NO\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "CUSTOMER",
+            "rawValueJson": "\"CUSTOMER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "BRAND",
+            "rawValueJson": "\"BRAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "A7179",
+            "rawValueJson": "\"A7179\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Dayton 1200r24",
+            "rawValueJson": "\"Dayton 1200r24\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "A7179",
+            "rawValueJson": "\"A7179\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "A7180",
+            "rawValueJson": "\"A7180\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Dayton 1200r24 ",
+            "rawValueJson": "\"Dayton 1200r24 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "A7180",
+            "rawValueJson": "\"A7180\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "BS 1200R20 ",
+            "rawValueJson": "\"BS 1200R20 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "A7180",
+            "rawValueJson": "\"A7180\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "A7185",
+            "rawValueJson": "\"A7185\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "BS 1200R20 ",
+            "rawValueJson": "\"BS 1200R20 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "BSJ102",
+            "rawValueJson": "\"BSJ102\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "A7185",
+            "rawValueJson": "\"A7185\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "BS 1200R20 ",
+            "rawValueJson": "\"BS 1200R20 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "A7185",
+            "rawValueJson": "\"A7185\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "A7188",
+            "rawValueJson": "\"A7188\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "BS 1200R20",
+            "rawValueJson": "\"BS 1200R20\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "BSJ103",
+            "rawValueJson": "\"BSJ103\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "A7188",
+            "rawValueJson": "\"A7188\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "BS 1200R20",
+            "rawValueJson": "\"BS 1200R20\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "BSJ102",
+            "rawValueJson": "\"BSJ102\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "A7188",
+            "rawValueJson": "\"A7188\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "BS 1200R20",
+            "rawValueJson": "\"BS 1200R20\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "A7188",
+            "rawValueJson": "\"A7188\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "BSJ104",
+            "rawValueJson": "\"BSJ104\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "PTMR104",
+            "rawValueJson": "\"PTMR104\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "MNHTY",
+            "rawValueJson": "\"MNHTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "BS 1200R21",
+            "rawValueJson": "\"BS 1200R21\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "PTMR104",
+            "rawValueJson": "\"PTMR104\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "MNHTY",
+            "rawValueJson": "\"MNHTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "BSJ105",
+            "rawValueJson": "\"BSJ105\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "PTMR105",
+            "rawValueJson": "\"PTMR105\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "MNHTY",
+            "rawValueJson": "\"MNHTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "BS 1200R22",
+            "rawValueJson": "\"BS 1200R22\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "PTMR105",
+            "rawValueJson": "\"PTMR105\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "MNHTY",
+            "rawValueJson": "\"MNHTY\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "FAKE",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "ITEM",
+          "rawValueJson": "\"ITEM\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "CODE",
+          "rawValueJson": "\"CODE\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "INVOIC NO",
+          "rawValueJson": "\"INVOIC NO\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "CUSTOMER",
+          "rawValueJson": "\"CUSTOMER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "BRAND",
+          "rawValueJson": "\"BRAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "TYPE",
+          "rawValueJson": "\"TYPE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "ORIGIN",
+          "rawValueJson": "\"ORIGIN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "UNIT PRICE",
+          "rawValueJson": "\"UNIT PRICE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "BSJ100",
+          "rawValueJson": "\"BSJ100\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "A7179",
+          "rawValueJson": "\"A7179\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Dayton 1200r24",
+          "rawValueJson": "\"Dayton 1200r24\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "DA53  ",
+          "rawValueJson": "\"DA53  \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "THI",
+          "rawValueJson": "\"THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "4.00",
+          "rawValueJson": "4",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "1,660.00",
+          "rawValueJson": "1660",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "6,640.00",
+          "rawValueJson": "6640",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "A7179",
+          "rawValueJson": "\"A7179\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "6,640.00",
+          "rawValueJson": "6640",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "BSJ100",
+          "rawValueJson": "\"BSJ100\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "A7180",
+          "rawValueJson": "\"A7180\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Dayton 1200r24 ",
+          "rawValueJson": "\"Dayton 1200r24 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "DA53 ",
+          "rawValueJson": "\"DA53 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "THI",
+          "rawValueJson": "\"THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "4.00",
+          "rawValueJson": "4",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "1,640.00",
+          "rawValueJson": "1640",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "6,560.00",
+          "rawValueJson": "6560",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "BSJ101",
+          "rawValueJson": "\"BSJ101\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "A7180",
+          "rawValueJson": "\"A7180\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "BS 1200R20 ",
+          "rawValueJson": "\"BS 1200R20 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "G580",
+          "rawValueJson": "\"G580\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "THI",
+          "rawValueJson": "\"THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "5.00",
+          "rawValueJson": "5",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "2,000.00",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "10,000.00",
+          "rawValueJson": "10000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "A7180",
+          "rawValueJson": "\"A7180\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "16,560.00",
+          "rawValueJson": "16560",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "533044cb-4a5c-4344-be0a-b17b1d9adc48",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{E50767E8-1041-4A5C-92BF-A31110927B8F}",
+      "top": 1,
+      "left": 1,
+      "bottom": 17,
+      "right": 11
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{E50767E8-1041-4A5C-92BF-A31110927B8F}",
+          "top": 1,
+          "bottom": 17,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          12
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"ITEM\"",
+          "\"CODE\"",
+          "\"DATE\"",
+          "\"INVOIC NO\"",
+          "\"CUSTOMER\"",
+          "\"BRAND\"",
+          "\"TYPE\"",
+          "\"ORIGIN\"",
+          "\"QTY\"",
+          "\"UNIT PRICE\"",
+          "\"TOTAL\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "ITEM",
+            "rawValueJson": "\"ITEM\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "CODE",
+            "rawValueJson": "\"CODE\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "INVOIC NO",
+            "rawValueJson": "\"INVOIC NO\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "CUSTOMER",
+            "rawValueJson": "\"CUSTOMER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "BRAND",
+            "rawValueJson": "\"BRAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "TYPE",
+            "rawValueJson": "\"TYPE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "ORIGIN",
+            "rawValueJson": "\"ORIGIN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "UNIT PRICE",
+            "rawValueJson": "\"UNIT PRICE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "PTMR100",
+            "rawValueJson": "\"PTMR100\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Dayton 1200r24",
+            "rawValueJson": "\"Dayton 1200r24\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "DA53  ",
+            "rawValueJson": "\"DA53  \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "THI",
+            "rawValueJson": "\"THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "4.00",
+            "rawValueJson": "4",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "1,660.00",
+            "rawValueJson": "1660",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "6,640.00",
+            "rawValueJson": "6640",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "PTMR100",
+            "rawValueJson": "\"PTMR100\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "6,640.00",
+            "rawValueJson": "6640",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "PTMR101",
+            "rawValueJson": "\"PTMR101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Dayton 1200r24 ",
+            "rawValueJson": "\"Dayton 1200r24 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "DA53 ",
+            "rawValueJson": "\"DA53 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "THI",
+            "rawValueJson": "\"THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "4.00",
+            "rawValueJson": "4",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "1,640.00",
+            "rawValueJson": "1640",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "6,560.00",
+            "rawValueJson": "6560",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "PTMR101",
+            "rawValueJson": "\"PTMR101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "BS 1200R20 ",
+            "rawValueJson": "\"BS 1200R20 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "G580",
+            "rawValueJson": "\"G580\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "THI",
+            "rawValueJson": "\"THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "5.00",
+            "rawValueJson": "5",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "2,000.00",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "10,000.00",
+            "rawValueJson": "10000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "PTMR101",
+            "rawValueJson": "\"PTMR101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "16,560.00",
+            "rawValueJson": "16560",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{E50767E8-1041-4A5C-92BF-A31110927B8F}",
+          "top": 1,
+          "bottom": 17,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 4,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 1
+              },
+              {
+                "top": 1,
+                "left": 2
+              },
+              {
+                "top": 1,
+                "left": 3
+              },
+              {
+                "top": 1,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 1
+              },
+              {
+                "top": 2,
+                "left": 2
+              },
+              {
+                "top": 2,
+                "left": 3
+              },
+              {
+                "top": 2,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 3
+              },
+              {
+                "top": 3,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              },
+              {
+                "top": 4,
+                "left": 3
+              },
+              {
+                "top": 4,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              },
+              {
+                "top": 5,
+                "left": 3
+              },
+              {
+                "top": 5,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 3
+              },
+              {
+                "top": 6,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              },
+              {
+                "top": 7,
+                "left": 3
+              },
+              {
+                "top": 7,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 1
+              },
+              {
+                "top": 8,
+                "left": 2
+              },
+              {
+                "top": 8,
+                "left": 3
+              },
+              {
+                "top": 8,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 1
+              },
+              {
+                "top": 9,
+                "left": 3
+              },
+              {
+                "top": 9,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 1
+              },
+              {
+                "top": 10,
+                "left": 2
+              },
+              {
+                "top": 10,
+                "left": 3
+              },
+              {
+                "top": 10,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 1
+              },
+              {
+                "top": 11,
+                "left": 2
+              },
+              {
+                "top": 11,
+                "left": 3
+              },
+              {
+                "top": 11,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 1
+              },
+              {
+                "top": 12,
+                "left": 2
+              },
+              {
+                "top": 12,
+                "left": 3
+              },
+              {
+                "top": 12,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 1
+              },
+              {
+                "top": 13,
+                "left": 3
+              },
+              {
+                "top": 13,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 1
+              },
+              {
+                "top": 14,
+                "left": 2
+              },
+              {
+                "top": 14,
+                "left": 3
+              },
+              {
+                "top": 14,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 1
+              },
+              {
+                "top": 15,
+                "left": 3
+              },
+              {
+                "top": 15,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 1
+              },
+              {
+                "top": 16,
+                "left": 2
+              },
+              {
+                "top": 16,
+                "left": 3
+              },
+              {
+                "top": 16,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 1
+              },
+              {
+                "top": 17,
+                "left": 3
+              },
+              {
+                "top": 17,
+                "left": 4
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          10
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 8,
+            "end": 9
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "ITEM",
+            "rawValueJson": "\"ITEM\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "CODE",
+            "rawValueJson": "\"CODE\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "INVOIC NO",
+            "rawValueJson": "\"INVOIC NO\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "CUSTOMER",
+            "rawValueJson": "\"CUSTOMER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "BRAND",
+            "rawValueJson": "\"BRAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "PTMR100",
+            "rawValueJson": "\"PTMR100\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Dayton 1200r24",
+            "rawValueJson": "\"Dayton 1200r24\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "PTMR100",
+            "rawValueJson": "\"PTMR100\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "PTMR101",
+            "rawValueJson": "\"PTMR101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Dayton 1200r24 ",
+            "rawValueJson": "\"Dayton 1200r24 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "PTMR101",
+            "rawValueJson": "\"PTMR101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "BS 1200R20 ",
+            "rawValueJson": "\"BS 1200R20 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "PTMR101",
+            "rawValueJson": "\"PTMR101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "PTMR102",
+            "rawValueJson": "\"PTMR102\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "BS 1200R20 ",
+            "rawValueJson": "\"BS 1200R20 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "BSJ102",
+            "rawValueJson": "\"BSJ102\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "PTMR102",
+            "rawValueJson": "\"PTMR102\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "BS 1200R20 ",
+            "rawValueJson": "\"BS 1200R20 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "PTMR102",
+            "rawValueJson": "\"PTMR102\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "PTMR103",
+            "rawValueJson": "\"PTMR103\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "BS 1200R20",
+            "rawValueJson": "\"BS 1200R20\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "BSJ103",
+            "rawValueJson": "\"BSJ103\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "PTMR103",
+            "rawValueJson": "\"PTMR103\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "BS 1200R20",
+            "rawValueJson": "\"BS 1200R20\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "BSJ102",
+            "rawValueJson": "\"BSJ102\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "PTMR103",
+            "rawValueJson": "\"PTMR103\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "BS 1200R20",
+            "rawValueJson": "\"BS 1200R20\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "PTMR103",
+            "rawValueJson": "\"PTMR103\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "SH1",
+            "rawValueJson": "\"SH1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "BSJ104",
+            "rawValueJson": "\"BSJ104\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "PTMR104",
+            "rawValueJson": "\"PTMR104\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "MNHTY",
+            "rawValueJson": "\"MNHTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "BS 1200R21",
+            "rawValueJson": "\"BS 1200R21\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "PTMR104",
+            "rawValueJson": "\"PTMR104\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "MNHTY",
+            "rawValueJson": "\"MNHTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "BSJ105",
+            "rawValueJson": "\"BSJ105\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "PTMR105",
+            "rawValueJson": "\"PTMR105\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "MNHTY",
+            "rawValueJson": "\"MNHTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "BS 1200R22",
+            "rawValueJson": "\"BS 1200R22\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "5/31/2023",
+            "rawValueJson": "45077",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "PTMR105",
+            "rawValueJson": "\"PTMR105\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "MNHTY",
+            "rawValueJson": "\"MNHTY\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "DATA",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "ITEM",
+          "rawValueJson": "\"ITEM\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "CODE",
+          "rawValueJson": "\"CODE\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "INVOIC NO",
+          "rawValueJson": "\"INVOIC NO\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "CUSTOMER",
+          "rawValueJson": "\"CUSTOMER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "BRAND",
+          "rawValueJson": "\"BRAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "TYPE",
+          "rawValueJson": "\"TYPE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "ORIGIN",
+          "rawValueJson": "\"ORIGIN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "UNIT PRICE",
+          "rawValueJson": "\"UNIT PRICE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "BSJ100",
+          "rawValueJson": "\"BSJ100\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "PTMR100",
+          "rawValueJson": "\"PTMR100\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Dayton 1200r24",
+          "rawValueJson": "\"Dayton 1200r24\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "DA53  ",
+          "rawValueJson": "\"DA53  \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "THI",
+          "rawValueJson": "\"THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "4.00",
+          "rawValueJson": "4",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "1,660.00",
+          "rawValueJson": "1660",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "6,640.00",
+          "rawValueJson": "6640",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "PTMR100",
+          "rawValueJson": "\"PTMR100\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "6,640.00",
+          "rawValueJson": "6640",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "BSJ100",
+          "rawValueJson": "\"BSJ100\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "PTMR101",
+          "rawValueJson": "\"PTMR101\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Dayton 1200r24 ",
+          "rawValueJson": "\"Dayton 1200r24 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "DA53 ",
+          "rawValueJson": "\"DA53 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "THI",
+          "rawValueJson": "\"THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "4.00",
+          "rawValueJson": "4",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "1,640.00",
+          "rawValueJson": "1640",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "6,560.00",
+          "rawValueJson": "6560",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "BSJ101",
+          "rawValueJson": "\"BSJ101\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "PTMR101",
+          "rawValueJson": "\"PTMR101\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "BS 1200R20 ",
+          "rawValueJson": "\"BS 1200R20 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "G580",
+          "rawValueJson": "\"G580\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "THI",
+          "rawValueJson": "\"THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "5.00",
+          "rawValueJson": "5",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "2,000.00",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "10,000.00",
+          "rawValueJson": "10000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "5/31/2023",
+          "rawValueJson": "45077",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "PTMR101",
+          "rawValueJson": "\"PTMR101\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "SH1",
+          "rawValueJson": "\"SH1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "16,560.00",
+          "rawValueJson": "16560",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "df179fdb-01b1-4f0c-92f7-e85a9e804728",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{6C123127-ACAD-472C-B6D2-ABB895FA5432}",
+      "top": 29,
+      "left": 1,
+      "bottom": 35,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{6C123127-ACAD-472C-B6D2-ABB895FA5432}",
+          "top": 29,
+          "bottom": 35,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          4
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "headerNames": [
+          "\"ITEM\"",
+          "\"CODE\"",
+          "\"BRAND\"",
+          "\"TYPE\"",
+          "\"ORIGIN\"",
+          "\"QTY\"",
+          "\"PRICE\"",
+          "\"TOTAL\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 29,
+            "column": 1,
+            "displayText": "ITEM",
+            "rawValueJson": "\"ITEM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "CODE",
+            "rawValueJson": "\"CODE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 3,
+            "displayText": "BRAND",
+            "rawValueJson": "\"BRAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 4,
+            "displayText": "TYPE",
+            "rawValueJson": "\"TYPE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 5,
+            "displayText": "ORIGIN",
+            "rawValueJson": "\"ORIGIN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 6,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 7,
+            "displayText": "PRICE",
+            "rawValueJson": "\"PRICE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 8,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 3,
+            "displayText": "BS 1200R20 G580 THI",
+            "rawValueJson": "\"BS 1200R20 G580 THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 4,
+            "displayText": "BRIDGESTO NE",
+            "rawValueJson": "\"BRIDGESTO NE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 5,
+            "displayText": "THILAND",
+            "rawValueJson": "\"THILAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 6,
+            "displayText": "4.00",
+            "rawValueJson": "4",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 30,
+            "column": 7,
+            "displayText": "2,000.00",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 30,
+            "column": 8,
+            "displayText": "8,000.00",
+            "rawValueJson": "8000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 31,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 2,
+            "displayText": "BSJ103",
+            "rawValueJson": "\"BSJ103\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 3,
+            "displayText": "BS 1200R20 R187 JAP",
+            "rawValueJson": "\"BS 1200R20 R187 JAP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 4,
+            "displayText": "BRIDGESTO NE",
+            "rawValueJson": "\"BRIDGESTO NE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 5,
+            "displayText": "JAPAN",
+            "rawValueJson": "\"JAPAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 6,
+            "displayText": "2.00",
+            "rawValueJson": "2",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 31,
+            "column": 7,
+            "displayText": "2,110.00",
+            "rawValueJson": "2110",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 31,
+            "column": 8,
+            "displayText": "4,220.00",
+            "rawValueJson": "4220",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 32,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 2,
+            "displayText": "BSJ102",
+            "rawValueJson": "\"BSJ102\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 3,
+            "displayText": "BS 1200R20 G580 JAP",
+            "rawValueJson": "\"BS 1200R20 G580 JAP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 4,
+            "displayText": "BRIDGESTO NE",
+            "rawValueJson": "\"BRIDGESTO NE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 5,
+            "displayText": "JAPAN",
+            "rawValueJson": "\"JAPAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 6,
+            "displayText": "5.00",
+            "rawValueJson": "5",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 32,
+            "column": 7,
+            "displayText": "1,900.00",
+            "rawValueJson": "1900",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 32,
+            "column": 8,
+            "displayText": "9,500.00",
+            "rawValueJson": "9500",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 33,
+            "column": 7,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 33,
+            "column": 8,
+            "displayText": "21,720.00",
+            "rawValueJson": "21720",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 34,
+            "column": 7,
+            "displayText": "DISCOUNT",
+            "rawValueJson": "\"DISCOUNT\"",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "SH1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 29,
+          "column": 1,
+          "displayText": "ITEM",
+          "rawValueJson": "\"ITEM\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 2,
+          "displayText": "CODE",
+          "rawValueJson": "\"CODE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 3,
+          "displayText": "BRAND",
+          "rawValueJson": "\"BRAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 4,
+          "displayText": "TYPE",
+          "rawValueJson": "\"TYPE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 5,
+          "displayText": "ORIGIN",
+          "rawValueJson": "\"ORIGIN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 6,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 7,
+          "displayText": "PRICE",
+          "rawValueJson": "\"PRICE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 8,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 2,
+          "displayText": "BSJ101",
+          "rawValueJson": "\"BSJ101\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 3,
+          "displayText": "BS 1200R20 G580 THI",
+          "rawValueJson": "\"BS 1200R20 G580 THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 4,
+          "displayText": "BRIDGESTO NE",
+          "rawValueJson": "\"BRIDGESTO NE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 5,
+          "displayText": "THILAND",
+          "rawValueJson": "\"THILAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 6,
+          "displayText": "4.00",
+          "rawValueJson": "4",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 30,
+          "column": 7,
+          "displayText": "2,000.00",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 30,
+          "column": 8,
+          "displayText": "8,000.00",
+          "rawValueJson": "8000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 31,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 31,
+          "column": 2,
+          "displayText": "BSJ103",
+          "rawValueJson": "\"BSJ103\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 31,
+          "column": 3,
+          "displayText": "BS 1200R20 R187 JAP",
+          "rawValueJson": "\"BS 1200R20 R187 JAP\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 31,
+          "column": 4,
+          "displayText": "BRIDGESTO NE",
+          "rawValueJson": "\"BRIDGESTO NE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 31,
+          "column": 5,
+          "displayText": "JAPAN",
+          "rawValueJson": "\"JAPAN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 31,
+          "column": 6,
+          "displayText": "2.00",
+          "rawValueJson": "2",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 31,
+          "column": 7,
+          "displayText": "2,110.00",
+          "rawValueJson": "2110",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 31,
+          "column": 8,
+          "displayText": "4,220.00",
+          "rawValueJson": "4220",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 32,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 32,
+          "column": 2,
+          "displayText": "BSJ102",
+          "rawValueJson": "\"BSJ102\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 32,
+          "column": 3,
+          "displayText": "BS 1200R20 G580 JAP",
+          "rawValueJson": "\"BS 1200R20 G580 JAP\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 32,
+          "column": 4,
+          "displayText": "BRIDGESTO NE",
+          "rawValueJson": "\"BRIDGESTO NE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 32,
+          "column": 5,
+          "displayText": "JAPAN",
+          "rawValueJson": "\"JAPAN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 32,
+          "column": 6,
+          "displayText": "5.00",
+          "rawValueJson": "5",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 32,
+          "column": 7,
+          "displayText": "1,900.00",
+          "rawValueJson": "1900",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 32,
+          "column": 8,
+          "displayText": "9,500.00",
+          "rawValueJson": "9500",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 33,
+          "column": 7,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 33,
+          "column": 8,
+          "displayText": "21,720.00",
+          "rawValueJson": "21720",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 34,
+          "column": 7,
+          "displayText": "DISCOUNT",
+          "rawValueJson": "\"DISCOUNT\"",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "0e5129a4-033e-48b1-927a-dc283e513899",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{6C123127-ACAD-472C-B6D2-ABB895FA5432}",
+      "top": 20,
+      "left": 1,
+      "bottom": 25,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{6C123127-ACAD-472C-B6D2-ABB895FA5432}",
+          "top": 20,
+          "bottom": 25,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          3
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "headerNames": [
+          "\"ITEM\"",
+          "\"CODE\"",
+          "\"BRAND\"",
+          "\"TYPE\"",
+          "\"ORIGIN\"",
+          "\"QTY\"",
+          "\"PRICE\"",
+          "\"TOTAL\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "ITEM",
+            "rawValueJson": "\"ITEM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "CODE",
+            "rawValueJson": "\"CODE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "BRAND",
+            "rawValueJson": "\"BRAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "TYPE",
+            "rawValueJson": "\"TYPE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "ORIGIN",
+            "rawValueJson": "\"ORIGIN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 7,
+            "displayText": "PRICE",
+            "rawValueJson": "\"PRICE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 8,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "BS 1200R20 G580 THI ",
+            "rawValueJson": "\"BS 1200R20 G580 THI \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "BRIDGESTO NE",
+            "rawValueJson": "\"BRIDGESTO NE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "THILAND",
+            "rawValueJson": "\"THILAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": "4.00",
+            "rawValueJson": "4",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 21,
+            "column": 7,
+            "displayText": "2,000.00",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 21,
+            "column": 8,
+            "displayText": "8,000.00",
+            "rawValueJson": "8000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 22,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 2,
+            "displayText": "BSJ102",
+            "rawValueJson": "\"BSJ102\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 3,
+            "displayText": "BS 1200R20 G580 JAP",
+            "rawValueJson": "\"BS 1200R20 G580 JAP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 4,
+            "displayText": "BRIDGESTO NE",
+            "rawValueJson": "\"BRIDGESTO NE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 5,
+            "displayText": "JAPAN",
+            "rawValueJson": "\"JAPAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 6,
+            "displayText": "5.00",
+            "rawValueJson": "5",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 22,
+            "column": 7,
+            "displayText": "1,900.00",
+            "rawValueJson": "1900",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 22,
+            "column": 8,
+            "displayText": "9,500.00",
+            "rawValueJson": "9500",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 23,
+            "column": 7,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 23,
+            "column": 8,
+            "displayText": "17,500.00",
+            "rawValueJson": "17500",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 24,
+            "column": 7,
+            "displayText": "DISCOUNT",
+            "rawValueJson": "\"DISCOUNT\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 25,
+            "column": 7,
+            "displayText": "NET",
+            "rawValueJson": "\"NET\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 25,
+            "column": 8,
+            "displayText": "17,500.00",
+            "rawValueJson": "17500",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "SH1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 20,
+          "column": 1,
+          "displayText": "ITEM",
+          "rawValueJson": "\"ITEM\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 2,
+          "displayText": "CODE",
+          "rawValueJson": "\"CODE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 3,
+          "displayText": "BRAND",
+          "rawValueJson": "\"BRAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 4,
+          "displayText": "TYPE",
+          "rawValueJson": "\"TYPE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 5,
+          "displayText": "ORIGIN",
+          "rawValueJson": "\"ORIGIN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 6,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 7,
+          "displayText": "PRICE",
+          "rawValueJson": "\"PRICE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 8,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 2,
+          "displayText": "BSJ101",
+          "rawValueJson": "\"BSJ101\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 3,
+          "displayText": "BS 1200R20 G580 THI ",
+          "rawValueJson": "\"BS 1200R20 G580 THI \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 4,
+          "displayText": "BRIDGESTO NE",
+          "rawValueJson": "\"BRIDGESTO NE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 5,
+          "displayText": "THILAND",
+          "rawValueJson": "\"THILAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 6,
+          "displayText": "4.00",
+          "rawValueJson": "4",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 21,
+          "column": 7,
+          "displayText": "2,000.00",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 21,
+          "column": 8,
+          "displayText": "8,000.00",
+          "rawValueJson": "8000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 22,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 22,
+          "column": 2,
+          "displayText": "BSJ102",
+          "rawValueJson": "\"BSJ102\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 22,
+          "column": 3,
+          "displayText": "BS 1200R20 G580 JAP",
+          "rawValueJson": "\"BS 1200R20 G580 JAP\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 22,
+          "column": 4,
+          "displayText": "BRIDGESTO NE",
+          "rawValueJson": "\"BRIDGESTO NE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 22,
+          "column": 5,
+          "displayText": "JAPAN",
+          "rawValueJson": "\"JAPAN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 22,
+          "column": 6,
+          "displayText": "5.00",
+          "rawValueJson": "5",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 22,
+          "column": 7,
+          "displayText": "1,900.00",
+          "rawValueJson": "1900",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 22,
+          "column": 8,
+          "displayText": "9,500.00",
+          "rawValueJson": "9500",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 23,
+          "column": 7,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 23,
+          "column": 8,
+          "displayText": "17,500.00",
+          "rawValueJson": "17500",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 24,
+          "column": 7,
+          "displayText": "DISCOUNT",
+          "rawValueJson": "\"DISCOUNT\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 25,
+          "column": 7,
+          "displayText": "NET",
+          "rawValueJson": "\"NET\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 25,
+          "column": 8,
+          "displayText": "17,500.00",
+          "rawValueJson": "17500",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "3071e746-a149-443b-bfc9-28f65b63fb39",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{6C123127-ACAD-472C-B6D2-ABB895FA5432}",
+      "top": 3,
+      "left": 1,
+      "bottom": 7,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{6C123127-ACAD-472C-B6D2-ABB895FA5432}",
+          "top": 3,
+          "bottom": 7,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          4
+        ],
+        "sectionLines": [
+          1
+        ],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 3
+          }
+        ],
+        "headerNames": [
+          "\"ITEM\"",
+          "\"CODE\"",
+          "\"BRAND\"",
+          "\"TYPE\"",
+          "\"ORIGIN\"",
+          "\"QTY\"",
+          "\"PRICE\"",
+          "\"TOTAL\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "ITEM",
+            "rawValueJson": "\"ITEM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "CODE",
+            "rawValueJson": "\"CODE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "BRAND",
+            "rawValueJson": "\"BRAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "TYPE",
+            "rawValueJson": "\"TYPE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "ORIGIN",
+            "rawValueJson": "\"ORIGIN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "PRICE",
+            "rawValueJson": "\"PRICE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Dayton 1200r24   DA53  THI",
+            "rawValueJson": "\"Dayton 1200r24   DA53  THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Dayton",
+            "rawValueJson": "\"Dayton\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "THILAND",
+            "rawValueJson": "\"THILAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "4.00",
+            "rawValueJson": "4",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "1,650.00",
+            "rawValueJson": "1650",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "6,600.00",
+            "rawValueJson": "6600",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "6,600.00",
+            "rawValueJson": "6600",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "DISCOUNT",
+            "rawValueJson": "\"DISCOUNT\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "NET",
+            "rawValueJson": "\"NET\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "6,600.00",
+            "rawValueJson": "6600",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "SH1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "ITEM",
+          "rawValueJson": "\"ITEM\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "CODE",
+          "rawValueJson": "\"CODE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "BRAND",
+          "rawValueJson": "\"BRAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "TYPE",
+          "rawValueJson": "\"TYPE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "ORIGIN",
+          "rawValueJson": "\"ORIGIN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "PRICE",
+          "rawValueJson": "\"PRICE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "BSJ100",
+          "rawValueJson": "\"BSJ100\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Dayton 1200r24   DA53  THI",
+          "rawValueJson": "\"Dayton 1200r24   DA53  THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Dayton",
+          "rawValueJson": "\"Dayton\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "THILAND",
+          "rawValueJson": "\"THILAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "4.00",
+          "rawValueJson": "4",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "1,650.00",
+          "rawValueJson": "1650",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "6,600.00",
+          "rawValueJson": "6600",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "6,600.00",
+          "rawValueJson": "6600",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "DISCOUNT",
+          "rawValueJson": "\"DISCOUNT\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "NET",
+          "rawValueJson": "\"NET\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": "6,600.00",
+          "rawValueJson": "6600",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "52379805-bca5-44b0-9271-4aee5b26da1f",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{6C123127-ACAD-472C-B6D2-ABB895FA5432}",
+      "top": 11,
+      "left": 1,
+      "bottom": 16,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{6C123127-ACAD-472C-B6D2-ABB895FA5432}",
+          "top": 11,
+          "bottom": 16,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          3
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "headerNames": [
+          "\"ITEM\"",
+          "\"CODE\"",
+          "\"BRAND\"",
+          "\"TYPE\"",
+          "\"ORIGIN\"",
+          "\"QTY\"",
+          "\"PRICE\"",
+          "\"TOTAL\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "ITEM",
+            "rawValueJson": "\"ITEM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "CODE",
+            "rawValueJson": "\"CODE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "BRAND",
+            "rawValueJson": "\"BRAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "TYPE",
+            "rawValueJson": "\"TYPE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "ORIGIN",
+            "rawValueJson": "\"ORIGIN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 7,
+            "displayText": "PRICE",
+            "rawValueJson": "\"PRICE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 8,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "BSJ100",
+            "rawValueJson": "\"BSJ100\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "Dayton 1200r24   DA53  THI",
+            "rawValueJson": "\"Dayton 1200r24   DA53  THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "Dayton ",
+            "rawValueJson": "\"Dayton \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "THILAND",
+            "rawValueJson": "\"THILAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "4.00",
+            "rawValueJson": "4",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 12,
+            "column": 7,
+            "displayText": "1,650.00",
+            "rawValueJson": "1650",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 12,
+            "column": 8,
+            "displayText": "6,600.00",
+            "rawValueJson": "6600",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "BSJ101",
+            "rawValueJson": "\"BSJ101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "BS 1200R20 G580 THI",
+            "rawValueJson": "\"BS 1200R20 G580 THI\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "BRIDGESTO NE",
+            "rawValueJson": "\"BRIDGESTO NE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "THILAND",
+            "rawValueJson": "\"THILAND\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "5.00",
+            "rawValueJson": "5",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 13,
+            "column": 7,
+            "displayText": "2,000.00",
+            "rawValueJson": "2000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 13,
+            "column": 8,
+            "displayText": "10,000.00",
+            "rawValueJson": "10000",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 14,
+            "column": 7,
+            "displayText": "TOTAL",
+            "rawValueJson": "\"TOTAL\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 14,
+            "column": 8,
+            "displayText": "16,600.00",
+            "rawValueJson": "16600",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 15,
+            "column": 7,
+            "displayText": "DISCOUNT",
+            "rawValueJson": "\"DISCOUNT\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 16,
+            "column": 7,
+            "displayText": "NET",
+            "rawValueJson": "\"NET\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 16,
+            "column": 8,
+            "displayText": "16,600.00",
+            "rawValueJson": "16600",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "SH1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 11,
+          "column": 1,
+          "displayText": "ITEM",
+          "rawValueJson": "\"ITEM\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 2,
+          "displayText": "CODE",
+          "rawValueJson": "\"CODE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 3,
+          "displayText": "BRAND",
+          "rawValueJson": "\"BRAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 4,
+          "displayText": "TYPE",
+          "rawValueJson": "\"TYPE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 5,
+          "displayText": "ORIGIN",
+          "rawValueJson": "\"ORIGIN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 6,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 7,
+          "displayText": "PRICE",
+          "rawValueJson": "\"PRICE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 8,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 2,
+          "displayText": "BSJ100",
+          "rawValueJson": "\"BSJ100\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 3,
+          "displayText": "Dayton 1200r24   DA53  THI",
+          "rawValueJson": "\"Dayton 1200r24   DA53  THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 4,
+          "displayText": "Dayton ",
+          "rawValueJson": "\"Dayton \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 5,
+          "displayText": "THILAND",
+          "rawValueJson": "\"THILAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 6,
+          "displayText": "4.00",
+          "rawValueJson": "4",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 12,
+          "column": 7,
+          "displayText": "1,650.00",
+          "rawValueJson": "1650",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 12,
+          "column": 8,
+          "displayText": "6,600.00",
+          "rawValueJson": "6600",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 13,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 2,
+          "displayText": "BSJ101",
+          "rawValueJson": "\"BSJ101\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 3,
+          "displayText": "BS 1200R20 G580 THI",
+          "rawValueJson": "\"BS 1200R20 G580 THI\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 4,
+          "displayText": "BRIDGESTO NE",
+          "rawValueJson": "\"BRIDGESTO NE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 5,
+          "displayText": "THILAND",
+          "rawValueJson": "\"THILAND\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 6,
+          "displayText": "5.00",
+          "rawValueJson": "5",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 13,
+          "column": 7,
+          "displayText": "2,000.00",
+          "rawValueJson": "2000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 13,
+          "column": 8,
+          "displayText": "10,000.00",
+          "rawValueJson": "10000",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 14,
+          "column": 7,
+          "displayText": "TOTAL",
+          "rawValueJson": "\"TOTAL\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 14,
+          "column": 8,
+          "displayText": "16,600.00",
+          "rawValueJson": "16600",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 15,
+          "column": 7,
+          "displayText": "DISCOUNT",
+          "rawValueJson": "\"DISCOUNT\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 16,
+          "column": 7,
+          "displayText": "NET",
+          "rawValueJson": "\"NET\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 16,
+          "column": 8,
+          "displayText": "16,600.00",
+          "rawValueJson": "16600",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "57a08a4e-dd5f-424f-908a-2b0023536fe2",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

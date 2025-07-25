@@ -1,0 +1,792 @@
+[
+  {
+    "range": {
+      "worksheetId": "{08D844DD-67BF-465A-BDEF-2A16FBE9D722}",
+      "top": 5,
+      "left": 1,
+      "bottom": 141,
+      "right": 10
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{08D844DD-67BF-465A-BDEF-2A16FBE9D722}",
+          "top": 5,
+          "bottom": 141,
+          "left": 1,
+          "right": 10
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 2,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 3
+              },
+              {
+                "top": 6,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 5
+              },
+              {
+                "top": 6,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 7
+              },
+              {
+                "top": 6,
+                "left": 7
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 8
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 10
+              },
+              {
+                "top": 6,
+                "left": 10
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          136
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 135
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Reference",
+            "rawValueJson": "\"Reference\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Debit",
+            "rawValueJson": "\"Debit\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Credit",
+            "rawValueJson": "\"Credit\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Debit",
+            "rawValueJson": "\"Debit\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "Credit",
+            "rawValueJson": "\"Credit\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "Remarks",
+            "rawValueJson": "\"Remarks\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Closing Balance as of -> 07/31/2023",
+            "rawValueJson": "45138",
+            "numberFormat": "\"Closing Balance as of -> \"mm/dd/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": " 40,505,435.87 ",
+            "rawValueJson": "40505435.87",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": " (40,438,868.37)",
+            "rawValueJson": "-40438868.37",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": " (66,567.50)",
+            "rawValueJson": "-66567.50000000745",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "13-Jan-22",
+            "rawValueJson": "44574",
+            "numberFormat": "[$-en-US]dd-mmm-yy;@"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "NAG/BP/22-20/2",
+            "rawValueJson": "\"NAG/BP/22-20/2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "XXXXX",
+            "rawValueJson": "\"XXXXX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": " 112,104.00 ",
+            "rawValueJson": "112104",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": " 212,104.00 ",
+            "rawValueJson": "212104",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": " (100,000.00)",
+            "rawValueJson": "-100000",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 7,
+            "column": 9,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 10,
+            "displayText": " -   ",
+            "rawValueJson": "0",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "31-Dec-22",
+            "rawValueJson": "44926",
+            "numberFormat": "[$-en-US]dd-mmm-yy;@"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "NAG/PP/22-12/139",
+            "rawValueJson": "\"NAG/PP/22-12/139\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "XXXXX",
+            "rawValueJson": "\"XXXXX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": " 68,129.00 ",
+            "rawValueJson": "68129",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": " -   ",
+            "rawValueJson": "0",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": " 68,129.00 ",
+            "rawValueJson": "68129",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 8,
+            "column": 9,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 10,
+            "displayText": " -   ",
+            "rawValueJson": "0",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "10-Jan-23",
+            "rawValueJson": "44936",
+            "numberFormat": "[$-en-US]dd-mmm-yy;@"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "NAG/BR/23-6/2",
+            "rawValueJson": "\"NAG/BR/23-6/2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "XXXXX",
+            "rawValueJson": "\"XXXXX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": " -   ",
+            "rawValueJson": "0",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": " 87,852.58 ",
+            "rawValueJson": "87852.58",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": " (87,852.58)",
+            "rawValueJson": "-87852.58",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 9,
+            "column": 9,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 10,
+            "displayText": " -   ",
+            "rawValueJson": "0",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "10-Jan-23",
+            "rawValueJson": "44936",
+            "numberFormat": "[$-en-US]dd-mmm-yy;@"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "NAG/BR/23-7/2",
+            "rawValueJson": "\"NAG/BR/23-7/2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "XXXXX",
+            "rawValueJson": "\"XXXXX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": " -   ",
+            "rawValueJson": "0",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": " 68,129.00 ",
+            "rawValueJson": "68129",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 10,
+            "column": 8,
+            "displayText": " (68,129.00)",
+            "rawValueJson": "-68129",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 10,
+            "column": 9,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 10,
+            "displayText": " -   ",
+            "rawValueJson": "0",
+            "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.7244897959183674,
+    "sheetName": "2023",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": true,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Reference",
+          "rawValueJson": "\"Reference\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Debit",
+          "rawValueJson": "\"Debit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Credit",
+          "rawValueJson": "\"Credit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Debit",
+          "rawValueJson": "\"Debit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "Credit",
+          "rawValueJson": "\"Credit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "Remarks",
+          "rawValueJson": "\"Remarks\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Closing Balance as of -> 07/31/2023",
+          "rawValueJson": "45138",
+          "numberFormat": "\"Closing Balance as of -> \"mm/dd/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": " 40,505,435.87 ",
+          "rawValueJson": "40505435.87",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": " (40,438,868.37)",
+          "rawValueJson": "-40438868.37",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": " (66,567.50)",
+          "rawValueJson": "-66567.50000000745",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "13-Jan-22",
+          "rawValueJson": "44574",
+          "numberFormat": "[$-en-US]dd-mmm-yy;@"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "NAG/BP/22-20/2",
+          "rawValueJson": "\"NAG/BP/22-20/2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "XXXXX",
+          "rawValueJson": "\"XXXXX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": " 112,104.00 ",
+          "rawValueJson": "112104",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": " 212,104.00 ",
+          "rawValueJson": "212104",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": " (100,000.00)",
+          "rawValueJson": "-100000",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 10,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "31-Dec-22",
+          "rawValueJson": "44926",
+          "numberFormat": "[$-en-US]dd-mmm-yy;@"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "NAG/PP/22-12/139",
+          "rawValueJson": "\"NAG/PP/22-12/139\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "XXXXX",
+          "rawValueJson": "\"XXXXX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": " 68,129.00 ",
+          "rawValueJson": "68129",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": " 68,129.00 ",
+          "rawValueJson": "68129",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 8,
+          "column": 9,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 10,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "displayText": "10-Jan-23",
+          "rawValueJson": "44936",
+          "numberFormat": "[$-en-US]dd-mmm-yy;@"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "NAG/BR/23-6/2",
+          "rawValueJson": "\"NAG/BR/23-6/2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "XXXXX",
+          "rawValueJson": "\"XXXXX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "displayText": " 87,852.58 ",
+          "rawValueJson": "87852.58",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 9,
+          "column": 8,
+          "displayText": " (87,852.58)",
+          "rawValueJson": "-87852.58",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 9,
+          "column": 9,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 10,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "displayText": "10-Jan-23",
+          "rawValueJson": "44936",
+          "numberFormat": "[$-en-US]dd-mmm-yy;@"
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "displayText": "NAG/BR/23-7/2",
+          "rawValueJson": "\"NAG/BR/23-7/2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "displayText": "XXXXX",
+          "rawValueJson": "\"XXXXX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 10,
+          "column": 5,
+          "displayText": " 68,129.00 ",
+          "rawValueJson": "68129",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 10,
+          "column": 8,
+          "displayText": " (68,129.00)",
+          "rawValueJson": "-68129",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 10,
+          "column": 9,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 10,
+          "displayText": " -   ",
+          "rawValueJson": "0",
+          "numberFormat": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "dbc5fab2-492b-44da-bd13-79e2def668c4",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

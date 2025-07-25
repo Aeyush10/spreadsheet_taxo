@@ -1,0 +1,885 @@
+[
+  {
+    "range": {
+      "worksheetId": "{B346AE1E-6691-40E7-93EE-0F53F9E785FA}",
+      "top": 1,
+      "left": 1,
+      "bottom": 164,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{B346AE1E-6691-40E7-93EE-0F53F9E785FA}",
+          "top": 1,
+          "bottom": 164,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Country\"",
+          "\"Customer\"",
+          "\"Product\"",
+          "\"Discount Band\"",
+          "\"Units Sold\"",
+          "\"Sale Price\"",
+          "\"Date\"",
+          "\"Gross sales\"",
+          "\"Net sales\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Country",
+            "rawValueJson": "\"Country\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Customer",
+            "rawValueJson": "\"Customer\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Product",
+            "rawValueJson": "\"Product\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Discount Band",
+            "rawValueJson": "\"Discount Band\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Units Sold",
+            "rawValueJson": "\"Units Sold\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Sale Price",
+            "rawValueJson": "\"Sale Price\"",
+            "numberFormat": "$#,##0"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Gross sales",
+            "rawValueJson": "\"Gross sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Net sales",
+            "rawValueJson": "\"Net sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "USA",
+            "rawValueJson": "\"USA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "VanArsdel",
+            "rawValueJson": "\"VanArsdel\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Recycled can",
+            "rawValueJson": "\"Recycled can\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Low",
+            "rawValueJson": "\"Low\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "3827",
+            "rawValueJson": "3827",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "$22",
+            "rawValueJson": "22",
+            "numberFormat": "$#,##0"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "12/1/2022",
+            "rawValueJson": "44896",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "84194.00",
+            "rawValueJson": "84194",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "79984.30",
+            "rawValueJson": "79984.3",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "France",
+            "rawValueJson": "\"France\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "VanArsdel",
+            "rawValueJson": "\"VanArsdel\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Recycled can",
+            "rawValueJson": "\"Recycled can\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Medium",
+            "rawValueJson": "\"Medium\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "3696",
+            "rawValueJson": "3696",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "$22",
+            "rawValueJson": "22",
+            "numberFormat": "$#,##0"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "12/1/2022",
+            "rawValueJson": "44896",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "81312.00",
+            "rawValueJson": "81312",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "73180.80",
+            "rawValueJson": "73180.8",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Canada",
+            "rawValueJson": "\"Canada\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "VanArsdel",
+            "rawValueJson": "\"VanArsdel\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Recycled can",
+            "rawValueJson": "\"Recycled can\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "High",
+            "rawValueJson": "\"High\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "1241",
+            "rawValueJson": "1241",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "$22",
+            "rawValueJson": "22",
+            "numberFormat": "$#,##0"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "12/1/2022",
+            "rawValueJson": "44896",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "27302.00",
+            "rawValueJson": "27302",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "23206.70",
+            "rawValueJson": "23206.7",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Canada",
+            "rawValueJson": "\"Canada\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "VanArsdel",
+            "rawValueJson": "\"VanArsdel\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Recycled can",
+            "rawValueJson": "\"Recycled can\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "High",
+            "rawValueJson": "\"High\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "2751",
+            "rawValueJson": "2751",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "$9",
+            "rawValueJson": "9",
+            "numberFormat": "$#,##0"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "12/1/2022",
+            "rawValueJson": "44896",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "24759.00",
+            "rawValueJson": "24759",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "21045.15",
+            "rawValueJson": "21045.15",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "France",
+            "rawValueJson": "\"France\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "VanArsdel",
+            "rawValueJson": "\"VanArsdel\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Recycled can",
+            "rawValueJson": "\"Recycled can\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Low",
+            "rawValueJson": "\"Low\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "7845",
+            "rawValueJson": "7845",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "$9",
+            "rawValueJson": "9",
+            "numberFormat": "$#,##0"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "11/1/2022",
+            "rawValueJson": "44866",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "70605.00",
+            "rawValueJson": "70605",
+            "numberFormat": "0.00"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "67074.75",
+            "rawValueJson": "67074.75",
+            "numberFormat": "0.00"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table1836",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "video",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Country",
+          "rawValueJson": "\"Country\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Customer",
+          "rawValueJson": "\"Customer\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Product",
+          "rawValueJson": "\"Product\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Discount Band",
+          "rawValueJson": "\"Discount Band\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Units Sold",
+          "rawValueJson": "\"Units Sold\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Sale Price",
+          "rawValueJson": "\"Sale Price\"",
+          "numberFormat": "$#,##0"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Gross sales",
+          "rawValueJson": "\"Gross sales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Net sales",
+          "rawValueJson": "\"Net sales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "USA",
+          "rawValueJson": "\"USA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "VanArsdel",
+          "rawValueJson": "\"VanArsdel\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Recycled can",
+          "rawValueJson": "\"Recycled can\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Low",
+          "rawValueJson": "\"Low\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "3827",
+          "rawValueJson": "3827",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "$22",
+          "rawValueJson": "22",
+          "numberFormat": "$#,##0"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "12/1/2022",
+          "rawValueJson": "44896",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "84194.00",
+          "rawValueJson": "84194",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "79984.30",
+          "rawValueJson": "79984.3",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "France",
+          "rawValueJson": "\"France\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "VanArsdel",
+          "rawValueJson": "\"VanArsdel\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Recycled can",
+          "rawValueJson": "\"Recycled can\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Medium",
+          "rawValueJson": "\"Medium\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "3696",
+          "rawValueJson": "3696",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "$22",
+          "rawValueJson": "22",
+          "numberFormat": "$#,##0"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "12/1/2022",
+          "rawValueJson": "44896",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "81312.00",
+          "rawValueJson": "81312",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "73180.80",
+          "rawValueJson": "73180.8",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Canada",
+          "rawValueJson": "\"Canada\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "VanArsdel",
+          "rawValueJson": "\"VanArsdel\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Recycled can",
+          "rawValueJson": "\"Recycled can\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "High",
+          "rawValueJson": "\"High\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "1241",
+          "rawValueJson": "1241",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "$22",
+          "rawValueJson": "22",
+          "numberFormat": "$#,##0"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "12/1/2022",
+          "rawValueJson": "44896",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "27302.00",
+          "rawValueJson": "27302",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "23206.70",
+          "rawValueJson": "23206.7",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Canada",
+          "rawValueJson": "\"Canada\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "VanArsdel",
+          "rawValueJson": "\"VanArsdel\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Recycled can",
+          "rawValueJson": "\"Recycled can\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "High",
+          "rawValueJson": "\"High\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "2751",
+          "rawValueJson": "2751",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "$9",
+          "rawValueJson": "9",
+          "numberFormat": "$#,##0"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "12/1/2022",
+          "rawValueJson": "44896",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "24759.00",
+          "rawValueJson": "24759",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "21045.15",
+          "rawValueJson": "21045.15",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "France",
+          "rawValueJson": "\"France\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "VanArsdel",
+          "rawValueJson": "\"VanArsdel\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Recycled can",
+          "rawValueJson": "\"Recycled can\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Low",
+          "rawValueJson": "\"Low\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "7845",
+          "rawValueJson": "7845",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "$9",
+          "rawValueJson": "9",
+          "numberFormat": "$#,##0"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "11/1/2022",
+          "rawValueJson": "44866",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "70605.00",
+          "rawValueJson": "70605",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "67074.75",
+          "rawValueJson": "67074.75",
+          "numberFormat": "0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "a6f5ac02-1994-44f0-a224-f5dbf476ad25",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

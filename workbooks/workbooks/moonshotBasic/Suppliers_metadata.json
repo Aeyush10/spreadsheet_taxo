@@ -1,0 +1,6877 @@
+[
+  {
+    "range": {
+      "worksheetId": "{BC8E8855-634D-4CF1-8E93-BD90C7A35174}",
+      "top": 1,
+      "left": 1,
+      "bottom": 31,
+      "right": 12
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{BC8E8855-634D-4CF1-8E93-BD90C7A35174}",
+          "top": 1,
+          "bottom": 31,
+          "left": 1,
+          "right": 12
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 30
+          }
+        ],
+        "headerNames": [
+          "\"Supplier ID\"",
+          "\"Supplier Name\"",
+          "\"Supplier Region\"",
+          "\"Category\"",
+          "\"Product ID\"",
+          "\"Product Name\"",
+          "\"Quantity Ordered\"",
+          "\"Quantity Received\"",
+          "\"Cost per Unit\"",
+          "\"Total Spend\"",
+          "\"Fulfillment %\"",
+          "\"Delivery Time\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Supplier ID",
+            "rawValueJson": "\"Supplier ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Supplier Name",
+            "rawValueJson": "\"Supplier Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Supplier Region",
+            "rawValueJson": "\"Supplier Region\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Category",
+            "rawValueJson": "\"Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Product ID",
+            "rawValueJson": "\"Product ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Product Name",
+            "rawValueJson": "\"Product Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Quantity Ordered",
+            "rawValueJson": "\"Quantity Ordered\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Quantity Received",
+            "rawValueJson": "\"Quantity Received\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Cost per Unit",
+            "rawValueJson": "\"Cost per Unit\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Total Spend",
+            "rawValueJson": "\"Total Spend\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "Fulfillment %",
+            "rawValueJson": "\"Fulfillment %\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "Delivery Time",
+            "rawValueJson": "\"Delivery Time\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "159",
+            "rawValueJson": "159",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "78",
+            "rawValueJson": "78",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "75",
+            "rawValueJson": "75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "$269 ",
+            "rawValueJson": "269",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "$20,174 ",
+            "rawValueJson": "20174",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "96%",
+            "rawValueJson": "0.96",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "198",
+            "rawValueJson": "198",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "55",
+            "rawValueJson": "55",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "49",
+            "rawValueJson": "49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "$578 ",
+            "rawValueJson": "578",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "$28,343 ",
+            "rawValueJson": "28343",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "89%",
+            "rawValueJson": "0.89",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "ABC Inc.",
+            "rawValueJson": "\"ABC Inc.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "283",
+            "rawValueJson": "283",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "29",
+            "rawValueJson": "29",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "$682 ",
+            "rawValueJson": "682",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "$19,779 ",
+            "rawValueJson": "19779",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "94%",
+            "rawValueJson": "0.94",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "580",
+            "rawValueJson": "580",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "93",
+            "rawValueJson": "93",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "89",
+            "rawValueJson": "89",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "$860 ",
+            "rawValueJson": "860",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "$76,570 ",
+            "rawValueJson": "76570",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "96%",
+            "rawValueJson": "0.96",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "909",
+            "rawValueJson": "909",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "41",
+            "rawValueJson": "41",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "$202 ",
+            "rawValueJson": "202",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "$8,268 ",
+            "rawValueJson": "8268",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "98%",
+            "rawValueJson": "0.98",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{BC8E8855-634D-4CF1-8E93-BD90C7A35174}",
+          "top": 1,
+          "bottom": 31,
+          "left": 1,
+          "right": 12
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 5,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 1
+              },
+              {
+                "top": 1,
+                "left": 2
+              },
+              {
+                "top": 1,
+                "left": 3
+              },
+              {
+                "top": 1,
+                "left": 4
+              },
+              {
+                "top": 1,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 1
+              },
+              {
+                "top": 2,
+                "left": 2
+              },
+              {
+                "top": 2,
+                "left": 3
+              },
+              {
+                "top": 2,
+                "left": 4
+              },
+              {
+                "top": 2,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 2
+              },
+              {
+                "top": 3,
+                "left": 3
+              },
+              {
+                "top": 3,
+                "left": 4
+              },
+              {
+                "top": 3,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              },
+              {
+                "top": 4,
+                "left": 3
+              },
+              {
+                "top": 4,
+                "left": 4
+              },
+              {
+                "top": 4,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              },
+              {
+                "top": 5,
+                "left": 3
+              },
+              {
+                "top": 5,
+                "left": 4
+              },
+              {
+                "top": 5,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 2
+              },
+              {
+                "top": 6,
+                "left": 3
+              },
+              {
+                "top": 6,
+                "left": 4
+              },
+              {
+                "top": 6,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              },
+              {
+                "top": 7,
+                "left": 3
+              },
+              {
+                "top": 7,
+                "left": 4
+              },
+              {
+                "top": 7,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 1
+              },
+              {
+                "top": 8,
+                "left": 2
+              },
+              {
+                "top": 8,
+                "left": 3
+              },
+              {
+                "top": 8,
+                "left": 4
+              },
+              {
+                "top": 8,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 1
+              },
+              {
+                "top": 9,
+                "left": 2
+              },
+              {
+                "top": 9,
+                "left": 3
+              },
+              {
+                "top": 9,
+                "left": 4
+              },
+              {
+                "top": 9,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 1
+              },
+              {
+                "top": 10,
+                "left": 2
+              },
+              {
+                "top": 10,
+                "left": 3
+              },
+              {
+                "top": 10,
+                "left": 4
+              },
+              {
+                "top": 10,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 1
+              },
+              {
+                "top": 11,
+                "left": 2
+              },
+              {
+                "top": 11,
+                "left": 3
+              },
+              {
+                "top": 11,
+                "left": 4
+              },
+              {
+                "top": 11,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 1
+              },
+              {
+                "top": 12,
+                "left": 2
+              },
+              {
+                "top": 12,
+                "left": 3
+              },
+              {
+                "top": 12,
+                "left": 4
+              },
+              {
+                "top": 12,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 1
+              },
+              {
+                "top": 13,
+                "left": 2
+              },
+              {
+                "top": 13,
+                "left": 3
+              },
+              {
+                "top": 13,
+                "left": 4
+              },
+              {
+                "top": 13,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 1
+              },
+              {
+                "top": 14,
+                "left": 2
+              },
+              {
+                "top": 14,
+                "left": 3
+              },
+              {
+                "top": 14,
+                "left": 4
+              },
+              {
+                "top": 14,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 1
+              },
+              {
+                "top": 15,
+                "left": 2
+              },
+              {
+                "top": 15,
+                "left": 3
+              },
+              {
+                "top": 15,
+                "left": 4
+              },
+              {
+                "top": 15,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 1
+              },
+              {
+                "top": 16,
+                "left": 2
+              },
+              {
+                "top": 16,
+                "left": 3
+              },
+              {
+                "top": 16,
+                "left": 4
+              },
+              {
+                "top": 16,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 1
+              },
+              {
+                "top": 17,
+                "left": 2
+              },
+              {
+                "top": 17,
+                "left": 3
+              },
+              {
+                "top": 17,
+                "left": 4
+              },
+              {
+                "top": 17,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 18,
+                "left": 1
+              },
+              {
+                "top": 18,
+                "left": 2
+              },
+              {
+                "top": 18,
+                "left": 3
+              },
+              {
+                "top": 18,
+                "left": 4
+              },
+              {
+                "top": 18,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 19,
+                "left": 1
+              },
+              {
+                "top": 19,
+                "left": 2
+              },
+              {
+                "top": 19,
+                "left": 3
+              },
+              {
+                "top": 19,
+                "left": 4
+              },
+              {
+                "top": 19,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 20,
+                "left": 1
+              },
+              {
+                "top": 20,
+                "left": 2
+              },
+              {
+                "top": 20,
+                "left": 3
+              },
+              {
+                "top": 20,
+                "left": 4
+              },
+              {
+                "top": 20,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 21,
+                "left": 1
+              },
+              {
+                "top": 21,
+                "left": 2
+              },
+              {
+                "top": 21,
+                "left": 3
+              },
+              {
+                "top": 21,
+                "left": 4
+              },
+              {
+                "top": 21,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 22,
+                "left": 1
+              },
+              {
+                "top": 22,
+                "left": 2
+              },
+              {
+                "top": 22,
+                "left": 3
+              },
+              {
+                "top": 22,
+                "left": 4
+              },
+              {
+                "top": 22,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 23,
+                "left": 1
+              },
+              {
+                "top": 23,
+                "left": 2
+              },
+              {
+                "top": 23,
+                "left": 3
+              },
+              {
+                "top": 23,
+                "left": 4
+              },
+              {
+                "top": 23,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 24,
+                "left": 1
+              },
+              {
+                "top": 24,
+                "left": 2
+              },
+              {
+                "top": 24,
+                "left": 3
+              },
+              {
+                "top": 24,
+                "left": 4
+              },
+              {
+                "top": 24,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 25,
+                "left": 1
+              },
+              {
+                "top": 25,
+                "left": 2
+              },
+              {
+                "top": 25,
+                "left": 3
+              },
+              {
+                "top": 25,
+                "left": 4
+              },
+              {
+                "top": 25,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 26,
+                "left": 1
+              },
+              {
+                "top": 26,
+                "left": 2
+              },
+              {
+                "top": 26,
+                "left": 3
+              },
+              {
+                "top": 26,
+                "left": 4
+              },
+              {
+                "top": 26,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 27,
+                "left": 1
+              },
+              {
+                "top": 27,
+                "left": 2
+              },
+              {
+                "top": 27,
+                "left": 3
+              },
+              {
+                "top": 27,
+                "left": 4
+              },
+              {
+                "top": 27,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 28,
+                "left": 1
+              },
+              {
+                "top": 28,
+                "left": 2
+              },
+              {
+                "top": 28,
+                "left": 3
+              },
+              {
+                "top": 28,
+                "left": 4
+              },
+              {
+                "top": 28,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 29,
+                "left": 1
+              },
+              {
+                "top": 29,
+                "left": 2
+              },
+              {
+                "top": 29,
+                "left": 3
+              },
+              {
+                "top": 29,
+                "left": 4
+              },
+              {
+                "top": 29,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 30,
+                "left": 1
+              },
+              {
+                "top": 30,
+                "left": 2
+              },
+              {
+                "top": 30,
+                "left": 3
+              },
+              {
+                "top": 30,
+                "left": 4
+              },
+              {
+                "top": 30,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 31,
+                "left": 1
+              },
+              {
+                "top": 31,
+                "left": 2
+              },
+              {
+                "top": 31,
+                "left": 3
+              },
+              {
+                "top": 31,
+                "left": 4
+              },
+              {
+                "top": 31,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Supplier ID",
+            "rawValueJson": "\"Supplier ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Supplier Name",
+            "rawValueJson": "\"Supplier Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Supplier Region",
+            "rawValueJson": "\"Supplier Region\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Category",
+            "rawValueJson": "\"Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Product ID",
+            "rawValueJson": "\"Product ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Product Name",
+            "rawValueJson": "\"Product Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "159",
+            "rawValueJson": "159",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "198",
+            "rawValueJson": "198",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "ABC Inc.",
+            "rawValueJson": "\"ABC Inc.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "283",
+            "rawValueJson": "283",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "580",
+            "rawValueJson": "580",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "909",
+            "rawValueJson": "909",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "ABC Inc.",
+            "rawValueJson": "\"ABC Inc.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "884",
+            "rawValueJson": "884",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "172",
+            "rawValueJson": "172",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "562",
+            "rawValueJson": "562",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "870",
+            "rawValueJson": "870",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "245",
+            "rawValueJson": "245",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "334",
+            "rawValueJson": "334",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "512",
+            "rawValueJson": "512",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "947",
+            "rawValueJson": "947",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "551",
+            "rawValueJson": "551",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "696",
+            "rawValueJson": "696",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 5,
+            "displayText": "340",
+            "rawValueJson": "340",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "779",
+            "rawValueJson": "779",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "736",
+            "rawValueJson": "736",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "759",
+            "rawValueJson": "759",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 2,
+            "displayText": "ABC Inc.",
+            "rawValueJson": "\"ABC Inc.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 5,
+            "displayText": "679",
+            "rawValueJson": "679",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 5,
+            "displayText": "990",
+            "rawValueJson": "990",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 5,
+            "displayText": "783",
+            "rawValueJson": "783",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 6,
+            "displayText": "Ben",
+            "rawValueJson": "\"Ben\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 5,
+            "displayText": "361",
+            "rawValueJson": "361",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 6,
+            "displayText": "Ben",
+            "rawValueJson": "\"Ben\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 5,
+            "displayText": "342",
+            "rawValueJson": "342",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 5,
+            "displayText": "863",
+            "rawValueJson": "863",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 5,
+            "displayText": "860",
+            "rawValueJson": "860",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 5,
+            "displayText": "108",
+            "rawValueJson": "108",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 5,
+            "displayText": "450",
+            "rawValueJson": "450",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 5,
+            "displayText": "303",
+            "rawValueJson": "303",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 6,
+            "displayText": "Ben",
+            "rawValueJson": "\"Ben\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Suppliers",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Supplier ID",
+          "rawValueJson": "\"Supplier ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Supplier Name",
+          "rawValueJson": "\"Supplier Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Supplier Region",
+          "rawValueJson": "\"Supplier Region\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Category",
+          "rawValueJson": "\"Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Product ID",
+          "rawValueJson": "\"Product ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Product Name",
+          "rawValueJson": "\"Product Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Quantity Ordered",
+          "rawValueJson": "\"Quantity Ordered\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Quantity Received",
+          "rawValueJson": "\"Quantity Received\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Cost per Unit",
+          "rawValueJson": "\"Cost per Unit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Total Spend",
+          "rawValueJson": "\"Total Spend\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "Fulfillment %",
+          "rawValueJson": "\"Fulfillment %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "Delivery Time",
+          "rawValueJson": "\"Delivery Time\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Acme Co.",
+          "rawValueJson": "\"Acme Co.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "East",
+          "rawValueJson": "\"East\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "159",
+          "rawValueJson": "159",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Grand Canyon",
+          "rawValueJson": "\"Grand Canyon\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "78",
+          "rawValueJson": "78",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "75",
+          "rawValueJson": "75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "$269 ",
+          "rawValueJson": "269",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "$20,174 ",
+          "rawValueJson": "20174",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "96%",
+          "rawValueJson": "0.96",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "XYZ Corp.",
+          "rawValueJson": "\"XYZ Corp.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "West",
+          "rawValueJson": "\"West\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "198",
+          "rawValueJson": "198",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Grand Canyon",
+          "rawValueJson": "\"Grand Canyon\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "55",
+          "rawValueJson": "55",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "49",
+          "rawValueJson": "49",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "$578 ",
+          "rawValueJson": "578",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "$28,343 ",
+          "rawValueJson": "28343",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "89%",
+          "rawValueJson": "0.89",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "13",
+          "rawValueJson": "13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "ABC Inc.",
+          "rawValueJson": "\"ABC Inc.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "South",
+          "rawValueJson": "\"South\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "283",
+          "rawValueJson": "283",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Customized",
+          "rawValueJson": "\"Customized\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "31",
+          "rawValueJson": "31",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "29",
+          "rawValueJson": "29",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "$682 ",
+          "rawValueJson": "682",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "$19,779 ",
+          "rawValueJson": "19779",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "94%",
+          "rawValueJson": "0.94",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Acme Co.",
+          "rawValueJson": "\"Acme Co.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "West",
+          "rawValueJson": "\"West\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "580",
+          "rawValueJson": "580",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Customized",
+          "rawValueJson": "\"Customized\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "93",
+          "rawValueJson": "93",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "89",
+          "rawValueJson": "89",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "$860 ",
+          "rawValueJson": "860",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "$76,570 ",
+          "rawValueJson": "76570",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "96%",
+          "rawValueJson": "0.96",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Acme Co.",
+          "rawValueJson": "\"Acme Co.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "East",
+          "rawValueJson": "\"East\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "909",
+          "rawValueJson": "909",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Trail",
+          "rawValueJson": "\"Trail\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "42",
+          "rawValueJson": "42",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "41",
+          "rawValueJson": "41",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "$202 ",
+          "rawValueJson": "202",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "$8,268 ",
+          "rawValueJson": "8268",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "98%",
+          "rawValueJson": "0.98",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "998f9e2b-6fc6-42b1-a68e-00e99e0dbb1d",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{EBA0376F-3E05-4348-B91B-618915C66D14}",
+      "top": 1,
+      "left": 1,
+      "bottom": 31,
+      "right": 13
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{EBA0376F-3E05-4348-B91B-618915C66D14}",
+          "top": 1,
+          "bottom": 31,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 30
+          }
+        ],
+        "headerNames": [
+          "\"Supplier ID\"",
+          "\"Supplier Name\"",
+          "\"Supplier Region\"",
+          "\"Category\"",
+          "\"Product ID\"",
+          "\"Product Name\"",
+          "\"Quantity Ordered\"",
+          "\"Quantity Received\"",
+          "\"Cost per Unit\"",
+          "\"Total Spend\"",
+          "\"Fulfillment %\"",
+          "\"Delivery Time\"",
+          "\"Fulfillment Rate\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Supplier ID",
+            "rawValueJson": "\"Supplier ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Supplier Name",
+            "rawValueJson": "\"Supplier Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Supplier Region",
+            "rawValueJson": "\"Supplier Region\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Category",
+            "rawValueJson": "\"Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Product ID",
+            "rawValueJson": "\"Product ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Product Name",
+            "rawValueJson": "\"Product Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Quantity Ordered",
+            "rawValueJson": "\"Quantity Ordered\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Quantity Received",
+            "rawValueJson": "\"Quantity Received\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Cost per Unit",
+            "rawValueJson": "\"Cost per Unit\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Total Spend",
+            "rawValueJson": "\"Total Spend\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "Fulfillment %",
+            "rawValueJson": "\"Fulfillment %\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "Delivery Time",
+            "rawValueJson": "\"Delivery Time\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "Fulfillment Rate",
+            "rawValueJson": "\"Fulfillment Rate\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "159",
+            "rawValueJson": "159",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "78",
+            "rawValueJson": "78",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "75",
+            "rawValueJson": "75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "$269 ",
+            "rawValueJson": "269",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "$20,174 ",
+            "rawValueJson": "20174",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "96%",
+            "rawValueJson": "0.96",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "96%",
+            "rawValueJson": "0.961538461538462",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "198",
+            "rawValueJson": "198",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "55",
+            "rawValueJson": "55",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "49",
+            "rawValueJson": "49",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "$578 ",
+            "rawValueJson": "578",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "$28,343 ",
+            "rawValueJson": "28343",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "89%",
+            "rawValueJson": "0.89",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": "89%",
+            "rawValueJson": "0.890909090909091",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "ABC Inc.",
+            "rawValueJson": "\"ABC Inc.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "283",
+            "rawValueJson": "283",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "29",
+            "rawValueJson": "29",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "$682 ",
+            "rawValueJson": "682",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "$19,779 ",
+            "rawValueJson": "19779",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "94%",
+            "rawValueJson": "0.94",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 13,
+            "displayText": "94%",
+            "rawValueJson": "0.935483870967742",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "580",
+            "rawValueJson": "580",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "93",
+            "rawValueJson": "93",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "89",
+            "rawValueJson": "89",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "$860 ",
+            "rawValueJson": "860",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "$76,570 ",
+            "rawValueJson": "76570",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "96%",
+            "rawValueJson": "0.96",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "96%",
+            "rawValueJson": "0.956989247311828",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "909",
+            "rawValueJson": "909",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "41",
+            "rawValueJson": "41",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "$202 ",
+            "rawValueJson": "202",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "$8,268 ",
+            "rawValueJson": "8268",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "98%",
+            "rawValueJson": "0.98",
+            "numberFormat": "0%"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "98%",
+            "rawValueJson": "0.976190476190476",
+            "numberFormat": "0%"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{EBA0376F-3E05-4348-B91B-618915C66D14}",
+          "top": 1,
+          "bottom": 31,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 5,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 1
+              },
+              {
+                "top": 1,
+                "left": 2
+              },
+              {
+                "top": 1,
+                "left": 3
+              },
+              {
+                "top": 1,
+                "left": 4
+              },
+              {
+                "top": 1,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 1
+              },
+              {
+                "top": 2,
+                "left": 2
+              },
+              {
+                "top": 2,
+                "left": 3
+              },
+              {
+                "top": 2,
+                "left": 4
+              },
+              {
+                "top": 2,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 2
+              },
+              {
+                "top": 3,
+                "left": 3
+              },
+              {
+                "top": 3,
+                "left": 4
+              },
+              {
+                "top": 3,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              },
+              {
+                "top": 4,
+                "left": 3
+              },
+              {
+                "top": 4,
+                "left": 4
+              },
+              {
+                "top": 4,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              },
+              {
+                "top": 5,
+                "left": 3
+              },
+              {
+                "top": 5,
+                "left": 4
+              },
+              {
+                "top": 5,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 2
+              },
+              {
+                "top": 6,
+                "left": 3
+              },
+              {
+                "top": 6,
+                "left": 4
+              },
+              {
+                "top": 6,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              },
+              {
+                "top": 7,
+                "left": 3
+              },
+              {
+                "top": 7,
+                "left": 4
+              },
+              {
+                "top": 7,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 1
+              },
+              {
+                "top": 8,
+                "left": 2
+              },
+              {
+                "top": 8,
+                "left": 3
+              },
+              {
+                "top": 8,
+                "left": 4
+              },
+              {
+                "top": 8,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 1
+              },
+              {
+                "top": 9,
+                "left": 2
+              },
+              {
+                "top": 9,
+                "left": 3
+              },
+              {
+                "top": 9,
+                "left": 4
+              },
+              {
+                "top": 9,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 1
+              },
+              {
+                "top": 10,
+                "left": 2
+              },
+              {
+                "top": 10,
+                "left": 3
+              },
+              {
+                "top": 10,
+                "left": 4
+              },
+              {
+                "top": 10,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 1
+              },
+              {
+                "top": 11,
+                "left": 2
+              },
+              {
+                "top": 11,
+                "left": 3
+              },
+              {
+                "top": 11,
+                "left": 4
+              },
+              {
+                "top": 11,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 1
+              },
+              {
+                "top": 12,
+                "left": 2
+              },
+              {
+                "top": 12,
+                "left": 3
+              },
+              {
+                "top": 12,
+                "left": 4
+              },
+              {
+                "top": 12,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 1
+              },
+              {
+                "top": 13,
+                "left": 2
+              },
+              {
+                "top": 13,
+                "left": 3
+              },
+              {
+                "top": 13,
+                "left": 4
+              },
+              {
+                "top": 13,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 1
+              },
+              {
+                "top": 14,
+                "left": 2
+              },
+              {
+                "top": 14,
+                "left": 3
+              },
+              {
+                "top": 14,
+                "left": 4
+              },
+              {
+                "top": 14,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 1
+              },
+              {
+                "top": 15,
+                "left": 2
+              },
+              {
+                "top": 15,
+                "left": 3
+              },
+              {
+                "top": 15,
+                "left": 4
+              },
+              {
+                "top": 15,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 1
+              },
+              {
+                "top": 16,
+                "left": 2
+              },
+              {
+                "top": 16,
+                "left": 3
+              },
+              {
+                "top": 16,
+                "left": 4
+              },
+              {
+                "top": 16,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 1
+              },
+              {
+                "top": 17,
+                "left": 2
+              },
+              {
+                "top": 17,
+                "left": 3
+              },
+              {
+                "top": 17,
+                "left": 4
+              },
+              {
+                "top": 17,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 18,
+                "left": 1
+              },
+              {
+                "top": 18,
+                "left": 2
+              },
+              {
+                "top": 18,
+                "left": 3
+              },
+              {
+                "top": 18,
+                "left": 4
+              },
+              {
+                "top": 18,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 19,
+                "left": 1
+              },
+              {
+                "top": 19,
+                "left": 2
+              },
+              {
+                "top": 19,
+                "left": 3
+              },
+              {
+                "top": 19,
+                "left": 4
+              },
+              {
+                "top": 19,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 20,
+                "left": 1
+              },
+              {
+                "top": 20,
+                "left": 2
+              },
+              {
+                "top": 20,
+                "left": 3
+              },
+              {
+                "top": 20,
+                "left": 4
+              },
+              {
+                "top": 20,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 21,
+                "left": 1
+              },
+              {
+                "top": 21,
+                "left": 2
+              },
+              {
+                "top": 21,
+                "left": 3
+              },
+              {
+                "top": 21,
+                "left": 4
+              },
+              {
+                "top": 21,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 22,
+                "left": 1
+              },
+              {
+                "top": 22,
+                "left": 2
+              },
+              {
+                "top": 22,
+                "left": 3
+              },
+              {
+                "top": 22,
+                "left": 4
+              },
+              {
+                "top": 22,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 23,
+                "left": 1
+              },
+              {
+                "top": 23,
+                "left": 2
+              },
+              {
+                "top": 23,
+                "left": 3
+              },
+              {
+                "top": 23,
+                "left": 4
+              },
+              {
+                "top": 23,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 24,
+                "left": 1
+              },
+              {
+                "top": 24,
+                "left": 2
+              },
+              {
+                "top": 24,
+                "left": 3
+              },
+              {
+                "top": 24,
+                "left": 4
+              },
+              {
+                "top": 24,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 25,
+                "left": 1
+              },
+              {
+                "top": 25,
+                "left": 2
+              },
+              {
+                "top": 25,
+                "left": 3
+              },
+              {
+                "top": 25,
+                "left": 4
+              },
+              {
+                "top": 25,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 26,
+                "left": 1
+              },
+              {
+                "top": 26,
+                "left": 2
+              },
+              {
+                "top": 26,
+                "left": 3
+              },
+              {
+                "top": 26,
+                "left": 4
+              },
+              {
+                "top": 26,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 27,
+                "left": 1
+              },
+              {
+                "top": 27,
+                "left": 2
+              },
+              {
+                "top": 27,
+                "left": 3
+              },
+              {
+                "top": 27,
+                "left": 4
+              },
+              {
+                "top": 27,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 28,
+                "left": 1
+              },
+              {
+                "top": 28,
+                "left": 2
+              },
+              {
+                "top": 28,
+                "left": 3
+              },
+              {
+                "top": 28,
+                "left": 4
+              },
+              {
+                "top": 28,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 29,
+                "left": 1
+              },
+              {
+                "top": 29,
+                "left": 2
+              },
+              {
+                "top": 29,
+                "left": 3
+              },
+              {
+                "top": 29,
+                "left": 4
+              },
+              {
+                "top": 29,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 30,
+                "left": 1
+              },
+              {
+                "top": 30,
+                "left": 2
+              },
+              {
+                "top": 30,
+                "left": 3
+              },
+              {
+                "top": 30,
+                "left": 4
+              },
+              {
+                "top": 30,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 31,
+                "left": 1
+              },
+              {
+                "top": 31,
+                "left": 2
+              },
+              {
+                "top": 31,
+                "left": 3
+              },
+              {
+                "top": 31,
+                "left": 4
+              },
+              {
+                "top": 31,
+                "left": 5
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Supplier ID",
+            "rawValueJson": "\"Supplier ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Supplier Name",
+            "rawValueJson": "\"Supplier Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Supplier Region",
+            "rawValueJson": "\"Supplier Region\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Category",
+            "rawValueJson": "\"Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Product ID",
+            "rawValueJson": "\"Product ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Product Name",
+            "rawValueJson": "\"Product Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "159",
+            "rawValueJson": "159",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "198",
+            "rawValueJson": "198",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "ABC Inc.",
+            "rawValueJson": "\"ABC Inc.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "283",
+            "rawValueJson": "283",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "580",
+            "rawValueJson": "580",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "New category",
+            "rawValueJson": "\"New category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "909",
+            "rawValueJson": "909",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "ABC Inc.",
+            "rawValueJson": "\"ABC Inc.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "884",
+            "rawValueJson": "884",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "172",
+            "rawValueJson": "172",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "562",
+            "rawValueJson": "562",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "870",
+            "rawValueJson": "870",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "245",
+            "rawValueJson": "245",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "334",
+            "rawValueJson": "334",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "512",
+            "rawValueJson": "512",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "947",
+            "rawValueJson": "947",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "551",
+            "rawValueJson": "551",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "696",
+            "rawValueJson": "696",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 5,
+            "displayText": "340",
+            "rawValueJson": "340",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "779",
+            "rawValueJson": "779",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "736",
+            "rawValueJson": "736",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "759",
+            "rawValueJson": "759",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 2,
+            "displayText": "ABC Inc.",
+            "rawValueJson": "\"ABC Inc.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 5,
+            "displayText": "679",
+            "rawValueJson": "679",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 5,
+            "displayText": "990",
+            "rawValueJson": "990",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 6,
+            "displayText": "Trail",
+            "rawValueJson": "\"Trail\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 5,
+            "displayText": "783",
+            "rawValueJson": "783",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 6,
+            "displayText": "Ben",
+            "rawValueJson": "\"Ben\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 4,
+            "displayText": "Road Bikes",
+            "rawValueJson": "\"Road Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 5,
+            "displayText": "361",
+            "rawValueJson": "361",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 6,
+            "displayText": "Ben",
+            "rawValueJson": "\"Ben\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 5,
+            "displayText": "342",
+            "rawValueJson": "342",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 2,
+            "displayText": "Acme Co.",
+            "rawValueJson": "\"Acme Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 4,
+            "displayText": "Mountain Bikes",
+            "rawValueJson": "\"Mountain Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 5,
+            "displayText": "863",
+            "rawValueJson": "863",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 6,
+            "displayText": "Grand Canyon",
+            "rawValueJson": "\"Grand Canyon\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 2,
+            "displayText": "Big Co.",
+            "rawValueJson": "\"Big Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 3,
+            "displayText": "East",
+            "rawValueJson": "\"East\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 4,
+            "displayText": "Hybrid Bikes",
+            "rawValueJson": "\"Hybrid Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 5,
+            "displayText": "860",
+            "rawValueJson": "860",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "XYZ Corp.",
+            "rawValueJson": "\"XYZ Corp.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 3,
+            "displayText": "South",
+            "rawValueJson": "\"South\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 5,
+            "displayText": "108",
+            "rawValueJson": "108",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 6,
+            "displayText": "Customized",
+            "rawValueJson": "\"Customized\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 3,
+            "displayText": "West",
+            "rawValueJson": "\"West\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 5,
+            "displayText": "450",
+            "rawValueJson": "450",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 6,
+            "displayText": "Huge",
+            "rawValueJson": "\"Huge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 2,
+            "displayText": "Small Co.",
+            "rawValueJson": "\"Small Co.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 3,
+            "displayText": "North",
+            "rawValueJson": "\"North\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 4,
+            "displayText": "Electric Bikes",
+            "rawValueJson": "\"Electric Bikes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 5,
+            "displayText": "303",
+            "rawValueJson": "303",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 6,
+            "displayText": "Ben",
+            "rawValueJson": "\"Ben\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Ex 10-1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Supplier ID",
+          "rawValueJson": "\"Supplier ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Supplier Name",
+          "rawValueJson": "\"Supplier Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Supplier Region",
+          "rawValueJson": "\"Supplier Region\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Category",
+          "rawValueJson": "\"Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Product ID",
+          "rawValueJson": "\"Product ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Product Name",
+          "rawValueJson": "\"Product Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Quantity Ordered",
+          "rawValueJson": "\"Quantity Ordered\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Quantity Received",
+          "rawValueJson": "\"Quantity Received\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Cost per Unit",
+          "rawValueJson": "\"Cost per Unit\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Total Spend",
+          "rawValueJson": "\"Total Spend\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "Fulfillment %",
+          "rawValueJson": "\"Fulfillment %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "Delivery Time",
+          "rawValueJson": "\"Delivery Time\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "Fulfillment Rate",
+          "rawValueJson": "\"Fulfillment Rate\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Acme Co.",
+          "rawValueJson": "\"Acme Co.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "East",
+          "rawValueJson": "\"East\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "159",
+          "rawValueJson": "159",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Grand Canyon",
+          "rawValueJson": "\"Grand Canyon\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "78",
+          "rawValueJson": "78",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "75",
+          "rawValueJson": "75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "$269 ",
+          "rawValueJson": "269",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "$20,174 ",
+          "rawValueJson": "20174",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "96%",
+          "rawValueJson": "0.96",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "96%",
+          "rawValueJson": "0.961538461538462",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "XYZ Corp.",
+          "rawValueJson": "\"XYZ Corp.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "West",
+          "rawValueJson": "\"West\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "198",
+          "rawValueJson": "198",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Grand Canyon",
+          "rawValueJson": "\"Grand Canyon\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "55",
+          "rawValueJson": "55",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "49",
+          "rawValueJson": "49",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "$578 ",
+          "rawValueJson": "578",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "$28,343 ",
+          "rawValueJson": "28343",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "89%",
+          "rawValueJson": "0.89",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "13",
+          "rawValueJson": "13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": "89%",
+          "rawValueJson": "0.890909090909091",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "ABC Inc.",
+          "rawValueJson": "\"ABC Inc.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "South",
+          "rawValueJson": "\"South\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "283",
+          "rawValueJson": "283",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Customized",
+          "rawValueJson": "\"Customized\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "31",
+          "rawValueJson": "31",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "29",
+          "rawValueJson": "29",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "$682 ",
+          "rawValueJson": "682",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "$19,779 ",
+          "rawValueJson": "19779",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "94%",
+          "rawValueJson": "0.94",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 13,
+          "displayText": "94%",
+          "rawValueJson": "0.935483870967742",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Acme Co.",
+          "rawValueJson": "\"Acme Co.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "West",
+          "rawValueJson": "\"West\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "580",
+          "rawValueJson": "580",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Customized",
+          "rawValueJson": "\"Customized\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "93",
+          "rawValueJson": "93",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "89",
+          "rawValueJson": "89",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "$860 ",
+          "rawValueJson": "860",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "$76,570 ",
+          "rawValueJson": "76570",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "96%",
+          "rawValueJson": "0.96",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 13,
+          "displayText": "96%",
+          "rawValueJson": "0.956989247311828",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Acme Co.",
+          "rawValueJson": "\"Acme Co.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "East",
+          "rawValueJson": "\"East\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "New category",
+          "rawValueJson": "\"New category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "909",
+          "rawValueJson": "909",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Trail",
+          "rawValueJson": "\"Trail\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "42",
+          "rawValueJson": "42",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "41",
+          "rawValueJson": "41",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "$202 ",
+          "rawValueJson": "202",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "$8,268 ",
+          "rawValueJson": "8268",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "98%",
+          "rawValueJson": "0.98",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 13,
+          "displayText": "98%",
+          "rawValueJson": "0.976190476190476",
+          "numberFormat": "0%"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "95585995-bc05-44b5-a486-02d3830a6789",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,2826 @@
+[
+  {
+    "range": {
+      "worksheetId": "{6C50E66D-A4EB-409A-9F9E-CF1590E27474}",
+      "top": 5,
+      "left": 1,
+      "bottom": 16,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{6C50E66D-A4EB-409A-9F9E-CF1590E27474}",
+          "top": 5,
+          "bottom": 16,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 3,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"COLUMN A\"",
+          "\"COLUMN U\"",
+          "\"COLUMN G\"",
+          "\"COLUMN F\"",
+          "\"COLUMN M\"",
+          "\"COLUMN N\"",
+          "\"COLUMN D\"",
+          "\"COLUMN L\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "COLUMN A",
+            "rawValueJson": "\"COLUMN A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "COLUMN U",
+            "rawValueJson": "\"COLUMN U\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "COLUMN G",
+            "rawValueJson": "\"COLUMN G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "COLUMN F",
+            "rawValueJson": "\"COLUMN F\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "COLUMN M",
+            "rawValueJson": "\"COLUMN M\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "COLUMN N",
+            "rawValueJson": "\"COLUMN N\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "COLUMN D",
+            "rawValueJson": "\"COLUMN D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "COLUMN L",
+            "rawValueJson": "\"COLUMN L\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Advert Id",
+            "rawValueJson": "\"Advert Id\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Site",
+            "rawValueJson": "\"Site\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Unfilled Ending within 7 Days",
+            "rawValueJson": "\"Unfilled Ending within 7 Days\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "No. Of Vacancies",
+            "rawValueJson": "\"No. Of Vacancies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Employer Name",
+            "rawValueJson": "\"Employer Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Job Title",
+            "rawValueJson": "\"Job Title\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "Created At",
+            "rawValueJson": "\"Created At\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "Closing Date",
+            "rawValueJson": "\"Closing Date\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "(Assending order A-z)",
+            "rawValueJson": "\"(Assending order A-z)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "201525",
+            "rawValueJson": "201525",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "First Years Childcare Ltd",
+            "rawValueJson": "\"First Years Childcare Ltd\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "Nursery Practitioners",
+            "rawValueJson": "\"Nursery Practitioners\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "2/10/2021",
+            "rawValueJson": "44237",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "7/12/2021",
+            "rawValueJson": "44389",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "201530",
+            "rawValueJson": "201530",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "First Years Childcare Ltd",
+            "rawValueJson": "\"First Years Childcare Ltd\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "Nursery Practitioners",
+            "rawValueJson": "\"Nursery Practitioners\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "2/10/2021",
+            "rawValueJson": "44237",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": "7/12/2021",
+            "rawValueJson": "44389",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "201549",
+            "rawValueJson": "201549",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "Cherry Red Records LTD",
+            "rawValueJson": "\"Cherry Red Records LTD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "Label Assistant",
+            "rawValueJson": "\"Label Assistant\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 7,
+            "displayText": "2/16/2021",
+            "rawValueJson": "44243",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 8,
+            "displayText": "7/9/2021",
+            "rawValueJson": "44386",
+            "numberFormat": "m/d/yyyy"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{6C50E66D-A4EB-409A-9F9E-CF1590E27474}",
+          "top": 5,
+          "bottom": 16,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "COLUMN A",
+            "rawValueJson": "\"COLUMN A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "COLUMN U",
+            "rawValueJson": "\"COLUMN U\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "COLUMN G",
+            "rawValueJson": "\"COLUMN G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "COLUMN F",
+            "rawValueJson": "\"COLUMN F\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "COLUMN M",
+            "rawValueJson": "\"COLUMN M\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "COLUMN N",
+            "rawValueJson": "\"COLUMN N\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Advert Id",
+            "rawValueJson": "\"Advert Id\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Site",
+            "rawValueJson": "\"Site\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Unfilled Ending within 7 Days",
+            "rawValueJson": "\"Unfilled Ending within 7 Days\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "No. Of Vacancies",
+            "rawValueJson": "\"No. Of Vacancies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Employer Name",
+            "rawValueJson": "\"Employer Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Job Title",
+            "rawValueJson": "\"Job Title\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "(Assending order A-z)",
+            "rawValueJson": "\"(Assending order A-z)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "201525",
+            "rawValueJson": "201525",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "First Years Childcare Ltd",
+            "rawValueJson": "\"First Years Childcare Ltd\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "Nursery Practitioners",
+            "rawValueJson": "\"Nursery Practitioners\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "201530",
+            "rawValueJson": "201530",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "First Years Childcare Ltd",
+            "rawValueJson": "\"First Years Childcare Ltd\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "Nursery Practitioners",
+            "rawValueJson": "\"Nursery Practitioners\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "201549",
+            "rawValueJson": "201549",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "Cherry Red Records LTD",
+            "rawValueJson": "\"Cherry Red Records LTD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "Label Assistant",
+            "rawValueJson": "\"Label Assistant\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "201965",
+            "rawValueJson": "201965",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "D&D London Ltd.",
+            "rawValueJson": "\"D&D London Ltd.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "BOH Kickstart",
+            "rawValueJson": "\"BOH Kickstart\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "201636",
+            "rawValueJson": "201636",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "STERLING WINSHAW SOLICITORS LTD",
+            "rawValueJson": "\"STERLING WINSHAW SOLICITORS LTD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "OFFICE ASSISTANT",
+            "rawValueJson": "\"OFFICE ASSISTANT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "201654",
+            "rawValueJson": "201654",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "STERLING WINSHAW SOLICITORS LTD",
+            "rawValueJson": "\"STERLING WINSHAW SOLICITORS LTD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "LEGAL ASSISTANT",
+            "rawValueJson": "\"LEGAL ASSISTANT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "201958",
+            "rawValueJson": "201958",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "Living Spring Nursery",
+            "rawValueJson": "\"Living Spring Nursery\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "Nursery Assistant",
+            "rawValueJson": "\"Nursery Assistant\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "201968",
+            "rawValueJson": "201968",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "STERLING WINSHAW SOLICITORS LTD",
+            "rawValueJson": "\"STERLING WINSHAW SOLICITORS LTD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "SOCIAL MEDIA ASSISTANT",
+            "rawValueJson": "\"SOCIAL MEDIA ASSISTANT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "201972",
+            "rawValueJson": "201972",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "",
+            "rawValueJson": "\"\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "9",
+            "rawValueJson": "9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "STERLING WINSHAW SOLICITORS LTD",
+            "rawValueJson": "\"STERLING WINSHAW SOLICITORS LTD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "MARKETING ASSISTANT",
+            "rawValueJson": "\"MARKETING ASSISTANT\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet2",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "COLUMN A",
+          "rawValueJson": "\"COLUMN A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "COLUMN U",
+          "rawValueJson": "\"COLUMN U\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "COLUMN G",
+          "rawValueJson": "\"COLUMN G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "COLUMN F",
+          "rawValueJson": "\"COLUMN F\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "COLUMN M",
+          "rawValueJson": "\"COLUMN M\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "COLUMN N",
+          "rawValueJson": "\"COLUMN N\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "COLUMN D",
+          "rawValueJson": "\"COLUMN D\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "COLUMN L",
+          "rawValueJson": "\"COLUMN L\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Advert Id",
+          "rawValueJson": "\"Advert Id\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Site",
+          "rawValueJson": "\"Site\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Unfilled Ending within 7 Days",
+          "rawValueJson": "\"Unfilled Ending within 7 Days\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "No. Of Vacancies",
+          "rawValueJson": "\"No. Of Vacancies\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Employer Name",
+          "rawValueJson": "\"Employer Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Job Title",
+          "rawValueJson": "\"Job Title\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "Created At",
+          "rawValueJson": "\"Created At\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "Closing Date",
+          "rawValueJson": "\"Closing Date\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "(Assending order A-z)",
+          "rawValueJson": "\"(Assending order A-z)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "201525",
+          "rawValueJson": "201525",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "First Years Childcare Ltd",
+          "rawValueJson": "\"First Years Childcare Ltd\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "Nursery Practitioners",
+          "rawValueJson": "\"Nursery Practitioners\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "2/10/2021",
+          "rawValueJson": "44237",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": "7/12/2021",
+          "rawValueJson": "44389",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "displayText": "201530",
+          "rawValueJson": "201530",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "displayText": "First Years Childcare Ltd",
+          "rawValueJson": "\"First Years Childcare Ltd\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "displayText": "Nursery Practitioners",
+          "rawValueJson": "\"Nursery Practitioners\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 7,
+          "displayText": "2/10/2021",
+          "rawValueJson": "44237",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 9,
+          "column": 8,
+          "displayText": "7/12/2021",
+          "rawValueJson": "44389",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "displayText": "201549",
+          "rawValueJson": "201549",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 5,
+          "displayText": "Cherry Red Records LTD",
+          "rawValueJson": "\"Cherry Red Records LTD\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 6,
+          "displayText": "Label Assistant",
+          "rawValueJson": "\"Label Assistant\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 7,
+          "displayText": "2/16/2021",
+          "rawValueJson": "44243",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 10,
+          "column": 8,
+          "displayText": "7/9/2021",
+          "rawValueJson": "44386",
+          "numberFormat": "m/d/yyyy"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "2a4d7f7e-791f-49eb-be19-69cb748b505b",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{C2AE40C1-743C-4E62-BF0A-F6B7C9745715}",
+      "top": 1,
+      "left": 12,
+      "bottom": 26,
+      "right": 14
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{C2AE40C1-743C-4E62-BF0A-F6B7C9745715}",
+          "top": 1,
+          "bottom": 26,
+          "left": 12,
+          "right": 14
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 25
+          }
+        ],
+        "headerNames": [
+          "\"Closing Date\"",
+          "\"Employer Name\"",
+          "\"Job Title\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "Closing Date",
+            "rawValueJson": "\"Closing Date\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "Employer Name",
+            "rawValueJson": "\"Employer Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 14,
+            "displayText": "Job Title",
+            "rawValueJson": "\"Job Title\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "10/20/2020",
+            "rawValueJson": "44124",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "Tesco Stores Ltd",
+            "rawValueJson": "\"Tesco Stores Ltd\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 14,
+            "displayText": "Customer Assistant Kickstart Scheme",
+            "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "10/20/2020",
+            "rawValueJson": "44124",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": "Tesco Stores Ltd",
+            "rawValueJson": "\"Tesco Stores Ltd\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 14,
+            "displayText": "Customer Assistant Kickstart Scheme",
+            "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "10/20/2020",
+            "rawValueJson": "44124",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 13,
+            "displayText": "Tesco Stores Ltd",
+            "rawValueJson": "\"Tesco Stores Ltd\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 14,
+            "displayText": "Customer Assistant Kickstart Scheme",
+            "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "10/20/2020",
+            "rawValueJson": "44124",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "Tesco Stores Ltd",
+            "rawValueJson": "\"Tesco Stores Ltd\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 14,
+            "displayText": "Customer Assistant Kickstart Scheme",
+            "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "10/20/2020",
+            "rawValueJson": "44124",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "Tesco Stores Ltd",
+            "rawValueJson": "\"Tesco Stores Ltd\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 14,
+            "displayText": "Customer Assistant Kickstart Scheme",
+            "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.6379310344827587,
+    "sheetName": "RAW",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "Closing Date",
+          "rawValueJson": "\"Closing Date\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "Employer Name",
+          "rawValueJson": "\"Employer Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 14,
+          "displayText": "Job Title",
+          "rawValueJson": "\"Job Title\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "10/20/2020",
+          "rawValueJson": "44124",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "Tesco Stores Ltd",
+          "rawValueJson": "\"Tesco Stores Ltd\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 14,
+          "displayText": "Customer Assistant Kickstart Scheme",
+          "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "10/20/2020",
+          "rawValueJson": "44124",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": "Tesco Stores Ltd",
+          "rawValueJson": "\"Tesco Stores Ltd\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 14,
+          "displayText": "Customer Assistant Kickstart Scheme",
+          "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "10/20/2020",
+          "rawValueJson": "44124",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 13,
+          "displayText": "Tesco Stores Ltd",
+          "rawValueJson": "\"Tesco Stores Ltd\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 14,
+          "displayText": "Customer Assistant Kickstart Scheme",
+          "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "10/20/2020",
+          "rawValueJson": "44124",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 13,
+          "displayText": "Tesco Stores Ltd",
+          "rawValueJson": "\"Tesco Stores Ltd\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 14,
+          "displayText": "Customer Assistant Kickstart Scheme",
+          "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "10/20/2020",
+          "rawValueJson": "44124",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 13,
+          "displayText": "Tesco Stores Ltd",
+          "rawValueJson": "\"Tesco Stores Ltd\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 14,
+          "displayText": "Customer Assistant Kickstart Scheme",
+          "rawValueJson": "\"Customer Assistant Kickstart Scheme\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "23d11524-b3ab-4f2d-a913-5fb45d876aed",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{C2AE40C1-743C-4E62-BF0A-F6B7C9745715}",
+      "top": 1,
+      "left": 1,
+      "bottom": 26,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{C2AE40C1-743C-4E62-BF0A-F6B7C9745715}",
+          "top": 1,
+          "bottom": 26,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 25
+          }
+        ],
+        "headerNames": [
+          "\"Advert Id\"",
+          "\"\"",
+          "\"\"",
+          "\"Created At\"",
+          "\"\"",
+          "\"No. Of Vacancies\"",
+          "\"Unfilled Ending within 7 Days\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Advert Id",
+            "rawValueJson": "\"Advert Id\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Created At",
+            "rawValueJson": "\"Created At\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "No. Of Vacancies",
+            "rawValueJson": "\"No. Of Vacancies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Unfilled Ending within 7 Days",
+            "rawValueJson": "\"Unfilled Ending within 7 Days\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "201424",
+            "rawValueJson": "201424",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "10/2/2020",
+            "rawValueJson": "44106",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "201426",
+            "rawValueJson": "201426",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "10/2/2020",
+            "rawValueJson": "44106",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "201428",
+            "rawValueJson": "201428",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "10/2/2020",
+            "rawValueJson": "44106",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "201503",
+            "rawValueJson": "201503",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "10/3/2020",
+            "rawValueJson": "44107",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "201506",
+            "rawValueJson": "201506",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "10/3/2020",
+            "rawValueJson": "44107",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{C2AE40C1-743C-4E62-BF0A-F6B7C9745715}",
+          "top": 1,
+          "bottom": 26,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 5,
+            "end": 6
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Advert Id",
+            "rawValueJson": "\"Advert Id\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Created At",
+            "rawValueJson": "\"Created At\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "No. Of Vacancies",
+            "rawValueJson": "\"No. Of Vacancies\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "201424",
+            "rawValueJson": "201424",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "10/2/2020",
+            "rawValueJson": "44106",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "201426",
+            "rawValueJson": "201426",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "10/2/2020",
+            "rawValueJson": "44106",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "201428",
+            "rawValueJson": "201428",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "10/2/2020",
+            "rawValueJson": "44106",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "201503",
+            "rawValueJson": "201503",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "10/3/2020",
+            "rawValueJson": "44107",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "201506",
+            "rawValueJson": "201506",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "10/3/2020",
+            "rawValueJson": "44107",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "201517",
+            "rawValueJson": "201517",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "10/3/2020",
+            "rawValueJson": "44107",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "201525",
+            "rawValueJson": "201525",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "2/10/2021",
+            "rawValueJson": "44237",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "201530",
+            "rawValueJson": "201530",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "2/10/2021",
+            "rawValueJson": "44237",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "201549",
+            "rawValueJson": "201549",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "2/16/2021",
+            "rawValueJson": "44243",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "201965",
+            "rawValueJson": "201965",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "3/17/2021",
+            "rawValueJson": "44272",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "201636",
+            "rawValueJson": "201636",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "2/22/2021",
+            "rawValueJson": "44249",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "201654",
+            "rawValueJson": "201654",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "2/22/2021",
+            "rawValueJson": "44249",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "201958",
+            "rawValueJson": "201958",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "3/9/2021",
+            "rawValueJson": "44264",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "201968",
+            "rawValueJson": "201968",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "2/22/2021",
+            "rawValueJson": "44249",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "201972",
+            "rawValueJson": "201972",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "2/22/2021",
+            "rawValueJson": "44249",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "201766",
+            "rawValueJson": "201766",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "3/8/2021",
+            "rawValueJson": "44263",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 17,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "201944",
+            "rawValueJson": "201944",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "3/8/2021",
+            "rawValueJson": "44263",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 18,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "201521",
+            "rawValueJson": "201521",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "2/4/2021",
+            "rawValueJson": "44231",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 19,
+            "column": 6,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "201571",
+            "rawValueJson": "201571",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "2/18/2021",
+            "rawValueJson": "44245",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 1,
+            "displayText": "201581",
+            "rawValueJson": "201581",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "2/18/2021",
+            "rawValueJson": "44245",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 1,
+            "displayText": "201739",
+            "rawValueJson": "201739",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 4,
+            "displayText": "3/3/2021",
+            "rawValueJson": "44258",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 22,
+            "column": 6,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 1,
+            "displayText": "201971",
+            "rawValueJson": "201971",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 4,
+            "displayText": "5/20/2021",
+            "rawValueJson": "44336",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 23,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 1,
+            "displayText": "201967",
+            "rawValueJson": "201967",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 4,
+            "displayText": "3/18/2021",
+            "rawValueJson": "44273",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 24,
+            "column": 6,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "201960",
+            "rawValueJson": "201960",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 4,
+            "displayText": "3/12/2021",
+            "rawValueJson": "44267",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 25,
+            "column": 6,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "201989",
+            "rawValueJson": "201989",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 4,
+            "displayText": "6/3/2021",
+            "rawValueJson": "44350",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 26,
+            "column": 6,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9696969696969697,
+    "sheetName": "RAW",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Advert Id",
+          "rawValueJson": "\"Advert Id\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Created At",
+          "rawValueJson": "\"Created At\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "No. Of Vacancies",
+          "rawValueJson": "\"No. Of Vacancies\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Unfilled Ending within 7 Days",
+          "rawValueJson": "\"Unfilled Ending within 7 Days\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "201424",
+          "rawValueJson": "201424",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "10/2/2020",
+          "rawValueJson": "44106",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "201426",
+          "rawValueJson": "201426",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "10/2/2020",
+          "rawValueJson": "44106",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "201428",
+          "rawValueJson": "201428",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "10/2/2020",
+          "rawValueJson": "44106",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "201503",
+          "rawValueJson": "201503",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "10/3/2020",
+          "rawValueJson": "44107",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "201506",
+          "rawValueJson": "201506",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "10/3/2020",
+          "rawValueJson": "44107",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "3aa7ee72-856b-4fe5-9719-bbdb985ca2b2",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

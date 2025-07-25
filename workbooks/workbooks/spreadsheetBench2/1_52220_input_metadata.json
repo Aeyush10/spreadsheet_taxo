@@ -1,0 +1,172 @@
+[
+  {
+    "range": {
+      "worksheetId": "{538847DC-EA1F-4961-A594-D775F606C9BE}",
+      "top": 1,
+      "left": 1,
+      "bottom": 3,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{538847DC-EA1F-4961-A594-D775F606C9BE}",
+          "top": 1,
+          "bottom": 3,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "headerNames": [
+          "\"Last intervention\"",
+          "\"hours for injection\"",
+          "\"next revision\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Last intervention",
+            "rawValueJson": "\"Last intervention\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "hours for injection",
+            "rawValueJson": "\"hours for injection\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "next revision",
+            "rawValueJson": "\"next revision\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "7/20/2021",
+            "rawValueJson": "44397",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "11:11:14",
+            "rawValueJson": "11.4681712962963",
+            "numberFormat": "dd:hh:mm"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "11:11:14",
+            "rawValueJson": "11.4681712962963",
+            "numberFormat": "dd:hh:mm"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.5,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Last intervention",
+          "rawValueJson": "\"Last intervention\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "hours for injection",
+          "rawValueJson": "\"hours for injection\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "next revision",
+          "rawValueJson": "\"next revision\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "7/20/2021",
+          "rawValueJson": "44397",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "11:11:14",
+          "rawValueJson": "11.4681712962963",
+          "numberFormat": "dd:hh:mm"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "11:11:14",
+          "rawValueJson": "11.4681712962963",
+          "numberFormat": "dd:hh:mm"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "bd5a367a-cb2f-489e-a89c-6e61dcbcdf65",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

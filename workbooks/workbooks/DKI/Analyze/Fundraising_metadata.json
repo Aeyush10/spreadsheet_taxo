@@ -1,0 +1,937 @@
+[
+  {
+    "range": {
+      "worksheetId": "{C7185F13-E27A-4560-BE0E-6897407DD71F}",
+      "top": 1,
+      "left": 1,
+      "bottom": 36,
+      "right": 11
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{C7185F13-E27A-4560-BE0E-6897407DD71F}",
+          "top": 1,
+          "bottom": 36,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Name\"",
+          "\"Email\"",
+          "\"Phone\"",
+          "\"Address\"",
+          "\"City\"",
+          "\"Type\"",
+          "\"Duration\"",
+          "\"Date of pledge\"",
+          "\"Approach\"",
+          "\"Pledged\"",
+          "\"Collected\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Email",
+            "rawValueJson": "\"Email\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Phone",
+            "rawValueJson": "\"Phone\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Address",
+            "rawValueJson": "\"Address\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "City",
+            "rawValueJson": "\"City\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Type",
+            "rawValueJson": "\"Type\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Duration",
+            "rawValueJson": "\"Duration\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Date of pledge",
+            "rawValueJson": "\"Date of pledge\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "Approach",
+            "rawValueJson": "\"Approach\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "Pledged",
+            "rawValueJson": "\"Pledged\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "Collected",
+            "rawValueJson": "\"Collected\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Ana Bowman",
+            "rawValueJson": "\"Ana Bowman\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "ana@adventure-works.com",
+            "rawValueJson": "\"ana@adventure-works.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "One Off",
+            "rawValueJson": "\"One Off\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "11/3/2021",
+            "rawValueJson": "44503",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "Fall Auction",
+            "rawValueJson": "\"Fall Auction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "$3,610.00 ",
+            "rawValueJson": "3610",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "$100.00 ",
+            "rawValueJson": "100",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Avery Howard",
+            "rawValueJson": "\"Avery Howard\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "avery@alpineskihouse.com",
+            "rawValueJson": "\"avery@alpineskihouse.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "(555) 555-0184",
+            "rawValueJson": "\"(555) 555-0184\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "123 SE 2nd St",
+            "rawValueJson": "\"123 SE 2nd St\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Oak Harbor, 67277",
+            "rawValueJson": "\"Oak Harbor, 67277\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Quarterly",
+            "rawValueJson": "\"Quarterly\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "3 year",
+            "rawValueJson": "\"3 year\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "12/15/2021",
+            "rawValueJson": "44545",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "Renewal",
+            "rawValueJson": "\"Renewal\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "$40.00 ",
+            "rawValueJson": "40",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "$40.00 ",
+            "rawValueJson": "40",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Avery Smith",
+            "rawValueJson": "\"Avery Smith\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "avery@bellowscollege.com",
+            "rawValueJson": "\"avery@bellowscollege.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "5678 First Ave SE #100",
+            "rawValueJson": "\"5678 First Ave SE #100\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Bellevue, 78008",
+            "rawValueJson": "\"Bellevue, 78008\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "One Off",
+            "rawValueJson": "\"One Off\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "1/1/2022",
+            "rawValueJson": "44562",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "Call",
+            "rawValueJson": "\"Call\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "$1,240.00 ",
+            "rawValueJson": "1240",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Cameron Baker",
+            "rawValueJson": "\"Cameron Baker\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "cameron@bestforyouorganics.com",
+            "rawValueJson": "\"cameron@bestforyouorganics.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "(555) 555-0101",
+            "rawValueJson": "\"(555) 555-0101\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "678 S Circle St",
+            "rawValueJson": "\"678 S Circle St\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Kennewick, 12336",
+            "rawValueJson": "\"Kennewick, 12336\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "One Off",
+            "rawValueJson": "\"One Off\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "10/21/2022",
+            "rawValueJson": "44855",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "call",
+            "rawValueJson": "\"call\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "$100.00 ",
+            "rawValueJson": "100",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Cameron Baker",
+            "rawValueJson": "\"Cameron Baker\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "cameron@contosol.com",
+            "rawValueJson": "\"cameron@contosol.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "(555) 555-0159",
+            "rawValueJson": "\"(555) 555-0159\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "678 S Cedar St",
+            "rawValueJson": "\"678 S Cedar St\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Kennewick, 12336",
+            "rawValueJson": "\"Kennewick, 12336\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Monthly",
+            "rawValueJson": "\"Monthly\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "1 year",
+            "rawValueJson": "\"1 year\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "11/20/2021",
+            "rawValueJson": "44520",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "web",
+            "rawValueJson": "\"web\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "$300.00 ",
+            "rawValueJson": "300",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "$300.00 ",
+            "rawValueJson": "300",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table18",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "fundraising",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Email",
+          "rawValueJson": "\"Email\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Phone",
+          "rawValueJson": "\"Phone\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Address",
+          "rawValueJson": "\"Address\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "City",
+          "rawValueJson": "\"City\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Type",
+          "rawValueJson": "\"Type\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Duration",
+          "rawValueJson": "\"Duration\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Date of pledge",
+          "rawValueJson": "\"Date of pledge\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "Approach",
+          "rawValueJson": "\"Approach\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "Pledged",
+          "rawValueJson": "\"Pledged\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "Collected",
+          "rawValueJson": "\"Collected\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Ana Bowman",
+          "rawValueJson": "\"Ana Bowman\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "ana@adventure-works.com",
+          "rawValueJson": "\"ana@adventure-works.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "One Off",
+          "rawValueJson": "\"One Off\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "11/3/2021",
+          "rawValueJson": "44503",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "Fall Auction",
+          "rawValueJson": "\"Fall Auction\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "$3,610.00 ",
+          "rawValueJson": "3610",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "$100.00 ",
+          "rawValueJson": "100",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Avery Howard",
+          "rawValueJson": "\"Avery Howard\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "avery@alpineskihouse.com",
+          "rawValueJson": "\"avery@alpineskihouse.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "(555) 555-0184",
+          "rawValueJson": "\"(555) 555-0184\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "123 SE 2nd St",
+          "rawValueJson": "\"123 SE 2nd St\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Oak Harbor, 67277",
+          "rawValueJson": "\"Oak Harbor, 67277\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Quarterly",
+          "rawValueJson": "\"Quarterly\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "3 year",
+          "rawValueJson": "\"3 year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "12/15/2021",
+          "rawValueJson": "44545",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Renewal",
+          "rawValueJson": "\"Renewal\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "$40.00 ",
+          "rawValueJson": "40",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "$40.00 ",
+          "rawValueJson": "40",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Avery Smith",
+          "rawValueJson": "\"Avery Smith\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "avery@bellowscollege.com",
+          "rawValueJson": "\"avery@bellowscollege.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "5678 First Ave SE #100",
+          "rawValueJson": "\"5678 First Ave SE #100\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Bellevue, 78008",
+          "rawValueJson": "\"Bellevue, 78008\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "One Off",
+          "rawValueJson": "\"One Off\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "1/1/2022",
+          "rawValueJson": "44562",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "Call",
+          "rawValueJson": "\"Call\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "$1,240.00 ",
+          "rawValueJson": "1240",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Cameron Baker",
+          "rawValueJson": "\"Cameron Baker\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "cameron@bestforyouorganics.com",
+          "rawValueJson": "\"cameron@bestforyouorganics.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "(555) 555-0101",
+          "rawValueJson": "\"(555) 555-0101\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "678 S Circle St",
+          "rawValueJson": "\"678 S Circle St\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Kennewick, 12336",
+          "rawValueJson": "\"Kennewick, 12336\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "One Off",
+          "rawValueJson": "\"One Off\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "10/21/2022",
+          "rawValueJson": "44855",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "call",
+          "rawValueJson": "\"call\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "$100.00 ",
+          "rawValueJson": "100",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Cameron Baker",
+          "rawValueJson": "\"Cameron Baker\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "cameron@contosol.com",
+          "rawValueJson": "\"cameron@contosol.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "(555) 555-0159",
+          "rawValueJson": "\"(555) 555-0159\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "678 S Cedar St",
+          "rawValueJson": "\"678 S Cedar St\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Kennewick, 12336",
+          "rawValueJson": "\"Kennewick, 12336\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Monthly",
+          "rawValueJson": "\"Monthly\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "1 year",
+          "rawValueJson": "\"1 year\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "11/20/2021",
+          "rawValueJson": "44520",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "web",
+          "rawValueJson": "\"web\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "$300.00 ",
+          "rawValueJson": "300",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "$300.00 ",
+          "rawValueJson": "300",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "4fdc05c3-c59c-40df-95d2-505c77eb960c",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

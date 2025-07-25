@@ -1,0 +1,433 @@
+[
+  {
+    "range": {
+      "worksheetId": "{9B959FCE-E453-4EA4-B3E6-BC000ACE5B75}",
+      "top": 1,
+      "left": 1,
+      "bottom": 23,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{9B959FCE-E453-4EA4-B3E6-BC000ACE5B75}",
+          "top": 1,
+          "bottom": 23,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 22
+          }
+        ],
+        "headerNames": [
+          "\"DATE\"",
+          "\"TIME\"",
+          "\"BLOOD SUGAR (mg/dL)\"",
+          "\"RUNNING AVERAGE\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "TIME",
+            "rawValueJson": "\"TIME\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "BLOOD SUGAR (mg/dL)",
+            "rawValueJson": "\"BLOOD SUGAR (mg/dL)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "RUNNING AVERAGE",
+            "rawValueJson": "\"RUNNING AVERAGE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1/7/2016",
+            "rawValueJson": "42376",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "8:45 AM",
+            "rawValueJson": "0.364583333333333",
+            "numberFormat": "h:mm AM/PM"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "126",
+            "rawValueJson": "126",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "126",
+            "rawValueJson": "126",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "1/7/2016",
+            "rawValueJson": "42376",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "12:30 PM",
+            "rawValueJson": "0.520833333333333",
+            "numberFormat": "h:mm AM/PM"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "75",
+            "rawValueJson": "75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "100.5",
+            "rawValueJson": "100.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "1/7/2016",
+            "rawValueJson": "42376",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "7:15 PM",
+            "rawValueJson": "0.802083333333333",
+            "numberFormat": "h:mm AM/PM"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "100.3",
+            "rawValueJson": "100.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2/7/2016",
+            "rawValueJson": "42407",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "8:00 AM",
+            "rawValueJson": "0.333333333333333",
+            "numberFormat": "h:mm AM/PM"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "132",
+            "rawValueJson": "132",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "108.3",
+            "rawValueJson": "108.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "2/7/2016",
+            "rawValueJson": "42407",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "12:15 PM",
+            "rawValueJson": "0.510416666666667",
+            "numberFormat": "h:mm AM/PM"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "106.6",
+            "rawValueJson": "106.6",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "TIME",
+          "rawValueJson": "\"TIME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "BLOOD SUGAR (mg/dL)",
+          "rawValueJson": "\"BLOOD SUGAR (mg/dL)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "RUNNING AVERAGE",
+          "rawValueJson": "\"RUNNING AVERAGE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1/7/2016",
+          "rawValueJson": "42376",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "8:45 AM",
+          "rawValueJson": "0.364583333333333",
+          "numberFormat": "h:mm AM/PM"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "126",
+          "rawValueJson": "126",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "126",
+          "rawValueJson": "126",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "1/7/2016",
+          "rawValueJson": "42376",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "12:30 PM",
+          "rawValueJson": "0.520833333333333",
+          "numberFormat": "h:mm AM/PM"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "75",
+          "rawValueJson": "75",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "100.5",
+          "rawValueJson": "100.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "1/7/2016",
+          "rawValueJson": "42376",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "7:15 PM",
+          "rawValueJson": "0.802083333333333",
+          "numberFormat": "h:mm AM/PM"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "100.3",
+          "rawValueJson": "100.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2/7/2016",
+          "rawValueJson": "42407",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "8:00 AM",
+          "rawValueJson": "0.333333333333333",
+          "numberFormat": "h:mm AM/PM"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "132",
+          "rawValueJson": "132",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "108.3",
+          "rawValueJson": "108.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "2/7/2016",
+          "rawValueJson": "42407",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "12:15 PM",
+          "rawValueJson": "0.510416666666667",
+          "numberFormat": "h:mm AM/PM"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "100",
+          "rawValueJson": "100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "106.6",
+          "rawValueJson": "106.6",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "fa4a5ff9-dd42-42bc-af4b-810bf604552d",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

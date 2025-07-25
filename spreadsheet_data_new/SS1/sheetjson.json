@@ -1,0 +1,150 @@
+{
+    "worksheets": {
+        "Instructions": {
+            "name": "Instructions",
+            "cells": {
+                "A1": {
+                    "value": "Instructions",
+                    "datatype": "string"
+                },
+                "A2": {
+                    "value": "Thank you for registering to be a part of this study. Your task is to evaluate the accuracy of tables that attempt to replicate an image of a given original table by \n(i) making observations on such copies, followed by \n(ii) editing these copies to exactly match the structure of the original table\nYou will perform this task for 6 copies.",
+                    "datatype": "string"
+                },
+                "A3": {
+                    "value": "None of the copies contain Excel formulas or presentation features such as names, borders, themes, or  conditional formatting, so please do not consider these as factors for your evaluation or add any of these features while editing the copies. All tables pertain to financial data. ",
+                    "datatype": "string"
+                }
+            },
+            "conditionalFormatting": [],
+            "tables": [],
+            "charts": [],
+            "namedItems": []
+        },
+        "Evaluation": {
+            "name": "Evaluation",
+            "cells": {
+                "A1": {
+                    "value": "Link to tables",
+                    "datatype": "string",
+                    "hyperlink": {
+                        "target": "https://1drv.ms/f/s!Al-rjBLU5Po1gkTqI7P0h_jcqq_h?e=GSWTsV"
+                    }
+                },
+                "A2": {
+                    "value": "Original Table",
+                    "datatype": "string"
+                },
+                "B2": {
+                    "value": "Copy",
+                    "datatype": "string"
+                },
+                "C2": {
+                    "value": "Instruction",
+                    "datatype": "string"
+                },
+                "D2": {
+                    "value": "Please rate your agreement with the following statement: The copy accurately replicates the structure of the original table.",
+                    "datatype": "string"
+                },
+                "E2": {
+                    "value": "Overall, how difficult or easy was it to verify the accuracy of the copy?",
+                    "datatype": "string"
+                },
+                "F2": {
+                    "value": "Instruction",
+                    "datatype": "string"
+                },
+                "G2": {
+                    "value": "Overall, how difficult or easy was it to fix the copy?",
+                    "datatype": "string"
+                },
+                "A3": {
+                    "value": "Table",
+                    "datatype": "string"
+                },
+                "C3": {
+                    "value": "Please answer the following questions based only on your assessment of the copy. ",
+                    "datatype": "string"
+                },
+                "F3": {
+                    "value": "Please edit the copy to exactly match the structure and data of the original table before answering the next question. Do not add formatting (alignment, fonts, etc.) or presentation-related features (titles, borders, colors,etc.).",
+                    "datatype": "string"
+                },
+                "A4": {
+                    "value": "Table",
+                    "datatype": "string"
+                },
+                "A5": {
+                    "value": "Table",
+                    "datatype": "string"
+                },
+                "A6": {
+                    "value": "Table",
+                    "datatype": "string"
+                },
+                "A7": {
+                    "value": "Table",
+                    "datatype": "string"
+                },
+                "A8": {
+                    "value": "Table",
+                    "datatype": "string"
+                }
+            },
+            "conditionalFormatting": [],
+            "tables": [],
+            "charts": [],
+            "namedItems": [],
+            "hyperlinks_summary": {
+                "count": 1,
+                "cells_with_hyperlinks": [
+                    "A1"
+                ]
+            },
+            "data_validation": {
+                "sheet_name": "Evaluation",
+                "validations": [
+                    {
+                        "sqref": "E3:E66 G3:G66",
+                        "showDropDown": "False",
+                        "formula1": "\"Very Easy, Easy, Somewhat Easy, Neutral, Somewhat Difficult, Difficult, Very Difficult\"",
+                        "allowBlank": "True",
+                        "showErrorMessage": "True",
+                        "showInputMessage": "True",
+                        "type": "list"
+                    },
+                    {
+                        "sqref": "D3:D8",
+                        "showDropDown": "False",
+                        "formula1": "\"Strongly Disagree, Disagree, Somewhat Disagree, Neutral, Somewhat Agree, Agree, Strongly Agree\"",
+                        "allowBlank": "True",
+                        "showErrorMessage": "True",
+                        "showInputMessage": "True",
+                        "type": "list"
+                    }
+                ]
+            }
+        }
+    },
+    "defaultSlicerStyles": "SlicerStyleLight1",
+    "defaultTimelineStyles": "TimeSlicerStyleLight1",
+    "namedItems": [],
+    "meta": {
+        "contentStatus": "None",
+        "lastPrinted": "None",
+        "revision": "None",
+        "version": "None",
+        "creator": "Aayush Kumar",
+        "lastModifiedBy": "None",
+        "modified": "2025-07-09 06:19:09",
+        "created": "2025-06-11 13:47:30",
+        "title": "None",
+        "subject": "None",
+        "description": "None",
+        "identifier": "None",
+        "language": "None",
+        "keywords": "None",
+        "category": "None"
+    }
+}

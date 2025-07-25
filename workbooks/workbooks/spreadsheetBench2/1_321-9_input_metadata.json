@@ -1,0 +1,4355 @@
+[
+  {
+    "range": {
+      "worksheetId": "{6C7A0DBD-D8FF-4B6E-B345-76112706F3F6}",
+      "top": 2,
+      "left": 1,
+      "bottom": 55,
+      "right": 13
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{6C7A0DBD-D8FF-4B6E-B345-76112706F3F6}",
+          "top": 2,
+          "bottom": 55,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 53
+          }
+        ],
+        "headerNames": [
+          "\"ID\"",
+          "\"Name\"",
+          "\"Document Number\"",
+          "\"Task Number\"",
+          "\"Task Name\"",
+          "\"Award Number\"",
+          "\"Task Activity\"",
+          "\"Task Account\"",
+          "\"GL Date\"",
+          "\"Burdened Cost\"",
+          "\"Supplier Name\"",
+          "\"Supplier Number\"",
+          "\"Expenditure ID\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "ID",
+            "rawValueJson": "\"ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Document Number",
+            "rawValueJson": "\"Document Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Task Number",
+            "rawValueJson": "\"Task Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Task Name",
+            "rawValueJson": "\"Task Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Award Number",
+            "rawValueJson": "\"Award Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "Task Activity",
+            "rawValueJson": "\"Task Activity\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "Task Account",
+            "rawValueJson": "\"Task Account\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "GL Date",
+            "rawValueJson": "\"GL Date\"",
+            "numberFormat": "m/d/yy;@"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "Burdened Cost",
+            "rawValueJson": "\"Burdened Cost\"",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "Supplier Name",
+            "rawValueJson": "\"Supplier Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "Supplier Number",
+            "rawValueJson": "\"Supplier Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "Expenditure ID",
+            "rawValueJson": "\"Expenditure ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "20377AC",
+            "rawValueJson": "\"20377AC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "E1BC",
+            "rawValueJson": "\"E1BC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "5710",
+            "rawValueJson": "5710",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "2/18/21",
+            "rawValueJson": "44245",
+            "numberFormat": "m/d/yy;@"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "79,998.03",
+            "rawValueJson": "79998.03",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "AOE",
+            "rawValueJson": "\"AOE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "1237029",
+            "rawValueJson": "1237029",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": "4541271",
+            "rawValueJson": "4541271",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "20377AC",
+            "rawValueJson": "\"20377AC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "E1BC",
+            "rawValueJson": "\"E1BC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "5710",
+            "rawValueJson": "5710",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "9/1/21",
+            "rawValueJson": "44440",
+            "numberFormat": "m/d/yy;@"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "-79,998.03",
+            "rawValueJson": "-79998.03",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "AOE",
+            "rawValueJson": "\"AOE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "1237029",
+            "rawValueJson": "1237029",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 13,
+            "displayText": "4541270",
+            "rawValueJson": "4541270",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "20377ACA",
+            "rawValueJson": "\"20377ACA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "E1BC",
+            "rawValueJson": "\"E1BC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "5710",
+            "rawValueJson": "5710",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "9/14/21",
+            "rawValueJson": "44453",
+            "numberFormat": "m/d/yy;@"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "-79,998.03",
+            "rawValueJson": "-79998.03",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "AOE",
+            "rawValueJson": "\"AOE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "1237029",
+            "rawValueJson": "1237029",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "5045746",
+            "rawValueJson": "5045746",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "20377ACA",
+            "rawValueJson": "\"20377ACA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "E1BC",
+            "rawValueJson": "\"E1BC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "5710",
+            "rawValueJson": "5710",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "8/14/21",
+            "rawValueJson": "44422",
+            "numberFormat": "m/d/yy;@"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "28.35",
+            "rawValueJson": "28.35",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "AOE",
+            "rawValueJson": "\"AOE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "1237029",
+            "rawValueJson": "1237029",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "5045746",
+            "rawValueJson": "5045746",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "20377ACA",
+            "rawValueJson": "\"20377ACA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "E1BC",
+            "rawValueJson": "\"E1BC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "5710",
+            "rawValueJson": "5710",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 9,
+            "displayText": "11/14/21",
+            "rawValueJson": "44514",
+            "numberFormat": "m/d/yy;@"
+          },
+          {
+            "row": 7,
+            "column": 10,
+            "displayText": "45.72",
+            "rawValueJson": "45.72",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 7,
+            "column": 11,
+            "displayText": "AOE",
+            "rawValueJson": "\"AOE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 12,
+            "displayText": "1237029",
+            "rawValueJson": "1237029",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 13,
+            "displayText": "5045746",
+            "rawValueJson": "5045746",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{6C7A0DBD-D8FF-4B6E-B345-76112706F3F6}",
+          "top": 2,
+          "bottom": 55,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 2,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 1
+              },
+              {
+                "top": 2,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 1
+              },
+              {
+                "top": 8,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 1
+              },
+              {
+                "top": 9,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 1
+              },
+              {
+                "top": 10,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 1
+              },
+              {
+                "top": 11,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 1
+              },
+              {
+                "top": 12,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 1
+              },
+              {
+                "top": 13,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 1
+              },
+              {
+                "top": 14,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 1
+              },
+              {
+                "top": 15,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 1
+              },
+              {
+                "top": 16,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 1
+              },
+              {
+                "top": 17,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 18,
+                "left": 1
+              },
+              {
+                "top": 18,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 19,
+                "left": 1
+              },
+              {
+                "top": 19,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 20,
+                "left": 1
+              },
+              {
+                "top": 20,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 21,
+                "left": 1
+              },
+              {
+                "top": 21,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 22,
+                "left": 1
+              },
+              {
+                "top": 22,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 23,
+                "left": 1
+              },
+              {
+                "top": 23,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 24,
+                "left": 1
+              },
+              {
+                "top": 24,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 25,
+                "left": 1
+              },
+              {
+                "top": 25,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 26,
+                "left": 1
+              },
+              {
+                "top": 26,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 27,
+                "left": 1
+              },
+              {
+                "top": 27,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 28,
+                "left": 1
+              },
+              {
+                "top": 28,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 29,
+                "left": 1
+              },
+              {
+                "top": 29,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 30,
+                "left": 1
+              },
+              {
+                "top": 30,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 31,
+                "left": 1
+              },
+              {
+                "top": 31,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 32,
+                "left": 1
+              },
+              {
+                "top": 32,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 33,
+                "left": 1
+              },
+              {
+                "top": 33,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 34,
+                "left": 1
+              },
+              {
+                "top": 34,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 35,
+                "left": 1
+              },
+              {
+                "top": 35,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 36,
+                "left": 1
+              },
+              {
+                "top": 36,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 37,
+                "left": 1
+              },
+              {
+                "top": 37,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 38,
+                "left": 1
+              },
+              {
+                "top": 38,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 39,
+                "left": 1
+              },
+              {
+                "top": 39,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 40,
+                "left": 1
+              },
+              {
+                "top": 40,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 41,
+                "left": 1
+              },
+              {
+                "top": 41,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 42,
+                "left": 1
+              },
+              {
+                "top": 42,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 43,
+                "left": 1
+              },
+              {
+                "top": 43,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 44,
+                "left": 1
+              },
+              {
+                "top": 44,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 45,
+                "left": 1
+              },
+              {
+                "top": 45,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 46,
+                "left": 1
+              },
+              {
+                "top": 46,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 47,
+                "left": 1
+              },
+              {
+                "top": 47,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 48,
+                "left": 1
+              },
+              {
+                "top": 48,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 49,
+                "left": 1
+              },
+              {
+                "top": 49,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 50,
+                "left": 1
+              },
+              {
+                "top": 50,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 51,
+                "left": 1
+              },
+              {
+                "top": 51,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 52,
+                "left": 1
+              },
+              {
+                "top": 52,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 53,
+                "left": 1
+              },
+              {
+                "top": 53,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 54,
+                "left": 1
+              },
+              {
+                "top": 54,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 55,
+                "left": 1
+              },
+              {
+                "top": 55,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 11,
+            "end": 12
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "ID",
+            "rawValueJson": "\"ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Document Number",
+            "rawValueJson": "\"Document Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Task Number",
+            "rawValueJson": "\"Task Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Task Name",
+            "rawValueJson": "\"Task Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Award Number",
+            "rawValueJson": "\"Award Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "20377AC",
+            "rawValueJson": "\"20377AC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "20377AC",
+            "rawValueJson": "\"20377AC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "20377ACA",
+            "rawValueJson": "\"20377ACA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "20377ACA",
+            "rawValueJson": "\"20377ACA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "20377ACA",
+            "rawValueJson": "\"20377ACA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "20377ACA",
+            "rawValueJson": "\"20377ACA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "00001-2018",
+            "rawValueJson": "\"00001-2018\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "133.03",
+            "rawValueJson": "133.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "PUB ART C BLYTHE LIB",
+            "rawValueJson": "\"PUB ART C BLYTHE LIB\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "1050000",
+            "rawValueJson": "1050000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "C77829000",
+            "rawValueJson": "\"C77829000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "CENTER AIR HANDLER",
+            "rawValueJson": "\"CENTER AIR HANDLER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": " 2-FCS0011ACCX",
+            "rawValueJson": "\" 2-FCS0011ACCX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "Costs That Cannot Be",
+            "rawValueJson": "\"Costs That Cannot Be\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "3000200",
+            "rawValueJson": "3000200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "C77829000",
+            "rawValueJson": "\"C77829000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "CENTER AIR HANDLER",
+            "rawValueJson": "\"CENTER AIR HANDLER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": " 2-FCS0011ACCX",
+            "rawValueJson": "\" 2-FCS0011ACCX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "Procurement for Mate",
+            "rawValueJson": "\"Procurement for Mate\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "3000200",
+            "rawValueJson": "3000200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "C91185000",
+            "rawValueJson": "\"C91185000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "S#16 EXP & REPL",
+            "rawValueJson": "\"S#16 EXP & REPL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "-210",
+            "rawValueJson": "-210",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "3001300",
+            "rawValueJson": "3001300",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "C91185000",
+            "rawValueJson": "\"C91185000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "S#16 EXP & REPL",
+            "rawValueJson": "\"S#16 EXP & REPL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "-210",
+            "rawValueJson": "-210",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "3001300",
+            "rawValueJson": "3001300",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "C77832002",
+            "rawValueJson": "\"C77832002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "CONSOL MNT FAC",
+            "rawValueJson": "\"CONSOL MNT FAC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "3001800",
+            "rawValueJson": "3001800",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "C77832002",
+            "rawValueJson": "\"C77832002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "CONSOL MNT FAC",
+            "rawValueJson": "\"CONSOL MNT FAC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "3001800",
+            "rawValueJson": "3001800",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "C77832002",
+            "rawValueJson": "\"C77832002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "CONSOL MNT FAC",
+            "rawValueJson": "\"CONSOL MNT FAC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "3001800",
+            "rawValueJson": "3001800",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "C77832002",
+            "rawValueJson": "\"C77832002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "CONSOL MNT FAC",
+            "rawValueJson": "\"CONSOL MNT FAC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 6,
+            "displayText": "3001800",
+            "rawValueJson": "3001800",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 3,
+            "displayText": "17662AC",
+            "rawValueJson": "\"17662AC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "17662AC",
+            "rawValueJson": "\"17662AC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "1.09",
+            "rawValueJson": "1.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "Non Capital Cost",
+            "rawValueJson": "\"Non Capital Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "17662AC",
+            "rawValueJson": "\"17662AC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "17662AC",
+            "rawValueJson": "\"17662AC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 1,
+            "displayText": "C91189000",
+            "rawValueJson": "\"C91189000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 2,
+            "displayText": "FIRE STATION",
+            "rawValueJson": "\"FIRE STATION\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 4,
+            "displayText": "1.03",
+            "rawValueJson": "1.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 5,
+            "displayText": "Design & Site Permit",
+            "rawValueJson": "\"Design & Site Permit\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 6,
+            "displayText": "3001300",
+            "rawValueJson": "3001300",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 1,
+            "displayText": "C91189000",
+            "rawValueJson": "\"C91189000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 2,
+            "displayText": "FIRE STATION",
+            "rawValueJson": "\"FIRE STATION\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 4,
+            "displayText": "1.03",
+            "rawValueJson": "1.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 5,
+            "displayText": "Design & Site Permit",
+            "rawValueJson": "\"Design & Site Permit\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 6,
+            "displayText": "3001300",
+            "rawValueJson": "3001300",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 3,
+            "displayText": "00001-2018",
+            "rawValueJson": "\"00001-2018\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 4,
+            "displayText": "133.03",
+            "rawValueJson": "133.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 5,
+            "displayText": "PUB ART C BLYTHE LIB",
+            "rawValueJson": "\"PUB ART C BLYTHE LIB\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 6,
+            "displayText": "1050000",
+            "rawValueJson": "1050000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 3,
+            "displayText": "00002-2018",
+            "rawValueJson": "\"00002-2018\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 4,
+            "displayText": "133.07",
+            "rawValueJson": "133.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 5,
+            "displayText": "PUB ART C BLYTHE LIB",
+            "rawValueJson": "\"PUB ART C BLYTHE LIB\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 6,
+            "displayText": "1050000",
+            "rawValueJson": "1050000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 3,
+            "displayText": "00002-2018-082119",
+            "rawValueJson": "\"00002-2018-082119\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 4,
+            "displayText": "133.07",
+            "rawValueJson": "133.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 5,
+            "displayText": "PUB ART C BLYTHE LIB",
+            "rawValueJson": "\"PUB ART C BLYTHE LIB\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 6,
+            "displayText": "1050000",
+            "rawValueJson": "1050000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 3,
+            "displayText": "00003-2018",
+            "rawValueJson": "\"00003-2018\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 4,
+            "displayText": "133.07",
+            "rawValueJson": "133.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 5,
+            "displayText": "PUB ART C BLYTHE LIB",
+            "rawValueJson": "\"PUB ART C BLYTHE LIB\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 6,
+            "displayText": "1050200",
+            "rawValueJson": "1050200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 3,
+            "displayText": "00004-20120",
+            "rawValueJson": "\"00004-20120\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 4,
+            "displayText": "133.07",
+            "rawValueJson": "133.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 5,
+            "displayText": "PUB ART C BLYTHE LIB",
+            "rawValueJson": "\"PUB ART C BLYTHE LIB\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 6,
+            "displayText": "1050200",
+            "rawValueJson": "1050200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 1,
+            "displayText": "C89900000",
+            "rawValueJson": "\"C89900000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "PROP ACQ",
+            "rawValueJson": "\"PROP ACQ\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 3,
+            "displayText": "580602",
+            "rawValueJson": "580602",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 4,
+            "displayText": "5.04",
+            "rawValueJson": "5.04",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 5,
+            "displayText": "JEFFCOAT-FISHHAWKSHW",
+            "rawValueJson": "\"JEFFCOAT-FISHHAWKSHW\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 6,
+            "displayText": "3001900",
+            "rawValueJson": "3001900",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 1,
+            "displayText": "C77847000",
+            "rawValueJson": "\"C77847000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "LAND ACQUISITION",
+            "rawValueJson": "\"LAND ACQUISITION\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 3,
+            "displayText": "607827",
+            "rawValueJson": "607827",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 4,
+            "displayText": "1.04",
+            "rawValueJson": "1.04",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 5,
+            "displayText": "Land Acquisition",
+            "rawValueJson": "\"Land Acquisition\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 6,
+            "displayText": "3001800",
+            "rawValueJson": "3001800",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 1,
+            "displayText": "C77847000",
+            "rawValueJson": "\"C77847000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 2,
+            "displayText": "LAND ACQUISITION",
+            "rawValueJson": "\"LAND ACQUISITION\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 3,
+            "displayText": "0000607827AC",
+            "rawValueJson": "\"0000607827AC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 4,
+            "displayText": "1.04",
+            "rawValueJson": "1.04",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 5,
+            "displayText": "Land Acquisition",
+            "rawValueJson": "\"Land Acquisition\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 6,
+            "displayText": "3001800",
+            "rawValueJson": "3001800",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 3,
+            "displayText": "145",
+            "rawValueJson": "145",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 4,
+            "displayText": "123.03",
+            "rawValueJson": "123.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 5,
+            "displayText": "ROUNDAB RIVERVIEW DR",
+            "rawValueJson": "\"ROUNDAB RIVERVIEW DR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 6,
+            "displayText": "1020000",
+            "rawValueJson": "1020000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 3,
+            "displayText": "146",
+            "rawValueJson": "146",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 4,
+            "displayText": "121.03",
+            "rawValueJson": "121.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 5,
+            "displayText": "ROUNDAB BALM BOYETTE",
+            "rawValueJson": "\"ROUNDAB BALM BOYETTE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 6,
+            "displayText": "1010000",
+            "rawValueJson": "1010000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 3,
+            "displayText": "150",
+            "rawValueJson": "150",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 4,
+            "displayText": "141.03",
+            "rawValueJson": "141.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 5,
+            "displayText": "RVERVW/ALAFIA PK",
+            "rawValueJson": "\"RVERVW/ALAFIA PK\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 6,
+            "displayText": "1020000",
+            "rawValueJson": "1020000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 3,
+            "displayText": "151",
+            "rawValueJson": "151",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 4,
+            "displayText": "140.03",
+            "rawValueJson": "140.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 5,
+            "displayText": "ROUNDABT DUR/LIL/DOV",
+            "rawValueJson": "\"ROUNDABT DUR/LIL/DOV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 6,
+            "displayText": "1020000",
+            "rawValueJson": "1020000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 3,
+            "displayText": "152",
+            "rawValueJson": "152",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 4,
+            "displayText": "139.03",
+            "rawValueJson": "139.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 5,
+            "displayText": "ROUNDABT DUR/MILLER",
+            "rawValueJson": "\"ROUNDABT DUR/MILLER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 6,
+            "displayText": "1010000",
+            "rawValueJson": "1010000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 1,
+            "displayText": "C77796000",
+            "rawValueJson": "\"C77796000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 2,
+            "displayText": "HISTORIC PRESERV",
+            "rawValueJson": "\"HISTORIC PRESERV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 3,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 4,
+            "displayText": "652.09",
+            "rawValueJson": "652.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 5,
+            "displayText": "LIONS EYE INST LOZAN",
+            "rawValueJson": "\"LIONS EYE INST LOZAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 37,
+            "column": 6,
+            "displayText": "3000200",
+            "rawValueJson": "3000200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 1,
+            "displayText": "C89200000",
+            "rawValueJson": "\"C89200000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 2,
+            "displayText": "ENV LAND ACQ  REST",
+            "rawValueJson": "\"ENV LAND ACQ  REST\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 3,
+            "displayText": "0002REV",
+            "rawValueJson": "\"0002REV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 4,
+            "displayText": "801.09",
+            "rawValueJson": "801.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 5,
+            "displayText": "CONE RANCH BRIDGES R",
+            "rawValueJson": "\"CONE RANCH BRIDGES R\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 38,
+            "column": 6,
+            "displayText": "3000700",
+            "rawValueJson": "3000700",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 1,
+            "displayText": "C77796000",
+            "rawValueJson": "\"C77796000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 2,
+            "displayText": "HISTORIC PRESERV",
+            "rawValueJson": "\"HISTORIC PRESERV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 3,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 4,
+            "displayText": "652.09",
+            "rawValueJson": "652.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 5,
+            "displayText": "LIONS EYE INST LOZAN",
+            "rawValueJson": "\"LIONS EYE INST LOZAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 39,
+            "column": 6,
+            "displayText": "3000200",
+            "rawValueJson": "3000200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 1,
+            "displayText": "C77796000",
+            "rawValueJson": "\"C77796000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 2,
+            "displayText": "HISTORIC PRESERV",
+            "rawValueJson": "\"HISTORIC PRESERV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 3,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 4,
+            "displayText": "652.09",
+            "rawValueJson": "652.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 5,
+            "displayText": "LIONS EYE INST LOZAN",
+            "rawValueJson": "\"LIONS EYE INST LOZAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 40,
+            "column": 6,
+            "displayText": "3000200",
+            "rawValueJson": "3000200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 1,
+            "displayText": "C77796000",
+            "rawValueJson": "\"C77796000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 2,
+            "displayText": "HISTORIC PRESERV",
+            "rawValueJson": "\"HISTORIC PRESERV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 3,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 4,
+            "displayText": "652.09",
+            "rawValueJson": "652.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 5,
+            "displayText": "LIONS EYE INST LOZAN",
+            "rawValueJson": "\"LIONS EYE INST LOZAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 41,
+            "column": 6,
+            "displayText": "3000200",
+            "rawValueJson": "3000200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 1,
+            "displayText": "C77796000",
+            "rawValueJson": "\"C77796000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 2,
+            "displayText": "HISTORIC PRESERV",
+            "rawValueJson": "\"HISTORIC PRESERV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 3,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 4,
+            "displayText": "652.09",
+            "rawValueJson": "652.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 5,
+            "displayText": "LIONS EYE INST LOZAN",
+            "rawValueJson": "\"LIONS EYE INST LOZAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 42,
+            "column": 6,
+            "displayText": "3000200",
+            "rawValueJson": "3000200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 1,
+            "displayText": "C77796000",
+            "rawValueJson": "\"C77796000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 2,
+            "displayText": "HISTORIC PRESERV",
+            "rawValueJson": "\"HISTORIC PRESERV\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 3,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 4,
+            "displayText": "652.09",
+            "rawValueJson": "652.09",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 5,
+            "displayText": "LIONS EYE INST LOZAN",
+            "rawValueJson": "\"LIONS EYE INST LOZAN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 43,
+            "column": 6,
+            "displayText": "3000200",
+            "rawValueJson": "3000200",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 1,
+            "displayText": "C70000000",
+            "rawValueJson": "\"C70000000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 2,
+            "displayText": "ART PROGRAM",
+            "rawValueJson": "\"ART PROGRAM\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 4,
+            "displayText": "127.03",
+            "rawValueJson": "127.03",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 5,
+            "displayText": "URBAN CORE PRTNRSHIP",
+            "rawValueJson": "\"URBAN CORE PRTNRSHIP\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 44,
+            "column": 6,
+            "displayText": "1010000",
+            "rawValueJson": "1010000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 1,
+            "displayText": "C83231000",
+            "rawValueJson": "\"C83231000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 2,
+            "displayText": "PARKS PLAYGROUNDS",
+            "rawValueJson": "\"PARKS PLAYGROUNDS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 45,
+            "column": 6,
+            "displayText": "3000300",
+            "rawValueJson": "3000300",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 1,
+            "displayText": "C83231000",
+            "rawValueJson": "\"C83231000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 2,
+            "displayText": "PARKS PLAYGROUNDS",
+            "rawValueJson": "\"PARKS PLAYGROUNDS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 46,
+            "column": 6,
+            "displayText": "3000300",
+            "rawValueJson": "3000300",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 1,
+            "displayText": "C83231000",
+            "rawValueJson": "\"C83231000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 2,
+            "displayText": "PARKS PLAYGROUNDS",
+            "rawValueJson": "\"PARKS PLAYGROUNDS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 47,
+            "column": 6,
+            "displayText": "3000300",
+            "rawValueJson": "3000300",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 1,
+            "displayText": "C83231000",
+            "rawValueJson": "\"C83231000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 2,
+            "displayText": "PARKS PLAYGROUNDS",
+            "rawValueJson": "\"PARKS PLAYGROUNDS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 4,
+            "displayText": "1.07",
+            "rawValueJson": "1.07",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 5,
+            "displayText": "Construction",
+            "rawValueJson": "\"Construction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 48,
+            "column": 6,
+            "displayText": "3000300",
+            "rawValueJson": "3000300",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 3,
+            "displayText": "20377",
+            "rawValueJson": "20377",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 49,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 3,
+            "displayText": "20377",
+            "rawValueJson": "20377",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 50,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 3,
+            "displayText": "20377",
+            "rawValueJson": "20377",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 51,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 3,
+            "displayText": "20377",
+            "rawValueJson": "20377",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 52,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 3,
+            "displayText": "20377",
+            "rawValueJson": "20377",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 53,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 3,
+            "displayText": "20377",
+            "rawValueJson": "20377",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 54,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 1,
+            "displayText": "C76016000",
+            "rawValueJson": "\"C76016000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 2,
+            "displayText": "LIBRARY EXP/REPLACE",
+            "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 3,
+            "displayText": "20377",
+            "rawValueJson": "20377",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 4,
+            "displayText": "1.05",
+            "rawValueJson": "1.05",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 5,
+            "displayText": "Proc Materials/Equip",
+            "rawValueJson": "\"Proc Materials/Equip\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 55,
+            "column": 6,
+            "displayText": "1040100",
+            "rawValueJson": "1040100",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "ID",
+          "rawValueJson": "\"ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Document Number",
+          "rawValueJson": "\"Document Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Task Number",
+          "rawValueJson": "\"Task Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "Task Name",
+          "rawValueJson": "\"Task Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Award Number",
+          "rawValueJson": "\"Award Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "Task Activity",
+          "rawValueJson": "\"Task Activity\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "Task Account",
+          "rawValueJson": "\"Task Account\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "displayText": "GL Date",
+          "rawValueJson": "\"GL Date\"",
+          "numberFormat": "m/d/yy;@"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "displayText": "Burdened Cost",
+          "rawValueJson": "\"Burdened Cost\"",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "Supplier Name",
+          "rawValueJson": "\"Supplier Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "Supplier Number",
+          "rawValueJson": "\"Supplier Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "Expenditure ID",
+          "rawValueJson": "\"Expenditure ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "C76016000",
+          "rawValueJson": "\"C76016000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "LIBRARY EXP/REPLACE",
+          "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "20377AC",
+          "rawValueJson": "\"20377AC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "1.09",
+          "rawValueJson": "1.09",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Non Capital Cost",
+          "rawValueJson": "\"Non Capital Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "1040100",
+          "rawValueJson": "1040100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "E1BC",
+          "rawValueJson": "\"E1BC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "5710",
+          "rawValueJson": "5710",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "2/18/21",
+          "rawValueJson": "44245",
+          "numberFormat": "m/d/yy;@"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "79,998.03",
+          "rawValueJson": "79998.03",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "AOE",
+          "rawValueJson": "\"AOE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "displayText": "1237029",
+          "rawValueJson": "1237029",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 13,
+          "displayText": "4541271",
+          "rawValueJson": "4541271",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "C76016000",
+          "rawValueJson": "\"C76016000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "LIBRARY EXP/REPLACE",
+          "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "20377AC",
+          "rawValueJson": "\"20377AC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "1.07",
+          "rawValueJson": "1.07",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Construction",
+          "rawValueJson": "\"Construction\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "1040100",
+          "rawValueJson": "1040100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "E1BC",
+          "rawValueJson": "\"E1BC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "5710",
+          "rawValueJson": "5710",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "9/1/21",
+          "rawValueJson": "44440",
+          "numberFormat": "m/d/yy;@"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "displayText": "-79,998.03",
+          "rawValueJson": "-79998.03",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "AOE",
+          "rawValueJson": "\"AOE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "displayText": "1237029",
+          "rawValueJson": "1237029",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 13,
+          "displayText": "4541270",
+          "rawValueJson": "4541270",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "C76016000",
+          "rawValueJson": "\"C76016000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "LIBRARY EXP/REPLACE",
+          "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "20377ACA",
+          "rawValueJson": "\"20377ACA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "1.09",
+          "rawValueJson": "1.09",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Non Capital Cost",
+          "rawValueJson": "\"Non Capital Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "1040100",
+          "rawValueJson": "1040100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "E1BC",
+          "rawValueJson": "\"E1BC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "5710",
+          "rawValueJson": "5710",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "9/14/21",
+          "rawValueJson": "44453",
+          "numberFormat": "m/d/yy;@"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "-79,998.03",
+          "rawValueJson": "-79998.03",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "AOE",
+          "rawValueJson": "\"AOE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "1237029",
+          "rawValueJson": "1237029",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 13,
+          "displayText": "5045746",
+          "rawValueJson": "5045746",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "C76016000",
+          "rawValueJson": "\"C76016000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "LIBRARY EXP/REPLACE",
+          "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "20377ACA",
+          "rawValueJson": "\"20377ACA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "1.09",
+          "rawValueJson": "1.09",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Non Capital Cost",
+          "rawValueJson": "\"Non Capital Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "1040100",
+          "rawValueJson": "1040100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "E1BC",
+          "rawValueJson": "\"E1BC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "5710",
+          "rawValueJson": "5710",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "8/14/21",
+          "rawValueJson": "44422",
+          "numberFormat": "m/d/yy;@"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "28.35",
+          "rawValueJson": "28.35",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "AOE",
+          "rawValueJson": "\"AOE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "1237029",
+          "rawValueJson": "1237029",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 13,
+          "displayText": "5045746",
+          "rawValueJson": "5045746",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "C76016000",
+          "rawValueJson": "\"C76016000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "LIBRARY EXP/REPLACE",
+          "rawValueJson": "\"LIBRARY EXP/REPLACE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "20377ACA",
+          "rawValueJson": "\"20377ACA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "1.09",
+          "rawValueJson": "1.09",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "Non Capital Cost",
+          "rawValueJson": "\"Non Capital Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "1040100",
+          "rawValueJson": "1040100",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "E1BC",
+          "rawValueJson": "\"E1BC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": "5710",
+          "rawValueJson": "5710",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "displayText": "11/14/21",
+          "rawValueJson": "44514",
+          "numberFormat": "m/d/yy;@"
+        },
+        {
+          "row": 7,
+          "column": 10,
+          "displayText": "45.72",
+          "rawValueJson": "45.72",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 7,
+          "column": 11,
+          "displayText": "AOE",
+          "rawValueJson": "\"AOE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 12,
+          "displayText": "1237029",
+          "rawValueJson": "1237029",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 13,
+          "displayText": "5045746",
+          "rawValueJson": "5045746",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "eef67ffd-b191-4dea-a074-3ce58dac4039",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,4758 @@
+[
+  {
+    "range": {
+      "worksheetId": "{9057EAB9-07DC-47ED-AFD8-20064C6C69A5}",
+      "top": 1,
+      "left": 1,
+      "bottom": 94,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{9057EAB9-07DC-47ED-AFD8-20064C6C69A5}",
+          "top": 1,
+          "bottom": 94,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [
+          1
+        ],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 60
+          },
+          {
+            "start": 61,
+            "end": 93
+          }
+        ],
+        "headerNames": [
+          "\"Order\"",
+          "\"Flavor__Size\"",
+          "\"QTY\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Order",
+            "rawValueJson": "\"Order\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Flavor__Size",
+            "rawValueJson": "\"Flavor__Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "PHONE",
+            "rawValueJson": "\"PHONE\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "P32170",
+            "rawValueJson": "\"P32170\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "BBQ Chicken__W",
+            "rawValueJson": "\"BBQ Chicken__W\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "P32214",
+            "rawValueJson": "\"P32214\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Veggie__W",
+            "rawValueJson": "\"Veggie__W\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "P32167",
+            "rawValueJson": "\"P32167\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Margherita__S",
+            "rawValueJson": "\"Margherita__S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "P32210",
+            "rawValueJson": "\"P32210\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Veggie__S",
+            "rawValueJson": "\"Veggie__S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9587628865979382,
+    "sheetName": "Pies Complex",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Order",
+          "rawValueJson": "\"Order\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Flavor__Size",
+          "rawValueJson": "\"Flavor__Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "PHONE",
+          "rawValueJson": "\"PHONE\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "P32170",
+          "rawValueJson": "\"P32170\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "BBQ Chicken__W",
+          "rawValueJson": "\"BBQ Chicken__W\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "P32214",
+          "rawValueJson": "\"P32214\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Veggie__W",
+          "rawValueJson": "\"Veggie__W\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "P32167",
+          "rawValueJson": "\"P32167\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Margherita__S",
+          "rawValueJson": "\"Margherita__S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "P32210",
+          "rawValueJson": "\"P32210\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Veggie__S",
+          "rawValueJson": "\"Veggie__S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "a7dab7e9-58a7-4473-a499-b794603a9145",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{9057EAB9-07DC-47ED-AFD8-20064C6C69A5}",
+      "top": 4,
+      "left": 5,
+      "bottom": 16,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{9057EAB9-07DC-47ED-AFD8-20064C6C69A5}",
+          "top": 4,
+          "bottom": 16,
+          "left": 5,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 12
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Pie",
+            "rawValueJson": "\"Pie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Slice price",
+            "rawValueJson": "\"Slice price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "Whole price",
+            "rawValueJson": "\"Whole price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "Mini price",
+            "rawValueJson": "\"Mini price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "6.5",
+            "rawValueJson": "6.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "5.5",
+            "rawValueJson": "5.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{9057EAB9-07DC-47ED-AFD8-20064C6C69A5}",
+          "top": 4,
+          "bottom": 16,
+          "left": 5,
+          "right": 8
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Pie",
+            "rawValueJson": "\"Pie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Slice price",
+            "rawValueJson": "\"Slice price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "Whole price",
+            "rawValueJson": "\"Whole price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "Mini price",
+            "rawValueJson": "\"Mini price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "6.5",
+            "rawValueJson": "6.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "5.5",
+            "rawValueJson": "5.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "Cheese",
+            "rawValueJson": "\"Cheese\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "7.5",
+            "rawValueJson": "7.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 7,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 8,
+            "displayText": "17",
+            "rawValueJson": "17",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "Meat Lovers",
+            "rawValueJson": "\"Meat Lovers\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 7,
+            "displayText": "29",
+            "rawValueJson": "29",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 8,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "Supreme",
+            "rawValueJson": "\"Supreme\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "7.25",
+            "rawValueJson": "7.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 7,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 8,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "Buffalo Chicken",
+            "rawValueJson": "\"Buffalo Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "6.25",
+            "rawValueJson": "6.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 7,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 8,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "Sausage",
+            "rawValueJson": "\"Sausage\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 7,
+            "displayText": "38",
+            "rawValueJson": "38",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 8,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "White Pizza",
+            "rawValueJson": "\"White Pizza\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 7,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 8,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "Pesto",
+            "rawValueJson": "\"Pesto\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "7.75",
+            "rawValueJson": "7.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 7,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 8,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.7647058823529411,
+    "sheetName": "Pies Complex",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "simpleCrossTable",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "e4a0917b-c1b9-4303-88d7-9d042f0f0282",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{64466682-50CF-4BB1-A1C3-F57B53D161C2}",
+      "top": 8,
+      "left": 9,
+      "bottom": 20,
+      "right": 12
+    },
+    "interpretations": [
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{64466682-50CF-4BB1-A1C3-F57B53D161C2}",
+          "top": 8,
+          "bottom": 20,
+          "left": 9,
+          "right": 12
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 12
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 8,
+            "column": 9,
+            "displayText": "Pie",
+            "rawValueJson": "\"Pie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 10,
+            "displayText": "Slice price",
+            "rawValueJson": "\"Slice price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 11,
+            "displayText": "Whole price",
+            "rawValueJson": "\"Whole price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 12,
+            "displayText": "Mini price",
+            "rawValueJson": "\"Mini price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 9,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 10,
+            "displayText": "6.5",
+            "rawValueJson": "6.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 11,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 12,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 9,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 10,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 11,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 12,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 9,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 10,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 11,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 12,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 9,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 10,
+            "displayText": "5.5",
+            "rawValueJson": "5.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 11,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 12,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 9,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 10,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 11,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 12,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{64466682-50CF-4BB1-A1C3-F57B53D161C2}",
+          "top": 8,
+          "bottom": 20,
+          "left": 9,
+          "right": 12
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 8,
+            "column": 9,
+            "displayText": "Pie",
+            "rawValueJson": "\"Pie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 10,
+            "displayText": "Slice price",
+            "rawValueJson": "\"Slice price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 11,
+            "displayText": "Whole price",
+            "rawValueJson": "\"Whole price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 12,
+            "displayText": "Mini price",
+            "rawValueJson": "\"Mini price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 9,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 10,
+            "displayText": "6.5",
+            "rawValueJson": "6.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 11,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 12,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 9,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 10,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 11,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 12,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 9,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 10,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 11,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 12,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 9,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 10,
+            "displayText": "5.5",
+            "rawValueJson": "5.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 11,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 12,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 9,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 10,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 11,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 12,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 9,
+            "displayText": "Cheese",
+            "rawValueJson": "\"Cheese\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 10,
+            "displayText": "7.5",
+            "rawValueJson": "7.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 11,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 12,
+            "displayText": "17",
+            "rawValueJson": "17",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 9,
+            "displayText": "Meat Lovers",
+            "rawValueJson": "\"Meat Lovers\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 10,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 11,
+            "displayText": "29",
+            "rawValueJson": "29",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 12,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 9,
+            "displayText": "Supreme",
+            "rawValueJson": "\"Supreme\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 10,
+            "displayText": "7.25",
+            "rawValueJson": "7.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 11,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 12,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 9,
+            "displayText": "Buffalo Chicken",
+            "rawValueJson": "\"Buffalo Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 10,
+            "displayText": "6.25",
+            "rawValueJson": "6.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 11,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 12,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 9,
+            "displayText": "Sausage",
+            "rawValueJson": "\"Sausage\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 10,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 11,
+            "displayText": "38",
+            "rawValueJson": "38",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 12,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 9,
+            "displayText": "White Pizza",
+            "rawValueJson": "\"White Pizza\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 10,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 11,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 12,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 9,
+            "displayText": "Pesto",
+            "rawValueJson": "\"Pesto\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 10,
+            "displayText": "7.75",
+            "rawValueJson": "7.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 11,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 12,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Ex. 9-2",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "simpleCrossTable",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "baef7e63-244e-4b43-ad73-b3e0b74723fa",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{64466682-50CF-4BB1-A1C3-F57B53D161C2}",
+      "top": 1,
+      "left": 1,
+      "bottom": 91,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{64466682-50CF-4BB1-A1C3-F57B53D161C2}",
+          "top": 1,
+          "bottom": 91,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Order\"",
+          "\"Flavor__Size\"",
+          "\"Flavor\"",
+          "\"Size\"",
+          "\"QTY\"",
+          "\"Price\"",
+          "\"Total\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Order",
+            "rawValueJson": "\"Order\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Flavor__Size",
+            "rawValueJson": "\"Flavor__Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Flavor",
+            "rawValueJson": "\"Flavor\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Size",
+            "rawValueJson": "\"Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Price",
+            "rawValueJson": "\"Price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Total",
+            "rawValueJson": "\"Total\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "P32156",
+            "rawValueJson": "\"P32156\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Margherita__W",
+            "rawValueJson": "\"Margherita__W\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Whole",
+            "rawValueJson": "\"Whole\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "168",
+            "rawValueJson": "168",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "P32157",
+            "rawValueJson": "\"P32157\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Pepperoni__S",
+            "rawValueJson": "\"Pepperoni__S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Slice",
+            "rawValueJson": "\"Slice\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "70",
+            "rawValueJson": "70",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "P32158",
+            "rawValueJson": "\"P32158\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BBQ Chicken__S",
+            "rawValueJson": "\"BBQ Chicken__S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Slice",
+            "rawValueJson": "\"Slice\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "P32159",
+            "rawValueJson": "\"P32159\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Veggie__W",
+            "rawValueJson": "\"Veggie__W\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Whole",
+            "rawValueJson": "\"Whole\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "P32160",
+            "rawValueJson": "\"P32160\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Hawaiian__W",
+            "rawValueJson": "\"Hawaiian__W\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Whole",
+            "rawValueJson": "\"Whole\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "175",
+            "rawValueJson": "175",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table88",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Ex. 9-2",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Order",
+          "rawValueJson": "\"Order\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Flavor__Size",
+          "rawValueJson": "\"Flavor__Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Flavor",
+          "rawValueJson": "\"Flavor\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Size",
+          "rawValueJson": "\"Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Price",
+          "rawValueJson": "\"Price\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Total",
+          "rawValueJson": "\"Total\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "P32156",
+          "rawValueJson": "\"P32156\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Margherita__W",
+          "rawValueJson": "\"Margherita__W\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Margherita",
+          "rawValueJson": "\"Margherita\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Whole",
+          "rawValueJson": "\"Whole\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "28",
+          "rawValueJson": "28",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "168",
+          "rawValueJson": "168",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "P32157",
+          "rawValueJson": "\"P32157\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Pepperoni__S",
+          "rawValueJson": "\"Pepperoni__S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Pepperoni",
+          "rawValueJson": "\"Pepperoni\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Slice",
+          "rawValueJson": "\"Slice\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "70",
+          "rawValueJson": "70",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "P32158",
+          "rawValueJson": "\"P32158\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "BBQ Chicken__S",
+          "rawValueJson": "\"BBQ Chicken__S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "BBQ Chicken",
+          "rawValueJson": "\"BBQ Chicken\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Slice",
+          "rawValueJson": "\"Slice\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "P32159",
+          "rawValueJson": "\"P32159\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Veggie__W",
+          "rawValueJson": "\"Veggie__W\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Veggie",
+          "rawValueJson": "\"Veggie\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Whole",
+          "rawValueJson": "\"Whole\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "22",
+          "rawValueJson": "22",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "22",
+          "rawValueJson": "22",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "P32160",
+          "rawValueJson": "\"P32160\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Hawaiian__W",
+          "rawValueJson": "\"Hawaiian__W\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Hawaiian",
+          "rawValueJson": "\"Hawaiian\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Whole",
+          "rawValueJson": "\"Whole\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "25",
+          "rawValueJson": "25",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "175",
+          "rawValueJson": "175",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "9a6c8668-178e-47eb-96c0-4383bfc192d7",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{DC9811BE-014F-49A0-B809-51C4B317D1DE}",
+      "top": 4,
+      "left": 5,
+      "bottom": 16,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{DC9811BE-014F-49A0-B809-51C4B317D1DE}",
+          "top": 4,
+          "bottom": 16,
+          "left": 5,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 12
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Pie",
+            "rawValueJson": "\"Pie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Slice price",
+            "rawValueJson": "\"Slice price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "Whole price",
+            "rawValueJson": "\"Whole price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "Mini price",
+            "rawValueJson": "\"Mini price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "6.5",
+            "rawValueJson": "6.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "5.5",
+            "rawValueJson": "5.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{DC9811BE-014F-49A0-B809-51C4B317D1DE}",
+          "top": 4,
+          "bottom": 16,
+          "left": 5,
+          "right": 8
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Pie",
+            "rawValueJson": "\"Pie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Slice price",
+            "rawValueJson": "\"Slice price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "Whole price",
+            "rawValueJson": "\"Whole price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "Mini price",
+            "rawValueJson": "\"Mini price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "6.5",
+            "rawValueJson": "6.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "5.5",
+            "rawValueJson": "5.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "Cheese",
+            "rawValueJson": "\"Cheese\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "7.5",
+            "rawValueJson": "7.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 7,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 8,
+            "displayText": "17",
+            "rawValueJson": "17",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "Meat Lovers",
+            "rawValueJson": "\"Meat Lovers\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 7,
+            "displayText": "29",
+            "rawValueJson": "29",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 8,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "Supreme",
+            "rawValueJson": "\"Supreme\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "7.25",
+            "rawValueJson": "7.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 7,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 8,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "Buffalo Chicken",
+            "rawValueJson": "\"Buffalo Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "6.25",
+            "rawValueJson": "6.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 7,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 8,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "Sausage",
+            "rawValueJson": "\"Sausage\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 7,
+            "displayText": "38",
+            "rawValueJson": "38",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 8,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "White Pizza",
+            "rawValueJson": "\"White Pizza\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 7,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 8,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "Pesto",
+            "rawValueJson": "\"Pesto\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "7.75",
+            "rawValueJson": "7.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 7,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 8,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Pies",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "simpleCrossTable",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "b068c64d-43fc-470f-aad8-7a77eaf31d87",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{DC9811BE-014F-49A0-B809-51C4B317D1DE}",
+      "top": 1,
+      "left": 1,
+      "bottom": 91,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{DC9811BE-014F-49A0-B809-51C4B317D1DE}",
+          "top": 1,
+          "bottom": 91,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Order\"",
+          "\"Flavor__Size\"",
+          "\"QTY\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Order",
+            "rawValueJson": "\"Order\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Flavor__Size",
+            "rawValueJson": "\"Flavor__Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "P32156",
+            "rawValueJson": "\"P32156\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Margherita__W",
+            "rawValueJson": "\"Margherita__W\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "P32157",
+            "rawValueJson": "\"P32157\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Pepperoni__S",
+            "rawValueJson": "\"Pepperoni__S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "P32158",
+            "rawValueJson": "\"P32158\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BBQ Chicken__S",
+            "rawValueJson": "\"BBQ Chicken__S\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "P32159",
+            "rawValueJson": "\"P32159\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Veggie__W",
+            "rawValueJson": "\"Veggie__W\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "P32160",
+            "rawValueJson": "\"P32160\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Hawaiian__W",
+            "rawValueJson": "\"Hawaiian__W\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table8",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Pies",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Order",
+          "rawValueJson": "\"Order\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Flavor__Size",
+          "rawValueJson": "\"Flavor__Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "P32156",
+          "rawValueJson": "\"P32156\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Margherita__W",
+          "rawValueJson": "\"Margherita__W\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "P32157",
+          "rawValueJson": "\"P32157\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Pepperoni__S",
+          "rawValueJson": "\"Pepperoni__S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "P32158",
+          "rawValueJson": "\"P32158\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "BBQ Chicken__S",
+          "rawValueJson": "\"BBQ Chicken__S\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "P32159",
+          "rawValueJson": "\"P32159\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Veggie__W",
+          "rawValueJson": "\"Veggie__W\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "P32160",
+          "rawValueJson": "\"P32160\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Hawaiian__W",
+          "rawValueJson": "\"Hawaiian__W\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "d9b3b987-7511-418b-944f-c1d4b0b42aa0",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{7878F335-1661-4EA2-86E0-F3B400A6DB50}",
+      "top": 1,
+      "left": 1,
+      "bottom": 91,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{7878F335-1661-4EA2-86E0-F3B400A6DB50}",
+          "top": 1,
+          "bottom": 91,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Order\"",
+          "\"Flavor\"",
+          "\"Size\"",
+          "\"QTY\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Order",
+            "rawValueJson": "\"Order\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Flavor",
+            "rawValueJson": "\"Flavor\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Size",
+            "rawValueJson": "\"Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "QTY",
+            "rawValueJson": "\"QTY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "P32156",
+            "rawValueJson": "\"P32156\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Whole",
+            "rawValueJson": "\"Whole\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "P32157",
+            "rawValueJson": "\"P32157\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Slice",
+            "rawValueJson": "\"Slice\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "P32158",
+            "rawValueJson": "\"P32158\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Slice",
+            "rawValueJson": "\"Slice\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "P32159",
+            "rawValueJson": "\"P32159\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Whole",
+            "rawValueJson": "\"Whole\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "P32160",
+            "rawValueJson": "\"P32160\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Whole",
+            "rawValueJson": "\"Whole\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table889",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Pies Simple",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Order",
+          "rawValueJson": "\"Order\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Flavor",
+          "rawValueJson": "\"Flavor\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Size",
+          "rawValueJson": "\"Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "QTY",
+          "rawValueJson": "\"QTY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "P32156",
+          "rawValueJson": "\"P32156\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Margherita",
+          "rawValueJson": "\"Margherita\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Whole",
+          "rawValueJson": "\"Whole\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "P32157",
+          "rawValueJson": "\"P32157\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Pepperoni",
+          "rawValueJson": "\"Pepperoni\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Slice",
+          "rawValueJson": "\"Slice\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "P32158",
+          "rawValueJson": "\"P32158\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "BBQ Chicken",
+          "rawValueJson": "\"BBQ Chicken\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Slice",
+          "rawValueJson": "\"Slice\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "P32159",
+          "rawValueJson": "\"P32159\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Veggie",
+          "rawValueJson": "\"Veggie\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Whole",
+          "rawValueJson": "\"Whole\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "P32160",
+          "rawValueJson": "\"P32160\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Hawaiian",
+          "rawValueJson": "\"Hawaiian\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Whole",
+          "rawValueJson": "\"Whole\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "c10365fc-7a1c-4bba-8ef5-7ab74bd1aa3b",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{7878F335-1661-4EA2-86E0-F3B400A6DB50}",
+      "top": 8,
+      "left": 6,
+      "bottom": 20,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{7878F335-1661-4EA2-86E0-F3B400A6DB50}",
+          "top": 8,
+          "bottom": 20,
+          "left": 6,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 12
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "Pie",
+            "rawValueJson": "\"Pie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "Slice price",
+            "rawValueJson": "\"Slice price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "Whole price",
+            "rawValueJson": "\"Whole price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 9,
+            "displayText": "Mini price",
+            "rawValueJson": "\"Mini price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "6.5",
+            "rawValueJson": "6.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 9,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 7,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 8,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 9,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 7,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 8,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 9,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 7,
+            "displayText": "5.5",
+            "rawValueJson": "5.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 8,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 9,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 7,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 8,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 9,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{7878F335-1661-4EA2-86E0-F3B400A6DB50}",
+          "top": 8,
+          "bottom": 20,
+          "left": 6,
+          "right": 9
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "Pie",
+            "rawValueJson": "\"Pie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "Slice price",
+            "rawValueJson": "\"Slice price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "Whole price",
+            "rawValueJson": "\"Whole price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 9,
+            "displayText": "Mini price",
+            "rawValueJson": "\"Mini price\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "Margherita",
+            "rawValueJson": "\"Margherita\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "6.5",
+            "rawValueJson": "6.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 9,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "Pepperoni",
+            "rawValueJson": "\"Pepperoni\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 7,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 8,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 9,
+            "displayText": "14",
+            "rawValueJson": "14",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "BBQ Chicken",
+            "rawValueJson": "\"BBQ Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 7,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 8,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 9,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "Veggie",
+            "rawValueJson": "\"Veggie\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 7,
+            "displayText": "5.5",
+            "rawValueJson": "5.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 8,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 9,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "Hawaiian",
+            "rawValueJson": "\"Hawaiian\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 7,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 8,
+            "displayText": "25",
+            "rawValueJson": "25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 9,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "Cheese",
+            "rawValueJson": "\"Cheese\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 7,
+            "displayText": "7.5",
+            "rawValueJson": "7.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 8,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 9,
+            "displayText": "17",
+            "rawValueJson": "17",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "Meat Lovers",
+            "rawValueJson": "\"Meat Lovers\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 7,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 8,
+            "displayText": "29",
+            "rawValueJson": "29",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 9,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "Supreme",
+            "rawValueJson": "\"Supreme\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 7,
+            "displayText": "7.25",
+            "rawValueJson": "7.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 8,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 9,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 6,
+            "displayText": "Buffalo Chicken",
+            "rawValueJson": "\"Buffalo Chicken\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 7,
+            "displayText": "6.25",
+            "rawValueJson": "6.25",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 8,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 9,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 6,
+            "displayText": "Sausage",
+            "rawValueJson": "\"Sausage\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 7,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 8,
+            "displayText": "38",
+            "rawValueJson": "38",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 9,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 6,
+            "displayText": "White Pizza",
+            "rawValueJson": "\"White Pizza\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 7,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 8,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 9,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "Pesto",
+            "rawValueJson": "\"Pesto\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 7,
+            "displayText": "7.75",
+            "rawValueJson": "7.75",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 8,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 9,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Pies Simple",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "simpleCrossTable",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "80ceead7-e925-4eca-931d-ea160eb9e49d",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

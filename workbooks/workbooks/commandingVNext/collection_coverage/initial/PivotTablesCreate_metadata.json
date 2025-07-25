@@ -1,0 +1,517 @@
+[
+  {
+    "range": {
+      "worksheetId": "{19E2B25E-4490-49A4-8FFF-C395D1DE6472}",
+      "top": 1,
+      "left": 1,
+      "bottom": 70,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{19E2B25E-4490-49A4-8FFF-C395D1DE6472}",
+          "top": 1,
+          "bottom": 70,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Product Category\"",
+          "\"Product Name\"",
+          "\"Region\"",
+          "\"Cost\"",
+          "\"Sale\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Product Category",
+            "rawValueJson": "\"Product Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Product Name",
+            "rawValueJson": "\"Product Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Region",
+            "rawValueJson": "\"Region\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Cost",
+            "rawValueJson": "\"Cost\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Sale",
+            "rawValueJson": "\"Sale\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Electronics",
+            "rawValueJson": "\"Electronics\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Laptop",
+            "rawValueJson": "\"Laptop\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "North America",
+            "rawValueJson": "\"North America\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "$200 ",
+            "rawValueJson": "200",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Electronics",
+            "rawValueJson": "\"Electronics\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Television",
+            "rawValueJson": "\"Television\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "North America",
+            "rawValueJson": "\"North America\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "$1,500 ",
+            "rawValueJson": "1500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Electronics",
+            "rawValueJson": "\"Electronics\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Television",
+            "rawValueJson": "\"Television\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Asia",
+            "rawValueJson": "\"Asia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "$1,500 ",
+            "rawValueJson": "1500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Electronics",
+            "rawValueJson": "\"Electronics\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Television",
+            "rawValueJson": "\"Television\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Asia",
+            "rawValueJson": "\"Asia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "$1,500 ",
+            "rawValueJson": "1500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Electronics",
+            "rawValueJson": "\"Electronics\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Television",
+            "rawValueJson": "\"Television\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Asia",
+            "rawValueJson": "\"Asia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "$500 ",
+            "rawValueJson": "500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "$1,500 ",
+            "rawValueJson": "1500",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          }
+        ]
+      }
+    ],
+    "tableName": "GlobalCostsAndSales",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Product Category",
+          "rawValueJson": "\"Product Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Product Name",
+          "rawValueJson": "\"Product Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Region",
+          "rawValueJson": "\"Region\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Cost",
+          "rawValueJson": "\"Cost\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Sale",
+          "rawValueJson": "\"Sale\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Electronics",
+          "rawValueJson": "\"Electronics\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Laptop",
+          "rawValueJson": "\"Laptop\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "North America",
+          "rawValueJson": "\"North America\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "$200 ",
+          "rawValueJson": "200",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Electronics",
+          "rawValueJson": "\"Electronics\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Television",
+          "rawValueJson": "\"Television\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "North America",
+          "rawValueJson": "\"North America\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "$1,500 ",
+          "rawValueJson": "1500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Electronics",
+          "rawValueJson": "\"Electronics\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Television",
+          "rawValueJson": "\"Television\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Asia",
+          "rawValueJson": "\"Asia\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "$1,500 ",
+          "rawValueJson": "1500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Electronics",
+          "rawValueJson": "\"Electronics\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Television",
+          "rawValueJson": "\"Television\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Asia",
+          "rawValueJson": "\"Asia\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "$1,500 ",
+          "rawValueJson": "1500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Electronics",
+          "rawValueJson": "\"Electronics\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Television",
+          "rawValueJson": "\"Television\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Asia",
+          "rawValueJson": "\"Asia\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "$500 ",
+          "rawValueJson": "500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "$1,500 ",
+          "rawValueJson": "1500",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "46ff33fc-8bd9-4ee6-be87-a9fdb4b84483",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

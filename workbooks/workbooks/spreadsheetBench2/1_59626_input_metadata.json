@@ -1,0 +1,520 @@
+[
+  {
+    "range": {
+      "worksheetId": "{4875135D-4801-43A1-A312-EE12DB6253F7}",
+      "top": 13,
+      "left": 1,
+      "bottom": 19,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{4875135D-4801-43A1-A312-EE12DB6253F7}",
+          "top": 13,
+          "bottom": 19,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "Arrival date",
+            "rawValueJson": "\"Arrival date\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "10/10/2020",
+            "rawValueJson": "44114",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "10/15/2020",
+            "rawValueJson": "44119",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "Departure day",
+            "rawValueJson": "\"Departure day\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "10/12/2020",
+            "rawValueJson": "44116",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "10/16/2020",
+            "rawValueJson": "44120",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "Overnight stays",
+            "rawValueJson": "\"Overnight stays\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "0"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "0"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "Price per night",
+            "rawValueJson": "\"Price per night\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "30.00 €",
+            "rawValueJson": "30",
+            "numberFormat": "#,##0.00 [$€-eu-ES]"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "40.00 €",
+            "rawValueJson": "40",
+            "numberFormat": "#,##0.00 [$€-eu-ES]"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "Subtotal",
+            "rawValueJson": "\"Subtotal\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "100.00 €",
+            "rawValueJson": "100",
+            "numberFormat": "#,##0.00 [$€-eu-ES]"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "Discount",
+            "rawValueJson": "\"Discount\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "10.00%",
+            "rawValueJson": "0.1",
+            "numberFormat": "0.00%"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{4875135D-4801-43A1-A312-EE12DB6253F7}",
+          "top": 13,
+          "bottom": 19,
+          "left": 1,
+          "right": 5
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "Arrival date",
+            "rawValueJson": "\"Arrival date\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "10/10/2020",
+            "rawValueJson": "44114",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "10/15/2020",
+            "rawValueJson": "44119",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "Departure day",
+            "rawValueJson": "\"Departure day\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "10/12/2020",
+            "rawValueJson": "44116",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "10/16/2020",
+            "rawValueJson": "44120",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "Overnight stays",
+            "rawValueJson": "\"Overnight stays\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "0"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "0"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "Price per night",
+            "rawValueJson": "\"Price per night\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "30.00 €",
+            "rawValueJson": "30",
+            "numberFormat": "#,##0.00 [$€-eu-ES]"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "40.00 €",
+            "rawValueJson": "40",
+            "numberFormat": "#,##0.00 [$€-eu-ES]"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "Subtotal",
+            "rawValueJson": "\"Subtotal\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "100.00 €",
+            "rawValueJson": "100",
+            "numberFormat": "#,##0.00 [$€-eu-ES]"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "Discount",
+            "rawValueJson": "\"Discount\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "10.00%",
+            "rawValueJson": "0.1",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "Discounted price",
+            "rawValueJson": "\"Discounted price\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "90.00 €",
+            "rawValueJson": "90",
+            "numberFormat": "#,##0.00 [$€-eu-ES]"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": true,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 13,
+          "column": 1,
+          "displayText": "Arrival date",
+          "rawValueJson": "\"Arrival date\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 13,
+          "column": 4,
+          "displayText": "10/10/2020",
+          "rawValueJson": "44114",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 13,
+          "column": 5,
+          "displayText": "10/15/2020",
+          "rawValueJson": "44119",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 14,
+          "column": 1,
+          "displayText": "Departure day",
+          "rawValueJson": "\"Departure day\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 14,
+          "column": 4,
+          "displayText": "10/12/2020",
+          "rawValueJson": "44116",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 14,
+          "column": 5,
+          "displayText": "10/16/2020",
+          "rawValueJson": "44120",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 15,
+          "column": 1,
+          "displayText": "Overnight stays",
+          "rawValueJson": "\"Overnight stays\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 15,
+          "column": 4,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "0"
+        },
+        {
+          "row": 15,
+          "column": 5,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "0"
+        },
+        {
+          "row": 16,
+          "column": 1,
+          "displayText": "Price per night",
+          "rawValueJson": "\"Price per night\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 16,
+          "column": 4,
+          "displayText": "30.00 €",
+          "rawValueJson": "30",
+          "numberFormat": "#,##0.00 [$€-eu-ES]"
+        },
+        {
+          "row": 16,
+          "column": 5,
+          "displayText": "40.00 €",
+          "rawValueJson": "40",
+          "numberFormat": "#,##0.00 [$€-eu-ES]"
+        },
+        {
+          "row": 17,
+          "column": 1,
+          "displayText": "Subtotal",
+          "rawValueJson": "\"Subtotal\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 17,
+          "column": 4,
+          "displayText": "100.00 €",
+          "rawValueJson": "100",
+          "numberFormat": "#,##0.00 [$€-eu-ES]"
+        },
+        {
+          "row": 18,
+          "column": 1,
+          "displayText": "Discount",
+          "rawValueJson": "\"Discount\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 18,
+          "column": 4,
+          "displayText": "10.00%",
+          "rawValueJson": "0.1",
+          "numberFormat": "0.00%"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "830b7da0-4dfb-485d-96c9-857b5fc1c007",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

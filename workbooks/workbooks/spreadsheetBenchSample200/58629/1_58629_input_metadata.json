@@ -1,0 +1,161 @@
+[
+  {
+    "range": {
+      "worksheetId": "{4F952BE2-D1C4-49E5-88D1-64EBBB8B28F2}",
+      "top": 1,
+      "left": 1,
+      "bottom": 11,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{4F952BE2-D1C4-49E5-88D1-64EBBB8B28F2}",
+          "top": 1,
+          "bottom": 11,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 10
+          }
+        ],
+        "headerNames": [
+          "\"ID\"",
+          "\"No. of IDs\""
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9230769230769231,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "ID",
+          "rawValueJson": "\"ID\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "No. of IDs",
+          "rawValueJson": "\"No. of IDs\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "102099-008",
+          "rawValueJson": "\"102099-008\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "102099-012",
+          "rawValueJson": "\"102099-012\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "102099-008, 012",
+          "rawValueJson": "\"102099-008, 012\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "101943-007",
+          "rawValueJson": "\"101943-007\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "102123-012",
+          "rawValueJson": "\"102123-012\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "005051b7-c193-4886-a021-e48434c64e9a",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,2196 @@
+[
+  {
+    "id": "0023ab4a9135dc208590ee6cd0761d7225914722_path_0.xlsx",
+    "File": "0023ab4a9135dc208590ee6cd0761d7225914722.xlsx",
+    "Size": 20,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me highlight the values in the last column so I can see the differences more clearly? The values in the range AK2:AK36 are highlighted using a color scale.",
+      "Baseline_v2": "Apply a color scale conditional formatting to the range AK2:AK36 in the 'NPC' sheet.",
+      "CoT_v3": "Apply color scale conditional formatting to AK2:AK36.",
+      "Action_v4": "Highlight mean half-life values for each gene.",
+      "Intent_v5": "Can you help me highlight the values in the last column to see the differences better?",
+      "Referenced_v6": "Can you make the values in this column stand out with colors so I can quickly see any patterns or unusual values?"
+    },
+    "Mappings": ["NPC!CF-0"],
+    "Selected Cells": [
+      {
+        "sheet": "NPC",
+        "ranges": {
+          "Cells": ["AK2:AK36"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "NPC",
+        "ranges": {
+          "Conditional Formatting": ["AK2:AK36"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc_path_0.xlsx",
+    "File": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc.xlsx",
+    "Size": 14,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of members for each category by adding up the current and prospective members? The total number of members for each category is calculated by summing the values in the 'Current Members' and 'Prospective Members' columns across ranges D3:D53. The formula used is =B3+C3 for each corresponding row.",
+      "Baseline_v2": "Add a 'Total Members' column to the right of the existing columns and calculate the sum of '# of Current Members' and '# of Prospective Members' for each row.",
+      "CoT_v3": "Add and populate 'Total Members' column with sums.",
+      "Action_v4": "Add a column for total members and calculate totals for each category.",
+      "Intent_v5": "Can you show me the total number of members for each category by adding current and prospective members?",
+      "Referenced_v6": "Can you add a new column to show the total number of members by adding the current and prospective members for the selected categories?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["B3:C9", "B45:C49", "B52:C53"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["D1:D9", "D45:D49", "D55:D55", "D52:D53"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc_path_1.xlsx",
+    "File": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc.xlsx",
+    "Size": 14,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of current and prospective members for each category? The new column D is added to sum the values from columns B and C for rows 11 to 17. Headers are added to column D for specific sections: Resources, Community Connections, Personal Style, Age, and Gender.",
+      "Baseline_v2": "Add a new column to the right of the existing columns in the 'Template' sheet and populate it with the sum of the values from columns B and C for the rows corresponding to 'Areas of Expertise/Leadership Qualities'.",
+      "CoT_v3": "Add a new column D with sums of columns B and C, and label rows as 'Resources', 'Community Connections', 'Personal Style', 'Age', and 'Gender'.",
+      "Action_v4": "Add a new column to show the total number of members for each category by summing current and prospective members.",
+      "Intent_v5": "Can you help me add a column that shows the total number of current and prospective members for each category?",
+      "Referenced_v6": "Can you add a new column that shows the total number of current and prospective members for each category in this selected range?"
+    },
+    "Mappings": ["Calculated component:1"],
+    "Selected Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["B11:C17"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["D11:D17", "D20:D20", "D26:D26", "D51:D51", "D37:D37", "D44:D44"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc_path_2.xlsx",
+    "File": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc.xlsx",
+    "Size": 14,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you show the total for the 'Other' category in a new column? The formula `=B18+C18` is applied to cell D18 to calculate the total value for the 'Other' category.",
+      "Baseline_v2": "Add a new column D to the table and calculate the sum of columns B and C for the row labeled 'Other' under 'Areas of Expertise/Leadership Qualities'.",
+      "CoT_v3": "Calculate the sum of values in columns B and C for row 18.",
+      "Action_v4": "Add a new column to calculate the sum of current and prospective members for each expertise/quality.",
+      "Intent_v5": "Can you show me the total number of current and prospective members for the 'Other' category?",
+      "Referenced_v6": "Can you add a new column that shows the total number of current and prospective members for the selected range?"
+    },
+    "Mappings": ["Calculated component:2"],
+    "Selected Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["B18:C18"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["D18:D18"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc_path_3.xlsx",
+    "File": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc.xlsx",
+    "Size": 14,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you help me add a new column to track extra data and make sure it sums up the values from the two columns next to it? The new column (D) is added to the right of the existing columns (A, B, C). Rows D21 to D42 are populated with zeros. The formula applied in column D is '=B21+C21' for each corresponding row.",
+      "Baseline_v2": "Add a new column to the existing table and populate it with the sum of the values from columns B and C for rows 21 to 42.",
+      "CoT_v3": "Add a calculated column D that sums values from columns B and C for rows 21 to 42.",
+      "Action_v4": "Add a new column to calculate the sum of current and prospective members for each category.",
+      "Intent_v5": "Can you show the total for each category by adding current and prospective members?",
+      "Referenced_v6": "Can you add a new column that shows the total of the current and prospective members for the selected range?"
+    },
+    "Mappings": ["Calculated component:3"],
+    "Selected Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["B21:C25", "B38:C42", "B27:C36"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["D21:D25", "D38:D42", "D27:D36"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc_path_4.xlsx",
+    "File": "003cc3d9eeeedf1175667c2aebcaf17e11e44cdc.xlsx",
+    "Size": 14,
+    "Path": "path_4",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the combined total of current and prospective members for each race/ethnicity? The formula pattern identified is '=args_1+args_2' applied over the range D56:D61, where args_1 and args_2 correspond to values in columns B and C respectively. For example, cell D56 contains the formula '=B56+C56'.",
+      "Baseline_v2": "Add a new column to the right of the existing columns and populate it with the sum of the values in columns B and C for rows 56 to 61.",
+      "CoT_v3": "Add a new column and calculate race/ethnicity values.",
+      "Action_v4": "Add a new column to calculate the sum of current and prospective members for each race/ethnicity.",
+      "Intent_v5": "Can you show me the total members for each race/ethnicity by adding current and prospective members?",
+      "Referenced_v6": "Can you add a new column next to the selected range and show the total number of members by adding the values from the two existing columns for each race/ethnicity?"
+    },
+    "Mappings": ["Calculated component:4"],
+    "Selected Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["B56:C61"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Template",
+        "ranges": {
+          "Cells": ["D56:D61"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "004e60e81e6856a1e1951e63c66a7e189c055c23_path_0.xlsx",
+    "File": "004e60e81e6856a1e1951e63c66a7e189c055c23.xlsx",
+    "Size": 46,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me update the sheet with new headers, a multiplier, and a net price column? The headers 'FCT_0821', 'Effective August 16,2021', and '(Supersedes FCT_1018)' are added in cells H2, H3, and H4 respectively. A new column 'Net Price' is added in column H. The multiplier value is set in cell H6 with a reference to cell K2.",
+      "Baseline_v2": "Please update the Excel sheet by adding a 'Net Price' column next to the 'List Price' column, and include a header with the text 'FCT_0821', 'Effective August 16, 2021', and '(Supersedes FCT_1018)'. Also, add a 'Multiplier' value of 0.0 in cell G6.",
+      "CoT_v3": "Add headers and labels, insert a reference formula, and ensure the 'Net Price' column is empty.",
+      "Action_v4": "Update headers and footers, and add an empty 'Net Price' column.",
+      "Intent_v5": "Can you help me add new headers, a multiplier, and a net price column to this sheet?",
+      "Referenced_v6": "Can you help me update the sheet with the new header details and add a multiplier value based on the selected range?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "FCT",
+        "ranges": {
+          "Cells": ["K2:K2"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "FCT",
+        "ranges": {
+          "Cells": ["H2:H4", "G6:H7"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00625223a7dc979da1ca74f7c9d62089cb691425_path_0.xlsx",
+    "File": "00625223a7dc979da1ca74f7c9d62089cb691425.xlsx",
+    "Size": 14,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total cost for each item in the inventory? The total costs are calculated using the formula =+QTY*UNIT PRICE for each item across the range F8:F30.",
+      "Baseline_v2": "Add a 'TOTAL' column to the inventory table and calculate the total cost for each item by multiplying the quantity by the unit price.",
+      "CoT_v3": "Add a 'TOTAL' column, calculate total prices, and add footer note 'Rev. 8-12-19'.",
+      "Action_v4": "Add a 'TOTAL' column to the inventory sheet and calculate the total cost for each item.",
+      "Intent_v5": "Can you show me the total cost for each item in the inventory list?",
+      "Referenced_v6": "Can you show the total cost for each item by multiplying the quantity and unit price for the selected range?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["C8:C30", "E8:E30"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["F7:F30", "F37:F37", "F5:F5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "006aac23cd684b7c0bfa727e381a30e4dd3201c8_path_0.xlsx",
+    "File": "006aac23cd684b7c0bfa727e381a30e4dd3201c8.xlsx",
+    "Size": 21,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you add a new column to show the total credits for each semester? The formula should sum the values from H15 to H20 in the new column I.",
+      "Baseline_v2": "Can you add a new column to the right of the existing table that calculates the total credit hours for each semester?",
+      "CoT_v3": "Add a new column with specific values and calculate the sum of a range of cells in the new column.",
+      "Action_v4": "Add a new column to the right and calculate the total credit hours for each semester.",
+      "Intent_v5": "Can you add a new column to show extra details and calculate the total credits for each semester?",
+      "Referenced_v6": "Can you add a new column that shows the total credit hours for each semester based on the selected range of cells?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["H22:H26", "H56:H61", "H63:H67", "H50:H54", "H28:H33", "H42:H48", "H15:H20", "H35:H40"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": [
+            "I27:I27",
+            "I62:I62",
+            "I7:I8",
+            "I68:I68",
+            "I1:I1",
+            "I55:I55",
+            "I34:I34",
+            "I49:I49",
+            "I21:I21",
+            "I41:I41"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008187ee9eab82c36de570046c9d7f10ccd4c575_path_0.xlsx",
+    "File": "008187ee9eab82c36de570046c9d7f10ccd4c575.xlsx",
+    "Size": 12,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me add a header and fill the first column with numbers in order? The header 'Header1' is added to cell A1. The first column (A) is filled with sequential numbers from 1 to 67 using the formula template '=args_1+1'.",
+      "Baseline_v2": "Please add a new column 'Header1' to the table, where each cell in this column contains a sequential number starting from 1, and ensure the existing column 'Header2' remains unchanged.",
+      "CoT_v3": "Organize column A with a header and sequential numbers, and keep column B data unchanged.",
+      "Action_v4": "Add a new column with sequential numbers and update the header.",
+      "Intent_v5": "Can you add a new column with numbers and a header to organize the rows?",
+      "Referenced_v6": "Can you add a header to the first column and fill it with numbers from 1 to 66 based on the selected range?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["A2:A66"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["A3:A67", "A1:A1"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_0.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you tell me the total weight of my silver coins and bars in troy ounces? The total weight of silver coins and bars is calculated using the formula `=D23+D22+D19+D16` and displayed in cell D24.",
+      "Baseline_v2": "Calculate the total troy ounces of silver in the 'Silver' sheet and add the result to the bottom of the 'Weight' column.",
+      "CoT_v3": "Calculate total troy ounces of silver in the Silver sheet and keep Gold and Data sheets unchanged.",
+      "Action_v4": "Show the total weight of silver in troy ounces in the Silver sheet.",
+      "Intent_v5": "Can you help me list and sum up all the silver weights in the Silver sheet to see the total amount?",
+      "Referenced_v6": "Can you add up the weights of the selected silver coins and show the total weight?"
+    },
+    "Mappings": ["Calculated component:49"],
+    "Selected Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["D16:D16", "D19:D19", "D22:D23"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["D7:D8", "D42:D42", "D24:D24"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_1.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the calculated values for my silver coins and bullion? The silver coin and bullion values are calculated using the formula =Qty*Weight across the range G25:G41. The calculated values are displayed in the corresponding cells.",
+      "Baseline_v2": "Can you help me calculate the total value for each silver coin and bullion type in the 'Silver' sheet by multiplying the quantity by the weight, and then update the 'G' column with these values?",
+      "CoT_v3": "Calculate the total weight for each row in the Silver sheet.",
+      "Action_v4": "Calculate and add the value of each silver item based on weight and purity to the Silver sheet.",
+      "Intent_v5": "Can you help me find out the total value of each silver item based on its weight and purity?",
+      "Referenced_v6": "Can you add a new column to the Silver sheet and show the total value for each item based on the selected range?"
+    },
+    "Mappings": ["Calculated component:27"],
+    "Selected Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["D25:D41", "F25:F41"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["G25:G41"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_11.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_11",
+    "NL_generation": {
+      "Technical_v1": "Can you help me find out the gold content for each item in my gold collection? The gold content for each item is calculated using the formula weight * gold percentage across the range E10:E38.",
+      "Baseline_v2": "Calculate the total gold content in grams for each item in the 'Gold' sheet and add it to the table.",
+      "CoT_v3": "Ensure all values are correctly placed in the Gold and Silver sheets, and all data in the Data sheet is correctly formatted.",
+      "Action_v4": "Calculate and display gold content for each item in the Gold sheet.",
+      "Intent_v5": "Can you help me calculate and display the gold content for each item, ensure all dates and times are correct, and verify the accuracy of quantities, weights, and metal prices?",
+      "Referenced_v6": "Can you show me the gold content for each item based on the selected range?"
+    },
+    "Mappings": ["Calculated component:6"],
+    "Selected Cells": [
+      {
+        "sheet": "Gold",
+        "ranges": {
+          "Cells": ["C13:D16", "C25:D31", "C18:D22", "C35:D38", "C33:D33", "C10:D11"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Gold",
+        "ranges": {
+          "Cells": ["E13:E16", "E25:E31", "E18:E22", "E35:E38", "E33:E33", "E10:E11"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_12.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_12",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the conversion rate from CDN to USD for silver values? The conversion rate from CDN to USD is calculated using the inverse of the value in cell F5 and displayed in cell G5.",
+      "Baseline_v2": "Please update the 'Silver' sheet to include a new column for CDN/US conversion rates and calculate the conversion values for each row.",
+      "CoT_v3": "Add and calculate CDN/US conversion rate.",
+      "Action_v4": "Add CDN/US conversion rate and ensure data consistency in the Silver sheet.",
+      "Intent_v5": "Can you help me ensure the gold and silver data is accurate and includes the CDN/US conversion rate?",
+      "Referenced_v6": "Can you show me the conversion rate between Canadian and US dollars and its inverse for the selected range?"
+    },
+    "Mappings": ["Calculated component:35"],
+    "Selected Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["F5:F5"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["C5:D5", "G5:G5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_13.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_13",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total value and weight of my silver coins and bullion? The total value of silver items is calculated by multiplying the quantity (Qty) by a factor of 5 across the range C30:C34. The total weight is determined similarly for each item.",
+      "Baseline_v2": "Can you update the 'Silver' sheet to include a new column that multiplies the quantity of each item by 5 for rows 30 to 34?",
+      "CoT_v3": "Add a new column in Sheet 2 (Silver) to calculate total weight using a formula and ensure all other data remains unchanged.",
+      "Action_v4": "Calculate the total value of silver coins and bullion by multiplying the values by 5.",
+      "Intent_v5": "Can you help me find the total weight of some silver items and show their quantities multiplied by 5?",
+      "Referenced_v6": "Please update the Silver sheet by adding 125 to the cell for Canada SilverMaple Lf and calculate the value for Canadian Olympic $5 by multiplying its quantity by 5."
+    },
+    "Mappings": ["Calculated component:51"],
+    "Selected Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["B30:B30", "B34:B34"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["C30:C30", "C34:C34"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_2.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you help me organize and calculate the values for my gold and silver collection? The quantities (ranging from 1.0 to 9999.0) are used to calculate face values using Qty/10 formulas across ranges C9:C25. Final values are determined using the formula template =args_1/10.",
+      "Baseline_v2": "Please update the 'Silver' sheet to include a 'Face' value column for each coin, and add a 'Spot Silver (Ag/ozt)' value in cell C4.",
+      "CoT_v3": "Add and calculate new columns 'Spot Silver (Ag/ozt):', '$', 'Face', and 'N/A' in Sheet 2.",
+      "Action_v4": "Add columns for 'Spot Silver (Ag/ozt)' and 'Face' in the silver sheet, include 'N/A' values, and calculate the 'Face' values.",
+      "Intent_v5": "Can you add details about the spot price and face value for silver coins and bars?",
+      "Referenced_v6": "Can you add columns for spot price, face value, and a new column for calculations to the silver sheet, and update the selected range with calculated values?"
+    },
+    "Mappings": ["Calculated component:37"],
+    "Selected Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["B16:B18", "B9:B9", "B25:B25"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["C36:C41", "C7:C9", "C16:C18", "C4:C4", "C25:C25"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_3.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you help me see the total value of my gold and silver items in Canadian dollars and make sure all the data is complete and accurate? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Please update the Gold and Silver sheets to include spot prices for gold and silver, and calculate the total value in Canadian dollars for each item based on their weight and purity.",
+      "CoT_v3": "Transform the workbook by adding and calculating new columns for gold-related data in Sheet 1.",
+      "Action_v4": "Organize and label the data, calculate values using spot gold price, calculate total troy ounces of gold, ensure all quantities and weights are listed, and correct or add missing data.",
+      "Intent_v5": "Can you help me see the total value and weight of my gold and silver items, and make sure all the data is correct?",
+      "Referenced_v6": "Can you add new headers and calculate the value of gold in Canadian dollars based on the selected range?"
+    },
+    "Mappings": ["Calculated component:7"],
+    "Selected Cells": [
+      {
+        "sheet": "Gold",
+        "ranges": {
+          "Cells": ["E4:E5"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Gold",
+        "ranges": {
+          "Cells": ["B4:D4", "F3:F4", "F7:F8", "F43:F43"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_5.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_5",
+    "NL_generation": {
+      "Technical_v1": "Can you help me complete and verify the silver coin data, including quantities and weights? The silver coin quantities (ranging from 1 to 9999) are used to calculate total weights using quantity/4 formulas across ranges C10:C26. Final weights are determined using the calculated quantities.",
+      "Baseline_v2": "Can you help me update the 'Silver' sheet by adding the missing values in columns B and C for rows 10, 19, 20, and 21, and also add a new column 'Total Value' in the 'Silver' sheet that calculates the total value for each row based on the quantity and weight?",
+      "CoT_v3": "Complete the data and perform necessary calculations in Sheet 2.",
+      "Action_v4": "Update the Silver sheet with missing and calculated values in the 'Weight' and 'Qty' columns.",
+      "Intent_v5": "Can you help me fill in the missing quantities and add some calculations for the silver coins?",
+      "Referenced_v6": "Can you help me fill in the missing values in column B and calculate new values in column C by dividing the values in column B by 4 for the selected range in the Silver sheet?"
+    },
+    "Mappings": ["Calculated component:43"],
+    "Selected Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["B19:B21", "B10:B10", "B26:B26"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["C19:C21", "C10:C10", "C26:C26"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_7.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_7",
+    "NL_generation": {
+      "Technical_v1": "Can you help me fill in the missing quantities for silver coins and bars and calculate their values? The formula pattern identified is: '=args_1/1' applied over the range C13:C29 in the Silver sheet.",
+      "Baseline_v2": "Please update the 'Qty' column in the 'Silver' sheet to reflect the correct quantities for rows 13, 14, 23, 28, and 29.",
+      "CoT_v3": "83. Add missing quantities for coins in Sheet",
+      "Action_v4": "Calculate the total value for each silver item and sum up the total values of silver items.",
+      "Intent_v5": "Can you help me ensure all the details about my gold and silver coins and bars are complete and accurate?",
+      "Referenced_v6": "Can you help me fill in the missing values for the selected cells in the Silver sheet and make sure the calculations in the C column are based on the B column?"
+    },
+    "Mappings": ["Calculated component:47"],
+    "Selected Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["B23:B23", "B28:B29", "B13:B14"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["C23:C23", "C28:C29", "C13:C14"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_8.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_8",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure the Gold and Silver sheets have all the right information and look neat? The conversion rate for CDN/US is calculated as 1/0.7952918721170669 and applied in cell F5. Ensure all quantities and weights are correctly filled in the Gold sheet. Verify that all dates and values are correctly formatted in both Gold and Silver sheets. Ensure all URLs and data in the Data sheet are accurate and up-to-date.",
+      "Baseline_v2": "Can you update the Gold sheet to include a CDN/US conversion rate in cell F5 and ensure all quantities and weights are correctly filled in?",
+      "CoT_v3": "Add CDN/US Conversion rate in Sheet 1 and ensure consistent formatting across all sheets.",
+      "Action_v4": "Add CDN/US conversion rate and update gold and silver data accordingly.",
+      "Intent_v5": "Help me update the Gold and Silver sheets with accurate details and add the conversion rate. Also, ensure the Data sheet is complete.",
+      "Referenced_v6": "Can you add a row to show the conversion rate from Canadian to US dollars using the value in this cell?"
+    },
+    "Mappings": ["Calculated component:8"],
+    "Selected Cells": [
+      {
+        "sheet": "Gold",
+        "ranges": {
+          "Cells": ["E5:E5"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Gold",
+        "ranges": {
+          "Cells": ["B5:D5", "F5:F5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "008f20aed68a6b4d12058b1b49c31bc640c05424_path_9.xlsx",
+    "File": "008f20aed68a6b4d12058b1b49c31bc640c05424.xlsx",
+    "Size": 35,
+    "Path": "path_9",
+    "NL_generation": {
+      "Technical_v1": "Can you show me half the quantity for each silver item? The quantities in the Silver sheet (ranging from C11 to C27) are divided by 2 to show half the quantity for each item.",
+      "Baseline_v2": "Please update the 'Qty' column in the 'Silver' sheet by dividing the values in cells C11 to C27 by 2.",
+      "CoT_v3": "Fill in missing data and apply the provided formula template to calculate values in the Silver sheet.",
+      "Action_v4": "Update silver values and add a formula to calculate half the quantity.",
+      "Intent_v5": "Can you help me make sure all the gold and silver item details are filled in and consistent?",
+      "Referenced_v6": "Can you update the quantities and weights for the silver coins and bars, and calculate half of the quantities for the selected range?"
+    },
+    "Mappings": ["Calculated component:45"],
+    "Selected Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["B11:B12", "B22:B22", "B27:B27"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Silver",
+        "ranges": {
+          "Cells": ["C11:C12", "C22:C22", "C27:C27"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "009e76792b44e8b46576c57a4ad11f0397b743c7_path_0.xlsx",
+    "File": "009e76792b44e8b46576c57a4ad11f0397b743c7.xlsx",
+    "Size": 22,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me update the form to include the original invoice value, ensure all values are correctly labeled, and reference the latest financial year end date? The formula in cell B33 references cell B3 to ensure the latest financial year end date is correctly displayed.",
+      "Baseline_v2": "Transform the Raw Table by adding a new column for 'Original gross invoice value' in column B, and update the values in column B for rows 7, 8, 11, 12, 15, 16, 19, 20, 23, 26, and 27 to 'N/A'. Additionally, update the value in cell B35 to 'Yes' and B39 to 'Yes'.",
+      "CoT_v3": "Modify the table structure and update specific cell values.",
+      "Action_v4": "Add a column for 'Original gross invoice value', place 'N/A' values correctly, update 'Yes' for loans and funding, and ensure date fields are correct.",
+      "Intent_v5": "Can you help me make sure all the information is complete and correctly filled in the table?",
+      "Referenced_v6": "Can you update the form to show the original invoice value for this column, mark the funding information as 'Yes', and make sure the date of the latest financial year end is automatically filled based on the selected range?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "DATA",
+        "ranges": {
+          "Cells": ["B3:B3"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "DATA",
+        "ranges": {
+          "Cells": [
+            "B39:B39",
+            "B4:B5",
+            "B19:B20",
+            "B11:B12",
+            "B7:B8",
+            "B33:B33",
+            "B23:B23",
+            "B26:B27",
+            "B15:B16",
+            "B35:B35"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00c35d0f7290000c9f04d8076c33467f53fd7e0d_path_0.xlsx",
+    "File": "00c35d0f7290000c9f04d8076c33467f53fd7e0d.xlsx",
+    "Size": 11,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the watershed size based on the pixel size and number of pixels? The formula to calculate the watershed size is applied in cell E5, using the template =C3*C3*C5/10000, where C3 is the pixel size and C5 is the number of pixels.",
+      "Baseline_v2": "Calculate the watershed size in cell E5 using the formula =C3*C3*C5/10000 and display the result in the final table.",
+      "CoT_v3": "Calculate and display the watershed size.",
+      "Action_v4": "Calculate and display the watershed size based on the number of pixels.",
+      "Intent_v5": "Can you show the watershed size calculated from the number of pixels and pixel size?",
+      "Referenced_v6": "Can you calculate the watershed size using the pixel size and the number of pixels, and show the result in the selected range?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["C3:C3", "C5:C5"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["D5:E5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00c35d0f7290000c9f04d8076c33467f53fd7e0d_path_1.xlsx",
+    "File": "00c35d0f7290000c9f04d8076c33467f53fd7e0d.xlsx",
+    "Size": 11,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you show me how the number of pixels relates to the watershed size? The formula used to calculate the watershed size is `=E7/(C3*C3)*10000`, applied in cell C7.",
+      "Baseline_v2": "Calculate the watershed size in cell C7 using the formula =E7/(C3*C3)*10000 based on the given pixel size and number of pixels.",
+      "CoT_v3": "Compute and update watershed size.",
+      "Action_v4": "Calculate and display the watershed size based on the number of pixels and pixel size.",
+      "Intent_v5": "Can you help me find the watershed size using the given pixel size and number of pixels?",
+      "Referenced_v6": "Can you help me find out the watershed size based on the number of pixels and pixel size for the selected range?"
+    },
+    "Mappings": ["Calculated component:1"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["C3:C3", "E7:E7"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["C7:D7"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d5a8ae53407d6bfb1248823abac973112201b0_path_0.xlsx",
+    "File": "00d5a8ae53407d6bfb1248823abac973112201b0.xlsx",
+    "Size": 33,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me clean up the data and remove any unnecessary information? The last row containing the date and time needs to be removed to ensure the data is clean and accurate.",
+      "Baseline_v2": "Please remove the last row from the table in the Raw Table state to match the Final Table state.",
+      "CoT_v3": "Apply conditional formatting.",
+      "Action_v4": "Highlight cells in column F based on specific criteria.",
+      "Intent_v5": "Can you help me highlight cells that meet a certain condition?",
+      "Referenced_v6": "Can you make the cell in the selected range stand out if the value in the corresponding cell in column F is 'Yes'?"
+    },
+    "Mappings": ["Sheet2!CF-0"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet2",
+        "ranges": {
+          "Cells": ["H2:H2"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet2",
+        "ranges": {
+          "Conditional Formatting": ["H2:H2"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00eb318cd04291d4924598e04fd375d5da9741b3_path_0.xlsx",
+    "File": "00eb318cd04291d4924598e04fd375d5da9741b3.xlsx",
+    "Size": 35,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me how parental involvement in school activities differs between countries? The average percentages of parental involvement in school-related activities are calculated for each country. These averages are then compared across different countries. A bar chart is created to visually represent the average parental involvement in school-related activities.",
+      "Baseline_v2": "Can you create a bar chart that shows the OECD average percentages of students' parents who participated in various school-related activities, based on the data provided in the table?",
+      "CoT_v3": "Create a clustered bar chart titled 'OECD' using data from B113 to E113.",
+      "Action_v4": "Calculate and visualize the average parental involvement in school-related activities with a bar chart.",
+      "Intent_v5": "Can you show me a bar chart of average parental involvement in school activities for OECD countries?",
+      "Referenced_v6": "Can you show me the average parental involvement in school activities using a bar chart based on the selected range?"
+    },
+    "Mappings": ["Figure III.10.1!CH-charts\\chart1.xml"],
+    "Selected Cells": [
+      {
+        "sheet": "Figure III.10.1",
+        "ranges": {
+          "Cells": ["B113:E113"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Figure III.10.1",
+        "ranges": {
+          "Charts": ["A9:G24"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "010346427f12a87984ae748d987291a6f575fb48_path_0.xlsx",
+    "File": "010346427f12a87984ae748d987291a6f575fb48.xlsx",
+    "Size": 26,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me how different age groups were affected by COVID-19 in terms of access to essentials, finances, relationships, and well-being? The data includes percentages of different age groups affected by various aspects of life due to COVID-19. Error bars are provided for each age group and aspect. A bar chart is created to visually compare the impact on different age groups.",
+      "Baseline_v2": "Create a clustered bar chart titled 'Age group' that visualizes the percentage of the population aged 16 and over reporting selected aspects of life affected by the coronavirus (COVID-19) by age group, using the data from the specified ranges in the 'data' sheet.",
+      "CoT_v3": "Create a bar chart using data from Sheet 1.",
+      "Action_v4": "Create a bar chart titled 'Age group' to show the impact of COVID-19 on different age groups using data from the table.",
+      "Intent_v5": "Can you show me how different age groups were affected by COVID-19 in terms of essentials, finances, relationships, and well-being?",
+      "Referenced_v6": "Can you create a bar chart to show how different age groups are affected by various aspects of life during the coronavirus pandemic, using the selected data ranges?"
+    },
+    "Mappings": ["chart!CH-charts\\chart1.xml"],
+    "Selected Cells": [
+      {
+        "sheet": "data",
+        "ranges": {
+          "Cells": ["B14:B17", "E14:E17", "H14:H17", "K14:K17", "N14:N17"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "chart",
+        "ranges": {
+          "Charts": ["A2:H21"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_0.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me see the percentage change between values, categorize these changes, calculate total sales, and count words in a specific column? The percentage changes are calculated using the formula =PercentChange(args_1,args_2) over the range I4:J4. The categorized ranges are determined based on these percentage changes. Total sales are calculated for each product, and word counts are determined for a specific column.",
+      "Baseline_v2": "Can you calculate the percentage change between the 'Start' and 'End' values in Sheet 2 and add the results in a new column? Also, categorize the percentage changes into different ranges and summarize the counts of each range.",
+      "CoT_v3": "Enhance Sheet 2 by adding and populating columns for percentage change and categorized ranges, while ensuring existing data in other sheets remains unchanged.",
+      "Action_v4": "Add a new column in Sheet 2 to calculate percentage change.",
+      "Intent_v5": "Can you show me the percentage change between two values in my data?",
+      "Referenced_v6": "Can you help me calculate the percentage change between two columns in the selected range and categorize these changes into different ranges?"
+    },
+    "Mappings": ["Calculated component:3"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["I4:J8"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["M3:M8", "M20:M24", "M10:M10", "M12:M12"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_1.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the sales for each product and add details about credit and GPA hurdles, and majors? The sales figures are calculated using a formula that maps each product to its sales value by summing the rounded product of the retail price, revenue discount, and quantity. The formula is applied over the range H12:H15 in Sheet 4.",
+      "Baseline_v2": "Can you help me calculate the total sales for each product in the 'fTransactions' table and display the results in a new column next to the product names?",
+      "CoT_v3": "Calculate and add sales for each product, and add and populate new rows with specific values in Sheet 4.",
+      "Action_v4": "Calculate sales and identify key metrics for each product.",
+      "Intent_v5": "Can you show the total sales for each product and add some extra details for specific rows?",
+      "Referenced_v6": "Can you help me add a new column to show the total sales for each product and include columns for credit and GPA requirements, as well as the major for each student in the selected range?"
+    },
+    "Mappings": ["Calculated component:39"],
+    "Selected Cells": [
+      {
+        "sheet": "MAP",
+        "ranges": {
+          "Cells": ["G12:G15"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "MAP",
+        "ranges": {
+          "Cells": ["H22:H26", "H19:H20", "H10:H15"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_10.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_10",
+    "NL_generation": {
+      "Technical_v1": "Can you help me find out the percentage change between two columns of numbers in Sheet 2? The formula pattern is '=args_1/args_2-1' and it is applied over the range K4:K8.",
+      "Baseline_v2": "Please add a '% Change' column to the table in Sheet 2, calculating the percentage change between the 'Start' and 'End' columns.",
+      "CoT_v3": "Add a column to calculate the percentage change between 'Start' and 'End' values in Sheet 2.",
+      "Action_v4": "Add a new column for percentage change and calculate the values.",
+      "Intent_v5": "Can you help me find the percentage change between two columns in Sheet 2?",
+      "Referenced_v6": "Can you add a new column to show the percentage change between the values in the selected range?"
+    },
+    "Mappings": ["Calculated component:1"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["I4:J8"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["K3:K8", "K12:K12"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_11.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_11",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure all the data in the workbook is complete and accurate? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Please update the '1749' sheet to include additional calculated values in columns O, P, Q, R, S, T, and U, using the SCAN function to accumulate values and display intermediate results.",
+      "CoT_v3": "Format and update Sheets 2 and 4 with necessary data.",
+      "Action_v4": "Ensure consistent LAMBDA function examples, verify function descriptions, and ensure correct calculated artifacts and formulas across all sheets.",
+      "Intent_v5": "Can you help me add a column to show the running total of values in another column?",
+      "Referenced_v6": "Can you help me calculate the running total for the selected cells in column N?"
+    },
+    "Mappings": ["Calculated component:11"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["N21:N24"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["O21:O24"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_12.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_12",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the percentage change between the Start and End values for each row? The percentage change is calculated using the formula (End/Start - 1) for each row in the range N4:N8.",
+      "Baseline_v2": "Can you calculate the percentage change between the 'Start' and 'End' values in Sheet 2 and add the results in a new column?",
+      "CoT_v3": "Compute the percentage change between 'Start' and 'End' values in Sheet 2.",
+      "Action_v4": "Add a new column to calculate percentage change.",
+      "Intent_v5": "Can you help me add a column in Sheet 2 to show the percentage change between two values?",
+      "Referenced_v6": "Can you show me the percentage change between the start and end values for the selected range?"
+    },
+    "Mappings": ["Calculated component:4"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["I4:J8"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["N3:N8", "N26:N26", "N20:N20", "N1:N1"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_13.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_13",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure all the data is complete and the calculations are correct? The financial values (ranging from 0.01 to 0.35) are used to calculate derived values using multiplication formulas across ranges B13:C15. Final values are determined using the formula =args_1*args_2.",
+      "Baseline_v2": "Please update the 'BYROW' sheet to include calculated values in columns D and E, and add a new row in the 'MAP' sheet with specific data.",
+      "CoT_v3": "Add calculated values in Sheet 3 and format the table in Sheet 4.",
+      "Action_v4": "Add calculated values in Sheets 3 and 4.",
+      "Intent_v5": "Can you help me fill in the missing data and make sure all calculations are correct?",
+      "Referenced_v6": "Can you help me make sure the calculations in this sheet are correct and show the results in the right cells?"
+    },
+    "Mappings": ["Calculated component:28"],
+    "Selected Cells": [
+      {
+        "sheet": "BYROW",
+        "ranges": {
+          "Cells": [
+            "DD54:DD54",
+            "DD76:DD76",
+            "DE54:DE54",
+            "DE76:DE76",
+            "DE64:DE64",
+            "DE86:DE86",
+            "DD64:DD64",
+            "DD86:DD86",
+            "DE44:DE44",
+            "DE66:DE66",
+            "DD44:DD44",
+            "DD66:DD66"
+          ]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "BYROW",
+        "ranges": {
+          "Cells": ["B13:C15"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_14.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_14",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure all the data and calculations are complete and accurate? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Can you help me calculate the total revenue for each product in the 'fTransactions' table on Sheet 4 and add the results to the '1749' sheet in columns M to P?",
+      "CoT_v3": "Add a calculated column in Sheet 2 using the BYROW function.",
+      "Action_v4": "Add a new column to the table and calculate the cumulative sum of column L.",
+      "Intent_v5": "Can you help me add a new column that shows the total of the last three columns for each row?",
+      "Referenced_v6": "Can you show the total of the selected values in this new column?"
+    },
+    "Mappings": ["Calculated component:6"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["J13:J15"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["M13:M15"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_15.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_15",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total revenue for each transaction in the table? The total revenue is calculated using the formula =MMULT(J13,ROW(I13)^0) over the range O13:O15, where J13 represents the revenue discount and I13 represents the quantity.",
+      "Baseline_v2": "Can you help me calculate the total revenue for each product in the 'fTransactions' table on Sheet 2 and add these totals to the table?",
+      "CoT_v3": "Add a calculated column in Sheet 2.",
+      "Action_v4": "Add calculated fields and insert formulas in Sheet 2 to make the data more informative.",
+      "Intent_v5": "Can you show me the calculated results for the data in Sheet 2?",
+      "Referenced_v6": "Can you add up the values in the selected range and show the totals in column L?"
+    },
+    "Mappings": ["Calculated component:7"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["I13:J15"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["O13:O15"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_17.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_17",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure all the data and calculations are correct and consistent? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Please update the 'BYROW' sheet to include calculated values in column H based on the formula =_xlfn.BYROW(D6,_xlfn.LAMBDA(_xlpm.r,SUM(_xlpm.r*D4))) and ensure the 'MAP' sheet remains unchanged.",
+      "CoT_v3": "Ensure the table in Sheet 4 is formatted correctly and includes all necessary data.",
+      "Action_v4": "Show function results, provide real-world examples, explain each function, and organize data clearly.",
+      "Intent_v5": "Can you help me make sure all the data is complete and accurate, and all calculations are correct?",
+      "Referenced_v6": "Can you add a new column to this range and fill it with values calculated from the existing data?"
+    },
+    "Mappings": ["Calculated component:26"],
+    "Selected Cells": [
+      {
+        "sheet": "BYROW",
+        "ranges": {
+          "Cells": ["D4:D8"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "BYROW",
+        "ranges": {
+          "Cells": ["H7:H9", "H27:H27"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_18.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_18",
+    "NL_generation": {
+      "Technical_v1": "Can you help me understand the different functions and show the sales data for each product? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Calculate the total sales for each product in the 'fTransactions' table by applying the BYROW function and using the LAMBDA function to sum the sales values, and add a 'Sales' column to the table.",
+      "CoT_v3": "Compute sales and credits for products in 'fTransactions' table.",
+      "Action_v4": "Calculate and display total sales for each product.",
+      "Intent_v5": "Can you show me the total sales for each product?",
+      "Referenced_v6": "Can you show me the total sales for each product in the selected range?"
+    },
+    "Mappings": ["Calculated component:40"],
+    "Selected Cells": [
+      {
+        "sheet": "MAP",
+        "ranges": {
+          "Cells": ["G12:G15"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "MAP",
+        "ranges": {
+          "Cells": ["I10:I15", "I22:I22"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_19.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_19",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure that the first sheet has all the cells filled with the same values as in the final state? The formula `=_xlfn.REDUCE(0,N21:N24,_xlfn.LAMBDA(_xlpm.a,_xlpm.i,_xlpm.a+_xlpm.i))` is used to calculate the value in cell O26 by reducing the values in the range N21:N24 using a lambda function that adds the accumulator and the current item.",
+      "Baseline_v2": "Please update the Excel file to include a calculated artifact in Sheet 2, cell O26, using the formula =_xlfn.REDUCE(0,N21:N24,_xlfn.LAMBDA(_xlpm.a,_xlpm.i,_xlpm.a+_xlpm.i)).",
+      "CoT_v3": "Ensure the table `fTransactions` is correctly defined in Sheet 4 and add a calculated field in Sheet 2.",
+      "Action_v4": "Organize the data by cleaning up Sheet 1, adding a calculated field in Sheet 2, and ensuring data consistency in Sheets 3 and 4.",
+      "Intent_v5": "Can you help me find the total value of a specific range using a particular method?",
+      "Referenced_v6": "Can you calculate the total of the selected cells and show the result in the specified cell?"
+    },
+    "Mappings": ["Calculated component:16"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["N21:N24"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["O26:O26", "C26:C26"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_2.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you help me fill in all the cells in Sheet 1 and add the necessary calculations in Sheet 2? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Please update the Excel file to include a calculated artifact in Sheet 2 that uses the MAP function to apply a LAMBDA formula over a specified range, resulting in squared values of the original data.",
+      "CoT_v3": "Ensure all sheets match the final state structure and data, including adding calculated artifacts using the MAP function in Sheet 2.",
+      "Action_v4": "Add a new column to the table in Sheet 2 and calculate its values using a formula based on existing data.",
+      "Intent_v5": "Can you help me fill in the missing data and make sure everything is correct?",
+      "Referenced_v6": "Can you add a new column to this table that shows the square of the values in the selected range?"
+    },
+    "Mappings": ["Calculated component:10"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": [
+            "JL1413:JL1413",
+            "JK1413:JK1413",
+            "JJ1313:JJ1313",
+            "JL1513:JL1513",
+            "JL1313:JL1313",
+            "JJ1513:JJ1513",
+            "JJ1413:JJ1413",
+            "JK1313:JK1313",
+            "JK1513:JK1513"
+          ]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["I20:K22"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_3.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you help me add new columns to the table and fill them with calculated values? The values in column J (ranging from 120.79 to 98564.6025) are used to calculate the squared values in the new columns across ranges I24:K26.",
+      "Baseline_v2": "Can you update the Excel file to include calculated fields for the 'End' column in Sheet 2, using the formula =args_1^2 for the range I24:K26?",
+      "CoT_v3": "Add calculated fields in Sheet 2 and ensure data integrity across all sheets.",
+      "Action_v4": "Enhance data in Sheet 2 with calculated fields and formulas, keep Sheet 1 data consistent, and preserve Sheets 3 and 4 structure and content.",
+      "Intent_v5": "Can you help me fill in the missing data and make sure everything is consistent across all sheets?",
+      "Referenced_v6": "Can you add a new column to this table that shows the square of the values in the selected cells?"
+    },
+    "Mappings": ["Calculated component:15"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": [
+            "JL1313:JL1313",
+            "JK1513:JK1513",
+            "JL1513:JL1513",
+            "JK1413:JK1413",
+            "JJ1413:JJ1413",
+            "JJ1513:JJ1513",
+            "JJ1313:JJ1313",
+            "JK1313:JK1313",
+            "JL1413:JL1413"
+          ]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["I24:K26"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_4.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_4",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the percentage change between the two sets of values in my data? The percentage changes are calculated using the formula =PCWithWarning(Start, End) over the range O4:O8. This formula checks for missing values and calculates the percentage change between the start and end values.",
+      "Baseline_v2": "Calculate the percentage change between the 'Start' and 'End' values in Sheet 2 and display the results in column O.",
+      "CoT_v3": "Add and calculate percentage change and running total in Sheet 2.",
+      "Action_v4": "Add a new column labeled '% Change' and calculate the percentage change for each row.",
+      "Intent_v5": "Can you show me the percentage change between two columns and the running total of values in Sheet 2?",
+      "Referenced_v6": "Can you add a new column to show the percentage change between the selected columns in this range?"
+    },
+    "Mappings": ["Calculated component:5"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["I4:J8"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["O18:O18", "O3:O8", "O20:O20"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_5.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_5",
+    "NL_generation": {
+      "Technical_v1": "Can you help me add a column that shows the total for each row and the overall total at the bottom? The totals for each row are calculated using the formula =SUM(J13:L13) applied over rows 13 to 33. The overall total is calculated using the formula =SUM(J13:J33) and displayed in the new row at the bottom of the table.",
+      "Baseline_v2": "Please update the '1749' sheet to include a calculated total for the 'End' column using the BYCOL function, and ensure the 'C(1749C)' sheet remains unchanged.",
+      "CoT_v3": "Add a calculated field in Sheet 2 to compute the total using the BYCOL function and ensure data in Sheets 1, 3, and 4 remain unchanged.",
+      "Action_v4": "Calculate the total of specific columns in the second sheet and display the result in a new row.",
+      "Intent_v5": "Can you show me the total values for specific columns in Sheet 2?",
+      "Referenced_v6": "Can you add up the numbers in the selected range and show the total in the specified cells?"
+    },
+    "Mappings": ["Calculated component:8"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["J13:L13"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["I16:L16", "C16:C16", "G16:G16"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_6.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_6",
+    "NL_generation": {
+      "Technical_v1": "Can you help me combine words in a column into a single string in a new column? The formula pattern is =_xlfn.SCAN('',args_1,_xlfn.LAMBDA(args_2,args_3,args_4&args_5)). For example, {'W21': '=_xlfn.SCAN('',V21,_xlfn.LAMBDA(_xlpm.a,_xlpm.i,_xlpm.a&_xlpm.i))'}.",
+      "Baseline_v2": "Can you combine the data from the 'Raw Table' state into the 'Final Table' state, ensuring all relevant information is accurately transferred and formatted as shown in the final state?",
+      "CoT_v3": "Create a calculated column in Sheet 2 that concatenates values from column 'V'.",
+      "Action_v4": "Add a new column in Sheet 2 to join values in column V into a single string.",
+      "Intent_v5": "Can you help me combine the text in column V with a space in between for each row?",
+      "Referenced_v6": "Can you help me combine the values in this column into a single string for each row?"
+    },
+    "Mappings": ["Calculated component:14"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["V21:V25"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["W20:W25"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_7.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_7",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the GPA and eligibility status for each product transaction? The GPA is calculated using the formula `=AND(args_1>=args_2,args_3>=args_4)` over the range J29:J32. For example, in cell J29, the formula is `=AND(I23>=$I$19,J23>=$I$20)`.",
+      "Baseline_v2": "Add a new column to the 'fTransactions' table in Sheet 4 to calculate GPA based on specific criteria, and another column to determine eligibility based on GPA and other conditions.",
+      "CoT_v3": "Update the table to include GPA and eligibility columns.",
+      "Action_v4": "Add columns for GPA and eligibility status, and calculate these values for each student.",
+      "Intent_v5": "Can you help me figure out if students are eligible based on their GPA and other criteria?",
+      "Referenced_v6": "Can you add GPA and eligibility information to this range of data?"
+    },
+    "Mappings": ["Calculated component:44"],
+    "Selected Cells": [
+      {
+        "sheet": "MAP",
+        "ranges": {
+          "Cells": ["I19:I20", "I23:J26"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "MAP",
+        "ranges": {
+          "Cells": ["J28:J32", "J22:J22"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb_path_8.xlsx",
+    "File": "011c7d31aba7486d59db1c6ddeaa722fcffb07eb.xlsx",
+    "Size": 40,
+    "Path": "path_8",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure all the data and calculations are accurate and complete? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Please update the table in Sheet 2 to include a new column 'Multiplication Total' that calculates the running product of the 'Quantity' column using the SCAN function.",
+      "CoT_v3": "Ensure calculated artifacts are added, values in column T are updated, and all sheets match the final state.",
+      "Action_v4": "Add a new column to calculate the multiplication total for each row in the specified range.",
+      "Intent_v5": "Can you help me add a column to show the multiplication totals for each row in the table on Sheet 2?",
+      "Referenced_v6": "Can you add a new column next to the selected range in Sheet 2 and calculate the running total for the values in the selected range?"
+    },
+    "Mappings": ["Calculated component:13"],
+    "Selected Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["N21:N24"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "1749",
+        "ranges": {
+          "Cells": ["T20:T24"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "012ad8de0ab14ccb3fccd6f004ec59e4974d0ca4_path_0.xlsx",
+    "File": "012ad8de0ab14ccb3fccd6f004ec59e4974d0ca4.xlsx",
+    "Size": 16,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the normalized weight percentages of each oxide and the pressure in bar? The normalized weight percentages are calculated using the formula (individual weight percentage / total weight percentage) * 100 across the range C2:C11. The pressure in bar is added in cell C17.",
+      "Baseline_v2": "Please normalize the 'Wt%' column values in the 'Density Calc' sheet and add a new column 'wt% norm' with the normalized values. Also, add a 'Pressure (bar)' label in cell D17.",
+      "CoT_v3": "Add 'wt% norm' column with calculated values and 'Pressure (bar)' row with value 500.0.",
+      "Action_v4": "Normalize weight percentages and add columns for them and pressure values.",
+      "Intent_v5": "Can you show me the normalized weight percentages and pressure values for each oxide?",
+      "Referenced_v6": "Can you help me normalize the weight percentages for the selected oxides and add a pressure value for reference?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Density Calc",
+        "ranges": {
+          "Cells": ["B14:B14", "B2:B11"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Density Calc",
+        "ranges": {
+          "Cells": ["C1:C11", "C17:C17"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "012ad8de0ab14ccb3fccd6f004ec59e4974d0ca4_path_1.xlsx",
+    "File": "012ad8de0ab14ccb3fccd6f004ec59e4974d0ca4.xlsx",
+    "Size": 16,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure the value in cell J15 is automatically calculated from cell B18 and add a note in cell J13 to indicate this? The value in cell J15 is calculated using the formula `=273+B18`, and a note is added in cell J13 to indicate that this value is calculated automatically.",
+      "Baseline_v2": "Generate a formula in cell J15 to automatically calculate the value as 273 plus the value in cell B18.",
+      "CoT_v3": "Add a calculated value based on cell B18.",
+      "Action_v4": "Ensure J15 is automatically calculated as 273 plus B18.",
+      "Intent_v5": "Can you help me automatically calculate a value in the table based on another cell's value?",
+      "Referenced_v6": "Can you add a note saying 'Calculated automatically:' and then automatically calculate a value in the selected cell range based on the value in B18?"
+    },
+    "Mappings": ["Calculated component:9"],
+    "Selected Cells": [
+      {
+        "sheet": "Density Calc",
+        "ranges": {
+          "Cells": ["B18:B18"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Density Calc",
+        "ranges": {
+          "Cells": ["J13:J13", "J15:J15"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0144366ce53ada3735da72314c53cb9e0db1e18b_path_0.xlsx",
+    "File": "0144366ce53ada3735da72314c53cb9e0db1e18b.xlsx",
+    "Size": 39,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the financial value of each permit and the total value for each category? The 'Valuation' column is added to the table. Each permit's valuation is filled in the new column. The total valuation for each category is calculated using the formula `=SUM(args_1)`. Example: The total valuation for Residential New Construction is calculated as `=SUM(J77:J139)` and displayed in cell J140.",
+      "Baseline_v2": "Can you add a 'Valuation' column to the table and calculate the total valuation for each permit category?",
+      "CoT_v3": "Add and fill the 'Valuation' column, then calculate and display total valuations.",
+      "Action_v4": "Add a valuation column and calculate total valuation for each permit category.",
+      "Intent_v5": "Can you add the valuation for each permit and show the total valuation for each category?",
+      "Referenced_v6": "Can you add a new column called 'Valuation' and calculate the total valuation for the selected range of cells?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Report ",
+        "ranges": {
+          "Cells": ["J5:J6", "J77:J139"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Report ",
+        "ranges": {
+          "Cells": ["J7:J7", "J140:J140", "J3:J3"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "015782f64e3961deedff2056dc2a6649adc3d9eb_path_0.xlsx",
+    "File": "015782f64e3961deedff2056dc2a6649adc3d9eb.xlsx",
+    "Size": 22,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the effort allocated for each component based on the budget percentage? The budget percentages (ranging from 6% to 12%) are used to calculate the budgeted effort using the formula Allocated Budget % * Total Budget / 100 across ranges E5:E16.",
+      "Baseline_v2": "Calculate the budgeted effort for each component in the 'Top Down' sheet by multiplying the allocated budget percentage by the total budget available.",
+      "CoT_v3": "Add 'Budgeted Effort' column in 'Top Down' sheet.",
+      "Action_v4": "Add a 'Budgeted Effort' column to the 'Top Down' sheet and calculate the budgeted effort for each component.",
+      "Intent_v5": "Can you show me the budgeted effort for each component based on the allocated budget percentage?",
+      "Referenced_v6": "Can you show me the budgeted effort for each component in this column based on the allocated budget percentage and the total budget available?"
+    },
+    "Mappings": ["Calculated component:1"],
+    "Selected Cells": [
+      {
+        "sheet": "Top Down",
+        "ranges": {
+          "Cells": ["C2:C2", "C5:C16"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Top Down",
+        "ranges": {
+          "Cells": ["E4:E16"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "015782f64e3961deedff2056dc2a6649adc3d9eb_path_1.xlsx",
+    "File": "015782f64e3961deedff2056dc2a6649adc3d9eb.xlsx",
+    "Size": 22,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the cumulative budget percentages and person-weeks for each component? The cumulative budget percentages are calculated using the allocated budget percentages across the range D5:D16. The formula used is =C5 for the first component and similar for others.",
+      "Baseline_v2": "Can you help me add a 'Cumulative Budget %' column to the 'Top Down' sheet, and calculate its values based on the 'Allocated Budget %' column?",
+      "CoT_v3": "Transform Sheet 1 by adding and calculating 'Person-Week' and 'Cumulative Budget %'.",
+      "Action_v4": "Add and calculate cumulative budget percentages for each component in the Top Down sheet.",
+      "Intent_v5": "Can you show the cumulative budget percentages for each component and include a 'Person-Week' header in the budget sheet?",
+      "Referenced_v6": "Can you show the cumulative budget percentage for each component and add person-week information in this column?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Top Down",
+        "ranges": {
+          "Cells": ["C5:C5"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Top Down",
+        "ranges": {
+          "Cells": ["D2:D2", "D4:D5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "015782f64e3961deedff2056dc2a6649adc3d9eb_path_2.xlsx",
+    "File": "015782f64e3961deedff2056dc2a6649adc3d9eb.xlsx",
+    "Size": 22,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total person-weeks for all components and label the method used in the Bottom up sheet? The total person-weeks are calculated using the sum of values from C3 to C14, and the result is displayed in cell C15. The text 'Also known as WBS method' is copied to cell C17.",
+      "Baseline_v2": "Please update the 'Bottom up' sheet to include a total sum of the 'Person-Weeks' column and ensure the 'Also known as WBS method' text is consistent across the relevant cells.",
+      "CoT_v3": "Sum person-weeks, ensure consistent text, and add total sum formula in the Bottom up sheet.",
+      "Action_v4": "Ensure the Bottom up sheet has total person-weeks and consistent descriptions, and verify other sheets remain unchanged.",
+      "Intent_v5": "Can you help me ensure the total person-weeks are added up and the descriptions match in the 'Bottom up' sheet?",
+      "Referenced_v6": "Can you show the total person-weeks for all components in this column and make sure the description 'Also known as WBS method' is included in the same row?"
+    },
+    "Mappings": ["Calculated component:3"],
+    "Selected Cells": [
+      {
+        "sheet": "Bottom up",
+        "ranges": {
+          "Cells": ["C3:C14"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Bottom up",
+        "ranges": {
+          "Cells": ["C17:C17", "C15:C15"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "015782f64e3961deedff2056dc2a6649adc3d9eb_path_3.xlsx",
+    "File": "015782f64e3961deedff2056dc2a6649adc3d9eb.xlsx",
+    "Size": 22,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the worst-case scenario estimates for each component? The pessimistic estimates are calculated using the formula: Pessimistic = Expected * 1.8, applied over the range E3:E14.",
+      "Baseline_v2": "Please update the PERT sheet to include the pessimistic estimates for each component and calculate the PERT estimates using the formula provided. Ensure that the other sheets remain unchanged.",
+      "CoT_v3": "Add and calculate the 'Pessimistic' column in the PERT sheet.",
+      "Action_v4": "Add and calculate pessimistic estimates for each component in the PERT sheet.",
+      "Intent_v5": "Can you help me add and calculate worst-case estimates for each component in the PERT sheet?",
+      "Referenced_v6": "Can you add a column for pessimistic estimates in the PERT sheet and calculate the values for each component based on the selected range?"
+    },
+    "Mappings": ["Calculated component:5"],
+    "Selected Cells": [
+      {
+        "sheet": "PERT",
+        "ranges": {
+          "Cells": ["C3:C14"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "PERT",
+        "ranges": {
+          "Cells": ["E2:E14"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "015782f64e3961deedff2056dc2a6649adc3d9eb_path_4.xlsx",
+    "File": "015782f64e3961deedff2056dc2a6649adc3d9eb.xlsx",
+    "Size": 22,
+    "Path": "path_4",
+    "NL_generation": {
+      "Technical_v1": "Can you help me see the PERT estimates visually and make sure all data is correctly shown? The PERT estimates are calculated using the formula (4*Expected Estimate + Optimistic Estimate + Pessimistic Estimate)/6 and are visualized using a bar chart with data from cells I6 to I8.",
+      "Baseline_v2": "Can you create a bar chart using the PERT sheet data from cells I6 to I8?",
+      "CoT_v3": "Add a bar chart in the PERT sheet using data from cells I6 to I8.",
+      "Action_v4": "Add a bar chart to the PERT sheet to visualize the optimistic, expected, and pessimistic estimates for components.",
+      "Intent_v5": "Can you show me a bar chart comparing the different estimates for the components?",
+      "Referenced_v6": "Can you make a bar chart to show the optimistic, expected, and pessimistic estimates for these components?"
+    },
+    "Mappings": ["PERT!CH-charts\\chart1.xml"],
+    "Selected Cells": [
+      {
+        "sheet": "PERT",
+        "ranges": {
+          "Cells": ["I6:I8"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "PERT",
+        "ranges": {
+          "Charts": ["G9:J14"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "015782f64e3961deedff2056dc2a6649adc3d9eb_path_5.xlsx",
+    "File": "015782f64e3961deedff2056dc2a6649adc3d9eb.xlsx",
+    "Size": 22,
+    "Path": "path_5",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total effort needed for each component in the Parametric sheet? The total effort for each component is calculated by multiplying the Per Unit Effort by the number of units. This calculation is applied over the range E3:E5 using the formula template =args_1*args_2. For example, the total effort for User Interfaces is calculated as =C3*D3.",
+      "Baseline_v2": "Please calculate the total effort for each component in the 'Parametric' sheet by multiplying the 'Per Unit Effort' with the '# of units' and add a 'Total' column to display the results.",
+      "CoT_v3": "Add and populate a new column in the 'Parametric' sheet to calculate the total effort for each component.",
+      "Action_v4": "Add a 'Total' column in the 'Parametric' sheet and ensure all sheets have complete and accurate data.",
+      "Intent_v5": "Can you show me the total effort needed for each component in the 'Parametric' sheet?",
+      "Referenced_v6": "Can you help me calculate the total effort for each component in this column based on the selected range?"
+    },
+    "Mappings": ["Calculated component:8"],
+    "Selected Cells": [
+      {
+        "sheet": "Parametric",
+        "ranges": {
+          "Cells": ["C3:D5"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Parametric",
+        "ranges": {
+          "Cells": ["E2:E5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "015782f64e3961deedff2056dc2a6649adc3d9eb_path_6.xlsx",
+    "File": "015782f64e3961deedff2056dc2a6649adc3d9eb.xlsx",
+    "Size": 22,
+    "Path": "path_6",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total cost of all components in the Rolling Wave sheet? The total cost is calculated by summing the costs of all components in the Rolling Wave sheet, specifically over the ranges C3:C14 and D3:D14.",
+      "Baseline_v2": "Can you consolidate and ensure that all the sheets in the workbook remain unchanged?",
+      "CoT_v3": "Calculate and display the total cost in Sheet 5.",
+      "Action_v4": "Calculate the total project cost and ensure data consistency across all sheets.",
+      "Intent_v5": "Can you show me the total cost for the project iterations?",
+      "Referenced_v6": "Can you show me the total cost for the selected range of components in the 'Rolling Wave' sheet?"
+    },
+    "Mappings": ["Calculated component:14"],
+    "Selected Cells": [
+      {
+        "sheet": "Rolling Wave",
+        "ranges": {
+          "Cells": ["C3:D14"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Rolling Wave",
+        "ranges": {
+          "Cells": ["B15:D15"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "015782f64e3961deedff2056dc2a6649adc3d9eb_path_7.xlsx",
+    "File": "015782f64e3961deedff2056dc2a6649adc3d9eb.xlsx",
+    "Size": 22,
+    "Path": "path_7",
+    "NL_generation": {
+      "Technical_v1": "Can you help me ensure all project data is complete and accurate? The formula pattern identified is '=args_1' over the range F4:G5, with an example being {'F4': '=D4D4'}.",
+      "Baseline_v2": "Please update the Rolling Wave sheet to include the actual values for Iteration 2 for Time management and Defect management.",
+      "CoT_v3": "Update the 'Rolling Wave' sheet with iteration values for 'Time management' and 'Defect management'.",
+      "Action_v4": "Verify budget allocation, ensure person-weeks accuracy, confirm PERT calculations, check per unit effort and units, and validate iteration estimates and actuals.",
+      "Intent_v5": "Can you help me update the Rolling Wave sheet with the latest actual values for Iteration 2 and mark Iteration 3 estimates as not available?",
+      "Referenced_v6": "Can you update the actual values for Iteration 2 for the selected components in the 'Rolling Wave' sheet to match the final state?"
+    },
+    "Mappings": ["Calculated component:10"],
+    "Selected Cells": [
+      {
+        "sheet": "Rolling Wave",
+        "ranges": {
+          "Cells": ["DE44:DE44", "DD54:DD54", "DD44:DD44", "DE54:DE54"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Rolling Wave",
+        "ranges": {
+          "Cells": ["F4:G5"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "017699f779c4de0c2840e58cd9f5fd34a84db118_path_0.xlsx",
+    "File": "017699f779c4de0c2840e58cd9f5fd34a84db118.xlsx",
+    "Size": 18,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you add clickable links to the product images in the table? The URLs in the URL2 column (ranging from K2 to K40) are used to create clickable links in the URL column using the formula =HYPERLINK(URL2).",
+      "Baseline_v2": "Please add a new column 'URL' in the table and populate it with hyperlinks using the values from the 'URL2' column.",
+      "CoT_v3": "Add a 'URL' column with hyperlinks from column L.",
+      "Action_v4": "Add a column for clickable links using URLs from another column.",
+      "Intent_v5": "Can you add clickable links to the product images in the new column?",
+      "Referenced_v6": "Can you add a new column with clickable links for each item based on the selected range?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["L2:L40"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["K1:K40"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01885bb748dda8b480cf6c4c5c84938905209674_path_0.xlsx",
+    "File": "01885bb748dda8b480cf6c4c5c84938905209674.xlsx",
+    "Size": 40,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you fill in the missing data for September 2005 using the values from August 2005? The formula pattern is '=args_1', used in cells B70 and C70, with an example being {'B70': '=B69'}.",
+      "Baseline_v2": "Please copy the values from row 69 to row 70 in columns B and C.",
+      "CoT_v3": "Complete the missing data for 2005-09.",
+      "Action_v4": "Fill in the missing data for September 2005 using the values from August 2005.",
+      "Intent_v5": "Can you fill in the missing data for September 2005 using the values from August 2005?",
+      "Referenced_v6": "Can you copy the values from this row to the next row for the selected range?"
+    },
+    "Mappings": ["Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Month",
+        "ranges": {
+          "Cells": ["B69:C69"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Month",
+        "ranges": {
+          "Cells": ["A70:C70"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "019eccb612e7762b45ba06791928c4a811986f1e_path_0.xlsx",
+    "File": "019eccb612e7762b45ba06791928c4a811986f1e.xlsx",
+    "Size": 14,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me update the discount values and make sure they are calculated correctly? The formula pattern used is =IF(args_1,VLOOKUP(args_2,args_3,2,FALSE),0) with arguments mapped to discount conditions and types. The calculations depend on conditions and lookup tables, applied over B8:B10.",
+      "Baseline_v2": "Update the 'Calculations' sheet to include the discount rates for 'New Home Discount', '5-Year Claims Free Discount', and 'Multi Policy Discount'.",
+      "CoT_v3": "Update discount values and implement formulas to calculate discounts in the 'Calculations' sheet.",
+      "Action_v4": "Update the discount percentages in the Calculations sheet to 0.2 for New Home, 0.1 for 5-Year Claims Free, and ensure Multi Policy remains 0.0.",
+      "Intent_v5": "Can you help me fill in and calculate the discount values in the Calculations sheet?",
+      "Referenced_v6": "Can you update the discount values in the selected range to the correct percentages?"
+    },
+    "Mappings": ["Calculated component:4"],
+    "Selected Cells": [
+      {
+        "sheet": "Calculations",
+        "ranges": {
+          "Cells": ["A8:A10"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Calculations",
+        "ranges": {
+          "Cells": ["B8:B10"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_0.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you update the data to include the latest year and make sure all totals are correct? The totals for the year 2020/21 are calculated using the SUM formula over the relevant ranges. For example, the total in cell AF10 is calculated as =SUM(AF8:AF9).",
+      "Baseline_v2": "Add the 2020/21 data to the 'schools' and 'pupils' sheets, and ensure the totals are updated accordingly.",
+      "CoT_v3": "Include the year 2020/21 in both sheets, fix the date format in the pupils sheet, and calculate the total for the year 2020/21 in both sheets.",
+      "Action_v4": "Correct and complete the data in the schools and pupils tables, including adding the missing year 2020/21 and correcting erroneous date values.",
+      "Intent_v5": "Can you help me correct the dates, add missing years, and ensure all totals are accurate in the data?",
+      "Referenced_v6": "Can you add the year 2020/21 to the header, put a dash in the selected range, and show the total for this column?"
+    },
+    "Mappings": ["Calculated component:4"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AF8:AF9"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AF28:AF28", "AF10:AF10", "AF4:AF4"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_1.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure the data about schools and pupils is correct and easy to read? The total number of educational establishments is calculated using the sum of individual counts for different types of schools across ranges J13:J18. The formula template used is =SUM(args_1), where args_1 represents the range of cells containing the counts.",
+      "Baseline_v2": "Please sum the values for each school type in the 'schools' sheet and add a 'TOTAL' row at the bottom of each section.",
+      "CoT_v3": "Correct date format in 'pupils' sheet and add total rows in 'schools' and 'pupils' sheets ensuring they sum correctly.",
+      "Action_v4": "Clean up date values in the 'pupils' sheet and calculate/display totals in the 'schools' sheet.",
+      "Intent_v5": "Can you help me make sure the data is correct and the totals are accurate?",
+      "Referenced_v6": "Can you show the total number of primary schools for each year based on the selected range?"
+    },
+    "Mappings": ["Calculated component:5"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["J13:J18", "L13:Q18"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["J19:J19", "L19:Q19", "A19:A19"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_10.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_10",
+    "NL_generation": {
+      "Technical_v1": "Can you help me correct the dates and add a summary row to make the data clearer? The sum of values in columns X to AC is calculated using the formula =SUM(X25:X30, Y25:Y30, ..., AC25:AC30) and placed in row 31.",
+      "Baseline_v2": "Please update the 'schools' sheet to include a sum formula in cell AA31 that calculates the total of cells AA25 to AA30.",
+      "CoT_v3": "Clean and standardize data in the 'pupils' sheet and enhance data analysis capabilities in the 'schools' sheet.",
+      "Action_v4": "Ensure data accuracy and completeness in both sheets and add necessary calculations in the 'schools' sheet.",
+      "Intent_v5": "Can you help me clean up the data and make sure everything is accurate and easy to understand?",
+      "Referenced_v6": "Can you add up the numbers for each year in this column and show the totals in the row below?"
+    },
+    "Mappings": ["Calculated component:11"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["X25:AC30"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["X31:AC31"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_11.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_11",
+    "NL_generation": {
+      "Technical_v1": "Can you help me fix the dates in the pupils sheet and add a total calculation in the schools sheet? The formula `=SUM(AD25:AD30)` is applied in cell AD31 to sum the values in the range AD25:AD30.",
+      "Baseline_v2": "Please update the 'schools' sheet to include a new calculated column that sums the values from columns AD25 to AD30 and places the result in cell AD31.",
+      "CoT_v3": "Ensure data consistency in the 'pupils' sheet and add a sum formula in the 'schools' sheet.",
+      "Action_v4": "Clean up the data, correct date values, ensure accuracy, and add a formula to sum specific columns.",
+      "Intent_v5": "Can you help me clean up the data and make sure all numbers are correctly formatted?",
+      "Referenced_v6": "Can you add up the numbers for the selected range of controlled secondary schools and show the total?"
+    },
+    "Mappings": ["Calculated component:12"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AD25:AD30"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AD31:AD31"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_12.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_12",
+    "NL_generation": {
+      "Technical_v1": "Can you help me clean up the data, make sure everything is accurate, and show the totals for specific categories? The formula pattern identified is '=args_1+args_2' applied over the range AE38:AF38, with an example being {'AE38': '=AE37+AE31'}.",
+      "Baseline_v2": "Can you clean up the data in the 'pupils' sheet by removing the erroneous date values and ensuring all cells contain the correct numerical data?",
+      "CoT_v3": "Clean data in 'pupils' sheet and add sum formula in 'schools' sheet.",
+      "Action_v4": "Correct the dates in the pupils sheet and add a formula to calculate the total number of schools in the schools sheet.",
+      "Intent_v5": "Can you help me clean up the data and make sure all numbers are correct?",
+      "Referenced_v6": "Can you add the numbers in these cells and show the total right below them?"
+    },
+    "Mappings": ["Calculated component:25"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AE31:AF31", "AE37:AF37"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AE38:AF38"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_13.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_13",
+    "NL_generation": {
+      "Technical_v1": "Can you help me correct the dates and add up the numbers so the data about schools and pupils is clear and accurate? The sum of values in the 'schools' sheet is calculated using the SUM formula over the range AC10:AE10.",
+      "Baseline_v2": "Please update the 'schools' and 'pupils' sheets to include the total number of establishments and pupils for each year, and ensure all data is correctly formatted and accurate.",
+      "CoT_v3": "Correct date format in 'pupils' sheet, add missing values in 'schools' and 'pupils' sheets, and add sum formulas in 'schools' sheet.",
+      "Action_v4": "Clean up the data, correct date values, ensure proper formatting, and add a sum formula in the 'schools' sheet.",
+      "Intent_v5": "Can you help me fix the dates and ensure the totals are correct in the data?",
+      "Referenced_v6": "Can you show me the total number of controlled and Catholic maintained nursery schools for the selected years?"
+    },
+    "Mappings": ["Calculated component:3"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AC8:AE9"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AC10:AE10"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_3.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you help me correct the dates and ensure the totals are accurate in the data? The total number of schools is calculated using the sum of individual school counts across the range X19:AC19.",
+      "Baseline_v2": "Please correct the erroneous date values in the 'pupils' sheet to ensure all cells contain appropriate numerical data.",
+      "CoT_v3": "Correct and format data in the 'pupils' sheet and add a sum calculation in the 'schools' sheet.",
+      "Action_v4": "Correct date values in the 'pupils' sheet and add a sum formula in the 'schools' sheet.",
+      "Intent_v5": "Can you help me fix the date format and add a summary row to make the data clearer?",
+      "Referenced_v6": "Can you show the total number of primary schools for each year based on the selected range?"
+    },
+    "Mappings": ["Calculated component:7"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["X13:AC18"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["X19:AC19"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_6.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_6",
+    "NL_generation": {
+      "Technical_v1": "Can you help me correct the dates and add a column to sum values so the data is accurate and easy to understand? The sum of values in the AF column is calculated using the formula =AF20+AF19, applied over the range AF21:AF47.",
+      "Baseline_v2": "Please update the 'schools' and 'pupils' sheets to include the total number of establishments and pupils for the years 2019/20 and 2020/21, respectively.",
+      "CoT_v3": "Correct date formats in 'pupils' sheet and add sum formula in 'schools' sheet.",
+      "Action_v4": "Fix date values in the 'pupils' sheet, verify and correct all totals, and add a formula for totals in the 'schools' sheet.",
+      "Intent_v5": "Can you help me fix the dates and add a column to show the total number of schools each year?",
+      "Referenced_v6": "Can you add up the numbers in this column, starting from the selected cells and continuing downwards?"
+    },
+    "Mappings": ["Calculated component:19"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AF19:AF20", "AF45:AF45", "AF5:AF5"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["AF21:AF21", "AF47:AF47"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_7.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_7",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make sure the school and pupil data is accurate and easy to read? The total number of schools is calculated by summing the counts from J25 to J30 using the formula =SUM(J25:J30).",
+      "Baseline_v2": "Can you update the 'schools' sheet to include a total row that sums the values for each year from 1991/92 to 2019/20?",
+      "CoT_v3": "Correct data inconsistencies and add necessary calculations.",
+      "Action_v4": "Correct date values in the 'pupils' sheet and add a formula to calculate totals in the 'schools' sheet.",
+      "Intent_v5": "Can you help me clean up the data and make it easier to read and understand?",
+      "Referenced_v6": "Can you show me the total number of schools for each year based on the selected range?"
+    },
+    "Mappings": ["Calculated component:9"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["L25:Q30", "J25:J30"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["L31:Q31", "J31:J31", "A31:A31"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6_path_8.xlsx",
+    "File": "01ab181e91bb38eb61fb8e68e4e49f2f650f07e6.xlsx",
+    "Size": 31,
+    "Path": "path_8",
+    "NL_generation": {
+      "Technical_v1": "Can you help me correct the date errors and make sure the totals for schools and pupils are accurate? The total number of schools is calculated using the sum of values in the range R25:R30. The total number of pupils is calculated similarly, ensuring accurate totals are displayed.",
+      "Baseline_v2": "Please update the 'schools' sheet to include the sum of the values in columns R to W for row 31, and add the calculated total in cell X31.",
+      "CoT_v3": "Correct date values in the 'pupils' sheet and add sum formulas for specified ranges in the 'schools' sheet.",
+      "Action_v4": "Ensure date values are correct in the 'pupils' sheet and add a sum formula in the 'schools' sheet.",
+      "Intent_v5": "Can you fix the date errors and make sure the totals are correct?",
+      "Referenced_v6": "Can you show me the total number of schools for each year based on the selected range?"
+    },
+    "Mappings": ["Calculated component:10"],
+    "Selected Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["R25:W30"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "schools",
+        "ranges": {
+          "Cells": ["R31:W31"]
+        }
+      }
+    ]
+  }
+]

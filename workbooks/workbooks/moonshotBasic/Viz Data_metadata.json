@@ -1,0 +1,3672 @@
+[
+  {
+    "range": {
+      "worksheetId": "{63191022-A6F3-451D-B013-2658129CFCE1}",
+      "top": 1,
+      "left": 1,
+      "bottom": 13,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{63191022-A6F3-451D-B013-2658129CFCE1}",
+          "top": 1,
+          "bottom": 13,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 12
+          }
+        ],
+        "headerNames": [
+          "\"Month\"",
+          "\"Mobile Spend\"",
+          "\"Desktop Spend\"",
+          "\"Total Spend\"",
+          "\"Clicks\"",
+          "\"$/Click\"",
+          "\"Transactions\"",
+          "\"Transaction %\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Month",
+            "rawValueJson": "\"Month\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Mobile Spend",
+            "rawValueJson": "\"Mobile Spend\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Desktop Spend",
+            "rawValueJson": "\"Desktop Spend\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Total Spend",
+            "rawValueJson": "\"Total Spend\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Clicks",
+            "rawValueJson": "\"Clicks\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "$/Click",
+            "rawValueJson": "\"$/Click\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "Transactions",
+            "rawValueJson": "\"Transactions\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Transaction %",
+            "rawValueJson": "\"Transaction %\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "$359,085 ",
+            "rawValueJson": "359085",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "$438,881 ",
+            "rawValueJson": "438881",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "$797,966 ",
+            "rawValueJson": "797966",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "568,213",
+            "rawValueJson": "568213",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "$1.40 ",
+            "rawValueJson": "1.4",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "1,064",
+            "rawValueJson": "1064",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "0.19%",
+            "rawValueJson": "0.0019",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "February",
+            "rawValueJson": "\"February\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "$295,945 ",
+            "rawValueJson": "295945",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "$308,025 ",
+            "rawValueJson": "308025",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "$603,970 ",
+            "rawValueJson": "603970",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "486,398",
+            "rawValueJson": "486398",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "$1.24 ",
+            "rawValueJson": "1.24",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "984",
+            "rawValueJson": "984",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "0.20%",
+            "rawValueJson": "0.002",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "March",
+            "rawValueJson": "\"March\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "$228,830 ",
+            "rawValueJson": "228830",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "$291,239 ",
+            "rawValueJson": "291239",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "$520,069 ",
+            "rawValueJson": "520069",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "459,937",
+            "rawValueJson": "459937",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "$1.13 ",
+            "rawValueJson": "1.13",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "936",
+            "rawValueJson": "936",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "0.20%",
+            "rawValueJson": "0.002",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "April",
+            "rawValueJson": "\"April\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "$376,751 ",
+            "rawValueJson": "376751",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "$347,770 ",
+            "rawValueJson": "347770",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "$724,521 ",
+            "rawValueJson": "724521",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "481,632",
+            "rawValueJson": "481632",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "$1.50 ",
+            "rawValueJson": "1.5",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "990",
+            "rawValueJson": "990",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "0.21%",
+            "rawValueJson": "0.0021",
+            "numberFormat": "0.00%"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "May",
+            "rawValueJson": "\"May\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "$343,227 ",
+            "rawValueJson": "343227",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "$343,227 ",
+            "rawValueJson": "343227",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "$686,453 ",
+            "rawValueJson": "686453",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "478,822",
+            "rawValueJson": "478822",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "$1.43 ",
+            "rawValueJson": "1.43",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "886",
+            "rawValueJson": "886",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "0.19%",
+            "rawValueJson": "0.0019",
+            "numberFormat": "0.00%"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{63191022-A6F3-451D-B013-2658129CFCE1}",
+          "top": 1,
+          "bottom": 13,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          3
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Month",
+            "rawValueJson": "\"Month\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Mobile Spend",
+            "rawValueJson": "\"Mobile Spend\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Desktop Spend",
+            "rawValueJson": "\"Desktop Spend\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Total Spend",
+            "rawValueJson": "\"Total Spend\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Clicks",
+            "rawValueJson": "\"Clicks\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "$/Click",
+            "rawValueJson": "\"$/Click\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "January",
+            "rawValueJson": "\"January\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "$359,085 ",
+            "rawValueJson": "359085",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "$438,881 ",
+            "rawValueJson": "438881",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "$797,966 ",
+            "rawValueJson": "797966",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "568,213",
+            "rawValueJson": "568213",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "$1.40 ",
+            "rawValueJson": "1.4",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "February",
+            "rawValueJson": "\"February\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "$295,945 ",
+            "rawValueJson": "295945",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "$308,025 ",
+            "rawValueJson": "308025",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "$603,970 ",
+            "rawValueJson": "603970",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "486,398",
+            "rawValueJson": "486398",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "$1.24 ",
+            "rawValueJson": "1.24",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "March",
+            "rawValueJson": "\"March\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "$228,830 ",
+            "rawValueJson": "228830",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "$291,239 ",
+            "rawValueJson": "291239",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "$520,069 ",
+            "rawValueJson": "520069",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "459,937",
+            "rawValueJson": "459937",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "$1.13 ",
+            "rawValueJson": "1.13",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "April",
+            "rawValueJson": "\"April\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "$376,751 ",
+            "rawValueJson": "376751",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "$347,770 ",
+            "rawValueJson": "347770",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "$724,521 ",
+            "rawValueJson": "724521",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "481,632",
+            "rawValueJson": "481632",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "$1.50 ",
+            "rawValueJson": "1.5",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "May",
+            "rawValueJson": "\"May\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "$343,227 ",
+            "rawValueJson": "343227",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "$343,227 ",
+            "rawValueJson": "343227",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "$686,453 ",
+            "rawValueJson": "686453",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "478,822",
+            "rawValueJson": "478822",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "$1.43 ",
+            "rawValueJson": "1.43",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "June",
+            "rawValueJson": "\"June\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "$164,481 ",
+            "rawValueJson": "164481",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "$227,141 ",
+            "rawValueJson": "227141",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "$391,622 ",
+            "rawValueJson": "391622",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "332,313",
+            "rawValueJson": "332313",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "$1.18 ",
+            "rawValueJson": "1.18",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "July",
+            "rawValueJson": "\"July\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "$161,304 ",
+            "rawValueJson": "161304",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "$263,180 ",
+            "rawValueJson": "263180",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "$424,484 ",
+            "rawValueJson": "424484",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "289,154",
+            "rawValueJson": "289154",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "$1.47 ",
+            "rawValueJson": "1.47",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "August",
+            "rawValueJson": "\"August\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "$127,173 ",
+            "rawValueJson": "127173",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "$236,178 ",
+            "rawValueJson": "236178",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "$363,350 ",
+            "rawValueJson": "363350",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "224,080",
+            "rawValueJson": "224080",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "$1.62 ",
+            "rawValueJson": "1.62",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "September",
+            "rawValueJson": "\"September\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "$111,114 ",
+            "rawValueJson": "111114",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "$215,692 ",
+            "rawValueJson": "215692",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "$326,806 ",
+            "rawValueJson": "326806",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "220,951",
+            "rawValueJson": "220951",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "$1.48 ",
+            "rawValueJson": "1.48",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "October",
+            "rawValueJson": "\"October\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "$174,805 ",
+            "rawValueJson": "174805",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "$273,414 ",
+            "rawValueJson": "273414",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "$448,219 ",
+            "rawValueJson": "448219",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "268,924",
+            "rawValueJson": "268924",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "$1.67 ",
+            "rawValueJson": "1.67",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "November",
+            "rawValueJson": "\"November\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "$210,181 ",
+            "rawValueJson": "210181",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "$267,503 ",
+            "rawValueJson": "267503",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "$477,684 ",
+            "rawValueJson": "477684",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "295,562",
+            "rawValueJson": "295562",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "$1.62 ",
+            "rawValueJson": "1.62",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "December",
+            "rawValueJson": "\"December\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "$264,672 ",
+            "rawValueJson": "264672",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "$310,702 ",
+            "rawValueJson": "310702",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "$575,375 ",
+            "rawValueJson": "575375",
+            "numberFormat": "$#,##0_);[Red]($#,##0)"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "330,514",
+            "rawValueJson": "330514",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "$1.74 ",
+            "rawValueJson": "1.74",
+            "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Clicks",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Month",
+          "rawValueJson": "\"Month\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Mobile Spend",
+          "rawValueJson": "\"Mobile Spend\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Desktop Spend",
+          "rawValueJson": "\"Desktop Spend\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Total Spend",
+          "rawValueJson": "\"Total Spend\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Clicks",
+          "rawValueJson": "\"Clicks\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "$/Click",
+          "rawValueJson": "\"$/Click\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "Transactions",
+          "rawValueJson": "\"Transactions\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Transaction %",
+          "rawValueJson": "\"Transaction %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "January",
+          "rawValueJson": "\"January\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "$359,085 ",
+          "rawValueJson": "359085",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "$438,881 ",
+          "rawValueJson": "438881",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "$797,966 ",
+          "rawValueJson": "797966",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "568,213",
+          "rawValueJson": "568213",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "$1.40 ",
+          "rawValueJson": "1.4",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "1,064",
+          "rawValueJson": "1064",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "0.19%",
+          "rawValueJson": "0.0019",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "February",
+          "rawValueJson": "\"February\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "$295,945 ",
+          "rawValueJson": "295945",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "$308,025 ",
+          "rawValueJson": "308025",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "$603,970 ",
+          "rawValueJson": "603970",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "486,398",
+          "rawValueJson": "486398",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "$1.24 ",
+          "rawValueJson": "1.24",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "984",
+          "rawValueJson": "984",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "0.20%",
+          "rawValueJson": "0.002",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "March",
+          "rawValueJson": "\"March\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "$228,830 ",
+          "rawValueJson": "228830",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "$291,239 ",
+          "rawValueJson": "291239",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "$520,069 ",
+          "rawValueJson": "520069",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "459,937",
+          "rawValueJson": "459937",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "$1.13 ",
+          "rawValueJson": "1.13",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "936",
+          "rawValueJson": "936",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "0.20%",
+          "rawValueJson": "0.002",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "April",
+          "rawValueJson": "\"April\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "$376,751 ",
+          "rawValueJson": "376751",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "$347,770 ",
+          "rawValueJson": "347770",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "$724,521 ",
+          "rawValueJson": "724521",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "481,632",
+          "rawValueJson": "481632",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "$1.50 ",
+          "rawValueJson": "1.5",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "990",
+          "rawValueJson": "990",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "0.21%",
+          "rawValueJson": "0.0021",
+          "numberFormat": "0.00%"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "May",
+          "rawValueJson": "\"May\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "$343,227 ",
+          "rawValueJson": "343227",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "$343,227 ",
+          "rawValueJson": "343227",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "$686,453 ",
+          "rawValueJson": "686453",
+          "numberFormat": "$#,##0_);[Red]($#,##0)"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "478,822",
+          "rawValueJson": "478822",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "$1.43 ",
+          "rawValueJson": "1.43",
+          "numberFormat": "$#,##0.00_);[Red]($#,##0.00)"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "886",
+          "rawValueJson": "886",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "0.19%",
+          "rawValueJson": "0.0019",
+          "numberFormat": "0.00%"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "5816b181-a3ea-4977-b859-3e7133d8b427",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{34636162-BE85-45FC-BB03-A43175E734DF}",
+      "top": 2,
+      "left": 1,
+      "bottom": 12,
+      "right": 13
+    },
+    "interpretations": [
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{34636162-BE85-45FC-BB03-A43175E734DF}",
+          "top": 2,
+          "bottom": 12,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 10
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Jan",
+            "rawValueJson": "\"Jan\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Feb",
+            "rawValueJson": "\"Feb\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Mar",
+            "rawValueJson": "\"Mar\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Apr",
+            "rawValueJson": "\"Apr\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "May",
+            "rawValueJson": "\"May\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "Jun",
+            "rawValueJson": "\"Jun\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "Jul",
+            "rawValueJson": "\"Jul\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 9,
+            "displayText": "Aug",
+            "rawValueJson": "\"Aug\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 10,
+            "displayText": "Sep",
+            "rawValueJson": "\"Sep\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "Oct",
+            "rawValueJson": "\"Oct\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "Nov",
+            "rawValueJson": "\"Nov\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "Dec",
+            "rawValueJson": "\"Dec\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "New York",
+            "rawValueJson": "\"New York\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "39",
+            "rawValueJson": "39",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "61",
+            "rawValueJson": "61",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "71",
+            "rawValueJson": "71",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "79",
+            "rawValueJson": "79",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "84",
+            "rawValueJson": "84",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "83",
+            "rawValueJson": "83",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "76",
+            "rawValueJson": "76",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "65",
+            "rawValueJson": "65",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 12,
+            "displayText": "54",
+            "rawValueJson": "54",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 13,
+            "displayText": "44",
+            "rawValueJson": "44",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Los Angeles",
+            "rawValueJson": "\"Los Angeles\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "68",
+            "rawValueJson": "68",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "68",
+            "rawValueJson": "68",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "70",
+            "rawValueJson": "70",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "73",
+            "rawValueJson": "73",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "74",
+            "rawValueJson": "74",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "78",
+            "rawValueJson": "78",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "83",
+            "rawValueJson": "83",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "84",
+            "rawValueJson": "84",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 10,
+            "displayText": "83",
+            "rawValueJson": "83",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 11,
+            "displayText": "79",
+            "rawValueJson": "79",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 12,
+            "displayText": "73",
+            "rawValueJson": "73",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 13,
+            "displayText": "68",
+            "rawValueJson": "68",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Chicago",
+            "rawValueJson": "\"Chicago\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "47",
+            "rawValueJson": "47",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "59",
+            "rawValueJson": "59",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "70",
+            "rawValueJson": "70",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "80",
+            "rawValueJson": "80",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "85",
+            "rawValueJson": "85",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "84",
+            "rawValueJson": "84",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "77",
+            "rawValueJson": "77",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "65",
+            "rawValueJson": "65",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "37",
+            "rawValueJson": "37",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Houston",
+            "rawValueJson": "\"Houston\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "63",
+            "rawValueJson": "63",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "66",
+            "rawValueJson": "66",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "72",
+            "rawValueJson": "72",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "78",
+            "rawValueJson": "78",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "85",
+            "rawValueJson": "85",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "90",
+            "rawValueJson": "90",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "94",
+            "rawValueJson": "94",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "94",
+            "rawValueJson": "94",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "89",
+            "rawValueJson": "89",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "82",
+            "rawValueJson": "82",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "72",
+            "rawValueJson": "72",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "64",
+            "rawValueJson": "64",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "Phoenix",
+            "rawValueJson": "\"Phoenix\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "67",
+            "rawValueJson": "67",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "71",
+            "rawValueJson": "71",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "76",
+            "rawValueJson": "76",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "85",
+            "rawValueJson": "85",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "94",
+            "rawValueJson": "94",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "104",
+            "rawValueJson": "104",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "106",
+            "rawValueJson": "106",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 9,
+            "displayText": "104",
+            "rawValueJson": "104",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 10,
+            "displayText": "100",
+            "rawValueJson": "100",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 11,
+            "displayText": "89",
+            "rawValueJson": "89",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 12,
+            "displayText": "76",
+            "rawValueJson": "76",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 13,
+            "displayText": "67",
+            "rawValueJson": "67",
+            "numberFormat": "0"
+          }
+        ]
+      },
+      {
+        "confidence": 0.5,
+        "location": {
+          "worksheetId": "{34636162-BE85-45FC-BB03-A43175E734DF}",
+          "top": 2,
+          "bottom": 12,
+          "left": 1,
+          "right": 13
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 12
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Jan",
+            "rawValueJson": "\"Jan\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Feb",
+            "rawValueJson": "\"Feb\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Mar",
+            "rawValueJson": "\"Mar\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Apr",
+            "rawValueJson": "\"Apr\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "May",
+            "rawValueJson": "\"May\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "New York",
+            "rawValueJson": "\"New York\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "39",
+            "rawValueJson": "39",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "42",
+            "rawValueJson": "42",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "61",
+            "rawValueJson": "61",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "71",
+            "rawValueJson": "71",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Los Angeles",
+            "rawValueJson": "\"Los Angeles\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "68",
+            "rawValueJson": "68",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "68",
+            "rawValueJson": "68",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "70",
+            "rawValueJson": "70",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "73",
+            "rawValueJson": "73",
+            "numberFormat": "0"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "74",
+            "rawValueJson": "74",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Chicago",
+            "rawValueJson": "\"Chicago\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "32",
+            "rawValueJson": "32",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "36",
+            "rawValueJson": "36",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "47",
+            "rawValueJson": "47",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "59",
+            "rawValueJson": "59",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "70",
+            "rawValueJson": "70",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Houston",
+            "rawValueJson": "\"Houston\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "63",
+            "rawValueJson": "63",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "66",
+            "rawValueJson": "66",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "72",
+            "rawValueJson": "72",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "78",
+            "rawValueJson": "78",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "85",
+            "rawValueJson": "85",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "Phoenix",
+            "rawValueJson": "\"Phoenix\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "67",
+            "rawValueJson": "67",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "71",
+            "rawValueJson": "71",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "76",
+            "rawValueJson": "76",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "85",
+            "rawValueJson": "85",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "94",
+            "rawValueJson": "94",
+            "numberFormat": "0"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "Philadelphia",
+            "rawValueJson": "\"Philadelphia\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "41",
+            "rawValueJson": "41",
+            "numberFormat": "0"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "0"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "53",
+            "rawValueJson": "53",
+            "numberFormat": "0"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "64",
+            "rawValueJson": "64",
+            "numberFormat": "0"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "74",
+            "rawValueJson": "74",
+            "numberFormat": "0"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "San Antonio",
+            "rawValueJson": "\"San Antonio\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "63",
+            "rawValueJson": "63",
+            "numberFormat": "0"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "67",
+            "rawValueJson": "67",
+            "numberFormat": "0"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "74",
+            "rawValueJson": "74",
+            "numberFormat": "0"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "80",
+            "rawValueJson": "80",
+            "numberFormat": "0"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "87",
+            "rawValueJson": "87",
+            "numberFormat": "0"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "San Diego",
+            "rawValueJson": "\"San Diego\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "65",
+            "rawValueJson": "65",
+            "numberFormat": "0"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "66",
+            "rawValueJson": "66",
+            "numberFormat": "0"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "66",
+            "rawValueJson": "66",
+            "numberFormat": "0"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "68",
+            "rawValueJson": "68",
+            "numberFormat": "0"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "69",
+            "rawValueJson": "69",
+            "numberFormat": "0"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "Dallas",
+            "rawValueJson": "\"Dallas\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "57",
+            "rawValueJson": "57",
+            "numberFormat": "0"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "61",
+            "rawValueJson": "61",
+            "numberFormat": "0"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "69",
+            "rawValueJson": "69",
+            "numberFormat": "0"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "76",
+            "rawValueJson": "76",
+            "numberFormat": "0"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "83",
+            "rawValueJson": "83",
+            "numberFormat": "0"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "San Jose",
+            "rawValueJson": "\"San Jose\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "0"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "64",
+            "rawValueJson": "64",
+            "numberFormat": "0"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "68",
+            "rawValueJson": "68",
+            "numberFormat": "0"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "73",
+            "rawValueJson": "73",
+            "numberFormat": "0"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "77",
+            "rawValueJson": "77",
+            "numberFormat": "0"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "CT",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "simpleCrossTable",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "9f6e3764-2cf3-41e4-8873-d001c8204c72",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{B2104374-EEB1-4E55-A683-474DEC2D1370}",
+      "top": 1,
+      "left": 1,
+      "bottom": 1101,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{B2104374-EEB1-4E55-A683-474DEC2D1370}",
+          "top": 1,
+          "bottom": 1101,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Name\"",
+          "\"Height(inches)\"",
+          "\"Weight(pounds)\"",
+          "\"Age\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Height(inches)",
+            "rawValueJson": "\"Height(inches)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Weight(pounds)",
+            "rawValueJson": "\"Weight(pounds)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Age",
+            "rawValueJson": "\"Age\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "Alex Anderson",
+            "rawValueJson": "\"Alex Anderson\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "66",
+            "rawValueJson": "66",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "162",
+            "rawValueJson": "162",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "39",
+            "rawValueJson": "39",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "Alex Anderson",
+            "rawValueJson": "\"Alex Anderson\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "66",
+            "rawValueJson": "66",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "119",
+            "rawValueJson": "119",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "50",
+            "rawValueJson": "50",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Alex Brown",
+            "rawValueJson": "\"Alex Brown\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "73",
+            "rawValueJson": "73",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "178",
+            "rawValueJson": "178",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "39",
+            "rawValueJson": "39",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "Alex Brown",
+            "rawValueJson": "\"Alex Brown\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "64",
+            "rawValueJson": "64",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "201",
+            "rawValueJson": "201",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "47",
+            "rawValueJson": "47",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "Alex Brown",
+            "rawValueJson": "\"Alex Brown\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "67",
+            "rawValueJson": "67",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "120",
+            "rawValueJson": "120",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "34",
+            "rawValueJson": "34",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Height",
+    "isDataSampled": true,
+    "primaryTable": {
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Height(inches)",
+          "rawValueJson": "\"Height(inches)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Weight(pounds)",
+          "rawValueJson": "\"Weight(pounds)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Age",
+          "rawValueJson": "\"Age\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "Alex Anderson",
+          "rawValueJson": "\"Alex Anderson\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "66",
+          "rawValueJson": "66",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "162",
+          "rawValueJson": "162",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "39",
+          "rawValueJson": "39",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Alex Anderson",
+          "rawValueJson": "\"Alex Anderson\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "66",
+          "rawValueJson": "66",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "119",
+          "rawValueJson": "119",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "50",
+          "rawValueJson": "50",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Alex Brown",
+          "rawValueJson": "\"Alex Brown\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "73",
+          "rawValueJson": "73",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "178",
+          "rawValueJson": "178",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "39",
+          "rawValueJson": "39",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "Alex Brown",
+          "rawValueJson": "\"Alex Brown\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "64",
+          "rawValueJson": "64",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "201",
+          "rawValueJson": "201",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "47",
+          "rawValueJson": "47",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "Alex Brown",
+          "rawValueJson": "\"Alex Brown\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "67",
+          "rawValueJson": "67",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "120",
+          "rawValueJson": "120",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "34",
+          "rawValueJson": "34",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      1101,
+      1100,
+      1099,
+      1098,
+      1097,
+      1096,
+      1095,
+      1094,
+      1093,
+      1092,
+      1091,
+      1090,
+      1089,
+      1088,
+      1087,
+      1086,
+      1085,
+      1084,
+      1083,
+      1082,
+      1081,
+      1080,
+      1079,
+      1078,
+      1077,
+      1076,
+      1075,
+      1074,
+      1073,
+      1072,
+      1071,
+      1070,
+      1069,
+      1068,
+      1067,
+      1066,
+      1065,
+      1064,
+      1063,
+      1062,
+      1061,
+      1060,
+      1059,
+      1058,
+      1057,
+      1056,
+      1055,
+      1054,
+      1053,
+      1052,
+      1051,
+      1050,
+      1049,
+      1048,
+      1047,
+      1046,
+      1045,
+      1044,
+      1043,
+      1042,
+      1041,
+      1040,
+      1039,
+      1038,
+      1037,
+      1036,
+      1035,
+      1034,
+      1033,
+      1032,
+      1031,
+      1030,
+      1029,
+      1028,
+      1027,
+      1026,
+      1025,
+      1024,
+      1023,
+      1022,
+      1021,
+      1020,
+      1019,
+      1018,
+      1017,
+      1016,
+      1015,
+      1014,
+      1013,
+      1012,
+      1011,
+      1010,
+      1009,
+      1008,
+      1007,
+      1006,
+      1005,
+      1004,
+      1003,
+      1002,
+      1001,
+      1000,
+      999,
+      998,
+      997,
+      996,
+      995,
+      994,
+      993,
+      992,
+      991,
+      990,
+      989,
+      988,
+      987,
+      986,
+      985,
+      984,
+      983,
+      982,
+      981,
+      980,
+      979,
+      978,
+      977,
+      976,
+      975,
+      974,
+      973,
+      972,
+      971,
+      970,
+      969,
+      968,
+      967,
+      966,
+      965,
+      964,
+      963,
+      962,
+      961,
+      960,
+      959,
+      958,
+      957,
+      956,
+      955,
+      954,
+      953,
+      952,
+      951,
+      950,
+      949,
+      948,
+      947,
+      946,
+      945,
+      944,
+      943,
+      942,
+      941,
+      940,
+      939,
+      938,
+      937,
+      936,
+      935,
+      934,
+      933,
+      932,
+      931,
+      930,
+      929,
+      928,
+      927,
+      926,
+      925,
+      924,
+      923,
+      922,
+      921,
+      920,
+      919,
+      918,
+      917,
+      916,
+      915,
+      914,
+      913,
+      912,
+      911,
+      910,
+      909,
+      908,
+      907,
+      906,
+      905,
+      904,
+      903,
+      902,
+      901,
+      900,
+      899,
+      898,
+      897,
+      896,
+      895,
+      894,
+      893,
+      892,
+      891,
+      890,
+      889,
+      888,
+      887,
+      886,
+      885,
+      884,
+      883,
+      882,
+      881,
+      880,
+      879,
+      878,
+      877,
+      876,
+      875,
+      874,
+      873,
+      872,
+      871,
+      870,
+      869,
+      868,
+      867,
+      866,
+      865,
+      864,
+      863,
+      862,
+      861,
+      860,
+      859,
+      858,
+      857,
+      856,
+      855,
+      854,
+      853,
+      852
+    ],
+    "samplingScheme": 1,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "b09373a7-b331-4936-9ae4-821eaeb39238",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

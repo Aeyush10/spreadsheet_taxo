@@ -1,0 +1,457 @@
+[
+  {
+    "range": {
+      "worksheetId": "{61133BCA-2B69-43EF-B103-32DC6A4AC3BA}",
+      "top": 1,
+      "left": 5,
+      "bottom": 4,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{61133BCA-2B69-43EF-B103-32DC6A4AC3BA}",
+          "top": 1,
+          "bottom": 4,
+          "left": 5,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 3
+          }
+        ],
+        "headerNames": [
+          "\"KEY 1\"",
+          "\"KEY 2\"",
+          "\"RESULT\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "KEY 1",
+            "rawValueJson": "\"KEY 1\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "KEY 2",
+            "rawValueJson": "\"KEY 2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "RESULT",
+            "rawValueJson": "\"RESULT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "BEARING",
+            "rawValueJson": "\"BEARING\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "BALL",
+            "rawValueJson": "\"BALL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "BEARING,BALL",
+            "rawValueJson": "\"BEARING,BALL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "BEARING",
+            "rawValueJson": "\"BEARING\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "ROLLER",
+            "rawValueJson": "\"ROLLER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "BEARING,ROLLER",
+            "rawValueJson": "\"BEARING,ROLLER\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "BEARING",
+            "rawValueJson": "\"BEARING\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "THRUST",
+            "rawValueJson": "\"THRUST\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "BEARING,THRUST",
+            "rawValueJson": "\"BEARING,THRUST\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.8571428571428571,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "KEY 1",
+          "rawValueJson": "\"KEY 1\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "KEY 2",
+          "rawValueJson": "\"KEY 2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "RESULT",
+          "rawValueJson": "\"RESULT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "BEARING",
+          "rawValueJson": "\"BEARING\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "BALL",
+          "rawValueJson": "\"BALL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "BEARING,BALL",
+          "rawValueJson": "\"BEARING,BALL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "BEARING",
+          "rawValueJson": "\"BEARING\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "ROLLER",
+          "rawValueJson": "\"ROLLER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "BEARING,ROLLER",
+          "rawValueJson": "\"BEARING,ROLLER\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "BEARING",
+          "rawValueJson": "\"BEARING\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "THRUST",
+          "rawValueJson": "\"THRUST\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "BEARING,THRUST",
+          "rawValueJson": "\"BEARING,THRUST\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "fa6980f2-7f34-4494-8d27-c34ef8a6c4dc",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{61133BCA-2B69-43EF-B103-32DC6A4AC3BA}",
+      "top": 1,
+      "left": 1,
+      "bottom": 6,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{61133BCA-2B69-43EF-B103-32DC6A4AC3BA}",
+          "top": 1,
+          "bottom": 6,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 5
+          }
+        ],
+        "headerNames": [
+          "\"DESC\"",
+          "\"RESULT\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "DESC",
+            "rawValueJson": "\"DESC\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "RESULT",
+            "rawValueJson": "\"RESULT\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "BEARING, BALL, SINGLE ROW 6311-Z",
+            "rawValueJson": "\"BEARING, BALL, SINGLE ROW 6311-Z\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "BEARING,BALL",
+            "rawValueJson": "\"BEARING,BALL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "BEARING, BALL, SKF 6004-2Z",
+            "rawValueJson": "\"BEARING, BALL, SKF 6004-2Z\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "BEARING,BALL",
+            "rawValueJson": "\"BEARING,BALL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "BEARING, BALL, SKF 6201",
+            "rawValueJson": "\"BEARING, BALL, SKF 6201\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "BEARING, BALL, SKF 6202-2Z",
+            "rawValueJson": "\"BEARING, BALL, SKF 6202-2Z\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "BEARING,ROLLER,SPL 22217 KBX",
+            "rawValueJson": "\"BEARING,ROLLER,SPL 22217 KBX\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.75,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "DESC",
+          "rawValueJson": "\"DESC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "RESULT",
+          "rawValueJson": "\"RESULT\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "BEARING, BALL, SINGLE ROW 6311-Z",
+          "rawValueJson": "\"BEARING, BALL, SINGLE ROW 6311-Z\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "BEARING,BALL",
+          "rawValueJson": "\"BEARING,BALL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "BEARING, BALL, SKF 6004-2Z",
+          "rawValueJson": "\"BEARING, BALL, SKF 6004-2Z\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "BEARING,BALL",
+          "rawValueJson": "\"BEARING,BALL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "BEARING, BALL, SKF 6201",
+          "rawValueJson": "\"BEARING, BALL, SKF 6201\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "BEARING, BALL, SKF 6202-2Z",
+          "rawValueJson": "\"BEARING, BALL, SKF 6202-2Z\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "BEARING,ROLLER,SPL 22217 KBX",
+          "rawValueJson": "\"BEARING,ROLLER,SPL 22217 KBX\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "71a2d059-79e0-42e1-bc1a-85434b050891",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

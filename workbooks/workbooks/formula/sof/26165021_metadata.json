@@ -1,0 +1,149 @@
+[
+  {
+    "range": {
+      "worksheetId": "{4619214B-1FF7-44A5-8FB2-E1F817022D1F}",
+      "top": 1,
+      "left": 1,
+      "bottom": 11,
+      "right": 1
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{4619214B-1FF7-44A5-8FB2-E1F817022D1F}",
+          "top": 1,
+          "bottom": 11,
+          "left": 1,
+          "right": 1
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"ColA\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "ColA",
+            "rawValueJson": "\"ColA\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "http://example.com",
+            "rawValueJson": "\"http://example.com\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "http://www.somesite.com/mypage",
+            "rawValueJson": "\"http://www.somesite.com/mypage\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "anothersite.com/somepage",
+            "rawValueJson": "\"anothersite.com/somepage\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "http://example.com/anotherpage",
+            "rawValueJson": "\"http://example.com/anotherpage\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "www.yetanothersite.com",
+            "rawValueJson": "\"www.yetanothersite.com\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Input",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "ColA",
+          "rawValueJson": "\"ColA\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "http://example.com",
+          "rawValueJson": "\"http://example.com\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "http://www.somesite.com/mypage",
+          "rawValueJson": "\"http://www.somesite.com/mypage\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "anothersite.com/somepage",
+          "rawValueJson": "\"anothersite.com/somepage\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "http://example.com/anotherpage",
+          "rawValueJson": "\"http://example.com/anotherpage\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "www.yetanothersite.com",
+          "rawValueJson": "\"www.yetanothersite.com\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "0be4c755-431f-4132-a70f-e5ec08ae193e",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

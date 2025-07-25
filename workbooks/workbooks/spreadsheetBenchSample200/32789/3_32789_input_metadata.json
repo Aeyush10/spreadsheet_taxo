@@ -1,0 +1,1544 @@
+[
+  {
+    "range": {
+      "worksheetId": "{ABA3160B-9409-4D35-B2D7-394EA121945A}",
+      "top": 3,
+      "left": 1,
+      "bottom": 14,
+      "right": 9
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{ABA3160B-9409-4D35-B2D7-394EA121945A}",
+          "top": 3,
+          "bottom": 14,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 11
+          }
+        ],
+        "headerNames": [
+          "\"Week \"",
+          "\"Team Total\"",
+          "\"Goal #\"",
+          "\"Goal (%)\"",
+          "\"Actual (#)\"",
+          "\"Goal (%) Actual\"",
+          "\"% of Quota (#)\"",
+          "\"% of Quota (%)\"",
+          "\"Higher % of Quota\""
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{ABA3160B-9409-4D35-B2D7-394EA121945A}",
+          "top": 3,
+          "bottom": 14,
+          "left": 1,
+          "right": 9
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 2,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 5,
+            "end": 8
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "Week ",
+          "rawValueJson": "\"Week \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Team Total",
+          "rawValueJson": "\"Team Total\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Goal #",
+          "rawValueJson": "\"Goal #\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Goal (%)",
+          "rawValueJson": "\"Goal (%)\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Actual (#)",
+          "rawValueJson": "\"Actual (#)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Goal (%) Actual",
+          "rawValueJson": "\"Goal (%) Actual\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "% of Quota (#)",
+          "rawValueJson": "\"% of Quota (#)\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "% of Quota (%)",
+          "rawValueJson": "\"% of Quota (%)\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "Higher % of Quota",
+          "rawValueJson": "\"Higher % of Quota\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "10/16/2023",
+          "rawValueJson": "45215",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "167",
+          "rawValueJson": "167",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "7%",
+          "rawValueJson": "0.0718562874251497",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "7%",
+          "rawValueJson": "0.0718562874251497",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "103%",
+          "rawValueJson": "1.02651839178785",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "103%",
+          "rawValueJson": "1.02651839178785",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "11/6/2023",
+          "rawValueJson": "45236",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "169",
+          "rawValueJson": "169",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "13",
+          "rawValueJson": "13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "8%",
+          "rawValueJson": "0.0769230769230769",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "8%",
+          "rawValueJson": "0.0769230769230769",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "96%",
+          "rawValueJson": "0.961538461538462",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "96%",
+          "rawValueJson": "0.961538461538462",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "10/30/2023",
+          "rawValueJson": "45229",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "171",
+          "rawValueJson": "171",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "14",
+          "rawValueJson": "14",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "8%",
+          "rawValueJson": "0.0818713450292398",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "8%",
+          "rawValueJson": "0.0818713450292398",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "91%",
+          "rawValueJson": "0.909681611435997",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "91%",
+          "rawValueJson": "0.909681611435997",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "11/6/2023",
+          "rawValueJson": "45236",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "173",
+          "rawValueJson": "173",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "15",
+          "rawValueJson": "15",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "9%",
+          "rawValueJson": "0.0867052023121387",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "9%",
+          "rawValueJson": "0.0867052023121387",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": "87%",
+          "rawValueJson": "0.867052023121387",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "displayText": "87%",
+          "rawValueJson": "0.867052023121387",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "11/13/2023",
+          "rawValueJson": "45243",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        },
+        {
+          "row": 8,
+          "column": 9,
+          "displayText": "",
+          "rawValueJson": "\"\"",
+          "numberFormat": "0%"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ac20b592-bedb-4cbd-aa5c-93b45012332a",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{ABA3160B-9409-4D35-B2D7-394EA121945A}",
+      "top": 2,
+      "left": 56,
+      "bottom": 9,
+      "right": 70
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{ABA3160B-9409-4D35-B2D7-394EA121945A}",
+          "top": 2,
+          "bottom": 9,
+          "left": 56,
+          "right": 70
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 2,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 56
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 57
+              },
+              {
+                "top": 3,
+                "left": 57
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 57
+              },
+              {
+                "top": 3,
+                "left": 58
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 59
+              },
+              {
+                "top": 3,
+                "left": 59
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 60
+              },
+              {
+                "top": 3,
+                "left": 60
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 61
+              },
+              {
+                "top": 3,
+                "left": 61
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 61
+              },
+              {
+                "top": 3,
+                "left": 62
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 63
+              },
+              {
+                "top": 3,
+                "left": 63
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 63
+              },
+              {
+                "top": 3,
+                "left": 64
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 65
+              },
+              {
+                "top": 3,
+                "left": 65
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 65
+              },
+              {
+                "top": 3,
+                "left": 66
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 67
+              },
+              {
+                "top": 3,
+                "left": 67
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 67
+              },
+              {
+                "top": 3,
+                "left": 68
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 69
+              },
+              {
+                "top": 3,
+                "left": 69
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 70
+              },
+              {
+                "top": 3,
+                "left": 70
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 7
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{ABA3160B-9409-4D35-B2D7-394EA121945A}",
+          "top": 2,
+          "bottom": 9,
+          "left": 56,
+          "right": 70
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 14
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": true,
+    "boundaryConfidence": 0.8913043478260869,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 2,
+          "column": 57,
+          "displayText": "Inbound Calls",
+          "rawValueJson": "\"Inbound Calls\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 59,
+          "displayText": "Case Replies",
+          "rawValueJson": "\"Case Replies\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 60,
+          "displayText": "Case Replies",
+          "rawValueJson": "\"Case Replies\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 61,
+          "displayText": "Customers Helped / Cases Solved",
+          "rawValueJson": "\"Customers Helped / Cases Solved\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 63,
+          "displayText": "ABC",
+          "rawValueJson": "\"ABC\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 65,
+          "displayText": "Claims",
+          "rawValueJson": "\"Claims\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 67,
+          "displayText": "XYZ",
+          "rawValueJson": "\"XYZ\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 56,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 57,
+          "displayText": "Goal #",
+          "rawValueJson": "\"Goal #\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 58,
+          "displayText": "Goal %",
+          "rawValueJson": "\"Goal %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 59,
+          "displayText": "Goal #",
+          "rawValueJson": "\"Goal #\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 60,
+          "displayText": "Goal %",
+          "rawValueJson": "\"Goal %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 61,
+          "displayText": "Goal #",
+          "rawValueJson": "\"Goal #\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 62,
+          "displayText": "Goal %",
+          "rawValueJson": "\"Goal %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 63,
+          "displayText": "Goal #",
+          "rawValueJson": "\"Goal #\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 64,
+          "displayText": "Goal %",
+          "rawValueJson": "\"Goal %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 65,
+          "displayText": "Goal #",
+          "rawValueJson": "\"Goal #\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 66,
+          "displayText": "Goal %",
+          "rawValueJson": "\"Goal %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 67,
+          "displayText": "Goal #",
+          "rawValueJson": "\"Goal #\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 68,
+          "displayText": "Goal %",
+          "rawValueJson": "\"Goal %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 69,
+          "displayText": "Goal #",
+          "rawValueJson": "\"Goal #\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 70,
+          "displayText": "Goal %",
+          "rawValueJson": "\"Goal %\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 56,
+          "displayText": "10/16/2023",
+          "rawValueJson": "45215",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 57,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 58,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 59,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 60,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 61,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 62,
+          "displayText": "9",
+          "rawValueJson": "9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 63,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 64,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 65,
+          "displayText": "9",
+          "rawValueJson": "9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 66,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 67,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 68,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 56,
+          "displayText": "10/23/2023",
+          "rawValueJson": "45222",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 57,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 58,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 59,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 60,
+          "displayText": "9",
+          "rawValueJson": "9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 61,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 62,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 63,
+          "displayText": "9",
+          "rawValueJson": "9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 64,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 65,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 66,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 67,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 68,
+          "displayText": "13",
+          "rawValueJson": "13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 56,
+          "displayText": "10/30/2023",
+          "rawValueJson": "45229",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 57,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 58,
+          "displayText": "9",
+          "rawValueJson": "9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 59,
+          "displayText": "9",
+          "rawValueJson": "9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 60,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 61,
+          "displayText": "9",
+          "rawValueJson": "9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 62,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 63,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 64,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 65,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 66,
+          "displayText": "13",
+          "rawValueJson": "13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 67,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 68,
+          "displayText": "14",
+          "rawValueJson": "14",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 56,
+          "displayText": "11/6/2023",
+          "rawValueJson": "45236",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 57,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 58,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 59,
+          "displayText": "9",
+          "rawValueJson": "9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 60,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 61,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 62,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 63,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 64,
+          "displayText": "13",
+          "rawValueJson": "13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 65,
+          "displayText": "12",
+          "rawValueJson": "12",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 66,
+          "displayText": "14",
+          "rawValueJson": "14",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 67,
+          "displayText": "13",
+          "rawValueJson": "13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 68,
+          "displayText": "15",
+          "rawValueJson": "15",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ff3786b3-85a0-42d2-85ff-f5810b30f58d",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

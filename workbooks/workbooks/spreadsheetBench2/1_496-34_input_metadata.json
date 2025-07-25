@@ -1,0 +1,431 @@
+[
+  {
+    "range": {
+      "worksheetId": "{902B3817-AF61-4434-AB55-946BDBC0B774}",
+      "top": 1,
+      "left": 1,
+      "bottom": 8,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{902B3817-AF61-4434-AB55-946BDBC0B774}",
+          "top": 1,
+          "bottom": 8,
+          "left": 1,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ],
+        "headerNames": [
+          "\"ID\"",
+          "\"Name\"",
+          "\"Date en Time\"",
+          "\"Amount\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "ID",
+            "rawValueJson": "\"ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Date en Time",
+            "rawValueJson": "\"Date en Time\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "123",
+            "rawValueJson": "123",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Wayan",
+            "rawValueJson": "\"Wayan\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "2/10/2021 18:33",
+            "rawValueJson": "44237.77324074074",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "100.00",
+            "rawValueJson": "100",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "123",
+            "rawValueJson": "123",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Wayan",
+            "rawValueJson": "\"Wayan\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "2/10/2021 18:34",
+            "rawValueJson": "44237.77393518519",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "40.00",
+            "rawValueJson": "40",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "110",
+            "rawValueJson": "110",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Made",
+            "rawValueJson": "\"Made\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "2/9/2021 14:34",
+            "rawValueJson": "44236.60726851852",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "20.00",
+            "rawValueJson": "20",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "117",
+            "rawValueJson": "117",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Nyoman",
+            "rawValueJson": "\"Nyoman\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "1/20/2021 13:34",
+            "rawValueJson": "44216.56560185185",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "25.00",
+            "rawValueJson": "25",
+            "numberFormat": "#,##0.00"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "220",
+            "rawValueJson": "220",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Desy",
+            "rawValueJson": "\"Desy\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "1/24/2021 13:33",
+            "rawValueJson": "44220.56490740741",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "35.00",
+            "rawValueJson": "35",
+            "numberFormat": "#,##0.00"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9583333333333334,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "ID",
+          "rawValueJson": "\"ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Date en Time",
+          "rawValueJson": "\"Date en Time\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "123",
+          "rawValueJson": "123",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Wayan",
+          "rawValueJson": "\"Wayan\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "2/10/2021 18:33",
+          "rawValueJson": "44237.77324074074",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "100.00",
+          "rawValueJson": "100",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "123",
+          "rawValueJson": "123",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Wayan",
+          "rawValueJson": "\"Wayan\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "2/10/2021 18:34",
+          "rawValueJson": "44237.77393518519",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "40.00",
+          "rawValueJson": "40",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "110",
+          "rawValueJson": "110",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Made",
+          "rawValueJson": "\"Made\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "2/9/2021 14:34",
+          "rawValueJson": "44236.60726851852",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "20.00",
+          "rawValueJson": "20",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "117",
+          "rawValueJson": "117",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Nyoman",
+          "rawValueJson": "\"Nyoman\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "1/20/2021 13:34",
+          "rawValueJson": "44216.56560185185",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "25.00",
+          "rawValueJson": "25",
+          "numberFormat": "#,##0.00"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "220",
+          "rawValueJson": "220",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Desy",
+          "rawValueJson": "\"Desy\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "1/24/2021 13:33",
+          "rawValueJson": "44220.56490740741",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "35.00",
+          "rawValueJson": "35",
+          "numberFormat": "#,##0.00"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "78253ae1-2dac-46b7-a481-f9dfd963b555",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

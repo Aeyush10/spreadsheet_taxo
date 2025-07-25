@@ -1,0 +1,5116 @@
+[
+  {
+    "range": {
+      "worksheetId": "{6D8BD840-2D91-464F-9C3C-66D5D3CBBFE4}",
+      "top": 16,
+      "left": 2,
+      "bottom": 22,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{6D8BD840-2D91-464F-9C3C-66D5D3CBBFE4}",
+          "top": 16,
+          "bottom": 22,
+          "left": 2,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 6
+          }
+        ],
+        "headerNames": [
+          "\"Description\"",
+          "\"-\\tAnalyze Data and Advanced Analysis (80 CTRL+T tables and >500 queries)\"",
+          "\"\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "-\tAnalyze Data and Advanced Analysis (80 CTRL+T tables and >500 queries)",
+            "rawValueJson": "\"-\\tAnalyze Data and Advanced Analysis (80 CTRL+T tables and >500 queries)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "How to access",
+            "rawValueJson": "\"How to access\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "tables.xlsx",
+            "rawValueJson": "\"tables.xlsx\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "UserTesting-AfterPostProcess.xlsx",
+            "rawValueJson": "\"UserTesting-AfterPostProcess.xlsx\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "Data Classification",
+            "rawValueJson": "\"Data Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 3,
+            "displayText": "TBD - Feature PM to drive separately ",
+            "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "Approved for eval?",
+            "rawValueJson": "\"Approved for eval?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "TBD - Feature PM to drive separately ",
+            "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "Approved for training? ",
+            "rawValueJson": "\"Approved for training? \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "TBD - Feature PM to drive separately ",
+            "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "Labelling",
+            "rawValueJson": "\"Labelling\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "Queries and output (but output format may not be usable by other features)",
+            "rawValueJson": "\"Queries and output (but output format may not be usable by other features)\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.8,
+    "sheetName": "Feature Crew Datasets + XLIM",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 16,
+          "column": 2,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 16,
+          "column": 3,
+          "displayText": "-\tAnalyze Data and Advanced Analysis (80 CTRL+T tables and >500 queries)",
+          "rawValueJson": "\"-\\tAnalyze Data and Advanced Analysis (80 CTRL+T tables and >500 queries)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 2,
+          "displayText": "How to access",
+          "rawValueJson": "\"How to access\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 3,
+          "displayText": "tables.xlsx",
+          "rawValueJson": "\"tables.xlsx\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 17,
+          "column": 4,
+          "displayText": "UserTesting-AfterPostProcess.xlsx",
+          "rawValueJson": "\"UserTesting-AfterPostProcess.xlsx\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 18,
+          "column": 2,
+          "displayText": "Data Classification",
+          "rawValueJson": "\"Data Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 18,
+          "column": 3,
+          "displayText": "TBD - Feature PM to drive separately ",
+          "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 19,
+          "column": 2,
+          "displayText": "Approved for eval?",
+          "rawValueJson": "\"Approved for eval?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 19,
+          "column": 3,
+          "displayText": "TBD - Feature PM to drive separately ",
+          "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 2,
+          "displayText": "Approved for training? ",
+          "rawValueJson": "\"Approved for training? \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 20,
+          "column": 3,
+          "displayText": "TBD - Feature PM to drive separately ",
+          "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 2,
+          "displayText": "Labelling",
+          "rawValueJson": "\"Labelling\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 21,
+          "column": 3,
+          "displayText": "Queries and output (but output format may not be usable by other features)",
+          "rawValueJson": "\"Queries and output (but output format may not be usable by other features)\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ed605187-38e2-4483-8965-a16d6841e586",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{6D8BD840-2D91-464F-9C3C-66D5D3CBBFE4}",
+      "top": 26,
+      "left": 2,
+      "bottom": 42,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{6D8BD840-2D91-464F-9C3C-66D5D3CBBFE4}",
+          "top": 26,
+          "bottom": 42,
+          "left": 2,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [
+          10
+        ],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 6
+          },
+          {
+            "start": 11,
+            "end": 16
+          }
+        ],
+        "headerNames": [
+          "\"Description\"",
+          "\"-\\tCommanding vnext dataset generation is in progress with MAIDAP.\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 26,
+            "column": 2,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 3,
+            "displayText": "-\tCommanding vnext dataset generation is in progress with MAIDAP.",
+            "rawValueJson": "\"-\\tCommanding vnext dataset generation is in progress with MAIDAP.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 2,
+            "displayText": "How to access",
+            "rawValueJson": "\"How to access\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 3,
+            "displayText": "arc1-scenarios - Repos",
+            "rawValueJson": "\"arc1-scenarios - Repos\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 2,
+            "displayText": "Data Classification",
+            "rawValueJson": "\"Data Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 3,
+            "displayText": "TBD - Feature PM to drive separately ",
+            "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "Approved for eval?",
+            "rawValueJson": "\"Approved for eval?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 3,
+            "displayText": "TBD - Feature PM to drive separately ",
+            "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "Approved for training? ",
+            "rawValueJson": "\"Approved for training? \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 3,
+            "displayText": "TBD - Feature PM to drive separately ",
+            "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 2,
+            "displayText": "Labelling",
+            "rawValueJson": "\"Labelling\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 3,
+            "displayText": "Unknown",
+            "rawValueJson": "\"Unknown\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9473684210526315,
+    "sheetName": "Feature Crew Datasets + XLIM",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 26,
+          "column": 2,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 26,
+          "column": 3,
+          "displayText": "-\tCommanding vnext dataset generation is in progress with MAIDAP.",
+          "rawValueJson": "\"-\\tCommanding vnext dataset generation is in progress with MAIDAP.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 27,
+          "column": 2,
+          "displayText": "How to access",
+          "rawValueJson": "\"How to access\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 27,
+          "column": 3,
+          "displayText": "arc1-scenarios - Repos",
+          "rawValueJson": "\"arc1-scenarios - Repos\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 28,
+          "column": 2,
+          "displayText": "Data Classification",
+          "rawValueJson": "\"Data Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 28,
+          "column": 3,
+          "displayText": "TBD - Feature PM to drive separately ",
+          "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 2,
+          "displayText": "Approved for eval?",
+          "rawValueJson": "\"Approved for eval?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 29,
+          "column": 3,
+          "displayText": "TBD - Feature PM to drive separately ",
+          "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 2,
+          "displayText": "Approved for training? ",
+          "rawValueJson": "\"Approved for training? \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 30,
+          "column": 3,
+          "displayText": "TBD - Feature PM to drive separately ",
+          "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 31,
+          "column": 2,
+          "displayText": "Labelling",
+          "rawValueJson": "\"Labelling\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 31,
+          "column": 3,
+          "displayText": "Unknown",
+          "rawValueJson": "\"Unknown\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ec2006d1-da5c-428b-baf7-5d2886c842d2",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{6D8BD840-2D91-464F-9C3C-66D5D3CBBFE4}",
+      "top": 4,
+      "left": 2,
+      "bottom": 12,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{6D8BD840-2D91-464F-9C3C-66D5D3CBBFE4}",
+          "top": 4,
+          "bottom": 12,
+          "left": 2,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "headerNames": [
+          "\"Collection: Scenario Coverage/Files Compiled by Copilot Vertical Teams\"",
+          "\"\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Collection: Scenario Coverage/Files Compiled by Copilot Vertical Teams",
+            "rawValueJson": "\"Collection: Scenario Coverage/Files Compiled by Copilot Vertical Teams\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "-\tFormula Benchmark being developed by Ori Dov, There’s an open task to generate cross-sheet formula queries and improve the benchmark to work on unstructured data.",
+            "rawValueJson": "\"-\\tFormula Benchmark being developed by Ori Dov, There’s an open task to generate cross-sheet formula queries and improve the benchmark to work on unstructured data.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "How to access",
+            "rawValueJson": "\"How to access\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "benchmarks - Repos",
+            "rawValueJson": "\"benchmarks - Repos\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Data Classification",
+            "rawValueJson": "\"Data Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "TBD - Feature PM to drive separately ",
+            "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Approved for eval?",
+            "rawValueJson": "\"Approved for eval?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "TBD - Feature PM to drive separately ",
+            "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.7272727272727273,
+    "sheetName": "Feature Crew Datasets + XLIM",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Collection: Scenario Coverage/Files Compiled by Copilot Vertical Teams",
+          "rawValueJson": "\"Collection: Scenario Coverage/Files Compiled by Copilot Vertical Teams\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "-\tFormula Benchmark being developed by Ori Dov, There’s an open task to generate cross-sheet formula queries and improve the benchmark to work on unstructured data.",
+          "rawValueJson": "\"-\\tFormula Benchmark being developed by Ori Dov, There’s an open task to generate cross-sheet formula queries and improve the benchmark to work on unstructured data.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "How to access",
+          "rawValueJson": "\"How to access\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "benchmarks - Repos",
+          "rawValueJson": "\"benchmarks - Repos\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Data Classification",
+          "rawValueJson": "\"Data Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "TBD - Feature PM to drive separately ",
+          "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "Approved for eval?",
+          "rawValueJson": "\"Approved for eval?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "TBD - Feature PM to drive separately ",
+          "rawValueJson": "\"TBD - Feature PM to drive separately \"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "8f17b185-0ebe-4527-bf1a-a4473d3e1b50",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{C7BF3408-1671-4B17-A559-634552B2E280}",
+      "top": 4,
+      "left": 2,
+      "bottom": 11,
+      "right": 3
+    },
+    "interpretations": [],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.95,
+    "sheetName": "Formula Research",
+    "isDataSampled": false,
+    "primaryTable": {
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": []
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "66219280-8efa-4e8f-9f7e-c20a61aed386",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{72D04855-E929-4F78-84C2-74ED104F9E67}",
+      "top": 4,
+      "left": 2,
+      "bottom": 7,
+      "right": 5
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{72D04855-E929-4F78-84C2-74ED104F9E67}",
+          "top": 4,
+          "bottom": 7,
+          "left": 2,
+          "right": 5
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Noncompliant Dataset\"",
+          "\"Reason\"",
+          "\"Priority to Unblock\"",
+          "\"Owner\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Noncompliant Dataset",
+            "rawValueJson": "\"Noncompliant Dataset\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Reason",
+            "rawValueJson": "\"Reason\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Priority to Unblock",
+            "rawValueJson": "\"Priority to Unblock\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Owner",
+            "rawValueJson": "\"Owner\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Bing21 Retroindex ",
+            "rawValueJson": "\"Bing21 Retroindex \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Retention policy requires periodic refresh of the data",
+            "rawValueJson": "\"Retention policy requires periodic refresh of the data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "P0 ",
+            "rawValueJson": "\"P0 \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Xiao/Juana",
+            "rawValueJson": "\"Xiao/Juana\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "LinkedIn Learning datasets",
+            "rawValueJson": "\"LinkedIn Learning datasets\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Copyrighted material",
+            "rawValueJson": "\"Copyrighted material\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "P2",
+            "rawValueJson": "\"P2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Eva",
+            "rawValueJson": "\"Eva\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Copilot in Finance",
+            "rawValueJson": "\"Copilot in Finance\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "Needs scrubbing and vetting, did not go through privacy process, significant cost expected to get this compliant",
+            "rawValueJson": "\"Needs scrubbing and vetting, did not go through privacy process, significant cost expected to get this compliant\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "P2",
+            "rawValueJson": "\"P2\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "N/A",
+            "rawValueJson": "\"N/A\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table2",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Noncompliant Data",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Noncompliant Dataset",
+          "rawValueJson": "\"Noncompliant Dataset\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Reason",
+          "rawValueJson": "\"Reason\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Priority to Unblock",
+          "rawValueJson": "\"Priority to Unblock\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Owner",
+          "rawValueJson": "\"Owner\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Bing21 Retroindex ",
+          "rawValueJson": "\"Bing21 Retroindex \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Retention policy requires periodic refresh of the data",
+          "rawValueJson": "\"Retention policy requires periodic refresh of the data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "P0 ",
+          "rawValueJson": "\"P0 \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Xiao/Juana",
+          "rawValueJson": "\"Xiao/Juana\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "LinkedIn Learning datasets",
+          "rawValueJson": "\"LinkedIn Learning datasets\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Copyrighted material",
+          "rawValueJson": "\"Copyrighted material\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "P2",
+          "rawValueJson": "\"P2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Eva",
+          "rawValueJson": "\"Eva\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "Copilot in Finance",
+          "rawValueJson": "\"Copilot in Finance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "Needs scrubbing and vetting, did not go through privacy process, significant cost expected to get this compliant",
+          "rawValueJson": "\"Needs scrubbing and vetting, did not go through privacy process, significant cost expected to get this compliant\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "P2",
+          "rawValueJson": "\"P2\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "N/A",
+          "rawValueJson": "\"N/A\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "6b1cb846-873b-45d3-92f1-9784775924d1",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{51A4DA6D-7234-4CE6-96FD-BEE41AFE5F46}",
+      "top": 4,
+      "left": 2,
+      "bottom": 11,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{51A4DA6D-7234-4CE6-96FD-BEE41AFE5F46}",
+          "top": 4,
+          "bottom": 11,
+          "left": 2,
+          "right": 4
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 2
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "-\tWe've cleared this with FMWC for copilot evaluation - but I don't recommend them for training. Feedback on these has been that they're kind of niche, and designed around training/learning rather than everyday use cases.\n-\tThis team runs Excel Championship reusing FMWC datasets, but they’re more accessible. Each folder has the original dataset and a solution dataset by Joe.",
+            "rawValueJson": "\"-\\tWe've cleared this with FMWC for copilot evaluation - but I don't recommend them for training. Feedback on these has been that they're kind of niche, and designed around training/learning rather than everyday use cases.\\n-\\tThis team runs Excel Championship reusing FMWC datasets, but they’re more accessible. Each folder has the original dataset and a solution dataset by Joe.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Size",
+            "rawValueJson": "\"Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "321 workbooks available at a premium, 5 for free",
+            "rawValueJson": "\"321 workbooks available at a premium, 5 for free\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "How to access",
+            "rawValueJson": "\"How to access\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "-          FMWC World Cup - paid;",
+            "rawValueJson": "\"-          FMWC World Cup - paid;\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "-          Excel Championship - free",
+            "rawValueJson": "\"-          Excel Championship - free\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Data Classification",
+            "rawValueJson": "\"Data Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "System Metadata",
+            "rawValueJson": "\"System Metadata\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Approved for eval?",
+            "rawValueJson": "\"Approved for eval?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Approved for training? ",
+            "rawValueJson": "\"Approved for training? \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "Yes but not recommended due to the nature of the content",
+            "rawValueJson": "\"Yes but not recommended due to the nature of the content\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "Labelling",
+            "rawValueJson": "\"Labelling\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "Contact ",
+            "rawValueJson": "\"Contact \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "Thomas Chi",
+            "rawValueJson": "\"Thomas Chi\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9090909090909091,
+    "sheetName": "World Excel Championship - Eval",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "rowMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "-\tWe've cleared this with FMWC for copilot evaluation - but I don't recommend them for training. Feedback on these has been that they're kind of niche, and designed around training/learning rather than everyday use cases.\n-\tThis team runs Excel Championship reusing FMWC datasets, but they’re more accessible. Each folder has the original dataset and a solution dataset by Joe.",
+          "rawValueJson": "\"-\\tWe've cleared this with FMWC for copilot evaluation - but I don't recommend them for training. Feedback on these has been that they're kind of niche, and designed around training/learning rather than everyday use cases.\\n-\\tThis team runs Excel Championship reusing FMWC datasets, but they’re more accessible. Each folder has the original dataset and a solution dataset by Joe.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Size",
+          "rawValueJson": "\"Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "321 workbooks available at a premium, 5 for free",
+          "rawValueJson": "\"321 workbooks available at a premium, 5 for free\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "How to access",
+          "rawValueJson": "\"How to access\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "-          FMWC World Cup - paid;",
+          "rawValueJson": "\"-          FMWC World Cup - paid;\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "-          Excel Championship - free",
+          "rawValueJson": "\"-          Excel Championship - free\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "Data Classification",
+          "rawValueJson": "\"Data Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "System Metadata",
+          "rawValueJson": "\"System Metadata\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Approved for eval?",
+          "rawValueJson": "\"Approved for eval?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "Approved for training? ",
+          "rawValueJson": "\"Approved for training? \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "Yes but not recommended due to the nature of the content",
+          "rawValueJson": "\"Yes but not recommended due to the nature of the content\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "displayText": "Labelling",
+          "rawValueJson": "\"Labelling\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 2,
+          "displayText": "Contact ",
+          "rawValueJson": "\"Contact \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 3,
+          "displayText": "Thomas Chi",
+          "rawValueJson": "\"Thomas Chi\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "b9b286a8-a3e4-49ba-b44c-f400682f6fd5",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{F56CEE52-55A0-44EE-8064-6A06F0B607A8}",
+      "top": 4,
+      "left": 2,
+      "bottom": 11,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{F56CEE52-55A0-44EE-8064-6A06F0B607A8}",
+          "top": 4,
+          "bottom": 11,
+          "left": 2,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 0,
+            "end": 7
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "<100 workbooks collected from customers, originally for the purpose of improving Excel performance. Synthetic query generation needed. Compiled by Prash.",
+            "rawValueJson": "\"<100 workbooks collected from customers, originally for the purpose of improving Excel performance. Synthetic query generation needed. Compiled by Prash.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Size",
+            "rawValueJson": "\"Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "~100 workbooks",
+            "rawValueJson": "\"~100 workbooks\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "How to access",
+            "rawValueJson": "\"How to access\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Excel/Test Collateral - OWiki",
+            "rawValueJson": "\"Excel/Test Collateral - OWiki\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Data Classification",
+            "rawValueJson": "\"Data Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "Fully Anonymized Customer Content / NPI ",
+            "rawValueJson": "\"Fully Anonymized Customer Content / NPI \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Approved for eval?",
+            "rawValueJson": "\"Approved for eval?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Approved for training? ",
+            "rawValueJson": "\"Approved for training? \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.95,
+    "sheetName": "Performance - Eval Only",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "<100 workbooks collected from customers, originally for the purpose of improving Excel performance. Synthetic query generation needed. Compiled by Prash.",
+          "rawValueJson": "\"<100 workbooks collected from customers, originally for the purpose of improving Excel performance. Synthetic query generation needed. Compiled by Prash.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Size",
+          "rawValueJson": "\"Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "~100 workbooks",
+          "rawValueJson": "\"~100 workbooks\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "How to access",
+          "rawValueJson": "\"How to access\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Excel/Test Collateral - OWiki",
+          "rawValueJson": "\"Excel/Test Collateral - OWiki\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "Data Classification",
+          "rawValueJson": "\"Data Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "Fully Anonymized Customer Content / NPI ",
+          "rawValueJson": "\"Fully Anonymized Customer Content / NPI \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Approved for eval?",
+          "rawValueJson": "\"Approved for eval?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "Approved for training? ",
+          "rawValueJson": "\"Approved for training? \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "ace3db21-0ae3-42e9-9190-710d021c780f",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{B58C6B64-56F2-4A0A-B29C-7E35508CA550}",
+      "top": 4,
+      "left": 2,
+      "bottom": 10,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{B58C6B64-56F2-4A0A-B29C-7E35508CA550}",
+          "top": 4,
+          "bottom": 10,
+          "left": 2,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 6
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "What kind of data? ",
+            "rawValueJson": "\"What kind of data? \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Sourced from? ",
+            "rawValueJson": "\"Sourced from? \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Required Processes Before Use",
+            "rawValueJson": "\"Required Processes Before Use\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Privacy Classification",
+            "rawValueJson": "\"Privacy Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Approved Uses",
+            "rawValueJson": "\"Approved Uses\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "Retention Requirement",
+            "rawValueJson": "\"Retention Requirement\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Manufacured Dataset (made to represent real world scenario with fake data) ",
+            "rawValueJson": "\"Manufacured Dataset (made to represent real world scenario with fake data) \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Consultants, Vendors, Microsoft Employees",
+            "rawValueJson": "\"Consultants, Vendors, Microsoft Employees\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "System Metadata",
+            "rawValueJson": "\"System Metadata\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Training, Eval",
+            "rawValueJson": "\"Training, Eval\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "MVPs",
+            "rawValueJson": "\"MVPs\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Public Non-Personal Data",
+            "rawValueJson": "\"Public Non-Personal Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Training, Eval",
+            "rawValueJson": "\"Training, Eval\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "Other",
+            "rawValueJson": "\"Other\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "Pursue additional privacy and/or CELA guidance",
+            "rawValueJson": "\"Pursue additional privacy and/or CELA guidance\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "N/A",
+            "rawValueJson": "\"N/A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "N/A",
+            "rawValueJson": "\"N/A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Real World Dataset",
+            "rawValueJson": "\"Real World Dataset\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "Public Website",
+            "rawValueJson": "\"Public Website\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "CELA Review",
+            "rawValueJson": "\"CELA Review\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "Public Non-Personal Data",
+            "rawValueJson": "\"Public Non-Personal Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "Training, Eval",
+            "rawValueJson": "\"Training, Eval\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "Customer (external), Microsoft Employee",
+            "rawValueJson": "\"Customer (external), Microsoft Employee\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "Anonymization (removing/replacing all PII like names, emails, etc.) ",
+            "rawValueJson": "\"Anonymization (removing/replacing all PII like names, emails, etc.) \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "Fully Anonymized Customer Content / NPI ",
+            "rawValueJson": "\"Fully Anonymized Customer Content / NPI \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "Eval",
+            "rawValueJson": "\"Eval\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": true,
+    "boundaryConfidence": 1,
+    "sheetName": "Data Classification Legend",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "What kind of data? ",
+          "rawValueJson": "\"What kind of data? \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Sourced from? ",
+          "rawValueJson": "\"Sourced from? \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Required Processes Before Use",
+          "rawValueJson": "\"Required Processes Before Use\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Privacy Classification",
+          "rawValueJson": "\"Privacy Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Approved Uses",
+          "rawValueJson": "\"Approved Uses\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "Retention Requirement",
+          "rawValueJson": "\"Retention Requirement\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Manufacured Dataset (made to represent real world scenario with fake data) ",
+          "rawValueJson": "\"Manufacured Dataset (made to represent real world scenario with fake data) \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Consultants, Vendors, Microsoft Employees",
+          "rawValueJson": "\"Consultants, Vendors, Microsoft Employees\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "System Metadata",
+          "rawValueJson": "\"System Metadata\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Training, Eval",
+          "rawValueJson": "\"Training, Eval\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "MVPs",
+          "rawValueJson": "\"MVPs\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Public Non-Personal Data",
+          "rawValueJson": "\"Public Non-Personal Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Training, Eval",
+          "rawValueJson": "\"Training, Eval\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "Other",
+          "rawValueJson": "\"Other\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "Pursue additional privacy and/or CELA guidance",
+          "rawValueJson": "\"Pursue additional privacy and/or CELA guidance\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "N/A",
+          "rawValueJson": "\"N/A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "N/A",
+          "rawValueJson": "\"N/A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Real World Dataset",
+          "rawValueJson": "\"Real World Dataset\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "Public Website",
+          "rawValueJson": "\"Public Website\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "CELA Review",
+          "rawValueJson": "\"CELA Review\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "Public Non-Personal Data",
+          "rawValueJson": "\"Public Non-Personal Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "Training, Eval",
+          "rawValueJson": "\"Training, Eval\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "Customer (external), Microsoft Employee",
+          "rawValueJson": "\"Customer (external), Microsoft Employee\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "displayText": "Anonymization (removing/replacing all PII like names, emails, etc.) ",
+          "rawValueJson": "\"Anonymization (removing/replacing all PII like names, emails, etc.) \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "displayText": "Fully Anonymized Customer Content / NPI ",
+          "rawValueJson": "\"Fully Anonymized Customer Content / NPI \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "displayText": "Eval",
+          "rawValueJson": "\"Eval\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 7,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "1762e892-9e65-40aa-9e7d-02e507bd13cd",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{3BCE631B-0186-4759-8C7C-85585C95FC10}",
+      "top": 4,
+      "left": 2,
+      "bottom": 11,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{3BCE631B-0186-4759-8C7C-85585C95FC10}",
+          "top": 4,
+          "bottom": 11,
+          "left": 2,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 0,
+            "end": 7
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "The complexity of the queries challenge Moonshot reasoning. Compiled by Mar. Some are approved to use; others we are still investigating.",
+            "rawValueJson": "\"The complexity of the queries challenge Moonshot reasoning. Compiled by Mar. Some are approved to use; others we are still investigating.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Size",
+            "rawValueJson": "\"Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "35 sheets, >40 complex queries",
+            "rawValueJson": "\"35 sheets, >40 complex queries\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "How to access",
+            "rawValueJson": "\"How to access\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Orchestration Data 2024_A.xlsx",
+            "rawValueJson": "\"Orchestration Data 2024_A.xlsx\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Data Classification",
+            "rawValueJson": "\"Data Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "Varies by dataset (see Data Repository) ",
+            "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Approved for eval?",
+            "rawValueJson": "\"Approved for eval?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "Varies by dataset (see Data Repository) ",
+            "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Approved for training? ",
+            "rawValueJson": "\"Approved for training? \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "Varies by dataset (see Data Repository) ",
+            "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.95,
+    "sheetName": "Orchestration Data",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "The complexity of the queries challenge Moonshot reasoning. Compiled by Mar. Some are approved to use; others we are still investigating.",
+          "rawValueJson": "\"The complexity of the queries challenge Moonshot reasoning. Compiled by Mar. Some are approved to use; others we are still investigating.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Size",
+          "rawValueJson": "\"Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "35 sheets, >40 complex queries",
+          "rawValueJson": "\"35 sheets, >40 complex queries\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "How to access",
+          "rawValueJson": "\"How to access\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Orchestration Data 2024_A.xlsx",
+          "rawValueJson": "\"Orchestration Data 2024_A.xlsx\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "Data Classification",
+          "rawValueJson": "\"Data Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "Varies by dataset (see Data Repository) ",
+          "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Approved for eval?",
+          "rawValueJson": "\"Approved for eval?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "Varies by dataset (see Data Repository) ",
+          "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "Approved for training? ",
+          "rawValueJson": "\"Approved for training? \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "Varies by dataset (see Data Repository) ",
+          "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "908dc18a-ab82-42ad-bf64-bb9160342874",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{8981AF91-0665-4AE4-A7CA-270823EDE216}",
+      "top": 4,
+      "left": 2,
+      "bottom": 11,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{8981AF91-0665-4AE4-A7CA-270823EDE216}",
+          "top": 4,
+          "bottom": 11,
+          "left": 2,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ],
+        "headerNames": [
+          "\"Description\"",
+          "\"From meeting external customers (e.g., HCL, Phoenix Group), Excel MVPs, internal Microsoft teams, Microsoft Finance, Microsoft partners, AiX00, Field/Support.\\n\\n~30 sheets encompassing complex context and queries covering a range of Excel capabilities, objects, formulas including both single and cross sheet. >65 queries manually compiled queries (i.e., from asking the user what they’d want to know from this workbook).\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "From meeting external customers (e.g., HCL, Phoenix Group), Excel MVPs, internal Microsoft teams, Microsoft Finance, Microsoft partners, AiX00, Field/Support.\n\n~30 sheets encompassing complex context and queries covering a range of Excel capabilities, objects, formulas including both single and cross sheet. >65 queries manually compiled queries (i.e., from asking the user what they’d want to know from this workbook).",
+            "rawValueJson": "\"From meeting external customers (e.g., HCL, Phoenix Group), Excel MVPs, internal Microsoft teams, Microsoft Finance, Microsoft partners, AiX00, Field/Support.\\n\\n~30 sheets encompassing complex context and queries covering a range of Excel capabilities, objects, formulas including both single and cross sheet. >65 queries manually compiled queries (i.e., from asking the user what they’d want to know from this workbook).\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Size",
+            "rawValueJson": "\"Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "~30 sheets, >65 queries",
+            "rawValueJson": "\"~30 sheets, >65 queries\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "How to access",
+            "rawValueJson": "\"How to access\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Context Data.xlsm",
+            "rawValueJson": "\"Context Data.xlsm\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Data Classification",
+            "rawValueJson": "\"Data Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "Varies by dataset (see Data Repository) ",
+            "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Approved for eval?",
+            "rawValueJson": "\"Approved for eval?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "Varies by dataset (see Data Repository) ",
+            "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Approved for training? ",
+            "rawValueJson": "\"Approved for training? \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "Varies by dataset (see Data Repository) ",
+            "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.95,
+    "sheetName": "Context Data",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "From meeting external customers (e.g., HCL, Phoenix Group), Excel MVPs, internal Microsoft teams, Microsoft Finance, Microsoft partners, AiX00, Field/Support.\n\n~30 sheets encompassing complex context and queries covering a range of Excel capabilities, objects, formulas including both single and cross sheet. >65 queries manually compiled queries (i.e., from asking the user what they’d want to know from this workbook).",
+          "rawValueJson": "\"From meeting external customers (e.g., HCL, Phoenix Group), Excel MVPs, internal Microsoft teams, Microsoft Finance, Microsoft partners, AiX00, Field/Support.\\n\\n~30 sheets encompassing complex context and queries covering a range of Excel capabilities, objects, formulas including both single and cross sheet. >65 queries manually compiled queries (i.e., from asking the user what they’d want to know from this workbook).\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Size",
+          "rawValueJson": "\"Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "~30 sheets, >65 queries",
+          "rawValueJson": "\"~30 sheets, >65 queries\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "How to access",
+          "rawValueJson": "\"How to access\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Context Data.xlsm",
+          "rawValueJson": "\"Context Data.xlsm\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "Data Classification",
+          "rawValueJson": "\"Data Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "Varies by dataset (see Data Repository) ",
+          "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Approved for eval?",
+          "rawValueJson": "\"Approved for eval?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "Varies by dataset (see Data Repository) ",
+          "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "Approved for training? ",
+          "rawValueJson": "\"Approved for training? \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "Varies by dataset (see Data Repository) ",
+          "rawValueJson": "\"Varies by dataset (see Data Repository) \"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "7c5d5bf0-f55b-4a3e-bde8-a3c231b1a747",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{3CD216EA-D2CF-440B-94BF-728D19E5B8E0}",
+      "top": 4,
+      "left": 2,
+      "bottom": 11,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{3CD216EA-D2CF-440B-94BF-728D19E5B8E0}",
+          "top": 4,
+          "bottom": 11,
+          "left": 2,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 0,
+            "end": 7
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Description",
+            "rawValueJson": "\"Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Datasets scraped from the web for the GridSense project. CELA approvals were transferred to Moonshot.",
+            "rawValueJson": "\"Datasets scraped from the web for the GridSense project. CELA approvals were transferred to Moonshot.\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Size",
+            "rawValueJson": "\"Size\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "253 sheets with charts to be added starting Mid-may",
+            "rawValueJson": "\"253 sheets with charts to be added starting Mid-may\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "How to access",
+            "rawValueJson": "\"How to access\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "https://microsoft.sharepoint-df.com/:f:/r/teams/ProjectGridSense2/Shared%20Documents/Project%20GridSense?e=5%3ac024fded98324bc4b04b4f23326faa33&sharingv2=true&fromShare=true&at=9&xsdata=MDV8MDJ8b2xpdmlhdGhvbWFzQG1pY3Jvc29mdC5jb218ZjJmNDg5OTljZGMzNDQxNGUwZTkwOGRkODdmNTY4MmN8NzJmOTg4YmY4NmYxNDFhZjkxYWIyZDdjZDAxMWRiNDd8MXwwfDYzODgxNjIxMDMwMDcyNDE3N3xVbmtub3dufFRXRnBiR1pzYjNkOGV5SkZiWEIwZVUxaGNHa2lPblJ5ZFdVc0lsWWlPaUl3TGpBdU1EQXdNQ0lzSWxBaU9pSlhhVzR6TWlJc0lrRk9Jam9pVFdGcGJDSXNJbGRVSWpveWZRPT18MHx8fA%3d%3d&sdata=TlJ4S05jOHBRVmxwOEY5a1ZFYTRqaC9EN3FYdGxEbTBNaUhGM24vVHh6OD0%3d",
+            "rawValueJson": "\"https://microsoft.sharepoint-df.com/:f:/r/teams/ProjectGridSense2/Shared%20Documents/Project%20GridSense?e=5%3ac024fded98324bc4b04b4f23326faa33&sharingv2=true&fromShare=true&at=9&xsdata=MDV8MDJ8b2xpdmlhdGhvbWFzQG1pY3Jvc29mdC5jb218ZjJmNDg5OTljZGMzNDQxNGUwZTkwOGRkODdmNTY4MmN8NzJmOTg4YmY4NmYxNDFhZjkxYWIyZDdjZDAxMWRiNDd8MXwwfDYzODgxNjIxMDMwMDcyNDE3N3xVbmtub3dufFRXRnBiR1pzYjNkOGV5SkZiWEIwZVUxaGNHa2lPblJ5ZFdVc0lsWWlPaUl3TGpBdU1EQXdNQ0lzSWxBaU9pSlhhVzR6TWlJc0lrRk9Jam9pVFdGcGJDSXNJbGRVSWpveWZRPT18MHx8fA%3d%3d&sdata=TlJ4S05jOHBRVmxwOEY5a1ZFYTRqaC9EN3FYdGxEbTBNaUhGM24vVHh6OD0%3d\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Data Classification",
+            "rawValueJson": "\"Data Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "Public Non Personal Data",
+            "rawValueJson": "\"Public Non Personal Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Approved for eval?",
+            "rawValueJson": "\"Approved for eval?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Approved for training? ",
+            "rawValueJson": "\"Approved for training? \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.95,
+    "sheetName": "GridSense Data",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Description",
+          "rawValueJson": "\"Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Datasets scraped from the web for the GridSense project. CELA approvals were transferred to Moonshot.",
+          "rawValueJson": "\"Datasets scraped from the web for the GridSense project. CELA approvals were transferred to Moonshot.\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Size",
+          "rawValueJson": "\"Size\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "253 sheets with charts to be added starting Mid-may",
+          "rawValueJson": "\"253 sheets with charts to be added starting Mid-may\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "How to access",
+          "rawValueJson": "\"How to access\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "https://microsoft.sharepoint-df.com/:f:/r/teams/ProjectGridSense2/Shared%20Documents/Project%20GridSense?e=5%3ac024fded98324bc4b04b4f23326faa33&sharingv2=true&fromShare=true&at=9&xsdata=MDV8MDJ8b2xpdmlhdGhvbWFzQG1pY3Jvc29mdC5jb218ZjJmNDg5OTljZGMzNDQxNGUwZTkwOGRkODdmNTY4MmN8NzJmOTg4YmY4NmYxNDFhZjkxYWIyZDdjZDAxMWRiNDd8MXwwfDYzODgxNjIxMDMwMDcyNDE3N3xVbmtub3dufFRXRnBiR1pzYjNkOGV5SkZiWEIwZVUxaGNHa2lPblJ5ZFdVc0lsWWlPaUl3TGpBdU1EQXdNQ0lzSWxBaU9pSlhhVzR6TWlJc0lrRk9Jam9pVFdGcGJDSXNJbGRVSWpveWZRPT18MHx8fA%3d%3d&sdata=TlJ4S05jOHBRVmxwOEY5a1ZFYTRqaC9EN3FYdGxEbTBNaUhGM24vVHh6OD0%3d",
+          "rawValueJson": "\"https://microsoft.sharepoint-df.com/:f:/r/teams/ProjectGridSense2/Shared%20Documents/Project%20GridSense?e=5%3ac024fded98324bc4b04b4f23326faa33&sharingv2=true&fromShare=true&at=9&xsdata=MDV8MDJ8b2xpdmlhdGhvbWFzQG1pY3Jvc29mdC5jb218ZjJmNDg5OTljZGMzNDQxNGUwZTkwOGRkODdmNTY4MmN8NzJmOTg4YmY4NmYxNDFhZjkxYWIyZDdjZDAxMWRiNDd8MXwwfDYzODgxNjIxMDMwMDcyNDE3N3xVbmtub3dufFRXRnBiR1pzYjNkOGV5SkZiWEIwZVUxaGNHa2lPblJ5ZFdVc0lsWWlPaUl3TGpBdU1EQXdNQ0lzSWxBaU9pSlhhVzR6TWlJc0lrRk9Jam9pVFdGcGJDSXNJbGRVSWpveWZRPT18MHx8fA%3d%3d&sdata=TlJ4S05jOHBRVmxwOEY5a1ZFYTRqaC9EN3FYdGxEbTBNaUhGM24vVHh6OD0%3d\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "Data Classification",
+          "rawValueJson": "\"Data Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "Public Non Personal Data",
+          "rawValueJson": "\"Public Non Personal Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Approved for eval?",
+          "rawValueJson": "\"Approved for eval?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "Approved for training? ",
+          "rawValueJson": "\"Approved for training? \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "8e6b5bc0-03cc-4e96-8970-621f186c3296",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{27AE73C0-0ACF-42A5-B0B0-4A1CF73F69F4}",
+      "top": 9,
+      "left": 2,
+      "bottom": 435,
+      "right": 24
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{27AE73C0-0ACF-42A5-B0B0-4A1CF73F69F4}",
+          "top": 9,
+          "bottom": 435,
+          "left": 2,
+          "right": 24
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": true
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Link to Data\"",
+          "\"Approved for Eval?\"",
+          "\"Approved for Training?\"",
+          "\"Approved to seed synthetic data?\"",
+          "\"Description of Data\"",
+          "\"Domain/Industry\"",
+          "\"# Rows\"",
+          "\"# Columns\"",
+          "\"Structure / Artifacts\"",
+          "\"International?\"",
+          "\"Labelling\"",
+          "\"Source Collection\"",
+          "\"Number of Datasets\"",
+          "\"Type of Data\"",
+          "\"Sourced From?\"",
+          "\"Data Classification\"",
+          "\"Fully Anonymized (Customer Content only)\"",
+          "\"CELA Review Initiated (public data only)\"",
+          "\"CELA Approved (public data only)\"",
+          "\"CELA Rejected (public data only)\"",
+          "\"Gated (public data only)\"",
+          "\"Original URL(public data only)\"",
+          "\"License (public data only)\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Link to Data",
+            "rawValueJson": "\"Link to Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "Approved for Eval?",
+            "rawValueJson": "\"Approved for Eval?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "Approved for Training?",
+            "rawValueJson": "\"Approved for Training?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "Approved to seed synthetic data?",
+            "rawValueJson": "\"Approved to seed synthetic data?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "Description of Data",
+            "rawValueJson": "\"Description of Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "Domain/Industry",
+            "rawValueJson": "\"Domain/Industry\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": "# Rows",
+            "rawValueJson": "\"# Rows\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 9,
+            "displayText": "# Columns",
+            "rawValueJson": "\"# Columns\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 10,
+            "displayText": "Structure / Artifacts",
+            "rawValueJson": "\"Structure / Artifacts\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 11,
+            "displayText": "International?",
+            "rawValueJson": "\"International?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 12,
+            "displayText": "Labelling",
+            "rawValueJson": "\"Labelling\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 13,
+            "displayText": "Source Collection",
+            "rawValueJson": "\"Source Collection\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 14,
+            "displayText": "Number of Datasets",
+            "rawValueJson": "\"Number of Datasets\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 15,
+            "displayText": "Type of Data",
+            "rawValueJson": "\"Type of Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 16,
+            "displayText": "Sourced From?",
+            "rawValueJson": "\"Sourced From?\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 17,
+            "displayText": "Data Classification",
+            "rawValueJson": "\"Data Classification\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 18,
+            "displayText": "Fully Anonymized (Customer Content only)",
+            "rawValueJson": "\"Fully Anonymized (Customer Content only)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 19,
+            "displayText": "CELA Review Initiated (public data only)",
+            "rawValueJson": "\"CELA Review Initiated (public data only)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 20,
+            "displayText": "CELA Approved (public data only)",
+            "rawValueJson": "\"CELA Approved (public data only)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 21,
+            "displayText": "CELA Rejected (public data only)",
+            "rawValueJson": "\"CELA Rejected (public data only)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 22,
+            "displayText": "Gated (public data only)",
+            "rawValueJson": "\"Gated (public data only)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 23,
+            "displayText": "Original URL(public data only)",
+            "rawValueJson": "\"Original URL(public data only)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 24,
+            "displayText": "License (public data only)",
+            "rawValueJson": "\"License (public data only)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "https://microsoft.sharepoint-df.com/:x:/r/teams/ProjectGridSense2/Shared%20Documents/Project%20GridSense/Input%20-%20Collected%20Data%20Sets/CSVs/Science/Earthquake%20Data%20-%20Scatterplot%20or%20Bubble.csv?d=wa1c726db073d444bbdc4b16cbda90360&csf=1&web=1&e=oHcUPX",
+            "rawValueJson": "\"https://microsoft.sharepoint-df.com/:x:/r/teams/ProjectGridSense2/Shared%20Documents/Project%20GridSense/Input%20-%20Collected%20Data%20Sets/CSVs/Science/Earthquake%20Data%20-%20Scatterplot%20or%20Bubble.csv?d=wa1c726db073d444bbdc4b16cbda90360&csf=1&web=1&e=oHcUPX\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 7,
+            "displayText": "Science",
+            "rawValueJson": "\"Science\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 8,
+            "displayText": "1000",
+            "rawValueJson": "1000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 9,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 10,
+            "displayText": "TLR (charts coming soon)",
+            "rawValueJson": "\"TLR (charts coming soon)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 12,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 13,
+            "displayText": "GridSense Data",
+            "rawValueJson": "\"GridSense Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 14,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 15,
+            "displayText": "Real World",
+            "rawValueJson": "\"Real World\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 16,
+            "displayText": "Public website",
+            "rawValueJson": "\"Public website\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 17,
+            "displayText": "Public Non Personal Data",
+            "rawValueJson": "\"Public Non Personal Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 18,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 19,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 20,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 21,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 22,
+            "displayText": "No - not gated",
+            "rawValueJson": "\"No - not gated\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 23,
+            "displayText": "http://ds.iris.edu/ieb/",
+            "rawValueJson": "\"http://ds.iris.edu/ieb/\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "Artificial Dataset - Likes by Country.csv",
+            "rawValueJson": "\"Artificial Dataset - Likes by Country.csv\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "Social Media Analysis",
+            "rawValueJson": "\"Social Media Analysis\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 7,
+            "displayText": "Social Media",
+            "rawValueJson": "\"Social Media\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 8,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 9,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 10,
+            "displayText": "TLR (charts coming soon)",
+            "rawValueJson": "\"TLR (charts coming soon)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 12,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 13,
+            "displayText": "GridSense Data",
+            "rawValueJson": "\"GridSense Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 14,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 15,
+            "displayText": "Real World",
+            "rawValueJson": "\"Real World\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 16,
+            "displayText": "Public website",
+            "rawValueJson": "\"Public website\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 17,
+            "displayText": "Public Non Personal Data",
+            "rawValueJson": "\"Public Non Personal Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 18,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 19,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 20,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 21,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 22,
+            "displayText": "Yes - gated",
+            "rawValueJson": "\"Yes - gated\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 23,
+            "displayText": "Social Media Analysis",
+            "rawValueJson": "\"Social Media Analysis\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 24,
+            "displayText": "Deed - CC0 1.0 Universal - Creative Commons",
+            "rawValueJson": "\"Deed - CC0 1.0 Universal - Creative Commons\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "social media influencers - Tiktok sep 2022.csv",
+            "rawValueJson": "\"social media influencers - Tiktok sep 2022.csv\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "Top 1000 social media influencers from instagram,youtube and tiktok each in 2022",
+            "rawValueJson": "\"Top 1000 social media influencers from instagram,youtube and tiktok each in 2022\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 7,
+            "displayText": "Social Media",
+            "rawValueJson": "\"Social Media\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 8,
+            "displayText": "1000",
+            "rawValueJson": "1000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 9,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 10,
+            "displayText": "TLR (charts coming soon)",
+            "rawValueJson": "\"TLR (charts coming soon)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 12,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 13,
+            "displayText": "GridSense Data",
+            "rawValueJson": "\"GridSense Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 14,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 15,
+            "displayText": "Real World",
+            "rawValueJson": "\"Real World\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 16,
+            "displayText": "Public website",
+            "rawValueJson": "\"Public website\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 17,
+            "displayText": "Public Non Personal Data",
+            "rawValueJson": "\"Public Non Personal Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 18,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 19,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 20,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 21,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 22,
+            "displayText": "Yes - gated",
+            "rawValueJson": "\"Yes - gated\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 23,
+            "displayText": "Social Media Influencers in 2022",
+            "rawValueJson": "\"Social Media Influencers in 2022\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 24,
+            "displayText": "Deed - CC0 1.0 Universal - Creative Commons",
+            "rawValueJson": "\"Deed - CC0 1.0 Universal - Creative Commons\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "political_social_media.csv",
+            "rawValueJson": "\"political_social_media.csv\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "Political Social Media Posts",
+            "rawValueJson": "\"Political Social Media Posts\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 7,
+            "displayText": "Social Media",
+            "rawValueJson": "\"Social Media\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 8,
+            "displayText": "5000",
+            "rawValueJson": "5000",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 9,
+            "displayText": "21",
+            "rawValueJson": "21",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 10,
+            "displayText": "TLR (charts coming soon)",
+            "rawValueJson": "\"TLR (charts coming soon)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 12,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 13,
+            "displayText": "GridSense Data",
+            "rawValueJson": "\"GridSense Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 14,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 15,
+            "displayText": "Real World",
+            "rawValueJson": "\"Real World\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 16,
+            "displayText": "Public website",
+            "rawValueJson": "\"Public website\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 17,
+            "displayText": "Public Non Personal Data",
+            "rawValueJson": "\"Public Non Personal Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 18,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 19,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 20,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 21,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 22,
+            "displayText": "Yes - gated",
+            "rawValueJson": "\"Yes - gated\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 23,
+            "displayText": "https://www.kaggle.com/datasets/crowdflower/political-social-media-posts?select=political_social_media.csv",
+            "rawValueJson": "\"https://www.kaggle.com/datasets/crowdflower/political-social-media-posts?select=political_social_media.csv\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 24,
+            "displayText": "Deed - CC0 1.0 Universal - Creative Commons",
+            "rawValueJson": "\"Deed - CC0 1.0 Universal - Creative Commons\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "SearchTrend.csv",
+            "rawValueJson": "\"SearchTrend.csv\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "Yes",
+            "rawValueJson": "\"Yes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "No",
+            "rawValueJson": "\"No\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "DS4C: Data Science for COVID-19 in South Korea Trend",
+            "rawValueJson": "\"DS4C: Data Science for COVID-19 in South Korea Trend\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 7,
+            "displayText": "Government",
+            "rawValueJson": "\"Government\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 8,
+            "displayText": "1642",
+            "rawValueJson": "1642",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 9,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 10,
+            "displayText": "TLR (charts coming soon)",
+            "rawValueJson": "\"TLR (charts coming soon)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 12,
+            "displayText": "None",
+            "rawValueJson": "\"None\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 13,
+            "displayText": "GridSense Data",
+            "rawValueJson": "\"GridSense Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 14,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 15,
+            "displayText": "Real World",
+            "rawValueJson": "\"Real World\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 16,
+            "displayText": "Public website",
+            "rawValueJson": "\"Public website\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 17,
+            "displayText": "Public Non Personal Data",
+            "rawValueJson": "\"Public Non Personal Data\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 18,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 19,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 20,
+            "displayText": "TRUE",
+            "rawValueJson": "true",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 21,
+            "displayText": "FALSE",
+            "rawValueJson": "false",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 22,
+            "displayText": "Yes - gated",
+            "rawValueJson": "\"Yes - gated\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 23,
+            "displayText": "[NeurIPS 2020] Data Science for COVID-19 (DS4C)",
+            "rawValueJson": "\"[NeurIPS 2020] Data Science for COVID-19 (DS4C)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 24,
+            "displayText": "Deed - CC0 1.0 Universal - Creative Commons",
+            "rawValueJson": "\"Deed - CC0 1.0 Universal - Creative Commons\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Repository",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Dataset Repository",
+    "isDataSampled": true,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "Link to Data",
+          "rawValueJson": "\"Link to Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "Approved for Eval?",
+          "rawValueJson": "\"Approved for Eval?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "displayText": "Approved for Training?",
+          "rawValueJson": "\"Approved for Training?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "displayText": "Approved to seed synthetic data?",
+          "rawValueJson": "\"Approved to seed synthetic data?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "displayText": "Description of Data",
+          "rawValueJson": "\"Description of Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 7,
+          "displayText": "Domain/Industry",
+          "rawValueJson": "\"Domain/Industry\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 8,
+          "displayText": "# Rows",
+          "rawValueJson": "\"# Rows\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 9,
+          "displayText": "# Columns",
+          "rawValueJson": "\"# Columns\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 10,
+          "displayText": "Structure / Artifacts",
+          "rawValueJson": "\"Structure / Artifacts\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 11,
+          "displayText": "International?",
+          "rawValueJson": "\"International?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 12,
+          "displayText": "Labelling",
+          "rawValueJson": "\"Labelling\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 13,
+          "displayText": "Source Collection",
+          "rawValueJson": "\"Source Collection\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 14,
+          "displayText": "Number of Datasets",
+          "rawValueJson": "\"Number of Datasets\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 15,
+          "displayText": "Type of Data",
+          "rawValueJson": "\"Type of Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 16,
+          "displayText": "Sourced From?",
+          "rawValueJson": "\"Sourced From?\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 17,
+          "displayText": "Data Classification",
+          "rawValueJson": "\"Data Classification\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 18,
+          "displayText": "Fully Anonymized (Customer Content only)",
+          "rawValueJson": "\"Fully Anonymized (Customer Content only)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 19,
+          "displayText": "CELA Review Initiated (public data only)",
+          "rawValueJson": "\"CELA Review Initiated (public data only)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 20,
+          "displayText": "CELA Approved (public data only)",
+          "rawValueJson": "\"CELA Approved (public data only)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 21,
+          "displayText": "CELA Rejected (public data only)",
+          "rawValueJson": "\"CELA Rejected (public data only)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 22,
+          "displayText": "Gated (public data only)",
+          "rawValueJson": "\"Gated (public data only)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 23,
+          "displayText": "Original URL(public data only)",
+          "rawValueJson": "\"Original URL(public data only)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 24,
+          "displayText": "License (public data only)",
+          "rawValueJson": "\"License (public data only)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "displayText": "https://microsoft.sharepoint-df.com/:x:/r/teams/ProjectGridSense2/Shared%20Documents/Project%20GridSense/Input%20-%20Collected%20Data%20Sets/CSVs/Science/Earthquake%20Data%20-%20Scatterplot%20or%20Bubble.csv?d=wa1c726db073d444bbdc4b16cbda90360&csf=1&web=1&e=oHcUPX",
+          "rawValueJson": "\"https://microsoft.sharepoint-df.com/:x:/r/teams/ProjectGridSense2/Shared%20Documents/Project%20GridSense/Input%20-%20Collected%20Data%20Sets/CSVs/Science/Earthquake%20Data%20-%20Scatterplot%20or%20Bubble.csv?d=wa1c726db073d444bbdc4b16cbda90360&csf=1&web=1&e=oHcUPX\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 5,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 7,
+          "displayText": "Science",
+          "rawValueJson": "\"Science\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 8,
+          "displayText": "1000",
+          "rawValueJson": "1000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 9,
+          "displayText": "10",
+          "rawValueJson": "10",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 10,
+          "displayText": "TLR (charts coming soon)",
+          "rawValueJson": "\"TLR (charts coming soon)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 12,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 13,
+          "displayText": "GridSense Data",
+          "rawValueJson": "\"GridSense Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 14,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 15,
+          "displayText": "Real World",
+          "rawValueJson": "\"Real World\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 16,
+          "displayText": "Public website",
+          "rawValueJson": "\"Public website\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 17,
+          "displayText": "Public Non Personal Data",
+          "rawValueJson": "\"Public Non Personal Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 18,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 19,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 20,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 21,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 22,
+          "displayText": "No - not gated",
+          "rawValueJson": "\"No - not gated\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 10,
+          "column": 23,
+          "displayText": "http://ds.iris.edu/ieb/",
+          "rawValueJson": "\"http://ds.iris.edu/ieb/\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 2,
+          "displayText": "Artificial Dataset - Likes by Country.csv",
+          "rawValueJson": "\"Artificial Dataset - Likes by Country.csv\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 3,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 4,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 5,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 6,
+          "displayText": "Social Media Analysis",
+          "rawValueJson": "\"Social Media Analysis\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 7,
+          "displayText": "Social Media",
+          "rawValueJson": "\"Social Media\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 8,
+          "displayText": "60",
+          "rawValueJson": "60",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 9,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 10,
+          "displayText": "TLR (charts coming soon)",
+          "rawValueJson": "\"TLR (charts coming soon)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 12,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 13,
+          "displayText": "GridSense Data",
+          "rawValueJson": "\"GridSense Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 14,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 15,
+          "displayText": "Real World",
+          "rawValueJson": "\"Real World\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 16,
+          "displayText": "Public website",
+          "rawValueJson": "\"Public website\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 17,
+          "displayText": "Public Non Personal Data",
+          "rawValueJson": "\"Public Non Personal Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 18,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 19,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 20,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 21,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 22,
+          "displayText": "Yes - gated",
+          "rawValueJson": "\"Yes - gated\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 23,
+          "displayText": "Social Media Analysis",
+          "rawValueJson": "\"Social Media Analysis\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 11,
+          "column": 24,
+          "displayText": "Deed - CC0 1.0 Universal - Creative Commons",
+          "rawValueJson": "\"Deed - CC0 1.0 Universal - Creative Commons\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 2,
+          "displayText": "social media influencers - Tiktok sep 2022.csv",
+          "rawValueJson": "\"social media influencers - Tiktok sep 2022.csv\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 3,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 4,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 5,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 6,
+          "displayText": "Top 1000 social media influencers from instagram,youtube and tiktok each in 2022",
+          "rawValueJson": "\"Top 1000 social media influencers from instagram,youtube and tiktok each in 2022\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 7,
+          "displayText": "Social Media",
+          "rawValueJson": "\"Social Media\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 8,
+          "displayText": "1000",
+          "rawValueJson": "1000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 9,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 10,
+          "displayText": "TLR (charts coming soon)",
+          "rawValueJson": "\"TLR (charts coming soon)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 12,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 13,
+          "displayText": "GridSense Data",
+          "rawValueJson": "\"GridSense Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 14,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 15,
+          "displayText": "Real World",
+          "rawValueJson": "\"Real World\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 16,
+          "displayText": "Public website",
+          "rawValueJson": "\"Public website\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 17,
+          "displayText": "Public Non Personal Data",
+          "rawValueJson": "\"Public Non Personal Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 18,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 19,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 20,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 21,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 22,
+          "displayText": "Yes - gated",
+          "rawValueJson": "\"Yes - gated\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 23,
+          "displayText": "Social Media Influencers in 2022",
+          "rawValueJson": "\"Social Media Influencers in 2022\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 12,
+          "column": 24,
+          "displayText": "Deed - CC0 1.0 Universal - Creative Commons",
+          "rawValueJson": "\"Deed - CC0 1.0 Universal - Creative Commons\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 2,
+          "displayText": "political_social_media.csv",
+          "rawValueJson": "\"political_social_media.csv\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 3,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 4,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 5,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 6,
+          "displayText": "Political Social Media Posts",
+          "rawValueJson": "\"Political Social Media Posts\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 7,
+          "displayText": "Social Media",
+          "rawValueJson": "\"Social Media\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 8,
+          "displayText": "5000",
+          "rawValueJson": "5000",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 9,
+          "displayText": "21",
+          "rawValueJson": "21",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 10,
+          "displayText": "TLR (charts coming soon)",
+          "rawValueJson": "\"TLR (charts coming soon)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 12,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 13,
+          "displayText": "GridSense Data",
+          "rawValueJson": "\"GridSense Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 14,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 15,
+          "displayText": "Real World",
+          "rawValueJson": "\"Real World\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 16,
+          "displayText": "Public website",
+          "rawValueJson": "\"Public website\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 17,
+          "displayText": "Public Non Personal Data",
+          "rawValueJson": "\"Public Non Personal Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 18,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 19,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 20,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 21,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 22,
+          "displayText": "Yes - gated",
+          "rawValueJson": "\"Yes - gated\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 23,
+          "displayText": "https://www.kaggle.com/datasets/crowdflower/political-social-media-posts?select=political_social_media.csv",
+          "rawValueJson": "\"https://www.kaggle.com/datasets/crowdflower/political-social-media-posts?select=political_social_media.csv\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 13,
+          "column": 24,
+          "displayText": "Deed - CC0 1.0 Universal - Creative Commons",
+          "rawValueJson": "\"Deed - CC0 1.0 Universal - Creative Commons\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 2,
+          "displayText": "SearchTrend.csv",
+          "rawValueJson": "\"SearchTrend.csv\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 3,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 4,
+          "displayText": "Yes",
+          "rawValueJson": "\"Yes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 5,
+          "displayText": "No",
+          "rawValueJson": "\"No\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 6,
+          "displayText": "DS4C: Data Science for COVID-19 in South Korea Trend",
+          "rawValueJson": "\"DS4C: Data Science for COVID-19 in South Korea Trend\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 7,
+          "displayText": "Government",
+          "rawValueJson": "\"Government\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 8,
+          "displayText": "1642",
+          "rawValueJson": "1642",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 9,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 10,
+          "displayText": "TLR (charts coming soon)",
+          "rawValueJson": "\"TLR (charts coming soon)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 12,
+          "displayText": "None",
+          "rawValueJson": "\"None\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 13,
+          "displayText": "GridSense Data",
+          "rawValueJson": "\"GridSense Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 14,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 15,
+          "displayText": "Real World",
+          "rawValueJson": "\"Real World\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 16,
+          "displayText": "Public website",
+          "rawValueJson": "\"Public website\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 17,
+          "displayText": "Public Non Personal Data",
+          "rawValueJson": "\"Public Non Personal Data\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 18,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 19,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 20,
+          "displayText": "TRUE",
+          "rawValueJson": "true",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 21,
+          "displayText": "FALSE",
+          "rawValueJson": "false",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 22,
+          "displayText": "Yes - gated",
+          "rawValueJson": "\"Yes - gated\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 23,
+          "displayText": "[NeurIPS 2020] Data Science for COVID-19 (DS4C)",
+          "rawValueJson": "\"[NeurIPS 2020] Data Science for COVID-19 (DS4C)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 14,
+          "column": 24,
+          "displayText": "Deed - CC0 1.0 Universal - Creative Commons",
+          "rawValueJson": "\"Deed - CC0 1.0 Universal - Creative Commons\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": [
+      9,
+      14,
+      18,
+      20,
+      24,
+      28,
+      33,
+      37,
+      41,
+      47,
+      48,
+      53,
+      56,
+      61,
+      63,
+      67,
+      71,
+      77,
+      82,
+      86,
+      88,
+      91,
+      96,
+      99,
+      104,
+      108,
+      114,
+      115,
+      120,
+      123,
+      126,
+      130,
+      134,
+      140,
+      142,
+      147,
+      152,
+      157,
+      160,
+      162,
+      167,
+      172,
+      173,
+      177,
+      181,
+      185,
+      191,
+      193,
+      197,
+      202,
+      205,
+      209,
+      216,
+      219,
+      222,
+      226,
+      229,
+      233,
+      237,
+      243,
+      245,
+      251,
+      253,
+      257,
+      261,
+      266,
+      269,
+      275,
+      276,
+      282,
+      283,
+      287,
+      293,
+      296,
+      302,
+      306,
+      309,
+      311,
+      315,
+      321,
+      326,
+      328,
+      334,
+      337,
+      341,
+      345,
+      346,
+      351,
+      354,
+      361,
+      363,
+      369,
+      372,
+      377,
+      378,
+      383,
+      387,
+      390,
+      394,
+      399,
+      403,
+      405,
+      411,
+      416,
+      420,
+      424,
+      427,
+      430,
+      433,
+      435,
+      10,
+      434,
+      11,
+      12,
+      432,
+      13,
+      431,
+      15,
+      429,
+      16,
+      428
+    ],
+    "samplingScheme": 1,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "2802053e-852f-444a-83d1-5b83c72f651b",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

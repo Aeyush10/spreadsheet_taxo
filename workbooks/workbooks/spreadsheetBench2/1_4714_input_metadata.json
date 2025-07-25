@@ -1,0 +1,615 @@
+[
+  {
+    "range": {
+      "worksheetId": "{3ACECB78-BC6C-4001-9B49-0102DDBF9B4B}",
+      "top": 1,
+      "left": 1,
+      "bottom": 25,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{3ACECB78-BC6C-4001-9B49-0102DDBF9B4B}",
+          "top": 1,
+          "bottom": 25,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 24
+          }
+        ],
+        "headerNames": [
+          "\"Emp Code\"",
+          "\"Month (YYYYMM)\"",
+          "\"Month\"",
+          "\"Hours\"",
+          "\"Moving Average Amount\"",
+          "\"Moving Aveage  (four months exceed 48)\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Emp Code",
+            "rawValueJson": "\"Emp Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Month (YYYYMM)",
+            "rawValueJson": "\"Month (YYYYMM)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Month",
+            "rawValueJson": "\"Month\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Hours",
+            "rawValueJson": "\"Hours\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Moving Average Amount",
+            "rawValueJson": "\"Moving Average Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Moving Aveage  (four months exceed 48)",
+            "rawValueJson": "\"Moving Aveage  (four months exceed 48)\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "2017/06",
+            "rawValueJson": "\"2017/06\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Jun-17",
+            "rawValueJson": "42887",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "40",
+            "rawValueJson": "40",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "n/a",
+            "rawValueJson": "\"n/a\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "n/a - less that 4 weeks",
+            "rawValueJson": "\"n/a - less that 4 weeks\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "2017/07",
+            "rawValueJson": "\"2017/07\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Jul-17",
+            "rawValueJson": "42917",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "n/a",
+            "rawValueJson": "\"n/a\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "n/a - less that 4 weeks",
+            "rawValueJson": "\"n/a - less that 4 weeks\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "2017/08",
+            "rawValueJson": "\"2017/08\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Aug-17",
+            "rawValueJson": "42948",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "70",
+            "rawValueJson": "70",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "n/a",
+            "rawValueJson": "\"n/a\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "n/a - less that 4 weeks",
+            "rawValueJson": "\"n/a - less that 4 weeks\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "2017/09",
+            "rawValueJson": "\"2017/09\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Sep-17",
+            "rawValueJson": "42979",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "42.5",
+            "rawValueJson": "42.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Less that 48",
+            "rawValueJson": "\"Less that 48\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "2017/10",
+            "rawValueJson": "\"2017/10\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Oct-17",
+            "rawValueJson": "43009",
+            "numberFormat": "mmm-yy"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "44",
+            "rawValueJson": "44",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "43.5",
+            "rawValueJson": "43.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Less that 48",
+            "rawValueJson": "\"Less that 48\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Sheet2",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Emp Code",
+          "rawValueJson": "\"Emp Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Month (YYYYMM)",
+          "rawValueJson": "\"Month (YYYYMM)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Month",
+          "rawValueJson": "\"Month\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Hours",
+          "rawValueJson": "\"Hours\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Moving Average Amount",
+          "rawValueJson": "\"Moving Average Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Moving Aveage  (four months exceed 48)",
+          "rawValueJson": "\"Moving Aveage  (four months exceed 48)\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "2017/06",
+          "rawValueJson": "\"2017/06\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Jun-17",
+          "rawValueJson": "42887",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "40",
+          "rawValueJson": "40",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "n/a",
+          "rawValueJson": "\"n/a\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "n/a - less that 4 weeks",
+          "rawValueJson": "\"n/a - less that 4 weeks\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "2017/07",
+          "rawValueJson": "\"2017/07\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Jul-17",
+          "rawValueJson": "42917",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "60",
+          "rawValueJson": "60",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "n/a",
+          "rawValueJson": "\"n/a\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "n/a - less that 4 weeks",
+          "rawValueJson": "\"n/a - less that 4 weeks\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "2017/08",
+          "rawValueJson": "\"2017/08\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Aug-17",
+          "rawValueJson": "42948",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "70",
+          "rawValueJson": "70",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "n/a",
+          "rawValueJson": "\"n/a\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "n/a - less that 4 weeks",
+          "rawValueJson": "\"n/a - less that 4 weeks\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "2017/09",
+          "rawValueJson": "\"2017/09\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Sep-17",
+          "rawValueJson": "42979",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "42.5",
+          "rawValueJson": "42.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Less that 48",
+          "rawValueJson": "\"Less that 48\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "2017/10",
+          "rawValueJson": "\"2017/10\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Oct-17",
+          "rawValueJson": "43009",
+          "numberFormat": "mmm-yy"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "44",
+          "rawValueJson": "44",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "43.5",
+          "rawValueJson": "43.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Less that 48",
+          "rawValueJson": "\"Less that 48\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "d49ea894-c9f2-4db4-8e04-53cf29f83aca",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

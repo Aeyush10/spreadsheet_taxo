@@ -1,0 +1,785 @@
+{
+    "worksheets": {
+        "Project tracker": {
+            "name": "Project tracker",
+            "cells": {
+                "B2": {
+                    "value": "Project tracker",
+                    "datatype": "string"
+                },
+                "F2": {
+                    "value": "Percent over/under to highlighted numbers",
+                    "datatype": "string"
+                },
+                "G2": {
+                    "value": 0.25,
+                    "datatype": "float"
+                },
+                "H2": {
+                    "value": "my website",
+                    "datatype": "string"
+                },
+                "B4": {
+                    "value": "Project",
+                    "datatype": "string"
+                },
+                "C4": {
+                    "value": "Category",
+                    "datatype": "string"
+                },
+                "D4": {
+                    "value": "Assigned to",
+                    "datatype": "string"
+                },
+                "E4": {
+                    "value": "Estimated start",
+                    "datatype": "string"
+                },
+                "F4": {
+                    "value": "Estimated finish",
+                    "datatype": "string"
+                },
+                "G4": {
+                    "value": "Estimated work (in hours)",
+                    "datatype": "string"
+                },
+                "H4": {
+                    "value": "Estimated duration\n(in days)",
+                    "datatype": "string"
+                },
+                "I4": {
+                    "value": "Actual start",
+                    "datatype": "string"
+                },
+                "J4": {
+                    "value": "Actual finish",
+                    "datatype": "string"
+                },
+                "K4": {
+                    "value": "Actual work \n(in hours)",
+                    "datatype": "string"
+                },
+                "L4": {
+                    "value": "Actual duration (in days)",
+                    "datatype": "string"
+                },
+                "M4": {
+                    "value": "Notes",
+                    "datatype": "string"
+                },
+                "B5": {
+                    "value": "Project 1",
+                    "datatype": "string"
+                },
+                "C5": {
+                    "value": "Category 1",
+                    "datatype": "string"
+                },
+                "D5": {
+                    "value": "Employee 1",
+                    "datatype": "string"
+                },
+                "G5": {
+                    "value": 210,
+                    "datatype": "int"
+                },
+                "K5": {
+                    "value": 300,
+                    "datatype": "int"
+                },
+                "B6": {
+                    "value": "Project 2",
+                    "datatype": "string"
+                },
+                "C6": {
+                    "value": "Category 2",
+                    "datatype": "string"
+                },
+                "D6": {
+                    "value": "Employee 4",
+                    "datatype": "string"
+                },
+                "G6": {
+                    "value": 400,
+                    "datatype": "int"
+                },
+                "K6": {
+                    "value": 390,
+                    "datatype": "int"
+                },
+                "B7": {
+                    "value": "Project 3",
+                    "datatype": "string"
+                },
+                "C7": {
+                    "value": "Category 1",
+                    "datatype": "string"
+                },
+                "D7": {
+                    "value": "Employee 2",
+                    "datatype": "string"
+                },
+                "G7": {
+                    "value": 500,
+                    "datatype": "int"
+                },
+                "K7": {
+                    "value": 500,
+                    "datatype": "int"
+                },
+                "B8": {
+                    "value": "Project 4",
+                    "datatype": "string"
+                },
+                "C8": {
+                    "value": "Category 2",
+                    "datatype": "string"
+                },
+                "D8": {
+                    "value": "Employee 3",
+                    "datatype": "string"
+                },
+                "G8": {
+                    "value": 250,
+                    "datatype": "int"
+                },
+                "K8": {
+                    "value": 276,
+                    "datatype": "int"
+                },
+                "B9": {
+                    "value": "Project 5",
+                    "datatype": "string"
+                },
+                "C9": {
+                    "value": "Category 3",
+                    "datatype": "string"
+                },
+                "D9": {
+                    "value": "Employee 2",
+                    "datatype": "string"
+                },
+                "G9": {
+                    "value": 300,
+                    "datatype": "int"
+                },
+                "K9": {
+                    "value": 310,
+                    "datatype": "int"
+                },
+                "B10": {
+                    "value": "Project 6",
+                    "datatype": "string"
+                },
+                "C10": {
+                    "value": "Category 4",
+                    "datatype": "string"
+                },
+                "D10": {
+                    "value": "Employee 4",
+                    "datatype": "string"
+                },
+                "G10": {
+                    "value": 500,
+                    "datatype": "int"
+                },
+                "K10": {
+                    "value": 510,
+                    "datatype": "int"
+                },
+                "B11": {
+                    "value": "Project 7",
+                    "datatype": "string"
+                },
+                "C11": {
+                    "value": "Category 5",
+                    "datatype": "string"
+                },
+                "D11": {
+                    "value": "Employee 1",
+                    "datatype": "string"
+                },
+                "G11": {
+                    "value": 750,
+                    "datatype": "int"
+                },
+                "K11": {
+                    "value": 790,
+                    "datatype": "int"
+                },
+                "B12": {
+                    "value": "Project 8",
+                    "datatype": "string"
+                },
+                "C12": {
+                    "value": "Category 2",
+                    "datatype": "string"
+                },
+                "D12": {
+                    "value": "Employee 1",
+                    "datatype": "string"
+                },
+                "G12": {
+                    "value": 450,
+                    "datatype": "int"
+                },
+                "K12": {
+                    "value": 430,
+                    "datatype": "int"
+                },
+                "B13": {
+                    "value": "Project 9",
+                    "datatype": "string"
+                },
+                "C13": {
+                    "value": "Category 4",
+                    "datatype": "string"
+                },
+                "D13": {
+                    "value": "Employee 1",
+                    "datatype": "string"
+                },
+                "G13": {
+                    "value": 250,
+                    "datatype": "int"
+                },
+                "K13": {
+                    "value": 200,
+                    "datatype": "int"
+                }
+            },
+            "tables": [
+                {
+                    "name": "ProjectTracker",
+                    "range": "B4:M13",
+                    "autoFilter": {
+                        "range": "B4:M13",
+                        "columns": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    },
+                    "sort": null,
+                    "columns": [
+                        "Project",
+                        "Category",
+                        "Assigned to",
+                        "Estimated start",
+                        "Estimated finish",
+                        "Estimated work (in hours)",
+                        "Estimated duration\n(in days)",
+                        "Actual start",
+                        "Actual finish",
+                        "Actual work \n(in hours)",
+                        "Actual duration (in days)",
+                        "Notes"
+                    ]
+                }
+            ],
+            "charts": [
+                {
+                    "id": "Project tracker:rId2",
+                    "chartType": "columnClustered",
+                    "dataRange": "Project tracker!G4:K13",
+                    "height": 7.5,
+                    "width": 15,
+                    "position": {
+                        "startCell": "D11",
+                        "endCell": "H19"
+                    },
+                    "left": null,
+                    "top": null,
+                    "plotVisibleOnly": null,
+                    "legend": {
+                        "position": "r",
+                        "visible": true
+                    },
+                    "title": {
+                        "text": "Estimated vs Actual work",
+                        "formula": null
+                    },
+                    "axes": {
+                        "categoryAxis": {
+                            "position": "b",
+                            "visible": true,
+                            "numberFormat": null,
+                            "minimum": null,
+                            "maximum": null,
+                            "majorUnit": null,
+                            "minorUnit": null,
+                            "scaleType": "minMax",
+                            "categoryType": null
+                        },
+                        "valueAxis": {
+                            "position": "l",
+                            "visible": true,
+                            "numberFormat": "General",
+                            "minimum": null,
+                            "maximum": null,
+                            "majorUnit": null,
+                            "minorUnit": null,
+                            "scaleType": "minMax",
+                            "categoryType": null
+                        }
+                    },
+                    "displayBlanksAs": null,
+                    "series": [
+                        {
+                            "idx": 0,
+                            "order": 0,
+                            "title": {
+                                "reference": "'Project tracker'!$G$4",
+                                "cache": {
+                                    "pointCount": 1,
+                                    "points": [
+                                        {
+                                            "index": 0,
+                                            "value": "Estimated work (in hours)"
+                                        }
+                                    ]
+                                }
+                            },
+                            "categories": null,
+                            "values": {
+                                "type": "numRef",
+                                "reference": "'Project tracker'!$G$5:$G$13",
+                                "cache": {
+                                    "formatCode": "General",
+                                    "pointCount": 9,
+                                    "points": [
+                                        {
+                                            "index": 0,
+                                            "value": 210.0
+                                        },
+                                        {
+                                            "index": 1,
+                                            "value": 400.0
+                                        },
+                                        {
+                                            "index": 2,
+                                            "value": 500.0
+                                        },
+                                        {
+                                            "index": 3,
+                                            "value": 250.0
+                                        },
+                                        {
+                                            "index": 4,
+                                            "value": 300.0
+                                        },
+                                        {
+                                            "index": 5,
+                                            "value": 500.0
+                                        },
+                                        {
+                                            "index": 6,
+                                            "value": 750.0
+                                        },
+                                        {
+                                            "index": 7,
+                                            "value": 450.0
+                                        },
+                                        {
+                                            "index": 8,
+                                            "value": 250.0
+                                        }
+                                    ]
+                                }
+                            },
+                            "xValues": null,
+                            "yValues": null,
+                            "bubbleSize": null
+                        },
+                        {
+                            "idx": 1,
+                            "order": 1,
+                            "title": {
+                                "reference": "'Project tracker'!$K$4",
+                                "cache": {
+                                    "pointCount": 1,
+                                    "points": [
+                                        {
+                                            "index": 0,
+                                            "value": "Actual work \n(in hours)"
+                                        }
+                                    ]
+                                }
+                            },
+                            "categories": null,
+                            "values": {
+                                "type": "numRef",
+                                "reference": "'Project tracker'!$K$5:$K$13",
+                                "cache": {
+                                    "formatCode": "General",
+                                    "pointCount": 9,
+                                    "points": [
+                                        {
+                                            "index": 0,
+                                            "value": 300.0
+                                        },
+                                        {
+                                            "index": 1,
+                                            "value": 390.0
+                                        },
+                                        {
+                                            "index": 2,
+                                            "value": 500.0
+                                        },
+                                        {
+                                            "index": 3,
+                                            "value": 276.0
+                                        },
+                                        {
+                                            "index": 4,
+                                            "value": 310.0
+                                        },
+                                        {
+                                            "index": 5,
+                                            "value": 510.0
+                                        },
+                                        {
+                                            "index": 6,
+                                            "value": 790.0
+                                        },
+                                        {
+                                            "index": 7,
+                                            "value": 430.0
+                                        },
+                                        {
+                                            "index": 8,
+                                            "value": 200.0
+                                        }
+                                    ]
+                                }
+                            },
+                            "xValues": null,
+                            "yValues": null,
+                            "bubbleSize": null
+                        }
+                    ]
+                },
+                {
+                    "id": "Project tracker:rId3",
+                    "chartType": "barClustered",
+                    "dataRange": "Project tracker!K4:L13",
+                    "height": 7.5,
+                    "width": 15,
+                    "position": {
+                        "startCell": "I6",
+                        "endCell": "K12"
+                    },
+                    "left": null,
+                    "top": null,
+                    "plotVisibleOnly": null,
+                    "legend": {
+                        "position": "b",
+                        "visible": true
+                    },
+                    "title": {
+                        "text": "Actual work per day",
+                        "formula": null
+                    },
+                    "axes": {
+                        "categoryAxis": {
+                            "position": "l",
+                            "visible": true,
+                            "numberFormat": null,
+                            "minimum": null,
+                            "maximum": null,
+                            "majorUnit": null,
+                            "minorUnit": null,
+                            "scaleType": "minMax",
+                            "categoryType": null
+                        },
+                        "valueAxis": {
+                            "position": "b",
+                            "visible": true,
+                            "numberFormat": "General",
+                            "minimum": null,
+                            "maximum": null,
+                            "majorUnit": null,
+                            "minorUnit": null,
+                            "scaleType": "minMax",
+                            "categoryType": null
+                        }
+                    },
+                    "displayBlanksAs": null,
+                    "series": [
+                        {
+                            "idx": 0,
+                            "order": 0,
+                            "title": {
+                                "reference": "'Project tracker'!$K$4",
+                                "cache": {
+                                    "pointCount": 1,
+                                    "points": [
+                                        {
+                                            "index": 0,
+                                            "value": "Actual work \n(in hours)"
+                                        }
+                                    ]
+                                }
+                            },
+                            "categories": null,
+                            "values": {
+                                "type": "numRef",
+                                "reference": "'Project tracker'!$K$5:$K$13",
+                                "cache": {
+                                    "formatCode": "General",
+                                    "pointCount": 9,
+                                    "points": [
+                                        {
+                                            "index": 0,
+                                            "value": 300.0
+                                        },
+                                        {
+                                            "index": 1,
+                                            "value": 390.0
+                                        },
+                                        {
+                                            "index": 2,
+                                            "value": 500.0
+                                        },
+                                        {
+                                            "index": 3,
+                                            "value": 276.0
+                                        },
+                                        {
+                                            "index": 4,
+                                            "value": 310.0
+                                        },
+                                        {
+                                            "index": 5,
+                                            "value": 510.0
+                                        },
+                                        {
+                                            "index": 6,
+                                            "value": 790.0
+                                        },
+                                        {
+                                            "index": 7,
+                                            "value": 430.0
+                                        },
+                                        {
+                                            "index": 8,
+                                            "value": 200.0
+                                        }
+                                    ]
+                                }
+                            },
+                            "xValues": null,
+                            "yValues": null,
+                            "bubbleSize": null
+                        },
+                        {
+                            "idx": 1,
+                            "order": 1,
+                            "title": {
+                                "reference": "'Project tracker'!$L$4",
+                                "cache": {
+                                    "pointCount": 1,
+                                    "points": [
+                                        {
+                                            "index": 0,
+                                            "value": "Actual duration (in days)"
+                                        }
+                                    ]
+                                }
+                            },
+                            "categories": null,
+                            "values": {
+                                "type": "numRef",
+                                "reference": "'Project tracker'!$L$5:$L$13",
+                                "cache": {
+                                    "formatCode": "General",
+                                    "pointCount": 9,
+                                    "points": [
+                                        {
+                                            "index": 0,
+                                            "value": 64.0
+                                        },
+                                        {
+                                            "index": 1,
+                                            "value": 34.0
+                                        },
+                                        {
+                                            "index": 2,
+                                            "value": 72.0
+                                        },
+                                        {
+                                            "index": 3,
+                                            "value": 19.0
+                                        },
+                                        {
+                                            "index": 4,
+                                            "value": 45.0
+                                        },
+                                        {
+                                            "index": 5,
+                                            "value": 14.0
+                                        },
+                                        {
+                                            "index": 6,
+                                            "value": 29.0
+                                        },
+                                        {
+                                            "index": 7,
+                                            "value": 40.0
+                                        },
+                                        {
+                                            "index": 8,
+                                            "value": 10.0
+                                        }
+                                    ]
+                                }
+                            },
+                            "xValues": null,
+                            "yValues": null,
+                            "bubbleSize": null
+                        }
+                    ]
+                }
+            ],
+            "namedItems": [
+                {
+                    "type": "range",
+                    "name": "Print_Titles",
+                    "value": "'Project tracker'!$4:$4",
+                    "visible": true,
+                    "comment": null,
+                    "scope": "Worksheet",
+                    "formula": "='Project tracker'!$4:$4"
+                }
+            ]
+        },
+        "Setup": {
+            "name": "Setup",
+            "cells": {
+                "B2": {
+                    "value": "Setup",
+                    "datatype": "string"
+                },
+                "B4": {
+                    "value": "Category Name",
+                    "datatype": "string"
+                },
+                "C4": {
+                    "value": "Employee Name",
+                    "datatype": "string"
+                },
+                "B5": {
+                    "value": "Category 1",
+                    "datatype": "string"
+                },
+                "C5": {
+                    "value": "Employee 1",
+                    "datatype": "string"
+                },
+                "B6": {
+                    "value": "Category 2",
+                    "datatype": "string"
+                },
+                "C6": {
+                    "value": "Employee 2",
+                    "datatype": "string"
+                },
+                "B7": {
+                    "value": "Category 3",
+                    "datatype": "string"
+                },
+                "C7": {
+                    "value": "Employee 3",
+                    "datatype": "string"
+                },
+                "B8": {
+                    "value": "Category 4",
+                    "datatype": "string"
+                },
+                "C8": {
+                    "value": "Employee 4",
+                    "datatype": "string"
+                },
+                "B9": {
+                    "value": "Category 5",
+                    "datatype": "string"
+                },
+                "C9": {
+                    "value": "Employee 5",
+                    "datatype": "string"
+                },
+                "B10": {
+                    "value": "Category 6",
+                    "datatype": "string"
+                },
+                "C10": {
+                    "value": "Employee 6",
+                    "datatype": "string"
+                }
+            },
+            "tables": [
+                {
+                    "name": "CategoryAndEmployeeTable",
+                    "range": "B4:C10",
+                    "autoFilter": {
+                        "range": "B4:C10",
+                        "columns": [
+                            0,
+                            1
+                        ]
+                    },
+                    "sort": null,
+                    "columns": [
+                        "Category Name",
+                        "Employee Name"
+                    ]
+                }
+            ],
+            "charts": [],
+            "namedItems": []
+        }
+    },
+    "defaultSlicerStyles": "SlicerStyleDark1",
+    "defaultTimelineStyles": "TimeSlicerStyleLight1",
+    "namedItems": [
+        {
+            "name": "CategoryList",
+            "formula": "=Setup!$B$5:$B$10",
+            "value": "Setup!$B$5:$B$10",
+            "range": null,
+            "comment": null,
+            "scope": "Workbook",
+            "type": "range",
+            "visible": true
+        },
+        {
+            "name": "EmployeeList",
+            "formula": "=Setup!$C$5:$C$10",
+            "value": "Setup!$C$5:$C$10",
+            "range": null,
+            "comment": null,
+            "scope": "Workbook",
+            "type": "range",
+            "visible": true
+        },
+        {
+            "name": "FlagPercent",
+            "formula": "='Project tracker'!$G$2",
+            "value": "'Project tracker'!$G$2",
+            "range": null,
+            "comment": null,
+            "scope": "Workbook",
+            "type": "range",
+            "visible": true
+        }
+    ]
+}

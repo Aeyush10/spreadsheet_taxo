@@ -1,0 +1,1393 @@
+[
+  {
+    "range": {
+      "worksheetId": "{FE473058-E6AF-4DA5-B7EE-7B6D553A2553}",
+      "top": 1,
+      "left": 1,
+      "bottom": 15,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{FE473058-E6AF-4DA5-B7EE-7B6D553A2553}",
+          "top": 1,
+          "bottom": 15,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Unique Identifier\"",
+          "\"Customer Name\"",
+          "\"Invoice Number\"",
+          "\"Invoice Date\"",
+          "\"Charge Description\"",
+          "\"Amount\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Unique Identifier",
+            "rawValueJson": "\"Unique Identifier\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Customer Name",
+            "rawValueJson": "\"Customer Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Invoice Number",
+            "rawValueJson": "\"Invoice Number\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Invoice Date",
+            "rawValueJson": "\"Invoice Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Charge Description",
+            "rawValueJson": "\"Charge Description\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Amount",
+            "rawValueJson": "\"Amount\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Customer A",
+            "rawValueJson": "\"Customer A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "111",
+            "rawValueJson": "111",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "1/1/2021",
+            "rawValueJson": "44197",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Services",
+            "rawValueJson": "\"Services\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": " $100.00 ",
+            "rawValueJson": "100",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Customer A",
+            "rawValueJson": "\"Customer A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "112",
+            "rawValueJson": "112",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "1/1/2021",
+            "rawValueJson": "44197",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Services",
+            "rawValueJson": "\"Services\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": " $150.00 ",
+            "rawValueJson": "150",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Customer B",
+            "rawValueJson": "\"Customer B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "121",
+            "rawValueJson": "121",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "1/1/2021",
+            "rawValueJson": "44197",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Services",
+            "rawValueJson": "\"Services\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": " $100.00 ",
+            "rawValueJson": "100",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Customer B",
+            "rawValueJson": "\"Customer B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "122",
+            "rawValueJson": "122",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "2/1/2021",
+            "rawValueJson": "44228",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Services",
+            "rawValueJson": "\"Services\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": " $150.00 ",
+            "rawValueJson": "150",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Customer C",
+            "rawValueJson": "\"Customer C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "131",
+            "rawValueJson": "131",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "3/1/2021",
+            "rawValueJson": "44256",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Services",
+            "rawValueJson": "\"Services\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": " $200.00 ",
+            "rawValueJson": "200",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table2",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Raw Data",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Unique Identifier",
+          "rawValueJson": "\"Unique Identifier\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Customer Name",
+          "rawValueJson": "\"Customer Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Invoice Number",
+          "rawValueJson": "\"Invoice Number\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Invoice Date",
+          "rawValueJson": "\"Invoice Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Charge Description",
+          "rawValueJson": "\"Charge Description\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Amount",
+          "rawValueJson": "\"Amount\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Customer A",
+          "rawValueJson": "\"Customer A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "111",
+          "rawValueJson": "111",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "1/1/2021",
+          "rawValueJson": "44197",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "Services",
+          "rawValueJson": "\"Services\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": " $100.00 ",
+          "rawValueJson": "100",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Customer A",
+          "rawValueJson": "\"Customer A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "112",
+          "rawValueJson": "112",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "1/1/2021",
+          "rawValueJson": "44197",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Services",
+          "rawValueJson": "\"Services\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": " $150.00 ",
+          "rawValueJson": "150",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Customer B",
+          "rawValueJson": "\"Customer B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "121",
+          "rawValueJson": "121",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "1/1/2021",
+          "rawValueJson": "44197",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Services",
+          "rawValueJson": "\"Services\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": " $100.00 ",
+          "rawValueJson": "100",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Customer B",
+          "rawValueJson": "\"Customer B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "122",
+          "rawValueJson": "122",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "2/1/2021",
+          "rawValueJson": "44228",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Services",
+          "rawValueJson": "\"Services\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": " $150.00 ",
+          "rawValueJson": "150",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Customer C",
+          "rawValueJson": "\"Customer C\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "131",
+          "rawValueJson": "131",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "3/1/2021",
+          "rawValueJson": "44256",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Services",
+          "rawValueJson": "\"Services\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": " $200.00 ",
+          "rawValueJson": "200",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "c5f38faf-6a6b-454a-ba66-730b7b9e50af",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{5E6278CB-FE06-4127-83F2-C77F8ECEF799}",
+      "top": 1,
+      "left": 1,
+      "bottom": 7,
+      "right": 15
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{5E6278CB-FE06-4127-83F2-C77F8ECEF799}",
+          "top": 1,
+          "bottom": 7,
+          "left": 1,
+          "right": 15
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 6
+          }
+        ],
+        "headerNames": [
+          "\"Unique Identifer\"",
+          "\"Customer Name\"",
+          "44197",
+          "44228",
+          "44256",
+          "44287",
+          "44317",
+          "44348",
+          "44378",
+          "44409",
+          "44440",
+          "44470",
+          "44501",
+          "44531",
+          "\"Total\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Unique Identifer",
+            "rawValueJson": "\"Unique Identifer\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Customer Name",
+            "rawValueJson": "\"Customer Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "1/1/2021",
+            "rawValueJson": "44197",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "2/1/2021",
+            "rawValueJson": "44228",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "3/1/2021",
+            "rawValueJson": "44256",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "4/1/2021",
+            "rawValueJson": "44287",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "5/1/2021",
+            "rawValueJson": "44317",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "6/1/2021",
+            "rawValueJson": "44348",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 9,
+            "displayText": "7/1/2021",
+            "rawValueJson": "44378",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "displayText": "8/1/2021",
+            "rawValueJson": "44409",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "9/1/2021",
+            "rawValueJson": "44440",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "10/1/2021",
+            "rawValueJson": "44470",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "11/1/2021",
+            "rawValueJson": "44501",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 14,
+            "displayText": "12/1/2021",
+            "rawValueJson": "44531",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 15,
+            "displayText": "Total",
+            "rawValueJson": "\"Total\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Customer A",
+            "rawValueJson": "\"Customer A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 15,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Customer B",
+            "rawValueJson": "\"Customer B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 15,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Customer C",
+            "rawValueJson": "\"Customer C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 15,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Customer D",
+            "rawValueJson": "\"Customer D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 15,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Customer E",
+            "rawValueJson": "\"Customer E\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 15,
+            "displayText": " $-   ",
+            "rawValueJson": "0",
+            "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{5E6278CB-FE06-4127-83F2-C77F8ECEF799}",
+          "top": 1,
+          "bottom": 7,
+          "left": 1,
+          "right": 15
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [
+          14
+        ],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 13
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Unique Identifer",
+            "rawValueJson": "\"Unique Identifer\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Customer Name",
+            "rawValueJson": "\"Customer Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "1/1/2021",
+            "rawValueJson": "44197",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "2/1/2021",
+            "rawValueJson": "44228",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "3/1/2021",
+            "rawValueJson": "44256",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "4/1/2021",
+            "rawValueJson": "44287",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Customer A",
+            "rawValueJson": "\"Customer A\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Customer B",
+            "rawValueJson": "\"Customer B\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Customer C",
+            "rawValueJson": "\"Customer C\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Customer D",
+            "rawValueJson": "\"Customer D\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Customer E",
+            "rawValueJson": "\"Customer E\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Customer F",
+            "rawValueJson": "\"Customer F\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.4090909090909091,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Unique Identifer",
+          "rawValueJson": "\"Unique Identifer\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Customer Name",
+          "rawValueJson": "\"Customer Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "1/1/2021",
+          "rawValueJson": "44197",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "2/1/2021",
+          "rawValueJson": "44228",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "3/1/2021",
+          "rawValueJson": "44256",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "4/1/2021",
+          "rawValueJson": "44287",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "5/1/2021",
+          "rawValueJson": "44317",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "6/1/2021",
+          "rawValueJson": "44348",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "displayText": "7/1/2021",
+          "rawValueJson": "44378",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "displayText": "8/1/2021",
+          "rawValueJson": "44409",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "9/1/2021",
+          "rawValueJson": "44440",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "10/1/2021",
+          "rawValueJson": "44470",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "11/1/2021",
+          "rawValueJson": "44501",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 14,
+          "displayText": "12/1/2021",
+          "rawValueJson": "44531",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 1,
+          "column": 15,
+          "displayText": "Total",
+          "rawValueJson": "\"Total\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Customer A",
+          "rawValueJson": "\"Customer A\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Customer B",
+          "rawValueJson": "\"Customer B\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 15,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Customer C",
+          "rawValueJson": "\"Customer C\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 15,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Customer D",
+          "rawValueJson": "\"Customer D\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 15,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Customer E",
+          "rawValueJson": "\"Customer E\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 15,
+          "displayText": " $-   ",
+          "rawValueJson": "0",
+          "numberFormat": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "35c4fe70-b756-4faa-87e5-fcff78d5ed83",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,811 @@
+[
+  {
+    "range": {
+      "worksheetId": "{F899807F-4D00-4213-B6CF-EDF8A9038596}",
+      "top": 1,
+      "left": 2,
+      "bottom": 11,
+      "right": 4
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{F899807F-4D00-4213-B6CF-EDF8A9038596}",
+          "top": 1,
+          "bottom": 11,
+          "left": 2,
+          "right": 4
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"ConcertDate\"",
+          "\"Currency Code\"",
+          "\"Revenue in local currency\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "ConcertDate",
+            "rawValueJson": "\"ConcertDate\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Currency Code",
+            "rawValueJson": "\"Currency Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Revenue in local currency",
+            "rawValueJson": "\"Revenue in local currency\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Fri, Apr 14, 2023",
+            "rawValueJson": "\"Fri, Apr 14, 2023\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "MXN",
+            "rawValueJson": "\"MXN\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "14571344",
+            "rawValueJson": "14571344",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Fri, Apr 21, 2023",
+            "rawValueJson": "\"Fri, Apr 21, 2023\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "CAD",
+            "rawValueJson": "\"CAD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "13997127",
+            "rawValueJson": "13997127",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Fri, Apr 28, 2023",
+            "rawValueJson": "\"Fri, Apr 28, 2023\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "CHF",
+            "rawValueJson": "\"CHF\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "12841595",
+            "rawValueJson": "12841595",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Fri, Aug 16, 2024",
+            "rawValueJson": "\"Fri, Aug 16, 2024\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "CAD",
+            "rawValueJson": "\"CAD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "12602622",
+            "rawValueJson": "12602622",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Fri, Aug 2, 2024",
+            "rawValueJson": "\"Fri, Aug 2, 2024\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "AUD",
+            "rawValueJson": "\"AUD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "12747069",
+            "rawValueJson": "12747069",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table3",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Revenue",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "ConcertDate",
+          "rawValueJson": "\"ConcertDate\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Currency Code",
+          "rawValueJson": "\"Currency Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Revenue in local currency",
+          "rawValueJson": "\"Revenue in local currency\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Fri, Apr 14, 2023",
+          "rawValueJson": "\"Fri, Apr 14, 2023\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "MXN",
+          "rawValueJson": "\"MXN\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "14571344",
+          "rawValueJson": "14571344",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Fri, Apr 21, 2023",
+          "rawValueJson": "\"Fri, Apr 21, 2023\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "CAD",
+          "rawValueJson": "\"CAD\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "13997127",
+          "rawValueJson": "13997127",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Fri, Apr 28, 2023",
+          "rawValueJson": "\"Fri, Apr 28, 2023\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "CHF",
+          "rawValueJson": "\"CHF\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "12841595",
+          "rawValueJson": "12841595",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Fri, Aug 16, 2024",
+          "rawValueJson": "\"Fri, Aug 16, 2024\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "CAD",
+          "rawValueJson": "\"CAD\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "12602622",
+          "rawValueJson": "12602622",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Fri, Aug 2, 2024",
+          "rawValueJson": "\"Fri, Aug 2, 2024\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "AUD",
+          "rawValueJson": "\"AUD\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "12747069",
+          "rawValueJson": "12747069",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "4116a1c9-1cfa-4edf-9f82-dd81ad5b7f92",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{CB5E8DAD-AC87-438B-A466-27F3980E5844}",
+      "top": 1,
+      "left": 2,
+      "bottom": 12,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{CB5E8DAD-AC87-438B-A466-27F3980E5844}",
+          "top": 1,
+          "bottom": 12,
+          "left": 2,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Currency Code\"",
+          "\"Multiplier value for 1 US Dollar\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Currency Code",
+            "rawValueJson": "\"Currency Code\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Multiplier value for 1 US Dollar",
+            "rawValueJson": "\"Multiplier value for 1 US Dollar\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "USD",
+            "rawValueJson": "\"USD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "ARS",
+            "rawValueJson": "\"ARS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "888.5",
+            "rawValueJson": "888.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "AUD",
+            "rawValueJson": "\"AUD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "1.5",
+            "rawValueJson": "1.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "BRL",
+            "rawValueJson": "\"BRL\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "5.1",
+            "rawValueJson": "5.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "CAD",
+            "rawValueJson": "\"CAD\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "1.36",
+            "rawValueJson": "1.36",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "ExchangeRates",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "ExchangeRates",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Currency Code",
+          "rawValueJson": "\"Currency Code\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Multiplier value for 1 US Dollar",
+          "rawValueJson": "\"Multiplier value for 1 US Dollar\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "USD",
+          "rawValueJson": "\"USD\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "ARS",
+          "rawValueJson": "\"ARS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "888.5",
+          "rawValueJson": "888.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "AUD",
+          "rawValueJson": "\"AUD\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "1.5",
+          "rawValueJson": "1.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "BRL",
+          "rawValueJson": "\"BRL\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "5.1",
+          "rawValueJson": "5.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "CAD",
+          "rawValueJson": "\"CAD\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "1.36",
+          "rawValueJson": "1.36",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "562f76db-f1d0-48e6-bf43-7551bcb93911",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{66B079B6-BFB0-4420-ADAA-A921473D5297}",
+      "top": 1,
+      "left": 2,
+      "bottom": 11,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{66B079B6-BFB0-4420-ADAA-A921473D5297}",
+          "top": 1,
+          "bottom": 11,
+          "left": 2,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"Concert Date\"",
+          "\"Opening Act\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Concert Date",
+            "rawValueJson": "\"Concert Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Opening Act",
+            "rawValueJson": "\"Opening Act\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "Fri, Apr 14, 2023",
+            "rawValueJson": "\"Fri, Apr 14, 2023\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "beabadoobee",
+            "rawValueJson": "\"beabadoobee\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "Fri, Apr 21, 2023",
+            "rawValueJson": "\"Fri, Apr 21, 2023\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "beabadoobee",
+            "rawValueJson": "\"beabadoobee\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Fri, Apr 28, 2023",
+            "rawValueJson": "\"Fri, Apr 28, 2023\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "beabadoobee",
+            "rawValueJson": "\"beabadoobee\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Fri, Aug 16, 2024",
+            "rawValueJson": "\"Fri, Aug 16, 2024\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Paramore",
+            "rawValueJson": "\"Paramore\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Fri, Aug 2, 2024",
+            "rawValueJson": "\"Fri, Aug 2, 2024\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Paramore",
+            "rawValueJson": "\"Paramore\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table1",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "TourDates",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Concert Date",
+          "rawValueJson": "\"Concert Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Opening Act",
+          "rawValueJson": "\"Opening Act\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "Fri, Apr 14, 2023",
+          "rawValueJson": "\"Fri, Apr 14, 2023\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "beabadoobee",
+          "rawValueJson": "\"beabadoobee\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "Fri, Apr 21, 2023",
+          "rawValueJson": "\"Fri, Apr 21, 2023\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "beabadoobee",
+          "rawValueJson": "\"beabadoobee\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Fri, Apr 28, 2023",
+          "rawValueJson": "\"Fri, Apr 28, 2023\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "beabadoobee",
+          "rawValueJson": "\"beabadoobee\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Fri, Aug 16, 2024",
+          "rawValueJson": "\"Fri, Aug 16, 2024\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Paramore",
+          "rawValueJson": "\"Paramore\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Fri, Aug 2, 2024",
+          "rawValueJson": "\"Fri, Aug 2, 2024\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Paramore",
+          "rawValueJson": "\"Paramore\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "20710cf3-e6b6-48f8-bb76-7495f8b48561",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

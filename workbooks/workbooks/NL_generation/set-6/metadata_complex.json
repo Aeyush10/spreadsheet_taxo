@@ -1,0 +1,1845 @@
+[
+  {
+    "id": "0042af5fff59aaef130302cb98ee59e5fc3a8aa0_path_1.xlsx",
+    "File": "0042af5fff59aaef130302cb98ee59e5fc3a8aa0.xlsx",
+    "Size": 25,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of unemployed people and the unemployment rates for different categories? The total number of unemployed people is calculated by summing the values in two columns. The unemployment rate is calculated as the percentage of total unemployed over the labour force population. The formula for total unemployed is `=args_1+args_2` applied over the range H4:H28. The formula for unemployment rates is `=100*args_1/args_2` applied over the range J4:J28.",
+      "Baseline_v2": "Can you add a column to calculate the total number of unemployed people and another column to calculate the unemployment rates for each category in the 'LFS NATIONAL' sheet?",
+      "CoT_v3": "Add and calculate 'Total Unemployed' and 'UNEMPLOYMENT RATES' columns.",
+      "Action_v4": "Add columns for total unemployed and unemployment rates, and position them correctly.",
+      "Intent_v5": "Can you show me the total number of unemployed people and their percentage in the population?",
+      "Referenced_v6": "Can you show the total number of unemployed people and the unemployment rate for each category based on the selected range?"
+    },
+    "Mappings": ["Calculated component:0", "Calculated component:2"],
+    "Selected Cells": [
+      {
+        "sheet": "LFS NATIONAL",
+        "ranges": {
+          "Cells": ["F6:H28", "F4:H4", "B6:B28", "B4:B4"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "LFS NATIONAL",
+        "ranges": {
+          "Cells": ["H8:H8", "H1:H4", "H23:H28", "H11:H11", "H17:H20", "H6:H6", "J6:J28", "J1:J4"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0042af5fff59aaef130302cb98ee59e5fc3a8aa0_path_4.xlsx",
+    "File": "0042af5fff59aaef130302cb98ee59e5fc3a8aa0.xlsx",
+    "Size": 25,
+    "Path": "path_4",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of unemployed people by adding up the two unemployed categories? Help me understand the educational distribution of the labor force by summing up the relevant categories. The 'Total Unemployed' column is calculated by adding the values from the two 'Unemployed' columns for each row. The 'Educational' row is calculated by summing the values from the 'NEVER ATTENDED SCHOOL' to 'OTHERS' rows for each column.",
+      "Baseline_v2": "Can you help me add a 'Total Unemployed' column to the 'LFS NATIONAL' sheet by summing the 'Unemployed' and 'Unemployed (Did nothing)' columns, and also add a row that sums the values for each educational category?",
+      "CoT_v3": "Update the table to include a new 'Total Unemployed' column and an 'Educational' summary row.",
+      "Action_v4": "Add and calculate 'Total Unemployed' column, 'Educational' row, and ensure data accuracy and formatting.",
+      "Intent_v5": "Can you show the total unemployed and sum up the educational categories?",
+      "Referenced_v6": "Can you show the total number of unemployed people by adding the two unemployment columns together and also give me a summary of the educational levels for the selected range?"
+    },
+    "Mappings": ["Calculated component:0", "Calculated component:5"],
+    "Selected Cells": [
+      {
+        "sheet": "LFS NATIONAL",
+        "ranges": {
+          "Cells": ["B6:H20", "F4:G4", "F23:G28"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "LFS NATIONAL",
+        "ranges": {
+          "Cells": ["H8:H8", "A1:H6", "H23:H28", "H11:H11", "H17:H20"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0042af5fff59aaef130302cb98ee59e5fc3a8aa0_path_6.xlsx",
+    "File": "0042af5fff59aaef130302cb98ee59e5fc3a8aa0.xlsx",
+    "Size": 25,
+    "Path": "path_6",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of unemployed people and the unemployment rate for each state? The total unemployed is calculated by summing the number of people who worked 1-19 hours and those who did nothing across ranges G4:G42. The unemployment rate is determined using the formula 100*Total Unemployed/Labour Force Population across ranges I4:I42.",
+      "Baseline_v2": "Can you add a column to the 'LFS STATE' sheet that calculates the total number of unemployed people by summing the 'Unemployed' and 'Unemployed (Did nothing)' columns, and another column that calculates the unemployment rate as a percentage of the labour force population?",
+      "CoT_v3": "Calculate total unemployed and unemployment rate for each state in Sheet 2.",
+      "Action_v4": "Add columns for total unemployed and unemployment rates, and calculate their values.",
+      "Intent_v5": "Can you show me the total number of unemployed people and the unemployment rate for each state?",
+      "Referenced_v6": "Can you show me the total number of unemployed people and the unemployment rate for each state based on the selected range?"
+    },
+    "Mappings": ["Calculated component:6", "Calculated component:8"],
+    "Selected Cells": [
+      {
+        "sheet": "LFS STATE",
+        "ranges": {
+          "Cells": ["E4:G4", "B4:B4", "B6:B42", "G6:G42"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "LFS STATE",
+        "ranges": {
+          "Cells": ["G2:G4", "I1:I4", "I6:I42"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "004fd363b54325098bac57222a9a87b43dc0d634_path_0.xlsx",
+    "File": "004fd363b54325098bac57222a9a87b43dc0d634.xlsx",
+    "Size": 13,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me add a column for notes, fill in specific comments, and calculate the total score and grade for the second quarter? The total score is calculated by summing up the scores from E5 to E30. The grade is determined by dividing the total score by the total possible score (E35/F35).",
+      "Baseline_v2": "Add a 'Notes' column to the table, fill it with specific notes for certain rows, and calculate the total score and grade for the second quarter.",
+      "CoT_v3": "Add and fill the 'Notes' column, then calculate and show the total score and grade for the second quarter.",
+      "Action_v4": "Add a 'Notes' column with comments and calculate the total score and overall grade for the second quarter.",
+      "Intent_v5": "Can you help me add notes for each lesson, find the total score for the second quarter, and determine the final grade?",
+      "Referenced_v6": "Can you add a notes section for each assignment and calculate the overall grade for the second quarter based on the selected range?"
+    },
+    "Mappings": ["Calculated component:0", "Calculated component:1"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["E5:F30", "E35:F35"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": [
+            "A35:A35",
+            "E35:F35",
+            "H35:I35",
+            "H9:H9",
+            "H11:H11",
+            "H13:H15",
+            "H27:H27",
+            "H29:H29",
+            "H23:H23",
+            "H3:H3"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "006c55d96be36f9b9b762a692006dc7283fbf50f_path_4.xlsx",
+    "File": "006c55d96be36f9b9b762a692006dc7283fbf50f.xlsx",
+    "Size": 28,
+    "Path": "path_4",
+    "NL_generation": {
+      "Technical_v1": "Can you help me clean up this form so it's clear and complete? The form includes calculations for blocking, reception, errors, and total values using conditional formulas. The final values in J36 and J37 are determined based on the presence and values of J34 and J35.",
+      "Baseline_v2": "Please update the volleyball nomination form to include additional columns for blocking statistics, reception rates, and total errors, and ensure all relevant data is filled in.",
+      "CoT_v3": "Ensure all columns have appropriate data and add calculated fields.",
+      "Action_v4": "Organize and align sections, add calculated fields for statistics, and include instructions and reminders.",
+      "Intent_v5": "Can you help me clean up and complete this form, making sure all fields are filled and calculations are included?",
+      "Referenced_v6": "Can you help me find the total and then see how it compares to another value in the selected range?"
+    },
+    "Mappings": ["Calculated component:3", "Calculated component:6"],
+    "Selected Cells": [
+      {
+        "sheet": "All Region All State R4 ",
+        "ranges": {
+          "Cells": ["J34:J36", "J27:J27"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "All Region All State R4 ",
+        "ranges": {
+          "Cells": ["G36:G36", "J33:J33", "J2:J2", "J53:J55", "C36:C36", "I36:J37", "E36:E36"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "009076ae681ec57a289efccbd2894ff5140d7058_path_1.xlsx",
+    "File": "009076ae681ec57a289efccbd2894ff5140d7058.xlsx",
+    "Size": 10,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me figure out the return on investment for Annual Wellness Visits by calculating the necessary metrics and revenue? The number of completed initial and subsequent AWVs per week to reach target percentages are calculated using conditional formulas based on input values. The yearly AWVs to reach target are determined by multiplying weekly values by 52. Total initial and subsequent AWV revenue is computed by multiplying reimbursement rates with yearly AWVs. Total targeted AWV revenue is the sum of initial and subsequent revenues. ROI is calculated by dividing total targeted revenue by investment.",
+      "Baseline_v2": "Add formulas to calculate the number of completed AWVs per week, the number of completed AWVs per year, the total AWV revenue, and the ROI, displaying '-' if any required input is missing.",
+      "CoT_v3": "Calculate the number of completed AWVs per week and per year to reach the target, the total AWV revenue, and the ROI.",
+      "Action_v4": "Calculate weekly and yearly AWV completions, total revenues, overall targeted revenue, and ROI for Annual Wellness Visits.",
+      "Intent_v5": "Help me understand the financial impact of our Annual Wellness Visit program by calculating the necessary metrics and showing the overall return on investment.",
+      "Referenced_v6": "Can you help me complete the calculations for the Annual Wellness Visit ROI based on the selected range of cells? I need to figure out the weekly and yearly targets, total revenue, and ROI."
+    },
+    "Mappings": [
+      "Calculated component:1",
+      "Calculated component:2",
+      "Calculated component:3",
+      "Calculated component:4",
+      "Calculated component:5"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet2",
+        "ranges": {
+          "Cells": ["B6:B6", "B9:B10", "B14:B15", "B4:B4", "B19:B25", "B27:B27"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet2",
+        "ranges": {
+          "Cells": ["B10:B10", "B15:B15", "B19:B20", "B23:B25", "B29:B29"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00c460e537aca8dda9ab349b73816d9c98ff848d_path_0.xlsx",
+    "File": "00c460e537aca8dda9ab349b73816d9c98ff848d.xlsx",
+    "Size": 37,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make this report more detailed and organized with clear headers, descriptions, and consistent data? The report includes headers and descriptions for each sheet, linking data between sheets using direct cell references. Consistent formatting and structure are applied across all sheets to ensure data accuracy and clarity.",
+      "Baseline_v2": "Can you please update the Excel file to include detailed headers and descriptions for each sheet, and ensure all data is properly categorized and labeled as shown in the final table state?",
+      "CoT_v3": "Add headers, titles, descriptions, subsections, formulas, data entries, and calculated artifacts to each sheet.",
+      "Action_v4": "Organize the workbook by adding headers, labels, and formulas to all sheets to clearly identify and link the data.",
+      "Intent_v5": "Help me organize and label the data to make it clearer and more informative.",
+      "Referenced_v6": "Can you help me organize and structure this workbook to clearly present detailed information about prescription drug costs, including adding headers, descriptions, and linking relevant data across sheets?"
+    },
+    "Mappings": [
+      "Calculated component:1",
+      "Calculated component:31",
+      "Calculated component:18",
+      "Calculated component:29",
+      "Calculated component:9",
+      "Calculated component:39",
+      "Calculated component:0"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "PharmPctPrem",
+        "ranges": {
+          "Cells": ["A4:A4"]
+        }
+      },
+      {
+        "sheet": "SpecTierForm",
+        "ranges": {
+          "Cells": ["A4:A4"]
+        }
+      },
+      {
+        "sheet": "PharmBenMgr",
+        "ranges": {
+          "Cells": ["A4:A4"]
+        }
+      },
+      {
+        "sheet": "YoYcompofPrem",
+        "ranges": {
+          "Cells": ["A4:A4"]
+        }
+      },
+      {
+        "sheet": "PharmDocOff",
+        "ranges": {
+          "Cells": ["A4:A4"]
+        }
+      },
+      {
+        "sheet": "YoYTotalPlanSpnd",
+        "ranges": {
+          "Cells": ["A4:A4"]
+        }
+      },
+      {
+        "sheet": "Cover page",
+        "ranges": {
+          "Cells": ["A1:C3", "C8:C8"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Cover page",
+        "ranges": {
+          "Cells": ["B13:B14", "B20:B20", "B24:B24", "B18:B18", "B6:B9", "B22:B22", "B16:B16"]
+        }
+      },
+      {
+        "sheet": "PharmPctPrem",
+        "ranges": {
+          "Cells": ["A10:A16", "A1:A5", "A19:A19"]
+        }
+      },
+      {
+        "sheet": "YoYTotalPlanSpnd",
+        "ranges": {
+          "Cells": ["A7:A7", "A4:A5"]
+        }
+      },
+      {
+        "sheet": "YoYcompofPrem",
+        "ranges": {
+          "Cells": [
+            "A1:A5",
+            "A11:A11",
+            "A27:A27",
+            "A15:A15",
+            "A13:A13",
+            "A21:A21",
+            "A25:A25",
+            "A31:A33",
+            "A29:A29",
+            "A17:A17",
+            "A23:A23",
+            "A19:A19"
+          ]
+        }
+      },
+      {
+        "sheet": "SpecTierForm",
+        "ranges": {
+          "Cells": ["A10:A79", "A1:A5"]
+        }
+      },
+      {
+        "sheet": "PharmDocOff",
+        "ranges": {
+          "Cells": ["A1:A5", "A10:A11", "A13:A13"]
+        }
+      },
+      {
+        "sheet": "PharmBenMgr",
+        "ranges": {
+          "Cells": ["A1:A5", "A10:A10", "A117:A118", "A14:A14", "A16:A16", "A12:A12", "A18:A18"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00c460e537aca8dda9ab349b73816d9c98ff848d_path_1.xlsx",
+    "File": "00c460e537aca8dda9ab349b73816d9c98ff848d.xlsx",
+    "Size": 37,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the Year-Over-Year Increase (PMPM) for each row and the total values in columns B and C in the 'YoYcompofPrem' sheet? The Year-Over-Year Increase (PMPM) is calculated using the formula template '=args_1-args_2' over the range D11:D29. The total values in columns B and C are calculated using the formula template '=SUM(args_1)' over the range B29:C29.",
+      "Baseline_v2": "Add a new column to the 'YoYcompofPrem' sheet to calculate the Year-Over-Year Increase (PMPM) using the formula =B-C, and populate the new column with the calculated values.",
+      "CoT_v3": "Add and calculate Year-Over-Year Increase (PMPM) and sum values in columns B and C in 'YoYcompofPrem'.",
+      "Action_v4": "Add a new column to 'YoYcompofPrem' for year-over-year PMPM increase and update 'PharmBenMgr' with a new row of values.",
+      "Intent_v5": "Can you show the year-over-year increase and total sum in the 'YoYcompofPrem' sheet?",
+      "Referenced_v6": "Can you show the year-over-year increase for each row in this selected range and also give me the total sum of these values?"
+    },
+    "Mappings": ["Calculated component:25", "Calculated component:24"],
+    "Selected Cells": [
+      {
+        "sheet": "YoYcompofPrem",
+        "ranges": {
+          "Cells": ["B11:C27", "B29:C29"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "YoYcompofPrem",
+        "ranges": {
+          "Cells": [
+            "B29:D29",
+            "D15:D15",
+            "D23:D23",
+            "D10:D11",
+            "D13:D13",
+            "D17:D17",
+            "D25:D25",
+            "D27:D27",
+            "D21:D21",
+            "D19:D19"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00c460e537aca8dda9ab349b73816d9c98ff848d_path_2.xlsx",
+    "File": "00c460e537aca8dda9ab349b73816d9c98ff848d.xlsx",
+    "Size": 37,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you help me organize and add descriptions to the data so it's easier to understand? The headers and descriptions in 'PharmPctPrem' and 'YoYTotalPlanSpnd' are directly referenced from the cover page cells A1:A3. This ensures consistency and clarity in presenting the prescription drug cost reporting information.",
+      "Baseline_v2": "Add headers and descriptions to the 'PharmPctPrem' and 'YoYTotalPlanSpnd' sheets to provide context and clarity for the data presented.",
+      "CoT_v3": "Enhance the 'PharmPctPrem' and 'YoYTotalPlanSpnd' sheets with necessary headers, descriptions, and calculations.",
+      "Action_v4": "Organize the workbook by adding headers and descriptions to 'PharmPctPrem' and 'YoYTotalPlanSpnd', and ensure consistent formatting and clear labels across all sheets.",
+      "Intent_v5": "Can you help me make the data in this workbook clearer and more organized?",
+      "Referenced_v6": "Can you help me add headers and descriptions to the 'PharmPctPrem' and 'YoYTotalPlanSpnd' sheets to make the data clearer? Also, please ensure that the selected range in the 'Cover page' sheet is correctly referenced in other sheets."
+    },
+    "Mappings": ["Calculated component:1", "Calculated component:8"],
+    "Selected Cells": [
+      {
+        "sheet": "Cover page",
+        "ranges": {
+          "Cells": ["A1:C3"]
+        }
+      },
+      {
+        "sheet": "PharmPctPrem",
+        "ranges": {
+          "Cells": ["A10:C10"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "PharmPctPrem",
+        "ranges": {
+          "Cells": ["A10:A16", "A1:A5", "A19:A19"]
+        }
+      },
+      {
+        "sheet": "YoYTotalPlanSpnd",
+        "ranges": {
+          "Cells": ["A1:A3", "A10:A16"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00c460e537aca8dda9ab349b73816d9c98ff848d_path_3.xlsx",
+    "File": "00c460e537aca8dda9ab349b73816d9c98ff848d.xlsx",
+    "Size": 37,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the year-over-year increase percentage in total annual plan spending and the total spending for 2021? The year-over-year increase percentages are calculated using the formula (current year spending / previous year spending - 1) across the range D12:D19. The total annual plan spending for 2021 is shown in cell B18.",
+      "Baseline_v2": "Can you add a new column to the 'YoYTotalPlanSpnd' sheet that calculates the year-over-year percentage increase in total annual plan spending, and ensure all other sheets remain unchanged?",
+      "CoT_v3": "Calculate and display Year-Over-Year Increase (%) in Total Annual Plan Spending, sum values in columns B and C, and reference a value from the Cover page in Sheet 3.",
+      "Action_v4": "Add a column to 'YoYTotalPlanSpnd' for year-over-year percentage increase and calculate the values for each row.",
+      "Intent_v5": "Can you show me the year-over-year increase in total spending and the total spending for 2021?",
+      "Referenced_v6": "Can you help me add a new column to show the year-over-year increase percentage for total annual plan spending, calculate the values for this column, and add summary rows to show the sum of the values and the year based on the selected range?"
+    },
+    "Mappings": ["Calculated component:15", "Calculated component:14", "Calculated component:13"],
+    "Selected Cells": [
+      {
+        "sheet": "Cover page",
+        "ranges": {
+          "Cells": ["C6:C6"]
+        }
+      },
+      {
+        "sheet": "PharmPctPrem",
+        "ranges": {
+          "Cells": ["B19:B19"]
+        }
+      },
+      {
+        "sheet": "YoYTotalPlanSpnd",
+        "ranges": {
+          "Cells": ["B12:C16", "B19:C19"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "YoYTotalPlanSpnd",
+        "ranges": {
+          "Cells": ["B18:B19", "B11:D16", "D19:D19"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00c460e537aca8dda9ab349b73816d9c98ff848d_path_4.xlsx",
+    "File": "00c460e537aca8dda9ab349b73816d9c98ff848d.xlsx",
+    "Size": 37,
+    "Path": "path_4",
+    "NL_generation": {
+      "Technical_v1": "Can you show me how much of the paid premiums are due to prescription drug costs and summarize the data? The percentage of paid premium attributable to prescription drug costs is calculated using the formula `=B12/B19` for the range C12:C16. The sum of values in column B for the range B12:B14 is calculated using the formula `=SUM(B12:B14)` and placed in B15.",
+      "Baseline_v2": "Please add a new column to the 'PharmPctPrem' sheet that calculates the 'Percent of Paid Premium Attributable to Prescription Drug Costs' by dividing the values in column B by the total in cell B19, and fill in the missing value in cell B15 with the sum of B12 to B14.",
+      "CoT_v3": "Calculate and add the 'Percent of Paid Premium Attributable to Prescriptions Drug Costs' and a sum formula in the 'PharmPctPrem' sheet.",
+      "Action_v4": "Add a label and calculate the percentage of paid premium attributable to prescription drug costs, sum the values in the PharmPctPrem sheet, and ensure all other sheets remain unchanged.",
+      "Intent_v5": "Can you help me see how much of the premiums are spent on prescription drugs?",
+      "Referenced_v6": "Can you show me the percentage of the premium that goes towards prescription drugs for this column and give me the total amount?"
+    },
+    "Mappings": ["Calculated component:7", "Calculated component:6"],
+    "Selected Cells": [
+      {
+        "sheet": "PharmPctPrem",
+        "ranges": {
+          "Cells": ["B12:B16", "B19:B19"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "PharmPctPrem",
+        "ranges": {
+          "Cells": ["B11:C16"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00c460e537aca8dda9ab349b73816d9c98ff848d_path_5.xlsx",
+    "File": "00c460e537aca8dda9ab349b73816d9c98ff848d.xlsx",
+    "Size": 37,
+    "Path": "path_5",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total and the difference of the values in the table? The sum of values in cells B11 to B27 and C11 to C27 is calculated and displayed in cells B29 and C29 respectively. The difference between the sum in B29 and the value in PharmPctPrem!B19 is calculated and displayed in B30.",
+      "Baseline_v2": "Please update the 'YoYcompofPrem' sheet by adding the calculated values in cells B29 and B30, where B29 is the sum of B11 to B27 and B30 is the difference between B29 and the value in cell B19 of the 'PharmPctPrem' sheet.",
+      "CoT_v3": "Ensure correct calculations in the 'YoYcompofPrem' sheet.",
+      "Action_v4": "Ensure the workbook has accurate data, including necessary calculations and summaries, and that all sheets are correctly formatted.",
+      "Intent_v5": "Can you help me see the total and adjusted prescription drug costs over time?",
+      "Referenced_v6": "Can you help me calculate the total of the selected values in this range and then show the difference between this total and another specific value?"
+    },
+    "Mappings": ["Calculated component:25", "Calculated component:26"],
+    "Selected Cells": [
+      {
+        "sheet": "YoYcompofPrem",
+        "ranges": {
+          "Cells": ["B11:C27", "B29:C29"]
+        }
+      },
+      {
+        "sheet": "PharmPctPrem",
+        "ranges": {
+          "Cells": ["B19:B19"]
+        }
+      },
+      {
+        "sheet": "YoYTotalPlanSpnd",
+        "ranges": {
+          "Cells": ["C19:C19"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "YoYcompofPrem",
+        "ranges": {
+          "Cells": ["B29:C30"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00c460e537aca8dda9ab349b73816d9c98ff848d_path_7.xlsx",
+    "File": "00c460e537aca8dda9ab349b73816d9c98ff848d.xlsx",
+    "Size": 37,
+    "Path": "path_7",
+    "NL_generation": {
+      "Technical_v1": "Can you help me fill in the missing values and calculations in the 'PharmDocOff' sheet? The values in cells B11:B15 are derived from the 'YoYcompofPrem' sheet. The values in cells C11:C13 are calculated using the formula =args_1/args_2, where args_1 is the value in column B and args_2 is a fixed value from B15. The value in B13 is calculated using the formula =args_1+args_2+args_3, where args_1, args_2, and args_3 are values from the 'YoYcompofPrem' sheet.",
+      "Baseline_v2": "Can you add formulas to the 'PharmDocOff' sheet to calculate values based on the 'YoYcompofPrem' sheet, and ensure all other sheets remain unchanged?",
+      "CoT_v3": "Add formulas to Sheet 6 (PharmDocOff) for calculations using data from Sheet 4 (YoYcompofPrem).",
+      "Action_v4": "Ensure all data is complete and consistent, with missing values and calculations filled in, especially in the 'PharmDocOff' sheet.",
+      "Intent_v5": "Can you help me fill in the missing values and calculations in the 'PharmDocOff' sheet to make sure everything is correct?",
+      "Referenced_v6": "Can you update the 'PharmDocOff' sheet with the calculated values from the selected ranges in the 'YoYcompofPrem' sheet?"
+    },
+    "Mappings": ["Calculated component:38", "Calculated component:35", "Calculated component:37"],
+    "Selected Cells": [
+      {
+        "sheet": "YoYcompofPrem",
+        "ranges": {
+          "Cells": ["B11:B11", "B13:B13", "B17:B17"]
+        }
+      },
+      {
+        "sheet": "PharmPctPrem",
+        "ranges": {
+          "Cells": ["B19:B19"]
+        }
+      },
+      {
+        "sheet": "PharmDocOff",
+        "ranges": {
+          "Cells": ["B13:B13", "B15:B15", "B11:B11"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "PharmDocOff",
+        "ranges": {
+          "Cells": ["B13:C13", "B11:C11", "B15:B15"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91_path_0.xlsx",
+    "File": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91.xlsx",
+    "Size": 35,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me show detailed salary information, including allowances and pro-rata amounts, based on user inputs? The formulas used include: =VLOOKUP($C$4,payscales,2,FALSE) to find the base salary, =$C$5+$F$3 to calculate the total salary with allowances, =IF(F5>1,'Hours per week are higher than full time for your grade. Are you sure?','Your FTE') to validate FTE, and =IF(OR($C$3='Level 1a',$C$3='Level 1b',$C$3='Level 2a',$C$3='Level 2b'),$C$6/36,$C$6/35) to calculate the pro-rata salary.",
+      "Baseline_v2": "Can you update the 'Additional Holiday Calculator' sheet to include fields for 'Your grade', 'Your spinal point', 'Your base salary (FTE)', 'Your total salary with allowances (FTE)', and 'FTE value of any allowances you receive in addition to your base salary', and add the necessary formulas to calculate the total salary (pro-rata) and other related values?",
+      "CoT_v3": "Enhance the 'Additional Holiday Calculator' sheet with new columns, headers, values, and formulas.",
+      "Action_v4": "Make the 'Additional Holiday Calculator' more informative by adding user details, salary calculations, pension details, and automatic formulas.",
+      "Intent_v5": "Help me set up a clear form for users to enter their details and see their salary calculations, including allowances and pro-rata adjustments.",
+      "Referenced_v6": "Can you help me make the 'Additional Holiday Calculator' sheet more user-friendly by adding headers, labels, and formulas to calculate total salary, including allowances and additional holidays, based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:3",
+      "Calculated component:2"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C3:C6", "F3:F3", "F5:F5"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["B3:F6", "E17:F21"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91_path_1.xlsx",
+    "File": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91.xlsx",
+    "Size": 35,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me make the holiday calculator more informative and functional by adding messages, confirmation, and calculations? The formula in cell C18 calculates based on conditions: =IF(OR($C$3='Level 1a',$C$3='Level 1b',$C$3='Level 2a',$C$3='Level 2b'),($F$4/1603.5)*$C$7,IF($C$3='Level 3',($F$4/1559)*$C$7,($F$4/1517)*$C$7)). The formula in cell C17 calculates based on cell C18: =C18/12.",
+      "Baseline_v2": "Add a new column to the 'Additional Holiday Calculator' sheet with messages and confirmation details, and include formulas to calculate values based on specific conditions.",
+      "CoT_v3": "Update the layout, content, and calculations in Sheet 1.",
+      "Action_v4": "Add a new column with messages and confirmation fields in the 'Additional Holiday Calculator' sheet, and keep the 'Lookups' sheet unchanged.",
+      "Intent_v5": "Can you help me make the holiday calculator sheet more informative and functional by adding messages, confirmation text, and calculations?",
+      "Referenced_v6": "Can you help me make the 'Additional Holiday Calculator' sheet more user-friendly by adding necessary fields for required information, messages, and confirmation, and also include calculations for additional holidays based on the selected range?"
+    },
+    "Mappings": ["Calculated component:12", "Calculated component:10"],
+    "Selected Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C3:C3", "C7:C7", "F4:F4", "C18:C18"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C17:D18", "C8:C9", "C13:C13"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91_path_2.xlsx",
+    "File": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91.xlsx",
+    "Size": 35,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you help me set up a tool where users can enter their grade and spinal point to see their base and total salary, and get guidance on additional holiday entitlements? The base salary is calculated using a lookup table based on the user's spinal point. The total salary is the sum of the base salary and allowances. Weekly and daily hours are calculated based on user input and level. Conditional messages guide the user to enter their grade and spinal point, and provide additional information based on their input.",
+      "Baseline_v2": "Can you update the 'Additional Holiday Calculator' sheet to include fields for 'Your grade', 'Your spinal point', 'Your base salary (FTE)', and 'Your total salary with allowances (FTE)', and add formulas to calculate these values based on the 'Lookups' sheet?",
+      "CoT_v3": "Enhance the 'Additional Holiday Calculator' sheet by adding new columns, messages, and formulas to calculate values based on user inputs and lookups.",
+      "Action_v4": "Make the holiday calculator user-friendly with input fields, automatic salary calculations, guidance messages, and pension details.",
+      "Intent_v5": "Help me set up a user-friendly tool to calculate additional holiday entitlements based on grade and spinal point, with clear instructions and messages.",
+      "Referenced_v6": "Can you help me set up a user-friendly holiday calculator that guides users through entering their details and automatically calculates their entitlements based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:3",
+      "Calculated component:13",
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:3",
+      "Calculated component:14",
+      "Calculated component:7"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C3:C7", "F3:F3", "F5:F5", "C19:C19", "F19:F19"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["B3:F5", "F18:F19", "C19:C19", "B11:F11"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91_path_3.xlsx",
+    "File": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91.xlsx",
+    "Size": 35,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you help me set up a way to calculate and show additional holiday entitlements based on user details like grade, spinal point, and hours worked? The base salary is calculated using a lookup of the spinal point in the payscales table. The total salary with allowances is the sum of the base salary and additional allowances. Hours worked are calculated based on weekly hours. Pension contributions are calculated based on the total salary and specific conditions for different levels.",
+      "Baseline_v2": "Can you update the 'Additional Holiday Calculator' sheet to include fields for 'Your grade', 'Your spinal point', and 'Your hours per week (decimal)', and add the necessary formulas to calculate 'Your base salary (FTE)', 'Your total salary with allowances (FTE)', and other related values based on the 'Lookups' sheet?",
+      "CoT_v3": "Enhance the 'Additional Holiday Calculator' sheet with new input and calculated columns, relevant formulas, and a note about pension contributions.",
+      "Action_v4": "Enhance the 'Additional Holiday Calculator' sheet with new columns, labels, calculations, and a note about pension contributions.",
+      "Intent_v5": "Can you help me set up a sheet to calculate additional holidays based on salary and hours worked?",
+      "Referenced_v6": "Can you help me set up a table that calculates additional holidays based on salary and hours worked, and includes a note about pension contributions for the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:12",
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:3",
+      "Calculated component:4",
+      "Calculated component:11"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C3:C7", "F3:F6", "C18:C18"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C18:C18", "B3:F6", "F17:F18", "D6:D6", "B6:B6"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91_path_4.xlsx",
+    "File": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91.xlsx",
+    "Size": 35,
+    "Path": "path_4",
+    "NL_generation": {
+      "Technical_v1": "Can you help me show additional holiday time in hours and minutes? The additional holiday time is calculated by rounding down the value in C7 to get hours (C20), calculating the remaining minutes (F20), and then concatenating these values to display in C21.",
+      "Baseline_v2": "Please add columns D, E, and F to the 'Additional Holiday Calculator' sheet and calculate the rounded down value of cell C7 in cell C20, the rounded difference between C7 and C20 multiplied by 60 in cell F20, and concatenate the results in cell C21 as 'X hours and Y minutes'.",
+      "CoT_v3": "Expand the 'Additional Holiday Calculator' sheet with new columns and rows, and insert formulas.",
+      "Action_v4": "Add columns and extend rows in Sheet 1, then calculate and display additional holiday hours and minutes.",
+      "Intent_v5": "Can you help me show additional holiday hours and minutes based on the data provided?",
+      "Referenced_v6": "Can you help me show the rounded down value of the selected cell, the difference in minutes, and a formatted text showing hours and minutes in the 'Additional Holiday Calculator' sheet?"
+    },
+    "Mappings": ["Calculated component:15", "Calculated component:16", "Calculated component:17"],
+    "Selected Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C7:C7", "C20:C20", "F20:F20"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C20:C21", "F20:F20"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91_path_5.xlsx",
+    "File": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91.xlsx",
+    "Size": 35,
+    "Path": "path_5",
+    "NL_generation": {
+      "Technical_v1": "Can you help me figure out the cost of buying extra holiday hours based on my salary and grade? The workbook calculates the cost of additional holiday based on the user's grade and salary. It uses lookup values for spinal points and salaries, and applies conditional formatting to highlight important fields. The total salary is calculated by summing the base salary and allowances. The cost per month and total cost for additional holiday are determined based on the selected grade and hours.",
+      "Baseline_v2": "Can you update the 'Additional Holiday Calculator' sheet to include fields for 'Your grade', 'Your spinal point', 'Your base salary (FTE)', and 'Your total salary with allowances (FTE)', and add formulas to calculate the cost and total cost of additional holiday based on the user's input?",
+      "CoT_v3": "Enhance the 'Additional Holiday Calculator' sheet with new columns, rows, formulas, conditional formatting, and add messages and confirmation sections. The 'Lookups' sheet remains unchanged.",
+      "Action_v4": "Make the holiday calculator user-friendly by adding input fields, calculating costs, and highlighting important information.",
+      "Intent_v5": "Help me create a clear and user-friendly form for employees to calculate and understand the cost of purchasing additional holiday hours.",
+      "Referenced_v6": "Can you help me set up a form that lets users input their grade and spinal point, then automatically calculates their base salary, total salary with allowances, and the cost of additional holiday hours? I also want to add some instructions and messages to guide the user, and highlight certain fields based on their input."
+    },
+    "Mappings": [
+      "Calculated component:13",
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:3",
+      "Calculated component:14",
+      "Calculated component:5",
+      "Additional Holiday Calculator!CF-0"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C3:C6", "F5:F5", "F3:F3", "C19:C19", "F19:F19", "D7:D7"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["B17:C21", "B3:F5", "F18:F19", "B7:B9", "D7:D7", "B13:B13"],
+          "Conditional Formatting": ["D7:D7"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91_path_6.xlsx",
+    "File": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91.xlsx",
+    "Size": 35,
+    "Path": "path_6",
+    "NL_generation": {
+      "Technical_v1": "Can you help me set up a tool where users can enter their grade and spinal point to see their base salary, total salary with allowances, and additional holiday hours? The formulas used include: `=VLOOKUP($C$4,payscales,2,FALSE)` to find the base salary, `=$C$5+$F$3` to calculate the total salary with allowances, `=IF(OR($C$3='Level 1a',$C$3='Level 1b',$C$3='Level 2a',$C$3='Level 2b'),$C$6/36,$C$6/35)` to determine the holiday hours, `=IF(OR($C$3='Please select',$C$4='Please select'),'Enter your grade and spinal point to start.',IF($C$6=0,'Enter your current weekly contracted hours.',IF($C7=0,'Enter the number of Additional Holiday hours you want to purchase, between '&$C$19&' and '&$F$19&' hours.','No messages to display.')))` for user guidance, `=IF($B$10='No messages to display.','You have requested to purchase '&CONCATENATE($C$20,' hours and ',$",
+      "Baseline_v2": "Can you update the 'Additional Holiday Calculator' sheet to include fields for 'Your grade', 'Your spinal point', 'Your base salary (FTE)', and 'Your total salary with allowances (FTE)', and add relevant formulas and conditional formatting to calculate and display additional holiday information based on user inputs?",
+      "CoT_v3": "Enhance the 'Additional Holiday Calculator' sheet with new columns, rows, formulas, conditional formatting, and instructional text. The 'Lookups' sheet remains unchanged.",
+      "Action_v4": "Make the 'Additional Holiday Calculator' worksheet more informative and user-friendly by adding user details, instructions, calculations, and conditional formatting.",
+      "Intent_v5": "Can you help me make it easier for users to calculate their additional holiday and understand their pension contributions?",
+      "Referenced_v6": "Can you help me set up a user-friendly calculator for additional holiday entitlements? I want it to guide users through entering their grade and spinal point, show their base and total salary, and calculate their holiday hours and days. Also, highlight any missing information or errors based on the selected range."
+    },
+    "Mappings": [
+      "Calculated component:13",
+      "Calculated component:3",
+      "Calculated component:14",
+      "Calculated component:6",
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:18",
+      "Calculated component:15",
+      "Calculated component:16",
+      "Calculated component:9",
+      "Calculated component:13",
+      "Calculated component:3",
+      "Calculated component:14",
+      "Calculated component:6",
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:18",
+      "Calculated component:15",
+      "Calculated component:16",
+      "Calculated component:8",
+      "Additional Holiday Calculator!CF-1"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C3:C7", "F5:F5", "C19:C20", "F19:F21", "F3:F3", "B10:B10", "B14:F15"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C19:C20", "B3:F5", "F18:F21", "B10:F10", "B14:F15"],
+          "Conditional Formatting": ["B14:F15"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91_path_7.xlsx",
+    "File": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91.xlsx",
+    "Size": 35,
+    "Path": "path_7",
+    "NL_generation": {
+      "Technical_v1": "Can you help me set up a way to calculate and show additional holiday entitlements based on user details and grade levels? The base salary is determined using a lookup table based on the spinal point. The total salary is calculated by adding allowances to the base salary. Weekly hours are determined based on the grade level, with specific conditions for different levels. Pension contributions are based on the full pensionable salary.",
+      "Baseline_v2": "Can you update the 'Additional Holiday Calculator' sheet to include fields for 'Your grade', 'Your spinal point', 'Your base salary (FTE)', and 'Your total salary with allowances (FTE)', and ensure these fields are populated using data from the 'Lookups' sheet?",
+      "CoT_v3": "Update the workbook to include user details and salary calculations in Sheet 1, add a note about pension contributions, and update FTE weekly hours in Sheet 2 based on grade levels.",
+      "Action_v4": "Make the Additional Holiday Calculator user-friendly by adding input fields, salary details, pension note, weekly hours, and necessary formulas.",
+      "Intent_v5": "Help me set up a sheet to calculate employee salaries and allowances based on their grade and spinal point, and show their pension contributions.",
+      "Referenced_v6": "Can you help me make this sheet easier to use by adding labels and values to the selected cells, and making sure the calculations work correctly?"
+    },
+    "Mappings": [
+      "Calculated component:0",
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:19"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C3:C5", "F3:F3"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["B3:F4", "F18:F18"]
+        }
+      },
+      {
+        "sheet": "Lookups",
+        "ranges": {
+          "Cells": ["D2:D2"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91_path_8.xlsx",
+    "File": "00d71c59d7c7861f3ecbc97bb226a56f7e2bbc91.xlsx",
+    "Size": 35,
+    "Path": "path_8",
+    "NL_generation": {
+      "Technical_v1": "Can you help me calculate and display the base and total salary with allowances based on the user's grade and spinal point, and show relevant pension information? The base salary is fetched using a lookup based on the spinal point in cell C4. The total salary with allowances is calculated by summing the base salary in cell C5 and the allowances in cell F3. The FTE daily hours are determined using a conditional formula based on the grade in cell C3, with specific values for different levels. The pension information is displayed as a note in cell F18.",
+      "Baseline_v2": "Add columns for grade, spinal point, base salary, and total salary with allowances to the 'Additional Holiday Calculator' sheet, and include formulas to calculate the base salary and total salary based on the spinal point selected.",
+      "CoT_v3": "Update the 'Additional Holiday Calculator' sheet with new columns, headers, values, formulas, and a pension note, and add a formula in the 'Lookups' sheet for FTE daily hours calculation.",
+      "Action_v4": "Make the Additional Holiday Calculator more user-friendly by adding input fields, calculating salaries, and including pension contribution details.",
+      "Intent_v5": "Help me set up a way to easily calculate and display employee salaries, allowances, and pension contributions.",
+      "Referenced_v6": "Can you help me make the 'Additional Holiday Calculator' sheet easier to use by adding labels and calculations based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:0",
+      "Calculated component:1",
+      "Calculated component:0",
+      "Calculated component:20"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["C3:C5", "F3:F3"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Additional Holiday Calculator",
+        "ranges": {
+          "Cells": ["B3:F4", "F18:F18"]
+        }
+      },
+      {
+        "sheet": "Lookups",
+        "ranges": {
+          "Cells": ["E2:E2"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "00eda97c382ab6ce86296aaf965d907f2110574d_path_0.xlsx",
+    "File": "00eda97c382ab6ce86296aaf965d907f2110574d.xlsx",
+    "Size": 23,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me create a professional invoice with company details, itemized amounts, and a total calculation? The item amounts are calculated using the formula =E18*F18+(E18*F18*G18) across cells H18:H23. The total amount is calculated using =SUM(H18:H23) in cell F27.",
+      "Baseline_v2": "Can you update the invoice template to include company details at the top, add invoice number, date, and due date fields, and calculate the total amount for each item and the overall total?",
+      "CoT_v3": "Create a detailed invoice with a header, items table with calculated amounts and a total, and notes at the bottom.",
+      "Action_v4": "Update the invoice template to include company details, invoice information, and calculate item totals and the overall total.",
+      "Intent_v5": "Help me create a detailed invoice with company info, item amounts, and a total due.",
+      "Referenced_v6": "Can you help me turn this into a professional invoice with my company details at the top, itemized amounts for each product, and a total sum at the bottom based on the selected range?"
+    },
+    "Mappings": ["Calculated component:0", "Calculated component:1"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["E18:H23"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["H17:H23", "F26:H27", "H11:H14", "H2:H6", "H32:H32", "H9:H9", "B27:D27"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0103e2d78122162bf372909aa0fe67a1e4bba810_path_0.xlsx",
+    "File": "0103e2d78122162bf372909aa0fe67a1e4bba810.xlsx",
+    "Size": 27,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me add more details and calculations to the form to make it more comprehensive? The flow rates Q (ranging from 0.1Q_max to 1.5Q_max) are used to calculate system pressure drops using Q\u00b2R formulas for both upstream (R_up) and downstream (R_dn) components across ranges D14:D29 and F14:F29. Final pressures P1 and P2 are determined using P1 = C9 - Q\u00b2R_up + K38 and P2 = C10 + Q\u00b2*R_dn - K39 respectively.",
+      "Baseline_v2": "Add a new column 'D' to the 'APPENDIX 1' sheet, including additional details such as 'FIN/NRIC NO.', 'Provide values for each of the relevant year(s) on calendar year basis', 'Year of Cessation', and specific date formats for 'From' and 'To' periods. Also, calculate the number of days the premises were occupied and the value of furniture and fittings based on the furnishing status.",
+      "CoT_v3": "Add and populate column D with values, headers, notes, and formulas.",
+      "Action_v4": "Add a new column D with headers and values, and include formulas for date and furniture value calculations.",
+      "Intent_v5": "Can you help me add more details and calculations to the form to make it more comprehensive?",
+      "Referenced_v6": "Can you help me add a new column to this sheet to include extra details like identification numbers and year-specific values, and also calculate the number of days occupied and the value of furniture and fittings based on the selected range?"
+    },
+    "Mappings": ["Calculated component:2", "Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "APPENDIX 1",
+        "ranges": {
+          "Cells": ["D17:D18", "D25:D26", "D12:D13"]
+        }
+      },
+      {
+        "sheet": "Formula",
+        "ranges": {
+          "Cells": ["A2:A2"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "APPENDIX 1",
+        "ranges": {
+          "Cells": ["B19:D19", "D25:D27", "D12:D14", "D6:D7", "D1:D4"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0103e2d78122162bf372909aa0fe67a1e4bba810_path_1.xlsx",
+    "File": "0103e2d78122162bf372909aa0fe67a1e4bba810.xlsx",
+    "Size": 27,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me add a new column with specific values and calculations to the existing data? The new column includes headers and notes such as 'Provide values for each of the relevant year(s) on calendar year basis' and 'Year Prior to Year of Cessation.' Formulas are used to calculate the number of days between two dates and to apply conditional calculations based on other cell values. Example formulas include `=IFERROR(E13-E12+1,'-')` and `=IF('APPENDIX 1'!E18=Formula!A2,E17*0.4,E17*0.5)`.",
+      "Baseline_v2": "Please add a new column to the 'APPENDIX 1' sheet to include additional information and calculations for each place of residence, such as the number of days the premises were occupied and the value of furniture and fittings. Ensure the new column includes formulas to automatically calculate these values based on the provided data.",
+      "CoT_v3": "Add new columns with specific text and formulas, and ensure proper formatting.",
+      "Action_v4": "Add new columns with headers, populate them with values, and insert formulas for automation.",
+      "Intent_v5": "Can you help me add more details and calculations to the form to make it more comprehensive?",
+      "Referenced_v6": "Can you help me add a new column to this sheet that includes instructions, dates, and calculations to make it easier to fill out?"
+    },
+    "Mappings": ["Calculated component:3", "Calculated component:1"],
+    "Selected Cells": [
+      {
+        "sheet": "APPENDIX 1",
+        "ranges": {
+          "Cells": ["E17:E18", "E12:E13", "E25:E26"]
+        }
+      },
+      {
+        "sheet": "Formula",
+        "ranges": {
+          "Cells": ["A2:A2"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "APPENDIX 1",
+        "ranges": {
+          "Cells": ["E25:E27", "E19:E19", "E6:E7", "E1:E3", "E12:E14"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0103e2d78122162bf372909aa0fe67a1e4bba810_path_2.xlsx",
+    "File": "0103e2d78122162bf372909aa0fe67a1e4bba810.xlsx",
+    "Size": 27,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "=MAX((args_1+args_2+args_3+args_4),0) for cells D56 and E56.'",
+      "Baseline_v2": "Please update the 'APPENDIX 1' sheet to include additional columns for calculations, populate the new columns with the appropriate formulas, and ensure all relevant values are calculated and displayed correctly.",
+      "CoT_v3": "Expand the worksheet by adding columns D and E, and include formulas and placeholders for calculated values.",
+      "Action_v4": "Add columns D and E, insert formulas, populate cells with calculated values, and display total taxable values and benefits-in-kind.",
+      "Intent_v5": "Can you help me add columns to show calculated financial values based on existing data and conditions?",
+      "Referenced_v6": "Can you help me add two new columns to this sheet and fill them with specific values and calculations based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:6",
+      "Calculated component:8",
+      "Calculated component:7",
+      "Calculated component:9",
+      "Calculated component:3",
+      "Calculated component:5",
+      "Calculated component:2",
+      "Calculated component:4",
+      "Calculated component:10",
+      "Calculated component:11",
+      "Calculated component:12",
+      "Calculated component:13"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "APPENDIX 1",
+        "ranges": {
+          "Cells": ["D28:E39", "D15:E21", "D44:E54", "D41:E41"]
+        }
+      },
+      {
+        "sheet": "Formula",
+        "ranges": {
+          "Cells": ["A2:A2", "A5:A5"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "APPENDIX 1",
+        "ranges": {
+          "Cells": ["B32:E32", "D34:E35", "D25:E26", "B19:E19", "D21:E21", "A35:A35", "A39:E39", "A54:E54", "A56:E56"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011d5c8eacd7881835a9a8742275cc2f83c57150_path_0.xlsx",
+    "File": "011d5c8eacd7881835a9a8742275cc2f83c57150.xlsx",
+    "Size": 45,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me figure out the annual cost for different types of disability accommodations based on various factors like building type, design category, and location? The building type and number of residents are used to determine the base price using conditional lookups in the base price tables for new builds and legacy stock. Additional factors like design category, occupancy status, and location are applied to calculate the final price.",
+      "Baseline_v2": "Please create a user-friendly SDA Price Calculator by adding dropdown menus for 'Building Type', 'Design Category', 'Location', and 'Fire Sprinklers' in the 'Results' sheet. Ensure that the 'Base Price' and 'Base Price + breakout room' are calculated based on the selected options.",
+      "CoT_v3": "Calculate base price and additional costs, determine location factor, and compute final SDA price and expected annual income.",
+      "Action_v4": "Calculate and display the SDA price per participant per year based on selected building type, number of residents, design category, and location.",
+      "Intent_v5": "Help me calculate the cost for different disability accommodations based on building type, design, and location.",
+      "Referenced_v6": "Can you help me calculate the base price and expected annual income for a specific building type and number of residents based on the selected design category and location?"
+    },
+    "Mappings": ["Calculated component:1", "Calculated component:2", "Calculated component:3"],
+    "Selected Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": ["H12:H12", "K10:K10", "H14:H14"]
+        }
+      },
+      {
+        "sheet": "Base Prices",
+        "ranges": {
+          "Cells": ["C1:F101"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": [
+            "K12:K12",
+            "G12:H14",
+            "C12:C12",
+            "H22:H22",
+            "H28:H28",
+            "H32:H32",
+            "H4:H6",
+            "H18:H18",
+            "C14:C14",
+            "H16:H16",
+            "K14:K14"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011d5c8eacd7881835a9a8742275cc2f83c57150_path_1.xlsx",
+    "File": "011d5c8eacd7881835a9a8742275cc2f83c57150.xlsx",
+    "Size": 45,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me calculate the cost of providing specialist disability accommodation based on building type, design category, and location? The base price is determined using conditional lookups based on building type and number of residents. The final SDA price is calculated by applying location factors and additional costs for features like breakout room and OOA. Expected annual income is then calculated based on the final SDA price.",
+      "Baseline_v2": "Can you update the 'Results' sheet to include calculated values for 'Building Type', 'Number of residents at full occupancy', 'Design Category', 'Base Price', 'Base Price + breakout room (if applicable)', and 'Location' based on the data from the 'Base Prices' and 'Location Factors' sheets?",
+      "CoT_v3": "Update the 'Results' sheet to include specific building type, number of residents, design category, and location, and ensure it has calculated values for base price and base price with breakout room.",
+      "Action_v4": "Select building type, residents, design category, breakout room, OOA, location, and fire sprinklers. Calculate base price, SDA price, and expected income. Enter RRC and occupancy rate.",
+      "Intent_v5": "Help me calculate the annual cost for different types of disability accommodations based on various factors.",
+      "Referenced_v6": "Can you help me add details about the building type, number of residents, design category, base price, location, and fire sprinklers for the selected range to understand the pricing structure better?"
+    },
+    "Mappings": ["Calculated component:1", "Calculated component:2", "Calculated component:5"],
+    "Selected Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": ["H12:H12", "K10:K10", "H10:H10", "H16:H16"]
+        }
+      },
+      {
+        "sheet": "Base Prices",
+        "ranges": {
+          "Cells": ["C1:F101"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": [
+            "K12:K12",
+            "G12:H14",
+            "C12:C12",
+            "H22:H22",
+            "H28:H28",
+            "H32:H32",
+            "H4:H6",
+            "H16:H18",
+            "C14:C14",
+            "Q17:Q17"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011d5c8eacd7881835a9a8742275cc2f83c57150_path_2.xlsx",
+    "File": "011d5c8eacd7881835a9a8742275cc2f83c57150.xlsx",
+    "Size": 45,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you show me how much it costs per year for different types of disability accommodations? The base prices are determined using conditional lookups based on building type and number of residents. The final price per participant per year is calculated by applying design category and location factors.",
+      "Baseline_v2": "Please update the 'Results' sheet to include dropdowns for 'Building Type', 'Design Category', 'Location', and 'Fire Sprinklers', and ensure the 'Base Price' and 'Base Price + breakout room' are calculated based on these selections.",
+      "CoT_v3": "Update fields to match the final state.",
+      "Action_v4": "Calculate the SDA price based on building type, number of residents, design category, OOA, location, and fire sprinklers.",
+      "Intent_v5": "Help me set up a price calculator for Specialist Disability Accommodation with dropdowns for building type, design category, location, and fire sprinklers, and calculate prices and expected income.",
+      "Referenced_v6": "Can you help me calculate the SDA price based on the building type, number of residents, design category, and location for the selected range?"
+    },
+    "Mappings": ["Calculated component:1", "Calculated component:2", "Calculated component:6"],
+    "Selected Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": ["H12:H12", "K10:K10", "H18:H18"]
+        }
+      },
+      {
+        "sheet": "Base Prices",
+        "ranges": {
+          "Cells": ["C1:F101"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": [
+            "K12:K12",
+            "G12:H14",
+            "C12:C12",
+            "H22:H22",
+            "H28:H28",
+            "H32:H32",
+            "H4:H6",
+            "H18:H18",
+            "C14:C14",
+            "H16:H16",
+            "K17:K17"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011d5c8eacd7881835a9a8742275cc2f83c57150_path_3.xlsx",
+    "File": "011d5c8eacd7881835a9a8742275cc2f83c57150.xlsx",
+    "Size": 45,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you help me figure out the yearly cost for various disability accommodations based on different factors? The formulas use various arguments to look up values and calculate costs. Example: '=IFERROR(IF(OR(args_1=1, args_2=2), VLOOKUP(args_3, args_4, 3, 0), VLOOKUP(args_5, args_6, 3, 0)), 100)'. Arguments map to variables like building type, number of residents, design category, and location. Dependencies include base prices, location factors, and additional costs for breakout rooms. Ranges like 'Base Prices'!C23:E33 and 'Location Factors'!C6:M93 are used for lookups.",
+      "Baseline_v2": "Please update the 'Results' sheet to include dropdowns for 'Building Type', 'Design Category', 'With or without On-site Overnight Assistance (OOA)', and 'Location'. Also, add calculated fields for 'Base Price', 'Base Price + breakout room (if applicable)', and 'SDA Price ($ 2020/21)' based on the selections made in the dropdowns.",
+      "CoT_v3": "Add new rows for building type, residents, design category, OOA, base price, location, fire sprinklers, SDA price, RRC, and occupancy rate, and add formulas for calculations.",
+      "Action_v4": "Make the SDA Price Calculator user-friendly and accurate by filling all fields, selecting building type, design category, and location, and calculating the final price correctly.",
+      "Intent_v5": "Can you help me add details about the building type, number of residents, design category, OOA, and location to the existing data?",
+      "Referenced_v6": "Can you help me figure out the yearly cost for a specific type of disability accommodation based on the building type, number of residents, design category, location, and other factors?"
+    },
+    "Mappings": [
+      "Calculated component:1",
+      "Calculated component:2",
+      "Calculated component:8",
+      "Calculated component:7"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": ["H12:H12", "K10:K10", "H16:H16", "H18:H19"]
+        }
+      },
+      {
+        "sheet": "Base Prices",
+        "ranges": {
+          "Cells": ["C1:F101"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": [
+            "K12:K12",
+            "G12:H14",
+            "C12:C12",
+            "H22:H22",
+            "H28:H28",
+            "H32:H32",
+            "H4:H6",
+            "G18:H19",
+            "C14:C14",
+            "H16:H16",
+            "C18:C18",
+            "K18:K18",
+            "Q18:Q18"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "011d5c8eacd7881835a9a8742275cc2f83c57150_path_4.xlsx",
+    "File": "011d5c8eacd7881835a9a8742275cc2f83c57150.xlsx",
+    "Size": 45,
+    "Path": "path_4",
+    "NL_generation": {
+      "Technical_v1": "Can you help me calculate the annual price for a specific type of disability accommodation based on various factors? The building type and number of residents are identified using a lookup formula. The design category and occupancy status are selected from predefined options. The base price is calculated using a lookup formula based on the building type and number of residents. The location and fire sprinkler status are selected from predefined options. The final price is calculated using a combination of lookup formulas and conditional statements.",
+      "Baseline_v2": "Please create a user-friendly SDA Price Calculator by adding dropdown menus for 'Building Type', 'Design Category', 'Location', and 'Fire Sprinklers' in the 'Results' sheet. Ensure that the 'Base Price' and 'Base Price + breakout room' are calculated based on the selected options and displayed accordingly.",
+      "CoT_v3": "Update the 'Building Type', 'Number of residents at full occupancy', 'Design Category', and 'Location' fields. Ensure all calculated fields and additional settings fields are updated correctly. Update the 'Last updated on' field.",
+      "Action_v4": "Make the SDA Price Calculator more user-friendly by adding dropdowns for inputs and calculated values for prices and occupancy.",
+      "Intent_v5": "Can you update the SDA Price Calculator to show prices for an apartment with one resident, improved liveability, in a median capital city?",
+      "Referenced_v6": "Can you help me update the selected cells to show the correct building type, number of residents, design category, and location, and ensure the calculated values for base price and other related fields are accurate based on these selections?"
+    },
+    "Mappings": ["Calculated component:1", "Calculated component:2", "Calculated component:10"],
+    "Selected Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": ["H12:H12", "K10:K10", "H16:H16", "H22:H22"]
+        }
+      },
+      {
+        "sheet": "Base Prices",
+        "ranges": {
+          "Cells": ["C1:F101"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Results",
+        "ranges": {
+          "Cells": [
+            "K12:K12",
+            "G12:H14",
+            "C12:C12",
+            "H22:H23",
+            "H28:H28",
+            "H32:H32",
+            "H4:H6",
+            "H18:H18",
+            "C14:C14",
+            "H16:H16"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0130759f3719f36fa8e2e47dc01b3772adcbb21d_path_0.xlsx",
+    "File": "0130759f3719f36fa8e2e47dc01b3772adcbb21d.xlsx",
+    "Size": 31,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of visitors for each month and year? The total number of visitors for each month and year is calculated using the SUM formula. The monthly totals are summed across rows B5:M34, and the yearly totals are summed down columns N5:N34.",
+      "Baseline_v2": "Can you add a 'Total' column to the 'Arrival T&T 2014-2021' sheet that sums up the monthly visitor arrivals for each year and include a 'TOTAL' row that sums up the visitor arrivals for Trinidad and Tobago for each month and year?",
+      "CoT_v3": "Summarize data in Sheet 1 with a 'Total' column and row.",
+      "Action_v4": "Add a 'Total' column and a 'TOTAL' row to the visitor arrival data to sum up the arrivals for each year and region.",
+      "Intent_v5": "Can you show me the total number of visitors for each month and year?",
+      "Referenced_v6": "Can you show the total number of visitors for each year and month, and also the combined total for Trinidad and Tobago based on the selected range?"
+    },
+    "Mappings": ["Calculated component:8", "Calculated component:0"],
+    "Selected Cells": [
+      {
+        "sheet": "Arrival T&T 2014-2021",
+        "ranges": {
+          "Cells": ["B25:M26", "B5:N6", "B13:M14", "B21:M22", "B33:M34", "B9:M10", "B17:M18", "B29:M30"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Arrival T&T 2014-2021",
+        "ranges": {
+          "Cells": ["N25:N26", "A5:N7", "N13:N14", "N21:N22", "N33:N34", "N3:N3", "N9:N10", "N17:N18", "N29:N30"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0130759f3719f36fa8e2e47dc01b3772adcbb21d_path_10.xlsx",
+    "File": "0130759f3719f36fa8e2e47dc01b3772adcbb21d.xlsx",
+    "Size": 31,
+    "Path": "path_10",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of visitors for each region and the overall total? The total number of visitors for each region is calculated by summing the monthly visitor numbers across columns B to M. The overall total number of visitors is calculated by summing the total visitors for each region.",
+      "Baseline_v2": "Can you add a 'Total' column to the 'Arrival by Region 2014 -2021' sheet that sums up the monthly visitor arrivals for each region and also include a 'Total' row that sums up the annual totals for each year?",
+      "CoT_v3": "Add totals for each region in Sheet 3 and keep Sheets 1 and 2 unchanged.",
+      "Action_v4": "Add a 'Total' column to the visitor arrival data and calculate the sum for each region and overall total.",
+      "Intent_v5": "Can you show me the total number of visitors for each region, each month, and the overall total for each year?",
+      "Referenced_v6": "Can you show the total number of visitors for each region and each month, and also the overall total based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:15",
+      "Calculated component:13",
+      "Calculated component:31",
+      "Calculated component:10",
+      "Calculated component:14",
+      "Calculated component:16"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["B19:N27", "B115:N123", "B52:M52", "B91:M91", "B3:M8", "B99:M99", "B36:M36"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["A19:N28", "N115:N124", "N52:N52", "N91:N91", "N2:N8", "N99:N99", "N36:N36"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0130759f3719f36fa8e2e47dc01b3772adcbb21d_path_11.xlsx",
+    "File": "0130759f3719f36fa8e2e47dc01b3772adcbb21d.xlsx",
+    "Size": 31,
+    "Path": "path_11",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of visitors arriving in each region and the overall total for all regions? The total arrivals for each region are calculated by summing up the monthly arrivals for each region. The overall total arrivals for all regions are calculated by summing up the total arrivals of each region. Formula Template: '=SUM(args_1)'. Example: {'N115': '=SUM(B115:M115)'}",
+      "Baseline_v2": "Can you add a 'Total' column to the 'Arrival by Region 2014 -2021' sheet that sums up the monthly visitor arrivals for each region and also include a 'Total' row at the bottom that sums up the total arrivals for each month and the overall total?",
+      "CoT_v3": "Add a 'Total' column and row to the 'Arrival by Region 2014 -2021' sheet, and calculate yearly and monthly visitor arrivals for each region and across all regions, respectively.",
+      "Action_v4": "Add a 'Total' column and row to analyze yearly and monthly visitor arrivals for each region.",
+      "Intent_v5": "Can you show me the total number of visitors for each region and the overall total for each year?",
+      "Referenced_v6": "Can you show the total number of visitors for each region and each month based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:31",
+      "Calculated component:10",
+      "Calculated component:19",
+      "Calculated component:17",
+      "Calculated component:18",
+      "Calculated component:20"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["B115:N123", "B52:M52", "B91:M91", "B3:M8", "B99:M99", "B20:M20", "B35:N43"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["N115:N124", "N52:N52", "N91:N91", "N2:N8", "N99:N99", "N20:N20", "A35:N44"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0130759f3719f36fa8e2e47dc01b3772adcbb21d_path_12.xlsx",
+    "File": "0130759f3719f36fa8e2e47dc01b3772adcbb21d.xlsx",
+    "Size": 31,
+    "Path": "path_12",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of visitors for each region and each month? The total number of visitors for each region is calculated using the sum of visitor counts across months (N3:N124). The total number of visitors for each month is calculated using the sum of visitor counts across regions (B60:N60).",
+      "Baseline_v2": "Can you add a 'Total' column to the 'Arrival by Region 2014 -2021' sheet that sums up the monthly visitor arrivals for each region and also include a 'Total' row at the bottom that sums up the total arrivals for each month and the overall total?",
+      "CoT_v3": "Add a 'Total' column and row to the 'Arrival by Region 2014 -2021' sheet.",
+      "Action_v4": "Add a 'Total' column to the visitor arrival data and calculate the total arrivals for each region and overall.",
+      "Intent_v5": "Can you show me the total number of visitors for each region and month?",
+      "Referenced_v6": "Can you show the total number of visitors for each region and each month based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:31",
+      "Calculated component:10",
+      "Calculated component:23",
+      "Calculated component:22",
+      "Calculated component:21",
+      "Calculated component:24"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["B115:N123", "B51:N59", "B91:M91", "B3:M8", "B99:M99", "B20:M20", "B36:M36"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["N115:N124", "A51:N60", "N91:N91", "N2:N8", "N99:N99", "N20:N20", "N36:N36"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0130759f3719f36fa8e2e47dc01b3772adcbb21d_path_13.xlsx",
+    "File": "0130759f3719f36fa8e2e47dc01b3772adcbb21d.xlsx",
+    "Size": 31,
+    "Path": "path_13",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of visitors for each region and each month? The total number of visitors for each region from January to December is calculated using the formula =SUM(B67:M67) over the range N67:N75. The total number of visitors for each month across all regions is calculated using the formula =SUM(B67:B75) over the range B76:N76.",
+      "Baseline_v2": "Can you combine the data from the three sheets into a single sheet, adding a 'Total' row at the bottom that sums up the values for each month and year?",
+      "CoT_v3": "Calculate and display the total number of visitors for each region and month for each year.",
+      "Action_v4": "Summarize visitor arrivals by region and calculate total arrivals for each year.",
+      "Intent_v5": "Can you show me the total number of visitors for each region and each month?",
+      "Referenced_v6": "Can you show me the total number of visitors for each region and each month for this selected range?"
+    },
+    "Mappings": ["Calculated component:25", "Calculated component:26"],
+    "Selected Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["B67:N75"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["A67:N76"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0130759f3719f36fa8e2e47dc01b3772adcbb21d_path_14.xlsx",
+    "File": "0130759f3719f36fa8e2e47dc01b3772adcbb21d.xlsx",
+    "Size": 31,
+    "Path": "path_14",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of visitors for each region and the overall total for each month and year? The total number of visitors for each region is calculated by summing up the monthly visitor numbers. The overall total for each month is calculated by summing up the visitor numbers across all regions. The overall total for each year is calculated by summing up the monthly totals.",
+      "Baseline_v2": "Please add a 'Total' column to the 'Arrival by Region 2014 -2021' sheet that sums up the monthly visitor arrivals for each region and also include a 'Total' row at the bottom that sums up the total arrivals for each month and the overall total.",
+      "CoT_v3": "Calculate total visitor arrivals for each region, month, and overall in the 'Arrival by Region 2014 -2021' sheet.",
+      "Action_v4": "Add a 'Total' column and calculate the sum of visitor arrivals for each region, month, and year.",
+      "Intent_v5": "Can you show me the total number of visitors for each region and month, and the overall total?",
+      "Referenced_v6": "Can you show the total number of visitors for each region and the overall total for each year and month based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:31",
+      "Calculated component:10",
+      "Calculated component:27",
+      "Calculated component:28"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["B115:N123", "B52:M52", "B83:N91", "B3:M8", "B99:M99", "B20:M20", "B36:M36"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["N115:N124", "N52:N52", "A83:N92", "N2:N8", "N99:N99", "N20:N20", "N36:N36"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0130759f3719f36fa8e2e47dc01b3772adcbb21d_path_15.xlsx",
+    "File": "0130759f3719f36fa8e2e47dc01b3772adcbb21d.xlsx",
+    "Size": 31,
+    "Path": "path_15",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of visitors for each region, month, and year? The total number of visitors for each region is calculated using the formula =SUM(B3:M3) and applied over the range N3:N124. The total number of visitors for each month is calculated using the formula =SUM(B99:B107) and applied over the range B108:N108. The total number of visitors for each year is calculated using the formula =SUM(B115:M115) and applied over the range N115:N122.",
+      "Baseline_v2": "Can you add a 'Total' column to the 'Arrival by Region 2014 -2021' sheet that sums up the monthly visitor arrivals for each region and also include a 'Total' row that sums up the visitor arrivals for each month and the entire year?",
+      "CoT_v3": "Add a 'Total' column and row to the 'Arrival by Region 2014 -2021' sheet.",
+      "Action_v4": "Add a 'Total' column to the visitor arrival data and calculate the sum for each region and overall total.",
+      "Intent_v5": "Can you show me the total number of visitors for each region and each month?",
+      "Referenced_v6": "Can you show me the total number of visitors for each region and the overall total based on the selected range of cells?"
+    },
+    "Mappings": [
+      "Calculated component:29",
+      "Calculated component:31",
+      "Calculated component:10",
+      "Calculated component:30"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["B99:N107", "B115:N123", "B52:M52", "B91:M91", "B3:M8", "B20:M20", "B36:M36"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["A99:N108", "N115:N124", "N52:N52", "N91:N91", "N2:N8", "N20:N20", "N36:N36"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0130759f3719f36fa8e2e47dc01b3772adcbb21d_path_9.xlsx",
+    "File": "0130759f3719f36fa8e2e47dc01b3772adcbb21d.xlsx",
+    "Size": 31,
+    "Path": "path_9",
+    "NL_generation": {
+      "Technical_v1": "Can you show me the total number of visitors for each region and year? The total number of visitors for each region is calculated by summing up the monthly visitor numbers. The formula used is '=SUM(args_1)' where args_1 represents the range of monthly visitor numbers. Example: For North America in 2014, the total is calculated as '=SUM(B3:M3)' and displayed in cell N3.",
+      "Baseline_v2": "Please add a 'Total' column to the 'Arrival by Region 2014-2021' sheet that sums up the monthly visitor arrivals for each region and also add a 'Total' row at the bottom that sums up the visitor arrivals for each month and the entire year.",
+      "CoT_v3": "Add a column for yearly totals per region, a row for monthly totals across regions, and a row for yearly overall totals.",
+      "Action_v4": "Add a 'Total' column and calculate the sum of visitors for each region and each year.",
+      "Intent_v5": "Can you show me the total number of visitors for each year along with the monthly data?",
+      "Referenced_v6": "Can you show the total number of visitors for each region and year based on the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:31",
+      "Calculated component:10",
+      "Calculated component:11",
+      "Calculated component:12"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": ["B115:N123", "B52:M52", "B91:M91", "B3:N11", "B99:M99", "B20:M20", "B36:M36"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Arrival by Region 2014 -2021",
+        "ranges": {
+          "Cells": [
+            "N114:N124",
+            "N52:N52",
+            "N91:N91",
+            "A2:N12",
+            "N98:N99",
+            "N20:N20",
+            "N36:N36",
+            "N82:N82",
+            "N50:N50",
+            "N18:N18",
+            "N66:N66",
+            "N34:N34"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01587d1198a162c1780139ab75a2b169ccad70bc_path_1.xlsx",
+    "File": "01587d1198a162c1780139ab75a2b169ccad70bc.xlsx",
+    "Size": 14,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you show me how many numbers meet specific conditions and the formulas used for these calculations? The flow involves calculating the number of cells that meet specific conditions using COUNTIFS formulas and displaying the results and formulas in new columns. For example, the formula `=COUNTIFS(B6:B11, '>10', B6:B11, '<25')` is used to count numbers greater than 10 and less than 25, and the formula `=COUNTIFS(B6:B11, '<=25', C6:C11, 'red')` is used to count numbers less than or equal to 25 and red.",
+      "Baseline_v2": "Add columns to the table in Sheet 2 to display the results and formulas for specific COUNTIFS conditions.",
+      "CoT_v3": "Calculate COUNTIFS results for specified conditions and display the formulas used.",
+      "Action_v4": "Add columns for results and formulas, calculate and display results for specific conditions, and show the formulas used.",
+      "Intent_v5": "Can you show me how many numbers meet certain conditions and display the formulas used for these calculations?",
+      "Referenced_v6": "Can you show me how many numbers in the selected range meet specific conditions and also display the formulas used for these calculations?"
+    },
+    "Mappings": ["Calculated component:1", "Calculated component:3", "Calculated component:2"],
+    "Selected Cells": [
+      {
+        "sheet": "Excel COUNTIFS() Function",
+        "ranges": {
+          "Cells": ["B6:C11", "F6:F7"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Excel COUNTIFS() Function",
+        "ranges": {
+          "Cells": ["E5:G7", "C6:C7"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "0176c886da44733bbde82bc376f337ea97985fb5_path_0.xlsx",
+    "File": "0176c886da44733bbde82bc376f337ea97985fb5.xlsx",
+    "Size": 10,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me calculate the total compensation, hourly rate, and overtime rate based on the given inputs? The total compensation is calculated by summing the values from B3 to B9 and displaying it in B10. The hourly rate is calculated by dividing the total compensation in B10 by the average hours in B11 and rounding it to two decimal places, then displaying it in B12. The overtime rate is calculated by multiplying the hourly rate in B12 by the overtime factor in B13 and rounding it to two decimal places, then displaying it in B14.",
+      "Baseline_v2": "Please update the 'Overtime Compensation Factors' table by adding a 'Amounts' header in column B, and calculate the 'Total', 'Hourly Rate', and 'Overtime rate' using the provided formulas.",
+      "CoT_v3": "Add 'Amounts' header in B2 and calculate total, hourly rate, and overtime rate.",
+      "Action_v4": "Add 'Amounts' header and calculate total, hourly, and overtime rates based on compensation factors.",
+      "Intent_v5": "Can you help me see the total compensation and find out the hourly and overtime rates?",
+      "Referenced_v6": "Can you help me calculate and display the total, hourly, and overtime rates based on the compensation factors for this column?"
+    },
+    "Mappings": ["Calculated component:0", "Calculated component:1", "Calculated component:2"],
+    "Selected Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["B3:B13"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "Sheet1",
+        "ranges": {
+          "Cells": ["B2:B2", "B10:B10", "B12:B12", "B14:B14"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01af336f58db22a197f748c14b0fac52dbefc7e2_path_0.xlsx",
+    "File": "01af336f58db22a197f748c14b0fac52dbefc7e2.xlsx",
+    "Size": 17,
+    "Path": "path_0",
+    "NL_generation": {
+      "Technical_v1": "Can you help me calculate and show the late fees for GSTR 3B returns? The late days are calculated as the difference between today date and due date across ranges E3:E20. Conditional late days are determined using IF formula over ranges F3:F20. Late fees in CGST and SGST are calculated using MIN formula over ranges G3:G20 and H3:H20 respectively. Total late fees are summed up using addition formula over ranges I3:I20.",
+      "Baseline_v2": "Please add columns to calculate the late days, late fees in CGST, late fees in SGST, and the total late fees for each month in the 'regular return' sheet.",
+      "CoT_v3": "Add headers, calculate late days, fees, and total, and update footer with version info in Sheet 1.",
+      "Action_v4": "Add columns for late days and fees, and calculate and display them.",
+      "Intent_v5": "Can you help me calculate and show the late fees for each month based on how many days they are late?",
+      "Referenced_v6": "Can you help me calculate and show the late fees for each month based on the number of late days in the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:0",
+      "Calculated component:2",
+      "Calculated component:5",
+      "Calculated component:0",
+      "Calculated component:2",
+      "Calculated component:4",
+      "Calculated component:8"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "regular return",
+        "ranges": {
+          "Cells": ["C3:H20"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "regular return",
+        "ranges": {
+          "Cells": ["E1:I20", "H37:H37"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01af336f58db22a197f748c14b0fac52dbefc7e2_path_1.xlsx",
+    "File": "01af336f58db22a197f748c14b0fac52dbefc7e2.xlsx",
+    "Size": 17,
+    "Path": "path_1",
+    "NL_generation": {
+      "Technical_v1": "Can you help me find out the late fees for each month based on the due date and today's date? The late fees are calculated using the difference between the due date and today's date. If the difference is positive, it is used to calculate the late fees. The minimum late fee is determined for each month, and the total late fees are summed up and displayed in the respective columns.",
+      "Baseline_v2": "Please add a column to calculate the difference between the 'DUE DATE' and 'TODAY DATE' for each month in the 'regular return' sheet, and then compute the late fees based on this difference using the given formulas.",
+      "CoT_v3": "Summarize late fees for each month in the 'regular return' sheet and keep the 'nil returns' sheet unchanged.",
+      "Action_v4": "Calculate the difference between due date and today's date, then compute and display the late fees.",
+      "Intent_v5": "Can you help me calculate and show the late fees for each month based on the due dates and today's date?",
+      "Referenced_v6": "Can you help me calculate the late fees for each month based on the difference between the due date and today's date, and show the results in the selected range? The fees should be capped at a maximum value."
+    },
+    "Mappings": [
+      "Calculated component:1",
+      "Calculated component:3",
+      "Calculated component:6",
+      "Calculated component:1",
+      "Calculated component:3",
+      "Calculated component:7",
+      "Calculated component:9"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "regular return",
+        "ranges": {
+          "Cells": ["C21:H32"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "regular return",
+        "ranges": {
+          "Cells": ["E21:I32"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01af336f58db22a197f748c14b0fac52dbefc7e2_path_2.xlsx",
+    "File": "01af336f58db22a197f748c14b0fac52dbefc7e2.xlsx",
+    "Size": 17,
+    "Path": "path_2",
+    "NL_generation": {
+      "Technical_v1": "Can you help me calculate and show the late fees for nil returns, including the number of late days and the total fees? The late days are calculated as the difference between the due date and today date across ranges E3:E17 and E18:E20. The late days are validated using a conditional check for positive values across ranges F3:F17 and F18:F20. The CGST fees are calculated as the minimum of late days multiplied by 10 or 5000 across ranges G7:G20. The SGST fees are calculated as late days multiplied by 10 across ranges H7:H20. The total fees are determined by summing the CGST and SGST fees across ranges I14:I20.",
+      "Baseline_v2": "Please add columns for 'Late Days', 'Late Fees in CGST', 'Late Fees in SGST', and 'Total' to the 'nil returns' sheet, and calculate the values based on the provided dates and fees formulas.",
+      "CoT_v3": "Add and calculate late days, late fees in CGST, late fees in SGST, and total in the 'nil returns' sheet.",
+      "Action_v4": "Add columns for detailed late fee calculations and compute late days and fees.",
+      "Intent_v5": "Can you help me calculate and show the late fees for each month based on the number of late days?",
+      "Referenced_v6": "Can you help me calculate and show the late fees for each month based on the number of late days for the selected range?"
+    },
+    "Mappings": [
+      "Calculated component:11",
+      "Calculated component:13",
+      "Calculated component:10",
+      "Calculated component:12",
+      "Calculated component:14",
+      "Calculated component:11",
+      "Calculated component:13",
+      "Calculated component:10",
+      "Calculated component:12",
+      "Calculated component:16",
+      "Calculated component:18"
+    ],
+    "Selected Cells": [
+      {
+        "sheet": "nil returns",
+        "ranges": {
+          "Cells": ["C3:H20"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "nil returns",
+        "ranges": {
+          "Cells": ["E1:I20", "H36:H36"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "01af336f58db22a197f748c14b0fac52dbefc7e2_path_3.xlsx",
+    "File": "01af336f58db22a197f748c14b0fac52dbefc7e2.xlsx",
+    "Size": 17,
+    "Path": "path_3",
+    "NL_generation": {
+      "Technical_v1": "Can you help me calculate and display the late fees for each month from October 2017 to March 2020? The late fees for each month from October 2017 to March 2020 are calculated using the formula =MIN(F21*10,5000) over the range G21:G32. The multiplied late fee values are calculated using the formula =F21*10 over the range H21:H32. The final late fee values are determined using the formula =G21+H21 over the range I21:I32.",
+      "Baseline_v2": "Can you update the 'nil returns' sheet to calculate late fees for the months from April 2019 to March 2020 using the formulas provided, and ensure the 'regular return' sheet remains unchanged?",
+      "CoT_v3": "Add formulas to columns G, H, and I for rows 21 to 32.",
+      "Action_v4": "Calculate and display late fees for each month, including the minimum of late fees multiplied by 10 or 5000, late fees multiplied by 10, and their sum.",
+      "Intent_v5": "Can you help me set up automatic calculations for late fees based on specific rules for each month?",
+      "Referenced_v6": "Can you calculate and show the minimum of the value in this column multiplied by 10 or 5000, the value in this column multiplied by 10, and the sum of these two results for the selected range?"
+    },
+    "Mappings": ["Calculated component:15", "Calculated component:17", "Calculated component:19"],
+    "Selected Cells": [
+      {
+        "sheet": "nil returns",
+        "ranges": {
+          "Cells": ["F21:H32"]
+        }
+      }
+    ],
+    "Updated Cells": [
+      {
+        "sheet": "nil returns",
+        "ranges": {
+          "Cells": ["G21:I32"]
+        }
+      }
+    ]
+  }
+]

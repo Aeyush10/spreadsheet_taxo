@@ -1,0 +1,531 @@
+[
+  {
+    "range": {
+      "worksheetId": "{53C37923-69EC-4DD4-BD05-08807C306AFD}",
+      "top": 1,
+      "left": 1,
+      "bottom": 122,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{53C37923-69EC-4DD4-BD05-08807C306AFD}",
+          "top": 1,
+          "bottom": 122,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 121
+          }
+        ],
+        "headerNames": [
+          "\"Send At\"",
+          "\"Done At\"",
+          "\"\"",
+          "\"Date\"",
+          "\"Time\"",
+          "\"Duration\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "Send At",
+            "rawValueJson": "\"Send At\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Done At",
+            "rawValueJson": "\"Done At\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Time",
+            "rawValueJson": "\"Time\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Duration",
+            "rawValueJson": "\"Duration\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "01/09/2020 15:02:40",
+            "rawValueJson": "\"01/09/2020 15:02:40\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "01/09/2020 15:02:44",
+            "rawValueJson": "\"01/09/2020 15:02:44\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "1/9/2020",
+            "rawValueJson": "43839",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "3:02:40 PM",
+            "rawValueJson": "0.626851851855463",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "12:00:04 AM",
+            "rawValueJson": "0.0000462962925666943",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "01/09/2020 15:06:22",
+            "rawValueJson": "\"01/09/2020 15:06:22\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "01/09/2020 15:06:23",
+            "rawValueJson": "\"01/09/2020 15:06:23\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "1/9/2020",
+            "rawValueJson": "43839",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "3:06:22 PM",
+            "rawValueJson": "0.629421296296641",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "12:00:01 AM",
+            "rawValueJson": "0.0000115740767796524",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "01/09/2020 15:07:14",
+            "rawValueJson": "\"01/09/2020 15:07:14\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "01/09/2020 15:07:17",
+            "rawValueJson": "\"01/09/2020 15:07:17\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "1/9/2020",
+            "rawValueJson": "43839",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "3:07:14 PM",
+            "rawValueJson": "0.63002314815094",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "12:00:03 AM",
+            "rawValueJson": "0.0000347222230629995",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "01/09/2020 15:08:26",
+            "rawValueJson": "\"01/09/2020 15:08:26\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "01/09/2020 15:08:28",
+            "rawValueJson": "\"01/09/2020 15:08:28\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "1/9/2020",
+            "rawValueJson": "43839",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "3:08:26 PM",
+            "rawValueJson": "0.630856481482624",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "12:00:02 AM",
+            "rawValueJson": "0.0000231481462833472",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "01/09/2020 16:38:32",
+            "rawValueJson": "\"01/09/2020 16:38:32\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "01/09/2020 16:38:34",
+            "rawValueJson": "\"01/09/2020 16:38:34\"",
+            "numberFormat": "dd/mm/yyyy hh:mm:ss"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "1/9/2020",
+            "rawValueJson": "43839",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "4:38:32 PM",
+            "rawValueJson": "0.69342592592875",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "12:00:02 AM",
+            "rawValueJson": "0.0000231481462833472",
+            "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.96875,
+    "sheetName": "Data",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "Send At",
+          "rawValueJson": "\"Send At\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Done At",
+          "rawValueJson": "\"Done At\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Time",
+          "rawValueJson": "\"Time\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Duration",
+          "rawValueJson": "\"Duration\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "01/09/2020 15:02:40",
+          "rawValueJson": "\"01/09/2020 15:02:40\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "01/09/2020 15:02:44",
+          "rawValueJson": "\"01/09/2020 15:02:44\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "1/9/2020",
+          "rawValueJson": "43839",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "3:02:40 PM",
+          "rawValueJson": "0.626851851855463",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "12:00:04 AM",
+          "rawValueJson": "0.0000462962925666943",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "01/09/2020 15:06:22",
+          "rawValueJson": "\"01/09/2020 15:06:22\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "01/09/2020 15:06:23",
+          "rawValueJson": "\"01/09/2020 15:06:23\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "1/9/2020",
+          "rawValueJson": "43839",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "3:06:22 PM",
+          "rawValueJson": "0.629421296296641",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "12:00:01 AM",
+          "rawValueJson": "0.0000115740767796524",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "01/09/2020 15:07:14",
+          "rawValueJson": "\"01/09/2020 15:07:14\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "01/09/2020 15:07:17",
+          "rawValueJson": "\"01/09/2020 15:07:17\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "1/9/2020",
+          "rawValueJson": "43839",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "3:07:14 PM",
+          "rawValueJson": "0.63002314815094",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "12:00:03 AM",
+          "rawValueJson": "0.0000347222230629995",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "01/09/2020 15:08:26",
+          "rawValueJson": "\"01/09/2020 15:08:26\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "01/09/2020 15:08:28",
+          "rawValueJson": "\"01/09/2020 15:08:28\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "1/9/2020",
+          "rawValueJson": "43839",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "3:08:26 PM",
+          "rawValueJson": "0.630856481482624",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "12:00:02 AM",
+          "rawValueJson": "0.0000231481462833472",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "01/09/2020 16:38:32",
+          "rawValueJson": "\"01/09/2020 16:38:32\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "01/09/2020 16:38:34",
+          "rawValueJson": "\"01/09/2020 16:38:34\"",
+          "numberFormat": "dd/mm/yyyy hh:mm:ss"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "1/9/2020",
+          "rawValueJson": "43839",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "4:38:32 PM",
+          "rawValueJson": "0.69342592592875",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "12:00:02 AM",
+          "rawValueJson": "0.0000231481462833472",
+          "numberFormat": "[$-x-systime]h:mm:ss AM/PM"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "e7864158-8b3e-4721-ba8c-06dfe5510329",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

@@ -1,0 +1,674 @@
+[
+  {
+    "range": {
+      "worksheetId": "{7FFA8294-AA6E-45C9-A83C-0506D5911BF0}",
+      "top": 1,
+      "left": 1,
+      "bottom": 8,
+      "right": 19
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{7FFA8294-AA6E-45C9-A83C-0506D5911BF0}",
+          "top": 1,
+          "bottom": 8,
+          "left": 1,
+          "right": 19
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 7
+          }
+        ],
+        "headerNames": [
+          "\"s\"",
+          "\"employee name\"",
+          "\"unit\"",
+          "\"ben1\"",
+          "\"m1\"",
+          "\"ben2\"",
+          "\"del\"",
+          "\"m2\"",
+          "\"\"",
+          "\"\"",
+          "\"s\"",
+          "\"employee name\"",
+          "\"unit\"",
+          "\"ben1\"",
+          "\"m1\"",
+          "\"ben2\"",
+          "\"del\"",
+          "\"m2\"",
+          "\"total\""
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{7FFA8294-AA6E-45C9-A83C-0506D5911BF0}",
+          "top": 1,
+          "bottom": 8,
+          "left": 1,
+          "right": 19
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 4,
+            "end": 5
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9259259259259259,
+    "sheetName": "collection",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "s",
+          "rawValueJson": "\"s\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "employee name",
+          "rawValueJson": "\"employee name\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "unit",
+          "rawValueJson": "\"unit\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "ben1",
+          "rawValueJson": "\"ben1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "m1",
+          "rawValueJson": "\"m1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "ben2",
+          "rawValueJson": "\"ben2\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "del",
+          "rawValueJson": "\"del\"",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "m2",
+          "rawValueJson": "\"m2\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "s",
+          "rawValueJson": "\"s\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "employee name",
+          "rawValueJson": "\"employee name\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "unit",
+          "rawValueJson": "\"unit\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 1,
+          "column": 14,
+          "displayText": "ben1",
+          "rawValueJson": "\"ben1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 15,
+          "displayText": "m1",
+          "rawValueJson": "\"m1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 16,
+          "displayText": "ben2",
+          "rawValueJson": "\"ben2\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 17,
+          "displayText": "del",
+          "rawValueJson": "\"del\"",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 1,
+          "column": 18,
+          "displayText": "m2",
+          "rawValueJson": "\"m2\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 1,
+          "column": 19,
+          "displayText": "total",
+          "rawValueJson": "\"total\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "0"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "ali omar  mohammed ",
+          "rawValueJson": "\"ali omar  mohammed \"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "aa1-2",
+          "rawValueJson": "\"aa1-2\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "100.00",
+          "rawValueJson": "100",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "REF",
+          "rawValueJson": "\"REF\"",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "10.00",
+          "rawValueJson": "10",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "0"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "ali omar  mohammed ",
+          "rawValueJson": "\"ali omar  mohammed \"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "aa1-2",
+          "rawValueJson": "\"aa1-2\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 2,
+          "column": 14,
+          "displayText": "300",
+          "rawValueJson": "\"300\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "displayText": "-",
+          "rawValueJson": "\"-\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 16,
+          "displayText": "-",
+          "rawValueJson": "\"-\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 17,
+          "displayText": "REF",
+          "rawValueJson": "\"REF\"",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 2,
+          "column": 18,
+          "displayText": "20",
+          "rawValueJson": "\"20\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 2,
+          "column": 19,
+          "displayText": "320",
+          "rawValueJson": "\"320\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "0"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "omar ",
+          "rawValueJson": "\"omar \"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "aa1-3",
+          "rawValueJson": "\"aa1-3\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "100.00",
+          "rawValueJson": "100",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "200.00",
+          "rawValueJson": "200",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "RE1",
+          "rawValueJson": "\"RE1\"",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "0"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "0"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "ali omar  mohammed ",
+          "rawValueJson": "\"ali omar  mohammed \"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "aa1-2",
+          "rawValueJson": "\"aa1-2\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "200.00",
+          "rawValueJson": "200",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "REF",
+          "rawValueJson": "\"REF\"",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "10.00",
+          "rawValueJson": "10",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "omar ",
+          "rawValueJson": "\"omar \"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "aa1-3",
+          "rawValueJson": "\"aa1-3\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "300.00",
+          "rawValueJson": "300",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "100.00",
+          "rawValueJson": "100",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "10.00",
+          "rawValueJson": "10",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "RE1",
+          "rawValueJson": "\"RE1\"",
+          "numberFormat": "0.00"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "ali ahmed",
+          "rawValueJson": "\"ali ahmed\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "aa1-4",
+          "rawValueJson": "\"aa1-4\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "2280.00",
+          "rawValueJson": "2280",
+          "numberFormat": "0.00"
+        }
+      ]
+    },
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "f8fdfb62-1cdf-46bb-bd33-89f36f25bac6",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

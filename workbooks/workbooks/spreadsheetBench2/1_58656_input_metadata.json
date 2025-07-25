@@ -1,0 +1,4067 @@
+[
+  {
+    "range": {
+      "worksheetId": "{C4C7D7D5-32C8-4C0D-8A62-A11D4107C833}",
+      "top": 3,
+      "left": 1,
+      "bottom": 36,
+      "right": 11
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{C4C7D7D5-32C8-4C0D-8A62-A11D4107C833}",
+          "top": 3,
+          "bottom": 36,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 33
+          }
+        ],
+        "headerNames": [
+          "\"YEAR\"",
+          "\"MONTH\"",
+          "\"DAY\"",
+          "\"DATE\"",
+          "\"GMT\"",
+          "\"GMT+2\"",
+          "\"MOON\"",
+          "\"EQUINOX\"",
+          "\"DAYS\"",
+          "\"DAY\"",
+          "\"MONTH\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "YEAR",
+            "rawValueJson": "\"YEAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "MONTH",
+            "rawValueJson": "\"MONTH\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "DAY",
+            "rawValueJson": "\"DAY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "GMT",
+            "rawValueJson": "\"GMT\"",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "GMT+2",
+            "rawValueJson": "\"GMT+2\"",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "MOON",
+            "rawValueJson": "\"MOON\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "EQUINOX",
+            "rawValueJson": "\"EQUINOX\"",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "DAYS",
+            "rawValueJson": "\"DAYS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "DAY",
+            "rawValueJson": "\"DAY\"",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "MONTH",
+            "rawValueJson": "\"MONTH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "06 January 2021",
+            "rawValueJson": "44202",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "9:37",
+            "rawValueJson": "0.400694444444444",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "11:37",
+            "rawValueJson": "0.484027777777777",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "G",
+            "rawValueJson": "\"G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "13 January 2021",
+            "rawValueJson": "44209",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "5:00",
+            "rawValueJson": "0.208333333333333",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "7:00",
+            "rawValueJson": "0.291666666666666",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "n",
+            "rawValueJson": "\"n\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "20 January 2021",
+            "rawValueJson": "44216",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "21:02",
+            "rawValueJson": "0.876388888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "23:02",
+            "rawValueJson": "0.959722222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "T",
+            "rawValueJson": "\"T\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "28 January 2021",
+            "rawValueJson": "44224",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "19:16",
+            "rawValueJson": "0.802777777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "21:16",
+            "rawValueJson": "0.886111111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "M",
+            "rawValueJson": "\"M\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 7,
+            "column": 9,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 10,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "0"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "2",
+            "rawValueJson": "\"2\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "04 February 2021",
+            "rawValueJson": "44231",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "17:37",
+            "rawValueJson": "0.734027777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "19:37",
+            "rawValueJson": "0.817361111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "G",
+            "rawValueJson": "\"G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 8,
+            "column": 9,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 10,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "0"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{C4C7D7D5-32C8-4C0D-8A62-A11D4107C833}",
+          "top": 3,
+          "bottom": 36,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 3,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 2
+              },
+              {
+                "top": 3,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              },
+              {
+                "top": 4,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              },
+              {
+                "top": 5,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 2
+              },
+              {
+                "top": 6,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              },
+              {
+                "top": 7,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 1
+              },
+              {
+                "top": 8,
+                "left": 2
+              },
+              {
+                "top": 8,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 1
+              },
+              {
+                "top": 9,
+                "left": 2
+              },
+              {
+                "top": 9,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 1
+              },
+              {
+                "top": 10,
+                "left": 2
+              },
+              {
+                "top": 10,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 1
+              },
+              {
+                "top": 11,
+                "left": 2
+              },
+              {
+                "top": 11,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 1
+              },
+              {
+                "top": 12,
+                "left": 2
+              },
+              {
+                "top": 12,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 1
+              },
+              {
+                "top": 13,
+                "left": 2
+              },
+              {
+                "top": 13,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 1
+              },
+              {
+                "top": 14,
+                "left": 2
+              },
+              {
+                "top": 14,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 1
+              },
+              {
+                "top": 15,
+                "left": 2
+              },
+              {
+                "top": 15,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 1
+              },
+              {
+                "top": 16,
+                "left": 2
+              },
+              {
+                "top": 16,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 1
+              },
+              {
+                "top": 17,
+                "left": 2
+              },
+              {
+                "top": 17,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 18,
+                "left": 1
+              },
+              {
+                "top": 18,
+                "left": 2
+              },
+              {
+                "top": 18,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 19,
+                "left": 1
+              },
+              {
+                "top": 19,
+                "left": 2
+              },
+              {
+                "top": 19,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 20,
+                "left": 1
+              },
+              {
+                "top": 20,
+                "left": 2
+              },
+              {
+                "top": 20,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 21,
+                "left": 1
+              },
+              {
+                "top": 21,
+                "left": 2
+              },
+              {
+                "top": 21,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 22,
+                "left": 1
+              },
+              {
+                "top": 22,
+                "left": 2
+              },
+              {
+                "top": 22,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 23,
+                "left": 1
+              },
+              {
+                "top": 23,
+                "left": 2
+              },
+              {
+                "top": 23,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 24,
+                "left": 1
+              },
+              {
+                "top": 24,
+                "left": 2
+              },
+              {
+                "top": 24,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 25,
+                "left": 1
+              },
+              {
+                "top": 25,
+                "left": 2
+              },
+              {
+                "top": 25,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 26,
+                "left": 1
+              },
+              {
+                "top": 26,
+                "left": 2
+              },
+              {
+                "top": 26,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 27,
+                "left": 1
+              },
+              {
+                "top": 27,
+                "left": 2
+              },
+              {
+                "top": 27,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 28,
+                "left": 1
+              },
+              {
+                "top": 28,
+                "left": 2
+              },
+              {
+                "top": 28,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 29,
+                "left": 1
+              },
+              {
+                "top": 29,
+                "left": 2
+              },
+              {
+                "top": 29,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 30,
+                "left": 1
+              },
+              {
+                "top": 30,
+                "left": 2
+              },
+              {
+                "top": 30,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 31,
+                "left": 1
+              },
+              {
+                "top": 31,
+                "left": 2
+              },
+              {
+                "top": 31,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 32,
+                "left": 1
+              },
+              {
+                "top": 32,
+                "left": 2
+              },
+              {
+                "top": 32,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 33,
+                "left": 1
+              },
+              {
+                "top": 33,
+                "left": 2
+              },
+              {
+                "top": 33,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 34,
+                "left": 1
+              },
+              {
+                "top": 34,
+                "left": 2
+              },
+              {
+                "top": 34,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 35,
+                "left": 1
+              },
+              {
+                "top": 35,
+                "left": 2
+              },
+              {
+                "top": 35,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 36,
+                "left": 1
+              },
+              {
+                "top": 36,
+                "left": 2
+              },
+              {
+                "top": 36,
+                "left": 3
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "YEAR",
+            "rawValueJson": "\"YEAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "MONTH",
+            "rawValueJson": "\"MONTH\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "DAY",
+            "rawValueJson": "\"DAY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "GMT",
+            "rawValueJson": "\"GMT\"",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "GMT+2",
+            "rawValueJson": "\"GMT+2\"",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "06 January 2021",
+            "rawValueJson": "44202",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "9:37",
+            "rawValueJson": "0.400694444444444",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "11:37",
+            "rawValueJson": "0.484027777777777",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "13 January 2021",
+            "rawValueJson": "44209",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "5:00",
+            "rawValueJson": "0.208333333333333",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "7:00",
+            "rawValueJson": "0.291666666666666",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "20 January 2021",
+            "rawValueJson": "44216",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "21:02",
+            "rawValueJson": "0.876388888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "23:02",
+            "rawValueJson": "0.959722222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "28 January 2021",
+            "rawValueJson": "44224",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "19:16",
+            "rawValueJson": "0.802777777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "21:16",
+            "rawValueJson": "0.886111111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "2",
+            "rawValueJson": "\"2\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "04 February 2021",
+            "rawValueJson": "44231",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "17:37",
+            "rawValueJson": "0.734027777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "19:37",
+            "rawValueJson": "0.817361111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "2",
+            "rawValueJson": "\"2\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "11 February 2021",
+            "rawValueJson": "44238",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "19:06",
+            "rawValueJson": "0.795833333333333",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "21:06",
+            "rawValueJson": "0.879166666666666",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "2",
+            "rawValueJson": "\"2\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "19 February 2021",
+            "rawValueJson": "44246",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "18:47",
+            "rawValueJson": "0.782638888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "20:47",
+            "rawValueJson": "0.865972222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "2",
+            "rawValueJson": "\"2\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "27 February 2021",
+            "rawValueJson": "44254",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "8:17",
+            "rawValueJson": "0.345138888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "10:17",
+            "rawValueJson": "0.428472222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "3",
+            "rawValueJson": "\"3\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "06 March 2021",
+            "rawValueJson": "44261",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "1:30",
+            "rawValueJson": "0.0625",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "3:30",
+            "rawValueJson": "0.145833333333333",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "3",
+            "rawValueJson": "\"3\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "13 March 2021",
+            "rawValueJson": "44268",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "10:21",
+            "rawValueJson": "0.43125",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "12:21",
+            "rawValueJson": "0.514583333333333",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "3",
+            "rawValueJson": "\"3\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "21",
+            "rawValueJson": "21",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "21 March 2021",
+            "rawValueJson": "44276",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "14:40",
+            "rawValueJson": "0.611111111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "16:40",
+            "rawValueJson": "0.694444444444444",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "3",
+            "rawValueJson": "\"3\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "28 March 2021",
+            "rawValueJson": "44283",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "18:48",
+            "rawValueJson": "0.783333333333333",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "20:48",
+            "rawValueJson": "0.866666666666666",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "4",
+            "rawValueJson": "\"4\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "04 April 2021",
+            "rawValueJson": "44290",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "10:02",
+            "rawValueJson": "0.418055555555556",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "12:02",
+            "rawValueJson": "0.501388888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "4",
+            "rawValueJson": "\"4\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "12",
+            "rawValueJson": "12",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "12 April 2021",
+            "rawValueJson": "44298",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "2:31",
+            "rawValueJson": "0.104861111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 17,
+            "column": 6,
+            "displayText": "4:31",
+            "rawValueJson": "0.188194444444444",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "4",
+            "rawValueJson": "\"4\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 18,
+            "column": 3,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "20 April 2021",
+            "rawValueJson": "44306",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 18,
+            "column": 5,
+            "displayText": "6:59",
+            "rawValueJson": "0.290972222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 18,
+            "column": 6,
+            "displayText": "8:59",
+            "rawValueJson": "0.374305555555555",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "4",
+            "rawValueJson": "\"4\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "27",
+            "rawValueJson": "27",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "27 April 2021",
+            "rawValueJson": "44313",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "3:31",
+            "rawValueJson": "0.146527777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 19,
+            "column": 6,
+            "displayText": "5:31",
+            "rawValueJson": "0.229861111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "5",
+            "rawValueJson": "\"5\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "03 May 2021",
+            "rawValueJson": "44319",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "19:50",
+            "rawValueJson": "0.826388888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "21:50",
+            "rawValueJson": "0.909722222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 21,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "5",
+            "rawValueJson": "\"5\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "11 May 2021",
+            "rawValueJson": "44327",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "19:00",
+            "rawValueJson": "0.791666666666667",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": "21:00",
+            "rawValueJson": "0.875",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 22,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 2,
+            "displayText": "5",
+            "rawValueJson": "\"5\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 22,
+            "column": 3,
+            "displayText": "19",
+            "rawValueJson": "19",
+            "numberFormat": "General"
+          },
+          {
+            "row": 22,
+            "column": 4,
+            "displayText": "19 May 2021",
+            "rawValueJson": "44335",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 22,
+            "column": 5,
+            "displayText": "19:13",
+            "rawValueJson": "0.800694444444444",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 22,
+            "column": 6,
+            "displayText": "21:13",
+            "rawValueJson": "0.884027777777777",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 23,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 2,
+            "displayText": "5",
+            "rawValueJson": "\"5\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 23,
+            "column": 3,
+            "displayText": "26",
+            "rawValueJson": "26",
+            "numberFormat": "General"
+          },
+          {
+            "row": 23,
+            "column": 4,
+            "displayText": "26 May 2021",
+            "rawValueJson": "44342",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 23,
+            "column": 5,
+            "displayText": "11:14",
+            "rawValueJson": "0.468055555555556",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 23,
+            "column": 6,
+            "displayText": "13:14",
+            "rawValueJson": "0.551388888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 24,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 2,
+            "displayText": "6",
+            "rawValueJson": "\"6\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 24,
+            "column": 3,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 24,
+            "column": 4,
+            "displayText": "02 June 2021",
+            "rawValueJson": "44349",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 24,
+            "column": 5,
+            "displayText": "7:24",
+            "rawValueJson": "0.308333333333333",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 24,
+            "column": 6,
+            "displayText": "9:24",
+            "rawValueJson": "0.391666666666666",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 2,
+            "displayText": "6",
+            "rawValueJson": "\"6\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 25,
+            "column": 3,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 25,
+            "column": 4,
+            "displayText": "10 June 2021",
+            "rawValueJson": "44357",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 25,
+            "column": 5,
+            "displayText": "10:53",
+            "rawValueJson": "0.453472222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 25,
+            "column": 6,
+            "displayText": "12:53",
+            "rawValueJson": "0.536805555555555",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 26,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 2,
+            "displayText": "6",
+            "rawValueJson": "\"6\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 26,
+            "column": 3,
+            "displayText": "18",
+            "rawValueJson": "18",
+            "numberFormat": "General"
+          },
+          {
+            "row": 26,
+            "column": 4,
+            "displayText": "18 June 2021",
+            "rawValueJson": "44365",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 26,
+            "column": 5,
+            "displayText": "3:54",
+            "rawValueJson": "0.1625",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 26,
+            "column": 6,
+            "displayText": "5:54",
+            "rawValueJson": "0.245833333333333",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 27,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 2,
+            "displayText": "6",
+            "rawValueJson": "\"6\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 27,
+            "column": 3,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 27,
+            "column": 4,
+            "displayText": "24 June 2021",
+            "rawValueJson": "44371",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 27,
+            "column": 5,
+            "displayText": "18:40",
+            "rawValueJson": "0.777777777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 27,
+            "column": 6,
+            "displayText": "20:40",
+            "rawValueJson": "0.861111111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 28,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 2,
+            "displayText": "7",
+            "rawValueJson": "\"7\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 28,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 28,
+            "column": 4,
+            "displayText": "01 July 2021",
+            "rawValueJson": "44378",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 28,
+            "column": 5,
+            "displayText": "21:11",
+            "rawValueJson": "0.882638888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 28,
+            "column": 6,
+            "displayText": "23:11",
+            "rawValueJson": "0.965972222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 29,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 2,
+            "displayText": "7",
+            "rawValueJson": "\"7\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 29,
+            "column": 3,
+            "displayText": "10",
+            "rawValueJson": "10",
+            "numberFormat": "General"
+          },
+          {
+            "row": 29,
+            "column": 4,
+            "displayText": "10 July 2021",
+            "rawValueJson": "44387",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 29,
+            "column": 5,
+            "displayText": "1:17",
+            "rawValueJson": "0.0534722222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 29,
+            "column": 6,
+            "displayText": "3:17",
+            "rawValueJson": "0.136805555555556",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 30,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 2,
+            "displayText": "7",
+            "rawValueJson": "\"7\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 30,
+            "column": 3,
+            "displayText": "17",
+            "rawValueJson": "17",
+            "numberFormat": "General"
+          },
+          {
+            "row": 30,
+            "column": 4,
+            "displayText": "17 July 2021",
+            "rawValueJson": "44394",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 30,
+            "column": 5,
+            "displayText": "10:11",
+            "rawValueJson": "0.424305555555556",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 30,
+            "column": 6,
+            "displayText": "12:11",
+            "rawValueJson": "0.507638888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 31,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 2,
+            "displayText": "7",
+            "rawValueJson": "\"7\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 31,
+            "column": 3,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 31,
+            "column": 4,
+            "displayText": "24 July 2021",
+            "rawValueJson": "44401",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 31,
+            "column": 5,
+            "displayText": "2:37",
+            "rawValueJson": "0.109027777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 31,
+            "column": 6,
+            "displayText": "4:37",
+            "rawValueJson": "0.192361111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 32,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 2,
+            "displayText": "7",
+            "rawValueJson": "\"7\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 32,
+            "column": 3,
+            "displayText": "31",
+            "rawValueJson": "31",
+            "numberFormat": "General"
+          },
+          {
+            "row": 32,
+            "column": 4,
+            "displayText": "31 July 2021",
+            "rawValueJson": "44408",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 32,
+            "column": 5,
+            "displayText": "13:16",
+            "rawValueJson": "0.552777777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 32,
+            "column": 6,
+            "displayText": "15:16",
+            "rawValueJson": "0.636111111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 33,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 2,
+            "displayText": "8",
+            "rawValueJson": "\"8\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 33,
+            "column": 3,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 33,
+            "column": 4,
+            "displayText": "08 August 2021",
+            "rawValueJson": "44416",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 33,
+            "column": 5,
+            "displayText": "13:50",
+            "rawValueJson": "0.576388888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 33,
+            "column": 6,
+            "displayText": "15:50",
+            "rawValueJson": "0.659722222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 34,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 2,
+            "displayText": "8",
+            "rawValueJson": "\"8\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 34,
+            "column": 3,
+            "displayText": "15",
+            "rawValueJson": "15",
+            "numberFormat": "General"
+          },
+          {
+            "row": 34,
+            "column": 4,
+            "displayText": "15 August 2021",
+            "rawValueJson": "44423",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 34,
+            "column": 5,
+            "displayText": "15:20",
+            "rawValueJson": "0.638888888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 34,
+            "column": 6,
+            "displayText": "17:20",
+            "rawValueJson": "0.722222222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 35,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 2,
+            "displayText": "8",
+            "rawValueJson": "\"8\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 35,
+            "column": 3,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 35,
+            "column": 4,
+            "displayText": "22 August 2021",
+            "rawValueJson": "44430",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 35,
+            "column": 5,
+            "displayText": "12:02",
+            "rawValueJson": "0.501388888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 35,
+            "column": 6,
+            "displayText": "14:02",
+            "rawValueJson": "0.584722222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 36,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 2,
+            "displayText": "8",
+            "rawValueJson": "\"8\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 36,
+            "column": 3,
+            "displayText": "30",
+            "rawValueJson": "30",
+            "numberFormat": "General"
+          },
+          {
+            "row": 36,
+            "column": 4,
+            "displayText": "30 August 2021",
+            "rawValueJson": "44438",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 36,
+            "column": 5,
+            "displayText": "7:13",
+            "rawValueJson": "0.300694444444444",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 36,
+            "column": 6,
+            "displayText": "9:13",
+            "rawValueJson": "0.384027777777777",
+            "numberFormat": "h:mm;@"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.8888888888888888,
+    "sheetName": "EXAMPLE",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "YEAR",
+          "rawValueJson": "\"YEAR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "MONTH",
+          "rawValueJson": "\"MONTH\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "DAY",
+          "rawValueJson": "\"DAY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "GMT",
+          "rawValueJson": "\"GMT\"",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "GMT+2",
+          "rawValueJson": "\"GMT+2\"",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "MOON",
+          "rawValueJson": "\"MOON\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "EQUINOX",
+          "rawValueJson": "\"EQUINOX\"",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "DAYS",
+          "rawValueJson": "\"DAYS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "DAY",
+          "rawValueJson": "\"DAY\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "MONTH",
+          "rawValueJson": "\"MONTH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "06 January 2021",
+          "rawValueJson": "44202",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "9:37",
+          "rawValueJson": "0.400694444444444",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "11:37",
+          "rawValueJson": "0.484027777777777",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "G",
+          "rawValueJson": "\"G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "13",
+          "rawValueJson": "13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "13 January 2021",
+          "rawValueJson": "44209",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "5:00",
+          "rawValueJson": "0.208333333333333",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "7:00",
+          "rawValueJson": "0.291666666666666",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "n",
+          "rawValueJson": "\"n\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "20",
+          "rawValueJson": "20",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "20 January 2021",
+          "rawValueJson": "44216",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "21:02",
+          "rawValueJson": "0.876388888888889",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "23:02",
+          "rawValueJson": "0.959722222222222",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "T",
+          "rawValueJson": "\"T\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "0"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "28",
+          "rawValueJson": "28",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "28 January 2021",
+          "rawValueJson": "44224",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "19:16",
+          "rawValueJson": "0.802777777777778",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "21:16",
+          "rawValueJson": "0.886111111111111",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "M",
+          "rawValueJson": "\"M\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 10,
+          "displayText": "16",
+          "rawValueJson": "16",
+          "numberFormat": "0"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "2",
+          "rawValueJson": "\"2\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "04 February 2021",
+          "rawValueJson": "44231",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "17:37",
+          "rawValueJson": "0.734027777777778",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "19:37",
+          "rawValueJson": "0.817361111111111",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "G",
+          "rawValueJson": "\"G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 8,
+          "column": 9,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 10,
+          "displayText": "23",
+          "rawValueJson": "23",
+          "numberFormat": "0"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "5f1f0812-7407-4bb6-8486-63637d458000",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{290B54C4-16B9-4829-8FC0-0E4235F3F25D}",
+      "top": 3,
+      "left": 1,
+      "bottom": 132,
+      "right": 11
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{290B54C4-16B9-4829-8FC0-0E4235F3F25D}",
+          "top": 3,
+          "bottom": 132,
+          "left": 1,
+          "right": 11
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 129
+          }
+        ],
+        "headerNames": [
+          "\"YEAR\"",
+          "\"MONTH\"",
+          "\"DAY\"",
+          "\"DATE\"",
+          "\"GMT\"",
+          "\"GMT+2\"",
+          "\"MOON\"",
+          "\"EQUINOX\"",
+          "\"DAYS\"",
+          "\"DAY\"",
+          "\"MONTH\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "YEAR",
+            "rawValueJson": "\"YEAR\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "MONTH",
+            "rawValueJson": "\"MONTH\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "DAY",
+            "rawValueJson": "\"DAY\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "DATE",
+            "rawValueJson": "\"DATE\"",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "GMT",
+            "rawValueJson": "\"GMT\"",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "GMT+2",
+            "rawValueJson": "\"GMT+2\"",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "MOON",
+            "rawValueJson": "\"MOON\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "EQUINOX",
+            "rawValueJson": "\"EQUINOX\"",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 3,
+            "column": 9,
+            "displayText": "DAYS",
+            "rawValueJson": "\"DAYS\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 10,
+            "displayText": "DAY",
+            "rawValueJson": "\"DAY\"",
+            "numberFormat": "0"
+          },
+          {
+            "row": 3,
+            "column": 11,
+            "displayText": "MONTH",
+            "rawValueJson": "\"MONTH\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "6",
+            "rawValueJson": "6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "06 January 2021",
+            "rawValueJson": "44202",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "9:37",
+            "rawValueJson": "0.400694444444444",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "11:37",
+            "rawValueJson": "0.484027777777777",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "G",
+            "rawValueJson": "\"G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 4,
+            "column": 9,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "13",
+            "rawValueJson": "13",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "13 January 2021",
+            "rawValueJson": "44209",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "5:00",
+            "rawValueJson": "0.208333333333333",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "7:00",
+            "rawValueJson": "0.291666666666666",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "n",
+            "rawValueJson": "\"n\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 5,
+            "column": 9,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 10,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "20",
+            "rawValueJson": "20",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "20 January 2021",
+            "rawValueJson": "44216",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "21:02",
+            "rawValueJson": "0.876388888888889",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "23:02",
+            "rawValueJson": "0.959722222222222",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "T",
+            "rawValueJson": "\"T\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 6,
+            "column": 9,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 10,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "1",
+            "rawValueJson": "\"1\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "28",
+            "rawValueJson": "28",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "28 January 2021",
+            "rawValueJson": "44224",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "19:16",
+            "rawValueJson": "0.802777777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "21:16",
+            "rawValueJson": "0.886111111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "M",
+            "rawValueJson": "\"M\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 7,
+            "column": 9,
+            "displayText": "8",
+            "rawValueJson": "8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 10,
+            "displayText": "16",
+            "rawValueJson": "16",
+            "numberFormat": "0"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "2021",
+            "rawValueJson": "2021",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "2",
+            "rawValueJson": "\"2\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "4",
+            "rawValueJson": "4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "04 February 2021",
+            "rawValueJson": "44231",
+            "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "17:37",
+            "rawValueJson": "0.734027777777778",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "19:37",
+            "rawValueJson": "0.817361111111111",
+            "numberFormat": "h:mm;@"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "G",
+            "rawValueJson": "\"G\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "3/20/21 11:37",
+            "rawValueJson": "44275.4840277778",
+            "numberFormat": "m/d/yy h:mm;@"
+          },
+          {
+            "row": 8,
+            "column": 9,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 10,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "0"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9680851063829787,
+    "sheetName": "DATA",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "YEAR",
+          "rawValueJson": "\"YEAR\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "MONTH",
+          "rawValueJson": "\"MONTH\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "DAY",
+          "rawValueJson": "\"DAY\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "DATE",
+          "rawValueJson": "\"DATE\"",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "GMT",
+          "rawValueJson": "\"GMT\"",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "GMT+2",
+          "rawValueJson": "\"GMT+2\"",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "MOON",
+          "rawValueJson": "\"MOON\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "EQUINOX",
+          "rawValueJson": "\"EQUINOX\"",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "displayText": "DAYS",
+          "rawValueJson": "\"DAYS\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "displayText": "DAY",
+          "rawValueJson": "\"DAY\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "displayText": "MONTH",
+          "rawValueJson": "\"MONTH\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "6",
+          "rawValueJson": "6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "06 January 2021",
+          "rawValueJson": "44202",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "9:37",
+          "rawValueJson": "0.400694444444444",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "11:37",
+          "rawValueJson": "0.484027777777777",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "G",
+          "rawValueJson": "\"G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "13",
+          "rawValueJson": "13",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "13 January 2021",
+          "rawValueJson": "44209",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "5:00",
+          "rawValueJson": "0.208333333333333",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "7:00",
+          "rawValueJson": "0.291666666666666",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "n",
+          "rawValueJson": "\"n\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "20",
+          "rawValueJson": "20",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "20 January 2021",
+          "rawValueJson": "44216",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "21:02",
+          "rawValueJson": "0.876388888888889",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "23:02",
+          "rawValueJson": "0.959722222222222",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "T",
+          "rawValueJson": "\"T\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "0"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "1",
+          "rawValueJson": "\"1\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "28",
+          "rawValueJson": "28",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "displayText": "28 January 2021",
+          "rawValueJson": "44224",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "displayText": "19:16",
+          "rawValueJson": "0.802777777777778",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "21:16",
+          "rawValueJson": "0.886111111111111",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "M",
+          "rawValueJson": "\"M\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "displayText": "8",
+          "rawValueJson": "8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 10,
+          "displayText": "16",
+          "rawValueJson": "16",
+          "numberFormat": "0"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "2021",
+          "rawValueJson": "2021",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "2",
+          "rawValueJson": "\"2\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "4",
+          "rawValueJson": "4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "displayText": "04 February 2021",
+          "rawValueJson": "44231",
+          "numberFormat": "[$-en-ZA]dd mmmm yyyy;@"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "displayText": "17:37",
+          "rawValueJson": "0.734027777777778",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "19:37",
+          "rawValueJson": "0.817361111111111",
+          "numberFormat": "h:mm;@"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "G",
+          "rawValueJson": "\"G\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": "3/20/21 11:37",
+          "rawValueJson": "44275.4840277778",
+          "numberFormat": "m/d/yy h:mm;@"
+        },
+        {
+          "row": 8,
+          "column": 9,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 10,
+          "displayText": "23",
+          "rawValueJson": "23",
+          "numberFormat": "0"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "5939f2dc-bc2f-4ed2-80df-b738290faa8a",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

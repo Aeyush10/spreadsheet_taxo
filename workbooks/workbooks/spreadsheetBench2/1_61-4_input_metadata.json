@@ -1,0 +1,4399 @@
+[
+  {
+    "range": {
+      "worksheetId": "{E90528F1-CA64-4AA8-A47E-919A67EDF510}",
+      "top": 1,
+      "left": 1,
+      "bottom": 6,
+      "right": 7
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{E90528F1-CA64-4AA8-A47E-919A67EDF510}",
+          "top": 1,
+          "bottom": 6,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 5
+          }
+        ],
+        "headerNames": [
+          "\"DATE \"",
+          "\"Stock Name\"",
+          "\"OPENP* \"",
+          "\"HIGH \"",
+          "\"LOW \"",
+          "\"CLOSEP* \"",
+          "\"VOLUME\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "DATE ",
+            "rawValueJson": "\"DATE \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Stock Name",
+            "rawValueJson": "\"Stock Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "OPENP* ",
+            "rawValueJson": "\"OPENP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "HIGH ",
+            "rawValueJson": "\"HIGH \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "LOW ",
+            "rawValueJson": "\"LOW \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "CLOSEP* ",
+            "rawValueJson": "\"CLOSEP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "VOLUME",
+            "rawValueJson": "\"VOLUME\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "9/17/2023",
+            "rawValueJson": "45186",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "56.6",
+            "rawValueJson": "56.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "57.1",
+            "rawValueJson": "57.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "1521647",
+            "rawValueJson": "1521647",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "9/12/2023",
+            "rawValueJson": "45181",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "9/11/2023",
+            "rawValueJson": "45180",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "59.5",
+            "rawValueJson": "59.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "1234283",
+            "rawValueJson": "1234283",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "9/5/2023",
+            "rawValueJson": "45174",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "62.1",
+            "rawValueJson": "62.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "62.4",
+            "rawValueJson": "62.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "61.3",
+            "rawValueJson": "61.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "582,049",
+            "rawValueJson": "582049",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "9/4/2023",
+            "rawValueJson": "45173",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "62.8",
+            "rawValueJson": "62.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "63.2",
+            "rawValueJson": "63.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "61.4",
+            "rawValueJson": "61.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "61.8",
+            "rawValueJson": "61.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "478,620",
+            "rawValueJson": "478620",
+            "numberFormat": "#,##0"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{E90528F1-CA64-4AA8-A47E-919A67EDF510}",
+          "top": 1,
+          "bottom": 6,
+          "left": 1,
+          "right": 7
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 1,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "DATE ",
+            "rawValueJson": "\"DATE \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Stock Name",
+            "rawValueJson": "\"Stock Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "OPENP* ",
+            "rawValueJson": "\"OPENP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "HIGH ",
+            "rawValueJson": "\"HIGH \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "LOW ",
+            "rawValueJson": "\"LOW \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "CLOSEP* ",
+            "rawValueJson": "\"CLOSEP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "9/17/2023",
+            "rawValueJson": "45186",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "56.6",
+            "rawValueJson": "56.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "57.1",
+            "rawValueJson": "57.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "9/12/2023",
+            "rawValueJson": "45181",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "9/11/2023",
+            "rawValueJson": "45180",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "59.5",
+            "rawValueJson": "59.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "9/5/2023",
+            "rawValueJson": "45174",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "62.1",
+            "rawValueJson": "62.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "62.4",
+            "rawValueJson": "62.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "61.3",
+            "rawValueJson": "61.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "9/4/2023",
+            "rawValueJson": "45173",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "62.8",
+            "rawValueJson": "62.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "63.2",
+            "rawValueJson": "63.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "61.4",
+            "rawValueJson": "61.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "61.8",
+            "rawValueJson": "61.8",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "output",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "DATE ",
+          "rawValueJson": "\"DATE \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Stock Name",
+          "rawValueJson": "\"Stock Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "OPENP* ",
+          "rawValueJson": "\"OPENP* \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "HIGH ",
+          "rawValueJson": "\"HIGH \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "LOW ",
+          "rawValueJson": "\"LOW \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "CLOSEP* ",
+          "rawValueJson": "\"CLOSEP* \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "VOLUME",
+          "rawValueJson": "\"VOLUME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "9/17/2023",
+          "rawValueJson": "45186",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "59.6",
+          "rawValueJson": "59.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "59.6",
+          "rawValueJson": "59.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "56.6",
+          "rawValueJson": "56.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "57.1",
+          "rawValueJson": "57.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "1521647",
+          "rawValueJson": "1521647",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "9/12/2023",
+          "rawValueJson": "45181",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "59.7",
+          "rawValueJson": "59.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "9/11/2023",
+          "rawValueJson": "45180",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "61.9",
+          "rawValueJson": "61.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "61.9",
+          "rawValueJson": "61.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "59.5",
+          "rawValueJson": "59.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "59.7",
+          "rawValueJson": "59.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "1234283",
+          "rawValueJson": "1234283",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "9/5/2023",
+          "rawValueJson": "45174",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "62.1",
+          "rawValueJson": "62.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "62.4",
+          "rawValueJson": "62.4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "61.3",
+          "rawValueJson": "61.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "61.9",
+          "rawValueJson": "61.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "582,049",
+          "rawValueJson": "582049",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "9/4/2023",
+          "rawValueJson": "45173",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "62.8",
+          "rawValueJson": "62.8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "63.2",
+          "rawValueJson": "63.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "61.4",
+          "rawValueJson": "61.4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "61.8",
+          "rawValueJson": "61.8",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "478,620",
+          "rawValueJson": "478620",
+          "numberFormat": "#,##0"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "2aa8903f-c611-4486-b165-f5e4e2d62bc6",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{81E5598F-5BFF-4B79-8AD6-4E6A96F966DE}",
+      "top": 1,
+      "left": 1,
+      "bottom": 21,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{81E5598F-5BFF-4B79-8AD6-4E6A96F966DE}",
+          "top": 1,
+          "bottom": 21,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 20
+          }
+        ],
+        "headerNames": [
+          "\"DATE \"",
+          "\"Stock Name\"",
+          "\"OPENP* \"",
+          "\"HIGH \"",
+          "\"LOW \"",
+          "\"CLOSEP* \"",
+          "\"VOLUME\"",
+          "\"Change\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "DATE ",
+            "rawValueJson": "\"DATE \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Stock Name",
+            "rawValueJson": "\"Stock Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "OPENP* ",
+            "rawValueJson": "\"OPENP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "HIGH ",
+            "rawValueJson": "\"HIGH \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "LOW ",
+            "rawValueJson": "\"LOW \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "CLOSEP* ",
+            "rawValueJson": "\"CLOSEP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "VOLUME",
+            "rawValueJson": "\"VOLUME\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Change",
+            "rawValueJson": "\"Change\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "9/17/2023",
+            "rawValueJson": "45186",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "58",
+            "rawValueJson": "58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "58.5",
+            "rawValueJson": "58.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "56.6",
+            "rawValueJson": "56.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "57.1",
+            "rawValueJson": "57.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "554,558",
+            "rawValueJson": "554558",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": "-1.2",
+            "rawValueJson": "-1.199999999999996",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "9/14/2023",
+            "rawValueJson": "45183",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "58.4",
+            "rawValueJson": "58.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "59.5",
+            "rawValueJson": "59.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "58.1",
+            "rawValueJson": "58.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "58.3",
+            "rawValueJson": "58.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "327,685",
+            "rawValueJson": "327685",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": "-0.4",
+            "rawValueJson": "-0.400000000000006",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "9/13/2023",
+            "rawValueJson": "45182",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "58",
+            "rawValueJson": "58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "58.7",
+            "rawValueJson": "58.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "639,404",
+            "rawValueJson": "639404",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "-1",
+            "rawValueJson": "-1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "9/12/2023",
+            "rawValueJson": "45181",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "9/11/2023",
+            "rawValueJson": "45180",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "60.3",
+            "rawValueJson": "60.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "59.5",
+            "rawValueJson": "59.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "300,877",
+            "rawValueJson": "300877",
+            "numberFormat": "#,##0"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "-0.4",
+            "rawValueJson": "-0.399999999999999",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{81E5598F-5BFF-4B79-8AD6-4E6A96F966DE}",
+          "top": 1,
+          "bottom": 21,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 2,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 1
+              },
+              {
+                "top": 1,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 1
+              },
+              {
+                "top": 2,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 3,
+                "left": 1
+              },
+              {
+                "top": 3,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 4,
+                "left": 1
+              },
+              {
+                "top": 4,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 1
+              },
+              {
+                "top": 5,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 1
+              },
+              {
+                "top": 6,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 7,
+                "left": 1
+              },
+              {
+                "top": 7,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 8,
+                "left": 1
+              },
+              {
+                "top": 8,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 1
+              },
+              {
+                "top": 9,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 1
+              },
+              {
+                "top": 10,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 1
+              },
+              {
+                "top": 11,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 1
+              },
+              {
+                "top": 12,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 1
+              },
+              {
+                "top": 13,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 14,
+                "left": 1
+              },
+              {
+                "top": 14,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 1
+              },
+              {
+                "top": 15,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 1
+              },
+              {
+                "top": 16,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 17,
+                "left": 1
+              },
+              {
+                "top": 17,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 18,
+                "left": 1
+              },
+              {
+                "top": 18,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 19,
+                "left": 1
+              },
+              {
+                "top": 19,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 20,
+                "left": 1
+              },
+              {
+                "top": 20,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 21,
+                "left": 1
+              },
+              {
+                "top": 21,
+                "left": 2
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "DATE ",
+            "rawValueJson": "\"DATE \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Stock Name",
+            "rawValueJson": "\"Stock Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "OPENP* ",
+            "rawValueJson": "\"OPENP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "HIGH ",
+            "rawValueJson": "\"HIGH \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "LOW ",
+            "rawValueJson": "\"LOW \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "CLOSEP* ",
+            "rawValueJson": "\"CLOSEP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "9/17/2023",
+            "rawValueJson": "45186",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "58",
+            "rawValueJson": "58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "58.5",
+            "rawValueJson": "58.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "56.6",
+            "rawValueJson": "56.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "57.1",
+            "rawValueJson": "57.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "9/14/2023",
+            "rawValueJson": "45183",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "58.4",
+            "rawValueJson": "58.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "59.5",
+            "rawValueJson": "59.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "58.1",
+            "rawValueJson": "58.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "58.3",
+            "rawValueJson": "58.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "9/13/2023",
+            "rawValueJson": "45182",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "58",
+            "rawValueJson": "58",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "58.7",
+            "rawValueJson": "58.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "9/12/2023",
+            "rawValueJson": "45181",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "9/11/2023",
+            "rawValueJson": "45180",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "60",
+            "rawValueJson": "60",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "60.3",
+            "rawValueJson": "60.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "59.5",
+            "rawValueJson": "59.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "9/10/2023",
+            "rawValueJson": "45179",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "61",
+            "rawValueJson": "61",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 4,
+            "displayText": "61.4",
+            "rawValueJson": "61.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 5,
+            "displayText": "59.9",
+            "rawValueJson": "59.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "60.1",
+            "rawValueJson": "60.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "9/7/2023",
+            "rawValueJson": "45176",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 4,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 5,
+            "displayText": "60.7",
+            "rawValueJson": "60.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "61.1",
+            "rawValueJson": "61.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "9/5/2023",
+            "rawValueJson": "45174",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "62.1",
+            "rawValueJson": "62.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 4,
+            "displayText": "62.4",
+            "rawValueJson": "62.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 5,
+            "displayText": "61.3",
+            "rawValueJson": "61.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 1,
+            "displayText": "9/4/2023",
+            "rawValueJson": "45173",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 3,
+            "displayText": "62.8",
+            "rawValueJson": "62.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 4,
+            "displayText": "63.2",
+            "rawValueJson": "63.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 5,
+            "displayText": "61.4",
+            "rawValueJson": "61.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 6,
+            "displayText": "61.8",
+            "rawValueJson": "61.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 1,
+            "displayText": "9/3/2023",
+            "rawValueJson": "45172",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 11,
+            "column": 2,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 3,
+            "displayText": "62.6",
+            "rawValueJson": "62.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 4,
+            "displayText": "63",
+            "rawValueJson": "63",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 5,
+            "displayText": "61.8",
+            "rawValueJson": "61.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 6,
+            "displayText": "62.6",
+            "rawValueJson": "62.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 1,
+            "displayText": "9/17/2023",
+            "rawValueJson": "45186",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 12,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 3,
+            "displayText": "22.8",
+            "rawValueJson": "22.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 4,
+            "displayText": "24.2",
+            "rawValueJson": "24.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 5,
+            "displayText": "22.7",
+            "rawValueJson": "22.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 6,
+            "displayText": "23.5",
+            "rawValueJson": "23.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 1,
+            "displayText": "9/14/2023",
+            "rawValueJson": "45183",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 13,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 3,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 4,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 5,
+            "displayText": "22.8",
+            "rawValueJson": "22.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 6,
+            "displayText": "22.8",
+            "rawValueJson": "22.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "displayText": "9/13/2023",
+            "rawValueJson": "45182",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 14,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 3,
+            "displayText": "23.2",
+            "rawValueJson": "23.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 4,
+            "displayText": "23.3",
+            "rawValueJson": "23.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 5,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 14,
+            "column": 6,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 1,
+            "displayText": "9/12/2023",
+            "rawValueJson": "45181",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 15,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 3,
+            "displayText": "22.9",
+            "rawValueJson": "22.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 4,
+            "displayText": "23.3",
+            "rawValueJson": "23.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 5,
+            "displayText": "22.9",
+            "rawValueJson": "22.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 6,
+            "displayText": "23.2",
+            "rawValueJson": "23.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "displayText": "9/11/2023",
+            "rawValueJson": "45180",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 16,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 3,
+            "displayText": "23.2",
+            "rawValueJson": "23.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 4,
+            "displayText": "23.4",
+            "rawValueJson": "23.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 5,
+            "displayText": "22.9",
+            "rawValueJson": "22.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 6,
+            "displayText": "22.9",
+            "rawValueJson": "22.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 1,
+            "displayText": "9/10/2023",
+            "rawValueJson": "45179",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 17,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 3,
+            "displayText": "23.5",
+            "rawValueJson": "23.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 4,
+            "displayText": "23.8",
+            "rawValueJson": "23.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 5,
+            "displayText": "23",
+            "rawValueJson": "23",
+            "numberFormat": "General"
+          },
+          {
+            "row": 17,
+            "column": 6,
+            "displayText": "23.2",
+            "rawValueJson": "23.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 1,
+            "displayText": "9/7/2023",
+            "rawValueJson": "45176",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 18,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 3,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 4,
+            "displayText": "24.1",
+            "rawValueJson": "24.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 5,
+            "displayText": "23.4",
+            "rawValueJson": "23.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 18,
+            "column": 6,
+            "displayText": "23.5",
+            "rawValueJson": "23.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 1,
+            "displayText": "9/5/2023",
+            "rawValueJson": "45174",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 19,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 3,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 4,
+            "displayText": "24.2",
+            "rawValueJson": "24.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 5,
+            "displayText": "23.8",
+            "rawValueJson": "23.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 19,
+            "column": 6,
+            "displayText": "23.9",
+            "rawValueJson": "23.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 1,
+            "displayText": "9/4/2023",
+            "rawValueJson": "45173",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 20,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 3,
+            "displayText": "24.2",
+            "rawValueJson": "24.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 4,
+            "displayText": "24.3",
+            "rawValueJson": "24.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 5,
+            "displayText": "23.9",
+            "rawValueJson": "23.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 20,
+            "column": 6,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 1,
+            "displayText": "9/3/2023",
+            "rawValueJson": "45172",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 21,
+            "column": 2,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 3,
+            "displayText": "24.2",
+            "rawValueJson": "24.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 4,
+            "displayText": "24.6",
+            "rawValueJson": "24.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 5,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 6,
+            "displayText": "24.2",
+            "rawValueJson": "24.2",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9482758620689655,
+    "sheetName": "input",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "DATE ",
+          "rawValueJson": "\"DATE \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Stock Name",
+          "rawValueJson": "\"Stock Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "OPENP* ",
+          "rawValueJson": "\"OPENP* \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "HIGH ",
+          "rawValueJson": "\"HIGH \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "LOW ",
+          "rawValueJson": "\"LOW \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "CLOSEP* ",
+          "rawValueJson": "\"CLOSEP* \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "VOLUME",
+          "rawValueJson": "\"VOLUME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Change",
+          "rawValueJson": "\"Change\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "9/17/2023",
+          "rawValueJson": "45186",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "58",
+          "rawValueJson": "58",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "58.5",
+          "rawValueJson": "58.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "56.6",
+          "rawValueJson": "56.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "57.1",
+          "rawValueJson": "57.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "554,558",
+          "rawValueJson": "554558",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": "-1.2",
+          "rawValueJson": "-1.199999999999996",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "9/14/2023",
+          "rawValueJson": "45183",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "58.4",
+          "rawValueJson": "58.4",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "59.5",
+          "rawValueJson": "59.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "58.1",
+          "rawValueJson": "58.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "58.3",
+          "rawValueJson": "58.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "327,685",
+          "rawValueJson": "327685",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": "-0.4",
+          "rawValueJson": "-0.400000000000006",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "9/13/2023",
+          "rawValueJson": "45182",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "59.6",
+          "rawValueJson": "59.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "59.6",
+          "rawValueJson": "59.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "58",
+          "rawValueJson": "58",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "58.7",
+          "rawValueJson": "58.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "639,404",
+          "rawValueJson": "639404",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "-1",
+          "rawValueJson": "-1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "9/12/2023",
+          "rawValueJson": "45181",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "59.7",
+          "rawValueJson": "59.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "9/11/2023",
+          "rawValueJson": "45180",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "60",
+          "rawValueJson": "60",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "60.3",
+          "rawValueJson": "60.3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "59.5",
+          "rawValueJson": "59.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "59.7",
+          "rawValueJson": "59.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "300,877",
+          "rawValueJson": "300877",
+          "numberFormat": "#,##0"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "-0.4",
+          "rawValueJson": "-0.399999999999999",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "64a2b813-5c6a-406d-bae2-7a6e49091aa3",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{81E5598F-5BFF-4B79-8AD6-4E6A96F966DE}",
+      "top": 1,
+      "left": 11,
+      "bottom": 21,
+      "right": 17
+    },
+    "interpretations": [
+      {
+        "confidence": 0.75,
+        "location": {
+          "worksheetId": "{81E5598F-5BFF-4B79-8AD6-4E6A96F966DE}",
+          "top": 1,
+          "bottom": 21,
+          "left": 11,
+          "right": 17
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 8,
+            "end": 20
+          }
+        ],
+        "headerNames": [
+          "\"DATE \"",
+          "\"Stock Name\"",
+          "\"OPENP* \"",
+          "\"HIGH \"",
+          "\"LOW \"",
+          "\"CLOSEP* \"",
+          "\"VOLUME\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "DATE ",
+            "rawValueJson": "\"DATE \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "Stock Name",
+            "rawValueJson": "\"Stock Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "OPENP* ",
+            "rawValueJson": "\"OPENP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 14,
+            "displayText": "HIGH ",
+            "rawValueJson": "\"HIGH \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 15,
+            "displayText": "LOW ",
+            "rawValueJson": "\"LOW \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 16,
+            "displayText": "CLOSEP* ",
+            "rawValueJson": "\"CLOSEP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 17,
+            "displayText": "VOLUME",
+            "rawValueJson": "\"VOLUME\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "9/17/2023",
+            "rawValueJson": "45186",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 14,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 15,
+            "displayText": "56.6",
+            "rawValueJson": "56.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 16,
+            "displayText": "57.1",
+            "rawValueJson": "57.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 17,
+            "displayText": "1521647",
+            "rawValueJson": "1521647",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "9/12/2023",
+            "rawValueJson": "45181",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 14,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 15,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 16,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 17,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "9/11/2023",
+            "rawValueJson": "45180",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 14,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 15,
+            "displayText": "59.5",
+            "rawValueJson": "59.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 16,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 17,
+            "displayText": "1234283",
+            "rawValueJson": "1234283",
+            "numberFormat": "General"
+          }
+        ]
+      },
+      {
+        "confidence": 0.25,
+        "location": {
+          "worksheetId": "{81E5598F-5BFF-4B79-8AD6-4E6A96F966DE}",
+          "top": 1,
+          "bottom": 21,
+          "left": 11,
+          "right": 17
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 2,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [
+              {
+                "top": 1,
+                "left": 11
+              },
+              {
+                "top": 1,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 2,
+                "left": 11
+              },
+              {
+                "top": 2,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 5,
+                "left": 11
+              },
+              {
+                "top": 5,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 6,
+                "left": 11
+              },
+              {
+                "top": 6,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 9,
+                "left": 11
+              },
+              {
+                "top": 9,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 10,
+                "left": 11
+              },
+              {
+                "top": 10,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 11,
+                "left": 11
+              },
+              {
+                "top": 11,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 12,
+                "left": 11
+              },
+              {
+                "top": 12,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 13,
+                "left": 11
+              },
+              {
+                "top": 13,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 15,
+                "left": 11
+              },
+              {
+                "top": 15,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 16,
+                "left": 11
+              },
+              {
+                "top": 16,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [
+              {
+                "top": 21,
+                "left": 11
+              },
+              {
+                "top": 21,
+                "left": 12
+              }
+            ],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 11,
+            "displayText": "DATE ",
+            "rawValueJson": "\"DATE \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 12,
+            "displayText": "Stock Name",
+            "rawValueJson": "\"Stock Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "displayText": "OPENP* ",
+            "rawValueJson": "\"OPENP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 14,
+            "displayText": "HIGH ",
+            "rawValueJson": "\"HIGH \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 15,
+            "displayText": "LOW ",
+            "rawValueJson": "\"LOW \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 16,
+            "displayText": "CLOSEP* ",
+            "rawValueJson": "\"CLOSEP* \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 11,
+            "displayText": "9/17/2023",
+            "rawValueJson": "45186",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 12,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 13,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 14,
+            "displayText": "59.6",
+            "rawValueJson": "59.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 15,
+            "displayText": "56.6",
+            "rawValueJson": "56.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 16,
+            "displayText": "57.1",
+            "rawValueJson": "57.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 11,
+            "displayText": "9/12/2023",
+            "rawValueJson": "45181",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 12,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 13,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 14,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 15,
+            "displayText": "0",
+            "rawValueJson": "0",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 16,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 11,
+            "displayText": "9/11/2023",
+            "rawValueJson": "45180",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 12,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 13,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 14,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 15,
+            "displayText": "59.5",
+            "rawValueJson": "59.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 16,
+            "displayText": "59.7",
+            "rawValueJson": "59.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 11,
+            "displayText": "9/5/2023",
+            "rawValueJson": "45174",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 12,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 13,
+            "displayText": "62.1",
+            "rawValueJson": "62.1",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 14,
+            "displayText": "62.4",
+            "rawValueJson": "62.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 15,
+            "displayText": "61.3",
+            "rawValueJson": "61.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 16,
+            "displayText": "61.9",
+            "rawValueJson": "61.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 11,
+            "displayText": "9/4/2023",
+            "rawValueJson": "45173",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 10,
+            "column": 12,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 13,
+            "displayText": "62.8",
+            "rawValueJson": "62.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 14,
+            "displayText": "63.2",
+            "rawValueJson": "63.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 15,
+            "displayText": "61.4",
+            "rawValueJson": "61.4",
+            "numberFormat": "General"
+          },
+          {
+            "row": 10,
+            "column": 16,
+            "displayText": "61.8",
+            "rawValueJson": "61.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 11,
+            "displayText": "9/3/2023",
+            "rawValueJson": "45172",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 11,
+            "column": 12,
+            "displayText": "AAMRANET ",
+            "rawValueJson": "\"AAMRANET \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 13,
+            "displayText": "62.6",
+            "rawValueJson": "62.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 14,
+            "displayText": "63",
+            "rawValueJson": "63",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 15,
+            "displayText": "61.8",
+            "rawValueJson": "61.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 11,
+            "column": 16,
+            "displayText": "62.6",
+            "rawValueJson": "62.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 11,
+            "displayText": "9/17/2023",
+            "rawValueJson": "45186",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 12,
+            "column": 12,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 13,
+            "displayText": "22.8",
+            "rawValueJson": "22.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 14,
+            "displayText": "24.2",
+            "rawValueJson": "24.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 15,
+            "displayText": "22.7",
+            "rawValueJson": "22.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 12,
+            "column": 16,
+            "displayText": "23.5",
+            "rawValueJson": "23.5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 11,
+            "displayText": "9/14/2023",
+            "rawValueJson": "45183",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 13,
+            "column": 12,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 13,
+            "displayText": "23.2",
+            "rawValueJson": "23.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 14,
+            "displayText": "23.3",
+            "rawValueJson": "23.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 15,
+            "displayText": "22.8",
+            "rawValueJson": "22.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 13,
+            "column": 16,
+            "displayText": "22.8",
+            "rawValueJson": "22.8",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 11,
+            "displayText": "9/12/2023",
+            "rawValueJson": "45181",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 15,
+            "column": 12,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 13,
+            "displayText": "22.9",
+            "rawValueJson": "22.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 14,
+            "displayText": "23.3",
+            "rawValueJson": "23.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 15,
+            "displayText": "22.9",
+            "rawValueJson": "22.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 15,
+            "column": 16,
+            "displayText": "23.2",
+            "rawValueJson": "23.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 11,
+            "displayText": "9/11/2023",
+            "rawValueJson": "45180",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 16,
+            "column": 12,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 13,
+            "displayText": "24.2",
+            "rawValueJson": "24.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 14,
+            "displayText": "24.3",
+            "rawValueJson": "24.3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 15,
+            "displayText": "22.9",
+            "rawValueJson": "22.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 16,
+            "column": 16,
+            "displayText": "22.9",
+            "rawValueJson": "22.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 11,
+            "displayText": "9/3/2023",
+            "rawValueJson": "45172",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 21,
+            "column": 12,
+            "displayText": "ADVENT ",
+            "rawValueJson": "\"ADVENT \"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 13,
+            "displayText": "24.2",
+            "rawValueJson": "24.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 14,
+            "displayText": "24.6",
+            "rawValueJson": "24.6",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 15,
+            "displayText": "24",
+            "rawValueJson": "24",
+            "numberFormat": "General"
+          },
+          {
+            "row": 21,
+            "column": 16,
+            "displayText": "24.2",
+            "rawValueJson": "24.2",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.7678571428571429,
+    "sheetName": "input",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 11,
+          "displayText": "DATE ",
+          "rawValueJson": "\"DATE \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "displayText": "Stock Name",
+          "rawValueJson": "\"Stock Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 13,
+          "displayText": "OPENP* ",
+          "rawValueJson": "\"OPENP* \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 14,
+          "displayText": "HIGH ",
+          "rawValueJson": "\"HIGH \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 15,
+          "displayText": "LOW ",
+          "rawValueJson": "\"LOW \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 16,
+          "displayText": "CLOSEP* ",
+          "rawValueJson": "\"CLOSEP* \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 17,
+          "displayText": "VOLUME",
+          "rawValueJson": "\"VOLUME\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "displayText": "9/17/2023",
+          "rawValueJson": "45186",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 13,
+          "displayText": "59.6",
+          "rawValueJson": "59.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 14,
+          "displayText": "59.6",
+          "rawValueJson": "59.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 15,
+          "displayText": "56.6",
+          "rawValueJson": "56.6",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 16,
+          "displayText": "57.1",
+          "rawValueJson": "57.1",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 17,
+          "displayText": "1521647",
+          "rawValueJson": "1521647",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "displayText": "9/12/2023",
+          "rawValueJson": "45181",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 13,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 14,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 15,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 16,
+          "displayText": "59.7",
+          "rawValueJson": "59.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 17,
+          "displayText": "0",
+          "rawValueJson": "0",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "displayText": "9/11/2023",
+          "rawValueJson": "45180",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "displayText": "AAMRANET ",
+          "rawValueJson": "\"AAMRANET \"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 13,
+          "displayText": "61.9",
+          "rawValueJson": "61.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 14,
+          "displayText": "61.9",
+          "rawValueJson": "61.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 15,
+          "displayText": "59.5",
+          "rawValueJson": "59.5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 16,
+          "displayText": "59.7",
+          "rawValueJson": "59.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 17,
+          "displayText": "1234283",
+          "rawValueJson": "1234283",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "d99ad11c-7eca-41e1-8f75-30bbf029464c",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

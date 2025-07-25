@@ -1,0 +1,608 @@
+[
+  {
+    "range": {
+      "worksheetId": "{B6D200B1-4E46-4E74-9C74-ED00DD297A68}",
+      "top": 1,
+      "left": 1,
+      "bottom": 101,
+      "right": 6
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{B6D200B1-4E46-4E74-9C74-ED00DD297A68}",
+          "top": 1,
+          "bottom": 101,
+          "left": 1,
+          "right": 6
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"TransactionID\"",
+          "\"CustomerID\"",
+          "\"ProductID\"",
+          "\"Quantity\"",
+          "\"Total\"",
+          "\"TransactionTime\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "TransactionID",
+            "rawValueJson": "\"TransactionID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "CustomerID",
+            "rawValueJson": "\"CustomerID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "ProductID",
+            "rawValueJson": "\"ProductID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Quantity",
+            "rawValueJson": "\"Quantity\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Total",
+            "rawValueJson": "\"Total\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "TransactionTime",
+            "rawValueJson": "\"TransactionTime\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "T1000",
+            "rawValueJson": "\"T1000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "C005",
+            "rawValueJson": "\"C005\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "P1001",
+            "rawValueJson": "\"P1001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "2",
+            "rawValueJson": "2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "24.98",
+            "rawValueJson": "24.98",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "5/6/2025 22:27",
+            "rawValueJson": "45783.93565972222",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "T1001",
+            "rawValueJson": "\"T1001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "C007",
+            "rawValueJson": "\"C007\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "P1000",
+            "rawValueJson": "\"P1000\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "77.97",
+            "rawValueJson": "77.97",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "5/31/2025 10:06",
+            "rawValueJson": "45808.42089120371",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "T1002",
+            "rawValueJson": "\"T1002\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "C001",
+            "rawValueJson": "\"C001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "P1003",
+            "rawValueJson": "\"P1003\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "19.95",
+            "rawValueJson": "19.95",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "5/28/2025 11:38",
+            "rawValueJson": "45805.4849074074",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "T1003",
+            "rawValueJson": "\"T1003\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "C005",
+            "rawValueJson": "\"C005\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "P1004",
+            "rawValueJson": "\"P1004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "45",
+            "rawValueJson": "45",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "5/4/2025 12:05",
+            "rawValueJson": "45781.50387731481",
+            "numberFormat": "m/d/yyyy h:mm"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "T1004",
+            "rawValueJson": "\"T1004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "C001",
+            "rawValueJson": "\"C001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "P1001",
+            "rawValueJson": "\"P1001\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "3",
+            "rawValueJson": "3",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "37.47",
+            "rawValueJson": "37.47",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "5/19/2025 6:45",
+            "rawValueJson": "45796.2812962963",
+            "numberFormat": "m/d/yyyy h:mm"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table1",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "transactions",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "TransactionID",
+          "rawValueJson": "\"TransactionID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "CustomerID",
+          "rawValueJson": "\"CustomerID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "ProductID",
+          "rawValueJson": "\"ProductID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Quantity",
+          "rawValueJson": "\"Quantity\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Total",
+          "rawValueJson": "\"Total\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "TransactionTime",
+          "rawValueJson": "\"TransactionTime\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "T1000",
+          "rawValueJson": "\"T1000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "C005",
+          "rawValueJson": "\"C005\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "P1001",
+          "rawValueJson": "\"P1001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "2",
+          "rawValueJson": "2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "24.98",
+          "rawValueJson": "24.98",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "5/6/2025 22:27",
+          "rawValueJson": "45783.93565972222",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "T1001",
+          "rawValueJson": "\"T1001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "C007",
+          "rawValueJson": "\"C007\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "P1000",
+          "rawValueJson": "\"P1000\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "77.97",
+          "rawValueJson": "77.97",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "5/31/2025 10:06",
+          "rawValueJson": "45808.42089120371",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "T1002",
+          "rawValueJson": "\"T1002\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "C001",
+          "rawValueJson": "\"C001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "P1003",
+          "rawValueJson": "\"P1003\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "19.95",
+          "rawValueJson": "19.95",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "5/28/2025 11:38",
+          "rawValueJson": "45805.4849074074",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "T1003",
+          "rawValueJson": "\"T1003\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "C005",
+          "rawValueJson": "\"C005\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "P1004",
+          "rawValueJson": "\"P1004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "45",
+          "rawValueJson": "45",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "5/4/2025 12:05",
+          "rawValueJson": "45781.50387731481",
+          "numberFormat": "m/d/yyyy h:mm"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "T1004",
+          "rawValueJson": "\"T1004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "C001",
+          "rawValueJson": "\"C001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "P1001",
+          "rawValueJson": "\"P1001\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "3",
+          "rawValueJson": "3",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "37.47",
+          "rawValueJson": "37.47",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "5/19/2025 6:45",
+          "rawValueJson": "45796.2812962963",
+          "numberFormat": "m/d/yyyy h:mm"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "eee02b59-3f79-450d-8721-316a5f846cd4",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

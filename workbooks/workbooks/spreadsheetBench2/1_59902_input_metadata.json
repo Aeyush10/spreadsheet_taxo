@@ -1,0 +1,678 @@
+[
+  {
+    "range": {
+      "worksheetId": "{7D24AE21-93E5-4DB9-A8D8-2386E5A5F633}",
+      "top": 4,
+      "left": 1,
+      "bottom": 28,
+      "right": 3
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{7D24AE21-93E5-4DB9-A8D8-2386E5A5F633}",
+          "top": 4,
+          "bottom": 28,
+          "left": 1,
+          "right": 3
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 24
+          }
+        ],
+        "headerNames": [
+          "\"Date\"",
+          "\"Name\"",
+          "\"Days Since Sale\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Days Since Sale",
+            "rawValueJson": "\"Days Since Sale\"",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "8/29/2008",
+            "rawValueJson": "39689",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "Bob",
+            "rawValueJson": "\"Bob\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "#N/A",
+            "rawValueJson": "\"#N/A\"",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "8/29/2008",
+            "rawValueJson": "39689",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "Jane",
+            "rawValueJson": "\"Jane\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "#N/A",
+            "rawValueJson": "\"#N/A\"",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "displayText": "8/30/2008",
+            "rawValueJson": "39690",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 2,
+            "displayText": "Bob",
+            "rawValueJson": "\"Bob\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "0"
+          },
+          {
+            "row": 8,
+            "column": 1,
+            "displayText": "8/30/2008",
+            "rawValueJson": "39690",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 2,
+            "displayText": "Jane",
+            "rawValueJson": "\"Jane\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 3,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "0"
+          },
+          {
+            "row": 9,
+            "column": 1,
+            "displayText": "8/31/2008",
+            "rawValueJson": "39691",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 2,
+            "displayText": "Donald",
+            "rawValueJson": "\"Donald\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 3,
+            "displayText": "#N/A",
+            "rawValueJson": "\"#N/A\"",
+            "numberFormat": "0"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9642857142857143,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Days Since Sale",
+          "rawValueJson": "\"Days Since Sale\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "8/29/2008",
+          "rawValueJson": "39689",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "Bob",
+          "rawValueJson": "\"Bob\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "#N/A",
+          "rawValueJson": "\"#N/A\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "8/29/2008",
+          "rawValueJson": "39689",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "Jane",
+          "rawValueJson": "\"Jane\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "#N/A",
+          "rawValueJson": "\"#N/A\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "displayText": "8/30/2008",
+          "rawValueJson": "39690",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "displayText": "Bob",
+          "rawValueJson": "\"Bob\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "0"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "displayText": "8/30/2008",
+          "rawValueJson": "39690",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "displayText": "Jane",
+          "rawValueJson": "\"Jane\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "0"
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "displayText": "8/31/2008",
+          "rawValueJson": "39691",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "displayText": "Donald",
+          "rawValueJson": "\"Donald\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "displayText": "#N/A",
+          "rawValueJson": "\"#N/A\"",
+          "numberFormat": "0"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "afb3d683-4c5c-41ab-9a92-95e11ef97bc9",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  },
+  {
+    "range": {
+      "worksheetId": "{7D24AE21-93E5-4DB9-A8D8-2386E5A5F633}",
+      "top": 4,
+      "left": 6,
+      "bottom": 28,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{7D24AE21-93E5-4DB9-A8D8-2386E5A5F633}",
+          "top": 4,
+          "bottom": 28,
+          "left": 6,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 1,
+            "end": 24
+          }
+        ],
+        "headerNames": [
+          "\"Date\"",
+          "\"Name\"",
+          "\"Days Since Sale\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Date",
+            "rawValueJson": "\"Date\"",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "Name",
+            "rawValueJson": "\"Name\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": "Days Since Sale",
+            "rawValueJson": "\"Days Since Sale\"",
+            "numberFormat": "0"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "9/26/2008",
+            "rawValueJson": "39717",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "Donald",
+            "rawValueJson": "\"Donald\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": "5",
+            "rawValueJson": "5",
+            "numberFormat": "0"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "9/26/2008",
+            "rawValueJson": "39717",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "Jane",
+            "rawValueJson": "\"Jane\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": "7",
+            "rawValueJson": "7",
+            "numberFormat": "0"
+          },
+          {
+            "row": 7,
+            "column": 6,
+            "displayText": "9/21/2008",
+            "rawValueJson": "39712",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 7,
+            "column": 7,
+            "displayText": "Donald",
+            "rawValueJson": "\"Donald\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 7,
+            "column": 8,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "0"
+          },
+          {
+            "row": 8,
+            "column": 6,
+            "displayText": "9/21/2008",
+            "rawValueJson": "39712",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 8,
+            "column": 7,
+            "displayText": "Bob",
+            "rawValueJson": "\"Bob\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 8,
+            "column": 8,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "0"
+          },
+          {
+            "row": 9,
+            "column": 6,
+            "displayText": "9/20/2008",
+            "rawValueJson": "39711",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 9,
+            "column": 7,
+            "displayText": "Donald",
+            "rawValueJson": "\"Donald\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 9,
+            "column": 8,
+            "displayText": "1",
+            "rawValueJson": "1",
+            "numberFormat": "0"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.9821428571428571,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Date",
+          "rawValueJson": "\"Date\"",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "Name",
+          "rawValueJson": "\"Name\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": "Days Since Sale",
+          "rawValueJson": "\"Days Since Sale\"",
+          "numberFormat": "0"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "9/26/2008",
+          "rawValueJson": "39717",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "Donald",
+          "rawValueJson": "\"Donald\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": "5",
+          "rawValueJson": "5",
+          "numberFormat": "0"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "9/26/2008",
+          "rawValueJson": "39717",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "Jane",
+          "rawValueJson": "\"Jane\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": "7",
+          "rawValueJson": "7",
+          "numberFormat": "0"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "displayText": "9/21/2008",
+          "rawValueJson": "39712",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "displayText": "Donald",
+          "rawValueJson": "\"Donald\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "0"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "displayText": "9/21/2008",
+          "rawValueJson": "39712",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "displayText": "Bob",
+          "rawValueJson": "\"Bob\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "0"
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "displayText": "9/20/2008",
+          "rawValueJson": "39711",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 9,
+          "column": 7,
+          "displayText": "Donald",
+          "rawValueJson": "\"Donald\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 9,
+          "column": 8,
+          "displayText": "1",
+          "rawValueJson": "1",
+          "numberFormat": "0"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "a42aca4a-cc8b-4ec5-a0fc-bd2991b369ad",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

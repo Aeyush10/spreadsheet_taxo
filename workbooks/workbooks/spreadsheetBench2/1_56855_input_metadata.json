@@ -1,0 +1,131 @@
+[
+  {
+    "range": {
+      "worksheetId": "{BECFBEDD-B979-46C4-84DD-7A51B61D6944}",
+      "top": 3,
+      "left": 1,
+      "bottom": 4,
+      "right": 2
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{BECFBEDD-B979-46C4-84DD-7A51B61D6944}",
+          "top": 3,
+          "bottom": 4,
+          "left": 1,
+          "right": 2
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [],
+        "dataBlocks": [
+          {
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "sampleCellData": [
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "14:41\n16:47",
+            "rawValueJson": "\"14:41\\n16:47\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "0.0875",
+            "rawValueJson": "0.0874999999999999",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "14:41\n16:47\n",
+            "rawValueJson": "\"14:41\\n16:47\\n\"",
+            "numberFormat": "@"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "#VALUE!",
+            "rawValueJson": "\"#VALUE!\"",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.75,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "14:41\n16:47",
+          "rawValueJson": "\"14:41\\n16:47\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "0.0875",
+          "rawValueJson": "0.0874999999999999",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "14:41\n16:47\n",
+          "rawValueJson": "\"14:41\\n16:47\\n\"",
+          "numberFormat": "@"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "#VALUE!",
+          "rawValueJson": "\"#VALUE!\"",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "0cf2f133-609f-4eb5-a859-ad6fd4f03b3f",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

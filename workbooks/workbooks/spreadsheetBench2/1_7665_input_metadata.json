@@ -1,0 +1,130 @@
+[
+  {
+    "range": {
+      "worksheetId": "{4D826D31-0EE6-4250-BD4F-50AC9D8B6233}",
+      "top": 1,
+      "left": 17,
+      "bottom": 2,
+      "right": 19
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{4D826D31-0EE6-4250-BD4F-50AC9D8B6233}",
+          "top": 1,
+          "bottom": 2,
+          "left": 17,
+          "right": 19
+        },
+        "orientation": "rowMajor",
+        "headerRowCount": 0,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "aggregationLines": [],
+        "sectionLines": [
+          0
+        ],
+        "dataBlocks": [],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 17,
+            "displayText": "Number List",
+            "rawValueJson": "\"Number List\"",
+            "numberFormat": "0.0000"
+          },
+          {
+            "row": 2,
+            "column": 17,
+            "displayText": "11",
+            "rawValueJson": "11",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 18,
+            "displayText": "22",
+            "rawValueJson": "22",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 19,
+            "displayText": "33",
+            "rawValueJson": "33",
+            "numberFormat": "General"
+          }
+        ]
+      }
+    ],
+    "hasMergedcells": false,
+    "boundaryConfidence": 0.8,
+    "sheetName": "Sheet1",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "other",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 17,
+          "displayText": "Number List",
+          "rawValueJson": "\"Number List\"",
+          "numberFormat": "0.0000"
+        },
+        {
+          "row": 2,
+          "column": 17,
+          "displayText": "11",
+          "rawValueJson": "11",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 18,
+          "displayText": "22",
+          "rawValueJson": "22",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 19,
+          "displayText": "33",
+          "rawValueJson": "33",
+          "numberFormat": "General"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "97182f7c-f099-4b6f-afe6-1cca87451e12",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]

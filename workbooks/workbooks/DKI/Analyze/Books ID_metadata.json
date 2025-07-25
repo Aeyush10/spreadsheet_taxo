@@ -1,0 +1,790 @@
+[
+  {
+    "range": {
+      "worksheetId": "{565AF27A-1A77-4D23-922B-19232F80E453}",
+      "top": 1,
+      "left": 1,
+      "bottom": 93,
+      "right": 8
+    },
+    "interpretations": [
+      {
+        "confidence": 1,
+        "location": {
+          "worksheetId": "{565AF27A-1A77-4D23-922B-19232F80E453}",
+          "top": 1,
+          "bottom": 93,
+          "left": 1,
+          "right": 8
+        },
+        "orientation": "columnMajor",
+        "headerRowCount": 1,
+        "headerColumnCount": 0,
+        "fields": [
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "dimension",
+            "aggregations": [],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "average"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          },
+          {
+            "classification": "measure",
+            "aggregations": [
+              "sum"
+            ],
+            "headerReferences": [],
+            "isTextual": false
+          }
+        ],
+        "headerNames": [
+          "\"ID\"",
+          "\"Release Date\"",
+          "\"Author\"",
+          "\"Editor\"",
+          "\"Category\"",
+          "\"Publishing Branch\"",
+          "\"User Rating\"",
+          "\"Sales\""
+        ],
+        "sampleCellData": [
+          {
+            "row": 1,
+            "column": 1,
+            "displayText": "ID",
+            "rawValueJson": "\"ID\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "displayText": "Release Date",
+            "rawValueJson": "\"Release Date\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 3,
+            "displayText": "Author",
+            "rawValueJson": "\"Author\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 4,
+            "displayText": "Editor",
+            "rawValueJson": "\"Editor\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 5,
+            "displayText": "Category",
+            "rawValueJson": "\"Category\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 6,
+            "displayText": "Publishing Branch",
+            "rawValueJson": "\"Publishing Branch\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 7,
+            "displayText": "User Rating",
+            "rawValueJson": "\"User Rating\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 1,
+            "column": 8,
+            "displayText": "Sales",
+            "rawValueJson": "\"Sales\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "displayText": "AA_50009",
+            "rawValueJson": "\"AA_50009\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "displayText": "1/7/2023",
+            "rawValueJson": "44933",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 2,
+            "column": 3,
+            "displayText": "Brandon Stuart",
+            "rawValueJson": "\"Brandon Stuart\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 4,
+            "displayText": "Cora Thomas",
+            "rawValueJson": "\"Cora Thomas\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 5,
+            "displayText": "Children Books",
+            "rawValueJson": "\"Children Books\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 6,
+            "displayText": "Young",
+            "rawValueJson": "\"Young\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 7,
+            "displayText": "3.7",
+            "rawValueJson": "3.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 2,
+            "column": 8,
+            "displayText": " € 4,018,100.00 ",
+            "rawValueJson": "4018100",
+            "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "displayText": "AA_50008",
+            "rawValueJson": "\"AA_50008\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 2,
+            "displayText": "12/31/2022",
+            "rawValueJson": "44926",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "displayText": "Jamie Evans",
+            "rawValueJson": "\"Jamie Evans\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 4,
+            "displayText": "Riley Ramirez",
+            "rawValueJson": "\"Riley Ramirez\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 5,
+            "displayText": "Children Books",
+            "rawValueJson": "\"Children Books\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "displayText": "Original",
+            "rawValueJson": "\"Original\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 7,
+            "displayText": "4.7",
+            "rawValueJson": "4.7",
+            "numberFormat": "General"
+          },
+          {
+            "row": 3,
+            "column": 8,
+            "displayText": " € 3,808,900.00 ",
+            "rawValueJson": "3808900",
+            "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "displayText": "AA_50007",
+            "rawValueJson": "\"AA_50007\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 2,
+            "displayText": "12/16/2022",
+            "rawValueJson": "44911",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 4,
+            "column": 3,
+            "displayText": "Avery Howard",
+            "rawValueJson": "\"Avery Howard\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 4,
+            "displayText": "Sydney Mattos",
+            "rawValueJson": "\"Sydney Mattos\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 5,
+            "displayText": "Children Books",
+            "rawValueJson": "\"Children Books\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 6,
+            "displayText": "Original",
+            "rawValueJson": "\"Original\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 7,
+            "displayText": "4.9",
+            "rawValueJson": "4.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 4,
+            "column": 8,
+            "displayText": " € 3,715,400.00 ",
+            "rawValueJson": "3715400",
+            "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "displayText": "AA_50006",
+            "rawValueJson": "\"AA_50006\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 2,
+            "displayText": "12/15/2022",
+            "rawValueJson": "44910",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 5,
+            "column": 3,
+            "displayText": "Rory Nyuyen",
+            "rawValueJson": "\"Rory Nyuyen\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 4,
+            "displayText": "Miguel Reyes",
+            "rawValueJson": "\"Miguel Reyes\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 5,
+            "displayText": "Biography",
+            "rawValueJson": "\"Biography\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 6,
+            "displayText": "Exploratory",
+            "rawValueJson": "\"Exploratory\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 7,
+            "displayText": "4.2",
+            "rawValueJson": "4.2",
+            "numberFormat": "General"
+          },
+          {
+            "row": 5,
+            "column": 8,
+            "displayText": " € 2,946,100.00 ",
+            "rawValueJson": "2946100",
+            "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "displayText": "AA_50004",
+            "rawValueJson": "\"AA_50004\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 2,
+            "displayText": "12/9/2022",
+            "rawValueJson": "44904",
+            "numberFormat": "m/d/yyyy"
+          },
+          {
+            "row": 6,
+            "column": 3,
+            "displayText": "Oscar Ward",
+            "rawValueJson": "\"Oscar Ward\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 4,
+            "displayText": "Markus Long",
+            "rawValueJson": "\"Markus Long\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 5,
+            "displayText": "Crime Fiction",
+            "rawValueJson": "\"Crime Fiction\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 6,
+            "displayText": "Exploratory",
+            "rawValueJson": "\"Exploratory\"",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 7,
+            "displayText": "3.9",
+            "rawValueJson": "3.9",
+            "numberFormat": "General"
+          },
+          {
+            "row": 6,
+            "column": 8,
+            "displayText": " € 3,003,100.00 ",
+            "rawValueJson": "3003100",
+            "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+          }
+        ]
+      }
+    ],
+    "tableName": "Table154",
+    "hasMergedcells": false,
+    "boundaryConfidence": 1,
+    "sheetName": "Books ID",
+    "isDataSampled": false,
+    "primaryTable": {
+      "tableType": "columnMajorFlat",
+      "hasTotalRow": false,
+      "hasTotalColumn": false,
+      "sampleCells": [
+        {
+          "row": 1,
+          "column": 1,
+          "displayText": "ID",
+          "rawValueJson": "\"ID\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "displayText": "Release Date",
+          "rawValueJson": "\"Release Date\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "displayText": "Author",
+          "rawValueJson": "\"Author\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "displayText": "Editor",
+          "rawValueJson": "\"Editor\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "displayText": "Category",
+          "rawValueJson": "\"Category\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "displayText": "Publishing Branch",
+          "rawValueJson": "\"Publishing Branch\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "displayText": "User Rating",
+          "rawValueJson": "\"User Rating\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "displayText": "Sales",
+          "rawValueJson": "\"Sales\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "displayText": "AA_50009",
+          "rawValueJson": "\"AA_50009\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "displayText": "1/7/2023",
+          "rawValueJson": "44933",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "displayText": "Brandon Stuart",
+          "rawValueJson": "\"Brandon Stuart\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "displayText": "Cora Thomas",
+          "rawValueJson": "\"Cora Thomas\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "displayText": "Children Books",
+          "rawValueJson": "\"Children Books\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "displayText": "Young",
+          "rawValueJson": "\"Young\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "displayText": "3.7",
+          "rawValueJson": "3.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "displayText": " € 4,018,100.00 ",
+          "rawValueJson": "4018100",
+          "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "displayText": "AA_50008",
+          "rawValueJson": "\"AA_50008\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "displayText": "12/31/2022",
+          "rawValueJson": "44926",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "displayText": "Jamie Evans",
+          "rawValueJson": "\"Jamie Evans\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "displayText": "Riley Ramirez",
+          "rawValueJson": "\"Riley Ramirez\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "displayText": "Children Books",
+          "rawValueJson": "\"Children Books\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "displayText": "Original",
+          "rawValueJson": "\"Original\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "displayText": "4.7",
+          "rawValueJson": "4.7",
+          "numberFormat": "General"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "displayText": " € 3,808,900.00 ",
+          "rawValueJson": "3808900",
+          "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "displayText": "AA_50007",
+          "rawValueJson": "\"AA_50007\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "displayText": "12/16/2022",
+          "rawValueJson": "44911",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "displayText": "Avery Howard",
+          "rawValueJson": "\"Avery Howard\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "displayText": "Sydney Mattos",
+          "rawValueJson": "\"Sydney Mattos\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "displayText": "Children Books",
+          "rawValueJson": "\"Children Books\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "displayText": "Original",
+          "rawValueJson": "\"Original\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "displayText": "4.9",
+          "rawValueJson": "4.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "displayText": " € 3,715,400.00 ",
+          "rawValueJson": "3715400",
+          "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "displayText": "AA_50006",
+          "rawValueJson": "\"AA_50006\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "displayText": "12/15/2022",
+          "rawValueJson": "44910",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "displayText": "Rory Nyuyen",
+          "rawValueJson": "\"Rory Nyuyen\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "displayText": "Miguel Reyes",
+          "rawValueJson": "\"Miguel Reyes\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "displayText": "Biography",
+          "rawValueJson": "\"Biography\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "displayText": "Exploratory",
+          "rawValueJson": "\"Exploratory\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "displayText": "4.2",
+          "rawValueJson": "4.2",
+          "numberFormat": "General"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "displayText": " € 2,946,100.00 ",
+          "rawValueJson": "2946100",
+          "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "displayText": "AA_50004",
+          "rawValueJson": "\"AA_50004\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "displayText": "12/9/2022",
+          "rawValueJson": "44904",
+          "numberFormat": "m/d/yyyy"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "displayText": "Oscar Ward",
+          "rawValueJson": "\"Oscar Ward\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "displayText": "Markus Long",
+          "rawValueJson": "\"Markus Long\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "displayText": "Crime Fiction",
+          "rawValueJson": "\"Crime Fiction\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "displayText": "Exploratory",
+          "rawValueJson": "\"Exploratory\"",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "displayText": "3.9",
+          "rawValueJson": "3.9",
+          "numberFormat": "General"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "displayText": " € 3,003,100.00 ",
+          "rawValueJson": "3003100",
+          "numberFormat": "_([$€-x-euro2] * #,##0.00_);_([$€-x-euro2] * (#,##0.00);_([$€-x-euro2] * \"-\"??_);_(@_)"
+        }
+      ]
+    },
+    "sampledLines": null,
+    "samplingScheme": 0,
+    "H_": {
+      "T_": "AugLoop_ExcelTableAi_ExcelRecognizedTableNew",
+      "B_": [
+        "AugLoop_Excel_ExcelRangeWrapperAnnotation",
+        "AugLoop_Core_Annotation"
+      ]
+    },
+    "id": "3b04ddb6-204a-45d8-8275-3bb263d7a376",
+    "ownerId": "ExcelTableRecognitionReducer",
+    "M_": {
+      "state": 20
+    }
+  }
+]
