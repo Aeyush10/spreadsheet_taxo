@@ -4,6 +4,7 @@ Basic sample which shows how to call the LLM API using the llm-api-client librar
 
 import argparse
 import time
+import os
 
 from llm_api_client.llm_call import llm_call
 from llm_api_client.structured_processing.post_process import (
@@ -38,9 +39,9 @@ def run_variant(
     #     print("No questions found in questions.txt")
     #     return
 
-    print(f"\n{'='*60}")
-    print(f"Testing: Model={model}, Async={enable_async}")
-    print(f"{'='*60}")
+    # print(f"\n{'='*60}")
+    # print(f"Testing: Model={model}, Async={enable_async}")
+    # print(f"{'='*60}")
     
     # Write header to output file
     # output_file.write(f"\n{'='*60}\n")
@@ -87,9 +88,9 @@ def run_variant(
         enable_async=enable_async,
         sync_if_fewer_minutes_than=0,  # turn off dynamic use of sync mode to force async usage for the demo
     ):
-        print(f"\n--- Response for {result.metadata} ---")
-        print(f"Raw Response: {result.response['choices'][0]['message']['content']}")
-        print(f"Response Type: {type(result.response)}")
+        # print(f"\n--- Response for {result.metadata} ---")
+        print(f"Keywords: {result.response['choices'][0]['message']['content']}")
+        # print(f"Response Type: {type(result.response)}")
         
         # Write to output file
         # output_file.write(f"\n--- Response for {result.metadata} ---\n")
@@ -107,6 +108,9 @@ def run(
 ) -> None:
     # Open output file for writing
     # with open("outputs.txt", "w", encoding="utf-8") as output_file:
+    #create output file if it doesn't exist
+
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     with open(output_file, "a", encoding="utf-8") as output_file:
         #open in append mode
         # output_file.write("LLM API Testing Results\n")
@@ -124,6 +128,7 @@ def run(
         )
     
 def create_keywords(spreadsheet_name, spreadsheet_dir, output_folder):
+    print(f"Creating keywords for {spreadsheet_name}")
     run(
         data_file=f"{spreadsheet_dir}/sheetjson.json",
         output_file=f"{output_folder}/keywords.txt",

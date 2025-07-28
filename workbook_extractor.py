@@ -468,6 +468,7 @@ excel_files = list(Path(INPUT_FOLDER).glob("*.xlsx")) + list(Path(INPUT_FOLDER).
 
 for file in excel_files:
     file_name = str(file).split('\\')[-1]
+    print("Extracting from file:", file_name)
     # print(file_name)
     workbook_to_sheetjson(INPUT_FOLDER,file_name,OUTPUT_FOLDER)
     extract_images_from_excel(INPUT_FOLDER,file_name,OUTPUT_FOLDER)
