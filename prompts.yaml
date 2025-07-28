@@ -1,67 +1,77 @@
 {
-    "system": "You are a helpful assistant, working on a research project.
-This research analyses primary data to achieve the research aim by answering the following research questions. The primary aim of this study is to categorize spreadsheet workbooks into different themes or topics based on the contents of the workbook. 
-[theoretical_underpinning]. Based on this, this study follows a  constructivist inductive approach. 
+    "system": "You are a helpful assistant, working on a research project. \n
+This research analyses primary data to achieve the research aim by answering the following research questions. The primary aim of this study is to categorize spreadsheet workbooks into different themes or topics based on the contents of the workbook. \n
+[theoretical_underpinning]. Based on this, this study follows a  constructivist inductive approach. \n
 Research aim & objectives: [objective]
 Research question: [RQ]. 
 Context of the research: Data type: [data_type] 
 Philosophical underpinnings: [methodology] 
 Theoretical framework:  [theoretical_framework] 
 Example Data file: [data] 
-Prior to reading the data, please review the above background material to familiarize yourself with the research problem, research question and research methodology and context. I will ask you to undertake systematic thematic analysis involving: selection of keywords, development of codes, development of themes, and the conceptualization and development of a conceptual framework using the following six steps to systematic thematic analysis introduced by Naeem et al., (2023). [naeem_summary]. ",
+Prior to reading the data, please review the above background material to familiarize yourself with the research problem, research question and research methodology and context. I will ask you to undertake systematic thematic analysis involving: selection of keywords, development of codes, development of themes, and the conceptualization and development of a conceptual framework using the following six steps to systematic thematic analysis introduced by Naeem et al., (2023). [naeem_summary]. \n",
     "step2": 
-"Based on the systematic thematic analysis process introduced by Naeem et al. (2023) and the crucial role of keyword selection in systematic thematic analysis, please consider the following information to aid your selection of appropriate keywords. Please make sure that the keywords reflect the information in the spreadsheet and insights to directly answer the research question and understand the research phenomenon under study. Please utilize the 6 Rs framework Realness, Richness, Repetition, Rationale, Repartee and Regal - to guide your selection. Please consider the following information about the research in your selection of keywords. 
+"Based on the systematic thematic analysis process introduced by Naeem et al. (2023) and the crucial role of keyword selection in systematic thematic analysis, please consider the following information to aid your selection of appropriate keywords. Please make sure that the keywords reflect the information in the spreadsheet and insights to directly answer the research question and understand the research phenomenon under study. Please utilize the 6 Rs framework Realness, Richness, Repetition, Rationale, Repartee and Regal - to guide your selection. Please consider the following information about the research in your selection of keywords. \n
 Research question: [RQ] 
 Phenomenon under study: This research analyses spreadsheets used by end users. The objective of this research is to [objective]
  Data file: [data] 
-In selecting keywords, please ensure they: 
-• are meaningful and help to answer the research question, and 
-• act as analytical anchors, that is, they are helpful in building a narrative based on the spreadsheet's own data to answer the research question
+In selecting keywords, please ensure they: \n
+• are meaningful and help to answer the research question, and \n
+• act as analytical anchors, that is, they are helpful in building a narrative based on the spreadsheet's own data to answer the research question \n
 
 Your output should be in the form of a single line consisting of comma-separated keywords.",
     "step3": "
-We now moveto the third step: Coding. The aim of coding is to use one or more words to jointly represent a group of keywords and quotations to answer the research question. Please take an abductive approach to developing potential meaningful codes, while considering the following information and data set. These codes should reflect the essence of the information in the spreadsheets in a conceptual form. Codes should consist of a maximum of three words. Please ensure that the suggested codes: 
-• Contribute to answering the research question and are developed through consideration of keywords and all selected quotations. 
-•  Reflect the 6 Rs coding framework - robust (comprehensive to enable interpretation of the data), reflective (reflect the selected keywords and related quotations), resplendent (rich and conceptually powerful), relevant (related to the research), radical (new contribution), and righteous (ethical and contextually correct). 
-• Accommodate abductive reasoning by integrating data-driven insights and theoretical frameworks. 
+We now moveto the third step: Coding. The aim of coding is to use one or more words to jointly represent a group of keywords and quotations to answer the research question. Please take an abductive approach to developing potential meaningful codes, while considering the following information and data set. These codes should reflect the essence of the information in the spreadsheets in a conceptual form. Codes should consist of a maximum of three words. Please ensure that the suggested codes: \n
+• Contribute to answering the research question and are developed through consideration of keywords and all selected quotations. \n
+•  Reflect the 6 Rs coding framework - robust (comprehensive to enable interpretation of the data), reflective (reflect the selected keywords and related quotations), resplendent (rich and conceptually powerful), relevant (related to the research), radical (new contribution), and righteous (ethical and contextually correct). \n 
+• Accommodate abductive reasoning by integrating data-driven insights and theoretical frameworks. \n
 Data set segments: [data] 
 Identified keywords: [keywords] 
 Research question and aim: research question: [RQ], objective: [objective]
 
-Your output should be of the form:
-code1: keywords related to code 1 (comma-separated)
-code2: keywords related to code 2 (comma-separated)
+Your output should be of the form: \n
+code1: keywords related to code 1 (comma-separated) \n
+code2: keywords related to code 2 (comma-separated) \n
 and so on.
 ",
-"step4": "In the conceptualization step we aim to develop concepts based on our interpretation of themes, keywords and codes. The concepts should link with theory in the context of this research. Concepts should help answer the research questions. Please define each concept. The definitions should adhere to the principles of clarity, and cohere with the theoretical and philosophical context of this research. 
-To guide this process, please consider the following.
+"step4": "Theming is a process of clustering codes based on their relationship to one another, in that they either fully or partially answer the research question. Given a set of codes and a sample of the keywords used to make these codes, please suggest appropriate themes to answer the following research question and achieve research aim. Your theme development should be guided by the 4 Rs framework of theming: Reciprocal (connect the codes together in a meaningful unique way), Recognizable (reflect the actual data), Responsive (responsive to the research question and aim), Resourceful (rich to tell the story of the research). \n
+Make sure the themes are based on the following codes and the keywords they are based on, and they helpfully answer the research question and aim. \naeem_summary
+The proposed themes should be different from each other yet interconnected to answer the research aim. \n
+All suggested themes together need to reflect the data appropriately, in terms of theoretical and conceptual adequacy, and comprehensiveness in achieving the research aim. \n
+Use this information to create themes in your mind. \n
+• Identified codes: [codes].
+• Sample of keywords: [keywords].
+• Research objective and question: objective: [objective], research question: [RQ].
+• Theoretical underpinning: [theoretical_underpinning].
+
+Your output should be of the form: \n
+Theme 1 \n
+Related codes: ..... (comma-separated) \n
+\n
+Theme 2 \n
+Related codes: ...... (comma-separated) \n
+
+and so on.",
+"step5": "In the conceptualization step we aim to develop concepts based on our interpretation of themes, keywords and codes. The concepts should link with theory in the context of this research. Concepts should help answer the research questions. Please define each concept. The definitions should adhere to the principles of clarity, and cohere with the theoretical and philosophical context of this research. \n 
+To guide this process, please consider the following. \n
 • Research question: [RQ]
 • Theoretical underpinnings: [theoretical_underpinning]
 • Themes: [themes]
-Identified keywords and codes: keywords: [keywords], codes: [codes].
+Identified codes: [codes].
+Sample of identified keywords: [keywords]
 
-Your output should be of the form:
-Theme 1
-Related codes: ..... (comma-separated)
-
-Theme 2
-Related codes: ...... (comma-separated)
+Your output should be of the form: \n
+Concept 1 \n
+Concept 2 \n
 
 and so on.",
-"step5": "To the last step in the structured thematic analysis process described by Naeem et al. (2023), your goal is to synthesize the research findings into a conceptual model. Link these concepts with a figure or diagram that proposes a feasible solution to the following research problem we want to address. The conceptual model must also contribute to managerial practices and following theory. The proposed conceptual model should answer the following questions additionally you need to keep in mind what are the key concepts of existing theory and what are the new concept developed through this research? How are the newly developed concepts and the already existing theory? What makes these concepts closely related in the context of this research?
-As you formulate the conceptual framework, consider the following.
+"step6": "To the last step in the structured thematic analysis process described by Naeem et al. (2023), your goal is to synthesize the research findings into a conceptual model. Link these concepts with a figure or diagram that proposes a feasible solution to the following research problem we want to address. The conceptual model must also contribute to managerial practices and following theory. The proposed conceptual model should answer the following questions additionally you need to keep in mind what are the key concepts of existing theory and what are the new concept developed through this research? How are the newly developed concepts and the already existing theory? What makes these concepts closely related in the context of this research? \n
+As you formulate the conceptual framework, consider the following. \n
 • Research question and objectives: research question: [RQ], objective: [objective]
 • Theoretical underpinnings: [theoretical_underpinning]
-• Identified keywords, codes and themes: keywords : [keywords], codes: [codes], themes: [themes]
+• Identified keywords (sample), codes and themes: sample of keywords : [keywords], codes: [codes], themes: [themes]
 • Philosophical underpinnings: [methodology]
 • Theoretical framework:Theoretical Framework: [theoretical_framework]
 The conceptual model must build a story that explains why the findings
 are meaningful and how they work together to answer the research
-question.
-
-Your output should be of the form:
-
-Concept 1
-Concept 2
-and so on."
+question. \n"
 }

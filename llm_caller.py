@@ -19,8 +19,7 @@ def run_variant(
     scenario_guid: str, 
     enable_async: bool, 
     output_file,
-    keywords,
-    data
+    prompt,
 ) -> None:
     """
     Runs some prompts against the LLM API to demonstrate basic usage.
@@ -51,7 +50,6 @@ def run_variant(
 
     # For chat payloads, the primary part of the payload is "messages". This is a list of dictionaries. Each
     # dictionary contains a "role" and "content".
-    prompt = get_prompt("step3").replace("[keywords]", keywords).replace("[data]", data)
 
     payloads = [
         {
@@ -103,12 +101,11 @@ def run_variant(
 
 
 def run(
-    keywords,
-    data,
+    prompt,
     output_file: str,
     model: str = "gpt-4o-2024-05-13",
     # model: str = "gpt-45-preview",
-    scenario_guid: str = "4d89af25-54b8-414a-807a-0c9186ff7539",
+    scenario_guid: str = "fd004048-ba97-46c8-9b09-6f566bdcd2d7",
 ) -> None:
     # Open output file for writing
     # with open("outputs.txt", "w", encoding="utf-8") as output_file:
@@ -128,21 +125,59 @@ def run(
             scenario_guid=scenario_guid,
             enable_async=enable_async,
             output_file=output_file,
-            keywords=keywords,
-            data=data
+            prompt=prompt
         )
+
+def create_keywords(spreadsheet_name, spreadsheet_dir, output_folder):
+    data_file=f"{spreadsheet_dir}/sheetjson.json"
+    prompt = get_prompt("step2").replace("[data]", data_file)
+    run(
+        prompt=prompt,
+        output_file=f"{output_folder}/keywords.txt",
+    )
     
 def create_codes(keywords, data_sample, output_folder):
 
     #change keywords to a single string
-    keywords = "\n".join(keywords)
+    keywords = "\n".join(keywords) + "\n"
+    data_sample = data_sample + "\n"
+    prompt = get_prompt("step3").replace("[keywords]", keywords).replace("[data]", data_sample)
+    print(prompt)
     run(
-        keywords,
-        data_sample,
+        prompt=prompt,
         output_file=f"{output_folder}/codes.txt",
     )
     # print("\nAll outputs have been written to 'outputs.txt'")
 
+def create_themes(codes, keywords_sample, output_folder):
+    keywords_sample = "\n".join(keywords_sample) + "\n"
+    codes = "\n".join(codes) + "\n"
+    prompt = get_prompt("step4").replace("[codes]", codes).replace("[keywords]", keywords_sample)
+    run(
+        prompt=prompt,
+        output_file=f"{output_folder}/themes.txt",
+    )
+
+
+def create_concepts(themes, codes, keywords_sample, output_folder):
+    themes = "\n".join(themes) + "\n"
+    keywords_sample = "\n".join(keywords_sample) + "\n"
+    codes = "\n".join(codes) + "\n"
+    prompt = get_prompt("step5").replace("[codes]", codes).replace("[keywords]", keywords_sample).replace("[themes]", themes)
+    run(
+        prompt=prompt,
+        output_file=f"{output_folder}/concepts.txt",
+    )
+
+def create_conceptual_model(themes, codes, keywords_sample, output_folder):
+    themes = "\n".join(themes) + "\n"
+    keywords_sample = "\n".join(keywords_sample) + "\n"
+    codes = "\n".join(codes) + "\n"
+    prompt = get_prompt("step6").replace("[codes]", codes).replace("[keywords]", keywords_sample).replace("[themes]", themes)
+    run(
+        prompt=prompt,
+        output_file=f"{output_folder}/conceptual_model.txt",
+    )
 
 # def main() -> None:
 #     # set to scenario id onboarded to the async API

@@ -9,7 +9,10 @@ Set the ```INPUT_FOLDER``` and ```OUTPUT_FOLDER``` variables and run the file.
 
 ### Running qualitative analysis
 Use the ```main.py``` file to run qualitative analysis. This will run all steps of the analysis.
-Again, set the ```INPUT_FOLDER``` and ```OUTPUT_FOLDER``` variables before running the file.
+Again, set the ```INPUT_FOLDER``` and ```OUTPUT_FOLDER``` variables before running the file.  
+Further, based on which steps of the analysis you wish to run, you can set the ```RUN_STEP``` variables to True or False.  
+  
+To change details of the LLM call (model, chat/completions, etc.) you can modify the ```run``` and ```run_variant``` functions in the ```llm_caller.py``` file.
 
 ### Link to spreadsheets
 https://dev.azure.com/msrcambridge/CalcIntel/_git/orkney?path=%2Ftests%2Fworkbooks
@@ -18,4 +21,8 @@ https://dev.azure.com/msrcambridge/CalcIntel/_git/orkney?path=%2Ftests%2Fworkboo
 ## TODOs
 - Add support for the LLMs to use the chart/embedded image details by using a VLM
 - Add support to extract comments from workbooks
-- Add step 3-6 for qualitative analysis (based on step 2)
+
+## Open issues
+Too many keywords generated  
+Number of codes is too small  
+Should a keyword map to one or multiple codes? Similarly upstream
