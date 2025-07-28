@@ -25,4 +25,5 @@ https://dev.azure.com/msrcambridge/CalcIntel/_git/orkney?path=%2Ftests%2Fworkboo
 ## Open issues
 Too many keywords generated  
 Number of codes is too small  
-Should a keyword map to one or multiple codes? Similarly upstream
+Should a keyword map to one or multiple codes? Similarly upstream  
+Conceptual model is confusing  
