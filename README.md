@@ -3,6 +3,10 @@ Creating a taxonomy for spreadsheets from the ground up using LLMs.
 
 ## Usage
 
+### Prerequisites
+You must have the [substrate LLM API client](https://eng.ms/docs/experiences-devices/m365-core-msai/platform/substrate-intelligence/llm-api/llm-api-partner-docs/onboarding) installed   
+You must have the [sheetjson package](https://msdata.visualstudio.com/PROSE/_artifacts/feed/PROSE/connect) installed
+
 ### Workbook Extraction
 Use ```workbook_extraction.py```to extract details of the workbooks for the LLM to go through.   
 Set the ```INPUT_FOLDER``` and ```OUTPUT_FOLDER``` variables and run the file.
