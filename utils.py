@@ -1,6 +1,28 @@
 import yaml
 import re
 
+def get_max_tokens_for_step(step):
+    """
+    Returns appropriate max_tokens value based on the analysis step.
+    
+    Args:
+        step (str): The step identifier (e.g., 'step2', 'step3', etc.)
+    
+    Returns:
+        int: The maximum number of tokens for the given step
+    """
+    step_token_limits = {
+        'step2': 1000,   # Keywords: comma-separated list, should be concise
+        'step3': 2000,   # Codes: multiple codes with related keywords
+        'step4': 2000,   # Themes: themes with related codes
+        'step5': 3000,   # Concepts: concept definitions, more detailed
+        'step6': 4000,   # Conceptual model: comprehensive model description
+        'system': 500,   # System prompts should be short
+    }
+    
+    # Default to 2000 if step not found
+    return step_token_limits.get(step, 2000)
+
 def get_prompt(step):
     """
     Retrieves the prompt for a given step from the prompts.yaml file and fills in 

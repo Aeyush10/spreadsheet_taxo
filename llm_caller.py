@@ -11,7 +11,7 @@ from llm_api_client.structured_processing.post_process import (
     PassthroughResponseProcessorFactory,
 )
 from llm_api_client.structured_processing.prompt_data import PromptData, PromptSpec
-from utils import get_prompt
+from utils import get_prompt, get_max_tokens_for_step
 
 
 def run_variant(
@@ -20,6 +20,7 @@ def run_variant(
     enable_async: bool, 
     output_file,
     prompt,
+    step: str = "step2",
 ) -> None:
     """
     Runs some prompts against the LLM API to demonstrate basic usage.
@@ -62,7 +63,7 @@ def run_variant(
             ],
             "temperature": 0,
             "top_p": 1,
-            "max_tokens": 500,
+            "max_tokens": get_max_tokens_for_step(step),
             "presence_penalty": 0,
         }
     ]
@@ -106,6 +107,7 @@ def run(
     model: str = "gpt-4o-2024-05-13",
     # model: str = "gpt-45-preview",
     scenario_guid: str = "fd004048-ba97-46c8-9b09-6f566bdcd2d7",
+    step: str = "step2",
 ) -> None:
     # Open output file for writing
     # with open("outputs.txt", "w", encoding="utf-8") as output_file:
@@ -125,7 +127,8 @@ def run(
             scenario_guid=scenario_guid,
             enable_async=enable_async,
             output_file=output_file,
-            prompt=prompt
+            prompt=prompt,
+            step=step
         )
 
 def create_keywords(spreadsheet_name, spreadsheet_dir, output_folder):
@@ -134,6 +137,7 @@ def create_keywords(spreadsheet_name, spreadsheet_dir, output_folder):
     run(
         prompt=prompt,
         output_file=f"{output_folder}/keywords.txt",
+        step="step2",
     )
     
 def create_codes(keywords, data_sample, output_folder):
@@ -146,6 +150,7 @@ def create_codes(keywords, data_sample, output_folder):
     run(
         prompt=prompt,
         output_file=f"{output_folder}/codes.txt",
+        step="step3",
     )
     # print("\nAll outputs have been written to 'outputs.txt'")
 
@@ -156,6 +161,7 @@ def create_themes(codes, keywords_sample, output_folder):
     run(
         prompt=prompt,
         output_file=f"{output_folder}/themes.txt",
+        step="step4",
     )
 
 
@@ -167,6 +173,7 @@ def create_concepts(themes, codes, keywords_sample, output_folder):
     run(
         prompt=prompt,
         output_file=f"{output_folder}/concepts.txt",
+        step="step5",
     )
 
 def create_conceptual_model(themes, codes, keywords_sample, output_folder):
@@ -177,6 +184,7 @@ def create_conceptual_model(themes, codes, keywords_sample, output_folder):
     run(
         prompt=prompt,
         output_file=f"{output_folder}/conceptual_model.txt",
+        step="step6",
     )
 
 # def main() -> None:

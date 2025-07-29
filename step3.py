@@ -11,7 +11,7 @@ from llm_api_client.structured_processing.post_process import (
     PassthroughResponseProcessorFactory,
 )
 from llm_api_client.structured_processing.prompt_data import PromptData, PromptSpec
-from utils import get_prompt
+from utils import get_prompt, get_max_tokens_for_step
 
 
 def run_variant(
@@ -64,7 +64,7 @@ def run_variant(
             ],
             "temperature": 0,
             "top_p": 1,
-            "max_tokens": 500,
+            "max_tokens": get_max_tokens_for_step("step3"),
             "presence_penalty": 0,
         }
     ]
