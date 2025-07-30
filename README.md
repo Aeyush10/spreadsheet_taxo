@@ -80,6 +80,7 @@ python main.py
 - **"No such file or directory: 'keywords.txt'":** Enable `RUN_STEP2 = True` in `main.py` to generate keywords first.
 - **Empty output folders:** Check that your `INPUT_FOLDER` path is correct and contains .xlsx/.xls files.
 - **xlwings errors:** Ensure Microsoft Excel is installed (required for chart extraction).
+- **Excel external links dialog:** If script hangs with Excel security dialog about external links, the script now automatically handles this by setting `update_links=False` in chart extraction.
 - **Path issues:** Use raw strings (r"path") or forward slashes for file paths.
 
 ### Link to spreadsheets
