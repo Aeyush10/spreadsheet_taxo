@@ -434,7 +434,7 @@ def extract_chart_images(input_folder,input_filename, output_folder):
     """
     app = xw.App(visible=False)
     input_file_path = os.path.join(input_folder, input_filename)
-    wb  = app.books.open(input_file_path)
+    wb  = app.books.open(input_file_path, update_links=False)
     chart_output_dir = os.path.join(output_folder, input_filename.split('.')[0])
     os.makedirs(chart_output_dir, exist_ok=True)
     chart_output_dir = os.path.join(chart_output_dir, "charts")
